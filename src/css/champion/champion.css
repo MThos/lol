@@ -1,0 +1,255 @@
+.champion {
+  text-align: center;
+  text-transform: uppercase;
+  width: fit-content;
+}
+
+.champion a img {
+  border: 4px solid transparent;
+  border-radius: 10px;
+  filter: contrast(120%);
+  -webkit-filter: contrast(120%);
+  width: 120px;
+}
+
+.champion img:hover {
+  border: 4px solid #ffd468;
+  cursor: pointer;
+}
+
+.champion * {
+  display: block;
+}
+
+#champions {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1rem;
+  gap: 40px;
+  justify-content: space-evenly;
+  padding: 60px 25px 40px 25px;
+}
+
+#champion-abilities {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 40px 60px;
+}
+
+#champion-detail {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+.champion-heading {
+  font-family: 'Shadows Into Light', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.champion-heading-img {
+  width: 40px;
+  vertical-align: middle;
+  padding: 0 15px 5px 15px;
+  filter: contrast(120%);
+  -webkit-filter: contrast(120%);
+}
+
+#champion-img img {
+  border: 8px solid rgba(35, 35, 35, 1);
+  border-radius: 10px;
+  max-width: 500px;
+  margin: 25px 0;
+  filter: contrast(120%);
+  -webkit-filter: contrast(120%);
+}
+
+#champion-lore {
+  font-size: 1rem;
+  font-family: 'Inconsolata', sans-serif;
+  margin: 40px 60px;
+}
+
+#champion-lore-story {
+  padding-top: 10px;
+}
+
+#champion-name {
+  color: #ffd966;
+  font-size: 3rem;
+  font-family: 'Shadows Into Light', sans-serif;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+#champion-price {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  font-size: 1.2rem;
+  margin: 0 0 30px 0;
+}
+
+#champion-price-rp {
+  margin-left: 20px;
+}
+
+#champion-price-be-img {
+  margin-left: 1px
+}
+
+#champion-price-rp-img {
+  margin-left: 4px;
+}
+
+.champion-separator {
+  border-top: 8px solid rgba(35, 35, 35, 1);
+  border-radius: 5px;
+  margin: 0 auto;
+  width: 60%;
+}
+
+.champion-spell div {
+  padding: 5px 0;
+}
+
+.champion-spell-description {
+  margin: 15px 0;
+}
+
+.champion-spell-key {
+  color: #ffd966;
+  font-size: 1.2rem;
+}
+
+.champion-spell-name {
+  color: #ffd966;
+  font-family: 'Shadows Into Light', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+#champion-spells-title {
+  margin-bottom: 30px;
+}
+
+.champion-spell-img {
+  border: 6px solid black;
+  border-radius: 10px;
+  width: 60px;
+  vertical-align: middle;
+  filter: contrast(130%);
+  -webkit-filter: contrast(130%);
+}
+
+.champion-spells-row-top {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.champion-spells-row {
+  align-content: stretch;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.champion-spells-row div {
+  flex-basis: 33%;
+}
+
+.champion-spells-row span {
+  display: inline-block;
+  text-transform: lowercase;
+}
+
+.champion-spells-row span {
+  text-transform: capitalize;
+}
+
+#champion-title {
+  font-size: 1.2rem;
+  margin-top: -5px;
+}
+
+.champion-tag { 
+  text-transform: lowercase;
+}
+
+.champion-tag::first-letter { 
+  text-transform: capitalize;
+}
+
+#champion-tags {
+  font-size: 1rem;
+  margin: 15px 0;
+  text-align: center;
+}
+
+#champion-tags div {
+  padding-bottom: 3px;
+}
+
+#champion-tips {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  margin: 60px 60px;
+}
+
+.champion-tip {
+  flex-basis: 50%;
+}
+
+@media screen and (max-width: 1100px) {
+  #champion-lore {
+    font-size: 1.1rem;
+    margin: 40px 30px;
+  }
+  
+  .champion-mini-title {
+    font-size: 1.6rem;
+  }
+
+  #champion-tags {    
+    font-size: 1.2rem;
+  }
+
+  #champion-tips {
+    font-size: 1.1rem;
+    gap: 50px;
+    margin: 20px 30px;
+  }
+
+  .champion-tips-img {
+    width: 30px;
+  }
+
+  .champion-spell-name {
+    font-size: 1.8rem;
+  }
+
+  #champion-spells {
+    font-size: 1.1rem;
+    margin: 40px 30px;
+  }
+
+  .champion-spells-img {
+    width: 40px;
+  }
+}

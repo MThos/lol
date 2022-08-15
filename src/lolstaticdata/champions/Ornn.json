@@ -1,0 +1,1156 @@
+{
+  "id": 516,
+  "key": "Ornn",
+  "name": "Ornn",
+  "title": "The Fire Below the Mountain",
+  "fullName": "",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Ornn.png",
+  "resource": "MANA",
+  "attackType": "MELEE",
+  "adaptiveType": "PHYSICAL_DAMAGE",
+  "stats": {
+    "health": {
+      "flat": 660,
+      "percent": 0.0,
+      "perLevel": 109,
+      "percentPerLevel": 0.0
+    },
+    "healthRegen": {
+      "flat": 9,
+      "percent": 0.0,
+      "perLevel": 0.9,
+      "percentPerLevel": 0.0
+    },
+    "mana": {
+      "flat": 340.6,
+      "percent": 0.0,
+      "perLevel": 65,
+      "percentPerLevel": 0.0
+    },
+    "manaRegen": {
+      "flat": 8.01,
+      "percent": 0.0,
+      "perLevel": 0.6,
+      "percentPerLevel": 0.0
+    },
+    "armor": {
+      "flat": 33,
+      "percent": 0.0,
+      "perLevel": 5.2,
+      "percentPerLevel": 0.0
+    },
+    "magicResistance": {
+      "flat": 32,
+      "percent": 0.0,
+      "perLevel": 2.05,
+      "percentPerLevel": 0.0
+    },
+    "attackDamage": {
+      "flat": 69,
+      "percent": 0.0,
+      "perLevel": 3.5,
+      "percentPerLevel": 0.0
+    },
+    "movespeed": {
+      "flat": 335,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "acquisitionRadius": {
+      "flat": 600,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "selectionRadius": {
+      "flat": 125,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "pathingRadius": {
+      "flat": 25.7665996551513,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "gameplayRadius": {
+      "flat": 80,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "criticalStrikeDamage": {
+      "flat": 200,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "criticalStrikeDamageModifier": {
+      "flat": 1.0,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "attackSpeed": {
+      "flat": 0.625,
+      "percent": 0.0,
+      "perLevel": 2,
+      "percentPerLevel": 0.0
+    },
+    "attackSpeedRatio": {
+      "flat": 0.625,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "attackCastTime": {
+      "flat": 0.349999994039535,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "attackTotalTime": {
+      "flat": 1.60000002384185,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "attackDelayOffset": {
+      "flat": 0,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "attackRange": {
+      "flat": 175,
+      "percent": 0.0,
+      "perLevel": 0,
+      "percentPerLevel": 0.0
+    },
+    "aramDamageTaken": {
+      "flat": 1.05,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "aramDamageDealt": {
+      "flat": 0.9,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "aramHealing": {
+      "flat": 1.0,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "aramShielding": {
+      "flat": 1.0,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "urfDamageTaken": {
+      "flat": 0.95,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "urfDamageDealt": {
+      "flat": 1.05,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "urfHealing": {
+      "flat": 1.0,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "urfShielding": {
+      "flat": 1.0,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    }
+  },
+  "roles": [
+    "FIGHTER",
+    "TANK",
+    "VANGUARD"
+  ],
+  "attributeRatings": {
+    "damage": 1,
+    "toughness": 3,
+    "control": 3,
+    "mobility": 1,
+    "utility": 2,
+    "abilityReliance": 60,
+    "attack": 5,
+    "defense": 9,
+    "magic": 3,
+    "difficulty": 2
+  },
+  "abilities": {
+    "P": [
+      {
+        "name": "Living Forge",
+        "icon": "https://cdn.communitydragon.org/latest/champion/Ornn/ability-icon/p",
+        "effects": [
+          {
+            "description": "Innate: Ornn increases his bonus armor, bonus magic resistance and bonus health by 10% from all sources, further increased by 4% each time he upgrades a Mythic item into a Masterwork item.",
+            "leveling": []
+          },
+          {
+            "description": "Innate - Living Forge: Ornn can purchase non-consumable items from anywhere on the field by forging them himself, and is also presented a Forge Menu with his recommended items to select to be forged. Forging takes 4 seconds and the process is interrupted if Ornn takes damage from enemy champions or turrets, disabling Living Forge for a few seconds. Gold is only expended upon completing the forge.",
+            "leveling": []
+          },
+          {
+            "description": "Innate - Master Craftsman: When Ornn reaches level 13, the Mythic item he owns or purchases is upgraded for free. Additionally, for each level after 13 (levels 14, 15, 16 and 17, excluding 18), Ornn can upgrade one of an allied champion's Mythic item by selecting them within 600 range. Each Masterwork item has roughly 1000-worth of additional stats.\nMasterwork items:\nAssassin: Draktharr's Shadowcarver, Sandshrike's Claw, Syzygy.\nFighter: Ceaseless Hunger, Deicide, Dreamshatter, Infinity Force.\nMage: Caesura, Eternal Winter, Eye of Luden, Icathia's Curse, Liandry's Lament, Upgraded Aeropack, Vespertide.\nMarksman: Bloodward, Typhoon, Wyrmfallen Sacrifice.\nSupport: Equinox, Reliquary of the Golden Dawn, Seat of Command, Shurelya's Requiem, Starcaster.\nTank: Forgefire Crest, Rimeforged Grasp, Turbocharged Hexperiment.",
+            "leveling": []
+          },
+          {
+            "description": "Innate - Temper: Ornn's basic attacks against Brittle enemies knock them back a short distance.",
+            "leveling": []
+          },
+          {
+            "description": "Ornn's and allies' immobilizing effects against enemies afflicted by Brittle will consume the debuff to deal 10% − 18% (based on Ornn's level) of the target's maximum health as bonus magic damage, capped at 250 against monsters, and last 30% longer (if applicable).",
+            "leveling": []
+          }
+        ],
+        "cost": null,
+        "cooldown": null,
+        "targeting": "Passive",
+        "affects": "Allies",
+        "spellshieldable": "unknown",
+        "resource": null,
+        "damageType": "MAGIC_DAMAGE",
+        "spellEffects": "Proc",
+        "projectile": null,
+        "onHitEffects": null,
+        "occurrence": null,
+        "notes": "Items forged with Living Forge that grant health or mana items built in the field retain Ornn's previous health and mana percentage. Returning to base still brings health and mana items back to full.\nOrnn's basic attacks against  Brittle enemies will end the duration of the debuff on-hit prematurely even if the  knock back is not applied.\nHis basic attacks against  Brittle epic  monsters will still cause the debuff to be consumed and the bonus damage to be dealt, despite the  knock back not being applied against them.\nThe reduction in  Tenacity will benefit all applicable types of  crowd control, not just  immobilizes. The following do not consume Brittle but benefit from the reduction:  blinds,  cripples,  disarms,  grounding,  silences, and  slows.\nCrowd control effects that are unaffected by Tenacity do not benefit from the reduction at all, which are  airborne,  drowsy,  nearsight,  stasis, and  suppression.\nAlthough  airborne effects won't last 30% longer, if the spell simultaneously  stuns the target, this stun will be extended and persist past the airborne duration, for an overall increased crowd control duration.\n Ornn's  Searing Charge and  Call of the Forge God each apply both airborne and stun simultaneously for the same duration for this reason.\nLiving Forge's increase in bonus health  stacks multiplicatively with  Vigilant Wardstone's Blessing of Ixtal.\nIt is not required to rank  Bellows Breath in order to apply Brittle.\nThe bonus magic damage inflicted by Brittle is credited to Ornn.\nThe magic damage benefits from Ornn's  magic penetration.\nMastercraft items and their components are not the same item and so in theory any unnamed passives would stack and any unnamed actives would only put themselves on cooldown upon activated. This is however not true. Actives will always place their counterpart on cooldown.\n 𝐏𝐄𝐍𝐃𝐈𝐍𝐆 𝐅𝐎𝐑 𝐓𝐄𝐒𝐓 :  Spell shield interaction with Ornn's empowered attack against  Brittle targets.\nThe following table refers for interactions while Ornn is  channeling:\nAll of Ornn's actions are disabled during the first 0.5 seconds of the channel.\n\n\nType\n\nChannel\n\n\nAttacking\n\nInterrupts\n\n\nAbilities\n\nInterrupts\n\n\nMovement\n\nInterrupts\n\n\nItems\n\nUsable\n\nN/A\n\n\nDisabled\n\n Hextech Rocketbelt\n\n\nInterrupted by\n\nAll item-actives not specified above interrupt\n\n\nConsumables\n\nInterrupts\n\n\nSpells\n\nUsable\n\nN/A\n\n\nDisabled\n\nN/A\n\n\nInterrupted by\n\n Barrier  Clarity  Cleanse  Exhaust  Ghost  Heal  Ignite  Smite  Flash  Teleport  Recall  Hexflash  Mark  Dash\n\n\nInterrupted by\n\nDamaging effectsDeath Cast-inhibiting effects\n\nThe following table shows a list of all Masterwork items and the additional stats they provide compared to their non-upgraded version, as well as the gold value of these stats: (edit)\n\n\nItem\n\nBonus stats\n\nGold value\n\n\n Bloodward\n\n\n15 AD\n10% AS\n1% life steal\n\n 828.57\n\n\n Caesura\n\n\n20 AP\n5 AH\n200 mana\n100 health\n\n 1115\n\n\n Ceaseless Hunger\n\n\n15 AD\n150 health\n4% omnivamp\n5 AH\n\n 1217\n\n\n Deicide\n\n\n5 AH\n20 AD\n150 health\n\n 1233.33\n\n\n Draktharr's Shadowcarver\n\n\n15 AD\n5 AH\n8 lethality\n\n 891.56\n\n\n Dreamshatter\n\n\n5 AH\n10 AD\n10% AS\n100 health\n\n 1000\n\n\n Equinox\n\n\n5 AH\n10 armor\n10 MR\n200 health\n\n 1046.67\n\n\n Eternal Winter\n\n\n20 AP\n5 AH\n200 mana\n100 health\n\n 1115\n\n\n Eye of Luden\n\n\n20 AP\n5 AH\n200 mana\n4 mpen\n\n 972.78\n\n\n Forgefire Crest\n\n\n15 armor\n15 MR\n150 health\n5 AH\n\n 1103.33\n\n\n Icathia's Curse\n\n\n20 AP\n5 AH\n150 health\n1% omnivamp\n\n 1008\n\n\n Infinity Force\n\n\n5 AH\n10 AD\n10% AS\n100 health\n\n 1000\n\n\n Liandry's Lament\n\n\n30 AP\n5 AH\n200 mana\n\n 1065.83\n\n\n Reliquary of the Golden Dawn\n\n\n5 AH\n10 armor\n10 MR\n200 health\n\n 1046.67\n\n\n Rimeforged Grasp\n\n\n5 AH\n15 armor\n15 MR\n150 health\n\n 1103.33\n\n\n Sandshrike's Claw\n\n\n15 AD\n5 AH\n8 lethality\n\n 891.56\n\n\n Seat of Command\n\n\n5 AH\n30 AP\n100% MP5\n100 health\n\n 1552.5\n\n\n Shurelya's Requiem\n\n\n5 AH\n30 AP\n100% MP5\n100 health\n\n 1552.5\n\n\n Starcaster\n\n\n5 AH\n30 AP\n100% MP5\n100 health\n\n 1552.5\n\n\n Syzygy\n\n\n20 AD\n1% omnivamp\n8 lethality\n\n 972.89\n\n\n Turbocharged Hexperiment\n\n\n5 AH\n15 armor\n15 MR\n150 health\n\n 1103.33\n\n\n Typhoon\n\n\n20 AD\n15% AS\n\n 1075\n\n\n Upgraded Aeropack\n\n\n30 AP\n5 AH\n100 health\n4 mpen\n\n 1176.94\n\n\n Vespertide\n\n\n30 AP\n5 AH\n100 health\n\n 1052.5\n\n\n Wyrmfallen Sacrifice\n\n\n20 AD\n15% AS\n\n 1075",
+        "blurb": "Innate - Living Forge:  Ornn can  purchase items from anywhere by  channeling for a few seconds.",
+        "missileSpeed": null,
+        "rechargeRate": null,
+        "collisionRadius": null,
+        "tetherRadius": null,
+        "onTargetCdStatic": null,
+        "innerRadius": null,
+        "speed": null,
+        "width": null,
+        "angle": null,
+        "castTime": null,
+        "effectRadius": null,
+        "targetRange": null
+      }
+    ],
+    "Q": [
+      {
+        "name": "Volcanic Rupture",
+        "icon": "https://cdn.communitydragon.org/latest/champion/Ornn/ability-icon/q",
+        "effects": [
+          {
+            "description": "Active: Ornn sends a fissure in the target direction that deals physical damage to enemies hit and slows them by 40% for 2 seconds.",
+            "leveling": [
+              {
+                "attribute": "Physical Damage",
+                "modifiers": [
+                  {
+                    "values": [
+                      20,
+                      45,
+                      70,
+                      95,
+                      120
+                    ],
+                    "units": [
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "values": [
+                      110,
+                      110,
+                      110,
+                      110,
+                      110
+                    ],
+                    "units": [
+                      "% AD",
+                      "% AD",
+                      "% AD",
+                      "% AD",
+                      "% AD"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "description": "The fissure stops at maximum range or 200 units behind the first enemy champion struck. After 1.125-seconds, a magma pillar then erupts to knock aside enemies, though not through terrain, and linger as impassible terrain for 4 seconds.",
+            "leveling": []
+          },
+          {
+            "description": "The pillar will not expire while Ornn is charging.",
+            "leveling": []
+          }
+        ],
+        "cost": {
+          "modifiers": [
+            {
+              "values": [
+                45,
+                45,
+                45,
+                45,
+                45
+              ],
+              "units": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        "cooldown": {
+          "modifiers": [
+            {
+              "values": [
+                9,
+                8.5,
+                8,
+                7.5,
+                7
+              ],
+              "units": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "affectedByCdr": true
+        },
+        "targeting": "Direction",
+        "affects": "Enemies",
+        "spellshieldable": "special",
+        "resource": "MANA",
+        "damageType": "PHYSICAL_DAMAGE",
+        "spellEffects": "spellaoe",
+        "projectile": "TRUE",
+        "onHitEffects": null,
+        "occurrence": null,
+        "notes": "The fissure will move an 200 units beyond the first champion it hits, not exceeding the maximum range of the ability. It can still damage additional targets.\nIf launched in a wall, pillar will try to appear on the other side of the wall, if it cannot the pillar will be destroyed.\n Spell shield will not prevent the  knock aside from the magma pillar forming.\nThis ability will cast from wherever the caster is at the start of the cast time.",
+        "blurb": "Active:  Ornn sends a fissure in the target direction that deals physical damage and  slows enemies hit for a short time.",
+        "missileSpeed": null,
+        "rechargeRate": null,
+        "collisionRadius": null,
+        "tetherRadius": null,
+        "onTargetCdStatic": null,
+        "innerRadius": null,
+        "speed": "1800",
+        "width": "130",
+        "angle": null,
+        "castTime": "0.25",
+        "effectRadius": null,
+        "targetRange": "750"
+      }
+    ],
+    "W": [
+      {
+        "name": "Bellows Breath",
+        "icon": "https://cdn.communitydragon.org/latest/champion/Ornn/ability-icon/w",
+        "effects": [
+          {
+            "description": "Active: Ornn marches in the target direction for 0.75 seconds, gaining displacement immunity, becoming unable to act, and reducing his movement speed by 35% for the duration.",
+            "leveling": []
+          },
+          {
+            "description": "Over the march he belches fire over a cone in front of him, dealing magic damage every 0.15 seconds to enemies hit. The final gout of flame will apply Brittle for 3 seconds.",
+            "leveling": [
+              {
+                "attribute": "Total Magic Damage",
+                "modifiers": [
+                  {
+                    "values": [
+                      12,
+                      13,
+                      14,
+                      15,
+                      16
+                    ],
+                    "units": [
+                      "% of target's maximum health",
+                      "% of target's maximum health",
+                      "% of target's maximum health",
+                      "% of target's maximum health",
+                      "% of target's maximum health"
+                    ]
+                  }
+                ]
+              },
+              {
+                "attribute": "Magic Damage Per Tick",
+                "modifiers": [
+                  {
+                    "values": [
+                      2.4,
+                      2.6,
+                      2.8,
+                      3,
+                      3.2
+                    ],
+                    "units": [
+                      "% of target's maximum health",
+                      "% of target's maximum health",
+                      "% of target's maximum health",
+                      "% of target's maximum health",
+                      "% of target's maximum health"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "description": "Bellows Breath has a minimum damage threshold, which is also the damage dealt to minions. Monsters take modified damage as well.",
+            "leveling": [
+              {
+                "attribute": "Total Minimum/Minion Damage",
+                "modifiers": [
+                  {
+                    "values": [
+                      80,
+                      130,
+                      180,
+                      230,
+                      280
+                    ],
+                    "units": [
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ]
+                  }
+                ]
+              },
+              {
+                "attribute": "Minimum/Minion Damage Per Instance",
+                "modifiers": [
+                  {
+                    "values": [
+                      16,
+                      26,
+                      36,
+                      46,
+                      56
+                    ],
+                    "units": [
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ]
+                  }
+                ]
+              },
+              {
+                "attribute": "Total Monster Damage",
+                "modifiers": [
+                  {
+                    "values": [
+                      155,
+                      180,
+                      205,
+                      230,
+                      255
+                    ],
+                    "units": [
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ]
+                  }
+                ]
+              },
+              {
+                "attribute": "Monster Damage Per Instance",
+                "modifiers": [
+                  {
+                    "values": [
+                      31,
+                      36,
+                      41,
+                      46,
+                      51
+                    ],
+                    "units": [
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "cost": {
+          "modifiers": [
+            {
+              "values": [
+                45,
+                50,
+                55,
+                60,
+                65
+              ],
+              "units": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        "cooldown": {
+          "modifiers": [
+            {
+              "values": [
+                12,
+                11.5,
+                11,
+                10.5,
+                10
+              ],
+              "units": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "affectedByCdr": true
+        },
+        "targeting": "Direction",
+        "affects": "Self / Enemies",
+        "spellshieldable": "Special",
+        "resource": "MANA",
+        "damageType": "MAGIC_DAMAGE",
+        "spellEffects": "aoe",
+        "projectile": "FALSE",
+        "onHitEffects": null,
+        "occurrence": null,
+        "notes": "Spell shield will negate the final instance of damage and prevents  Brittle from being applied.\nOrnn can see the on-target VFX on targets that are being struck even while they are in the fog of war.\nOrnn places himself onto the ground and interrupts  displacements affecting him upon casting Bellow's Breath.\nThe following table refers for interactions while Ornn is performing Bellows Breath:\n\n\nAttacking\n\nDisabled\n\n\nAbilities\n\nDisabled\n\n\nMovement\n\nDisabled\n\n\nItems\n\nUsable\n\nN/A\n\n\nDisabled\n\nAll items are disabled\n\n\nInterrupted by\n\nN/A\n\n\nConsumables\n\nDisabled\n\n\nSpells\n\nUsable\n\n Barrier  Clarity  Cleanse  Exhaust  Ghost  Heal  Ignite  Smite\n\n\nDisabled\n\n Flash  Teleport  Recall  Hexflash\n\n\nInterrupted by\n\nN/A\n\n\nInterrupted by\n\nDeath",
+        "blurb": "Active:  Ornn marches in the target direction with  displacement immunity, belching fire in a cone that continually deals magic damage for a brief time. The final gout of flame will apply  Brittle for a short time.",
+        "missileSpeed": null,
+        "rechargeRate": null,
+        "collisionRadius": null,
+        "tetherRadius": null,
+        "onTargetCdStatic": null,
+        "innerRadius": null,
+        "speed": null,
+        "width": null,
+        "angle": null,
+        "castTime": "none",
+        "effectRadius": "175",
+        "targetRange": "500"
+      }
+    ],
+    "E": [
+      {
+        "name": "Searing Charge",
+        "icon": "https://cdn.communitydragon.org/latest/champion/Ornn/ability-icon/e",
+        "effects": [
+          {
+            "description": "Active: Ornn charges in the target direction, dealing physical damage to enemies he passes through, stopping upon colliding with terrain.",
+            "leveling": [
+              {
+                "attribute": "Physical Damage",
+                "modifiers": [
+                  {
+                    "values": [
+                      80,
+                      125,
+                      170,
+                      215,
+                      260
+                    ],
+                    "units": [
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "values": [
+                      40,
+                      40,
+                      40,
+                      40,
+                      40
+                    ],
+                    "units": [
+                      "% bonus armor",
+                      "% bonus armor",
+                      "% bonus armor",
+                      "% bonus armor",
+                      "% bonus armor"
+                    ]
+                  },
+                  {
+                    "values": [
+                      40,
+                      40,
+                      40,
+                      40,
+                      40
+                    ],
+                    "units": [
+                      "% bonus magic resistance",
+                      "% bonus magic resistance",
+                      "% bonus magic resistance",
+                      "% bonus magic resistance",
+                      "% bonus magic resistance"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "description": "If Ornn collides with terrain during the charge, he creates a shockwave that knocks up nearby enemies, stuns them for 1.25 seconds, and deals damage to them if they weren't already hit during the charge.",
+            "leveling": []
+          },
+          {
+            "description": "The shockwave destructs the pillar formed by Volcanic Rupture and partially destroys terrain created by enemy champions.",
+            "leveling": []
+          }
+        ],
+        "cost": {
+          "modifiers": [
+            {
+              "values": [
+                35,
+                40,
+                45,
+                50,
+                55
+              ],
+              "units": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        "cooldown": {
+          "modifiers": [
+            {
+              "values": [
+                16,
+                15,
+                14,
+                13,
+                12
+              ],
+              "units": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "affectedByCdr": true
+        },
+        "targeting": "Direction",
+        "affects": "Enemies",
+        "spellshieldable": "True",
+        "resource": "MANA",
+        "damageType": "PHYSICAL_DAMAGE",
+        "spellEffects": "Area of effect",
+        "projectile": null,
+        "onHitEffects": null,
+        "occurrence": null,
+        "notes": "Spell shields may only block one instance of damage.\n Brittle enemies without  Tenacity of their own will be  stunned for a total of 1.625 seconds.\nSearing Charge can interact with player-generated terrain.\nOrnn will not  dash after the cast time if he is  airborne or  resurrecting.\n Displacement immunity will also resist the application of the  stun.\n\n\nType\n\nCast time\n\n\nAttacking\n\nDisabled\n\n\nAbilities\n\nDisabled\n\n\nMovement\n\nDisabled\n\n\nItems\n\nUsable\n\nN/A\n\n\nDisabled\n\nAll items are disabled\n\n\nInterrupted by\n\nN/A\n\n\nConsumables\n\nDisabled\n\n\nSpells\n\nUsable\n\n Barrier  Clarity  Cleanse  Exhaust  Ghost  Heal  Ignite  Smite\n\n\nDisabled\n\n Flash  Teleport  Recall  Hexflash\n\n\nInterrupted by\n\nN/A\n\n\nInterrupted by\n\nDeath, unless protected by  Resurrection",
+        "blurb": "Active:  Ornn charges in the target direction, dealing physical damage to enemies he passes through.",
+        "missileSpeed": null,
+        "rechargeRate": null,
+        "collisionRadius": null,
+        "tetherRadius": null,
+        "onTargetCdStatic": null,
+        "innerRadius": null,
+        "speed": "1600",
+        "width": null,
+        "angle": null,
+        "castTime": "0.35",
+        "effectRadius": "360 / 150",
+        "targetRange": "800 / 650"
+      }
+    ],
+    "R": [
+      {
+        "name": "Call of the Forge God",
+        "icon": "https://cdn.communitydragon.org/latest/champion/Ornn/ability-icon/r",
+        "effects": [
+          {
+            "description": "Active: Ornn sounds his horn over the cast time, summoning a lava elemental at maximum range from the target direction that stampedes towards his casting position at increasing speed. The elemental deals magic damage to enemies it passes through and slows them for 2 seconds, with the slow scaling with the distance travelled, down to a minimum of 10%.",
+            "leveling": [
+              {
+                "attribute": "Magic Damage",
+                "modifiers": [
+                  {
+                    "values": [
+                      125,
+                      175,
+                      225
+                    ],
+                    "units": [
+                      "",
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "values": [
+                      20,
+                      20,
+                      20
+                    ],
+                    "units": [
+                      "% AP",
+                      "% AP",
+                      "% AP"
+                    ]
+                  }
+                ]
+              },
+              {
+                "attribute": "Total Magic Damage",
+                "modifiers": [
+                  {
+                    "values": [
+                      250,
+                      350,
+                      450
+                    ],
+                    "units": [
+                      "",
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "values": [
+                      40,
+                      40,
+                      40
+                    ],
+                    "units": [
+                      "% AP",
+                      "% AP",
+                      "% AP"
+                    ]
+                  }
+                ]
+              },
+              {
+                "attribute": "Maximum Slow",
+                "modifiers": [
+                  {
+                    "values": [
+                      40,
+                      60,
+                      80
+                    ],
+                    "units": [
+                      "%",
+                      "%",
+                      "%"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "description": "Call of the Forge God can be recast after 1.25 seconds while the elemental is active.",
+            "leveling": []
+          },
+          {
+            "description": "Recast: Ornn dashes in the target direction, though not through terrain. If Ornn collides with the elemental, he sends it stampeding in the new direction. The elemental deals the same damage to enemies it passes through, knocks them up and stuns them for 1 second, reduced to 0.5 seconds after the first enemy champion hit.",
+            "leveling": []
+          },
+          {
+            "description": "Each pass applies Brittle to targets for 3 seconds and can affect enemies only once. The elemental briefly grants sight around its trajectory as it travels.",
+            "leveling": []
+          }
+        ],
+        "cost": {
+          "modifiers": [
+            {
+              "values": [
+                100,
+                100,
+                100
+              ],
+              "units": [
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        "cooldown": {
+          "modifiers": [
+            {
+              "values": [
+                140,
+                120,
+                100
+              ],
+              "units": [
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "affectedByCdr": true
+        },
+        "targeting": "Direction",
+        "affects": "Enemies / Elemental",
+        "spellshieldable": "Special",
+        "resource": "MANA",
+        "damageType": "MAGIC_DAMAGE",
+        "spellEffects": "spellaoe",
+        "projectile": "TRUE",
+        "onHitEffects": null,
+        "occurrence": null,
+        "notes": "Both casts count as ability activations for the purposes of on-cast effects such as  Spellblade and stacking  Force Pulse.\nDespite this, the effects of both casts count as the same cast instance.\nCall of the Forge God cannot be recast while  grounded or  rooted.\n Brittle enemies without  Tenacity of their own will be  stunned for a total of 1.3 seconds.\n Spell shields may only block one pass.\nThis ability will cast from wherever the caster is at the start of the cast time.\n Displacement immunity will also resist the application of the  stun.\n\n\nType\n\nCast time\n\n\nAttacking\n\nDisabled\n\n\nAbilities\n\nDisabled\n\n\nMovement\n\nDisabled\n\n\nItems\n\nUsable\n\n Shurelya's Battlesong  Turbo Chemtank  Youmuu's Ghostblade  Gargoyle Stoneplate  Randuin's Omen\n\n\nDisabled\n\nAll the other item-actives are disabled\n\n\nInterrupted by\n\nN/A\n\n\nConsumables\n\nUsable\n\n\nSpells\n\nUsable\n\n Barrier  Clarity  Cleanse  Exhaust  Ghost  Heal  Ignite  Smite  Flash\n\n\nDisabled\n\n Teleport  Recall  Hexflash\n\n\nInterrupted by\n\nN/A\n\n\nInterrupted by\n\nDeath, unless protected by  Resurrection",
+        "blurb": "Active:  Ornn summons a lava elemental that stampedes toward him, dealing magic damage and  slowing enemies hit for a short time. Call of the Forge God can be recast while the elemental is active.",
+        "missileSpeed": null,
+        "rechargeRate": null,
+        "collisionRadius": null,
+        "tetherRadius": null,
+        "onTargetCdStatic": null,
+        "innerRadius": null,
+        "speed": "1200 / 100",
+        "width": "340",
+        "angle": null,
+        "castTime": "0.5",
+        "effectRadius": "3000 / 2550",
+        "targetRange": "300"
+      }
+    ]
+  },
+  "releaseDate": "2017-08-23",
+  "releasePatch": "7.17",
+  "patchLastChanged": "12.13",
+  "price": {
+    "blueEssence": 6300,
+    "rp": 975,
+    "saleRp": 0
+  },
+  "lore": "Ornn is the Freljordian spirit of forging and craftsmanship. He works in the solitude of a massive smithy, hammered out from the lava caverns beneath the volcano Hearth-Home. There he stokes bubbling cauldrons of molten rock to purify ores and fashion items of unsurpassed quality. When other deities—especially Volibear—walk the earth and meddle in mortal affairs, Ornn arises to put these impetuous beings back in their place, either with his trusty hammer or the fiery power of the mountains themselves.",
+  "skins": [
+    {
+      "name": "Original",
+      "id": 516000,
+      "isBase": true,
+      "availability": "Available",
+      "formatName": "Original",
+      "lootEligible": true,
+      "cost": 975,
+      "sale": 0,
+      "distribution": null,
+      "rarity": "NoRarity",
+      "chromas": [],
+      "lore": "Ornn is the Freljordian spirit of forging and craftsmanship. He works in the solitude of a massive smithy, hammered out from the lava caverns beneath the volcano Hearth-Home. There he stokes bubbling cauldrons of molten rock to purify ores and fashion items of unsurpassed quality. When other deities—especially Volibear—walk the earth and meddle in mortal affairs, Ornn arises to put these impetuous beings back in their place, either with his trusty hammer or the fiery power of the mountains themselves.",
+      "release": "2017-08-22",
+      "set": [],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/516/516000.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/516/516000.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/516/516000.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/ornn/skins/base/ornnloadscreen.jpg",
+      "loadScreenVintagePath": null,
+      "newEffects": false,
+      "newAnimations": false,
+      "newRecall": false,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [],
+      "splashArtist": [
+        "Joshua 'HUGEnFAST' Brian Smith"
+      ]
+    },
+    {
+      "name": "Thunder Lord",
+      "id": 516001,
+      "isBase": false,
+      "availability": "Available",
+      "formatName": "Thunder Lord",
+      "lootEligible": true,
+      "cost": 1350,
+      "sale": 0,
+      "distribution": null,
+      "rarity": "Epic",
+      "chromas": [],
+      "lore": "In an age before man, King Ornn ruled the craggy southlands, and he was as rocky and lifeless as they were. It is said that he weathered an endless siege from his brother, the great King Voli, and that the blood they spilled sprouted grass and trees and animals, even as they became like beasts themselves.",
+      "release": "2017-08-22",
+      "set": [
+        "Thunder Lord"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/516/516001.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/516/516001.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/516/516001.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/ornn/skins/skin01/ornnloadscreen_1.jpg",
+      "loadScreenVintagePath": null,
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [],
+      "splashArtist": [
+        "Mike Azevedo"
+      ]
+    },
+    {
+      "name": "Elderwood",
+      "id": 516002,
+      "isBase": false,
+      "availability": "Available",
+      "formatName": "Elderwood",
+      "lootEligible": true,
+      "cost": 1350,
+      "sale": 0,
+      "distribution": null,
+      "rarity": "Epic",
+      "chromas": [
+        {
+          "name": "Citrine",
+          "id": 516004,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/516/516004.png",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Emberwood",
+          "id": 516010,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/516/516010.png",
+          "colors": [
+            "#27211C",
+            "#971458"
+          ],
+          "descriptions": [
+            {
+              "description": "This chroma was released as a Loot exclusive in the 2020 Battle Queens event.",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Emerald",
+          "id": 516006,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/516/516006.png",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Obsidian",
+          "id": 516008,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/516/516008.png",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Pearl",
+          "id": 516007,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/516/516007.png",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Rose Quartz",
+          "id": 516009,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/516/516009.png",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "TENCENT"
+            }
+          ]
+        },
+        {
+          "name": "Ruby",
+          "id": 516005,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/516/516005.png",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "descriptions": [
+            {
+              "description": "This chroma was released as a bundle exclusive in 2020.",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Sapphire",
+          "id": 516003,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/516/516003.png",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        }
+      ],
+      "lore": "A truly ancient shaper of the Elderwood, and keeper of divine knowledge. Beings who tended the trees and directed the rivers are rare in this time of fell magic and endless twilight, yet Ornn continues on, stubbornly clinging to what remains of the old way.",
+      "release": "2020-12-10",
+      "set": [
+        "Elderwood"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/516/516002.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/516/516002.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/516/516002.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/ornn/skins/skin02/ornnloadscreen_2.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/ornn/skins/skin02/ornnloadscreen_2_le.jpg",
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [],
+      "splashArtist": [
+        "Malex Zhang",
+        "Kudos Productions"
+      ]
+    }
+  ]
+}

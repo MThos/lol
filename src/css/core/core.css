@@ -1,0 +1,152 @@
+.App {
+  background: rgba(24, 24, 24, 1);
+  border-left: 14px solid rgba(40, 40, 40, 1);;
+  border-right: 14px solid rgba(40, 40, 40, 1);;
+  color: white;
+  font-family: 'Inconsolata', 'Roboto', sans-serif;
+  letter-spacing: 1px;
+  margin: 0 auto;
+  min-height: 100vh;
+  max-width: 1200px;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: rgba(34, 34, 34, 1);
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Inconsolata', 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.color-green {
+  color: mediumaquamarine;
+}
+
+.color-red {
+  color: red;
+}
+
+.color-yellow {
+  color: lightyellow;
+}
+
+footer {
+  background:rgba(24, 24, 24, 1);
+  flex-shrink: 0;
+  font-size: 1rem;
+  margin-top: 80px;
+  padding: 2px 0 5px 0;
+}
+
+footer a {
+  color: #ffd966;
+}
+
+footer a:hover {
+  font-weight: bold;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+header {
+  background:rgba(24, 24, 24, 1);
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: fit-content;
+  padding: 10px 50px;
+}
+
+header img {
+  width: 80px;
+  filter: brightness(120%);
+  -webkit-filter: brightness(120%);
+}
+
+header a {  
+  border: 4px solid #ffc229;
+  border-radius: 5px;
+  width: 140px;
+  height: 40px;
+  color: #ffd966;
+  display: inline-block;
+  letter-spacing: 1.2px;
+  font: normal bold 20px/40px "Inconsolata", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+header a:hover {
+  background: rgba(255, 255, 255, 1);
+  border-color: #ffd468;
+  color: black;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+#patch {
+  color:rgba(255, 255, 255, 0.4);
+  font-size: 0.9rem;
+  padding-right: 15px;
+  position: absolute;
+  top: 5px;
+  text-align: right;  
+  width: 1200px;
+}
+
+#riot-disclaimer {
+  font-size: 0.8rem;
+  font-weight: 300;
+  padding: 20px 120px;
+}
+
+section {
+  flex: 1 0 auto;
+  padding: 20px 0;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1100px) {
+  footer {
+    font-size: 1rem;
+    margin-top: 40px;
+  }
+
+  #riot-disclaimer {
+    font-size: 0.9rem;
+    padding: 20px 50px;
+  }
+}
