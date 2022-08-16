@@ -1,15 +1,15 @@
 import React from 'react';
 import Heading from './Heading';
 
-const Tags = (props) => {
+const Roles = (props) => {
   const static_data = props.static_data;
 
   return (
-    <div id="champion-tags">
-      <Heading title="class" />
+    <div id="champion-roles">
+      <Heading title="roles" />
       {
         static_data['roles'].map((key) => (
-          <div className="champion-tag" key={key}>
+          <div className="champion-role" key={key}>
             {key}
           </div>
         ))
@@ -18,4 +18,4 @@ const Tags = (props) => {
   )
 }
 
-export default Tags;
+export default Roles;
