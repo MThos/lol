@@ -5,7 +5,6 @@ import Patch from './Patch';
 const Champion = () => {
   return (
     <section>
-      <Patch />
       <div id="champions">
         {Object.keys(data_dragon).length > 0 && Object.keys(data_dragon.data).map((key, i) => (
           <div className="champion" key={i}>

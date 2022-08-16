@@ -4,11 +4,13 @@ import Header from './components/core/Header';
 import Footer from './components/core/Footer';
 import Champions from './components/core/Champions';
 import Champion from './components/champion/Champion';
+import Patch from './components/core/Patch';
 
 const App = () => {
   return (
     <main className="App">
       <BrowserRouter>
+        <Patch />
         <Header />
         <Routes>
           <Route path="/" element={<Champions />} />
