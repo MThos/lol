@@ -1,7 +1,7 @@
 .App {
   background: rgba(24, 24, 24, 1);
-  border-left: 14px solid rgba(40, 40, 40, 1);;
-  border-right: 14px solid rgba(40, 40, 40, 1);;
+  border-left: 14px solid rgba(40, 40, 40, 1);
+  border-right: 14px solid rgba(40, 40, 40, 1);
   color: white;
   font-family: 'Inconsolata', 'Roboto', sans-serif;
   letter-spacing: 1px;
@@ -103,13 +103,11 @@ main {
 }
 
 #patch {
-  color:rgba(255, 255, 255, 0.4);
+  color: rgba(60, 60, 60, 1);
   font-size: 0.9rem;
-  padding-right: 15px;
+  font-weight: 700;
+  padding: 4px;
   position: absolute;
-  top: 5px;
-  text-align: right;  
-  width: 1200px;
 }
 
 #riot-disclaimer {
@@ -141,12 +139,13 @@ section {
 
 @media screen and (max-width: 1100px) {
   footer {
-    font-size: 1rem;
-    margin-top: 40px;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    padding: 0 20px;
   }
 
   #riot-disclaimer {
-    font-size: 0.9rem;
-    padding: 20px 50px;
+    font-size: 1rem;
+    padding: 20px 60px;
   }
 }
