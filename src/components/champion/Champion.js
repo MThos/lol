@@ -7,12 +7,14 @@ import Separator from './Separator';
 import Name from './Name';
 import Title from './Title';
 import Price from './Price';
-import Tags from './Tags';
+import Roles from './Roles';
 import Tips from './Tips';
 import Lore from './Lore';
 import Image from './Image';
 import Passive from './Passive';
 import Spell from './Spell';
+import Released from './Released';
+import Updated from './Updated';
 
 const Champion = () => {  
   const location = useLocation();
@@ -36,12 +38,15 @@ const Champion = () => {
     return (
       <section>
         <div id="champion-detail">
-          <Patch />
           <Name static_data={static_data} />
           <Title static_data={static_data} />
           <Image champion_name={champion_name} />
           <Price static_data={static_data} />
-          <Tags static_data={static_data} />
+          <div id="champion-roles-release">
+            <Released static_data={static_data} />
+            <Roles static_data={static_data} />
+            <Updated static_data={static_data} />
+          </div>
           <Lore static_data={static_data} />
           <div id="champion-tips">
             <Tips type="friendly" data_dragon={datadragon} champion_name={champion_name} />
