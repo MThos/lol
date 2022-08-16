@@ -13,7 +13,7 @@ const Spell = (props) => {
             {static_data['abilities'][skill][0]['name']}
           </div>
           <div className="champion-spell-key bold">
-            Key &#183; {skill}
+            KEY &#183; {skill}
           </div>
         </div>
         <div className="champion-spells-row">
