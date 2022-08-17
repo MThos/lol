@@ -15,12 +15,8 @@ import Spell from './Spell';
 import Released from './Released';
 import Updated from './Updated';
 
-const Champion = () => {  
-  const location = useLocation();
-  // clear special characters and spaces (Dr.Mundo, Kha'Zix, Master Yi, etc)
-  var path = location.pathname.substring(location.pathname.lastIndexOf('/') + 1).replace(/[^a-zA-Z ]/g, "");
-  // fix Wukong/MonkeyKing abnormality
-  const champion_name = (path === "Wukong" ? "MonkeyKing" : path);
+const Champion = () => {
+  const champion_name = FixChampionNames(); // fix abnormal champion names  
 
   const [static_data, setStaticData] = useState([]);
   const [datadragon, setDataDragon] = useState([]);
@@ -71,6 +67,35 @@ const Champion = () => {
     )
   } else {
     return null;
+  }
+}
+
+const FixChampionNames = () => {
+  // clear special characters and spaces (Dr.Mundo, Kha'Zix, Master Yi, etc)
+  const location = useLocation();
+  const path = location.pathname.substring(location.pathname.lastIndexOf('/') + 1).replace(/[^a-zA-Z ]/g, "");
+
+  // weird champion naming
+  if (path === "Wukong") {
+    return "MonkeyKing";
+  } else if (path === "NunuWillump") {
+    return "Nunu";
+  } else if (path === "BelVeth") {
+    return "Belveth";
+  } else if (path === "ChoGath") {
+    return "Chogath";
+  } else if (path === "KaiSa") {
+    return "Kaisa";
+  } else if (path === "KhaZix") {
+    return "Khazix";
+  } else if (path === "RekSai") {
+    return "Reksai";
+  } else if (path === "VelKoz") {
+    return "Velkoz";
+  } else if (path === "RenataGlasc") {
+    return "Renata";
+  } else {
+    return path;
   }
 }
 
