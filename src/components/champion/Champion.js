@@ -17,8 +17,10 @@ import Updated from './Updated';
 
 const Champion = () => {  
   const location = useLocation();
-  //clear special characters and spaces (Dr.Mundo, Kha'Zix, Master Yi, etc)
-  const champion_name = location.pathname.substring(location.pathname.lastIndexOf('/') + 1).replace(/[^a-zA-Z ]/g, "");
+  // clear special characters and spaces (Dr.Mundo, Kha'Zix, Master Yi, etc)
+  var path = location.pathname.substring(location.pathname.lastIndexOf('/') + 1).replace(/[^a-zA-Z ]/g, "");
+  // fix Wukong/MonkeyKing abnormality
+  const champion_name = (path === "Wukong" ? "MonkeyKing" : path);
 
   const [static_data, setStaticData] = useState([]);
   const [datadragon, setDataDragon] = useState([]);
