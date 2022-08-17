@@ -12,9 +12,9 @@ const Spell = (props) => {
   const radius = static_data['abilities'][hotkey][0]['effectRadius'];
   const resource = static_data['abilities'][hotkey][0]['resource'];
   const cooldown = static_data['abilities'][hotkey][0]['cooldown'];
-  const cooldown_mods = static_data['abilities'][hotkey][0]['cooldown']['modifiers'][0]['values'];
+  const cooldown_mods = (cooldown ? static_data['abilities'][hotkey][0]['cooldown']['modifiers'][0]['values'] : "");
   const cost = static_data['abilities'][hotkey][0]['cost'];
-  const cost_mods = static_data['abilities'][hotkey][0]['cost']['modifiers'][0]['values'];
+  const cost_mods = (cost ? static_data['abilities'][hotkey][0]['cost']['modifiers'][0]['values'] : "");
   const shieldable = static_data['abilities'][hotkey][0]['spellshieldable'];
   const notes = static_data['abilities'][hotkey][0]['notes'];
   
