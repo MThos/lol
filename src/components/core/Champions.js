@@ -1,6 +1,5 @@
 import React from 'react';
 import data_dragon from '../../data_dragon/champion.json';
-import Patch from './Patch';
 
 const Champion = () => {
   return (

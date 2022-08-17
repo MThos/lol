@@ -1,7 +1,6 @@
 import '../../css/champion/champion.css';
 import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import Patch from '../core/Patch';
 import Heading from './Heading';
 import Separator from './Separator';
 import Name from './Name';
@@ -54,15 +53,15 @@ const Champion = () => {
           </div>
           <div id="champion-abilities">
             <Heading title="PASSIVE + ABILITIES" image={["sword_fire", "fire"]} />
-            <Passive skill="P" static_data={static_data} />
+            <Passive hotkey="P" static_data={static_data} />
             <Separator />
-            <Spell skill="Q" static_data={static_data} />
+            <Spell hotkey="Q" static_data={static_data} />
             <Separator />
-            <Spell skill="W" static_data={static_data} />
+            <Spell hotkey="W" static_data={static_data} />
             <Separator />
-            <Spell skill="E" static_data={static_data} />
+            <Spell hotkey="E" static_data={static_data} />
             <Separator />
-            <Spell skill="R" static_data={static_data} />
+            <Spell hotkey="R" static_data={static_data} />
             <Separator />
           </div>            
         </div>        
