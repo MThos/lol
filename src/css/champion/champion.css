@@ -64,7 +64,7 @@
 }
 
 #champion-img img {
-  border: 8px solid rgba(35, 35, 35, 1);
+  border: 8px solid black;
   border-radius: 10px;
   max-width: 500px;
   margin: 40px 0;
