@@ -1,5 +1,7 @@
 .App {
-  background: rgba(24, 24, 24, 1);
+  /* background: rgba(24, 24, 24, 1); */
+  background-image: url("../../images/bg_black_2.jpg");
+  background-blend-mode: lighten;
   border-left: 14px solid rgba(40, 40, 40, 1);
   border-right: 14px solid rgba(40, 40, 40, 1);
   color: white;
@@ -38,8 +40,56 @@ body {
   color: lightyellow;
 }
 
+#contact {
+  margin-top: 30px;
+}
+
+#contact a {
+  color: #ffd468;
+}
+
+#contact a:hover {
+  font-weight: 600;
+}
+
+#contact-body {
+  font-size: 1rem;
+  padding: 50px 50px;
+  text-align: left;
+}
+
+#contact-email {
+  padding-bottom: 50px;
+}
+
+.contact-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#contact-header {
+  border-bottom: 4px solid white;
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin: 0 auto;
+  text-align: center;
+  width: fit-content;
+}
+
+#contact-header div {
+  padding-bottom: 10px;
+}
+
+.contact-sub-header {
+  border-bottom: 2px solid white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  width: fit-content;
+}
+
 footer {
-  background:rgba(24, 24, 24, 1);
+  /* background:rgba(24, 24, 24, 1); */
   flex-shrink: 0;
   font-size: 1rem;
   margin-top: 80px;
@@ -63,7 +113,7 @@ footer ul {
 }
 
 header {
-  background:rgba(24, 24, 24, 1);
+  /* background:rgba(24, 24, 24, 1); */
   align-items: center;
   display: flex;
   flex-direction: row;
@@ -95,6 +145,58 @@ header a:hover {
   background: rgba(255, 255, 255, 1);
   border-color: #ffd468;
   color: black;
+}
+
+.legal {
+  padding: 10px 50px 20px 50px;
+  text-align: left;
+}
+
+.legal a {
+  color: #ffd468;
+}
+
+.legal a:hover {
+  font-weight: 600;
+}
+
+.legal-body {
+  font-size: 1rem;
+  padding-bottom: 10px;
+}
+
+.legal-body-header {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.legal-date {
+  font-size: 0.9rem;
+  padding: 10px 0 30px 0;
+  text-align: center;
+}
+
+.legal-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+.legal-header {
+  border-bottom: 4px solid white;
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin: 30px auto 0 auto;
+  width: fit-content;
+}
+
+.legal-sub-header {
+  border-bottom: 2px solid white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  width: fit-content;
 }
 
 main {
