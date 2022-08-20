@@ -13,7 +13,7 @@ For support please reach out to me directly at mykel.thos@gmail.com
 ### License
 This is licensed under GNU General Public License, to read more please see <a href="https://github.com/MThos/lol/blob/main/LICENSE">the licensing agreement.</a>
 <br/><br/>
-### Screenshots
+### Video
 <p float="left">
   <img src="https://media.giphy.com/media/QunhyYRNGqnpvdEr2J/giphy.gif">&nbsp;&nbsp;
 </p>
