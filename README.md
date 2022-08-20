@@ -14,7 +14,7 @@ For support please reach out to me directly at mykel.thos@gmail.com
 This is licensed under GNU General Public License, to read more please see <a href="https://github.com/MThos/lol/blob/main/LICENSE">the licensing agreement.</a>
 <br/><br/>
 ### Video
-![]([http://i.imgur.com/OUkLi.gif](https://media.giphy.com/media/QunhyYRNGqnpvdEr2J/giphy.gif))
+![]([http://i.imgur.com/OUkLi.gif](https://media.giphy.com/media/QunhyYRNGqnpvdEr2J/giphy.gif)
 <br/><br/>
 ### Screenshots
 <p float="left">
