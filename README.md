@@ -15,6 +15,11 @@ This is licensed under GNU General Public License, to read more please see <a hr
 <br/><br/>
 ### Screenshots
 <p float="left">
+  <img src="https://media.giphy.com/media/QunhyYRNGqnpvdEr2J/giphy.gif">&nbsp;&nbsp;
+</p>
+<br/><br/>
+### Screenshots
+<p float="left">
   <img src="https://i.imgur.com/MghESlt.png">&nbsp;&nbsp;
 </p>
 <p float="left">
