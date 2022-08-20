@@ -15,7 +15,7 @@ This is licensed under GNU General Public License, to read more please see <a hr
 <br/><br/>
 ### Video
 <p float="left">
-  <img src="https://media.giphy.com/media/QunhyYRNGqnpvdEr2J/giphy.gif">&nbsp;&nbsp;
+  ![]([http://i.imgur.com/OUkLi.gif](https://media.giphy.com/media/QunhyYRNGqnpvdEr2J/giphy.gif))
 </p>
 <br/><br/>
 ### Screenshots
