@@ -8,6 +8,14 @@ const Passive = (props) => {
   const targetting = static_data['abilities'][hotkey][0]['targeting'];
   const effects = static_data['abilities'][hotkey][0]['affects'];
   const element = static_data['abilities'][hotkey][0]['damageType'];
+  const element_lower = (element ? element.replace(/[^a-zA-Z ]/g, " ").toLowerCase() : "None");
+
+  let element_color = "";
+  if (element_lower.includes("magic")) {
+    element_color = "color-blue";
+  } else if (element_lower.includes("physical")) {
+    element_color = "color-brown"
+  }
   
   return (
     <div id="champion-passive">
@@ -29,7 +37,7 @@ const Passive = (props) => {
             Affects: <span className="bold">{effects}</span>
           </div>
           <div className="text-align-right">
-            Element: <span className="bold">{element ? element.replace(/[^a-zA-Z ]/g, " ").toLowerCase() : "None"}</span>
+            Element: <span className={`bold ${element_color}`}>{element_lower}</span>
           </div>
         </div>
         {
