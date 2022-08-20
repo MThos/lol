@@ -34,7 +34,7 @@
   display: flex;
   flex-direction: column;
   gap: 30px;
-  margin: 40px 60px;
+  margin: 60px 60px;
 }
 
 #champion-detail {
@@ -47,7 +47,7 @@
 
 .champion-heading {
   font-family: 'Shadows Into Light', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: 700;
   letter-spacing: 2px;
   margin-bottom: 5px;
@@ -58,7 +58,7 @@
 .champion-heading-img {
   width: 40px;
   vertical-align: middle;
-  padding: 0 15px 5px 15px;
+  padding: 0 25px 5px 25px;
   filter: contrast(120%);
   -webkit-filter: contrast(120%);
 }
@@ -101,9 +101,15 @@
   margin: 0 0 30px 0;
 }
 
-#champion-price-be,
+#champion-price-be {
+  align-items: center;
+  color: #48c6e4;
+  display: flex;
+}
+
 #champion-price-rp {
   align-items: center;
+  color: #ffd966;
   display: flex;
 }
 
@@ -150,6 +156,51 @@
   width: 50%;
 }
 
+.champion-skin {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 25%;
+  font-weight: 700;
+  gap: 6px;
+}
+
+.champion-skin-img {
+  border: 8px solid black;
+  border-radius: 85px;
+  filter: contrast(120%);
+  -webkit-filter: contrast(120%);
+  width: 150px;
+}
+
+.champion-skin-name {
+  font-size: 1.2rem;
+}
+
+.champion-skin-price {
+  align-items: center;
+  color: #ffd966;
+  display: flex;
+  font-size: 1.2rem;
+  gap: 5px;
+}
+
+#champion-skins {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 60px 60px;
+  width: 100%;
+}
+
+#champion-skins-list {  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  row-gap: 80px;
+}
+
 .champion-spell div {
   padding: 5px 0;
 }
@@ -178,7 +229,7 @@
 .champion-spell-img {
   border: 6px solid black;
   border-radius: 10px;
-  width: 60px;
+  width: 80px;
   vertical-align: middle;
   filter: contrast(130%);
   -webkit-filter: contrast(130%);
@@ -224,6 +275,7 @@
   flex-direction: row;
   gap: 100px;
   margin: 60px 60px;
+  min-width: 90%;
 }
 
 .champion-tip {

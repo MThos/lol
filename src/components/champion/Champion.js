@@ -14,6 +14,7 @@ import Passive from './Passive';
 import Spell from './Spell';
 import Released from './Released';
 import Updated from './Updated';
+import Skins from './Skins';
 
 const Champion = () => {
   const champion_name = FixChampionNames(); // fix abnormal champion names  
@@ -49,6 +50,7 @@ const Champion = () => {
             <Tips type="friendly" data_dragon={datadragon} champion_name={champion_name} />
             <Tips type="enemy" data_dragon={datadragon} champion_name={champion_name} />
           </div>
+          <Separator />
           <div id="champion-abilities">
             <Heading title="PASSIVE + ABILITIES" image={["sword_fire", "fire"]} />
             <Passive hotkey="P" static_data={static_data} />
@@ -60,8 +62,12 @@ const Champion = () => {
             <Spell hotkey="E" static_data={static_data} />
             <Separator />
             <Spell hotkey="R" static_data={static_data} />
-            <Separator />
-          </div>            
+          </div>
+          <Separator />
+          <div id="champion-skins">
+            <Heading title="SKINS" />
+            <Skins static_data={static_data} />
+          </div>
         </div>        
       </section>
     )
