@@ -28,6 +28,14 @@ body {
   font-weight: 700;
 }
 
+.color-blue {
+  color: #48c6e4;
+}
+
+.color-brown {
+  color: rgb(189, 53, 53);
+}
+
 .color-green {
   color: mediumaquamarine;
 }
@@ -37,7 +45,7 @@ body {
 }
 
 .color-yellow {
-  color: lightyellow;
+  color: rgb(255, 255, 195);
 }
 
 #contact {
