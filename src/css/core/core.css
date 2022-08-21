@@ -130,29 +130,32 @@ header {
   padding: 10px 50px;
 }
 
-header img {
-  width: 80px;
-  filter: brightness(120%);
-  -webkit-filter: brightness(120%);
-}
-
-header a {  
-  border: 4px solid #ffc229;
+.header-button {  
+  background: #ffe185;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffe185), to(#ffd145));
+  background: -moz-linear-gradient(top, #ffe185, #ffd145);
+  background: linear-gradient(to bottom, #ffe185, #ffd145);
+  border: 8px solid #ffc61b;
   border-radius: 5px;
-  width: 140px;
-  height: 40px;
-  color: #ffd966;
-  display: inline-block;
-  letter-spacing: 1.2px;
-  font: normal bold 20px/40px "Inconsolata", sans-serif;
+  color: black;
+  font-family: 'Inconsolata', 'Roboto', sans-serif;
+  font-size: 1.7rem;
+  font-weight: 700;
+  padding: 10px 40px;
   text-align: center;
+  text-decoration: none;
   text-transform: uppercase;
+  width: 150px;
 }
 
-header a:hover {
-  background: rgba(255, 255, 255, 1);
-  border-color: #ffd468;
-  color: black;
+.header-button:hover {
+  border: 8px solid #ffffff;
+}
+
+#header-img {
+  width: 100px;
+  filter: brightness(130%);
+  -webkit-filter: brightness(130%);
 }
 
 .legal {
@@ -212,6 +215,40 @@ main {
   flex-direction: column;
 }
 
+#not-found {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+#not-found-img {
+  margin: 10px 0 60px 60px;
+  width: 300px;
+}
+
+#not-found-quote {
+  text-align: center;
+}
+
+#not-found-quote h4 {
+  text-align: right !important;
+}
+
+#not-found-top {
+  text-align: center;
+}
+
+#not-found-top h1 {
+  font-size: 4rem;
+  text-decoration: underline;
+}
+
+#not-found-top h3 {
+  font-size: 1.5rem;
+}
+
 #patch {
   color: rgba(60, 60, 60, 1);
   font-size: 0.9rem;
@@ -257,5 +294,23 @@ section {
   #riot-disclaimer {
     font-size: 1rem;
     padding: 20px 60px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  footer {
+    font-size: 1rem;
+    margin-top: 20px;
+    padding: 0 10px;
+  }
+
+  .header-button {
+    font-size: 1.3rem;
+    width: 100px;
+  }
+
+  #riot-disclaimer {
+    font-size: 0.8rem;
+    padding: 20px 40px;
   }
 }
