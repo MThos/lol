@@ -15,9 +15,10 @@ import Spell from './Spell';
 import Released from './Released';
 import Updated from './Updated';
 import Skins from './Skins';
+import NotFound from '../core/NotFound';
 
 const Champion = () => {
-  const champion_name = FixChampionNames(); // fix abnormal champion names  
+  const champion_name = FixChampionNames(); // fix abnormal champion names
 
   const [static_data, setStaticData] = useState([]);
   const [datadragon, setDataDragon] = useState([]);
@@ -72,7 +73,7 @@ const Champion = () => {
       </section>
     )
   } else {
-    return null;
+    return <NotFound />;
   }
 }
 
