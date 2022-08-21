@@ -9,6 +9,7 @@ import Terms from './components/core/Terms';
 import Privacy from './components/core/Privacy';
 import Cookies from './components/core/Cookies';
 import Contact from './components/core/Contact';
+import NotFound from './components/core/NotFound';
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
           <Route path="/privacy" element={<Privacy />} />
           <Route path="/cookies" element={<Cookies />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
       </BrowserRouter>
