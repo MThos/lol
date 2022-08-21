@@ -14,9 +14,9 @@ const Spell = (props) => {
   const resource = static_data['abilities'][hotkey][0]['resource'];
   const resource_lower = (resource ? resource.replace(/[^a-zA-Z ]/g, " ").toLowerCase() : "None");
   const cooldown = static_data['abilities'][hotkey][0]['cooldown'];
-  const cooldown_mods = (cooldown ? static_data['abilities'][hotkey][0]['cooldown']['modifiers'][0]['values'].join(' / ') : "None");
+  const cooldown_mods = (cooldown ? static_data['abilities'][hotkey][0]['cooldown']['modifiers'][0]['values'].join('/') : "None");
   const cost = static_data['abilities'][hotkey][0]['cost'];
-  const cost_mods = (cost ? static_data['abilities'][hotkey][0]['cost']['modifiers'][0]['values'].join(' / ') : "None");
+  const cost_mods = (cost ? static_data['abilities'][hotkey][0]['cost']['modifiers'][0]['values'].join('/') : "None");
   const shieldable = (static_data['abilities'][hotkey][0]['spellshieldable'] ? "Yes" : "No");
   //const notes = (static_data['abilities'][hotkey][0]['notes'] ? static_data['abilities'][hotkey][0]['notes'] : "");
 
@@ -40,51 +40,52 @@ const Spell = (props) => {
   if (shieldable === "Yes") {
     shield_color = "color-green";
   }
-
   
   return (
     <div id="champion-spell">
       <div className="champion-spell">
         <div className="champion-spells-row-top">
-          <img className="champion-spell-img" src={icon} alt={name} />
-          <div className="champion-spell-name">
+          <div className="text-align-left">
+            <img className="champion-spell-img" src={icon} alt={name} />
+          </div>
+          <div className="champion-spell-name text-align-center">
             {name}
           </div>
-          <div className="champion-spell-key bold">
+          <div className="champion-spell-key text-align-right bold">
             KEY &#183; {hotkey}
           </div>
         </div>
         <div className="champion-spells-row">
           <div className="text-align-left">
-            Targetting: <span className="bold">{targetting}</span>
+            <span className="champion-spells-row-key">Targetting</span> <span className="bold">{targetting}</span>
           </div>
           <div className="text-align-center">
-            Affects: <span className="bold">{affects}</span>
+            <span className="champion-spells-row-key">Affects</span> <span className="bold">{affects}</span>
           </div>
           <div className="text-align-right">
-            Element: <span className={`bold ${element_color}`}>{element_lower}</span>
+            <span className="champion-spells-row-key">Element</span> <span className={`bold ${element_color}`}>{element_lower}</span>
           </div>
         </div>
         <div className="champion-spells-row">
           <div className="text-align-left">
-            Range: <span className="bold">{range}</span>
+            <span className="champion-spells-row-key">Range</span> <span className="bold">{range}</span>
           </div>
           <div className="text-align-center">
-            Radius: <span className="bold">{radius}</span>
+            <span className="champion-spells-row-key">Radius</span> <span className="bold">{radius}</span>
           </div>
           <div className="text-align-right">
-            Resource: <span className={`bold ${resource_color}`}>{resource_lower}</span>
+            <span className="champion-spells-row-key">Resource</span> <span className={`bold ${resource_color}`}>{resource_lower}</span>
           </div>
         </div>
         <div className="champion-spells-row">
           <div className="text-align-left">
-            Cooldown: <span className="bold color-green">{cooldown_mods}</span>
+            <span className="champion-spells-row-key">Cooldown</span> <span className="bold color-green">{cooldown_mods}</span>
           </div>
           <div className="text-align-center">
-            Cost: <span className="bold color-red">{cost_mods}</span>
+            <span className="champion-spells-row-key">Cost</span> <span className="bold color-red">{cost_mods}</span>
           </div>
           <div className="text-align-right">
-            Shieldable: <span className={`bold ${shield_color}`}>{shieldable}</span>
+            <span className="champion-spells-row-key">Shieldable</span> <span className={`bold ${shield_color}`}>{shieldable}</span>
           </div>
         </div>
         {

@@ -218,7 +218,7 @@
 }
 
 .champion-spell-key {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 .champion-spell-name {
@@ -234,7 +234,7 @@
 }
 
 .champion-spell-img {
-  border: 6px solid black;
+  border: 1px solid black;
   border-radius: 10px;
   width: 90px;
   vertical-align: middle;
@@ -248,6 +248,10 @@
   flex-direction: row;
   justify-content: space-between;
   margin-bottom: 10px;
+}
+
+.champion-spells-row-top div {
+  flex-basis: 33%;
 }
 
 .champion-spells-row {
@@ -264,12 +268,18 @@
 }
 
 .champion-spells-row span {
-  display: inline-block;
+  display: block;
   text-transform: lowercase;
 }
 
 .champion-spells-row span {
   text-transform: capitalize;
+}
+
+.champion-spells-row-key {
+  font-weight: 700;
+  margin-bottom: 5px;
+  text-decoration: underline;
 }
 
 #champion-title {
@@ -363,7 +373,7 @@
 
   .champion-spell-name {
     font-size: 1.8rem;
-  }  
+  }
 
   .champion-skin {
     align-items: center;

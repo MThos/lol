@@ -21,23 +21,25 @@ const Passive = (props) => {
     <div id="champion-passive">
       <div className="champion-spell" key={name}>
         <div className="champion-spells-row-top">
-          <img className="champion-spell-img" src={icon} alt={name} />
-          <div className="champion-spell-name">
+          <div className="text-align-left">
+            <img className="champion-spell-img" src={icon} alt={name} />
+          </div>
+          <div className="champion-spell-name text-align-center">
             {name}
           </div>
-          <div className="champion-spell-key bold">
+          <div className="champion-spell-key text-align-right bold">
             PASSIVE
           </div>
         </div>
         <div className="champion-spells-row">
           <div className="text-align-left">
-            Targetting: <span className="bold">{targetting}</span>
+            <span className="champion-spells-row-key">Targetting</span> <span className="bold">{targetting}</span>
           </div>
           <div className="text-align-center">
-            Affects: <span className="bold">{effects}</span>
+            <span className="champion-spells-row-key">Affects</span> <span className="bold">{effects}</span>
           </div>
           <div className="text-align-right">
-            Element: <span className={`bold ${element_color}`}>{element_lower}</span>
+            <span className="champion-spells-row-key">Element</span> <span className={`bold ${element_color}`}>{element_lower}</span>
           </div>
         </div>
         {
