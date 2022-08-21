@@ -11,8 +11,8 @@ const Tips = (props) => {
     return (
       <div className="champion-tip">
         <Heading title={`${type} tips`} image="checkmark" />
-        <div key={type_key}>
-          <p></p>
+        <div className="champion-tip-empty" key={type_key}>
+          <p>&#183; NO TIPS FOUND &#183;</p>
         </div>
       </div>
     )
