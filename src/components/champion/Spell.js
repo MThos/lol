@@ -1,4 +1,5 @@
 import React from 'react';
+import { ColorOptions, HideEmptyDescriptions } from '../../helpers';
 
 const Spell = (props) => {
   const hotkey = props.hotkey;
@@ -19,27 +20,6 @@ const Spell = (props) => {
   const cost_mods = (cost ? static_data['abilities'][hotkey][0]['cost']['modifiers'][0]['values'].join('/') : "None");
   const shieldable = (static_data['abilities'][hotkey][0]['spellshieldable'] ? "Yes" : "No");
   //const notes = (static_data['abilities'][hotkey][0]['notes'] ? static_data['abilities'][hotkey][0]['notes'] : "");
-
-  let element_color = "";
-  if (element_lower.includes("magic")) {
-    element_color = "color-blue";
-  } else if (element_lower.includes("physical")) {
-    element_color = "color-brown"
-  }
-
-  let resource_color = "";
-  if (resource_lower.includes('mana')) {
-    resource_color = "color-blue";
-  } else if (resource_lower.includes('rage') || resource_lower.includes('health')) {
-    resource_color = "color-red"
-  } else if (resource_lower.includes('energy')) {
-    resource_color = "color-yellow";
-  }
-
-  let shield_color = "color-red";
-  if (shieldable === "Yes") {
-    shield_color = "color-green";
-  }
   
   return (
     <div id="champion-spell">
@@ -63,7 +43,7 @@ const Spell = (props) => {
             <span className="champion-spells-row-key">Affects</span> <span className="bold">{affects}</span>
           </div>
           <div className="text-align-right">
-            <span className="champion-spells-row-key">Element</span> <span className={`bold ${element_color}`}>{element_lower}</span>
+            <span className="champion-spells-row-key">Element</span> <span className={`bold ${ColorOptions("element", element_lower)}`}>{element_lower}</span>
           </div>
         </div>
         <div className="champion-spells-row">
@@ -74,7 +54,7 @@ const Spell = (props) => {
             <span className="champion-spells-row-key">Radius</span> <span className="bold">{radius}</span>
           </div>
           <div className="text-align-right">
-            <span className="champion-spells-row-key">Resource</span> <span className={`bold ${resource_color}`}>{resource_lower}</span>
+            <span className="champion-spells-row-key">Resource</span> <span className={`bold ${ColorOptions("resource", resource_lower)}`}>{resource_lower}</span>
           </div>
         </div>
         <div className="champion-spells-row">
@@ -85,13 +65,15 @@ const Spell = (props) => {
             <span className="champion-spells-row-key">Cost</span> <span className="bold color-red">{cost_mods}</span>
           </div>
           <div className="text-align-right">
-            <span className="champion-spells-row-key">Shieldable</span> <span className={`bold ${shield_color}`}>{shieldable}</span>
+            <span className="champion-spells-row-key">Shieldable</span> <span className={`bold ${ColorOptions("shield", shieldable)}`}>{shieldable}</span>
           </div>
         </div>
         {
           static_data['abilities'][hotkey][0]['effects'].map((key) => (
             <div className="champion-spell-description" key={key.description}>
-              {key.description}
+              <div className="champion-spell-description-detail">{key.description}</div>
+              <div className="champion-spell-description-detail">{key.leveling[0] ? key.leveling[0].attribute : ""}</div>
+              <div className="champion-spell-description-detail">{key.leveling[0] ? key.leveling[0].modifiers[0].values.join('/') : ""}</div>
             </div>
           ))
         }
@@ -99,5 +81,7 @@ const Spell = (props) => {
     </div>
   )
 }
+
+HideEmptyDescriptions();
 
 export default Spell;

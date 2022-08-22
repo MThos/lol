@@ -1,4 +1,5 @@
 import React from 'react';
+import { ColorOptions } from '../../helpers';
 
 const Passive = (props) => {
   const hotkey = props.hotkey;
@@ -9,13 +10,6 @@ const Passive = (props) => {
   const effects = static_data['abilities'][hotkey][0]['affects'];
   const element = static_data['abilities'][hotkey][0]['damageType'];
   const element_lower = (element ? element.replace(/[^a-zA-Z ]/g, " ").toLowerCase() : "None");
-
-  let element_color = "";
-  if (element_lower.includes("magic")) {
-    element_color = "color-blue";
-  } else if (element_lower.includes("physical")) {
-    element_color = "color-brown"
-  }
   
   return (
     <div id="champion-passive">
@@ -39,7 +33,7 @@ const Passive = (props) => {
             <span className="champion-spells-row-key">Affects</span> <span className="bold">{effects}</span>
           </div>
           <div className="text-align-right">
-            <span className="champion-spells-row-key">Element</span> <span className={`bold ${element_color}`}>{element_lower}</span>
+            <span className="champion-spells-row-key">Element</span> <span className={`bold ${ColorOptions("element", element_lower)}`}>{element_lower}</span>
           </div>
         </div>
         {
