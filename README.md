@@ -18,8 +18,14 @@ This is licensed under GNU General Public License, to read more please see <a hr
 <br/><br/>
 ### Screenshots
 <p float="left">
-  <img src="https://i.imgur.com/MghESlt.png">&nbsp;&nbsp;
+  <img src="https://i.imgur.com/cmY19C2.png">&nbsp;&nbsp;
 </p>
 <p float="left">
-  <img src="https://i.imgur.com/7BdSJc6.png">&nbsp;&nbsp;
+  <img src="https://i.imgur.com/k3wq1vW.png">
+</p>
+<p float="left">
+  <img src="https://i.imgur.com/Y2akqh7.png">
+</p>
+<p float="left">
+  <img src="https://i.imgur.com/qulyfYD.png">
 </p>
