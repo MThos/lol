@@ -1,14 +1,15 @@
 .champion {
   text-align: center;
   text-transform: uppercase;
+  width: -moz-fit-content;
   width: fit-content;
 }
 
 .champion a img {
   border: 6px solid transparent;
   border-radius: 10px;
-  filter: contrast(120%);
   -webkit-filter: contrast(120%);
+  filter: contrast(120%);
   width: 120px;
 }
 
@@ -64,8 +65,8 @@
   width: 30px;
   vertical-align: middle;
   padding: 0 25px 5px 25px;
-  filter: contrast(120%);
   -webkit-filter: contrast(120%);
+  filter: contrast(120%);
 }
 
 #champion-img img {
@@ -73,8 +74,8 @@
   border-radius: 10px;
   max-width: 300px;
   margin: 40px 0;
-  filter: contrast(120%);
   -webkit-filter: contrast(120%);
+  filter: contrast(120%);
 }
 
 #champion-lore {
@@ -175,8 +176,8 @@
 .champion-skin-img {
   border: 8px solid black;
   border-radius: 90px;
-  filter: contrast(120%);
   -webkit-filter: contrast(120%);
+  filter: contrast(120%);
   width: 160px;
 }
 
@@ -238,8 +239,8 @@
   border-radius: 10px;
   width: 90px;
   vertical-align: middle;
-  filter: contrast(130%);
   -webkit-filter: contrast(130%);
+  filter: contrast(130%);
 }
 
 .champion-spells-row-top {

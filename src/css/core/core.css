@@ -82,6 +82,7 @@ body {
   font-weight: 600;
   margin: 0 auto;
   text-align: center;
+  width: -moz-fit-content;
   width: fit-content;
 }
 
@@ -93,7 +94,12 @@ body {
   border-bottom: 2px solid white;
   font-size: 1.1rem;
   font-weight: bold;
+  width: -moz-fit-content;
   width: fit-content;
+}
+
+.empty {
+  display: none;
 }
 
 footer {
@@ -126,7 +132,6 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  height: fit-content;
   padding: 10px 50px;
 }
 
@@ -154,8 +159,8 @@ header {
 
 #header-img {
   width: 100px;
-  filter: brightness(130%);
   -webkit-filter: brightness(130%);
+  filter: brightness(130%);
 }
 
 .legal {
@@ -199,6 +204,7 @@ header {
   font-size: 2.2rem;
   font-weight: 600;
   margin: 30px auto 0 auto;
+  width: -moz-fit-content;
   width: fit-content;
 }
 
@@ -207,6 +213,7 @@ header {
   font-size: 1.1rem;
   font-weight: bold;
   margin-bottom: 10px;
+  width: -moz-fit-content;
   width: fit-content;
 }
 
