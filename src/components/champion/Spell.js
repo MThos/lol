@@ -1,5 +1,5 @@
 import React from 'react';
-import { ColorOptions, HideEmptyDescriptions } from '../../helpers';
+import { ColorOptions, HideEmptyDescriptions, ModifierUnits, SpellColors, DecimalLimiter } from '../../helpers';
 
 const Spell = (props) => {
   const hotkey = props.hotkey;
@@ -15,9 +15,9 @@ const Spell = (props) => {
   const resource = static_data['abilities'][hotkey][0]['resource'];
   const resource_lower = (resource ? resource.replace(/[^a-zA-Z ]/g, " ").toLowerCase() : "None");
   const cooldown = static_data['abilities'][hotkey][0]['cooldown'];
-  const cooldown_mods = (cooldown ? static_data['abilities'][hotkey][0]['cooldown']['modifiers'][0]['values'].join('/') : "None");
+  const cooldown_mods = (cooldown ? static_data['abilities'][hotkey][0]['cooldown']['modifiers'][0]['values'].join(' / ') : "None");
   const cost = static_data['abilities'][hotkey][0]['cost'];
-  const cost_mods = (cost ? static_data['abilities'][hotkey][0]['cost']['modifiers'][0]['values'].join('/') : "None");
+  const cost_mods = (cost ? static_data['abilities'][hotkey][0]['cost']['modifiers'][0]['values'].join(' / ') : "None");
   const shieldable = (static_data['abilities'][hotkey][0]['spellshieldable'] ? "Yes" : "No");
   //const notes = (static_data['abilities'][hotkey][0]['notes'] ? static_data['abilities'][hotkey][0]['notes'] : "");
   
@@ -70,16 +70,38 @@ const Spell = (props) => {
         </div>
         {
           static_data['abilities'][hotkey][0]['effects'].map((key) => (
-            <div className="champion-spell-description" key={key.description}>
-              <div className="champion-spell-description-detail">{key.description}</div>
-              <div className="champion-spell-description-detail">{key.leveling[0] ? key.leveling[0].attribute : ""}</div>
-              <div className="champion-spell-description-detail">{key.leveling[0] ? key.leveling[0].modifiers[0].values.join('/') : ""}</div>
-            </div>
+            SpellModifiers(key)
           ))
         }
       </div>
     </div>
   )
+}
+
+const SpellModifiers = (data) => {
+  const margin_top = (data.leveling[0] ? "margin-top-10" : "empty");
+
+  return(
+    <div className="champion-spell-description" key={data.description}>
+      <div className="champion-spell-description-detail">{data.description}</div>
+        {
+          data.leveling.map((key, index) => (            
+            <div className={`champion-spell-description-detail ${margin_top}`} key={index}>
+              <div className={"champion-spell-description-detail"}>{key.attribute ? key.attribute.toUpperCase() + ':' : ""}</div>
+              {
+                typeof(key.modifiers) !== 'undefined' ?
+                key.modifiers.map((mod_key, index) => (
+                  <div key={index}>
+                    <div className={`champion-spell-description-detail 
+                      ${SpellColors(mod_key.units[0], key.attribute)}`}>{DecimalLimiter(mod_key.values, 1, true).join(' / ')} {ModifierUnits(mod_key.units[0])}</div>
+                  </div>
+                )) : ""
+              }
+            </div>
+          ))
+        }        
+    </div>
+  )  
 }
 
 HideEmptyDescriptions();
