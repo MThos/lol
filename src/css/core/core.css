@@ -44,6 +44,10 @@ body {
   color: red;
 }
 
+.color-orange {
+  color: orangered;
+}
+
 .color-yellow {
   color: rgb(255, 255, 195);
 }
@@ -100,6 +104,12 @@ body {
 
 .empty {
   display: none;
+}
+
+.flexbox-row {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
 }
 
 footer {
@@ -254,6 +264,10 @@ main {
 
 #not-found-top h3 {
   font-size: 1.5rem;
+}
+
+.margin-top-10 {
+  margin-top: 10px;
 }
 
 #patch {
