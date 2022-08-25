@@ -63,9 +63,9 @@ export function SpellColors(unit, attribute) {
 
 export function ModifierUnits(unit) {
   if (unit.includes('AD')) {
-    return " (AD Modifier)";
+    return " (AD Modifier %)";
   } else if (unit.includes('AP')) {
-    return " (AP Modifier)";
+    return " (AP Modifier %)";
   } else if (unit === "") {
     return " (Baseline)";
   } else {
