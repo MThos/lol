@@ -26,6 +26,7 @@
   display: flex;
   flex-wrap: wrap;
   font-size: 1rem;
+  font-weight: 700;
   gap: 40px;
   justify-content: space-evenly;
   padding: 60px 25px 40px 25px;
@@ -36,7 +37,7 @@
   flex-direction: column;
   font-weight: 600;
   gap: 30px;
-  margin: 60px 40px;
+  margin: 60px 30px;
 }
 
 #champion-abilities .champion-heading-img {
@@ -82,7 +83,7 @@
 #champion-lore {
   font-family: 'Inconsolata', sans-serif;
   font-weight: 600;
-  margin: 40px 40px;
+  margin: 40px 30px;
 }
 
 #champion-lore-story {
@@ -161,7 +162,7 @@
   border-top: 8px solid rgba(35, 35, 35, 1);
   border-radius: 5px;
   margin: 0 auto;
-  width: 70%;
+  width: 90%;
 }
 
 .champion-skin {
@@ -184,6 +185,7 @@
 .champion-skin-name {
   color: #ffebc5;
   font-size: 1.2rem;
+  text-align: center;
 }
 
 .champion-skin-price {
@@ -198,7 +200,7 @@
   display: flex;
   flex-direction: column;
   gap: 30px;
-  margin: 60px 40px;
+  margin: 60px 30px;
   width: 100%;
 }
 
@@ -264,6 +266,7 @@
   align-items: center;
   display: flex;
   flex-direction: row;
+  gap: 15px;
   justify-content: space-between;
   margin: 10px 0;
 }
@@ -298,7 +301,7 @@
   flex-direction: row;
   font-weight: 600;
   gap: 100px;
-  margin: 60px 40px;
+  margin: 60px 30px;
   min-width: 90%;
 }
 
@@ -312,7 +315,7 @@
 
 @media screen and (max-width: 1100px) {
   #champion-abilities {
-    margin: 40px 30px;
+    margin: 40px 20px;
   }
 
   #champion-detail {    
@@ -324,7 +327,7 @@
   }
 
   #champion-lore {
-    margin: 40px 30px;
+    margin: 40px 20px;
   }
   
   .champion-mini-title {
@@ -333,7 +336,7 @@
 
   #champion-tips {
     gap: 50px;
-    margin: 20px 30px;
+    margin: 20px 20px;
   }
 
   .champion-spell-name {
@@ -347,7 +350,11 @@
 
 @media screen and (max-width: 800px) {
   #champion-abilities {
-    margin: 40px 30px;
+    margin: 40px 20px;
+  }
+
+  #champion-abilities .champion-heading-img {
+    width: 30px;
   }
 
   #champion-detail {
@@ -367,7 +374,7 @@
   }
 
   #champion-lore {
-    margin: 40px 30px;
+    margin: 40px 20px;
   }
   
   .champion-mini-title {
@@ -376,7 +383,7 @@
 
   #champion-tips {
     gap: 50px;
-    margin: 20px 30px;
+    margin: 20px 20px;
   }
 
   #champion-roles-release {
@@ -402,10 +409,123 @@
   }
 
   #champion-skins {
-    margin: 40px 60px;
+    margin: 40px 30px;
   }
 
   .champion-spell-img {
     width: 70px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .champion a img {
+    border: 2px solid transparent;
+    width: 70px;
+  }
+
+  #champion-abilities .champion-heading-img {
+    width: 30px;
+  }
+
+  .champion-heading {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+  }
+  
+  .champion-heading-img {
+    width: 25px;
+    padding: 0 10px;
+  }
+
+  #champion-img img {
+    border: 4px solid black;
+    max-width: 280px;
+  }
+  
+  .champion img:hover {
+    border: 2px solid #ffc61b;
+    cursor: pointer;
+  }
+
+  #champions {
+    font-size: 0.8rem;
+    gap: 10px;
+    padding: 20px 5px 20px 5px;
+  }
+
+  #champion-lore {
+    margin-top: 30px;
+  }
+
+  .champion-spell-key {
+    font-size: 0.9rem;
+  }
+
+  .champion-spell-name {
+    font-size: 1.2rem;
+  }
+  
+  .champion-spell-img {
+    width: 50px;
+  }
+
+  #champion-roles-release {
+    gap: 25px;
+  }
+
+  .champion-separator {
+    width: 80%;
+  }
+
+  .champion-skin {
+    flex-basis: 33%;
+    font-size: 0.9rem;
+    gap: 5px;
+  }
+  
+  .champion-skin-img {
+    border: 4px solid black;
+    width: 80px;
+  }
+  
+  .champion-skin-name {
+    font-size: 0.9rem;
+  }
+  
+  .champion-skin-price {
+    font-size: 0.9rem;
+  }
+
+  .champion-skin-price-img {
+    width: 15px;
+  }
+  
+  #champion-skins {
+    margin: 40px 0 60px 0;
+    width: 100%;
+  }
+  
+  #champion-skins-list {  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 50px;
+  }
+
+  .champion-spells-row {
+    gap: 10px;
+  }
+
+  #champion-tips {
+    flex-direction: column;
+    gap: 50px;
+    margin: 20px 20px 40px 20px;
+    width: 85%;
+  }
+
+  #champion-update, 
+  #champion-release {
+    width: 100px;
   }
 }

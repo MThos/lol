@@ -340,3 +340,49 @@ section {
     padding: 20px 40px;
   }
 }
+
+@media screen and (max-width: 500px) {
+  footer {
+    font-size: 0.9rem;
+    margin-top: 5px;
+  }
+
+  footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+
+  header {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px 10px;
+  }
+  
+  .header-button {
+    border: 4px solid #ffc61b;
+    padding: 5px 5px;
+    width: 90px;
+  }
+  
+  .header-button:hover {
+    border: 4px solid #ffffff;
+  }
+  
+  #header-img {
+    width: 60px;
+    -webkit-filter: brightness(130%);
+    filter: brightness(130%);
+  }
+
+  #patch {
+    display: none;
+  }
+
+  #riot-disclaimer {
+    font-size: 0.8rem;
+  }
+}
