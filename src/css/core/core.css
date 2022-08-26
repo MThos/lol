@@ -1,6 +1,6 @@
 .App {
   /* background: rgba(24, 24, 24, 1); */
-  background-image: url("../../images/bg_black_2.jpg");
+  background-image: url("../../images/bg_black_2.webp");
   background-blend-mode: lighten;
   border-left: 14px solid rgba(40, 40, 40, 1);
   border-right: 14px solid rgba(40, 40, 40, 1);
