@@ -13,10 +13,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "heroku-prebuild": "npm install -g serve",
-    "dev": "react-scripts start",
     "start": "react-scripts start",
-    "build": "serve -s build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
