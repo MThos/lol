@@ -22,15 +22,16 @@ const Champion = () => {
 
   const [static_data, setStaticData] = useState([]);
   const [datadragon, setDataDragon] = useState([]);
+  const [error, setError] = useState([]);
 
   useEffect(() => {
     import(`../../lolstaticdata/champions/${champion_name}.json`)
     .then((res) => setStaticData(res))
-    .catch(err => console.log(err));
+    .catch(err => setError(err));
 
     import(`../../data_dragon/champion/${champion_name}.json`)
     .then((res) => setDataDragon(res.data))
-    .catch(err => console.log(err));
+    .catch(err => setError(err));
   }, [champion_name]);
 
   if (Object.keys(static_data).length > 0 & Object.keys(datadragon).length > 0) {
@@ -72,8 +73,13 @@ const Champion = () => {
         </div>        
       </section>
     )
+  } else if (Object.keys(error).length > 0) {
+    console.log(error);
+    return(
+      <NotFound />
+    )
   } else {
-    return <NotFound />;
+    return null;
   }
 }
 
