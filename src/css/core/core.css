@@ -81,7 +81,8 @@ body {
 }
 
 #contact-header {
-  border-bottom: 4px solid white;
+  border-bottom: 6px solid #ffd966;
+  color: #ffd966;
   font-size: 2.2rem;
   font-weight: 600;
   margin: 0 auto;
@@ -95,7 +96,8 @@ body {
 }
 
 .contact-sub-header {
-  border-bottom: 2px solid white;
+  border-bottom: 3px solid #ffd966;
+  color: #ffd966;
   font-size: 1.1rem;
   font-weight: bold;
   width: -moz-fit-content;
@@ -192,6 +194,7 @@ header {
 }
 
 .legal-body-header {
+  color: #ffd966;
   font-size: 1.1rem;
   font-weight: 700;
 }
@@ -210,7 +213,8 @@ header {
 }
 
 .legal-header {
-  border-bottom: 4px solid white;
+  border-bottom: 4px solid #ffd966;
+  color: #ffd966;
   font-size: 2.2rem;
   font-weight: 600;
   margin: 30px auto 0 auto;
@@ -219,7 +223,7 @@ header {
 }
 
 .legal-sub-header {
-  border-bottom: 2px solid white;
+  color: #ffd966;
   font-size: 1.1rem;
   font-weight: bold;
   margin-bottom: 10px;
@@ -317,6 +321,10 @@ section {
     width: 120px;
   }
 
+  .legal {
+    padding: 10px 30px 20px 30px;
+  }
+
   #riot-disclaimer {
     font-size: 1rem;
     padding: 20px 60px;
@@ -342,6 +350,31 @@ section {
 }
 
 @media screen and (max-width: 500px) {
+  #contact {
+    margin-top: 10px;
+  }
+  
+  #contact-body {
+    font-size: 1rem;
+    padding: 30px 30px;
+  }
+  
+  #contact-email {
+    padding-bottom: 20px;
+  }
+  
+  #contact-header {
+    border-bottom: 4px solid #ffd966;
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .contact-sub-header {
+    border-bottom: 2px solid #ffd966;
+    font-size: 1.4rem;
+  }
+  
   footer {
     font-size: 0.9rem;
     margin-top: 5px;
@@ -374,8 +407,36 @@ section {
   
   #header-img {
     width: 60px;
-    -webkit-filter: brightness(130%);
-    filter: brightness(130%);
+  }
+
+  .legal {
+    padding: 10px 20px 20px 20px;
+  }
+
+  .legal-body {
+    font-size: 0.9rem;
+    padding-bottom: 15px;
+  }
+
+  .legal-header {
+    margin: 0 auto 0 auto;
+  }
+  
+  #not-found-img {
+    margin: 10px 0 30px 60px;
+    width: 250px;
+  }
+  
+  #not-found-top h1 {
+    font-size: 5rem;
+  }
+
+  #not-found-quote {
+    padding: 0 30px;
+  }
+
+  #not-found-top h1 {
+    margin: 0 0 30px 0;
   }
 
   #patch {
