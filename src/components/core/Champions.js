@@ -11,7 +11,7 @@ const Champion = () => {
               <a href={`/champion/${data_dragon['data'][key]['name']}`}>
                 <img src={`images/compressed/champion/${data_dragon['data'][key]['image']['full'].slice(0, -4)}.webp`} loading="lazy" width="120px" alt={data_dragon['data'][key]['name']} />
               </a>
-              <p>{data_dragon['data'][key]['name']}</p>
+              <p>{FixChampionNames(data_dragon['data'][key]['name'])}</p>
             </div>
           ))}
         </div>
@@ -20,6 +20,15 @@ const Champion = () => {
   } else {
     return null;
   }  
+}
+
+const FixChampionNames = (name) => {
+  // weird champion naming
+  if (name.toUpperCase() === "NUNU & WILLUMP") {
+    return "Nunu";
+  } else {
+    return name;
+  }
 }
 
 export default Champion;
