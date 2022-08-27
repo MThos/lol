@@ -75,6 +75,7 @@
   border: 8px solid black;
   border-radius: 10px;
   max-width: 300px;
+  width: 300px;
   margin: 40px 0;
   -webkit-filter: contrast(120%);
   filter: contrast(120%);

@@ -16,7 +16,7 @@ const Passive = (props) => {
       <div className="champion-spell" key={name}>
         <div className="champion-spells-row-top">
           <div className="text-align-left">
-            <img className="champion-spell-img" src={icon} alt={name} />
+            <img className="champion-spell-img" width="90px" height="90px" loading="lazy" src={icon} alt={name} />
           </div>
           <div className="champion-spell-name text-align-center">
             {name}
