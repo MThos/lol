@@ -5,7 +5,7 @@ const Image = (props) => {
 
   return (
     <div id="champion-img">
-      <img src={`../images/compressed/champion/tiles/${champion_name}_0.webp`} width="300px" height="300px" alt={champion_name} />
+      <img src={`../images/compressed/champion/tiles/${champion_name}_0.webp`} width="300px" alt={champion_name} />
     </div>
   )
 }

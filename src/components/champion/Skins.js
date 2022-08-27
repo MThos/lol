@@ -24,7 +24,7 @@ const Skins = (props) => {
             <img className="champion-skin-img" src={key.tilePath} alt={key.name} />
           </div>
           <div className="champion-skin-name">{key.name}</div>
-          <div className="champion-skin-price">{key.cost} <img className="champion-skin-price-img" loading="lazy" width="160px" height="160px" src="../images/compressed/RP_icon.webp" alt={key.name} /></div>
+          <div className="champion-skin-price">{key.cost} <img className="champion-skin-price-img" loading="lazy" width="160px" src="../images/compressed/RP_icon.webp" alt={key.name} /></div>
           <div>{key.availability}</div>
           <div>{key.release}</div>
         </div>)
