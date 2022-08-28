@@ -5,7 +5,8 @@ const NotFound = () => {
     <section>
       <div id="not-found">
         <div id="not-found-top">
-          <h1>404</h1>
+          <h1>OH NO!</h1>
+          <h5>Return Code: 404</h5>
         </div>
         <img id="not-found-img" src={process.env.PUBLIC_URL + "/images/compressed/teemo_cry.webp"} width="300px" alt="Not Found" />
         <div id="not-found-quote">
