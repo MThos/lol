@@ -462,6 +462,10 @@
     margin-top: 30px;
   }
 
+  #champion-name {
+    font-size: 2.3rem;
+  }
+
   .champion-spell-description {
     margin: 15px 0;
   }
