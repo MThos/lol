@@ -67,7 +67,7 @@ const Champion = () => {
           </div>
           <Separator />
           <div id="champion-skins">
-            <Heading title="SKINS" />
+            <Heading title="SKIN PURCHASES" />
             <Skins static_data={static_data} />
           </div>
         </div>        
