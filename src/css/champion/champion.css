@@ -424,12 +424,16 @@
     width: 70px;
   }
 
+  #champion-abilities {
+    margin: 40px 20px 20px 20px;
+  }
+
   #champion-abilities .champion-heading-img {
     width: 30px;
   }
 
   .champion-heading {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     margin-bottom: 5px;
   }
   
@@ -458,20 +462,25 @@
     margin-top: 30px;
   }
 
+  .champion-spell-description {
+    margin: 15px 0;
+  }
+
   .champion-spell-key {
     font-size: 0.9rem;
   }
 
   .champion-spell-name {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+    font-weight: 700;
   }
   
   .champion-spell-img {
-    width: 50px;
+    width: 60px;
   }
 
   #champion-roles-release {
-    gap: 25px;
+    gap: 35px;
   }
 
   .champion-separator {
@@ -516,6 +525,11 @@
 
   .champion-spells-row {
     gap: 10px;
+  }
+
+  .champion-spells-row-top {
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   #champion-tips {
