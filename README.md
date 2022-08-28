@@ -8,8 +8,6 @@
 
 LEAGUE CENSUS is a **ReactJS App** for retrieval of champion and item information by pulling data from [Riot Games API](https://developer.riotgames.com) as well as through [Meraki Analytics' LOLStaticData](https://github.com/meraki-analytics/lolstaticdata). The application is a work in progress and is built from code I had originally written in PHP and another version in Python many years ago and am now converting to Javascript. It is constantly being improved and updated. Any data comes directly from the FileSystem flat json files or by calls directly to Riot Games API (or cache). Caching of data is handled by **Cloudflare**.
 
-This application also makes use of information provided from **Meraki Analytics**. You can find their Github page [here](https://github.com/meraki-analytics/)
-
 [LEAGUECENSUS.COM](https://www.leaguecensus.com)
 
 <br/>
