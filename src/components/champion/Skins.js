@@ -10,7 +10,7 @@ const Skins = (props) => {
       skin_list.push(
         <div className="champion-skin" key={key.name}>
           <div>
-            <img className="champion-skin-img" src={key.tilePath} alt={key.name} />
+            <img className="champion-skin-img" src={changeHttpToHttps(key.tilePath)} alt={key.name} />
           </div>
           <div className="champion-skin-name">{key.name}</div>
           <div className="champion-skin-price">{key.cost.toUpperCase()}</div>
@@ -21,7 +21,7 @@ const Skins = (props) => {
       skin_list.push(
         <div className="champion-skin" key={key.name}>
           <div>
-            <img className="champion-skin-img" src={key.tilePath} loading="lazy" width="160px" alt={key.name} />
+            <img className="champion-skin-img" src={changeHttpToHttps(key.tilePath)} loading="lazy" width="160px" alt={key.name} />
           </div>
           <div className="champion-skin-name">{key.name}</div>
           <div className="champion-skin-price">{key.cost} <img className="champion-skin-price-img" src="../images/compressed/RP_icon.webp" alt={key.name} /></div>
@@ -36,6 +36,10 @@ const Skins = (props) => {
       {skin_list}
     </div>
   )
+}
+
+const changeHttpToHttps = (path) => {
+  return path.replace('http', 'https');
 }
 
 export default Skins;
