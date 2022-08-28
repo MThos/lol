@@ -241,7 +241,6 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  margin-top: 5px;
 }
 
 #not-found-img {
@@ -271,9 +270,9 @@ main {
 }
 
 #not-found-top h1 {
-  font-size: 4rem;
+  font-size: 5rem;
   font-family: 'Shadows Into Light', sans-serif;
-  margin: 15px 0 0 0;
+  margin: 0;
   text-decoration: underline;
 }
 
@@ -468,5 +467,9 @@ section {
 
   #riot-disclaimer {
     font-size: 0.8rem;
+  }
+
+  section {
+    padding: 0 0 20px 0;
   }
 }
