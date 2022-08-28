@@ -68,7 +68,7 @@ E-mail: mykel.thos[at]gmail[dot]com
 ## Copyright and Licensing:
 **License**
 
-LEAGUE CENSUS is released under the [GNU General Public License](https://github.com/MThos/lolcensus/blob/master/LICENSE.md).
+LEAGUE CENSUS is released under the [GNU General Public License](https://github.com/MThos/lol/blob/master/LICENSE.md).
 
 **Copyright**
 
