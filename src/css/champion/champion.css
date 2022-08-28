@@ -57,7 +57,7 @@
   color: #ffebc5;
   font-family: 'Shadows Into Light', sans-serif;
   font-size: 1.8rem;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: 2px;
   margin-bottom: 5px;
   text-align: center;
@@ -93,7 +93,7 @@
 
 #champion-name {
   color: #ffd966;
-  font-size: 3rem;
+  font-size: 4rem;
   font-family: 'Shadows Into Light', sans-serif;
   font-weight: 700;
   letter-spacing: 4px;
@@ -232,8 +232,8 @@
 .champion-spell-name {
   color: #ffd966;
   font-family: 'Shadows Into Light', sans-serif;
-  font-size: 1.8rem;
-  font-weight: 600;
+  font-size: 2.2rem;
+  font-weight: 700;
   letter-spacing: 2px;
 }
 
@@ -242,7 +242,7 @@
 }
 
 .champion-spell-img {
-  border: 1px solid black;
+  border: 4px solid rgb(0, 0, 0);
   border-radius: 10px;
   width: 90px;
   vertical-align: middle;
@@ -286,9 +286,9 @@
 }
 
 .champion-spells-row-key {
+  color: #ffebc5;
   font-weight: 700;
   margin-bottom: 5px;
-  text-decoration: underline;
 }
 
 #champion-title {
