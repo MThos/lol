@@ -72,7 +72,7 @@ LEAGUE CENSUS is released under the [GNU General Public License](https://github.
 
 **Copyright**
 
-Copyright © 2021 - LEAGUECENSUS.COM
+Copyright © 2022 - LEAGUECENSUS.COM
 
 <br/>
 
