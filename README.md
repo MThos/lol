@@ -10,7 +10,7 @@ LEAGUE CENSUS is a **ReactJS App** for retrieval of champion and item informatio
 
 This application also makes use of information provided from **Meraki Analytics**. You can find their Github page [here](https://github.com/meraki-analytics/)
 
-[LEAGUECENSUS.COM](https://leaguecensus.com)
+[LEAGUECENSUS.COM](https://www.leaguecensus.com)
 
 <br/>
 
