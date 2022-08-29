@@ -37,7 +37,7 @@ const Champion = () => {
   if (Object.keys(static_data).length > 0 & Object.keys(datadragon).length > 0) {
     return (
       <section>
-        <div id="champion-detail">
+        <div id="champion-detail" className="fade-in">
           <Name static_data={static_data} />
           <Title static_data={static_data} />
           <Image champion_name={champion_name} />

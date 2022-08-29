@@ -108,6 +108,34 @@ body {
   display: none;
 }
 
+.fade-in {
+  animation: fadeIn 1s;
+  -webkit-animation: fadeIn 1s;
+}
+
+.fade-in-fast {
+  animation: fadeIn 200ms;
+  -webkit-animation: fadeIn 200ms;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .flexbox-row {
   display: flex;
   flex-direction: row;

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className="fade-in">
       <ul>
         <li>Copyright &#169; {new Date().getFullYear()}</li>
         <li><a href="/privacy" id="privacy" className="nav-link">Privacy Policy</a></li>

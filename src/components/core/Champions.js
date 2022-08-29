@@ -1,11 +1,11 @@
 import React from 'react';
 import data_dragon from '../../data_dragon/champion.json';
 
-const Champion = () => {
+const Champions = () => {
   if (Object.keys(data_dragon).length > 0) {
     return (
       <section>
-        <div id="champions">
+        <div id="champions" className="fade-in">
           {Object.keys(data_dragon).length > 0 && Object.keys(data_dragon.data).map((key, i) => (
             <div className="champion" key={i}>
               <a href={`/champion/${data_dragon['data'][key]['name']}`}>
@@ -31,4 +31,4 @@ const FixChampionNames = (name) => {
   }
 }
 
-export default Champion;
+export default Champions;
