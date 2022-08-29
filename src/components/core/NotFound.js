@@ -1,20 +1,23 @@
 import React from 'react';
+import AnimateStyled from 'animate-styled';
 
 const NotFound = () => {
   return(    
     <section>
-      <div id="not-found">
-        <div id="not-found-top">
-          <h1>OH NO!</h1>
-          <h5>Return Code: 404</h5>
+      <AnimateStyled name="fadeIn" iterationCount="1" duration="1s">
+        <div id="not-found">
+          <div id="not-found-top">
+            <h1>OH NO!</h1>
+            <h5>Return Code: 404</h5>
+          </div>
+          <img id="not-found-img" src={process.env.PUBLIC_URL + "/images/compressed/teemo_cry.webp"} width="300px" alt="Not Found" />
+          <div id="not-found-quote">
+            <h3>That page must be lost &#8212; but a wise man once said...</h3>
+            <h2>"No one who wanders is ever truly lost."</h2>
+            <h4>- Ivern, the Green Father</h4>
+          </div>
         </div>
-        <img id="not-found-img" src={process.env.PUBLIC_URL + "/images/compressed/teemo_cry.webp"} width="300px" alt="Not Found" />
-        <div id="not-found-quote">
-          <h3>That page must be lost &#8212; but a wise man once said...</h3>
-          <h2>"No one who wanders is ever truly lost."</h2>
-          <h4>- Ivern, the Green Father</h4>
-        </div>
-      </div>
+      </AnimateStyled>
     </section>
   );
 }
