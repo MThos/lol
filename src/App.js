@@ -14,9 +14,9 @@ import NotFound from './components/core/NotFound';
 const App = () => {
   return (
     <main className="App">
+    <Patch />
+    <Header />
       <BrowserRouter>
-        <Patch />
-        <Header />
         <Routes>
           <Route path="/" element={<Champions />} />
           <Route path="/champions" element={<Champions />} />
@@ -27,8 +27,8 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-        <Footer />
       </BrowserRouter>
+      <Footer />
     </main>
   );
 }
