@@ -16,7 +16,6 @@ import Released from './Released';
 import Updated from './Updated';
 import Skins from './Skins';
 import NotFound from '../core/NotFound';
-import AnimateStyled from 'animate-styled';
 
 const Champion = () => {
   const champion_name = FixChampionNames(); // fix abnormal champion names
@@ -35,45 +34,43 @@ const Champion = () => {
     .catch(err => setError(err));
   }, [champion_name]);
 
-  if (Object.keys(static_data).length > 0 & Object.keys(datadragon).length > 0) {        
+  if (Object.keys(static_data).length > 0 & Object.keys(datadragon).length > 0) {
     return (
       <section>
-        <AnimateStyled name="fadeIn" iterationCount="1" duration="1s">
-          <div id="champion-detail">
-            <Name static_data={static_data} />
-            <Title static_data={static_data} />
-            <Image champion_name={champion_name} />
-            <Price static_data={static_data} />
-            <div id="champion-roles-release">
-              <Released static_data={static_data} />
-              <Roles static_data={static_data} />
-              <Updated static_data={static_data} />
-            </div>
-            <Lore static_data={static_data} />
-            <div id="champion-tips">
-              <Tips type="friendly" data_dragon={datadragon} champion_name={champion_name} />
-              <Tips type="enemy" data_dragon={datadragon} champion_name={champion_name} />
-            </div>
-            <Separator />
-            <div id="champion-abilities">
-              <Heading title="PASSIVE + ABILITIES" image={["sword_fire", "fire"]} />
-              <Passive hotkey="P" static_data={static_data} />
-              <Separator />
-              <Spell hotkey="Q" static_data={static_data} />
-              <Separator />
-              <Spell hotkey="W" static_data={static_data} />
-              <Separator />
-              <Spell hotkey="E" static_data={static_data} />
-              <Separator />
-              <Spell hotkey="R" static_data={static_data} />
-            </div>
-            <Separator />
-            <div id="champion-skins">
-              <Heading title="SKIN PURCHASES" />
-              <Skins static_data={static_data} />
-            </div>
+        <div id="champion-detail">
+          <Name static_data={static_data} />
+          <Title static_data={static_data} />
+          <Image champion_name={champion_name} />
+          <Price static_data={static_data} />
+          <div id="champion-roles-release">
+            <Released static_data={static_data} />
+            <Roles static_data={static_data} />
+            <Updated static_data={static_data} />
           </div>
-        </AnimateStyled>
+          <Lore static_data={static_data} />
+          <div id="champion-tips">
+            <Tips type="friendly" data_dragon={datadragon} champion_name={champion_name} />
+            <Tips type="enemy" data_dragon={datadragon} champion_name={champion_name} />
+          </div>
+          <Separator />
+          <div id="champion-abilities">
+            <Heading title="PASSIVE + ABILITIES" image={["sword_fire", "fire"]} />
+            <Passive hotkey="P" static_data={static_data} />
+            <Separator />
+            <Spell hotkey="Q" static_data={static_data} />
+            <Separator />
+            <Spell hotkey="W" static_data={static_data} />
+            <Separator />
+            <Spell hotkey="E" static_data={static_data} />
+            <Separator />
+            <Spell hotkey="R" static_data={static_data} />
+          </div>
+          <Separator />
+          <div id="champion-skins">
+            <Heading title="SKIN PURCHASES" />
+            <Skins static_data={static_data} />
+          </div>
+        </div>        
       </section>
     )
   } else if (Object.keys(error).length > 0) {
