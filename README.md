@@ -14,7 +14,7 @@ LEAGUE CENSUS is a **ReactJS App** for retrieval of champion and item informatio
 
 * ReactJS
 * NodeJS
-* Digital Ocean (App Platform CDN)
+* Digital Ocean (App Platform)
 * Cloudflare (DNS/Caching/SSL)
 
 <br/>
@@ -31,16 +31,23 @@ LEAGUE CENSUS is a **ReactJS App** for retrieval of champion and item informatio
 
 ## Images:
 <p float="left">
-  <img src="https://i.imgur.com/cmY19C2.png">&nbsp;&nbsp;
+  <img src="https://i.imgur.com/Y0jwa9U.png">
 </p>
+<br/>
 <p float="left">
-  <img src="https://i.imgur.com/k3wq1vW.png">
+  <img src="https://i.imgur.com/4BSle4c.png">
 </p>
+<br/>
 <p float="left">
-  <img src="https://i.imgur.com/Y2akqh7.png">
+  <img src="https://i.imgur.com/mXPxpnC.png">
 </p>
+<br/>
 <p float="left">
-  <img src="https://i.imgur.com/qulyfYD.png">
+  <img src="https://i.imgur.com/wjEseLe.png">
+</p>
+<br/>
+<p float="left">
+  <img src="https://i.imgur.com/OVrWDzZ.png">
 </p>
 
 <br/>
