@@ -118,6 +118,11 @@ body {
   -webkit-animation: fadeIn 200ms;
 }
 
+.fade-in-slow {
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+}
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
