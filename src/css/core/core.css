@@ -256,6 +256,7 @@ header {
 }
 
 .legal-sub-header {
+  border-bottom: 3px solid #ffd966;
   color: #ffd966;
   font-size: 1.1rem;
   font-weight: bold;
