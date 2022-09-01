@@ -47,7 +47,9 @@ const Champion = () => {
             <Roles static_data={static_data} />
             <Updated static_data={static_data} />
           </div>
+          <Separator />
           <Lore static_data={static_data} />
+          <Separator />
           <div id="champion-tips">
             <Tips type="friendly" data_dragon={datadragon} champion_name={champion_name} />
             <Tips type="enemy" data_dragon={datadragon} champion_name={champion_name} />
@@ -70,6 +72,7 @@ const Champion = () => {
             <Heading title="SKIN PURCHASES" />
             <Skins static_data={static_data} />
           </div>
+          <Separator />
         </div>        
       </section>
     )
