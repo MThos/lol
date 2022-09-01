@@ -151,7 +151,7 @@ footer {
   /* background:rgba(24, 24, 24, 1); */
   flex-shrink: 0;
   font-size: 1rem;
-  margin-top: 80px;
+  margin-top: 30px;
   padding: 2px 0 5px 0;
 }
 
@@ -160,7 +160,7 @@ footer a {
 }
 
 footer a:hover {
-  font-weight: bold;
+  font-weight: 700;
 }
 
 footer ul {
@@ -200,6 +200,8 @@ header {
 
 .header-button:hover {
   border: 8px solid #ffffff;
+  box-shadow: 0 0 10px 5px white;
+  cursor: pointer;
 }
 
 #header-img {
@@ -328,8 +330,8 @@ main {
 
 #riot-disclaimer {
   font-size: 0.8rem;
-  font-weight: 300;
-  padding: 20px 120px;
+  font-weight: 400;
+  padding: 20px 150px;
 }
 
 section {
@@ -500,7 +502,8 @@ section {
   }
 
   #riot-disclaimer {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
+    padding: 20px 30px;
   }
 
   section {
