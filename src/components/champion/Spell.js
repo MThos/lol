@@ -85,13 +85,13 @@ const SpellModifiers = (data) => {
         {
           data.leveling.map((key, index) => (            
             <div className={`champion-spell-description-detail ${margin_top}`} key={index}>
-              <div className={"champion-spell-description-detail"}>{key.attribute ? key.attribute.toUpperCase() + ':' : ""}</div>
+              <div className={"champion-spell-description-detail"}>{key.attribute ? key.attribute.toUpperCase() : ""}</div>
               {
                 typeof(key.modifiers) !== 'undefined' ?
                 key.modifiers.map((mod_key, index) => (
                   <div key={index}>
                     <div className={`champion-spell-description-detail 
-                      ${SpellColors(mod_key.units[0], key.attribute)}`}>{DecimalLimiter(mod_key.values, 1, true).join(' / ')} {ModifierUnits(mod_key.units[0])}</div>
+                      ${SpellColors(mod_key.units[0], key.attribute)}`}>{ModifierUnits(mod_key.units[0])} <br/> {DecimalLimiter(mod_key.values, 1, true).join(' / ')}</div>
                   </div>
                 )) : ""
               }
