@@ -6,6 +6,7 @@
 }
 
 .champion a img {
+  box-shadow: 0 0 10px 5px white;
   border: 6px solid black;
   border-radius: 90px;
   width: 100px;
@@ -22,6 +23,10 @@
   cursor: pointer;
 	-webkit-transform: scale(1.1);
 	transform: scale(1.1);
+}
+
+.champion p {
+  margin-top: 20px;
 }
 
 .champion * {
@@ -76,7 +81,8 @@
 }
 
 #champion-img img {
-  border: 8px solid black;
+  box-shadow: 0 0 10px 15px white;
+  border: 4px solid black;
   border-radius: 10px;
   max-width: 300px;
   width: 300px;
@@ -180,7 +186,8 @@
 }
 
 .champion-skin-img {
-  border: 8px solid black;
+  box-shadow: 0 0 10px 5px white;
+  border: 4px solid black;
   border-radius: 90px;
   -webkit-filter: contrast(120%);
   filter: contrast(120%);
@@ -190,6 +197,7 @@
 .champion-skin-name {
   color: #ffebc5;
   font-size: 1.2rem;
+  margin-top: 7px;
   text-align: center;
 }
 
@@ -236,7 +244,7 @@
 
 .champion-spell-name {
   color: #ffd966;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   font-weight: 700;
 }
 
@@ -245,6 +253,7 @@
 }
 
 .champion-spell-img {
+  box-shadow: 0 0 10px 6px white;
   border: 8px solid rgb(0, 0, 0, 1);
   border-radius: 90px;
   width: 90px;
@@ -427,6 +436,10 @@
     width: 70px;
   }
 
+  .champion p {
+    margin-top: 15px;
+  }
+
   #champion-abilities {
     margin: 50px 20px 20px 20px;
   }
@@ -489,6 +502,7 @@
   }
   
   .champion-spell-img {
+    box-shadow: 0 0 10px 5px white;
     width: 60px;
   }
 

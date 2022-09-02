@@ -180,12 +180,12 @@ header {
   padding: 10px 50px;
 }
 
-.header-button {  
+.header-button {
   background: #ffe185;
   background: -webkit-gradient(linear, left top, left bottom, from(#ffe185), to(#ffd145));
   background: -moz-linear-gradient(top, #ffe185, #ffd145);
   background: linear-gradient(to bottom, #ffe185, #ffd145);
-  border: 8px solid #ffc61b;
+  border: 8px solid white;
   border-radius: 5px;
   color: black;
   font-family: 'Inconsolata', 'Roboto', sans-serif;
@@ -200,7 +200,7 @@ header {
 
 .header-button:hover {
   border: 8px solid #ffffff;
-  box-shadow: 0 0 10px 5px white;
+  box-shadow: 0 0 10px 6px white;
   cursor: pointer;
 }
 
@@ -312,11 +312,13 @@ main {
 #not-found-top h1 {
   font-size: 5rem;
   font-family: 'Shadows Into Light', sans-serif;
+  letter-spacing: 5px;
   margin: 0;
   text-decoration: underline;
 }
 
 #not-found-top h5 {
+  font-size: 1rem;
   margin: 0;
 }
 
@@ -503,6 +505,10 @@ section {
 
   #not-found-top {
     margin-bottom: 20px;
+  }
+
+  #not-found-top h5 {
+    font-size: 0.8rem;
   }
 
   #patch {
