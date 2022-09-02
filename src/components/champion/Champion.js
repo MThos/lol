@@ -1,5 +1,5 @@
 import '../../css/champion/champion.css';
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { useLocation } from 'react-router-dom';
 import Heading from './Heading';
 import Separator from './Separator';
@@ -19,19 +19,23 @@ import NotFound from '../core/NotFound';
 
 const Champion = () => {
   const champion_name = FixChampionNames(); // fix abnormal champion names
-
+  const data_imported = useRef(false);
   const [static_data, setStaticData] = useState([]);
   const [datadragon, setDataDragon] = useState([]);
   const [error, setError] = useState([]);
 
   useEffect(() => {
-    import(`../../lolstaticdata/champions/${champion_name}.json`)
-    .then((res) => setStaticData(res))
-    .catch(err => setError(err));
+    if (data_imported.current === false) {
+      import(`../../lolstaticdata/champions/${champion_name}.json`)
+      .then((res) => setStaticData(res))
+      .catch(err => setError(err));
 
-    import(`../../data_dragon/champion/${champion_name}.json`)
-    .then((res) => setDataDragon(res.data))
-    .catch(err => setError(err));
+      import(`../../data_dragon/champion/${champion_name}.json`)
+      .then((res) => setDataDragon(res.data))
+      .catch(err => setError(err));
+
+      data_imported.current = true;
+    }
   }, [champion_name]);
 
   if (Object.keys(static_data).length > 0 & Object.keys(datadragon).length > 0) {
