@@ -30,7 +30,7 @@ const Privacy = () => {
         </div>
       </div>
       <div className="legal">
-        <div className="legal-sub-header">HOW DO WE USE YOUR PERSONAL INFORMATION?</div>
+        <div className="legal-sub-header">HOW WE USE PERSONAL INFORMATION</div>
         <div className="legal-body">
           We use the Order Information that we collect generally to fulfill any orders placed through the Site (including processing your payment information, arranging for shipping, and providing you with invoices and/or order confirmations). Additionally, we use this Order Information to:
         </div>
@@ -48,7 +48,7 @@ const Privacy = () => {
         </div>
       </div>
       <div className="legal">
-        <div className="legal-sub-header">SHARING YOUR PERSONAL INFORMATION</div>
+        <div className="legal-sub-header">SHARING PERSONAL INFORMATION</div>
         <div className="legal-body">
           We share your Personal Information with third parties to help us use your Personal Information, as described above.  For example, we use Shopify to power our online store - you can read more about how Shopify uses your Personal Information: https://www.shopify.com/legal/privacy. We also use Google Analytics to help us understand how our customers use the Site - you can read more about how Google uses your Personal Information here: https://www.google.com/intl/en/policies/privacy/. You can also opt-out of Google Analytics: https://tools.google.com/dlpage/gaoptout.
         </div>

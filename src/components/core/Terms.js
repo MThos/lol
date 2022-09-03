@@ -51,7 +51,7 @@ const Terms = () => {
         </div>
       </div>
       <div className="legal">
-        <div className="legal-sub-header">ACCURACY, COMPLETENESS AND TIMELINESS OF INFORMATION</div>
+        <div className="legal-sub-header">ACCURACY, COMPLETENESS AND TIMELINESS</div>
         <div className="legal-body">
           We are not responsible if information made available on this site is not accurate, complete or current. The material on this site is provided for general information only and should not be relied upon or used as the sole basis for making decisions without consulting primary, more accurate, more complete or more timely sources of information. Any reliance on the material on this site is at your own risk.
         </div>
@@ -60,7 +60,7 @@ const Terms = () => {
         </div>
       </div>
       <div className="legal">
-        <div className="legal-sub-header">MODIFICATIONS TO THE SERVICE AND PRICES</div>
+        <div className="legal-sub-header">CHANGES TO THE SERVICE AND PRICES</div>
         <div className="legal-body">
           Prices for our products are subject to change without notice.
         </div>
@@ -72,7 +72,7 @@ const Terms = () => {
         </div>
       </div>
       <div className="legal">
-        <div className="legal-sub-header">PRODUCTS OR SERVICES (if applicable)</div>
+        <div className="legal-sub-header">PRODUCTS OR SERVICES</div>
         <div className="legal-body">
           Certain products or services may be available exclusively online through the website. These products or services may have limited quantities and are subject to return or exchange only according to our Return Policy.
         </div>
@@ -87,7 +87,7 @@ const Terms = () => {
         </div>
       </div>
       <div className="legal">
-        <div className="legal-sub-header">ACCURACY OF BILLING AND ACCOUNT INFORMATION</div>
+        <div className="legal-sub-header">ACCURACY OF BILLING INFORMATION</div>
         <div className="legal-body">
           We reserve the right to refuse any order you place with us. We may, in our sole discretion, limit or cancel quantities purchased per person, per household or per order. These restrictions may include orders placed by or under the same customer account, the same credit card, and/or orders that use the same billing and/or shipping address. In the event that we make a change to or cancel an order, we may attempt to notify you by contacting the e-mail and/or billing address/phone number provided at the time the order was made. We reserve the right to limit or prohibit orders that, in our sole judgment, appear to be placed by dealers, resellers or distributors.
         </div>
@@ -123,7 +123,7 @@ const Terms = () => {
         </div>
       </div>
       <div className="legal">
-        <div className="legal-sub-header">USER COMMENTS, FEEDBACK AND OTHER SUBMISSIONS</div>
+        <div className="legal-sub-header">COMMENTS, FEEDBACK AND SUBMISSIONS</div>
         <div className="legal-body">
           If, at our request, you send certain specific submissions (for example contest entries) or without a request from us you send creative ideas, suggestions, proposals, plans, or other materials, whether online, by email, by postal mail, or otherwise (collectively, 'comments'), you agree that we may, at any time, without restriction, edit, copy, publish, distribute, translate and otherwise use in any medium any comments that you forward to us. We are and shall be under no obligation (1) to maintain any comments in confidence; (2) to pay compensation for any comments; or (3) to respond to any comments.
         </div>
