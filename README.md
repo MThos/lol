@@ -49,7 +49,7 @@ Coming Soon
 <br/>
 
 ## Version:
-**Current Leauge Patch: 12.15.1** 
+**Information Based On Patch: 12.15.1** 
 
 LEAGUE CENSUS is updated the day after every **major patch** released for League of Legends.
 
