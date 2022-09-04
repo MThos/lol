@@ -25,29 +25,25 @@ LEAGUE CENSUS is a **ReactJS App** for retrieval of champion and item informatio
 
 ## Video:
 
-![](https://github.com/MThos/lol/blob/master/public/videos/lol.gif)
+Coming Soon
 
 <br/>
 
 ## Images:
 <p float="left">
-  <img src="https://i.imgur.com/Y0jwa9U.png">
+  <img src="https://i.imgur.com/0UNZHve.png">
 </p>
 <br/>
 <p float="left">
-  <img src="https://i.imgur.com/4BSle4c.png">
+  <img src="https://i.imgur.com/cHMaTWD.png">
 </p>
 <br/>
 <p float="left">
-  <img src="https://i.imgur.com/mXPxpnC.png">
+  <img src="https://i.imgur.com/IXVEOKa.png">
 </p>
 <br/>
 <p float="left">
-  <img src="https://i.imgur.com/wjEseLe.png">
-</p>
-<br/>
-<p float="left">
-  <img src="https://i.imgur.com/OVrWDzZ.png">
+  <img src="https://i.imgur.com/K2KjRO0.png">
 </p>
 
 <br/>
