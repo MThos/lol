@@ -2,7 +2,7 @@ import '../../css/champion/champion.css';
 import React, { useState, useEffect, useRef } from 'react';
 import { useLocation } from 'react-router-dom';
 import Heading from './Heading';
-import Separator from './Separator';
+import Separator from '../core/Separator';
 import Name from './Name';
 import Title from './Title';
 import Price from './Price';
@@ -28,11 +28,11 @@ const Champion = () => {
     if (data_imported.current === false) {
       import(`../../lolstaticdata/champions/${champion_name}.json`)
       .then((res) => setStaticData(res))
-      .catch(err => setError(err));
+      .catch((err) => setError(err));
 
       import(`../../data_dragon/champion/${champion_name}.json`)
       .then((res) => setDataDragon(res.data))
-      .catch(err => setError(err));
+      .catch((err) => setError(err));
 
       data_imported.current = true;
     }
