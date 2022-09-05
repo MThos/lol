@@ -8,7 +8,7 @@ const Stats = (props) => {
   if (Object.keys(static_data['stats']).length > 0) {
     return (
       <div id="item-stats">
-        <Heading title="STATISTICS" />
+        <Heading title="STATISTICS MODIFIERS" />
         <div id="item-stat-flex">
           <div className="item-stat-top">
             <div>Stat</div>

@@ -110,6 +110,7 @@
   font-weight: 700;
   letter-spacing: 10px;
   text-transform: uppercase;
+  text-shadow: 2px 1px 40px #ffe185;
 }
 
 #champion-price {
