@@ -10,6 +10,8 @@ import Usage from './Usage';
 import Tier from './Tier';
 import Builds from './Builds';
 import Heading from './Heading';
+import Stats from './Stats';
+import Separator from '../core/Separator';
 
 const Item = () => {
   const location = useLocation();
@@ -40,18 +42,23 @@ const Item = () => {
           <Name static_data={static_data} />
           <Title static_data={static_data} />
           <Image static_data={static_data} />
-          <Tier static_data={static_data} />
+          <Tier static_data={static_data} />          
           <Price static_data={static_data} />
           <Usage static_data={static_data} />
+          <Separator />
+          <Stats static_data={static_data} />
+          <Separator />
           <div id="item-builds">
-            <Heading title="BUILDS INTO THESE ITEMS" />
+            <Heading title="BUILDS INTO" />
             <Builds static_data={static_data} data_dragon={data_dragon} type="into" />
           </div>
+          <Separator />
           <div id="item-builds">
-            <Heading title="BUILDS FROM THESE ITEMS" />
+            <Heading title="BUILDS FROM " />
             <Builds static_data={static_data} data_dragon={data_dragon} type="from" />
           </div>
-        </div>        
+          <Separator />
+        </div>
       </section>
     )
   } else if (Object.keys(error).length > 0) {
