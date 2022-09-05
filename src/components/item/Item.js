@@ -6,6 +6,10 @@ import Name from './Name';
 import Image from './Image';
 import Price from './Price';
 import Title from './Title';
+import Usage from './Usage';
+import Tier from './Tier';
+import Builds from './Builds';
+import Heading from './Heading';
 
 const Item = () => {
   const location = useLocation();
@@ -31,7 +35,17 @@ const Item = () => {
           <Name static_data={static_data} />
           <Title static_data={static_data} />
           <Image static_data={static_data} />
+          <Tier static_data={static_data} />
           <Price static_data={static_data} />
+          <Usage static_data={static_data} />
+          <div id="item-builds">
+            <Heading title="BUILDS INTO" />
+            <Builds static_data={static_data} type="into" />
+          </div>
+          <div id="item-builds">
+            <Heading title="BUILDS FROM" />
+          <Builds static_data={static_data} type="from" />
+          </div>
         </div>        
       </section>
     )
