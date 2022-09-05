@@ -105,3 +105,49 @@ export function DecimalLimiter(value, fixed, round) {
   
   return new_value_array;
 }
+
+export function StatCrossReference(type) {
+  if (type === "abilityPower") {
+    return "Ability Power";
+  } else if (type === "armor") {
+    return "Armor";
+  } else if (type === "armorPenetration") {
+    return "Armor Penetration";
+  } else if (type === "attackDamage") {
+    return "Attack Damage";
+  } else if (type === "attackSpeed") {
+    return "Attack Speed";
+  } else if (type === "cooldownReduction") {
+    return "Cooldown Reduction";
+  } else if (type === "criticalStrikeChance") {
+    return "Critical Strike Chance";
+  } else if (type === "goldPer_10") {
+    return "Gold Per 10";
+  } else if (type === "healAndShieldPower") {
+    return "Heal And Shield Power";
+  } else if (type === "health") {
+    return "Health";
+  } else if (type === "healthRegen") {
+    return "Health Regen";
+  } else if (type === "lethality") {
+    return "Lethality";
+  } else if (type === "lifesteal") {
+    return "Lifesteal";
+  } else if (type === "magicPenetration") {
+    return "Magic Penetration";
+  } else if (type === "magicResistance") {
+    return "Magic Resistance";
+  } else if (type === "mana") {
+    return "Mana";
+  } else if (type === "manaRegen") {
+    return "Mana Regen";
+  } else if (type === "movespeed") {
+    return "Move Speed";
+  } else if (type === "abilityHaste") {
+    return "Ability Haste";
+  } else if (type === "omnivamp") {
+    return "Omnivamp";
+  } else if (type === "tenacity") {
+    return "Tenacity";
+  }
+}
