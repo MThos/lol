@@ -7,7 +7,7 @@ const Usage = (props) => {
   if (static_data['shop']['tags'].length > 0) {
     return (
       <div id="item-usages">
-        <Heading title="usage" />
+        <Heading title="WHAT IS THIS ITEM USED FOR" />
         <div id="item-usage-flex">
           { Tags(static_data) }
         </div>      
