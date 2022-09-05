@@ -1,0 +1,35 @@
+import React from 'react';
+
+const Builds = (props) => {
+  const static_data = props.static_data;
+  const type = props.type;
+  const builds = (type === "from" ? static_data['buildsFrom'] : static_data['buildsInto']);
+  const build_list = [];
+
+  if (builds.length > 0) {
+    builds.forEach(key => {
+      build_list.push(
+        <div className="item-build" key={key}>
+          <div>
+            <a href={`/item/${key}`}>
+              <img className="item-build-img" src={`../images/compressed/item/${key}.webp`} alt={key} />
+            </a>
+          </div>
+        </div>)
+    });
+  }
+  
+  if (build_list.length > 0) {
+    return (
+      <div id="item-builds-list">
+        {build_list}
+      </div>
+    )
+  } else {
+    return (
+      <div className="item-build-none">Nothing</div>
+    )
+  }
+}
+
+export default Builds;
