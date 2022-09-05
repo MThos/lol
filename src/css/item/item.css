@@ -11,7 +11,7 @@
   border: 6px solid black;
   border-radius: 90px;
   margin: 0 auto;
-  width: 100px;
+  width: 80px;
   -webkit-filter: contrast(120%);
   filter: contrast(120%);
 	-webkit-transform: scale(1);
@@ -45,6 +45,48 @@
   padding: 60px 25px 40px 25px;
 }
 
+.item-build {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 12%;
+  font-weight: 700;
+  gap: 5px;
+}
+
+.item-build-img {
+  box-shadow: 0 0 10px 10px white;
+  border: 4px solid black;
+  border-radius: 90px;
+  -webkit-filter: contrast(120%);
+  filter: contrast(120%);
+  width: 80px;
+}
+
+.item-build-none {
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+#item-builds {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 40px 30px;
+  width: 100%;
+}
+
+#item-builds-list {  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  row-gap: 40px;
+}
+
 #item-detail {
   align-items: center;
   display: flex;
@@ -54,12 +96,28 @@
   margin-top: 10px;
 }
 
+.item-heading {
+  color: #ffebc5;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.item-heading-img {
+  width: 30px;
+  vertical-align: middle;
+  padding: 0 25px 5px 25px;
+  -webkit-filter: contrast(120%);
+  filter: contrast(120%);
+}
+
 #item-img img {
   box-shadow: 0 0 10px 10px white;
   border: 6px solid black;
   border-radius: 10px;
   max-width: 100px;
-  width: 100px;
+  width: 80px;
   margin: 40px 0 30px 0;
   -webkit-filter: contrast(120%);
   filter: contrast(120%);
@@ -67,7 +125,7 @@
 
 #item-name {
   color: #ffd966;
-  font-size: 3rem;
+  font-size: 4rem;
   font-family: 'Shadows Into Light', sans-serif;
   font-weight: 700;
   letter-spacing: 4px;
@@ -78,34 +136,38 @@
   align-items: center;
   display: flex;
   flex-direction: row;
-  font-size: 1.7rem;
+  font-size: 1.9rem;
   font-weight: 700;
   gap: 30px;
-  margin: 0 0 30px 0;
+  margin: 40px 0 30px 0;
 }
 
 #item-price-buy {
+  align-items: flex-end;
   color: #ffd966;
   display: flex;
   flex-direction: column;
+  width: 100px;
 }
 
 #item-price-buy div:first-of-type {
-  color: white !important;
-  font-size: 1.3rem;
+  color: #ffebc5 !important;
+  font-size: 1.6rem;
   margin-bottom: 5px;
   text-align: right;
 }
 
 #item-price-sell {
+  align-items: flex-start;
   color: rgb(225, 60, 60);
   display: flex;
   flex-direction: column;
+  width: 100px;
 }
 
 #item-price-sell div:first-of-type {
-  color: white !important;
-  font-size: 1.3rem;
+  color: #ffebc5 !important;  
+  font-size: 1.6rem;
   margin-bottom: 5px;
   text-align: left;
 }
@@ -127,11 +189,36 @@
   margin: 10px 0 6px 0;
 }
 
+#item-tier {
+  font-weight: 700;
+  margin-top: 10px;
+}
+
 #item-title {
   font-size: 1.2rem;
   font-weight: 600;
   margin-top: -5px;
   margin-bottom: 15px;
+}
+
+.item-usage {
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.item-usage::first-letter { 
+  text-transform: capitalize;
+}
+
+#item-usage-flex {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+#item-usages {
+  margin: 40px 0;
 }
 
 
