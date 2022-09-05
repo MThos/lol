@@ -16,12 +16,17 @@ const Item = () => {
   const item_name = location.pathname.substring(location.pathname.lastIndexOf('/') + 1);
   const data_imported = useRef(false);
   const [static_data, setStaticData] = useState([]);
+  const [data_dragon, setDataDragon] = useState([]);
   const [error, setError] = useState([]);
 
   useEffect(() => {
     if (data_imported.current === false) {
       import(`../../lolstaticdata/items/${item_name}.json`)
       .then((res) => setStaticData(res))
+      .catch((err) => setError(err));
+
+      import(`../../data_dragon/item.json`)
+      .then((res) => setDataDragon(res.data))
       .catch((err) => setError(err));
 
       data_imported.current = true;
@@ -39,12 +44,12 @@ const Item = () => {
           <Price static_data={static_data} />
           <Usage static_data={static_data} />
           <div id="item-builds">
-            <Heading title="BUILDS INTO" />
-            <Builds static_data={static_data} type="into" />
+            <Heading title="BUILDS INTO THESE ITEMS" />
+            <Builds static_data={static_data} data_dragon={data_dragon} type="into" />
           </div>
           <div id="item-builds">
-            <Heading title="BUILDS FROM" />
-          <Builds static_data={static_data} type="from" />
+            <Heading title="BUILDS FROM THESE ITEMS" />
+            <Builds static_data={static_data} data_dragon={data_dragon} type="from" />
           </div>
         </div>        
       </section>
