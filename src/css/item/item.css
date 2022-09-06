@@ -161,6 +161,9 @@
   letter-spacing: 1px;
   text-transform: uppercase;
   text-shadow: 2px 1px 40px #ffe185;
+  max-width: 800px;
+  width: 800px;
+  text-align: center;
 }
 
 #item-passives {
@@ -255,6 +258,7 @@
 }
 
 #item-tier {
+  font-size: 1rem;
   font-weight: 700;
   margin-top: 10px;
 }
@@ -362,9 +366,11 @@
   }
 
   #item-name {
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     letter-spacing: 0.7px;
     text-shadow: 2px 1px 40px #ffe185;
+    width: 380px;
+    max-width: 380px;
   }
 
   .item-passive {
