@@ -50,7 +50,7 @@
 }
 
 .item-active {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 600;
   margin-top: 10px;
   text-align: center;
@@ -94,7 +94,7 @@
 
 .item-build-none {
   color: rgb(225, 60, 60);
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 700;
   text-align: center;
   text-transform: capitalize;
@@ -155,10 +155,10 @@
 
 #item-name {
   color: #ffd966;
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-family: 'Shadows Into Light', sans-serif;
   font-weight: 700;
-  letter-spacing: 4px;
+  letter-spacing: 1px;
   text-transform: uppercase;
   text-shadow: 2px 1px 40px #ffe185;
 }
@@ -168,7 +168,7 @@
 }
 
 .item-passive {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 600;
   margin-top: 10px;
   text-align: center;
@@ -180,7 +180,7 @@
   align-items: center;
   display: flex;
   flex-direction: row;
-  font-size: 1.9rem;
+  font-size: 1.7rem;
   font-weight: 700;
   gap: 30px;
   margin: 20px 0;
@@ -236,7 +236,7 @@
 .item-stat {
   display: flex;
   flex-direction: row;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 600;
   gap: 5px;
   margin: 0 auto;
@@ -269,7 +269,7 @@
 }
 
 .item-usage {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 600;
   text-transform: capitalize;
   text-align: center;
