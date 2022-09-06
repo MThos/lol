@@ -8,9 +8,9 @@ const Builds = (props) => {
   const build_list = [];
 
   if (builds.length > 0) {
-    builds.forEach(key => {
+    builds.forEach((key, index) => {
       build_list.push(
-        <div className="item-build" key={key}>
+        <div className="item-build" key={index}>
           <a href={`/item/${key}`}>
             <div>
               <img className="item-build-img" src={`../images/compressed/item/${key}.webp`} alt={key} />
