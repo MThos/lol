@@ -120,11 +120,11 @@ export function StatCrossReference(type) {
   } else if (type === "cooldownReduction") {
     return "Cooldown Reduction";
   } else if (type === "criticalStrikeChance") {
-    return "Critical Strike Chance";
+    return "Critical Strike";
   } else if (type === "goldPer_10") {
     return "Gold Per 10";
   } else if (type === "healAndShieldPower") {
-    return "Heal And Shield Power";
+    return "Shield Power";
   } else if (type === "health") {
     return "Health";
   } else if (type === "healthRegen") {
@@ -149,5 +149,25 @@ export function StatCrossReference(type) {
     return "Omnivamp";
   } else if (type === "tenacity") {
     return "Tenacity";
+  } else {
+    return type;
+  }
+}
+
+export function StatModCrossReference(type, value) {
+  if (type === "flat") {
+    return value;
+  } else if (type === "percent") {
+    return value + '%';
+  } else if (type === "perLevel") {
+    return value + '/LVL';
+  } else if (type === "percentPerLevel") {
+    return value + '%/LVL';
+  } else if (type === "percentBase") {
+    return value + '%';
+  } else if (type === "percentBonus") {
+    return value + '%';
+  } else {
+    return value;
   }
 }
