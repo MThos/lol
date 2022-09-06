@@ -7,7 +7,7 @@ const Title = (props) => {
   if (title) {
     return (
       <div id="item-title">
-        &#183;{title}&#183;
+        "{title}"
       </div>
     )
   } else {
