@@ -11,6 +11,8 @@ import Tier from './Tier';
 import Builds from './Builds';
 import Heading from './Heading';
 import Stats from './Stats';
+import Passives from './Passives';
+import Actives from './Actives';
 import Separator from '../core/Separator';
 
 const Item = () => {
@@ -47,6 +49,8 @@ const Item = () => {
           <Usage static_data={static_data} />
           <Separator />
           <Stats static_data={static_data} />
+          <Passives static_data={static_data} />
+          <Actives static_data={static_data} />
           <Separator />
           <div id="item-builds">
             <Heading title="BUILDS INTO" />
