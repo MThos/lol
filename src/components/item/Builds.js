@@ -29,7 +29,7 @@ const Builds = (props) => {
     )
   } else {
     return (
-      <div className="item-build-none">Nothing</div>
+      <div className="item-build-none">NO ITEMS</div>
     )
   }
 }
