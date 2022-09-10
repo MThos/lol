@@ -19,12 +19,21 @@ const Actives = (props) => {
 }
 
 const Active = (static_data) => {
-  const active_data = static_data['active'];
-  const effect = active_data[0]['effects'];
+  let active_data = static_data['active'][0]['effects'];
+  let active_mod = active_data.replace(/{{.*?\||}}|'''|''|\[\[|\]\]/g, "");
+  active_mod = active_mod.replace("cr|icononly=true", "");
+  active_mod = active_mod.replace("|type=target's level", "");
+  active_mod = active_mod.replace("|pp=true", "");
+  active_mod = active_mod.replace("ability|ability", "ability");
+  active_mod = active_mod.replace("physical damage|physical damage", "physical damage");
+  active_mod = active_mod.replace("physical|physical damage", "physical damage");
+  active_mod = active_mod.replace("magic|magic damage", "magic damage");
+  active_mod = active_mod.replace("shield|shields", "shields");
+  active_mod = active_mod.replace("death|lethal damage", "lethal damage");
+  active_mod = active_mod.replace("|", "/");
+  active_mod = active_mod.replace(/\s+/g, " ");
 
-  return (
-    effect.replace(/{{.*?\||}}|'|[^a-zA-Z 0-9 . % -]/g, " ")
-  )
+  return active_mod;
 }
 
 export default Actives;
