@@ -35,7 +35,9 @@ const Stat = (static_data) => {
   stat_collection.map((key => (
     stat_arr.push(
       <div className="item-stat" key={key}>
-        <div>{key[0]} <span className="color-green">+{key[1]}</span></div>
+        <div className="item-stat-mod">{key[0]}</div>
+        <div className="item-stat-dash">:</div>
+        <div className="item-stat-value color-green">+{key[1]}</div>
       </div>
     )
   )));
