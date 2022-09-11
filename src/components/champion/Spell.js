@@ -31,7 +31,7 @@ const Spell = (props) => {
           {name}
         </div>
         <div className="champion-spell-key text-align-right bold">
-          KEY &#183; {hotkey}
+          KEY: {hotkey}
         </div>
       </div>
       <div className="champion-spells-row">
