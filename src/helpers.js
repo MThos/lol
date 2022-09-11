@@ -58,6 +58,10 @@ export function SpellColors(unit, attribute) {
     return "color-brown";
   } else if (isExactMatch(attribute, 'shield')) {
     return "color-green";
+  } else if (isExactMatch(attribute, 'heal')) {
+      return "color-green";
+  } else if (isExactMatch(attribute, 'healing')) {
+    return "color-green";
   } else if (isExactMatch(attribute, 'speed')) {
     return "color-yellow";
   } else if (isExactMatch(attribute, 'stun')) {
