@@ -4,7 +4,7 @@
   "name": "Yone",
   "title": "the Unforgotten",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Yone.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Yone.png",
   "resource": "SOUL_UNBOUND",
   "attackType": "MELEE",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -285,7 +285,7 @@
             ]
           },
           {
-            "description": "If this hits at least one enemy, Yone generates a stack of Gathering Storm for 6 seconds, which refreshes on subsequent hits. At 2 stacks, the next Mortal Steel consumes them all to become empowered with a new effect.",
+            "description": "If this hits at least one enemy, Yone generates a stack of Gathering Storm for 6 seconds, stacking up to 2 times and refreshing on subsequent hits. At 2 stacks, the next Mortal Steel consumes them all to become empowered with a new effect.",
             "leveling": []
           },
           {
@@ -466,7 +466,7 @@
             ]
           },
           {
-            "description": "If this hits an enemy, Yone shields himself for 35 − 55 (based on level) (+ 55% bonus AD) for 1.5 seconds, increased by 100% if it hits a champion and by 50% for each subsequent champion hit.",
+            "description": "If this hits an enemy, Yone grants himself a shield for 35 − 55 (based on level) (+ 55% bonus AD) for 1.5 seconds, increased by 100% if it hits a champion and by 50% for each subsequent champion hit.",
             "leveling": []
           }
         ],
@@ -618,7 +618,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Yone/ability-icon/r",
         "effects": [
           {
-            "description": "Active: Yone prepares a strike over the cast time, then marks all enemies within a line in the target direction, knocking them down and stunning them for 1 second. He blinks 200 units beyond the center of the last enemy champion struck, else to maximum range instead.",
+            "description": "Active: Yone prepares a strike over the cast time, then marks all enemies within a line in the target direction, knocking them down and stunning them for 1 second. He blinks 200 units beyond the center of the last enemy champion struck, or else to maximum range instead.",
             "leveling": []
           },
           {
@@ -771,6 +771,7 @@
     "saleRp": 0
   },
   "lore": "In life, he was Yone—half-brother of Yasuo, and renowned student of his village's sword school. But upon his death at the hands of his brother, he found himself hunted by a malevolent entity of the spirit realm, and was forced to slay it with its own sword. Now, cursed to wear its demonic mask upon his face, Yone tirelessly hunts all such creatures in order to understand what he has become.",
+  "faction": "ionia",
   "skins": [
     {
       "name": "Original",
@@ -988,7 +989,7 @@
       "lore": "Long ago, two brothers fought a bitter war across Ionia. Yone, the older brother, was a warlord renowned for his adherence to honor and duty. He fought to defend the country against those who would break its rites and rituals - until he was forced to confront his own brother for his crimes. Both were fated to fall in their final duel… a lesson, perhaps, in pride and hubris.",
       "release": "2020-08-06",
       "set": [
-        "Kanmei"
+        "Spirit Blossom"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/777/777001.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/777/777001.jpg",
@@ -1357,8 +1358,8 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/777/777019.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/777/777019.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/777/777019.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/yone/skins/skin19/yoneloadscreen_19.pie_c_11_19.jpg",
-      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/yone/skins/skin19/yoneloadscreen_19_le.pie_c_11_19.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/yone/skins/skin19/yoneloadscreen_19.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/yone/skins/skin19/yoneloadscreen_19_le.jpg",
       "newEffects": true,
       "newAnimations": true,
       "newRecall": true,

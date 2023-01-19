@@ -10,7 +10,7 @@
   "removed": false,
   "requiredChampion": "Gangplank",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3902_champ_t0_deathsdaughtercircle.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3902_champ_t0_deathsdaughtercircle.png",
   "simpleDescription": "<mainText>Cannon Barrage additionally fires a mega-cannonball at the center of the Barrage, dealing <trueDamage>300% true damage</trueDamage> and <status>Slowing</status> them by 60% for 1.5 seconds.</mainText>",
   "nicknames": [],
   "passives": [
@@ -20,6 +20,7 @@
       "name": "Death's Daughter",
       "effects": "A massive cannonball lands after {{ais|Cannon Barrage|Gangplank}} first cluster of waves, dealing {{sti|true damage|{{as|{{ap|120 to 300 3}}|true damage}}}} {{as|(+ 30% AP)}} {{as|true damage}} to enemies struck and {{tip|slow|slowing}} them by 60% for {{fd|1.5}} seconds.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,

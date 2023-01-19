@@ -4,7 +4,7 @@
   "name": "Kai'Sa",
   "title": "Daughter of the Void",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Kaisa.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Kaisa.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -200,15 +200,15 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Kaisa/ability-icon/p",
         "effects": [
           {
-            "description": "Innate - Living Weapon: Upon gaining a set amount of permanent stats from items and stat growth, Kai'Sa can evolve the related basic ability after being in cast time for 2 seconds. The upgrade is lost if the stat requirement is no longer met.",
+            "description": "Innate - Living Weapon: Kai'Sa can evolve each of her basic abilities by gaining a set amount of permanent stats from items and stat growth, granting them additional effects. Evolving an ability causes her to enter a 2-second cast time. The upgrade is lost if the stat requirement is no longer met.",
             "leveling": []
           },
           {
-            "description": "Innate - Plasma: Kai'Sa's basic attacks on-hit and Void Seeker apply stacks of Plasma to enemies that lasts 4 seconds, which refreshes on subsequent stacks and stacks up to 4 times. Her and nearby allies' immobilizing effects and polymorphs against enemy champions will also apply Plasma.",
+            "description": "Innate - Plasma: Kai'Sa's basic attacks on-hit and Void Seeker apply stacks of Plasma to enemies for 4 seconds, refreshing on subsequent applications and stacking up to 5 times. Basic attacks each apply 1 stack and Void Seeker applies 2 stacks, increased to 3 if it is evolved. Her and nearby allies' immobilizing effects and polymorphs against enemy champions will also apply a stack of Plasma.",
             "leveling": []
           },
           {
-            "description": "Innate - Caustic Wounds: Plasma stacks applied by Kai'Sa's basic attacks or Void Seeker deal 4 − 16 (based on level) (+ 1 − 8 (based on level) per Plasma stack before application) (+ 15% − 25% (based on Plasma stacks before application) AP) bonus magic damage. Her next stack against a target with 4 Plasma will instead consume them to deal an additional 15% (+ 5% per 100 AP) of the target's missing health bonus magic damage, capped at 400 against monsters.",
+            "description": "Innate - Caustic Wounds: Plasma stacks applied by Kai'Sa's basic attacks or Void Seeker deal 5 − 23 (based on level) (+ 1 − 12 (based on level) per Plasma stack before application) (+ 15% − 25% (based on Plasma stacks before application) AP) bonus magic damage. The fifth stack against a target consumes them all to deal additional bonus magic damage equal to 15% (+ 6% per 100 AP) of the target's missing health, capped at 400 against monsters.",
             "leveling": []
           }
         ],
@@ -223,7 +223,7 @@
         "projectile": null,
         "onHitEffects": null,
         "occurrence": null,
-        "notes": "Kai'Sa receives the evolution even if she dies while in cast time.\nKai'Sa can evolve an ability even if she hasn't learned it yet.\nPlasma stacks that exceed the rupture are reapplied normally.\n Spell shield will block the Plasma application from  Void Seeker only.\nWith  Void Seeker, if the stacks detonate Plasma, any remaining stacks are reapplied afterwards.  Void Seeker also deals Caustic Wounds' damage based on Plasma stacks on the target. This damage is calculated as if each stack was applied successively.\nHitting a target with 0 stack with normal Void Seeker: 8 − 32 (based on level) (+ 1 − 8 (based on level) (+ 32.5% AP)\nHitting a target with 3 stacks with normal Void Seeker: 8 − 32 (based on level) (+ 7 − 56 (based on level) (+ 47.5% AP)\nHitting a target with 0 stack with evolved Void Seeker: 12 − 48 (based on level) (+ 3 − 24 (based on level) (+ 52.5% AP)\nHitting a target with 2 stacks with evolved Void Seeker: 12 − 48 (based on level) (+ 9 − 72 (based on level) (+ 67.5% AP)",
+        "notes": "Kai'Sa receives the evolution even if she dies while in cast time.\nKai'Sa can evolve an ability even if she hasn't learned it yet.\nThe bonus missing health damage is evaluated after the initial damage from Caustic Wounds is evaluated, and after  Void Seeker's damage if triggered by it, but before a triggering basic attack's is.\nThis effectively increases the \"flat\" Caustic Wounds damage preceding the expunge proc and (if applicable)  Void Seeker damage and any potential preceding on-hit damage (usually not possible to acquire due to buff slot order) by 15% (+ 6% per 100 AP) divided by (1+the target's MR post penetration/100).\nPlasma stacks that exceed the rupture are reapplied normally.\n Spell shield will block the Plasma application from  Void Seeker only.\nWith  Void Seeker, if the stacks detonate Plasma, any remaining stacks are reapplied afterwards.  Void Seeker also deals Caustic Wounds' damage based on Plasma stacks on the target. This damage is calculated as if each stack was applied successively.\nHitting a target with 0 stack with normal Void Seeker: 10 − 46 (based on level) (+ 1 − 12 (based on level) (+ 32.5% AP)\nHitting a target with 3 stacks with normal Void Seeker: 10 − 46 (based on level) (+ 7 − 84 (based on level) (+ 47.5% AP)\nHitting a target with 0 stack with evolved Void Seeker: 15 − 69 (based on level) (+ 3 − 36 (based on level) (+ 52.5% AP)\nHitting a target with 2 stacks with evolved Void Seeker: 15 − 69 (based on level) (+ 9 − 108 (based on level) (+ 67.5% AP)",
         "blurb": "Innate - Living Weapon: When  Kai'Sa gains enough power from growth and item purchases, she can evolve her basic abilities.",
         "missileSpeed": null,
         "rechargeRate": null,
@@ -245,7 +245,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Kaisa/ability-icon/q",
         "effects": [
           {
-            "description": "Active: Kai'Sa releases a swarm of 6 missiles that evenly distributes among nearby visible enemies, each one hitting their target after 0.4 seconds and dealing physical damage. Minions below 35% health take double damage.",
+            "description": "Active: Kai'Sa releases a swarm of 6 missiles that evenly distributes among nearby visible enemies, each one hitting their target after 0.4 seconds to deal physical damage. Minions below 35% health take double damage.",
             "leveling": [
               {
                 "attribute": "Physical Damage Per Missile",
@@ -284,11 +284,11 @@
                   },
                   {
                     "values": [
-                      25,
-                      25,
-                      25,
-                      25,
-                      25
+                      30,
+                      30,
+                      30,
+                      30,
+                      30
                     ],
                     "units": [
                       "% AP",
@@ -342,11 +342,11 @@
                   },
                   {
                     "values": [
-                      6.25,
-                      6.25,
-                      6.25,
-                      6.25,
-                      6.25
+                      7.5,
+                      7.5,
+                      7.5,
+                      7.5,
+                      7.5
                     ],
                     "units": [
                       "% AP",
@@ -395,11 +395,11 @@
                   },
                   {
                     "values": [
-                      56.25,
-                      56.25,
-                      56.25,
-                      56.25,
-                      56.25
+                      67.5,
+                      67.5,
+                      67.5,
+                      67.5,
+                      67.5
                     ],
                     "units": [
                       "% AP",
@@ -414,7 +414,7 @@
             ]
           },
           {
-            "description": "Living Weapon: Requires [ 100 − 66 (based on level) attack damage from items ][ 100 attack damage from items and stat growth ] to upgrade : Icathian Rain instead fires 12 missiles.",
+            "description": "Evolution: Requires[ 100 − 66 (based on level) attack damage from items ][ 100 attack damage from items and stat growth ]to upgrade : Icathian Rain instead fires 12 missiles.",
             "leveling": [
               {
                 "attribute": "Total Evolved Single-Target Damage",
@@ -453,11 +453,11 @@
                   },
                   {
                     "values": [
-                      93.75,
-                      93.75,
-                      93.75,
-                      93.75,
-                      93.75
+                      112.5,
+                      112.5,
+                      112.5,
+                      112.5,
+                      112.5
                     ],
                     "units": [
                       "% AP",
@@ -548,7 +548,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Kaisa/ability-icon/w",
         "effects": [
           {
-            "description": "Active: Kai'Sa fires a void bolt in the target direction that grants sight around its trajectory as it travels, dealing magic damage to the first enemy hit, applying 2 Plasma, and revealing them for 4 seconds.",
+            "description": "Active: Kai'Sa fires a void bolt in the target direction that briefly grants sight around its trajectory as it travels, deals magic damage to the first enemy hit, applies 2 Plasma, and reveals them for 4 seconds.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -606,7 +606,7 @@
             ]
           },
           {
-            "description": "Living Weapon: Requires 100 ability power from items to upgrade : Void Seeker applies 3 Plasma instead and reduces its cooldown by 77% if it hits an enemy champion.",
+            "description": "Evolution: Requires 100 ability power from items to upgrade : Void Seeker applies 3 Plasma instead and refunds 77% of its cooldown it hits an enemy champion.",
             "leveling": []
           }
         ],
@@ -682,7 +682,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Kaisa/ability-icon/e",
         "effects": [
           {
-            "description": "Active: Kai'Sa charges up over the duration of the cast time, during which she is still allowed to move, becomes ghosted and gains bonus movement speed, increased by 0% − 100% (based on bonus attack speed).",
+            "description": "Active: Kai'Sa charges up over the cast time, during which she is still allowed to move, becomes ghosted, and gains bonus movement speed, with the effectiveness increased by 0% − 100% (based on bonus attack speed).",
             "leveling": [
               {
                 "attribute": "Minimum Movement Speed",
@@ -729,7 +729,7 @@
             ]
           },
           {
-            "description": "After completing the cast, Kai'Sa gains bonus attack speed and her basic attack windup percentage is reduced to 6.44% for 4 seconds.",
+            "description": "After completing the charge, she gains bonus attack speed and reduces her basic attack windup percentage by 6.44% for 4 seconds.",
             "leveling": [
               {
                 "attribute": "Bonus Attack Speed",
@@ -755,11 +755,11 @@
             ]
           },
           {
-            "description": "Supercharge's cooldown is reduced by 0.5 seconds on-attack.",
+            "description": "Supercharge's current cooldown is reduced by 0.5 seconds on-attack.",
             "leveling": []
           },
           {
-            "description": "Living Weapon: Requires[ 100% − 70% (based on level) attack speed from items ][ 100% attack speed from items and stat growth ]to upgrade : Supercharge grants invisibility for 0.5 seconds.",
+            "description": "Evolution: Requires[ 100% − 70% (based on level) attack speed from items ][ 100% attack speed from items and stat growth ]to upgrade : Supercharge grants invisibility at the start of the cast time for 0.5 seconds.",
             "leveling": []
           }
         ],
@@ -835,7 +835,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Kaisa/ability-icon/r",
         "effects": [
           {
-            "description": "Active: Kai'Sa instantly shields herself for 2 seconds and swiftly dashes to a target location near a visible enemy champion recently affected by Plasma. The shield's duration refreshes once the dash ends.",
+            "description": "Active: Kai'Sa grants herself a shield for 2 seconds and dashes to a target location near a visible enemy champion that was affected by Plasma within the last 4 seconds. The shield's duration is refreshed when the dash ends.",
             "leveling": [
               {
                 "attribute": "Shield Strength",
@@ -866,9 +866,9 @@
                   },
                   {
                     "values": [
-                      90,
-                      90,
-                      90
+                      120,
+                      120,
+                      120
                     ],
                     "units": [
                       "% AP",
@@ -881,7 +881,7 @@
             ]
           },
           {
-            "description": "Killer Instinct resets Kai'Sa's basic attack timer. Kai'Sa can cast any of her abilities during the dash.",
+            "description": "A nearby enemy champion affected by Plasma is required to cast this ability. Killer Instinct resets Kai'Sa's basic attack timer. Kai'Sa can cast any of her abilities during the dash.",
             "leveling": []
           }
         ],
@@ -946,13 +946,14 @@
   },
   "releaseDate": "2018-03-07",
   "releasePatch": "8.5",
-  "patchLastChanged": "12.10",
+  "patchLastChanged": "12.19",
   "price": {
     "blueEssence": 6300,
     "rp": 975,
     "saleRp": 0
   },
   "lore": "Claimed by the Void when she was only a child, Kai'Sa managed to survive through sheer tenacity and strength of will. Her experiences have made her a deadly hunter and, to some, the harbinger of a future they would rather not live to see. Having entered into an uneasy symbiosis with a living Void carapace, the time will soon come when she must decide whether to forgive those mortals who would call her a monster, and defeat the coming darkness together… or simply to forget, as the Void consumes the world that left her behind.",
+  "faction": "void",
   "skins": [
     {
       "name": "Original",
@@ -1554,7 +1555,7 @@
       "lore": "After showcasing her flawless dance techniques world-wide, Kai'sa is ready to apply her legendary discipline and focus to all aspects of her life as a performing artist. She's still not sure who she'll be when she steps forward to shine as herself, but she's looking forward to the challenge of finding out.",
       "release": "2020-10-29",
       "set": [
-        "K/DA ALL OUT"
+        "K/DA"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/145/145026.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/145/145026.jpg",
@@ -1588,7 +1589,7 @@
       "lore": "When Kai'Sa wanted a red carpet outfit to match her growing confidence in her artistry, she sought Evelynn's advice. With sharp tailoring and embellishments that match her excellence in execution, Kai'Sa's ready to shine on and off the stage.",
       "release": "2020-10-29",
       "set": [
-        "K/DA ALL OUT"
+        "K/DA"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/145/145027.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/145/145027.jpg",
@@ -1817,8 +1818,8 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/145/145029.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/145/145029.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/145/145029.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin29/kaisaloadscreen_29.pie_c_11_21.jpg",
-      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin29/kaisaloadscreen_29_le.pie_c_11_21.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin29/kaisaloadscreen_29.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin29/kaisaloadscreen_29_le.jpg",
       "newEffects": true,
       "newAnimations": true,
       "newRecall": true,
@@ -1829,6 +1830,40 @@
       ],
       "splashArtist": [
         "West Studio"
+      ]
+    },
+    {
+      "name": "Prestige KDA (2022)",
+      "id": 145039,
+      "isBase": false,
+      "availability": "Limited",
+      "formatName": "Prestige K/DA Kai'Sa (2022)",
+      "lootEligible": false,
+      "cost": "special",
+      "sale": 0,
+      "distribution": "Given to players who owned the original skin prior to patch 12.5",
+      "rarity": "Mythic",
+      "chromas": [],
+      "lore": "Fresh from her appearance at the annual Pop Music Awards, K/DA Kai'Sa is now wearing a prestigious all-gold costume—catching the eye of the entire world.",
+      "release": "2022-04-01",
+      "set": [
+        "K/DA"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/145/145039.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/145/145039.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/145/145039.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin39/kaisaloadscreen_39.pie_c_12_6.jpg",
+      "loadScreenVintagePath": null,
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Natasha Loring"
+      ],
+      "splashArtist": [
+        "Pan Chengwei"
       ]
     },
     {

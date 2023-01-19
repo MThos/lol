@@ -12,7 +12,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "Ornn",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/4005_enchanter_t4_imperialmandate.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/4005_enchanter_t4_imperialmandate.png",
   "simpleDescription": null,
   "nicknames": [
     "banner of command",
@@ -25,6 +25,7 @@
       "name": "Coordinated Fire",
       "effects": "Abilities that {{tip|slow}} or {{tip|immobilize}} enemy champions deal {{as|{{pp|45 to 75}} '''bonus''' magic damage}} and mark them for 4 seconds. Allied champions that damage marked enemies consume the mark to deal {{as|{{pp|90 to 150|type=ally's level}} '''bonus''' magic damage}} and grant you and the triggering ally {{as|20% '''bonus''' movement speed}} for 2 seconds.",
       "range": null,
+      "cooldown": "6 (per champion, starts upon mark application)",
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -197,6 +198,7 @@
       "name": "Mythic",
       "effects": null,
       "range": 0,
+      "cooldown": 0,
       "stats": {
         "abilityPower": {
           "flat": 15.0,

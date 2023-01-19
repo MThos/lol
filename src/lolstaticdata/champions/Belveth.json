@@ -4,7 +4,7 @@
   "name": "Bel'Veth",
   "title": "The Empress of the Void",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Belveth.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.23.1/img/champion/Belveth.png",
   "resource": "NONE",
   "attackType": "MELEE",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -130,13 +130,13 @@
       "percentPerLevel": 0.0
     },
     "aramDamageTaken": {
-      "flat": 1.0,
+      "flat": 0.95,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
     },
     "aramDamageDealt": {
-      "flat": 1.0,
+      "flat": 1.05,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
@@ -201,11 +201,11 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Belveth/ability-icon/p",
         "effects": [
           {
-            "description": "Innate: Bel'Veth attacks 36% faster than the median champion and her attack speed cap is modified to 90, but all sources of damage (including on-hit effects) dealt or triggered by her basic attacks are reduced to 75%. Her attack speed does not increase through growth (per level).",
+            "description": "Innate: Bel'Veth attacks 36% faster than the median champion and her attack speed cap is modified to 90, but all sources of damage (including on-hit effects) dealt by her basic attacks are reduced to 75%. Her attack speed does not increase through growth (per level).",
             "leveling": []
           },
           {
-            "description": "Innate: Bel'Veth's ability casts each generate 2 stacks of Death in Lavender on her resource bar, which lasts 5 seconds, refreshes on basic attacks and subsequent casts, and stacks up to 6 times. While Bel'Veth has stacks, she becomes ghosted and gains 25% − 50% (based on level) bonus attack speed. Her basic attacks each consume 1 stack.",
+            "description": "Innate: Bel'Veth's ability casts each generate 2 stacks of Death in Lavender, lasting for 5 seconds, refreshing on basic attacks and subsequent casts, and stacking up to 6 times. While Bel'Veth has stacks, she becomes ghosted and gains 25% − 50% (based on level) bonus attack speed. Her basic attacks each consume 1 stack.",
             "leveling": []
           },
           {
@@ -224,7 +224,7 @@
         "projectile": null,
         "onHitEffects": null,
         "occurrence": null,
-        "notes": "Death in Lavender's  takedown effect will not trigger against monsters if they were slain by an enemy.",
+        "notes": "Death in Lavender's  takedown effect will not trigger against monsters if they were slain by an enemy.\nDeath in Lavender stacks are indicated on Bel'Veth's health bar.\nBel'Veth's basic attack damage modifier will reduce the damage dealt by on-hit effects even if they aren't applied on-hit.(bug)",
         "blurb": "Innate:  Bel'Veth's attack speed cap is greatly increased, but her  attack speed does not grow by  leveling up. The damage dealt by her basic attacks (including  on-hit effects) is reduced.",
         "missileSpeed": null,
         "rechargeRate": null,
@@ -246,7 +246,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Belveth/ability-icon/q",
         "effects": [
           {
-            "description": "Active: Bel'Veth dashes in the designated direction, though not through terrain, dealing physical damage to enemies she passes through and applying on-hit and spell effects at 75% effectiveness to the first target hit. Void Surge can critically strike for (75% + 35%) bonus physical damage and deals 120% damage to monsters and modified damage against minions.",
+            "description": "Active: Bel'Veth dashes in the designated direction, though not through terrain, dealing physical damage to enemies she passes through and applying on-hit at 75% effectiveness to the first target hit. Void Surge can critically strike for (75% + 35%) bonus physical damage against the first target and deals 120% damage to monsters and modified damage against minions.",
             "leveling": [
               {
                 "attribute": "Physical Damage",
@@ -717,11 +717,11 @@
           "modifiers": [
             {
               "values": [
-                22,
-                20.5,
-                19,
-                17.5,
-                16
+                24,
+                22.5,
+                21,
+                19.5,
+                18
               ],
               "units": [
                 "",
@@ -743,8 +743,8 @@
         "projectile": null,
         "onHitEffects": null,
         "occurrence": null,
-        "notes": "Royal Maelstrom does not prioritize champions over other units.\nBel'Veth cannot attack structures, wards, nor jungle plants with Royal Maelstrom.\nIf Bel'Veth is  berserked or  taunted, she will slash at the unit she is forced to attack.\nEach slash's damage triggers a stack of  Conqueror.\nThe following table refers for interactions while Bel'Veth is performing Royal Maelstrom:\n\n\nAttacking\n\nDisabled\n\n\nAbilities\n\nInterrupts\n\n\nMovement\n\nDisabled\n\n\nItems\n\nUsable\n\nN/A\n\n\nDisabled\n\nN/A\n\n\nInterrupted by\n\nAll items interrupt\n\n\nConsumables\n\nUsable\n\n\nSpells\n\nUsable\n\n Barrier  Clarity  Cleanse  Exhaust  Ghost  Heal  Ignite  Smite  Hexflash\n\n\nDisabled\n\n Teleport  Recall\n\n\nInterrupted by\n\n Flash\n\n\nInterrupted by\n\nDeath",
-        "blurb": "Active:  Bel'Veth enters a brief defensive stance, gaining  life steal and  damage reduction.\nDuring this time, Bel'Veth rapidly slashes at the most wounded enemy, with the max number of slashes increased based on her bonus attack speed. Each slash deals physical damage, and applies  life steal,  on-hit and spell effects based on the target's missing health.",
+        "notes": "Royal Maelstrom does not prioritize champions over other units.\nBel'Veth cannot attack structures, wards, nor jungle plants with Royal Maelstrom.\nIf Bel'Veth is  berserked or  taunted, she will slash at the unit she is forced to attack.\nEach slash's damage triggers a stack of  Conqueror.\nDespite this ability's cooldown starts on cast, it cannot be reduced by  Navori Quickblades' Transcendence during the effect of this ability.(bug) Cooldowns of the other basic abilities can be normally reduced during this ability, though.\nThe following table refers for interactions while Bel'Veth is performing Royal Maelstrom:\n\n\nAttacking\n\nDisabled\n\n\nAbilities\n\nInterrupts\n\n\nMovement\n\nDisabled\n\n\nItems\n\nUsable\n\nN/A\n\n\nDisabled\n\nN/A\n\n\nInterrupted by\n\nAll items interrupt\n\n\nConsumables\n\nUsable\n\n\nSpells\n\nUsable\n\n Barrier  Clarity  Cleanse  Exhaust  Ghost  Heal  Ignite  Smite  Hexflash\n\n\nDisabled\n\n Teleport  Recall\n\n\nInterrupted by\n\n Flash\n\n\nInterrupted by\n\nDeath",
+        "blurb": "Active:  Bel'Veth enters a brief defensive stance, gaining  life steal and damage reduction.\nDuring this time, Bel'Veth rapidly slashes at the most wounded enemy, with the max number of slashes increased based on her bonus attack speed. Each slash deals physical damage, and applies  life steal,  on-hit and spell effects based on the target's missing health.",
         "missileSpeed": null,
         "rechargeRate": null,
         "collisionRadius": null,
@@ -765,7 +765,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Belveth/ability-icon/r",
         "effects": [
           {
-            "description": "Passive: Basic attacks on-hit apply a mark to the target for 5 seconds, refreshing on subsequent hits. Every second attack on-hit against the marked target deals bonus true damage and generates a stack of Endless Banquet that increases this damage by the same value. This effect stacks infinitely, but is capped at 5 stacks against epic monsters. The mark and stacks expire upon attacking a new target.",
+            "description": "Passive: Bel'Veth's basic attacks on-hit apply a mark to the target for 5 seconds, refreshing on subsequent hits. Every second attack on-hit against the marked target deals bonus true damage and generates a stack of Endless Banquet that increases this damage by the same value. This effect stacks infinitely, but is capped at 5 stacks against epic monsters. The mark and stacks expire upon attacking a new target.",
             "leveling": [
               {
                 "attribute": "Bonus True Damage",
@@ -878,7 +878,7 @@
             ]
           },
           {
-            "description": "True Form: Bel'Veth evolves into a monster, gaining bonus health, bonus movement speed out-of-combat, 50 bonus attack range, as well as increased total attack speed. Void Surge can dash through terrain. Consuming a Void Coral refreshes the duration of True Form and heals Bel'Veth.\nEnhanced Void Coral Bonus: True Form is empowered to last 180 seconds and causes Void Remora to spawn from minions that die nearby.",
+            "description": "True Form: Bel'Veth evolves into a monster, gaining bonus health, bonus movement speed out-of-combat, 50 bonus attack range, as well as increased total attack speed. Void Surge can dash through terrain. Consuming a Void Coral refreshes the duration of True Form and heals Bel'Veth.\nEnhanced Void Coral Bonus: True Form is empowered to last 180 seconds and causes Void Remora to spawn from enemy minions that die nearby.",
             "leveling": [
               {
                 "attribute": "Bonus Health",
@@ -1049,13 +1049,14 @@
   },
   "releaseDate": "2022-06-09",
   "releasePatch": "12.11",
-  "patchLastChanged": "12.15",
+  "patchLastChanged": "12.21",
   "price": {
     "blueEssence": 6300,
     "rp": 975,
     "saleRp": 0
   },
   "lore": "A nightmarish empress created from the raw material of an entire devoured city, Bel'Veth is the end of Runeterra itself... and the beginning of a monstrous reality of her own design. Driven by epochs of repurposed history, knowledge, and memories from the world above, she voraciously feeds an ever-expanding need for new experiences and emotions, consuming all that crosses her path. Yet her wants could never be sated by only one world as she turns her hungry eyes toward the Void's old masters...",
+  "faction": "void",
   "skins": [
     {
       "name": "Original",

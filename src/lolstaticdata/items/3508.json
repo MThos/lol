@@ -14,7 +14,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3508_marksman_t3_essencereaver.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3508_marksman_t3_essencereaver.png",
   "simpleDescription": null,
   "nicknames": [
     "er",
@@ -27,6 +27,7 @@
       "name": "Spellblade",
       "effects": "After using an [[champion ability|ability]], your next basic attack [[on-hit]] within 10 seconds deals {{as|100% '''base''' AD (+ 40% '''bonus''' AD)}} {{as|'''bonus''' physical damage}} and restores {{as|mana}} equal to {{as|40% '''base''' AD (+ 16% '''bonus''' AD)}}.",
       "range": null,
+      "cooldown": "{{fd|1.5}} (begins after using the empowered attack)",
       "stats": {
         "abilityPower": {
           "flat": 0.0,

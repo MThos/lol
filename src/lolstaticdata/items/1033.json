@@ -13,16 +13,14 @@
     3105,
     3140,
     3155,
-    4632,
-    6662,
-    6664
+    4632
   ],
   "specialRecipe": 0,
   "noEffects": true,
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/1033_base_t1_magicmantle.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/1033_base_t1_magicmantle.png",
   "simpleDescription": "Slightly increases Magic Resist",
   "nicknames": [],
   "passives": [],

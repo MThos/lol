@@ -4,7 +4,7 @@
   "name": "Janna",
   "title": "the Storm's Fury",
   "fullName": "Janna Windforce",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Janna.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Janna.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -202,7 +202,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Janna/ability-icon/p",
         "effects": [
           {
-            "description": "Innate: Janna gains 8% bonus movement speed while moving towards nearby allied champions, and grants them the same amount when they are moving towards her.",
+            "description": "Innate: Janna gains 8% bonus movement speed while facing nearby allied champions, and grants them the same amount while they are facing her.",
             "leveling": []
           }
         ],
@@ -239,7 +239,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Janna/ability-icon/q",
         "effects": [
           {
-            "description": "Active: Janna summons a whirlwind at her current location that charges up over 3 seconds, increasing its range, speed, damage, and knock up duration per second over the duration.",
+            "description": "Active: Janna summons a whirlwind at her current location that charges up over 3 seconds, increasing its range, speed, damage, and knock up duration every second over the duration. Howling Gale's direction is determined by this cast.",
             "leveling": [
               {
                 "attribute": "Minimum Magic Damage",
@@ -279,7 +279,7 @@
                 ]
               },
               {
-                "attribute": "Bonus Magic Damage Per Second",
+                "attribute": "Bonus Damage Per Second",
                 "modifiers": [
                   {
                     "values": [
@@ -359,7 +359,7 @@
             "leveling": []
           },
           {
-            "description": "Recast: The whirlwind flies in the target direction over 1.25 seconds, dealing magic damage to enemies hit and knocking them up for 0.5 − 1.25 (based on seconds charged) seconds.",
+            "description": "Recast: Janna launches the whirlwind in the direction she targeted over 1.25 seconds, dealing magic damage to enemies hit and knocking them up for 0.5 − 1.25 (based on seconds charged) seconds.",
             "leveling": []
           }
         ],
@@ -477,7 +477,7 @@
             ]
           },
           {
-            "description": "Active: Janna sends an air elemental at the target enemy that upon arrival deals them magic damage and slows them for 3 seconds, capped at 99%.",
+            "description": "Active: Janna sends an air elemental at the target enemy that deals magic damage and slows them for 3 seconds, capped at 99%.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -628,11 +628,11 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Janna/ability-icon/e",
         "effects": [
           {
-            "description": "Passive: Whenever Janna's abilities slow or knock up at least one enemy champion, she gains 15% heal and shield power for 4 seconds. This can occur only once per cast.",
+            "description": "Passive: Whenever Janna's abilities slow or knock up at least one enemy champion, she gains 15% heal and shield power for 4 seconds. This may occur only once per cast.",
             "leveling": []
           },
           {
-            "description": "Active: Janna can target an allied champion, turret, or herself to grant them a shield that decays over 5 seconds after the initial 1.25 seconds.",
+            "description": "Active: Janna grants the target allied champion, turret, or herself a shield for 5 seconds, decaying after 1.25 seconds.",
             "leveling": [
               {
                 "attribute": "Shield Strength",
@@ -677,7 +677,7 @@
             "description": "While the shield holds, the target gains bonus attack damage.",
             "leveling": [
               {
-                "attribute": "Bonus AD",
+                "attribute": "Bonus Attack Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -766,7 +766,7 @@
         "projectile": null,
         "onHitEffects": null,
         "occurrence": null,
-        "notes": "Janna receives kill credit on enemy champions that are killed by turrets shielded by Eye of the Storm.\nAllied turrets will benefit from the bonus attack damage when targeted by Eye of the Storm.",
+        "notes": "Attack speed slows applied to enemy champions by Janna (e.g.  Frozen Heart) also trigger the passive.(bug)\nJanna receives kill credit on enemy champions that are killed by turrets shielded by Eye of the Storm.\nAllied turrets will benefit from the bonus attack damage when targeted by Eye of the Storm.",
         "blurb": "Active:  Janna can target an allied champion,  turret, or herself to place a  shield that decays over a short time.",
         "missileSpeed": null,
         "rechargeRate": null,
@@ -792,7 +792,7 @@
             "leveling": []
           },
           {
-            "description": "Janna also channels the winds for up to 3 seconds, healing nearby allies every 0.25 seconds.",
+            "description": "Janna also channels for up to 3 seconds, healing nearby allies every 0.25 seconds.",
             "leveling": [
               {
                 "attribute": "Heal Per Tick",
@@ -916,13 +916,14 @@
   },
   "releaseDate": "2009-09-02",
   "releasePatch": "0.9.22.16",
-  "patchLastChanged": "12.14",
+  "patchLastChanged": "12.19",
   "price": {
     "blueEssence": 1350,
     "rp": 585,
     "saleRp": 0
   },
   "lore": "Armed with the power of Runeterra's gales, Janna is a mysterious, elemental wind spirit who protects the dispossessed of Zaun. Some believe she was brought into existence by the pleas of Runeterra's sailors who prayed for fair winds as they navigated treacherous waters and braved rough tempests. Her favor and protection has since been called into the depths of Zaun, where Janna has become a beacon of hope to those in need. No one knows where or when she will appear, but more often than not, she's come to help.",
+  "faction": "zaun",
   "skins": [
     {
       "name": "Original",
@@ -1008,7 +1009,7 @@
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/40/40002.jpg",
       "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin02/jannaloadscreen_2.jpg",
       "loadScreenVintagePath": null,
-      "newEffects": false,
+      "newEffects": true,
       "newAnimations": false,
       "newRecall": false,
       "newVoice": false,
@@ -1032,7 +1033,9 @@
       "chromas": [],
       "lore": null,
       "release": "2011-12-05",
-      "set": [],
+      "set": [
+        "Freljord"
+      ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/40/40003.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/40/40003.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/40/40003.jpg",
@@ -1108,9 +1111,7 @@
       "newVoice": true,
       "newQuotes": false,
       "voiceActor": [],
-      "splashArtist": [
-        "Katie 'TeaTime' De Sousa"
-      ]
+      "splashArtist": []
     },
     {
       "name": "Fnatic",
@@ -1134,7 +1135,7 @@
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/40/40006.jpg",
       "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin06/jannaloadscreen_6.jpg",
       "loadScreenVintagePath": null,
-      "newEffects": false,
+      "newEffects": true,
       "newAnimations": false,
       "newRecall": false,
       "newVoice": false,
@@ -1439,7 +1440,7 @@
       "lore": "It's Janna's favorite season once again—when dark spirits rise from the earth, and hidden troves of candy are enjoyed by all. Don your best disguise and ride into the night, for the witching hour is upon us!",
       "release": "2018-10-24",
       "set": [
-        "Trick-or-Treat"
+        "Bewitching"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/40/40013.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/40/40013.jpg",
@@ -2034,7 +2035,7 @@
       "name": "Cyber Halo",
       "id": 40045,
       "isBase": false,
-      "availability": "Upcoming",
+      "availability": "Available",
       "formatName": "Cyber Halo",
       "lootEligible": true,
       "cost": 1350,
@@ -2233,7 +2234,7 @@
         }
       ],
       "lore": "An experiment from RSM's R&D division, Janna is the only successful use of an android to pilot an exosuit in history. Perhaps it's because she looks so human that most forget the gusts of “wind“ she commands are actually a fleet of nanobots connected directly to both the X09-Zephyr as well as her central processing core.",
-      "release": "0000-00-00",
+      "release": "2022-08-25",
       "set": [
         "Steel Valkyries"
       ],
@@ -2251,6 +2252,7 @@
         "Erin Fitzgerald"
       ],
       "splashArtist": [
+        "Jack Hsu",
         "West Studio"
       ]
     },
@@ -2258,16 +2260,16 @@
       "name": "Prestige Cyber Halo",
       "id": 40046,
       "isBase": false,
-      "availability": "Upcoming",
+      "availability": "Rare",
       "formatName": "Prestige Cyber Halo",
       "lootEligible": true,
       "cost": "special",
       "sale": 0,
       "distribution": "125 Mythic Essence",
-      "rarity": "Epic",
+      "rarity": "Mythic",
       "chromas": [],
       "lore": "Always a breath of fresh air in the fashion world, Janna took a risk working with a new designer for her high-tech red carpet look. That risk was well worth it: the future of fashion is here, and it's looking bright.",
-      "release": "0000-00-00",
+      "release": "2022-08-25",
       "set": [
         "Steel Valkyries"
       ],
@@ -2275,7 +2277,7 @@
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/40/40046.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/40/40046.jpg",
       "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin46/jannaloadscreen_46.pie_c_12_16.jpg",
-      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin45/jannaloadscreen_45_le.pie_c_12_16.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin46/jannaloadscreen_46_le.pie_c_12_16.jpg",
       "newEffects": true,
       "newAnimations": true,
       "newRecall": true,
@@ -2285,6 +2287,7 @@
         "Erin Fitzgerald"
       ],
       "splashArtist": [
+        "Huyy Nguyen",
         "West Studio"
       ]
     }

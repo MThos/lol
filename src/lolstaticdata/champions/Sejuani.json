@@ -4,7 +4,7 @@
   "name": "Sejuani",
   "title": "Fury of the North",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Sejuani.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Sejuani.png",
   "resource": "MANA",
   "attackType": "MELEE",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -206,7 +206,7 @@
             "leveling": []
           },
           {
-            "description": "Innate - Frost Armor: Sejuani gains Frost Armor, which lingers for 3 seconds after taking damage from enemy champions or monsters. She restores it after 12 − 6 (based on level) without taking damage from them.",
+            "description": "Innate - Frost Armor: Sejuani gains Frost Armor, which lingers for 3 seconds after taking damage from enemy champions or monsters. She restores it after 12 − 6 (based on level) seconds without taking damage from them.",
             "leveling": []
           },
           {
@@ -247,7 +247,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Sejuani/ability-icon/q",
         "effects": [
           {
-            "description": "Active: Bristle dashes to the target location until he collides with an enemy champion, dealing magic damage to enemies he she passes through and knocking them up for 0.5 seconds.",
+            "description": "Active: Bristle dashes to the target location until he collides with an enemy champion, dealing magic damage to enemies he passes through and knocking them up for 0.5 seconds.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -343,7 +343,7 @@
         "projectile": null,
         "onHitEffects": null,
         "occurrence": null,
-        "notes": "Champions will slightly be  knocked back, while minions and monsters will instead be slightly  pulled for a fixed distance.\nArctic Assault cannot  knock enemies over terrain.\nCasting  Flash during Arctic Assault will end the dash and affect enemies at the new location.\nUpon colliding with an enemy  champion, Sejuani will  attack them.",
+        "notes": "Champions will slightly be  knocked back, while minions and monsters will instead be slightly  pulled for a fixed distance.\nArctic Assault cannot  knock enemies over terrain.\nCasting  Flash during Arctic Assault will end the dash and affect enemies at the new location.\nUpon colliding with an enemy  champion, Sejuani will attack them.",
         "blurb": "Active:  Sejuani  dashes to the target location, dealing magic damage and briefly  knocking up enemies she passes through. She will stop upon hitting an enemy  champion.",
         "missileSpeed": null,
         "rechargeRate": null,
@@ -368,7 +368,7 @@
             "description": "Active: After 0.25 seconds into the cast time, Sejuani swings her flail in a cone in the target direction that deals physical damage to enemies hit and knocks back minions and monsters hit.",
             "leveling": [
               {
-                "attribute": "Swing Damage",
+                "attribute": "Physical Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -426,7 +426,7 @@
             "description": "After the cast time, Sejuani lashes out with her flail in a line in the same direction, dealing physical damage to enemies hit and slowing them by 75% for 0.25 seconds.",
             "leveling": [
               {
-                "attribute": "Lash Damage",
+                "attribute": "Physical Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -479,7 +479,7 @@
                 ]
               },
               {
-                "attribute": "Total Damage",
+                "attribute": "Total Physical Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -610,11 +610,11 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Sejuani/ability-icon/e",
         "effects": [
           {
-            "description": "Passive: Winter's Wrath and both Sejuani's and nearby allied melee champions' attacks on-hit apply stacks of Frost to enemy champions, medium / large monsters and large minions for 5 seconds, which refreshes on subsequent hits and stacks up to 4 times. Enemies hit by Permafrost or Glacial Prison's bola have all of their Frost stacks consumed and cannot be affected by Frost for 10 seconds. Sejuani can cast Permafrost against an enemy with 4 stacks.",
+            "description": "Passive: Winter's Wrath and both Sejuani's and nearby allied melee champions' attacks on-hit apply stacks of Frost to enemy champions, medium or large monsters, and large minions for 5 seconds, refreshing on subsequent applications and stacking up to 4 times, though not applying if the target is Frozen. Enemies hit by Permafrost or Glacial Prison's bola have all of their Frost stacks consumed. Enemy champions cannot be affected by Frost for 10 seconds after having it consumed. Sejuani can cast Permafrost against an enemy with 4 stacks.",
             "leveling": []
           },
           {
-            "description": "Active: Sejuani hurls a trap at the visible enemy with 4 stacks of Frost closest to the cursor, which upon arrival deals magic damage, knocks them down, and stuns them for 1 second.",
+            "description": "Active: Sejuani hurls a trap at the visible enemy with 4 stacks of Frost closest to the cursor, which deals magic damage, knocks them down, and stuns them for 1 second.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -769,7 +769,7 @@
             "description": "If the bola travels over 400 units, it becomes empowered to detonate upon reaching maximum range or hitting an enemy champion, dealing increased damage and stunning for 1.5 seconds instead. For the same duration, a frost storm is created that slows enemies within by 30% and grants sight of the area in a smaller radius.",
             "leveling": [
               {
-                "attribute": "Increased Magic Damage",
+                "attribute": "Increased Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -899,13 +899,14 @@
   },
   "releaseDate": "2012-01-17",
   "releasePatch": "1.0.0.132",
-  "patchLastChanged": "12.14",
+  "patchLastChanged": "12.17",
   "price": {
     "blueEssence": 4800,
     "rp": 880,
     "saleRp": 0
   },
   "lore": "Sejuani is the brutal, unforgiving Iceborn warmother of the Winter's Claw, one of the most feared tribes of the Freljord. Her people's survival is a constant, desperate battle against the elements, forcing them to raid Noxians, Demacians, and Avarosans alike to survive the harsh winters. Sejuani herself spearheads the most dangerous of these attacks from the saddle of her drüvask boar Bristle, using her True Ice flail to freeze and shatter her enemies.",
+  "faction": "freljord",
   "skins": [
     {
       "name": "Original",
@@ -1353,7 +1354,7 @@
         "Nicki Burke"
       ],
       "splashArtist": [
-        "Art of Maki"
+        "Maki Planas Mata"
       ]
     },
     {
@@ -1817,6 +1818,252 @@
       ],
       "splashArtist": [
         "Huyy Nguyen",
+        "West Studio"
+      ]
+    },
+    {
+      "name": "Victorious",
+      "id": 113036,
+      "isBase": false,
+      "availability": "Upcoming",
+      "formatName": "Victorious",
+      "lootEligible": false,
+      "cost": "special",
+      "sale": 0,
+      "distribution": "Reward for finishing the ranked season in Gold or higher.",
+      "rarity": "NoRarity",
+      "chromas": [
+        {
+          "name": "Flex Challenger",
+          "id": 113046,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/113/113046.png",
+          "colors": [
+            "#1D62C8",
+            "#638BC8"
+          ],
+          "descriptions": [
+            {
+              "description": "This Chroma was awarded to players who reached Challenger rank in Flex ranked queue",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 5,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Flex Diamond",
+          "id": 113043,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/113/113043.png",
+          "colors": [
+            "#65337F",
+            "#6F587F"
+          ],
+          "descriptions": [
+            {
+              "description": "This Chroma was awarded to players who reached Diamond rank in Flex ranked queue",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 2,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Flex Grandmaster",
+          "id": 113045,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/113/113045.png",
+          "colors": [
+            "#B31316",
+            "#B35556"
+          ],
+          "descriptions": [
+            {
+              "description": "This Chroma was awarded to players who reached Grandmaster rank in Flex ranked queue",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 4,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Flex Master",
+          "id": 113044,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/113/113044.png",
+          "colors": [
+            "#9D228D",
+            "#9D5B92"
+          ],
+          "descriptions": [
+            {
+              "description": "This Chroma was awarded to players who reached Master rank in Flex ranked queue",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 3,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Flex Platinum",
+          "id": 113042,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/113/113042.png",
+          "colors": [
+            "#26854C",
+            "#7BDDA9"
+          ],
+          "descriptions": [
+            {
+              "description": "This Chroma was awarded to players who reached Platinum rank in Flex ranked queue",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Solo/Duo Challenger",
+          "id": 113041,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/113/113041.png",
+          "colors": [
+            "#1D62C8",
+            "#1D62C8"
+          ],
+          "descriptions": [
+            {
+              "description": "This Chroma was awarded to players who reached Challenger rank in Solo/Duo ranked queue",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 5,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Solo/Duo Diamond",
+          "id": 113038,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/113/113038.png",
+          "colors": [
+            "#65337F",
+            "#65337F"
+          ],
+          "descriptions": [
+            {
+              "description": "This Chroma was awarded to players who reached Diamond rank in Solo/Duo ranked queue",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 2,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Solo/Duo Grandmaster",
+          "id": 113040,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/113/113040.png",
+          "colors": [
+            "#B31316",
+            "#B31316"
+          ],
+          "descriptions": [
+            {
+              "description": "This Chroma was awarded to players who reached Grandmaster rank in Solo/Duo ranked queue",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 4,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Solo/Duo Master",
+          "id": 113039,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/113/113039.png",
+          "colors": [
+            "#9D228D",
+            "#9D228D"
+          ],
+          "descriptions": [
+            {
+              "description": "This Chroma was awarded to players who reached Master rank in Solo/Duo ranked queue",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 3,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Solo/Duo Platinum",
+          "id": 113037,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/113/113037.png",
+          "colors": [
+            "#26854C",
+            "#26854C"
+          ],
+          "descriptions": [
+            {
+              "description": "This Chroma was awarded to players who reached Platinum rank in Solo/Duo ranked queue",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
+            }
+          ]
+        }
+      ],
+      "lore": "Victorious Sejuani was awarded to players who reached Gold or higher in the 2022 season. After surrendering their strongest warriors and Iceborn to the Winter's Claw, all tribes of the Freljord now bend to the will of Queen Sejuani, clad in the finest gear her kingdom has to offer.",
+      "release": "0000-00-00",
+      "set": [
+        "Victorious"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/113/113036.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/113/113036.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/113/113036.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/sejuani/skins/skin36/sejuaniloadscreen_36.pie_c_12_22.jpg",
+      "loadScreenVintagePath": null,
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Nicki Burke"
+      ],
+      "splashArtist": [
+        "Francis Tneh",
         "West Studio"
       ]
     }

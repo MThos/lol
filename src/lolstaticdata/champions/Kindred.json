@@ -4,7 +4,7 @@
   "name": "Kindred",
   "title": "The Eternal Hunters",
   "fullName": "Lamb and Wolf",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Kindred.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Kindred.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -200,15 +200,15 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Kindred/ability-icon/p",
         "effects": [
           {
-            "description": "Innate: Both Lamb and Wolf mark targets to hunt. Scoring a takedown against a hunted target collects a stack of Mark of the Kindred. Mark of the Kindred: Lamb gains 75 − 250 (based on Marks) bonus range on her basic attacks and Mounting Dread.",
+            "description": "Innate: Both Lamb and Wolf mark targets to hunt. Scoring a takedown against a hunted target collects a stack of Mark of the Kindred. Mark of the Kindred: Lamb gains 75 − 250 (based on marks) bonus range on her basic attacks and Mounting Dread.",
             "leveling": []
           },
           {
-            "description": "Innate - Lamb: Lamb is offered a selection of enemy champions to hunt if she hasn't been in combat with them in the last 6 seconds. Once selected, the mark is applied after an 8-second delay and thereafter it can be collected by Kindred. Lamb gains the ability to select a new target every 75 seconds. Targets successfully hunted cannot be marked again for 4 minutes.",
+            "description": "Innate - Lamb: Lamb is offered a selection of enemy champions to hunt if she has not been in combat with them in the last 6 seconds. Once selected, the mark is applied after an 8-second delay and thereafter it can be collected by Kindred. Lamb gains the ability to select a new target every 75 seconds. Targets successfully hunted cannot be marked again for 4 minutes.",
             "leveling": []
           },
           {
-            "description": "Innate - Wolf: Starting at 3:15, Wolf periodically marks a random large monster within the enemy team's jungle for 180 seconds. The hunted camp is highlighted on the mini map to both teams. Once the hunted target is slain or the mark expires, Wolf will wait 45 seconds before selecting a new target. The type of monster that Wolf can mark changes based on Kindred's current stacks:\n0 : Rift Scuttler\n1 : 3: Rift Scuttler, Crimson Raptor, Gromp\n4 : 7: Ancient Krug, Blue Sentinel, Greater Murk Wolf, or Red Brambleback\n8 + : Rift Herald or Baron Nashor, Dragon or Elder Dragon",
+            "description": "Innate - Wolf: Starting at 3:15, Wolf periodically marks a random large monster within the enemy team's jungle for 180 seconds. The hunted camp is highlighted on the mini map to both teams. Once the hunted target is slain or the mark expires, Wolf will wait 45 seconds before selecting a new target. The type of monster that Wolf can mark changes based on Kindred's current Mark of the Kindred stacks:\n0 : Rift Scuttler\n1 : 3: Rift Scuttler, Crimson Raptor, Gromp\n4 : 7: Ancient Krug, Blue Sentinel, Greater Murk Wolf, or Red Brambleback\n8 + : Rift Herald or Baron Nashor, Dragon or Elder Dragon",
             "leveling": []
           }
         ],
@@ -245,11 +245,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Kindred/ability-icon/q",
         "effects": [
           {
-            "description": "Active: Lamb dashes toward the target location, gaining 25% (+ 5% per Stacks) bonus attack speed for 4 seconds.",
-            "leveling": []
-          },
-          {
-            "description": "After dashing, Lamb fires an arrow at up to 3 nearby visible enemies, dealing physical damage. Lamb's current attack target at any proximity will be prioritized by one of the arrows.",
+            "description": "Active: Lamb dashes toward the target location, gaining 25% (+ 5% per mark) bonus attack speed for 4 seconds and firing an arrow at up to 3 nearby visible enemies that deals physical damage. Her current attack target within any proximity will be prioritized by one of the arrows.",
             "leveling": [
               {
                 "attribute": "Physical Damage",
@@ -291,7 +287,7 @@
             ]
           },
           {
-            "description": "Casting Wolf's Frenzy or using Dance of Arrows while inside its area will reduce the cooldown to an amount.",
+            "description": "Dance of Arrows' total cooldown is reduced to an amount while Lamb is within the area of Wolf's Frenzy. Casting Wolf's Frenzy reduces Dance of Arrows' current cooldown to the same amount.",
             "leveling": [
               {
                 "attribute": "Static Cooldown",
@@ -393,15 +389,15 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Kindred/ability-icon/w",
         "effects": [
           {
-            "description": "Passive: As Kindred move and attack, they build up to 100 stacks of Hunter's Vigor. At full stacks, Lamb's next basic attack heals her for 0% − 100% (based on Kindred's missing health) of 47 − 81 (based on level) health.",
+            "description": "Passive: As Kindred move and attack, they build up to 100 stacks of Hunter's Vigor. At maximum stacks, Lamb's next basic attack heals her for 0% − 100% (based on Kindred's missing health) of 47 − 81 (based on level). The heal is not triggered if Kindred is at full health.",
             "leveling": []
           },
           {
-            "description": "Active: Wolf dashes to the target location and occupies the area for the next 8.5 seconds, separating from Lamb. Wolf autonomously attacks enemies within the area, prioritizing Lamb's attack target.",
+            "description": "Active: Wolf dashes to the target location, then claims the surrounding area as his territory for the next 8.5 seconds, separating from Lamb. He automatically attacks the closest nearby visible enemy within the area, prioritizing the last enemy Lamb has attacked, then enemy champions, then non-champions.",
             "leveling": []
           },
           {
-            "description": "Wolf's basic attacks deal magic damage and scale with 25% of Kindred's bonus attack speed. Against monsters, Wolf deals 50% increased damage and his attacks slow the target by 50% for 2 seconds.",
+            "description": "Wolf's attacks deal magic damage and scale with 25% of Kindred's bonus attack speed. Against monsters, his attacks deal 150% damage and slow the target by 50% for 2 seconds.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -447,11 +443,11 @@
                       1.5
                     ],
                     "units": [
-                      "% (+ 1% per Mark) of target's current health",
-                      "% (+ 1% per Mark) of target's current health",
-                      "% (+ 1% per Mark) of target's current health",
-                      "% (+ 1% per Mark) of target's current health",
-                      "% (+ 1% per Mark) of target's current health"
+                      "% (+ 1% per mark) of target's current health",
+                      "% (+ 1% per mark) of target's current health",
+                      "% (+ 1% per mark) of target's current health",
+                      "% (+ 1% per mark) of target's current health",
+                      "% (+ 1% per mark) of target's current health"
                     ]
                   }
                 ]
@@ -500,11 +496,11 @@
                       2.25
                     ],
                     "units": [
-                      "% (+ 1.5% per Mark) of target's current health",
-                      "% (+ 1.5% per Mark) of target's current health",
-                      "% (+ 1.5% per Mark) of target's current health",
-                      "% (+ 1.5% per Mark) of target's current health",
-                      "% (+ 1.5% per Mark) of target's current health"
+                      "% (+ 1.5% per mark) of target's current health",
+                      "% (+ 1.5% per mark) of target's current health",
+                      "% (+ 1.5% per mark) of target's current health",
+                      "% (+ 1.5% per mark) of target's current health",
+                      "% (+ 1.5% per mark) of target's current health"
                     ]
                   }
                 ]
@@ -588,11 +584,11 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Kindred/ability-icon/e",
         "effects": [
           {
-            "description": "Active: Lamb fires a shot at the target enemy that slows them by 50% for 1 second. This attack applies a stack of Mounting Dread, which refreshes on subsequent basic attacks and stacks up to 4 times.",
+            "description": "Active: Lamb fires a shot at the target enemy that slows them by 50% for 1 second and applies a stack of Mounting Dread for 4 seconds. Her basic attacks each apply an additional stack, refreshing the duration and stacking up to 4 times.",
             "leveling": []
           },
           {
-            "description": "The fourth stack will consume them all and direct Wolf to pounce on the target to deal additional physical damage, capped at 300 against monsters.",
+            "description": "Her next basic attack against a target with 3 stacks directs Wolf to pounce on the target, consuming all stacks to deal additional physical damage, capped at 300 against monsters.",
             "leveling": [
               {
                 "attribute": "Additional Physical Damage",
@@ -703,7 +699,7 @@
             ]
           },
           {
-            "description": "The additional damage will critically strike targets below 15% − 65% (based on critical strike chance) of their maximum health, increasing the missing health portion by (50% + 35%), and cannot critically strike otherwise. The base attack part of the pounce can independently critically strike.",
+            "description": "The additional damage will critically strike against targets below 15% − 65% (based on critical strike chance) of their maximum health, increasing the missing health portion by (50% + 35%), and cannot critically strike otherwise. The base damage of the pounce can independently critically strike.",
             "leveling": []
           }
         ],
@@ -873,6 +869,7 @@
     "saleRp": 0
   },
   "lore": "Separate, but never parted, Kindred represents the twin essences of death. Lamb's bow offers a swift release from the mortal realm for those who accept their fate. Wolf hunts down those who run from their end, delivering violent finality within his crushing jaws. Though interpretations of Kindred's nature vary across Runeterra, every mortal must choose the true face of their death.",
+  "faction": "unaffiliated",
   "skins": [
     {
       "name": "Original",
@@ -1161,7 +1158,7 @@
       "lore": "In the Ionian tradition, the Kindred are interpreted as a child and her beastly companion, endlessly playing games with one another until they are called to perform their duties. The two do not know where they came from, but it is said they feel a sense of loss for someone they knew long ago…",
       "release": "2020-08-06",
       "set": [
-        "Kanmei"
+        "Spirit Blossom"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/203/203003.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/203/203003.jpg",

@@ -4,7 +4,7 @@
   "name": "Quinn",
   "title": "Demacia's Wings",
   "fullName": "Quinn and Valor",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Quinn.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Quinn.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -130,13 +130,13 @@
       "percentPerLevel": 0.0
     },
     "aramDamageTaken": {
-      "flat": 0.92,
+      "flat": 0.9,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
     },
     "aramDamageDealt": {
-      "flat": 1.08,
+      "flat": 1.1,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
@@ -202,7 +202,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Quinn/ability-icon/p",
         "effects": [
           {
-            "description": "Innate: Quinn's damaging abilities mark enemies with Vulnerable, revealing them for 4 seconds. If no Vulnerable target exists for 1 second, Valor automatically marks a nearby visible enemy, which cannot recur for 8 − 2.93 (based on critical strike chance) seconds after the mark has timed out, was consumed or was overwritten by another mark.",
+            "description": "Innate: Quinn's Blinding Assault against the primary target, Vault, and Skystrike mark enemies hit with Vulnerable for 4 seconds, during which they are revealed. If no Vulnerable target exists for 1 second, Valor automatically marks a nearby visible enemy. He cannot do this again for 8 − 2.93 (based on critical strike chance) seconds after the mark expired or was consumed or overwritten by another mark.",
             "leveling": []
           },
           {
@@ -247,7 +247,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Quinn/ability-icon/q",
         "effects": [
           {
-            "description": "Active: Quinn sends Valor in the target direction who stops upon hitting an enemy, marking it as Vulnerable and dealing physical damage to all nearby enemies.",
+            "description": "Active: Quinn sends Valor in the target direction who stops upon hitting an enemy, marking them as Vulnerable and dealing physical damage to all nearby enemies.",
             "leveling": [
               {
                 "attribute": "Physical Damage",
@@ -381,7 +381,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Quinn/ability-icon/w",
         "effects": [
           {
-            "description": "Passive: Attacking a Vulnerable target or consuming a mark grants Quinn bonus attack speed and bonus movement speed for 2 seconds.",
+            "description": "Passive: Whenever Quinn uses a basic attack on-attack against a Vulnerable target or consumes their mark, she gains bonus attack speed and bonus movement speed for 2 seconds.",
             "leveling": [
               {
                 "attribute": "Bonus Attack Speed",
@@ -485,7 +485,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Quinn/ability-icon/e",
         "effects": [
           {
-            "description": "Active: Quinn dashes to the target enemy, dealing physical damage, knocking them back, though not through terrain, and slowing them by 50% decaying over 1.5 seconds. She then leaps back 525 units away from them.",
+            "description": "Active: Quinn dashes to the target enemy, marking them as Vulnerable, dealing physical damage, knocking them back, though not through terrain, and slowing them by 50% decaying over 1.5 seconds. She then leaps back 525 units away from them.",
             "leveling": [
               {
                 "attribute": "Physical damage",
@@ -582,7 +582,7 @@
         "onHitEffects": null,
         "occurrence": null,
         "notes": "Quinn will track the target if they change locations.\nShe will dash to the target's previous location without applying Vault's effects if the target is too far away or moves beyond 1200 units.\nQuinn will automatically attempt to attack the target once she completes Vault.\nThe target will turn to face the opposite direction after being  knocked back.\nUnlike its constant cast range Vault's bounce's can vary to allow Quinn to close or to make a gap between herself and the target (depending on casting position) or even to jump through a wall (if there is enough landing room on the other side).\nVault also interrupts basic attacks with  uncancellable windups.(bug)",
-        "blurb": "Active:  Quinn  dashes to the target enemy, dealing physical damage,  knocking them back, and briefly  slowing them. She then  leaps backward.",
+        "blurb": "Active:  Quinn  dashes to the target enemy, dealing physical damage,  knocking them back, marking them as  Vulnerable, and briefly  slowing them. She then  leaps backward.",
         "missileSpeed": null,
         "rechargeRate": null,
         "collisionRadius": null,
@@ -625,11 +625,11 @@
             ]
           },
           {
-            "description": "Taking damage from non- minions while Behind Enemy Lines is active or while Quinn is channeling causes her to lose the bonus total movement speed for 3 seconds. Becoming immobilized, grounded, or silenced ends Behind Enemy Lines immediately and puts it on cooldown without performing Skystrike.",
+            "description": "Taking damage from non- minions while Behind Enemy Lines is active or while Quinn is channeling the ability causes her to lose the bonus total movement speed for 3 seconds. Becoming immobilized, grounded, or silenced ends Behind Enemy Lines immediately and puts it on cooldown without performing Skystrike.",
             "leveling": []
           },
           {
-            "description": "Once Behind Enemy Lines has been learned, respawning or returning to the summoning platform will spawn Valor instantly.",
+            "description": "Once Behind Enemy Lines has been learned, respawning or returning to the allied summoning platform will spawn Valor instantly.",
             "leveling": []
           },
           {
@@ -699,7 +699,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Quinn/ability-icon/r",
         "effects": [
           {
-            "description": "Active: Quinn detaches from Valor, ending Behind Enemy Lines' effects and raining arrows down around her, dealing 70% AD physical damage to nearby enemies.",
+            "description": "Active: Quinn detaches from Valor, ending Behind Enemy Lines' effects and raining arrows down around her, dealing 70% AD physical damage to nearby enemies and marking them as Vulnerable.",
             "leveling": []
           },
           {
@@ -729,7 +729,7 @@
         "speed": null,
         "width": null,
         "angle": null,
-        "castTime": null,
+        "castTime": "none",
         "effectRadius": "700",
         "targetRange": null
       }
@@ -744,6 +744,7 @@
     "saleRp": 0
   },
   "lore": "Quinn is an elite ranger-knight of Demacia, who undertakes dangerous missions deep in enemy territory. She and her legendary eagle, Valor, share an unbreakable bond, and their foes are often slain before they realize they are fighting not one, but two of the kingdom's greatest heroes. Nimble and acrobatic when required, Quinn takes aim with her crossbow while Valor marks their elusive targets from above, making them a deadly pair on the battlefield.",
+  "faction": "demacia",
   "skins": [
     {
       "name": "Original",

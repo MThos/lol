@@ -13,7 +13,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3102_mage_t3_bansheesveil.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3102_mage_t3_bansheesveil.png",
   "simpleDescription": "Periodically blocks enemy abilities",
   "nicknames": [
     "bv",
@@ -26,6 +26,7 @@
       "name": "Annul",
       "effects": "Grants a {{tip|spell shield}} that blocks the next hostile ability.",
       "range": null,
+      "cooldown": "40 (restarts upon taking damage from champions)",
       "stats": {
         "abilityPower": {
           "flat": 0.0,

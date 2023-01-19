@@ -10,7 +10,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/1054_tank_t1_doransshield.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/1054_tank_t1_doransshield.png",
   "simpleDescription": "Good defensive starting item",
   "nicknames": [
     "dshield"
@@ -20,8 +20,9 @@
       "unique": true,
       "mythic": false,
       "name": "Focus",
-      "effects": "Basic attacks deal {{as|5 '''bonus''' physical damage}} on-hit against [[minions]].",
+      "effects": "Basic attacks deal {{as|5 '''bonus''' physical damage}} [[on-hit]] against [[minions]].",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -194,6 +195,7 @@
       "name": "Endure",
       "effects": "After taking damage from a [[champion]] or large [[monster]], gain [[health regeneration]] equal to {{pp|0 to 40 for 11|type='''current missing''' health|color=health|key1=%|0 to 75|formula=0.53 health regen for every 1% missing health}} health over 8 seconds. Reduced to{{ft|66% effectiveness|{{pp|0 to 26.4 for 11|type='''current missing''' health|color=health|key1=%|0 to 75|formula=0.35 health regen for every 1% missing health}}}} on {{tip|ranged}} champions or when triggered by [[area of effect]], [[damage over time]], or [[damage|proc]].",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,

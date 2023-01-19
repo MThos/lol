@@ -4,7 +4,7 @@
   "name": "Kassadin",
   "title": "the Void Walker",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Kassadin.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Kassadin.png",
   "resource": "MANA",
   "attackType": "MELEE",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -217,7 +217,7 @@
         "onHitEffects": null,
         "occurrence": null,
         "notes": "No additional details.",
-        "blurb": "Innate: Kassadin is permanently  ghosted and takes  reduced  magic damage.",
+        "blurb": "Innate: Kassadin is permanently  ghosted and takes reduced  magic damage.",
         "missileSpeed": null,
         "rechargeRate": null,
         "collisionRadius": null,
@@ -326,11 +326,11 @@
           "modifiers": [
             {
               "values": [
+                60,
+                65,
                 70,
                 75,
-                80,
-                85,
-                90
+                80
               ],
               "units": [
                 "",
@@ -346,11 +346,11 @@
           "modifiers": [
             {
               "values": [
-                11,
-                10.5,
                 10,
                 9.5,
-                9
+                9,
+                8.5,
+                8
               ],
               "units": [
                 "",
@@ -558,11 +558,11 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Kassadin/ability-icon/e",
         "effects": [
           {
-            "description": "Passive: Kassadin generates a stack of Void Energy each time he or a nearby champion uses an ability, which stacks up to 6 times.",
+            "description": "Passive: Kassadin generates a stack of Void Energy each time he or a nearby champion uses an ability, stacking up to 6 times.",
             "leveling": []
           },
           {
-            "description": "Active: Kassadin emits a pulse of void energy in a cone in the target direction that deals magic damage to enemies and slows them for 1 second.",
+            "description": "Active: Kassadin emits a pulse of void energy in a cone in the target direction that deals magic damage to enemies hit and slows them for 1 second.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -697,7 +697,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Kassadin/ability-icon/r",
         "effects": [
           {
-            "description": "Active: Kassadin blinks toward the target location, dealing magic damage to all nearby enemies upon arrival. He then gains a stack of Riftwalk that lasts 15 seconds, which refreshes on subsequent casts and stacks up to 4 times.",
+            "description": "Active: Kassadin blinks toward the target location, dealing magic damage to all nearby enemies upon arrival. He then gains a stack of Riftwalk for 5 seconds, refreshing on subsequent casts and stacking up to 4 times.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -743,7 +743,7 @@
             ]
           },
           {
-            "description": "Riftwalk: For each stack, Riftwalk gains bonus damage at an increased mana cost.",
+            "description": "Riftwalk: For each stack, Riftwalk deals bonus magic damage at an increased mana cost.",
             "leveling": [
               {
                 "attribute": "Bonus Damage Per Stack",
@@ -777,6 +777,47 @@
                       1,
                       1,
                       1
+                    ],
+                    "units": [
+                      "% maximum mana",
+                      "% maximum mana",
+                      "% maximum mana"
+                    ]
+                  }
+                ]
+              },
+              {
+                "attribute": "Maximum Bonus Damage",
+                "modifiers": [
+                  {
+                    "values": [
+                      160,
+                      200,
+                      240
+                    ],
+                    "units": [
+                      "",
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "values": [
+                      40,
+                      40,
+                      40
+                    ],
+                    "units": [
+                      "% AP",
+                      "% AP",
+                      "% AP"
+                    ]
+                  },
+                  {
+                    "values": [
+                      4,
+                      4,
+                      4
                     ],
                     "units": [
                       "% maximum mana",
@@ -895,13 +936,14 @@
   },
   "releaseDate": "2009-08-07",
   "releasePatch": "v0.9.22.7",
-  "patchLastChanged": "12.11",
+  "patchLastChanged": "12.17",
   "price": {
     "blueEssence": 3150,
     "rp": 790,
     "saleRp": 0
   },
   "lore": "Cutting a burning swath through the darkest places of the world, Kassadin knows his days are numbered. A widely traveled Shuriman guide and adventurer, he had chosen to raise a family among the peaceful southern tribes—until the day his village was consumed by the Void. He vowed vengeance, combining a number of arcane artifacts and forbidden technologies for the struggle ahead. Finally, Kassadin set out for the wastelands of Icathia, ready to face any monstrous Void-construct in his search for their self-proclaimed prophet, Malzahar.",
+  "faction": "void",
   "skins": [
     {
       "name": "Original",
@@ -1015,7 +1057,9 @@
       "chromas": [],
       "lore": null,
       "release": "2010-09-26",
-      "set": [],
+      "set": [
+        "Curse of the Void"
+      ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/38/38003.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/38/38003.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/38/38003.jpg",
@@ -1491,6 +1535,7 @@
         "Adam Harrington"
       ],
       "splashArtist": [
+        "Zoe Zhu",
         "West Studio"
       ]
     }

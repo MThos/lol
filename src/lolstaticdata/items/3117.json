@@ -12,7 +12,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3117_class_t2_bootsofmobility.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3117_class_t2_bootsofmobility.png",
   "simpleDescription": "Greatly enhances Move Speed when out of combat",
   "nicknames": [
     "boots",
@@ -27,6 +27,7 @@
       "name": null,
       "effects": "Reduces {{as|movement speed}} by {{as|90}} for 5 seconds while you are in [[combat status|in-combat]]. This duration can refresh while staying in-combat.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -239,10 +240,10 @@
     "cooldownReduction": {
       "flat": 0.0,
       "percent": 0.0,
-      "perLevel": 0.0,
-      "percentPerLevel": 0.0,
-      "percentBase": 0.0,
-      "percentBonus": 0.0
+      "per_level": 0.0,
+      "percent_per_level": 0.0,
+      "percent_base": 0.0,
+      "percent_bonus": 0.0
     },
     "criticalStrikeChance": {
       "flat": 0.0,
@@ -327,10 +328,10 @@
     "manaRegen": {
       "flat": 0.0,
       "percent": 0.0,
-      "perLevel": 0.0,
-      "percentPerLevel": 0.0,
-      "percentBase": 0.0,
-      "percentBonus": 0.0
+      "per_level": 0.0,
+      "percent_per_level": 0.0,
+      "percent_base": 0.0,
+      "percent_bonus": 0.0
     },
     "movespeed": {
       "flat": 115.0,

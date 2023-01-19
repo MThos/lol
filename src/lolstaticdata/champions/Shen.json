@@ -4,7 +4,7 @@
   "name": "Shen",
   "title": "the Eye of Twilight",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Shen.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Shen.png",
   "resource": "ENERGY",
   "attackType": "MELEE",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -201,11 +201,11 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Shen/ability-icon/p",
         "effects": [
           {
-            "description": "Innate: Shen manifests a Spirit Blade that he can control with Twilight Assault and Spirit's Refuge.",
+            "description": "Innate: After completing an ability's effects, Shen grants himself a shield for 50 − 101 (based on level) (+ 12% bonus health) for 2.5 seconds. If the triggering ability successfully affected at least one enemy champion, Ki Barrier's cooldown is reduced by 4 − 7.5 (based on level) seconds.",
             "leveling": []
           },
           {
-            "description": "Passive: After completing an ability's effects, Shen shields himself for 50 − 101 (based on level) (+ 12% bonus health) for 2.5 seconds. If the triggering ability successfully affected at least one enemy champion, Ki Barrier's cooldown is reduced by 4 − 7.5 (based on level) seconds.",
+            "description": "Shen manifests a Spirit Blade that he can control with Twilight Assault and Spirit's Refuge.",
             "leveling": []
           }
         ],
@@ -350,7 +350,7 @@
                 ]
               },
               {
-                "attribute": "Total Damage",
+                "attribute": "Total Magic Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -842,10 +842,10 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Shen/ability-icon/r",
         "effects": [
           {
-            "description": "Active: Shen channels for 3 seconds, shielding the target allied champion at the time of cast for up to 5 seconds, increased by 0% − 60% (based on target's missing health).",
+            "description": "Active: Shen channels for 3 seconds and granting a shield to the target allied champion at the time of cast for up to 5 seconds, increased by 0% − 60% (based on target's missing health).",
             "leveling": [
               {
-                "attribute": "Minimum Shield",
+                "attribute": "Minimum Shield Strength",
                 "modifiers": [
                   {
                     "values": [
@@ -886,7 +886,7 @@
                 ]
               },
               {
-                "attribute": "Maximum Shield",
+                "attribute": "Maximum Shield Strength",
                 "modifiers": [
                   {
                     "values": [
@@ -960,7 +960,7 @@
         "projectile": null,
         "onHitEffects": null,
         "occurrence": null,
-        "notes": "Stand United can target allies via the mini map or on their portraits or by using the F2 - F5 keys (none of this can be done if Shen is affected by  nearsight or his target is  untargetable).\nShen will turn to face towards his target ally at the start of the channel.\nIf the target is  stealthed, enemies could, in theory, use this to estimate their location.\nShen will channel so long as his target is alive (even if the granted shield is broken). If his target dies, the channel is canceled and Stand United goes on full cooldown.\n Interrupting Stand United's channel will not remove the shield prematurely.\nThe target's screen will glow purple to telegraph that Shen has targeted them with Stand United.\nIt will change back when the channel ends.\nThe following table refers for interactions while Shen is  channeling:\n\n\nType\n\nChannel\n\n\nAttacking\n\nDisabled\n\n\nAbilities\n\nDisabled\n\n\nMovement\n\nDisabled\n\n\nItems\n\nUsable\n\nN/A\n\n\nDisabled\n\nAll items are disabled\n\n\nInterrupted by\n\nN/A\n\n\nConsumables\n\nDisabled\n\n\nSpells\n\nUsable\n\nN/A\n\n\nDisabled\n\n Barrier  Clarity  Cleanse  Exhaust  Ghost  Heal  Ignite  Smite  Flash  Teleport  Recall  Hexflash  Mark  Dash\n\n\nInterrupted by\n\nN/A\n\n\nInterrupted by\n\nDeath Grounding effects Immobilizing effects Cast-inhibiting effects",
+        "notes": "Stand United can target allies via the mini map or on their portraits or by using the F2 - F5 keys (none of this can be done if Shen is affected by  nearsight or his target is  untargetable).\nShen will turn to face towards his target ally at the start of the channel.\nIf the target is  stealthed, enemies could, in theory, use this to estimate their location.\nShen will channel so long as his target is alive (even if the granted shield is broken). If his target dies, the channel is canceled and Stand United goes on full cooldown.\n Interrupting Stand United's channel will not remove the shield prematurely.\nThe target's screen will glow purple to telegraph that Shen has targeted them with Stand United.\nIt will change back when the channel ends.\nShen finds the nearest visible enemy champion within 2000 range from the ally or the nearest invisible champion within 600 range to place himself 175 units from his ally towards that enemy.\nThe following table refers for interactions while Shen is  channeling:\n\n\nType\n\nChannel\n\n\nAttacking\n\nDisabled\n\n\nAbilities\n\nDisabled\n\n\nMovement\n\nDisabled\n\n\nItems\n\nUsable\n\nN/A\n\n\nDisabled\n\nAll items are disabled\n\n\nInterrupted by\n\nN/A\n\n\nConsumables\n\nDisabled\n\n\nSpells\n\nUsable\n\nN/A\n\n\nDisabled\n\n Barrier  Clarity  Cleanse  Exhaust  Ghost  Heal  Ignite  Smite  Flash  Teleport  Recall  Hexflash  Mark  Dash\n\n\nInterrupted by\n\nN/A\n\n\nInterrupted by\n\nDeath Grounding effects Immobilizing effects Cast-inhibiting effects",
         "blurb": "Active:  Shen  channels for a short time,  shielding the target allied champion for a few seconds. The  shield is based on his bonus health and increases based on the target's missing health.",
         "missileSpeed": null,
         "rechargeRate": null,
@@ -986,6 +986,7 @@
     "saleRp": 0
   },
   "lore": "Among the secretive, Ionian warriors known as the Kinkou, Shen serves as their leader, the Eye of Twilight. He longs to remain free from the confusion of emotion, prejudice, and ego, and walks the unseen path of dispassionate judgment between the spirit realm and the physical world. Tasked with enforcing the equilibrium between them, Shen wields blades of steel and arcane energy against any who would threaten it.",
+  "faction": "ionia",
   "skins": [
     {
       "name": "Original",

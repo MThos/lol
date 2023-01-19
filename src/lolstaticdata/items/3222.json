@@ -13,7 +13,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3222_enchanter_t3_mikaelsblessing.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3222_enchanter_t3_mikaelsblessing.png",
   "simpleDescription": "Activate to remove all disabling effects from an allied champion",
   "nicknames": [
     "crucible",
@@ -24,8 +24,8 @@
     {
       "unique": true,
       "name": "Purify",
-      "effects": "Remove all {{tip|crowd control}} debuffs (except {{tip|Airborne}}, {{tip|Blind}}, {{tip|Disarm}}, {{tip|Ground}}, {{tip|Nearsight}}, and {{tip|Suppression}}) from yourself or an allied champion and {{tip|heal}} the target for {{pp|100 to 180|type=target's level}}.",
-      "range": null,
+      "effects": "Remove all {{tip|crowd control}} debuffs (except {{tip|Airborne}}, {{tip|Blind}}, {{tip|Disarm}}, {{tip|Ground}}, {{tip|Nearsight}}, and {{tip|Suppression}}) from yourself or the target allied champion and {{tip|heal}} the target for {{pp|100 to 180|type=target's level}}.",
+      "range": 0,
       "cooldown": null
     }
   ],

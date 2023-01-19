@@ -14,7 +14,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3109_tank_t3_knightsvow.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3109_tank_t3_knightsvow.png",
   "simpleDescription": "Partner with an ally to protect each other",
   "nicknames": [
     "kv"
@@ -24,8 +24,9 @@
       "unique": true,
       "mythic": false,
       "name": "Sacrifice",
-      "effects": "While your ''Worthy'' ally is nearby and you are above {{as|30% of your '''maximum''' health}}, redirect 10% of the {{tt|post-mitigation|Damage calculated after modifiers}} {{as|physical|physical damage}} and {{as|magic|magic damage}} damage they take to you as {{as|true damage}} and {{tip|heal}} for 7% of the damage dealt by your ''Worthy'' ally to champions. If they are below {{as|30% '''maximum''' health}}, the damage redirection is increased to 20%.",
+      "effects": "While your ''Worthy'' ally is {{tt|tethered to you|1250 units, center to edge}} and you are above {{as|30% of your '''maximum''' health}}, redirect 10% of the {{tt|post-mitigation|Damage calculated after modifiers}} {{as|physical|physical damage}} and {{as|magic|magic damage}} damage they take to you as {{as|true damage}} and {{tip|heal}} for 7% of the damage dealt by your ''Worthy'' ally to champions. If they are below {{as|30% '''maximum''' health}}, the damage redirection is increased to 20%.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -197,8 +198,8 @@
     {
       "unique": true,
       "name": "Pledge",
-      "effects": "Designate an allied champion as ''Worthy'', forming a {{tip|tether}} between you and them. Champions can only be designated as ''Worthy'' by one '''Knight's Vow''' at a time.",
-      "range": null,
+      "effects": "Designate the target allied champion as being ''Worthy'', forming a {{tip|tether}} between you and them. Champions can only be designated as ''Worthy'' by one '''Knight's Vow''' at a time.",
+      "range": 0,
       "cooldown": null
     }
   ],

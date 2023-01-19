@@ -10,7 +10,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3121_fimbulwinter.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3121_fimbulwinter.png",
   "simpleDescription": null,
   "nicknames": [],
   "passives": [
@@ -20,6 +20,7 @@
       "name": "Awe",
       "effects": "Grants {{as|'''bonus''' health}} equal to {{as|8% '''maximum''' mana}}.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -190,10 +191,11 @@
       "unique": true,
       "mythic": false,
       "name": "Everlasting",
-      "effects": "{{tip|immobilize|Immobilizing}}, or {{tip|slow|slowing}} if you are {{tip|melee}}, an enemy champion consumes {{as|3% '''current''' mana}} to grant a {{pp|100 to 180}} {{as|(+ {{fd|4.5}}% '''current''' mana)}} {{tip|shield}} for 3 seconds (8 second cooldown). The shield's strength is increased{{ft|by 80%|to {{pp|100*1.8 to 200*1.8}} {{as|(+ {{ap|5*1.8}}% '''current''' mana)}}}}if there is more than one enemy champion nearby. Can only activate if you have greater than {{as|20% '''maximum''' mana}}.",
+      "effects": "{{tip|immobilize|Immobilizing}}, or {{tip|slow|slowing}} if you are {{tip|melee}}, an enemy champion consumes {{as|3% '''current''' mana}} to grant a {{pp|100 to 180}} {{as|(+ {{fd|4.5}}% '''current''' mana)}} {{tip|shield}} for 3 seconds (8 second cooldown). The shield's strength is increased{{ft|by 80%|to {{pp|100*1.8 to 200*1.8}} {{as|(+ {{ap|5*1.8}}% '''current''' mana)}}}}if there is more than one enemy champion within {{tip|cr|icononly=true}} 1200 units. Can only activate if you have greater than {{as|20% '''maximum''' mana}}.",
       "range": null,
+      "cooldown": null,
       "stats": {
-        "abilityPower": {
+        "ability_power": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -209,15 +211,15 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "armorPenetration": {
+        "armor_penetration": {
           "flat": 0.0,
           "percent": 0.0,
-          "perLevel": 0.0,
-          "percentPerLevel": 0.0,
-          "percentBase": 0.0,
-          "percentBonus": 0.0
+          "per_level": 0.0,
+          "percent_per_level": 0.0,
+          "percent_base": 0.0,
+          "percent_bonus": 0.0
         },
-        "attackDamage": [
+        "attack_damage": [
           {
             "flat": 0.0,
             "percent": 0.0,
@@ -227,7 +229,23 @@
             "percentBonus": 0.0
           }
         ],
-        "attackSpeed": {
+        "attack_speed": {
+          "flat": 0.0,
+          "percent": 0.0,
+          "per_level": 0.0,
+          "percent_per_level": 0.0,
+          "percent_base": 0.0,
+          "percent_bonus": 0.0
+        },
+        "cooldown_reduction": {
+          "flat": 0.0,
+          "percent": 0.0,
+          "per_level": 0.0,
+          "percent_per_level": 0.0,
+          "percent_base": 0.0,
+          "percent_bonus": 0.0
+        },
+        "critical_strike_chance": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -235,7 +253,7 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "cooldownReduction": {
+        "gold_per_10": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -243,23 +261,7 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "criticalStrikeChance": {
-          "flat": 0.0,
-          "percent": 0.0,
-          "perLevel": 0.0,
-          "percentPerLevel": 0.0,
-          "percentBase": 0.0,
-          "percentBonus": 0.0
-        },
-        "goldPer_10": {
-          "flat": 0.0,
-          "percent": 0.0,
-          "perLevel": 0.0,
-          "percentPerLevel": 0.0,
-          "percentBase": 0.0,
-          "percentBonus": 0.0
-        },
-        "healAndShieldPower": {
+        "heal_and_shield_power": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -275,7 +277,7 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "healthRegen": {
+        "health_regen": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -299,7 +301,7 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "magicPenetration": {
+        "magic_penetration": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -307,7 +309,7 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "magicResistance": {
+        "magic_resistance": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -323,7 +325,7 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "manaRegen": {
+        "mana_regen": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -332,7 +334,7 @@
           "percentBonus": 0.0
         },
         "movespeed": 0.0,
-        "abilityHaste": {
+        "ability_haste": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,

@@ -4,7 +4,7 @@
   "name": "Jayce",
   "title": "the Defender of Tomorrow",
   "fullName": "Jayce Giopara",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Jayce.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Jayce.png",
   "resource": "MANA",
   "attackType": "MELEE",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -202,7 +202,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Jayce/ability-icon/p",
         "effects": [
           {
-            "description": "Innate: Each time Jayce switches between Hammer Stance and Cannon Stance he gains 40 bonus movement speed and ghosting for 0.75 seconds.",
+            "description": "Innate: Whenever Jayce switches between either Hammer Stance or Cannon Stance, he gains ghosting and 40 bonus movement speed for 0.75 seconds.",
             "leveling": []
           }
         ],
@@ -239,7 +239,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Jayce/ability-icon/q",
         "effects": [
           {
-            "description": "Active: Jayce leaps to the target enemy's location and smashes his hammer on the ground upon arrival, dealing physical damage to all enemies within an area and slowing them for 2 seconds.",
+            "description": "Active: Jayce leaps to the target enemy's location. Upon arrival, he deals physical damage to all enemies within an area and slows them for 2 seconds.",
             "leveling": [
               {
                 "attribute": "Physical Damage",
@@ -247,11 +247,11 @@
                   {
                     "values": [
                       55,
-                      95,
-                      135,
-                      175,
-                      215,
-                      255
+                      100,
+                      145,
+                      190,
+                      235,
+                      280
                     ],
                     "units": [
                       "",
@@ -386,7 +386,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Jayce/ability-icon/q",
         "effects": [
           {
-            "description": "Active: Jayce fires an electric bolt in the target direction that detonates upon hitting an enemy or max range, dealing physical damage to nearby enemies and briefly granting sight of the area.",
+            "description": "Active: Jayce fires an electric bolt in the target direction that detonates upon hitting an enemy or reaching maximum range, dealing physical damage to nearby enemies and granting sight of the area for 1.25 seconds.",
             "leveling": [
               {
                 "attribute": "Physical Damage",
@@ -428,9 +428,14 @@
                     ]
                   }
                 ]
-              },
+              }
+            ]
+          },
+          {
+            "description": "If the bolt passes through Acceleration Gate, it becomes supercharged: increasing its damage by 40% as well as its speed, range and explosion radius.",
+            "leveling": [
               {
-                "attribute": "Accelerated Damage",
+                "attribute": "Increased Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -471,10 +476,6 @@
                 ]
               }
             ]
-          },
-          {
-            "description": "If the bolt passes through Acceleration Gate, it supercharges: dealing 40% increased damage with increased speed, range and explosion radius.",
-            "leveling": []
           }
         ],
         "cost": {
@@ -556,16 +557,16 @@
             "description": "Passive: Jayce's basic attacks restore mana on-hit.",
             "leveling": [
               {
-                "attribute": "Mana Restore",
+                "attribute": "Mana Restored",
                 "modifiers": [
                   {
                     "values": [
-                      6,
-                      8,
                       10,
                       12,
                       14,
-                      16
+                      16,
+                      18,
+                      20
                     ],
                     "units": [
                       "",
@@ -581,7 +582,7 @@
             ]
           },
           {
-            "description": "Active: Jayce surrounds himself with an electric field for 4 seconds, dealing magic damage each second to all nearby enemies over the duration.",
+            "description": "Active: Jayce surrounds himself with an electric field for 4 seconds that deals magic damage every second to nearby enemies.",
             "leveling": [
               {
                 "attribute": "Magic Damage Per Tick",
@@ -742,7 +743,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Jayce/ability-icon/w",
         "effects": [
           {
-            "description": "Active: Jayce empowers his next 3 basic attacks within 4 seconds to deal modified damage and gain 300% bonus attack speed.Hyper Charge's total damage is affected by critical strike modifiers.",
+            "description": "Active: Jayce empowers his next 3 basic attacks within 4 seconds to deal modified physical damage and gain 300% bonus attack speed.Hyper Charge's total damage is affected by critical strike modifiers.",
             "leveling": [
               {
                 "attribute": "Damage Modifier",
@@ -757,12 +758,12 @@
                       110
                     ],
                     "units": [
-                      "%",
-                      "%",
-                      "%",
-                      "%",
-                      "%",
-                      "%"
+                      "% AD",
+                      "% AD",
+                      "% AD",
+                      "% AD",
+                      "% AD",
+                      "% AD"
                     ]
                   }
                 ]
@@ -850,7 +851,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Jayce/ability-icon/e",
         "effects": [
           {
-            "description": "Active: Jayce swings his hammer at the target enemy, dealing magic damage, capped against monsters, while also pulling them to a location 500 units in front of him.",
+            "description": "Active: Jayce swings his hammer at the target enemy, dealing magic damage, capped against monsters, while also displacing them to a location 500 units in front of him.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -858,11 +859,11 @@
                   {
                     "values": [
                       8,
-                      10.4,
-                      12.8,
-                      15.2,
-                      17.6,
-                      20
+                      10.8,
+                      13.6,
+                      16.4,
+                      19.2,
+                      22
                     ],
                     "units": [
                       "% of target's maximum health",
@@ -993,7 +994,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Jayce/ability-icon/e",
         "effects": [
           {
-            "description": "Active: Jayce deploys an energy gate centered at the target location for 4 seconds, granting sight of its area. Jayce and all allied champions can move through it to gain bonus movement speed that decays over 3 seconds.",
+            "description": "Active: Jayce deploys an energy gate centered at the target location, lasting for 4 seconds and granting sight of its surroundings. Jayce and all allied champions can move through it to gain bonus movement speed that decays over 3 seconds.",
             "leveling": [
               {
                 "attribute": "Bonus Movement Speed",
@@ -1162,7 +1163,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Jayce/ability-icon/r",
         "effects": [
           {
-            "description": "Active: Jayce transforms into Hammer Stance, receiving access to its abilities, becoming melee with 125 attack range, gaining 5 / 15 / 25 / 35 (based on level) bonus armor and bonus magic resistance, and empowering his next basic attack to deal 25 / 65 / 105 / 145 (based on level) (+ 25% bonus AD) bonus magic damage.",
+            "description": "Active: Jayce transforms into Hammer Stance, receiving access to its abilities, becoming melee with 125 attack range, gaining 5 / 15 / 25 / 35 (based on level) (+ 7.5% bonus AD) bonus armor and bonus magic resistance, and empowering his next basic attack to deal 25 / 65 / 105 / 145 (based on level) (+ 25% bonus AD) bonus magic damage.",
             "leveling": []
           },
           {
@@ -1222,13 +1223,14 @@
   },
   "releaseDate": "2012-07-07",
   "releasePatch": "1.0.0.142",
-  "patchLastChanged": "12.10",
+  "patchLastChanged": "12.20",
   "price": {
     "blueEssence": 4800,
     "rp": 880,
     "saleRp": 0
   },
   "lore": "Jayce is a brilliant inventor who has pledged his life to the defense of Piltover and its unyielding pursuit of progress. With his transforming hextech hammer in hand, Jayce uses his strength, courage, and considerable intelligence to protect his hometown. While revered throughout the city as a hero, he hasn't taken well to the attention heroism brings. Still, Jayce's heart is in the right place, and even those who envy his natural skills are grateful for his protection in the City of Progress.",
+  "faction": "piltover",
   "skins": [
     {
       "name": "Original",
@@ -1344,10 +1346,7 @@
       "chromas": [],
       "lore": null,
       "release": "2015-05-03",
-      "set": [
-        "Star Wars",
-        "Forsaken"
-      ],
+      "set": [],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/126/126003.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/126/126003.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/126/126003.jpg",
@@ -1847,7 +1846,7 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/126/126024.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/126/126024.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/126/126024.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/jayce/skins/skin24/jayceloadscreen_24.pie_c_11_22.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/jayce/skins/skin24/jayceloadscreen_24.jpg",
       "loadScreenVintagePath": null,
       "newEffects": true,
       "newAnimations": true,
@@ -1859,6 +1858,210 @@
       ],
       "splashArtist": [
         "Ina Wong",
+        "West Studio"
+      ]
+    },
+    {
+      "name": "Zenith Games",
+      "id": 126025,
+      "isBase": false,
+      "availability": "Available",
+      "formatName": "Zenith Games",
+      "lootEligible": true,
+      "cost": 1350,
+      "sale": 0,
+      "distribution": null,
+      "rarity": "Epic",
+      "chromas": [
+        {
+          "name": "Amethyst",
+          "id": 126031,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/126/126031.png",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Aquamarine",
+          "id": 126028,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/126/126028.png",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Catseye",
+          "id": 126027,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/126/126027.png",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Emerald",
+          "id": 126030,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/126/126030.png",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Obsidian",
+          "id": 126033,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/126/126033.png",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Pearl",
+          "id": 126032,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/126/126032.png",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Rose Quartz",
+          "id": 126029,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/126/126029.png",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "TENCENT"
+            }
+          ]
+        },
+        {
+          "name": "Ruby",
+          "id": 126026,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/126/126026.png",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "descriptions": [
+            {
+              "description": "This chroma was released as a bundle exclusive in 2022.",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
+            }
+          ]
+        }
+      ],
+      "lore": "Jayce invented Hammerjack as a showcase sport for humanity's new augmented abilities. Nothing else tested athletes across so many directions and terrain, and with this being its first year in the Zenith Games, he intends to show everyone what THE sport of the 22nd century looks like.",
+      "release": "2022-09-09",
+      "set": [
+        "Zenith Games"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/126/126025.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/126/126025.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/126/126025.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/jayce/skins/skin25/jayceloadscreen_25.pie_c_12_17.jpg",
+      "loadScreenVintagePath": null,
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Trevor Devall"
+      ],
+      "splashArtist": [
+        "Alsie Lau",
         "West Studio"
       ]
     }

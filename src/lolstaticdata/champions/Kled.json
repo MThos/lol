@@ -4,7 +4,7 @@
   "name": "Kled",
   "title": "the Cantankerous Cavalier",
   "fullName": "Kled and Skaarl",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Kled.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Kled.png",
   "resource": "COURAGE",
   "attackType": "MELEE",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -202,11 +202,11 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Kled/ability-icon/p",
         "effects": [
           {
-            "description": "Innate: Kled rides his semi-trusty mount, Skaarl. While Mounted, all damage dealt to the duo is suffered by Skaarl, who has 810 − 3258 (based on level) base health (+ 100% bonus health). Percent-health effects consider Kled & Skaarl's combined maximum health.",
+            "description": "Innate: Kled rides his semi-trusty mount, Skaarl. While Mounted, all damage dealt to the duo is suffered by Skaarl, who has 810 − 3258 (based on level) (+ 100% bonus health) base health. Effects based on percentage health consider Kled and Skaarl's combined maximum health.",
             "leveling": []
           },
           {
-            "description": "Being reduced to 0 health causes Skaarl to flee, forcing Kled to be Dismounted, with all damage in excess of Skaarl's health being ignored. Upon dismounting, Kled dashes toward his nexus, though not through terrain, cleanses himself of all crowd control and becomes unable to act, untargetable, and immune to crowd control for 0.5 seconds, during which he also reduces all incoming damage received by 100%.",
+            "description": "Being reduced to 0 health causes Skaarl to flee, forcing Kled to be Dismounted, with all damage in excess of Skaarl's health being ignored. Upon dismounting, Kled dashes in the direction of the allied Nexus, though not through terrain, cleanses himself of all crowd control and becomes unable to act, untargetable, and immune to crowd control for 0.5 seconds, during which he also reduces all incoming damage received by 100%.",
             "leveling": []
           },
           {
@@ -245,11 +245,11 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Kled/ability-icon/p",
         "effects": [
           {
-            "description": "Innate: Kled is only vulnerable to death while Dismounted. Kled has 410 − 1838 (based on level) base health, which is not improved by sources of bonus health, as well as reduced base movement speed and increased attack range. Percent-health effects consider Kled & Skaarl's combined maximum health, meaning that a Dismounted Kled is always considered to be low health.",
+            "description": "Innate: Kled is only vulnerable to death while Dismounted. Kled has 410 − 1838 (based on level) base health, which is not improved by sources of bonus health, as well as reduced base movement speed and increased attack range. Effects based on percentage health consider Kled and Skaarl's combined maximum health, meaning that a Dismounted Kled is always considered to be low health.",
             "leveling": []
           },
           {
-            "description": "Kled gains 100 − 185 (based on level) bonus movement speed when moving towards visible enemy champions within 1000 units, but his basic attacks against them are reduced to 80% AD damage. Additionally, he gains the ability to restore Skaarl's Courage to reunite again.",
+            "description": "Kled gains 100 − 185 (based on level) bonus movement speed while moving towards visible enemy champions within 1000 units, but his basic attacks against them are reduced to 80% AD physical damage. Additionally, he gains the ability to restore Skaarl's Courage to reunite again.",
             "leveling": []
           },
           {
@@ -257,11 +257,11 @@
             "leveling": []
           },
           {
-            "description": "While at the allied fountain, 25 Courage is generated every 0.25 seconds. Recalling fully restores Skaarl's Courage and health. If reuniting outside of base, Skaarl gets Frayed Nerves, which prevents him from gaining Courage for 30 seconds.",
+            "description": "While at the allied fountain, 25 Courage is generated every 0.25 seconds. If reuniting outside of base, Skaarl gets Frayed Nerves, which prevents him from gaining Courage for 30 seconds.",
             "leveling": []
           },
           {
-            "description": "The current status of Kled's own health is preserved between subsequent dismounts. While Mounted, healing will first affect Skaarl's health and will only restore Kled's health while Skaarl is at full health.",
+            "description": "The current status of Kled's own health is preserved between subsequent dismounts. While Mounted, healing and health regeneration will first replenish Skaarl's health and will only apply to Kled's health while Skaarl is at full health.",
             "leveling": []
           }
         ],
@@ -298,10 +298,10 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Kled/ability-icon/q",
         "effects": [
           {
-            "description": "Active: Kled throws a bear trap in the target direction that deals physical damage to enemies hit, increased by 50% against minions and small monsters. The bear trap collides against the first enemy champion or large monster hit, forming a tether with Kled that reveals the target.",
+            "description": "Active: Kled throws a bear trap in the target direction that deals physical damage to enemies hit, increased by 50% against minions and small monsters. The bear trap collides against the first enemy champion or large monster hit, forming a tether between Kled and the target for 1.75 seconds, during which they are revealed.",
             "leveling": [
               {
-                "attribute": "Tether Damage",
+                "attribute": "Physical Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -377,10 +377,10 @@
             ]
           },
           {
-            "description": "The tether's radius shrinks over 1.75 seconds, and if it is not broken by the end of its duration, Kled pulls the target 100 units toward him, deals physical damage, inflicts 40% Grievous Wounds for 5 seconds, and slows them for 1.5 seconds.",
+            "description": "The tether's radius shrinks over its duration, and if it is not broken before then, Kled pulls the target 100 units toward him, deals physical damage, inflicts 40% Grievous Wounds for 5 seconds, and slows them for 1.5 seconds.",
             "leveling": [
               {
-                "attribute": "Pull Damage",
+                "attribute": "Physical Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -417,7 +417,7 @@
                 ]
               },
               {
-                "attribute": "Total Damage",
+                "attribute": "Total Physical Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -570,6 +570,52 @@
                     ]
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "description": "Kled periodically stocks a Pocket Pistol charge, up to a maximum of 2. He will store charges even while mounted.",
+            "leveling": []
+          },
+          {
+            "description": "Pellets collide with the first enemy champion they hit, and deal 20% damage per pellet beyond the first. Each pellet that hits an enemy champion or epic monster restores Courage, by 5 and 2.5 respectively.",
+            "leveling": [
+              {
+                "attribute": "Reduced Damage",
+                "modifiers": [
+                  {
+                    "values": [
+                      7,
+                      10,
+                      13,
+                      16,
+                      19
+                    ],
+                    "units": [
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "values": [
+                      16,
+                      16,
+                      16,
+                      16,
+                      16
+                    ],
+                    "units": [
+                      "% bonus AD",
+                      "% bonus AD",
+                      "% bonus AD",
+                      "% bonus AD",
+                      "% bonus AD"
+                    ]
+                  }
+                ]
               },
               {
                 "attribute": "Maximum Damage",
@@ -609,14 +655,6 @@
                 ]
               }
             ]
-          },
-          {
-            "description": "Kled periodically stocks a Pocket Pistol charge, up to a maximum of 2. He will store charges even while mounted.",
-            "leveling": []
-          },
-          {
-            "description": "Pellets collide into the first enemy champion they hit, and deal 20% damage per pellet beyond the first. Each pellet that hits an enemy champion or epic monster restores Courage, by 5 and 2.5 respectively.",
-            "leveling": []
           }
         ],
         "cost": {
@@ -714,7 +752,7 @@
             "leveling": []
           },
           {
-            "description": "Violent Tendencies: Kled gains 150% bonus attack speed on his next 4 basic attacks within 4 seconds. The final attack deals bonus physical damage, capped against monsters.",
+            "description": "Violent Tendencies: Kled gains 150% bonus attack speed on his next 4 basic attacks within 4 seconds. The fourth attack deals bonus physical damage, capped against monsters.",
             "leveling": [
               {
                 "attribute": "Bonus Physical Damage",
@@ -754,7 +792,7 @@
                 ]
               },
               {
-                "attribute": "Maximum Damage Against Monsters",
+                "attribute": "Capped Monster Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -872,9 +910,18 @@
                     ]
                   }
                 ]
-              },
+              }
+            ]
+          },
+          {
+            "description": "Upon hitting an enemy champion or large monster, Skaarl dashes a fixed 200-units through them, marking them for 3 seconds, during which they are revealed. After the dash ends, the duo gain 50% bonus movement speed for 1 second. Jousting can be recast after 0.5 seconds of the first dash ending while the target is marked.",
+            "leveling": []
+          },
+          {
+            "description": "Recast: Skaarl consumes the mark to dash through the marked target, applying the same effects as the first cast.",
+            "leveling": [
               {
-                "attribute": "Total Damage",
+                "attribute": "Total Physical Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -911,14 +958,6 @@
                 ]
               }
             ]
-          },
-          {
-            "description": "Upon hitting an enemy champion or large monster, Skaarl dashes a fixed 200-units through them, marking them for 3 seconds, during which they are revealed. After the dash ends, the duo gain 50% bonus movement speed for 1 second. Jousting can be recast after 0.5 seconds of the first dash ending while the target is marked.",
-            "leveling": []
-          },
-          {
-            "description": "Recast: Skaarl consumes the mark to dash through the marked target.",
-            "leveling": []
           },
           {
             "description": "The mark will remain even if the target dies, and ends prematurely if the duo are too far away or Kled dismounts.",
@@ -1088,7 +1127,7 @@
             "leveling": []
           },
           {
-            "description": "Skaarl dashes to the first enemy champion in range, colliding with the first visible enemy champion on the way, or the main target, to deal physical damage, increased by 0% − 200% (based on time traveling), and knock them back 100 units, though not through terrain.",
+            "description": "Skaarl dashes toward the first enemy champion in range, colliding with the first visible enemy champion in his path to deal physical damage, increased by 0% − 200% (based on time traveling), and knock them back 100 units, though not through terrain.",
             "leveling": [
               {
                 "attribute": "Minimum Physical Damage",
@@ -1239,6 +1278,7 @@
     "saleRp": 0
   },
   "lore": "A warrior as fearless as he is ornery, the yordle Kled embodies the furious bravado of Noxus. He is an icon beloved by the empire's soldiers, distrusted by its officers, and loathed by the nobility. Many claim Kled has fought in every campaign the legions have waged, has “acquired” every military title, and has never once backed down from a fight. Though the truth of the matter is often questionable, one part of his legend is undeniable: Charging into battle on his un-trusty steed, Skaarl, Kled fights to protect what's his… and to take whatever he can get.",
+  "faction": "noxus",
   "skins": [
     {
       "name": "Original",

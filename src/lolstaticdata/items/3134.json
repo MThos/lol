@@ -9,8 +9,8 @@
   ],
   "buildsInto": [
     3142,
-    3179,
     6695,
+    3179,
     6692,
     3814,
     6691,
@@ -23,7 +23,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3134_assassin_t2_serrateddirk.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3134_assassin_t2_serrateddirk.png",
   "simpleDescription": "Increases Attack Damage and Lethality",
   "nicknames": [],
   "passives": [
@@ -33,6 +33,7 @@
       "name": "Gouge",
       "effects": "Gain {{Lethality|10}}.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -95,10 +96,10 @@
         "goldPer_10": {
           "flat": 0.0,
           "percent": 0.0,
-          "perLevel": 0.0,
-          "percentPerLevel": 0.0,
-          "percentBase": 0.0,
-          "percentBonus": 0.0
+          "per_level": 0.0,
+          "percent_per_level": 0.0,
+          "percent_base": 0.0,
+          "percent_bonus": 0.0
         },
         "healAndShieldPower": {
           "flat": 0.0,
@@ -119,10 +120,10 @@
         "healthRegen": {
           "flat": 0.0,
           "percent": 0.0,
-          "perLevel": 0.0,
-          "percentPerLevel": 0.0,
-          "percentBase": 0.0,
-          "percentBonus": 0.0
+          "per_level": 0.0,
+          "percent_per_level": 0.0,
+          "percent_base": 0.0,
+          "percent_bonus": 0.0
         },
         "lethality": {
           "flat": 0.0,

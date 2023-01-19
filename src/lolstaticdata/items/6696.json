@@ -13,7 +13,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6696_axiomarc.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6696_axiomarc.png",
   "simpleDescription": null,
   "nicknames": [],
   "passives": [
@@ -23,6 +23,7 @@
       "name": "Flux",
       "effects": "Scoring a {{tip|takedown}} against an enemy champion within 3 seconds of damaging them refunds 20% of your ultimate ability's '''total''' cooldown.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,

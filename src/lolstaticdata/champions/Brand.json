@@ -4,7 +4,7 @@
   "name": "Brand",
   "title": "the Burning Vengeance",
   "fullName": "Kegan Rodhe",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Brand.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.23.1/img/champion/Brand.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -28,7 +28,7 @@
       "percentPerLevel": 0.0
     },
     "manaRegen": {
-      "flat": 10.67,
+      "flat": 10.65,
       "percent": 0.0,
       "perLevel": 0.6,
       "percentPerLevel": 0.0
@@ -201,7 +201,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Brand/ability-icon/p",
         "effects": [
           {
-            "description": "Innate: Brand's abilities apply a stack of Ablaze to enemies hit that lasts 4 seconds, which refreshes on subsequent hits and stacks up to 3 times. Subsequent abilities used against a target with Ablaze are empowered. Killing an enemy afflicted with Ablaze or with an ability restores 20 − 40 (based on level) mana.",
+            "description": "Innate: Brand's abilities apply a stack of Ablaze to enemies hit for 4 seconds, refreshing on subsequent applications and stacking up to 3 times. Subsequent abilities used against a target with Ablaze are empowered. Killing an enemy afflicted with Ablaze or with an ability restores 20 − 40 (based on level) mana.",
             "leveling": []
           },
           {
@@ -410,7 +410,7 @@
             ]
           },
           {
-            "description": "Ablaze Bonus: The target takes 25% bonus damage.",
+            "description": "Ablaze Bonus: The target takes 25% increased damage.",
             "leveling": [
               {
                 "attribute": "Increased Damage",
@@ -800,13 +800,14 @@
   },
   "releaseDate": "2011-04-12",
   "releasePatch": "1.0.0.115",
-  "patchLastChanged": "12.11",
+  "patchLastChanged": "12.22",
   "price": {
     "blueEssence": 4800,
     "rp": 880,
     "saleRp": 0
   },
   "lore": "Once a tribesman of the icy Freljord named Kegan Rodhe, the creature known as Brand is a lesson in the temptation of greater power. Seeking one of the legendary World Runes, Kegan betrayed his companions and seized it for himself—and, in an instant, the man was no more. His soul burned away, his body a vessel of living flame, Brand now roams Valoran in search of other Runes, swearing revenge for wrongs he could never possibly have suffered in a dozen mortal lifetimes.",
+  "faction": "unaffiliated",
   "skins": [
     {
       "name": "Original",
@@ -975,7 +976,9 @@
       "chromas": [],
       "lore": null,
       "release": "2015-10-21",
-      "set": [],
+      "set": [
+        "Worldbreaker"
+      ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/63/63005.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/63/63005.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/63/63005.jpg",
@@ -1573,8 +1576,8 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/63/63021.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/63/63021.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/63/63021.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/brand/skins/skin21/brandloadscreen_21.pie_c_11_24.jpg",
-      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/brand/skins/skin21/brandloadscreen_21_le.pie_c_11_24.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/brand/skins/skin21/brandloadscreen_21.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/brand/skins/skin21/brandloadscreen_21_le.jpg",
       "newEffects": true,
       "newAnimations": true,
       "newRecall": true,
@@ -1605,8 +1608,8 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/63/63022.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/63/63022.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/63/63022.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/brand/skins/skin22/brandloadscreen_22.pie_c_11_24.jpg",
-      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/brand/skins/skin22/brandloadscreen_22_le.pie_c_11_24.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/brand/skins/skin22/brandloadscreen_22.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/brand/skins/skin22/brandloadscreen_22_le.jpg",
       "newEffects": true,
       "newAnimations": true,
       "newRecall": true,

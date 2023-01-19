@@ -14,7 +14,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3003_mage_t3_archangelstaff.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3003_mage_t3_archangelstaff.png",
   "simpleDescription": "Increases Ability Power based on maximum Mana",
   "nicknames": [
     "aa"
@@ -26,6 +26,7 @@
       "name": "Awe",
       "effects": "Grants {{as|ability haste}} equal to {{as|{{fd|0.5}}% '''bonus''' mana}}.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -196,8 +197,9 @@
       "unique": true,
       "mythic": false,
       "name": "Mana Charge",
-      "effects": "Grants a charge every 8 seconds, up to 4 charges. Affecting an enemy or ally with an ability consumes a charge and grants {{as|3 '''bonus''' mana}}, increased to {{as|6|mana}} if they are a champion, up to a '''maximum''' of {{as|360 '''bonus''' mana}}.",
+      "effects": "Grants a charge every 8 seconds, up to 4 charges. Affecting an enemy or ally with an [[champion ability|ability]] consumes a charge to grant {{as|3 '''bonus''' mana}}, increased to {{as|6|mana}} if they are a champion, up to a '''maximum''' of {{as|360 '''bonus''' mana}}.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -368,8 +370,9 @@
       "unique": false,
       "mythic": false,
       "name": null,
-      "effects": "Transforms into {{ii|Seraph's Embrace}} at {{as|+360 mana}}.",
+      "effects": "Transforms into {{ii|Seraph's Embrace}} at {{as|360 '''bonus''' mana}}.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,

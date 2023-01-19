@@ -4,7 +4,7 @@
   "name": "Kog'Maw",
   "title": "the Mouth of the Abyss",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/KogMaw.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/KogMaw.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -681,7 +681,7 @@
             "description": "Active: Kog'Maw spits a globule of acid into the air that drops to the target location after 0.6 seconds, granting sight of the area before dealing magic damage to enemies hit, increased by 0% − 50% (based on target's missing health), and revealing them for 2 seconds. Living Artillery's damage is doubled against enemies below 40% maximum health.",
             "leveling": [
               {
-                "attribute": "Magic Damage",
+                "attribute": "Minimum Magic Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -722,54 +722,13 @@
                 ]
               },
               {
-                "attribute": "Increased Magic Damage",
-                "modifiers": [
-                  {
-                    "values": [
-                      150,
-                      210,
-                      270
-                    ],
-                    "units": [
-                      "",
-                      "",
-                      ""
-                    ]
-                  },
-                  {
-                    "values": [
-                      97.5,
-                      97.5,
-                      97.5
-                    ],
-                    "units": [
-                      "% bonus AD",
-                      "% bonus AD",
-                      "% bonus AD"
-                    ]
-                  },
-                  {
-                    "values": [
-                      52.5,
-                      52.5,
-                      52.5
-                    ],
-                    "units": [
-                      "% AP",
-                      "% AP",
-                      "% AP"
-                    ]
-                  }
-                ]
-              },
-              {
                 "attribute": "Maximum Magic Damage",
                 "modifiers": [
                   {
                     "values": [
-                      200,
-                      280,
-                      360
+                      250,
+                      350,
+                      450
                     ],
                     "units": [
                       "",
@@ -779,9 +738,9 @@
                   },
                   {
                     "values": [
-                      130,
-                      130,
-                      130
+                      162.5,
+                      162.5,
+                      162.5
                     ],
                     "units": [
                       "% bonus AD",
@@ -791,9 +750,9 @@
                   },
                   {
                     "values": [
-                      70,
-                      70,
-                      70
+                      87.5,
+                      87.5,
+                      87.5
                     ],
                     "units": [
                       "% AP",
@@ -806,7 +765,7 @@
             ]
           },
           {
-            "description": "Kog'Maw then gains a stack of Living Artillery that lasts 8 seconds, which refreshes on subsequent casts and stacks up to 9 times.",
+            "description": "Kog'Maw then gains a stack of Living Artillery for 8 seconds, refreshing on subsequent casts and stacking up to 9 times.",
             "leveling": []
           },
           {
@@ -882,6 +841,7 @@
     "saleRp": 0
   },
   "lore": "Belched forth from a rotting Void incursion deep in the wastelands of Icathia, Kog'Maw is an inquisitive yet putrid creature with a caustic, gaping mouth. This particular Void-spawn needs to gnaw and drool on anything within reach to truly understand it. Though not inherently evil, Kog'Maw's beguiling naiveté is dangerous, as it often precedes a feeding frenzy—not for sustenance, but to satisfy its unending curiosity.",
+  "faction": "void",
   "skins": [
     {
       "name": "Original",
@@ -1121,9 +1081,7 @@
       "chromas": [],
       "lore": null,
       "release": "2012-03-23",
-      "set": [
-        "Jurassic"
-      ],
+      "set": [],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/96/96007.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/96/96007.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/96/96007.jpg",
@@ -1419,8 +1377,7 @@
       "lore": "Pug'Maw is a nine month old purebred pug with a sweet disposition and possibly some sort of salivary problem. Great with children and pets. Highly food motivated. Has eaten three action figures and one doll, approach with extreme caution.",
       "release": "2017-03-29",
       "set": [
-        "Toy Box",
-        "Cats Versus Dogs"
+        "Toy Box"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/96/96009.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/96/96009.jpg",

@@ -6,6 +6,7 @@
   "buildsFrom": [],
   "buildsInto": [
     3072,
+    6671,
     3031,
     3036,
     3095,
@@ -14,7 +15,6 @@
     3124,
     3139,
     3508,
-    6671,
     6672,
     6673,
     6676
@@ -24,7 +24,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/1018_base_t1_cloakagility.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/1018_base_t1_cloakagility.png",
   "simpleDescription": "Increases critical strike chance",
   "nicknames": [],
   "passives": [],

@@ -4,7 +4,7 @@
   "name": "Tahm Kench",
   "title": "The River King",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/TahmKench.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/TahmKench.png",
   "resource": "MANA",
   "attackType": "MELEE",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -202,7 +202,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/TahmKench/ability-icon/p",
         "effects": [
           {
-            "description": "Innate: Tahm Kench's basic attacks on-hit and Tongue Lash are empowered to deal 8 − 60 (based on level) (+ 3% of his bonus health) bonus magic damage, and apply a stack of An Acquired Taste against enemy champions lasting 5 seconds, which refreshes on subsequent hits and stacks up to 3 times. Stacks expire by 1 every 0.67 seconds.",
+            "description": "Innate: Tahm Kench's basic attacks on-hit and Tongue Lash are empowered to deal 8 − 60 (based on level) (+ 3% of his bonus health) bonus magic damage and apply a stack of An Acquired Taste against enemy champions for 5 seconds, refreshing on subsequent hits and stacking up to 3 times. Stacks expire by one every 0.67 seconds when the duration ends.",
             "leveling": []
           },
           {
@@ -266,11 +266,11 @@
                   },
                   {
                     "values": [
-                      70,
-                      70,
-                      70,
-                      70,
-                      70
+                      90,
+                      90,
+                      90,
+                      90,
+                      90
                     ],
                     "units": [
                       "% AP",
@@ -448,7 +448,7 @@
             "leveling": []
           },
           {
-            "description": "Tahm Kench emerges to deal magic damage to nearby enemies, as well as knock up and stun them for 1 second. If this hits at least one enemy champion, 40% of its cooldown and mana cost are refunded.",
+            "description": "Tahm Kench emerges to deal magic damage to nearby enemies, as well as knock up and stun them for 1 second. If this hits at least one enemy champion, 40% of Abyssal Dive's cooldown and mana cost are refunded.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -471,11 +471,11 @@
                   },
                   {
                     "values": [
-                      100,
-                      100,
-                      100,
-                      100,
-                      100
+                      125,
+                      125,
+                      125,
+                      125,
+                      125
                     ],
                     "units": [
                       "% AP",
@@ -613,7 +613,7 @@
             ]
           },
           {
-            "description": "While Thick Skin is off cooldown, and after 4 seconds without taking damage, Tahm Kench rapidly consumes his grey health to restore 45% − 100% (based on level) of the amount, healing 10% of his maximum health every 0.264 seconds.",
+            "description": "While Thick Skin is not on cooldown, and after 4 seconds without taking damage, Tahm Kench rapidly consumes his grey health to restore 45% − 100% (based on level) of the amount, healing for 10% of his maximum health every 0.264 seconds.",
             "leveling": []
           },
           {
@@ -712,7 +712,7 @@
             ]
           },
           {
-            "description": "After a 1 second delay, Tahm Kench can cast Regurgitate within the duration, and automatically does so afterwards. The swallowed ally can also input a movement command to force this cast in the target direction, unless they are immobilized.",
+            "description": "After 1 second, Tahm Kench can cast Regurgitate within the duration, and automatically does so afterwards. The swallowed ally can also input a movement command to force this cast in the target direction, unless they are immobilized.",
             "leveling": []
           },
           {
@@ -842,7 +842,7 @@
         "speed": null,
         "width": null,
         "angle": null,
-        "castTime": null,
+        "castTime": "0.25",
         "effectRadius": null,
         "targetRange": null
       }
@@ -850,13 +850,14 @@
   },
   "releaseDate": "2015-07-09",
   "releasePatch": "5.13",
-  "patchLastChanged": "12.11",
+  "patchLastChanged": "12.19",
   "price": {
     "blueEssence": 4800,
     "rp": 880,
     "saleRp": 0
   },
   "lore": "Known by many names throughout history, the demon Tahm Kench travels the waterways of Runeterra, feeding his insatiable appetite with the misery of others. Though he may appear singularly charming and proud, he swaggers through the physical realm like a vagabond in search of unsuspecting prey. His lashing tongue can stun even a heavily armored warrior from a dozen paces, and to fall into his rumbling belly is to tumble into an abyss from which there is little hope of return.",
+  "faction": "unaffiliated",
   "skins": [
     {
       "name": "Original",
@@ -938,9 +939,7 @@
       "chromas": [],
       "lore": null,
       "release": "2016-03-31",
-      "set": [
-        "Disguise"
-      ],
+      "set": [],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/223/223002.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/223/223002.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/223/223002.jpg",

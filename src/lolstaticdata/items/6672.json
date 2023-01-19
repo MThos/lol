@@ -16,7 +16,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6672_marksman_t4_behemothslayer.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6672_marksman_t4_behemothslayer.png",
   "simpleDescription": null,
   "nicknames": [],
   "passives": [
@@ -26,6 +26,7 @@
       "name": "Bring It Down",
       "effects": "Basic attacks {{rd|[[on-hit]]|[[on-attack]]}} grant a stack for 3 seconds, up to 2 stacks. At 2 stacks, the next basic attack consumes all stacks to deal {{as|50 {{as|(+ 40% '''bonus''' AD)}} '''bonus''' true damage|true damage}} on-hit.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -198,6 +199,7 @@
       "name": "Mythic",
       "effects": null,
       "range": 0,
+      "cooldown": 0,
       "stats": {
         "abilityPower": {
           "flat": 0.0,

@@ -4,7 +4,7 @@
   "name": "Diana",
   "title": "Scorn of the Moon",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Diana.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Diana.png",
   "resource": "MANA",
   "attackType": "MELEE",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -130,7 +130,7 @@
       "percentPerLevel": 0.0
     },
     "aramDamageTaken": {
-      "flat": 1.0,
+      "flat": 0.95,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
@@ -207,7 +207,7 @@
             "leveling": []
           },
           {
-            "description": "Innate: Diana's basic attacks generate a stack of Moonsilver Blade for 3.5 seconds, stacking up to 2 times and refreshing on subsequent attacks. At 2 stacks, Diana empowers her next basic attack to consume the stacks on-hit to additionally cleave nearby enemies, dealing them 20 − 250 (based on level) (+ 50% AP) magic damage. Moonsilver Blade deals 300% damage against non- epic monsters.",
+            "description": "Innate: Diana's basic attacks generate a stack of Moonsilver Blade for 3.5 seconds, refreshing on subsequent attacks and stacking up to 2 times. At 2 stacks, Diana empowers her next basic attack to consume the stacks on-hit to additionally cleave nearby enemies, dealing them 20 − 220 (based on level) (+ 50% AP) magic damage. Moonsilver Blade deals 300% damage against non- epic monsters.",
             "leveling": []
           }
         ],
@@ -366,7 +366,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Diana/ability-icon/w",
         "effects": [
           {
-            "description": "Active: Diana shields herself for up to 5 seconds and creates three spheres that orbit her for the same duration, detonating upon contact with an enemy to deal magic damage to nearby enemies.",
+            "description": "Active: Diana grants herself a shield for up to 5 seconds and creates three spheres that orbit her for the same duration, detonating upon contact with an enemy to deal magic damage to nearby enemies.",
             "leveling": [
               {
                 "attribute": "Shield Strength",
@@ -650,11 +650,11 @@
                   },
                   {
                     "values": [
-                      45,
-                      45,
-                      45,
-                      45,
-                      45
+                      50,
+                      50,
+                      50,
+                      50,
+                      50
                     ],
                     "units": [
                       "% AP",
@@ -669,7 +669,7 @@
             ]
           },
           {
-            "description": "If Moonlight is consumed from the target, Lunar Rush's cooldown is reduced to 0.5 seconds.",
+            "description": "If Moonlight is consumed from the target, Lunar Rush's current cooldown is reduced to 0.5 seconds.",
             "leveling": []
           },
           {
@@ -924,13 +924,14 @@
   },
   "releaseDate": "2012-08-07",
   "releasePatch": "1.0.0.144",
-  "patchLastChanged": "12.10",
+  "patchLastChanged": "12.16",
   "price": {
     "blueEssence": 4800,
     "rp": 880,
     "saleRp": 0
   },
   "lore": "Bearing her crescent moonblade, Diana fights as a warrior of the Lunari—a faith all but quashed in the lands around Mount Targon. Clad in shimmering armor the color of winter snow at night, she is a living embodiment of the silver moon's power. Imbued with the essence of an Aspect from beyond Targon's towering summit, Diana is no longer wholly human, and struggles to understand her power and purpose in this world.",
+  "faction": "mount-targon",
   "skins": [
     {
       "name": "Original",
@@ -1414,7 +1415,6 @@
         "Nicole Oliver"
       ],
       "splashArtist": [
-        "Pan Chengwei",
         "Xu 'Crow God' Cheng"
       ]
     },
@@ -1860,8 +1860,8 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/131/131027.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/131/131027.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/131/131027.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/diana/skins/skin27/dianaloadscreen_27.pie_c_11_14.jpg",
-      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/diana/skins/skin27/dianaloadscreen_27_le.pie_c_11_14.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/diana/skins/skin27/dianaloadscreen_27.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/diana/skins/skin27/dianaloadscreen_27_le.jpg",
       "newEffects": true,
       "newAnimations": true,
       "newRecall": true,

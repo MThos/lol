@@ -4,7 +4,7 @@
   "name": "Thresh",
   "title": "the Chain Warden",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Thresh.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Thresh.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -12,7 +12,7 @@
     "health": {
       "flat": 600,
       "percent": 0.0,
-      "perLevel": 115,
+      "perLevel": 120,
       "percentPerLevel": 0.0
     },
     "healthRegen": {
@@ -206,7 +206,7 @@
             "leveling": []
           },
           {
-            "description": "Innate: Enemy champions, large minions and large monsters that die near Thresh drop a Soul for 8 seconds. Epic monsters drop 2 Souls, small minions and lesser monsters have a 33.3% chance to drop a Soul.",
+            "description": "Innate: Enemy champions, large minions and large monsters that die near Thresh drop a Soul for 8 seconds. Epic monsters drop 2 Souls while lesser minions and monsters have a 33.3% chance to drop a Soul.",
             "leveling": []
           },
           {
@@ -255,7 +255,7 @@
             "leveling": []
           },
           {
-            "description": "The scythe catches the first enemy hit to deal magic damage, reducing Death Sentence's cooldown by 3 seconds, and stunning and revealing them for 1.5 seconds. Thresh will also mark the target Shackled for 1.5 seconds, during which he is unable to declare basic attacks, and is slowed by 20% for 1 second.",
+            "description": "The scythe catches the first enemy hit to deal magic damage and stun and reveal them for 1.5 seconds, as well as reduce Death Sentence's current cooldown by 3 seconds. Thresh will also mark the target Shackled for 1.5 seconds, during which he is unable to declare basic attacks, and is slowed by 20% for 1 second.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -377,7 +377,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Thresh/ability-icon/w",
         "effects": [
           {
-            "description": "Active: Thresh throws his lantern to the target location over 0.5 seconds, which then grants sight of its surroundings and lasts for 6 seconds while he remains nearby.",
+            "description": "Active: Thresh throws his lantern to the target location over 0.5 seconds, lasting for 6 seconds while he remains nearby and granting sight of its surroundings. If Thresh moves too far away from the lantern, it returns back to him immediately.",
             "leveling": []
           },
           {
@@ -477,7 +477,7 @@
         "projectile": "TRUE",
         "onHitEffects": null,
         "occurrence": null,
-        "notes": "The dashing ally will track Thresh if he changes locations.\nThey will dash to Thresh's previous location if he is too far away or moves beyond 2200 units.\nThe lantern is considered a unit and can be targeted by an allied  Teleport,  Leap Strike,  Shunpo, and  Safeguard.\nIt is  untargetable to enemies.\nThe lantern's duration and maximum leash range are each displayed as a circle on the ground.\nDark Passage is special cased to trigger  Guardian.",
+        "notes": "The dashing ally will track Thresh if he changes locations.\nThey will dash to Thresh's previous location if he is too far away or moves beyond 2200 units.\nThe lantern is considered a unit and can be targeted by an allied  Teleport,  Leap Strike,  Shunpo, and  Safeguard.\nIt is  untargetable to enemies.\nThe lantern's duration and maximum leash range are each displayed as a circle on the ground.\nThresh will gain Dark Passage's shield from moving out of leash range of the lantern.\nDark Passage is special cased to trigger  Guardian.",
         "blurb": "Active:  Thresh throws his lantern to the target location that remains for a few seconds while he remains nearby. He and the first allied champion to come near the lantern are granted a  shield for a few seconds, with the amount based on  Souls.",
         "missileSpeed": null,
         "rechargeRate": null,
@@ -578,18 +578,18 @@
             ]
           },
           {
-            "description": "Active: Thresh sweeps his chain across the ground in a broad line and a radius around him, starting behind him and towards the target direction. Enemies hit are dealt magic damage, knocked 200 units in the target direction, and then slowed for 1 second upon landing.",
+            "description": "Active: Thresh sweeps his chain across the ground in a broad line and a radius around him, starting behind him and towards the target direction. Enemies hit are dealt magic damage and knocked 200 units in the target direction, and then are slowed for 1 second.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
                 "modifiers": [
                   {
                     "values": [
-                      65,
-                      95,
-                      125,
-                      155,
-                      185
+                      75,
+                      110,
+                      145,
+                      180,
+                      215
                     ],
                     "units": [
                       "",
@@ -747,7 +747,7 @@
             ]
           },
           {
-            "description": "An enemy hit becomes immune to breaking another wall for 1 second after breaking one. Subsequent walls will deal no damage and slow for only 1 second.",
+            "description": "Enemies that break a wall cannot do so again for 1 second. Subsequent walls they break will deal no damage and slow for only 1 second.",
             "leveling": []
           }
         ],
@@ -812,13 +812,14 @@
   },
   "releaseDate": "2013-01-23",
   "releasePatch": "1.0.0.154",
-  "patchLastChanged": "12.15",
+  "patchLastChanged": "12.18",
   "price": {
     "blueEssence": 4800,
     "rp": 880,
     "saleRp": 0
   },
   "lore": "Sadistic and cunning, Thresh is an ambitious and restless spirit of the Shadow Isles. Once the custodian of countless arcane secrets, he was undone by a power greater than life or death, and now sustains himself by tormenting and breaking others with slow, excruciating inventiveness. His victims suffer far beyond their brief mortal coil as Thresh wreaks agony upon their souls, imprisoning them in his unholy lantern to torture for all eternity.",
+  "faction": "shadow-isles",
   "skins": [
     {
       "name": "Original",
@@ -1496,7 +1497,7 @@
       "lore": "An ancient demon of obsession, Thresh delights in tormenting the spirits of those he deems as flawed, but blossoming with potential. He haunts the spiritual afterlife as a supreme collector of souls, tempting the dead away from their path to salvation until they are trapped for eternity within their own memories.",
       "release": "2020-07-22",
       "set": [
-        "Akana"
+        "Spirit Blossom"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/412/412017.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/412/412017.jpg",
@@ -1535,8 +1536,8 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/412/412027.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/412/412027.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/412/412027.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/thresh/skins/skin27/threshloadscreen_27.skins_thresh_skin27.jpg",
-      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/thresh/skins/skin27/threshloadscreen_27_le.skins_thresh_skin27.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/thresh/skins/skin27/threshloadscreen_27.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/thresh/skins/skin27/threshloadscreen_27_le.jpg",
       "newEffects": true,
       "newAnimations": true,
       "newRecall": true,
@@ -1760,8 +1761,8 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/412/412028.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/412/412028.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/412/412028.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/thresh/skins/skin28/threshloadscreen_28.pie_c_11_21.jpg",
-      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/thresh/skins/skin28/threshloadscreen_28_le.pie_c_11_21.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/thresh/skins/skin28/threshloadscreen_28.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/thresh/skins/skin28/threshloadscreen_28_le.jpg",
       "newEffects": true,
       "newAnimations": true,
       "newRecall": true,
@@ -1773,6 +1774,40 @@
       "splashArtist": [
         "Huyy Nguyen",
         "West Studio"
+      ]
+    },
+    {
+      "name": "Prestige Pulsefire (2022)",
+      "id": 412038,
+      "isBase": false,
+      "availability": "Limited",
+      "formatName": "Prestige Pulsefire (2022)",
+      "lootEligible": false,
+      "cost": "special",
+      "sale": 0,
+      "distribution": "Given to players who owned the original skin prior to patch 12.5",
+      "rarity": "Mythic",
+      "chromas": [],
+      "lore": "As paradoxes multiply and more rogue agents rebel against the grasp of the chrono-enforcers, Thresh, as commander of the Rembrancers, takes matters into his own hands. He must not yield control of time to these interlopers… nor to the growing Praetorian threat.",
+      "release": "2022-04-01",
+      "set": [
+        "Pulsefire"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/412/412038.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/412/412038.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/412/412038.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/thresh/skins/skin38/threshloadscreen_38.pie_c_12_6.jpg",
+      "loadScreenVintagePath": null,
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Mark Oliver"
+      ],
+      "splashArtist": [
+        "Kudos Productions"
       ]
     }
   ]

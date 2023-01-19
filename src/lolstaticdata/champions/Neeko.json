@@ -4,7 +4,7 @@
   "name": "Neeko",
   "title": "the Curious Chameleon",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Neeko.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Neeko.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -290,7 +290,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Neeko/ability-icon/q",
         "effects": [
           {
-            "description": "Active: Neeko tosses a seed that blooms at the target location, dealing magic damage nearby enemies.",
+            "description": "Active: Neeko tosses a seed that blooms at the target location, dealing magic damage to nearby enemies.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -335,7 +335,7 @@
             "description": "If the bloom kills an enemy or hits a champion or large monster, it will bloom again after 0.75 seconds to deal magic damage. This may occur up to 2 times per cast.",
             "leveling": [
               {
-                "attribute": "Additional Bloom Damage",
+                "attribute": "Magic Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -372,7 +372,7 @@
                 ]
               },
               {
-                "attribute": "Total Maximum Damage",
+                "attribute": "Total Maximum Magic Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -483,7 +483,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Neeko/ability-icon/w",
         "effects": [
           {
-            "description": "Passive: Neeko's basic attacks on-hit generate a stack of Shapesplitter, which refreshes on subsequent hits and stacks up to 2 times. At 2 stacks, her next basic attack on-attack is empowered to consume them all to become non-projectile, deal bonus magic damage and grant her bonus movement speed for 1 second.",
+            "description": "Passive: Neeko's basic attacks on-hit generate a stack of Shapesplitter, stacking up to 2 times. At 2 stacks, her next basic attack on-attack is empowered to consume them all to become non-projectile, deal bonus magic damage and grant her bonus movement speed for 1 second.",
             "leveling": [
               {
                 "attribute": "Bonus Magic Damage",
@@ -523,7 +523,7 @@
                 ]
               },
               {
-                "attribute": "Passive Movement Speed",
+                "attribute": "Bonus Movement Speed",
                 "modifiers": [
                   {
                     "values": [
@@ -549,7 +549,7 @@
             "description": "Active: Neeko creates a clone of her current form, after which they both instantly become invisible for 0.5 seconds and gain bonus movement speed for 3 seconds.",
             "leveling": [
               {
-                "attribute": "Active Movement Speed",
+                "attribute": "Bonus Movement Speed",
                 "modifiers": [
                   {
                     "values": [
@@ -572,7 +572,7 @@
             ]
           },
           {
-            "description": "The clone lasts for 3 seconds, and starts running a fixed distance in the target direction. The clone is untargetable to allies and for the first 0.5 seconds of its lifespan to enemies.",
+            "description": "The clone lasts for 3 seconds, and starts running a fixed distance in the target direction. It is untargetable to allies and for the first 0.5 seconds of its lifespan to enemies.",
             "leveling": []
           }
         ],
@@ -790,11 +790,11 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Neeko/ability-icon/r",
         "effects": [
           {
-            "description": "Active: Neeko winds up spiritual essence over 1.25 seconds and highlights the area around herself, which is visible to enemies unless Neeko is disguised.",
+            "description": "Active: Neeko winds up spiritual essence over 1.25 seconds and highlights an area around herself, which is visible to enemies unless Neeko is disguised.",
             "leveling": []
           },
           {
-            "description": "After winding up, the cast time begins and Neeko leaps into the air, gaining a shield for 2 seconds that is increased for each nearby enemy champion.",
+            "description": "After winding up, the cast time begins and Neeko leaps into the air, granting herself a shield for 2 seconds that is increased for each nearby enemy champion.",
             "leveling": [
               {
                 "attribute": "Shield Strength",
@@ -988,6 +988,7 @@
     "saleRp": 0
   },
   "lore": "Hailing from a long lost tribe of vastaya, Neeko can blend into any crowd by borrowing the appearances of others, even absorbing something of their emotional state to tell friend from foe in an instant. No one is ever sure where—or who—Neeko might be, but those who intend to do her harm will soon witness her true colors revealed, and feel the full power of her primordial spirit magic unleashed upon them.",
+  "faction": "ixtal",
   "skins": [
     {
       "name": "Original",
@@ -1291,7 +1292,7 @@
         "Flora Paulita"
       ],
       "splashArtist": [
-        "Kudos Productions"
+        "Rudy Siswanto"
       ]
     },
     {
@@ -1496,6 +1497,241 @@
       "splashArtist": [
         "Horace 'Hozure' Hsu"
       ]
+    },
+    {
+      "name": "Prestige Star Guardian (2022)",
+      "id": 518021,
+      "isBase": false,
+      "availability": "Limited",
+      "formatName": "Prestige Star Guardian (2022)",
+      "lootEligible": false,
+      "cost": "special",
+      "sale": 0,
+      "distribution": "Given to players who owned the original skin prior to patch 12.5",
+      "rarity": "Mythic",
+      "chromas": [],
+      "lore": "Neeko and the Star Guardians emerge from their battle forever changed, friendships reforged in the face of stunning victory and brutal loss. They will save their lost companion—perhaps not now, but one day—and they will do it together.",
+      "release": "2022-04-01",
+      "set": [
+        "Star Guardian Season 3"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/518/518021.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/518/518021.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/518/518021.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/neeko/skins/skin21/neekoloadscreen_21.pie_c_12_6.jpg",
+      "loadScreenVintagePath": null,
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Flora Paulita"
+      ],
+      "splashArtist": [
+        "Rudy Siswanto"
+      ]
+    },
+    {
+      "name": "Bewitching",
+      "id": 518022,
+      "isBase": false,
+      "availability": "Legacy",
+      "formatName": "Bewitching",
+      "lootEligible": true,
+      "cost": 1350,
+      "sale": 0,
+      "distribution": null,
+      "rarity": "Epic",
+      "chromas": [
+        {
+          "name": "Citrine",
+          "id": 518024,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/518/518024.png",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Emerald",
+          "id": 518027,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/518/518027.png",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Obsidian",
+          "id": 518029,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/518/518029.png",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Pearl",
+          "id": 518030,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/518/518030.png",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Rose Quartz",
+          "id": 518028,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/518/518028.png",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "TENCENT"
+            }
+          ]
+        },
+        {
+          "name": "Ruby",
+          "id": 518023,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/518/518023.png",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "descriptions": [
+            {
+              "description": "This chroma was released as a bundle exclusive in 2022.",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Sapphire",
+          "id": 518026,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/518/518026.png",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Turquoise",
+          "id": 518025,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/518/518025.png",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        }
+      ],
+      "lore": "Neeko never remembers to buy a costume for the yearly festivities. Her delightful disguises come courtesy of her transfigurative talents and shapeshifting spells. Wait… are there two Nidalees at this party? Nope. That's just Neeko, pulling one of her classic pranks.",
+      "release": "2022-10-20",
+      "set": [
+        "Bewitching"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/518/518022.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/518/518022.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/518/518022.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/neeko/skins/skin22/neekoloadscreen_22.pie_c_12_20.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/neeko/skins/skin22/neekoloadscreen_22_le.pie_c_12_20.jpg",
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Flora Paulita"
+      ],
+      "splashArtist": []
     }
   ]
 }

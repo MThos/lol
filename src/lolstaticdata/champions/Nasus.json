@@ -4,7 +4,7 @@
   "name": "Nasus",
   "title": "the Curator of the Sands",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Nasus.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Nasus.png",
   "resource": "MANA",
   "attackType": "MELEE",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -136,7 +136,7 @@
       "percentPerLevel": 0.0
     },
     "aramDamageDealt": {
-      "flat": 1.0,
+      "flat": 0.95,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
@@ -239,7 +239,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Nasus/ability-icon/q",
         "effects": [
           {
-            "description": "Active: Nasus empowers his next basic attack within 10 seconds to have an uncancellable windup, gain 25 bonus range, and deal bonus physical damage.",
+            "description": "Active: Nasus empowers his next basic attack within 10 seconds to have an uncancellable windup, gain 50 bonus range, and deal bonus physical damage.",
             "leveling": [
               {
                 "attribute": "Bonus Physical Damage",
@@ -361,7 +361,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Nasus/ability-icon/w",
         "effects": [
           {
-            "description": "Active: Nasus ages the target enemy champion for 5 seconds, slowing them by 35% and crippling them by[ half that amount ][ 17.5% ], both increasing over the duration.",
+            "description": "Active: Nasus ages the target enemy champion for 5 seconds, slowing them by 35% and crippling them by[ 75% of that amount, ][ 26.25%, ]both increasing every second over the duration.",
             "leveling": [
               {
                 "attribute": "Maximum Slow",
@@ -410,11 +410,11 @@
                 "modifiers": [
                   {
                     "values": [
-                      23.5,
-                      29.5,
-                      35.5,
-                      41.5,
-                      47.5
+                      35.25,
+                      44.25,
+                      53.25,
+                      62.25,
+                      71.25
                     ],
                     "units": [
                       "%",
@@ -431,11 +431,11 @@
                 "modifiers": [
                   {
                     "values": [
-                      1.5,
-                      3,
+                      2.25,
                       4.5,
-                      6,
-                      7.5
+                      6.75,
+                      9,
+                      11.25
                     ],
                     "units": [
                       "%",
@@ -500,7 +500,7 @@
         "projectile": null,
         "onHitEffects": null,
         "occurrence": null,
-        "notes": "If Wither's duration is affected by  Tenacity the effects will apply slower (negative tenacity percentage) or faster (positive tenacity percentage) so the maximum values are still reached when the modified duration ends.\nBoth  slow and  cripple from Wither are considered to be a single  debuff. (bug)\nTherefore,  slow immunity will prevent both, even without technical  cripple immunity.\nWither is cancelled if Nasus loses  sight of the target during the cast time.\nIf the target becomes  untargetable,  dies, or is too far away or no longer in  sight during the cast time, this ability will cancel but does not go on  cooldown nor pay its cost (if applicable).",
+        "notes": "If Wither's duration is affected by  Tenacity the effects will apply slower (negative tenacity percentage) or faster (positive tenacity percentage) so the maximum values are still reached when the modified duration ends.\nBoth  slow and  cripple from Wither are considered to be a single debuff. (bug)\nTherefore,  slow immunity will prevent both, even without technical  cripple immunity.\nWither is cancelled if Nasus loses  sight of the target during the cast time.\nIf the target becomes  untargetable,  dies, or is too far away or no longer in  sight during the cast time, this ability will cancel but does not go on  cooldown nor pay its cost (if applicable).",
         "blurb": "Active:  Nasus ages the target enemy champion for a few seconds, gradually  slowing and  crippling them over the duration.",
         "missileSpeed": null,
         "rechargeRate": null,
@@ -522,7 +522,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Nasus/ability-icon/e",
         "effects": [
           {
-            "description": "Active: Nasus unleashes a spirit fire at the target location, granting sight of its center for 2.5 seconds and, after a 0.264 seconds delay, dealing magic damage to enemies within.",
+            "description": "Active: Nasus unleashes a spirit fire at the target location, granting sight of the area for 2.5 seconds and, after a 0.264 seconds delay, dealing magic damage to enemies within.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -736,7 +736,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Nasus/ability-icon/r",
         "effects": [
           {
-            "description": "Active: Nasus empowers himself for 15 seconds, gaining bonus health, bonus armor, bonus magic resistance, 30% increased size, and 50 bonus attack range for the duration.",
+            "description": "Active: Nasus empowers himself for 15 seconds, gaining bonus health, bonus armor, bonus magic resistance, increased size, and 50 bonus attack range for the duration.",
             "leveling": [
               {
                 "attribute": "Bonus Health",
@@ -771,20 +771,37 @@
                     ]
                   }
                 ]
+              },
+              {
+                "attribute": "Increased Size",
+                "modifiers": [
+                  {
+                    "values": [
+                      30,
+                      35,
+                      40
+                    ],
+                    "units": [
+                      "%",
+                      "%",
+                      "%"
+                    ]
+                  }
+                ]
               }
             ]
           },
           {
-            "description": "While Nasus is empowered, he creates an aura that deals magic damage to nearby enemies each second, capped at 240 per second, and Siphoning Strike's cooldown is halved.",
+            "description": "While Nasus is empowered, he deals magic damage every 0.5 seconds to nearby enemies, capped at 240 per second, and Siphoning Strike's cooldown is halved.",
             "leveling": [
               {
                 "attribute": "Magic Damage Per Tick",
                 "modifiers": [
                   {
                     "values": [
-                      3,
-                      4,
-                      5
+                      1.5,
+                      2,
+                      2.5
                     ],
                     "units": [
                       "%  of target's maximum health",
@@ -794,9 +811,9 @@
                   },
                   {
                     "values": [
-                      1,
-                      1,
-                      1
+                      0.5,
+                      0.5,
+                      0.5
                     ],
                     "units": [
                       "% per 100 AP",
@@ -899,13 +916,14 @@
   },
   "releaseDate": "2009-10-01",
   "releasePatch": "0.9.25.24",
-  "patchLastChanged": "12.10",
+  "patchLastChanged": "12.19",
   "price": {
     "blueEssence": 1350,
     "rp": 585,
     "saleRp": 0
   },
   "lore": "Nasus is an imposing, jackal-headed Ascended being from ancient Shurima, a heroic figure regarded as a demigod by the people of the desert. Fiercely intelligent, he was a guardian of knowledge and peerless strategist whose wisdom guided the ancient empire of Shurima to greatness for many centuries. After the fall of the empire, he went into self-imposed exile, becoming little more than a legend. Now that the ancient city of Shurima has risen once more, he has returned, determined to ensure it never falls again.",
+  "faction": "shurima",
   "skins": [
     {
       "name": "Original",
@@ -1182,8 +1200,7 @@
       "lore": "In primary school, Nasus was told an old dog couldn't learn new tricks. Now, in his older years as an accomplished statesman, painter, and composer, he wonders if there is truth in those words. After all, he simply cannot seem to get his chamber orchestra to listen to his directions.",
       "release": "2015-03-31",
       "set": [
-        "High Society",
-        "Cats Versus Dogs"
+        "High Society"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/75/75006.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/75/75006.jpg",
@@ -1793,7 +1810,7 @@
       "name": "Armored Titan",
       "id": 75035,
       "isBase": false,
-      "availability": "Upcoming",
+      "availability": "Available",
       "formatName": "Armored Titan",
       "lootEligible": true,
       "cost": 1350,
@@ -1992,7 +2009,7 @@
         }
       ],
       "lore": "Nasus is Strike Team Hyperion's intelligence officer. His exosuit, the S02-Anubis, is a new model of power armor that offers increased durability, energy-siphoning power cells, and access to in-depth analysis tech for processing mission-critical information. He will see Hyperion succeed; if they don't, there's no telling what destruction rogue exo-pilots may wreak.",
-      "release": "0000-00-00",
+      "release": "2022-08-25",
       "set": [
         "Steel Valkyries"
       ],

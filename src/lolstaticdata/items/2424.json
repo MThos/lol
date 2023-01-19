@@ -1,0 +1,209 @@
+{
+  "name": "Broken Stopwatch",
+  "id": 2424,
+  "tier": 1,
+  "rank": [],
+  "builds_from": [],
+  "builds_into": [
+    3157,
+    3026
+  ],
+  "special_recipe": 0,
+  "no_effects": false,
+  "removed": false,
+  "required_champion": "",
+  "required_ally": "",
+  "icon": "https://raw.communitydragon.org/12.5/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/2424_mage_t1_brokenstopwatch.png",
+  "simple_description": null,
+  "nicknames": [],
+  "passives": [],
+  "active": [
+    {
+      "unique": true,
+      "name": "Shattered Time",
+      "effects": "Is broken, but can still be upgraded.",
+      "range": null,
+      "cooldown": null
+    }
+  ],
+  "stats": {
+    "ability_power": {
+      "flat": 0.0,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0
+    },
+    "armor": {
+      "flat": 0.0,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0
+    },
+    "armor_penetration": {
+      "flat": 0.0,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0
+    },
+    "attack_damage": {
+      "flat": 0.0,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0
+    },
+    "attack_speed": {
+      "flat": 0.0,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0
+    },
+    "cooldown_reduction": {
+      "flat": 0.0,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0
+    },
+    "critical_strike_chance": {
+      "flat": 0.0,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0
+    },
+    "gold_per_10": {
+      "flat": 0.0,
+      "percent": 0.0,
+      "per_level": 0.0,
+      "percent_per_level": 0.0,
+      "percent_base": 0.0,
+      "percent_bonus": 0.0
+    },
+    "heal_and_shield_power": {
+      "flat": 0.0,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0
+    },
+    "health": {
+      "flat": 0.0,
+      "percent": 0.0,
+      "per_level": 0.0,
+      "percent_per_level": 0.0,
+      "percent_base": 0.0,
+      "percent_bonus": 0.0
+    },
+    "health_regen": {
+      "flat": 0.0,
+      "percent": 0.0,
+      "per_level": 0.0,
+      "percent_per_level": 0.0,
+      "percent_base": 0.0,
+      "percent_bonus": 0.0
+    },
+    "lethality": {
+      "flat": 0.0,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0
+    },
+    "lifesteal": {
+      "flat": 0.0,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0
+    },
+    "magic_penetration": {
+      "flat": 0.0,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0
+    },
+    "magic_resistance": {
+      "flat": 0.0,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0
+    },
+    "mana": {
+      "flat": 0.0,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0
+    },
+    "mana_regen": {
+      "flat": 0.0,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0
+    },
+    "movespeed": {
+      "flat": 0.0,
+      "percent": 0.0,
+      "per_level": 0.0,
+      "percent_per_level": 0.0,
+      "percent_base": 0.0,
+      "percent_bonus": 0.0
+    },
+    "ability_haste": {
+      "flat": 0.0,
+      "percent": 0.0,
+      "per_level": 0.0,
+      "percent_per_level": 0.0,
+      "percent_base": 0.0,
+      "percent_bonus": 0.0
+    },
+    "omnivamp": {
+      "flat": 0.0,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0
+    },
+    "tenacity": {
+      "flat": 0.0,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0
+    }
+  },
+  "shop": {
+    "prices": {
+      "total": 650,
+      "combined": 0,
+      "sell": 260
+    },
+    "purchasable": false,
+    "tags": []
+  },
+  "iconOverlay": false
+}

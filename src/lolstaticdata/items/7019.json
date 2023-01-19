@@ -12,7 +12,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "Ornn",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3190_enchanter_t4_locketofironsolari.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3190_enchanter_t4_locketofironsolari.png",
   "simpleDescription": null,
   "nicknames": [],
   "passives": [
@@ -20,8 +20,9 @@
       "unique": true,
       "mythic": false,
       "name": "Consecrate",
-      "effects": "Grant allied champions within {{tt|850 radius|center to edge}} {{as|3 '''bonus''' armor}} and {{as|3 '''bonus''' magic resistance}}.",
+      "effects": "Grant allied champions (not including self) within {{tt|850 units|center to edge}} {{as|3 '''bonus''' armor}} and {{as|3 '''bonus''' magic resistance}}.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -194,6 +195,7 @@
       "name": "Mythic",
       "effects": null,
       "range": 0,
+      "cooldown": 0,
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -370,7 +372,7 @@
     {
       "unique": true,
       "name": "Devotion",
-      "effects": "Grant allied champions within {{tip|cr|icononly=true}} 850 radius a {{tip|shield}} for {{pp|180 to 330|type=target's level}}, decaying over {{fd|2.5}} seconds.",
+      "effects": "Grant allied champions (including self) within {{tip|cr|icononly=true}} 850 units a {{tip|shield}} for {{pp|180 to 330|type=target's level}}, decaying over {{fd|2.5}} seconds.",
       "range": null,
       "cooldown": null
     }

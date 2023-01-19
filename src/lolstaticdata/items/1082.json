@@ -12,7 +12,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/1082_mage_t1_darkseal.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/1082_mage_t1_darkseal.png",
   "simpleDescription": "Provides Ability Power and Mana.  Increases in power as you kill enemies.",
   "nicknames": [
     "Noxian"
@@ -24,6 +24,7 @@
       "name": "Glory",
       "effects": "Gain 2 stacks for each champion [[kill]] and 1 stack for each [[assist]], up to a '''maximum''' of 10 stacks. Lose 5 stacks on [[death]]. Stacks are preserved when upgrading to {{ii|Mejai's Soulstealer}}.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -196,6 +197,7 @@
       "name": "Dread",
       "effects": "Gain {{as|4 ability power}} for each stack of ''Glory''.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 4.0,

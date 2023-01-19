@@ -12,7 +12,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3001_support_lunari.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3001_support_lunari.png",
   "simpleDescription": null,
   "nicknames": [],
   "passives": [
@@ -20,10 +20,11 @@
       "unique": true,
       "mythic": false,
       "name": "Coruscation",
-      "effects": "Becoming affected by or applying an {{tip|immobilize|immobilizing}} or {{tip|ground|grounding}} effect to or from an enemy champion affects them and all enemy champions in {{tip|cr|icononly = true}} 600 radius around you with ''Repent'', increasing the damage they take by 9% for 4 seconds.",
+      "effects": "Becoming affected by or applying an {{tip|immobilize|immobilizing}} or {{tip|ground|grounding}} effect to or from an enemy champion affects them and all enemy champions within {{tip|cr|icononly = true}} 600 units of you with ''Repent'', increasing the damage they take by 10% for 5 seconds.",
       "range": null,
+      "cooldown": null,
       "stats": {
-        "abilityPower": {
+        "ability_power": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -39,7 +40,7 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "armorPenetration": {
+        "armor_penetration": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -47,7 +48,7 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "attackDamage": [
+        "attack_damage": [
           {
             "flat": 0.0,
             "percent": 0.0,
@@ -57,7 +58,7 @@
             "percentBonus": 0.0
           }
         ],
-        "attackSpeed": {
+        "attack_speed": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -65,7 +66,7 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "cooldownReduction": {
+        "cooldown_reduction": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -73,7 +74,7 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "criticalStrikeChance": {
+        "critical_strike_chance": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -81,7 +82,7 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "goldPer_10": {
+        "gold_per_10": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -89,7 +90,7 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "healAndShieldPower": {
+        "heal_and_shield_power": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -105,13 +106,13 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "healthRegen": {
+        "health_regen": {
           "flat": 0.0,
           "percent": 0.0,
-          "perLevel": 0.0,
-          "percentPerLevel": 0.0,
-          "percentBase": 0.0,
-          "percentBonus": 0.0
+          "per_level": 0.0,
+          "percent_per_level": 0.0,
+          "percent_base": 0.0,
+          "percent_bonus": 0.0
         },
         "lethality": {
           "flat": 0.0,
@@ -129,7 +130,7 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "magicPenetration": {
+        "magic_penetration": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -137,13 +138,13 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "magicResistance": {
+        "magic_resistance": {
           "flat": 0.0,
           "percent": 0.0,
-          "perLevel": 0.0,
-          "percentPerLevel": 0.0,
-          "percentBase": 0.0,
-          "percentBonus": 0.0
+          "per_level": 0.0,
+          "percent_per_level": 0.0,
+          "percent_base": 0.0,
+          "percent_bonus": 0.0
         },
         "mana": {
           "flat": 0.0,
@@ -153,7 +154,7 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "manaRegen": {
+        "mana_regen": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -162,13 +163,13 @@
           "percentBonus": 0.0
         },
         "movespeed": 0.0,
-        "abilityHaste": {
+        "ability_haste": {
           "flat": 0.0,
           "percent": 0.0,
-          "perLevel": 0.0,
-          "percentPerLevel": 0.0,
-          "percentBase": 0.0,
-          "percentBonus": 0.0
+          "per_level": 0.0,
+          "percent_per_level": 0.0,
+          "percent_base": 0.0,
+          "percent_bonus": 0.0
         },
         "omnivamp": {
           "flat": 0.0,
@@ -194,6 +195,7 @@
       "name": "Mythic",
       "effects": null,
       "range": 0,
+      "cooldown": 0,
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -368,7 +370,7 @@
   ],
   "active": [],
   "stats": {
-    "abilityPower": {
+    "ability_power": {
       "flat": 0.0,
       "percent": 0.0,
       "perLevel": 0.0,
@@ -384,7 +386,7 @@
       "percentBase": 0.0,
       "percentBonus": 0.0
     },
-    "armorPenetration": {
+    "armor_penetration": {
       "flat": 0.0,
       "percent": 0.0,
       "perLevel": 0.0,
@@ -392,7 +394,7 @@
       "percentBase": 0.0,
       "percentBonus": 0.0
     },
-    "attackDamage": {
+    "attack_damage": {
       "flat": 0.0,
       "percent": 0.0,
       "perLevel": 0.0,
@@ -400,7 +402,7 @@
       "percentBase": 0.0,
       "percentBonus": 0.0
     },
-    "attackSpeed": {
+    "attack_speed": {
       "flat": 0.0,
       "percent": 0.0,
       "perLevel": 0.0,
@@ -408,7 +410,7 @@
       "percentBase": 0.0,
       "percentBonus": 0.0
     },
-    "cooldownReduction": {
+    "cooldown_reduction": {
       "flat": 0.0,
       "percent": 0.0,
       "perLevel": 0.0,
@@ -416,7 +418,15 @@
       "percentBase": 0.0,
       "percentBonus": 0.0
     },
-    "criticalStrikeChance": {
+    "critical_strike_chance": {
+      "flat": 0.0,
+      "percent": 0.0,
+      "per_level": 0.0,
+      "percent_per_level": 0.0,
+      "percent_base": 0.0,
+      "percent_bonus": 0.0
+    },
+    "gold_per_10": {
       "flat": 0.0,
       "percent": 0.0,
       "perLevel": 0.0,
@@ -424,15 +434,7 @@
       "percentBase": 0.0,
       "percentBonus": 0.0
     },
-    "goldPer_10": {
-      "flat": 0.0,
-      "percent": 0.0,
-      "perLevel": 0.0,
-      "percentPerLevel": 0.0,
-      "percentBase": 0.0,
-      "percentBonus": 0.0
-    },
-    "healAndShieldPower": {
+    "heal_and_shield_power": {
       "flat": 0.0,
       "percent": 0.0,
       "perLevel": 0.0,
@@ -448,7 +450,7 @@
       "percentBase": 0.0,
       "percentBonus": 0.0
     },
-    "healthRegen": {
+    "health_regen": {
       "flat": 0.0,
       "percent": 0.0,
       "perLevel": 0.0,
@@ -472,7 +474,7 @@
       "percentBase": 0.0,
       "percentBonus": 0.0
     },
-    "magicPenetration": {
+    "magic_penetration": {
       "flat": 0.0,
       "percent": 0.0,
       "perLevel": 0.0,
@@ -480,7 +482,7 @@
       "percentBase": 0.0,
       "percentBonus": 0.0
     },
-    "magicResistance": {
+    "magic_resistance": {
       "flat": 40.0,
       "percent": 0.0,
       "perLevel": 0.0,
@@ -496,7 +498,7 @@
       "percentBase": 0.0,
       "percentBonus": 0.0
     },
-    "manaRegen": {
+    "mana_regen": {
       "flat": 0.0,
       "percent": 0.0,
       "perLevel": 0.0,
@@ -512,7 +514,7 @@
       "percentBase": 0.0,
       "percentBonus": 0.0
     },
-    "abilityHaste": {
+    "ability_haste": {
       "flat": 25.0,
       "percent": 0.0,
       "perLevel": 0.0,

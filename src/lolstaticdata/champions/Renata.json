@@ -4,7 +4,7 @@
   "name": "Renata Glasc",
   "title": "the Chem-Baroness",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Renata.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Renata.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -130,13 +130,13 @@
       "percentPerLevel": 0.0
     },
     "aramDamageTaken": {
-      "flat": 1.0,
+      "flat": 1.05,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
     },
     "aramDamageDealt": {
-      "flat": 1.0,
+      "flat": 0.95,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
@@ -148,7 +148,7 @@
       "percentPerLevel": 0.0
     },
     "aramShielding": {
-      "flat": 1.0,
+      "flat": 0.8,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
@@ -202,11 +202,11 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Renata/ability-icon/p",
         "effects": [
           {
-            "description": "Innate: Renata's basic attacks are empowered to apply a mark that lasts 6 seconds, which refreshes on subsequent hits and expires when attacking a new enemy. If the enemy was unmarked, the attack also deals 1% − 2% (based on level) (+ 2% per 100 AP) of the target's maximum health bonus magic damage.",
+            "description": "Innate: Renata's basic attacks are empowered to apply a mark that lasts 6 seconds, refreshes on subsequent hits and expires when attacking a new enemy. If the enemy was unmarked, the attack also deals bonus magic damage equal to 1% − 2% (based on level) (+ 2% per 100 AP) of the target's maximum health.",
             "leveling": []
           },
           {
-            "description": "Allied champions' damaging attacks and abilities against a marked target will consume the mark to deal 1% − 2% (based on level) (+ 2% per 100 AP) of the target's maximum health as additional bonus magic damage.",
+            "description": "Allied champions' damaging attacks and abilities against a marked target will consume the mark to deal additional bonus magic damage equal to 1% − 2% (based on level) (+ 2% per 100 AP) of the target's maximum health.",
             "leveling": []
           },
           {
@@ -369,7 +369,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Renata/ability-icon/w",
         "effects": [
           {
-            "description": "Active: Renata infuses herself or the target allied champion with a chemtech formula for 5 seconds, granting the target bonus attack speed in addition to bonus movement speed while they are moving toward nearby visible enemy champions and minions, both increasing in effectiveness by 100% over the duration. Bailout's duration resets whenever the target scores a takedown against an enemy champion within 6 seconds of damaging them.",
+            "description": "Active: Renata infuses herself or the target allied champion with a chemtech formula for 5 seconds, granting the target bonus attack speed in addition to bonus movement speed while they are facing nearby visible enemy champions and minions, both increasing in effectiveness by 100% over the duration. Bailout's duration resets whenever the target scores a takedown against an enemy champion within 6 seconds of damaging them.",
             "leveling": [
               {
                 "attribute": "Bonus Attack Speed",
@@ -522,7 +522,7 @@
             ]
           },
           {
-            "description": "If the target takes fatal damage while Bailout is active, they are restored to 100% of their maximum health but suffer a true damage burn equal to 10% of their maximum health every 0.264 seconds until they die from reaching 0 health, during which Bailout's duration resets every 0.25 seconds. This effect may occur only once per application of Bailout while not already active on the target.During this time, if they score a takedown against an enemy champion within 6 seconds of damaging them, the burn is stopped prematurely and they are set to 20% of their maximum health.",
+            "description": "If the target takes fatal damage while Bailout is active, they are restored to 100% of their maximum health but suffer a true damage burn equal to 10% of their maximum health every 0.264 seconds until they die from reaching 0 health, during which Bailout's duration resets every 0.25 seconds. This effect may occur only once per application of Bailout while the target already has the buff and is not burning.During this time, if they score a takedown against an enemy champion within 6 seconds of damaging them, the burn is stopped prematurely and they are set to 20% of their maximum health.",
             "leveling": []
           }
         ],
@@ -851,6 +851,7 @@
     "saleRp": 0
   },
   "lore": "Renata Glasc rose from the ashes of her childhood home with nothing but her name and her parents' alchemical research. In the decades since, she has become Zaun's wealthiest chem-baron, a business magnate who built her power by tying everyone's interests to her own. Work with her, and be rewarded beyond measure. Work against her, and live to regret it. But everyone comes to her side, eventually.",
+  "faction": "zaun",
   "skins": [
     {
       "name": "Original",
@@ -1106,6 +1107,209 @@
       ],
       "splashArtist": [
         "Forrest Imel",
+        "West Studio"
+      ]
+    },
+    {
+      "name": "Fright Night",
+      "id": 888010,
+      "isBase": false,
+      "availability": "Available",
+      "formatName": "Fright Night",
+      "lootEligible": true,
+      "cost": 1350,
+      "sale": 0,
+      "distribution": null,
+      "rarity": "Epic",
+      "chromas": [
+        {
+          "name": "Catseye",
+          "id": 888013,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/888/888013.png",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Emerald",
+          "id": 888014,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/888/888014.png",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Obsidian",
+          "id": 888019,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/888/888019.png",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Pearl",
+          "id": 888018,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/888/888018.png",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Rose Quartz",
+          "id": 888015,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/888/888015.png",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "TENCENT"
+            }
+          ]
+        },
+        {
+          "name": "Ruby",
+          "id": 888012,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/888/888012.png",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "descriptions": [
+            {
+              "description": "This chroma was released as a bundle exclusive in 2022.",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Sapphire",
+          "id": 888017,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/888/888017.png",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Tanzanite",
+          "id": 888016,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/888/888016.png",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        }
+      ],
+      "lore": "Tender loving care and spoons of sugar spice<br>And all the other things that make a mommy nice<br>It choked her throat and lungs and showed her virtue's vice<br>Some chosen children love the dark, that's Mother Glasc's advice!",
+      "release": "2022-09-22",
+      "set": [
+        "Fright Night"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/888/888010.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/888/888010.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/888/888010.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/renata/skins/skin10/renataloadscreen_10.pie_c_12_18.jpg",
+      "loadScreenVintagePath": null,
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Debra Wilson"
+      ],
+      "splashArtist": [
         "West Studio"
       ]
     }

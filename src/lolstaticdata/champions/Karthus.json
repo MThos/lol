@@ -4,7 +4,7 @@
   "name": "Karthus",
   "title": "the Deathsinger",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Karthus.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Karthus.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -130,7 +130,7 @@
       "percentPerLevel": 0.0
     },
     "aramDamageTaken": {
-      "flat": 1.0,
+      "flat": 1.05,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
@@ -904,6 +904,7 @@
     "saleRp": 0
   },
   "lore": "The harbinger of oblivion, Karthus is an undying spirit whose haunting songs are a prelude to the horror of his nightmarish appearance. The living fear the eternity of undeath, but Karthus sees only beauty and purity in its embrace, a perfect union of life and death. When Karthus emerges from the Shadow Isles, it is to bring the joy of death to mortals, an apostle of the unliving.",
+  "faction": "shadow-isles",
   "skins": [
     {
       "name": "Original",
@@ -941,7 +942,7 @@
       "isBase": false,
       "availability": "Legacy",
       "formatName": "Phantom",
-      "lootEligible": false,
+      "lootEligible": true,
       "cost": 460,
       "sale": 0,
       "distribution": null,
@@ -978,8 +979,7 @@
       "lore": "At the entry point of one of the world's most powerful nations stands the three-hundred-and-five-foot-tall statue of an evil, undead preacher holding a giant torch. Sometimes it comes to life. It's fun. Statues are fun.",
       "release": "2010-07-03",
       "set": [
-        "Wonders of the World",
-        "American"
+        "Wonders of the World"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/30/30002.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/30/30002.jpg",
@@ -1072,9 +1072,7 @@
       ],
       "lore": null,
       "release": "2010-09-26",
-      "set": [
-        "Reaper"
-      ],
+      "set": [],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/30/30003.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/30/30003.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/30/30003.jpg",
@@ -1528,7 +1526,7 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/30/30017.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/30/30017.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/30/30017.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/karthus/skins/skin17/karthusloadscreen_17.pie_c_11_18.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/karthus/skins/skin17/karthusloadscreen_17.jpg",
       "loadScreenVintagePath": null,
       "newEffects": true,
       "newAnimations": true,

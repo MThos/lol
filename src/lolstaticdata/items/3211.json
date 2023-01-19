@@ -16,7 +16,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3211_tank_t2_spectrescowl.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3211_tank_t2_spectrescowl.png",
   "simpleDescription": "Improves defense and grants regeneration upon being damaged",
   "nicknames": [
     "hat",
@@ -27,8 +27,9 @@
       "unique": true,
       "mythic": false,
       "name": "Incorporeal",
-      "effects": "After taking damage from a champion, gain {{as|150% base health regeneration}} for up to 10 seconds. Duration increases with subsequent champion damage taken.",
+      "effects": "Gain {{as|150% '''base''' health regeneration}} after taking damage from a champion, with the duration equal to {{fd|33.{{recurring|3}}}}% of the damage taken, up to a maximum of 10 seconds.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,

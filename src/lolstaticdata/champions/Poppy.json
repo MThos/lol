@@ -4,7 +4,7 @@
   "name": "Poppy",
   "title": "Keeper of the Hammer",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Poppy.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Poppy.png",
   "resource": "MANA",
   "attackType": "MELEE",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -202,11 +202,11 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Poppy/ability-icon/p",
         "effects": [
           {
-            "description": "Innate: Periodically, Poppy throws her buckler as her next basic attack, which has 350 bonus range and deals 20 − 180 (based on level) bonus magic damage. The buckler then falls near the target after 1 second, where it remains for up to 4 seconds.",
+            "description": "Innate: Periodically, Poppy's next basic attack is empowered to throw her buckler, gaining 350 bonus range and dealing 20 − 180 (based on level) bonus magic damage. After it hits, the buckler then falls to a location near the target over 1 second, landing and remaining there for up to 4 seconds.",
             "leveling": []
           },
           {
-            "description": "Upon retrieving the buckler, Poppy shields herself for 13 / 15.5 / 18% (based on level) of her maximum health for 3 seconds. If the buckler kills the target, it bounces back to Poppy automatically. Enemy champions can step on the buckler to destroy it.",
+            "description": "Poppy can move over the buckler to retrieve it, gaining a shield for 13 / 15.5 / 18% (based on level) of her maximum health for 3 seconds. If the buckler kills the target, it bounces back to Poppy instead of falling. Enemy champions can move over the buckler to destroy it.",
             "leveling": []
           }
         ],
@@ -259,10 +259,10 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Poppy/ability-icon/q",
         "effects": [
           {
-            "description": "Active: Poppy smashes the area in the target direction, dealing physical damage to enemies hit. Against monsters, the damage based on their maximum health is capped.",
+            "description": "Active: Poppy smashes the area in the target direction, dealing physical damage to enemies hit. Against monsters, the damage based on their health ratio is capped.",
             "leveling": [
               {
-                "attribute": "Initial Physical Damage",
+                "attribute": "Physical Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -310,6 +310,90 @@
                       "% of target's maximum health",
                       "% of target's maximum health",
                       "% of target's maximum health"
+                    ]
+                  }
+                ]
+              },
+              {
+                "attribute": "Capped Monster Health Damage",
+                "modifiers": [
+                  {
+                    "values": [
+                      30,
+                      60,
+                      90,
+                      120,
+                      150
+                    ],
+                    "units": [
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ]
+                  }
+                ]
+              },
+              {
+                "attribute": "Maximum Monster Damage",
+                "modifiers": [
+                  {
+                    "values": [
+                      70,
+                      120,
+                      170,
+                      220,
+                      270
+                    ],
+                    "units": [
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "values": [
+                      90,
+                      90,
+                      90,
+                      90,
+                      90
+                    ],
+                    "units": [
+                      "% bonus AD",
+                      "% bonus AD",
+                      "% bonus AD",
+                      "% bonus AD",
+                      "% bonus AD"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "description": "The impact creates a field for 1 second that slows enemies within, which then ruptures to deal the same physical damage.",
+            "leveling": [
+              {
+                "attribute": "Slow",
+                "modifiers": [
+                  {
+                    "values": [
+                      20,
+                      25,
+                      30,
+                      35,
+                      40
+                    ],
+                    "units": [
+                      "%",
+                      "%",
+                      "%",
+                      "%",
+                      "%"
                     ]
                   }
                 ]
@@ -368,52 +452,15 @@
                 ]
               },
               {
-                "attribute": "Maximum Initial Monster Damage",
+                "attribute": "Total Maximum Monster Damage",
                 "modifiers": [
                   {
                     "values": [
-                      90,
                       140,
-                      190,
                       240,
-                      290
-                    ],
-                    "units": [
-                      "",
-                      "",
-                      "",
-                      "",
-                      ""
-                    ]
-                  },
-                  {
-                    "values": [
-                      90,
-                      90,
-                      90,
-                      90,
-                      90
-                    ],
-                    "units": [
-                      "% bonus AD",
-                      "% bonus AD",
-                      "% bonus AD",
-                      "% bonus AD",
-                      "% bonus AD"
-                    ]
-                  }
-                ]
-              },
-              {
-                "attribute": "Maximum Monster Damage",
-                "modifiers": [
-                  {
-                    "values": [
-                      180,
-                      280,
-                      380,
-                      480,
-                      580
+                      340,
+                      440,
+                      540
                     ],
                     "units": [
                       "",
@@ -437,32 +484,6 @@
                       "% bonus AD",
                       "% bonus AD",
                       "% bonus AD"
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "description": "The impact creates a field for 1 second that slows enemies within, which then ruptures to deal the same physical damage.",
-            "leveling": [
-              {
-                "attribute": "Slow",
-                "modifiers": [
-                  {
-                    "values": [
-                      20,
-                      25,
-                      30,
-                      35,
-                      40
-                    ],
-                    "units": [
-                      "%",
-                      "%",
-                      "%",
-                      "%",
-                      "%"
                     ]
                   }
                 ]
@@ -546,7 +567,7 @@
             "leveling": []
           },
           {
-            "description": "Active: Poppy gains 40% bonus movement speed and creates an aura around herself for 2 seconds, causing all enemies who attempt to dash into or within it to be dealt magic damage, knocked up for 0.5 seconds and, if they were successfully interrupted, grounded and slowed by 25% for 2 seconds.",
+            "description": "Active: Poppy gains 40% bonus movement speed and creates an aura around herself for 2 seconds, causing all enemies who attempt to dash into or within it to be dealt magic damage and knocked up for 0.5 seconds. If a target was successfully interrupted, they become grounded and slowed by 25% for 2 seconds.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -664,10 +685,10 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Poppy/ability-icon/e",
         "effects": [
           {
-            "description": "Active: Poppy dashes to the target enemy's location and, if they are in range upon arrival, she deals physical damage and carries them along with her for up to 400 units.",
+            "description": "Active: Poppy dashes to the target enemy's location. If they are in range upon arrival, she deals physical damage and carries them along with her for up to 400 units.",
             "leveling": [
               {
-                "attribute": "Initial Physical Damage",
+                "attribute": "Physical Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -699,6 +720,32 @@
                       "% bonus AD",
                       "% bonus AD",
                       "% bonus AD"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "description": "If the target hits terrain, she stops to deal the same physical damage again and stuns them for a duration.",
+            "leveling": [
+              {
+                "attribute": "Stun Duration",
+                "modifiers": [
+                  {
+                    "values": [
+                      1.6,
+                      1.7,
+                      1.8,
+                      1.9,
+                      2
+                    ],
+                    "units": [
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
                     ]
                   }
                 ]
@@ -736,32 +783,6 @@
                       "% bonus AD",
                       "% bonus AD",
                       "% bonus AD"
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "description": "If the target hits terrain, she stops to deal the same physical damage again and stuns them for a duration.",
-            "leveling": [
-              {
-                "attribute": "Stun Duration",
-                "modifiers": [
-                  {
-                    "values": [
-                      1.6,
-                      1.7,
-                      1.8,
-                      1.9,
-                      2
-                    ],
-                    "units": [
-                      "",
-                      "",
-                      "",
-                      "",
-                      ""
                     ]
                   }
                 ]
@@ -841,14 +862,14 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Poppy/ability-icon/r",
         "effects": [
           {
-            "description": "Active: Poppy charges while being slowed by 15% for up to 4 seconds to increase Keeper's Verdict's range and knockback distance over 0.5 seconds after the first 0.5 seconds of the channel. Keeper's Verdict can be recast at any time within the duration.",
+            "description": "Active: Poppy charges while being slowed by 15% for up to 4 seconds to increase Keeper's Verdict's range and knock back distance over 0.5 seconds after the first 0.5 seconds of the channel. Keeper's Verdict can be recast at any time within the duration.",
             "leveling": []
           },
           {
-            "description": "Recast: Poppy releases the charge with a 0.25 seconds cast time, launching her hammer upwards to deal physical damage to enemies nearby and in an area in front of her, knocking them up for 1 second.",
+            "description": "Recast: Poppy releases the charge to launch her hammer upwards, dealing physical damage to enemies nearby and in an area in front of her and knocking them up for 1 second.",
             "leveling": [
               {
-                "attribute": "Uncharged Physical Damage",
+                "attribute": "Physical Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -879,10 +900,10 @@
             ]
           },
           {
-            "description": "If Keeper's Verdict charged for at least 0.5 seconds, it deals 100% increased damage and knocks back targets up-to 3400 units toward the enemy team's fountain. If no enemies are within the uncharged hitbox, Poppy instead sends a shockwave that travels in the target direction until it collides with an enemy champion, causing a hammer to erupt. Enemies hit by the shockwave or the eruption receive the empowered effects.",
+            "description": "If Keeper's Verdict was charged for at least 0.5 seconds, it deals 100% increased damage and enemies hit are knocked back up-to 3400 units toward the enemy team's fountain. Additionally, if no enemies are hit in front of Poppy, she sends a shockwave that travels in the target direction until it collides with an enemy champion, which causes a hammer to erupt. Targets hit by the shockwave or the eruption receive the charged effects.",
             "leveling": [
               {
-                "attribute": "Physical Damage",
+                "attribute": "Increased Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -917,7 +938,7 @@
             "leveling": []
           },
           {
-            "description": "Enemies knocked airborne are revealed and are rendered untargetable while being displaced if Keeper's Verdict charged for more than 0.5 seconds.",
+            "description": "Enemies knocked airborne are revealed and are rendered untargetable while being displaced if Keeper's Verdict was charged for more than 0.5 seconds.",
             "leveling": []
           }
         ],
@@ -974,7 +995,7 @@
         "speed": "2500",
         "width": "180",
         "angle": null,
-        "castTime": "0.35",
+        "castTime": "0.25 / 0.35",
         "effectRadius": "180 / 225",
         "targetRange": null
       }
@@ -982,13 +1003,14 @@
   },
   "releaseDate": "2010-01-13",
   "releasePatch": "1.0.0.70",
-  "patchLastChanged": "12.10",
+  "patchLastChanged": "12.16",
   "price": {
     "blueEssence": 450,
     "rp": 260,
     "saleRp": 0
   },
   "lore": "Runeterra has no shortage of valiant champions, but few are as tenacious as Poppy. Bearing the legendary hammer of Orlon, a weapon twice her size, this determined yordle has spent untold years searching in secret for the fabled “Hero of Demacia,” said to be its rightful wielder. Until then, she dutifully charges into battle, pushing back the kingdom's enemies with every whirling strike.",
+  "faction": "demacia",
   "skins": [
     {
       "name": "Original",
@@ -1037,7 +1059,9 @@
       "chromas": [],
       "lore": null,
       "release": "2010-02-02",
-      "set": [],
+      "set": [
+        "Otherroads"
+      ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/78/78001.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/78/78001.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/78/78001.jpg",
@@ -1817,13 +1841,13 @@
       "lore": "Poppy leads the trick-or-treating charge. She's always the first to arrive, even at particularly creepy doorsteps, undaunted by whatever frightening spectre—or delicious treat—lies on the other side.",
       "release": "2021-10-07",
       "set": [
-        "Trick-or-Treat"
+        "Bewitching"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/78/78024.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/78/78024.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/78/78024.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin24/poppyloadscreen_24.pie_c_11_20.jpg",
-      "loadScreenVintagePath": null,
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin24/poppyloadscreen_24.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin24/poppyloadscreen_24_le.pie_c_12_20.jpg",
       "newEffects": true,
       "newAnimations": true,
       "newRecall": true,

@@ -4,7 +4,7 @@
   "name": "Ezreal",
   "title": "the Prodigal Explorer",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Ezreal.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Ezreal.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -201,7 +201,11 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Ezreal/ability-icon/p",
         "effects": [
           {
-            "description": "Innate: Ezreal generates a stack of Rising Spell Force for each enemy hit by his abilities, which lasts 6 seconds, refreshes on subsequent hits and stacks up to 5 times. Rising Spell Force: For each stack, Ezreal gains 10% bonus attack speed, up to a maximum of 50%.",
+            "description": "Innate: Ezreal generates a stack of Rising Spell Force for each enemy hit by his abilities, lasting for 6 seconds, refreshing on subsequent hits, and stacking up to 5 times.",
+            "leveling": []
+          },
+          {
+            "description": "Rising Spell Force: For each stack, Ezreal gains 10% bonus attack speed, up to a maximum of 50%.",
             "leveling": []
           }
         ],
@@ -296,7 +300,7 @@
             ]
           },
           {
-            "description": "If Mystic Shot successfully hits an enemy, the cooldowns of Ezreal's abilities, including Mystic Shot's, are reduced by 1.5 seconds.",
+            "description": "If Mystic Shot successfully hits an enemy, the current cooldowns of Ezreal's abilities, including Mystic Shot's, are reduced by 1.5 seconds.",
             "leveling": []
           }
         ],
@@ -376,10 +380,10 @@
             "leveling": []
           },
           {
-            "description": "His next basic attack or ability against the target detonates the mark to deal them magic damage.",
+            "description": "His next basic attack or ability against the target detonates the mark to deal them bonus magic damage.",
             "leveling": [
               {
-                "attribute": "Magic Damage",
+                "attribute": "Bonus Magic Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -600,11 +604,11 @@
           "modifiers": [
             {
               "values": [
-                28,
-                25,
-                22,
-                19,
-                16
+                26,
+                23,
+                20,
+                17,
+                14
               ],
               "units": [
                 "",
@@ -801,13 +805,14 @@
   },
   "releaseDate": "2010-03-16",
   "releasePatch": "1.0.0.79",
-  "patchLastChanged": "12.10",
+  "patchLastChanged": "12.17",
   "price": {
     "blueEssence": 3150,
     "rp": 790,
     "saleRp": 0
   },
   "lore": "A dashing adventurer, unknowingly gifted in the magical arts, Ezreal raids long-lost catacombs, tangles with ancient curses, and overcomes seemingly impossible odds with ease. His courage and bravado knowing no bounds, he prefers to improvise his way out of any situation, relying partially on his wits, but mostly on his mystical Shuriman gauntlet, which he uses to unleash devastating arcane blasts. One thing is for sure—whenever Ezreal is around, trouble isn't too far behind. Or ahead. Probably everywhere.",
+  "faction": "piltover",
   "skins": [
     {
       "name": "Original",
@@ -925,7 +930,7 @@
       "lore": "Ezreal occasionally finds himself in the Freljord, searching for such-and-such ancient artifact. But braving sub-zero temperatures, terrifying ice beasts, and angry Freljordian tribes is a tall order, even for him—that's why he goes in disguise. He's practically a different person!",
       "release": "2010-07-18",
       "set": [
-        "Glacial"
+        "Freljord"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/81/81003.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/81/81003.jpg",
@@ -959,7 +964,7 @@
       "lore": "Ezreal's almost suicidal obsession with braving tombs, ruins, forbidden temples, and abandoned cities has netted him a tidy handful of priceless relics. Most of those relics are sold off to pay exploration-related medical bills, but one of these days…",
       "release": "2010-10-13",
       "set": [
-        "Web Browser"
+        "Legacy"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/81/81004.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/81/81004.jpg",
@@ -1447,8 +1452,7 @@
       "lore": "The First Star has burdened Ezreal with a lot. The responsibility. The hefty weight of destiny. The sparkly outfit (he's used to it). “Attending a slumber party” was definitely not on the list of expected cosmic duties. Not that he minds, really… as long as they don't actually try to braid his hair.",
       "release": "2018-11-21",
       "set": [
-        "Star Guardian Season 2",
-        "Disguise"
+        "Star Guardian Season 2"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/81/81020.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/81/81020.jpg",
@@ -1566,7 +1570,7 @@
       "lootEligible": true,
       "cost": "special",
       "sale": 0,
-      "distribution": "125 Mythic Essence",
+      "distribution": "150 Mythic Essence",
       "rarity": "Mythic",
       "chromas": [],
       "lore": "Ezreal's mastery of psychic military combat has driven him to new heights, attracting the attention of his handlers in High Command. He's calmed down a bit, earning some respect from his squad mates… but not enough. He's never calmed down enough.",

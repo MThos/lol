@@ -14,7 +14,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3814_assassin_t3_edgeofnight.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3814_assassin_t3_edgeofnight.png",
   "simpleDescription": "Periodically blocks enemy abilities",
   "nicknames": [
     "eon",
@@ -28,6 +28,7 @@
       "name": "Annul",
       "effects": "Grants a {{tip|spell shield}} that blocks the next hostile ability.",
       "range": null,
+      "cooldown": "40 (restarts upon taking damage from champions)",
       "stats": {
         "abilityPower": {
           "flat": 0.0,

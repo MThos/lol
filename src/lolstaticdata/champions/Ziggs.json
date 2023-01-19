@@ -4,7 +4,7 @@
   "name": "Ziggs",
   "title": "the Hexplosives Expert",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Ziggs.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Ziggs.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -269,11 +269,11 @@
                 "modifiers": [
                   {
                     "values": [
-                      85,
-                      135,
-                      185,
-                      235,
-                      285
+                      95,
+                      145,
+                      195,
+                      245,
+                      295
                     ],
                     "units": [
                       "",
@@ -384,7 +384,7 @@
             "leveling": []
           },
           {
-            "description": "Recast: The charge explodes to deal magic damage to nearby enemies and knock them back up to 500 units away from the center of the explosion, though not through terrain. If this hits Ziggs, he will dash up to 825 units away from the center.",
+            "description": "Recast: Ziggs detonates the charge, causing it to explode to deal magic damage to nearby enemies and knock them back up to 500 units away from the center of the explosion, though not through terrain. If this hits Ziggs, he will dash up to 825 units away from the center.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -609,7 +609,7 @@
                 ]
               },
               {
-                "attribute": "Maximum Single-Target Damage",
+                "attribute": "Maximum Total Magic Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -869,13 +869,14 @@
   },
   "releaseDate": "2012-02-01",
   "releasePatch": "1.0.0.133",
-  "patchLastChanged": "12.10",
+  "patchLastChanged": "12.20",
   "price": {
     "blueEssence": 4800,
     "rp": 880,
     "saleRp": 0
   },
   "lore": "With a love of big bombs and short fuses, the yordle Ziggs is an explosive force of nature. As an inventor's assistant in Piltover, he was bored by his predictable life and befriended a mad, blue-haired bomber named Jinx. After a wild night on the town, Ziggs took her advice and moved to Zaun, where he now explores his fascinations more freely, terrorizing the chem-barons and regular citizens alike in his never ending quest to blow stuff up.",
+  "faction": "zaun",
   "skins": [
     {
       "name": "Original",
@@ -1267,8 +1268,7 @@
         "Alessandro Juliani"
       ],
       "splashArtist": [
-        "Jem Flores",
-        "Esben Lash Rasmussen"
+        "Jem Flores"
       ]
     },
     {
@@ -1484,7 +1484,7 @@
       "lootEligible": true,
       "cost": "special",
       "sale": 0,
-      "distribution": "100 Mythic Essence",
+      "distribution": "125 Mythic Essence",
       "rarity": "Mythic",
       "chromas": [],
       "lore": "Famed inventor of Tocker, Ziggs is a savant to some, to others a maniac. All can agree that no matter the consequences, Ziggs seems to enjoy his experiments—especially the subsequent explosions. What is perhaps most miraculous of all is how he and Tocker have survived so many blasts over the years.",

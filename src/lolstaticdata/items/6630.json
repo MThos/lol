@@ -16,7 +16,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6630_fighter_t4_goredrinker.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6630_fighter_t4_goredrinker.png",
   "simpleDescription": null,
   "nicknames": [
     "slurp"
@@ -28,6 +28,7 @@
       "name": "Mythic",
       "effects": null,
       "range": 0,
+      "cooldown": 0,
       "stats": {
         "abilityPower": {
           "flat": 0.0,

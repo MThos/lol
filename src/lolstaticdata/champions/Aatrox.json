@@ -4,7 +4,7 @@
   "name": "Aatrox",
   "title": "the Darkin Blade",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Aatrox.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/13.1.1/img/champion/Aatrox.png",
   "resource": "BLOOD_WELL",
   "attackType": "MELEE",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -130,13 +130,13 @@
       "percentPerLevel": 0.0
     },
     "aramDamageTaken": {
-      "flat": 0.9,
+      "flat": 1,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
     },
     "aramDamageDealt": {
-      "flat": 1.05,
+      "flat": 1,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
@@ -202,7 +202,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Aatrox/ability-icon/p",
         "effects": [
           {
-            "description": "Innate: Periodically, Aatrox empowers his next basic attack to gain 50 bonus range and deal bonus physical damage equal to 5% − 12% (based on level) of the target's maximum health, capped at 100 against monsters. Aatrox heals for 100% of the post-mitigation damage dealt, reduced to 25% against minions.",
+            "description": "Innate: Periodically, Aatrox empowers his next basic attack to gain 50 bonus range and deal bonus physical damage equal to 4% − 10% (based on level) of the target's maximum health, capped at 100 against monsters. Aatrox heals for 80% of the post-mitigation bonus damage dealt, reduced to 25% against minions.",
             "leveling": []
           },
           {
@@ -666,7 +666,7 @@
             ]
           },
           {
-            "description": "If this hits an enemy champion or large monster, a revealing tether is formed between the target and the ground beneath them for 1.5 seconds.",
+            "description": "If this hits an enemy champion or large monster, a tether is formed between the target and the ground beneath them for 1.5 seconds, during which they are revealed.",
             "leveling": []
           },
           {
@@ -793,11 +793,11 @@
                 "modifiers": [
                   {
                     "values": [
-                      25,
-                      30,
-                      35,
-                      40,
-                      45
+                      20,
+                      24,
+                      28,
+                      32,
+                      36
                     ],
                     "units": [
                       "%",
@@ -873,16 +873,16 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Aatrox/ability-icon/r",
         "effects": [
           {
-            "description": "Active: Aatrox unleashes his true demonic form, fearing nearby enemy minions and monsters for 3 seconds, during which they are gradually slowed by up to 99% over the duration. For the next 10 seconds, Aatrox gains ghosting and bonus movement speed that decays by 10% of the current bonus every 0.25 seconds.",
+            "description": "Active: Aatrox unleashes his true form for 10 seconds, fearing nearby enemy minions and monsters for 3 seconds, during which they are gradually slowed by up to 99% over the duration. He also gains ghosting and bonus movement speed that decays by 10% of the current bonus every 0.25 seconds, lasting until World Ender has ended.",
             "leveling": [
               {
                 "attribute": "Bonus Movement Speed",
                 "modifiers": [
                   {
                     "values": [
-                      60,
-                      80,
-                      100
+                      50,
+                      65,
+                      80
                     ],
                     "units": [
                       "%",
@@ -895,10 +895,14 @@
             ]
           },
           {
-            "description": "During this time, Aatrox gains bonus attack damage and 5% increased size, and receives increased self-healing from all sources.",
+            "description": "Whenever Aatrox scores a champion takedown, he extends the duration by 5 seconds and becomes unleashed again.",
+            "leveling": []
+          },
+          {
+            "description": "During World Ender, Aatrox gains bonus attack damage and 5% increased size, and receives increased self-healing from all sources.",
             "leveling": [
               {
-                "attribute": "Bonus AD",
+                "attribute": "Bonus Attack Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -932,10 +936,6 @@
                 ]
               }
             ]
-          },
-          {
-            "description": "Whenever Aatrox scores a champion takedown, he extends World Ender's duration by 5 seconds and refreshes the movement speed.",
-            "leveling": []
           }
         ],
         "cost": null,
@@ -966,7 +966,7 @@
         "onHitEffects": null,
         "occurrence": null,
         "notes": "His resource bar indicates the remaining duration of World Ender.\nWorld Ender persists through  resurrection effects.\nWorld Ender's healing amplification applies to the health gained by resurrecting.\nWorld Ender will cast from wherever Aatrox is at the end of the cast time.\nCasting World Ender while it is still active renders Aatrox's wings invisible and removes the timer on the resource bar. (bug)\nThis is possible via  Axiom Arc's or Practice Tool's cooldown reduction or by going on a very long killing spree.",
-        "blurb": "Active:  Aatrox unleashes his true demonic form for a period, gaining a burst of  move speed. During this time, Aatrox has increased  attack damage and  self-healing.",
+        "blurb": "Active:  Aatrox unleashes his true form for a period, gaining a burst of  move speed. During this time, Aatrox has increased  attack damage and  self-healing.",
         "missileSpeed": null,
         "rechargeRate": null,
         "collisionRadius": null,
@@ -984,13 +984,14 @@
   },
   "releaseDate": "2013-06-13",
   "releasePatch": "3.8",
-  "patchLastChanged": "12.14",
+  "patchLastChanged": "13.1",
   "price": {
     "blueEssence": 4800,
     "rp": 880,
     "saleRp": 0
   },
   "lore": "Once honored defenders of Shurima against the Void, Aatrox and his brethren would eventually become an even greater threat to Runeterra, and were defeated only by cunning mortal sorcery. But after centuries of imprisonment, Aatrox was the first to find freedom once more, corrupting and transforming those foolish enough to try and wield the magical weapon that contained his essence. Now, with stolen flesh, he walks Runeterra in a brutal approximation of his previous form, seeking an apocalyptic and long overdue vengeance.",
+  "faction": "unaffiliated",
   "skins": [
     {
       "name": "Original",
@@ -999,7 +1000,7 @@
       "availability": "Available",
       "formatName": "Original",
       "lootEligible": true,
-      "cost": 975,
+      "cost": 880,
       "sale": 0,
       "distribution": null,
       "rarity": "NoRarity",
@@ -1529,6 +1530,40 @@
       ]
     },
     {
+      "name": "Prestige Blood Moon (2022)",
+      "id": 266020,
+      "isBase": false,
+      "availability": "Limited",
+      "formatName": "Prestige Blood Moon (2022)",
+      "lootEligible": false,
+      "cost": "special",
+      "sale": 0,
+      "distribution": "Given to players who owned the original skin prior to patch 12.5",
+      "rarity": "Mythic",
+      "chromas": [],
+      "lore": "Aatrox has been loosed upon the mortal plane. A creature born in the heart of the Blood Moon, he is the progenitor of all demons, and a malignant darkness that will consume the entire world.",
+      "release": "2022-04-01",
+      "set": [
+        "Blood Moon"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/266/266020.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/266/266020.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/266/266020.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/aatrox/skins/skin20/aatroxloadscreen_20.jpg",
+      "loadScreenVintagePath": null,
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Ramon Tikaram"
+      ],
+      "splashArtist": [
+        "Alex 'alexplank' Flores"
+      ]
+    },
+    {
       "name": "Lunar Eclipse",
       "id": 266021,
       "isBase": false,
@@ -1717,7 +1752,7 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/266/266021.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/266/266021.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/266/266021.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/aatrox/skins/skin21/aatroxloadscreen_21.pie_c_12_8.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/aatrox/skins/skin21/aatroxloadscreen_21.jpg",
       "loadScreenVintagePath": null,
       "newEffects": true,
       "newAnimations": true,

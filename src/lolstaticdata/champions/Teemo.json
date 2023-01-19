@@ -4,7 +4,7 @@
   "name": "Teemo",
   "title": "the Swift Scout",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Teemo.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Teemo.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -243,7 +243,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Teemo/ability-icon/q",
         "effects": [
           {
-            "description": "Active: Teemo shoots a dart at the target enemy that deals magic damage and blinds them for a few seconds.",
+            "description": "Active: Teemo shoots a dart at the target enemy that deals magic damage and blinds them for a duration.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -382,7 +382,7 @@
         "projectile": "TRUE",
         "onHitEffects": null,
         "occurrence": null,
-        "notes": "Blinding Dart will not make abilities that can trigger on-hit effects ( Parrrley,  Mystic Shot) miss.\nWhen blinded, enemies have a green tint on their screen.\nBecause Blinding Dart uses  center range, it has 45 to 70 more range than his  basic attacks, which use  edge range, against other  champions.\nThis bonus becomes lower if Teemo or his target have size bonuses.\nIf the target becomes  untargetable,  dies, or is too far away or no longer in  sight during the cast time, this ability will cancel but does not go on  cooldown nor pay its cost (if applicable).",
+        "notes": "Blinding Dart will not make abilities that can trigger on-hit effects ( Parrrley,  Mystic Shot) miss.\nWhen blinded, enemies have a green tint on their screen.\nBecause Blinding Dart uses  center range, it has 45 to 70 more range than his basic attacks, which use  edge range, against other  champions.\nThis bonus becomes lower if Teemo or his target have size bonuses.\nIf the target becomes  untargetable,  dies, or is too far away or no longer in  sight during the cast time, this ability will cancel but does not go on  cooldown nor pay its cost (if applicable).",
         "blurb": "Active:  Teemo shoots a dart at the target enemy that deals magic damage and  blinds them for a short time.",
         "missileSpeed": null,
         "rechargeRate": null,
@@ -407,7 +407,7 @@
             "description": "Passive: Teemo gains bonus movement speed after 5 seconds without taking damage from enemy champions or turrets.",
             "leveling": [
               {
-                "attribute": "Passive Bonus Movement Speed",
+                "attribute": "Bonus Movement Speed",
                 "modifiers": [
                   {
                     "values": [
@@ -433,7 +433,7 @@
             "description": "Active: Teemo gains bonus movement speed for 3 seconds. This overrides the passive bonus, but prevents the passive effect from being removed.",
             "leveling": [
               {
-                "attribute": "Active Bonus Movement Speed",
+                "attribute": "Bonus Movement Speed",
                 "modifiers": [
                   {
                     "values": [
@@ -572,7 +572,7 @@
                 ]
               },
               {
-                "attribute": "Damage per Tick",
+                "attribute": "Magic Damage per Tick",
                 "modifiers": [
                   {
                     "values": [
@@ -609,7 +609,7 @@
                 ]
               },
               {
-                "attribute": "Total DoT Damage",
+                "attribute": "Total Poison Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -725,7 +725,7 @@
                 ]
               },
               {
-                "attribute": "Total DoT Monster Damage",
+                "attribute": "Total Monster Poison Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -841,7 +841,29 @@
             ]
           },
           {
-            "description": "The mushroom will explode upon enemy contact, inflicting poison to nearby enemies and slowing them for 4 seconds, as well as revealing them.\n poison: The target takes magic damage every second over 4 seconds. Subsequent inflictions refresh the duration.",
+            "description": "The mushroom will explode upon enemy contact, inflicting poison to nearby enemies and slowing them for 4 seconds, as well as revealing them.",
+            "leveling": [
+              {
+                "attribute": "Slow",
+                "modifiers": [
+                  {
+                    "values": [
+                      30,
+                      40,
+                      50
+                    ],
+                    "units": [
+                      "%",
+                      "%",
+                      "%"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "description": "poison: The target takes magic damage every second over 4 seconds. Subsequent inflictions refresh the duration.",
             "leveling": [
               {
                 "attribute": "Magic Damage per Tick",
@@ -900,32 +922,11 @@
                     ]
                   }
                 ]
-              },
-              {
-                "attribute": "Slow",
-                "modifiers": [
-                  {
-                    "values": [
-                      30,
-                      40,
-                      50
-                    ],
-                    "units": [
-                      "%",
-                      "%",
-                      "%"
-                    ]
-                  }
-                ]
               }
             ]
           },
           {
-            "description": "A mushroom has 6 maximum health and can be damaged only by champion basic attacks (2 damage from ranged and 3 from melee).",
-            "leveling": []
-          },
-          {
-            "description": "See Pets for more details about mushroom traps.",
+            "description": "A mushroom has 6 maximum health and can be damaged only by champions basic attacks (2 damage from ranged and 3 from melee).",
             "leveling": []
           }
         ],
@@ -994,13 +995,14 @@
   },
   "releaseDate": "2009-02-21",
   "releasePatch": "Alpha Week 2",
-  "patchLastChanged": "12.14",
+  "patchLastChanged": "12.16",
   "price": {
     "blueEssence": 1350,
     "rp": 585,
     "saleRp": 0
   },
   "lore": "Undeterred by even the most dangerous and threatening of obstacles, Teemo scouts the world with boundless enthusiasm and a cheerful spirit. A yordle with an unwavering sense of morality, he takes pride in following the Bandle Scout's Code, sometimes with such eagerness that he is unaware of the broader consequences of his actions. Though some say the existence of the Scouts is questionable, one thing is for certain: Teemo's conviction is nothing to be trifled with.",
+  "faction": "bandle-city",
   "skins": [
     {
       "name": "Original",
@@ -1355,8 +1357,7 @@
       "lore": "Pandas aren't naturally aggressive towards humans, but this isn't a panda. It's Teemo dressed as a panda. Stay alert.",
       "release": "2012-07-09",
       "set": [
-        "Wonders of the World",
-        "Panda"
+        "Wonders of the World"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/17/17007.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/17/17007.jpg",
@@ -1676,7 +1677,6 @@
       "lore": "“…and a great sign shall appear in the heavens, the light of the world fading from human memory, as all the evils once locked away rise again upon a wicked throne—the true lord of darkness seated thereon. Every living thing will know his laugh, and be drowned in sin.” Teemo 16:3",
       "release": "2016-10-19",
       "set": [
-        "Trick-or-Treat",
         "Demonic"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/17/17014.jpg",
@@ -1872,7 +1872,7 @@
       "lore": "A trickster spirit and a child of the forest, Teemo is famed across Ionia as the embodiment of nature… though his more onerous accolade is the king of pranks. A consummate gadfly and lover of all things annoying, his exploits in tricking mortals have graced the pages of Ionian history for hundreds of years.",
       "release": "2020-07-22",
       "set": [
-        "Kanmei"
+        "Spirit Blossom"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/17/17025.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/17/17025.jpg",
@@ -1904,7 +1904,7 @@
       "lore": "Having abstained from pranking his “best friend forever” literally once, the Spirit of Salvation has gifted Teemo with his wildest dream—becoming shiny and gold. Never one to leave anybody alone, ever, he has promised his BFF to prank them at every opportunity, every day, until they die and join him in the spirit realm. Good luck to them.",
       "release": "2020-07-22",
       "set": [
-        "Kanmei"
+        "Spirit Blossom"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/17/17027.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/17/17027.jpg",
@@ -2175,6 +2175,167 @@
       "newVoice": false,
       "newQuotes": false,
       "voiceActor": [],
+      "splashArtist": [
+        "Horace 'Hozure' Hsu"
+      ]
+    },
+    {
+      "name": "Space Groove",
+      "id": 17047,
+      "isBase": false,
+      "availability": "Upcoming",
+      "formatName": "Space Groove",
+      "lootEligible": true,
+      "cost": 1820,
+      "sale": 0,
+      "distribution": null,
+      "rarity": "Legendary",
+      "chromas": [
+        {
+          "name": "Catseye",
+          "id": 17049,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/17/17049.png",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Obsidian",
+          "id": 17050,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/17/17050.png",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Peridot",
+          "id": 17051,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/17/17051.png",
+          "colors": [
+            "#B6E084",
+            "#B6E084"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Rainbow",
+          "id": 17053,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/17/17053.png",
+          "colors": [
+            "#C1F2FF",
+            "#C1F2FF"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Rose Quartz",
+          "id": 17052,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/17/17052.png",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "TENCENT"
+            }
+          ]
+        },
+        {
+          "name": "Ruby",
+          "id": 17048,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/17/17048.png",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "descriptions": [
+            {
+              "description": "This chroma was released as a bundle exclusive in 2022.",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
+            }
+          ]
+        }
+      ],
+      "lore": "Hailing from Boogiewonderland, Teemo is so absorbed in The Groove that he is The Groove, literally. Leader of the Groove Guard, Captain Teemo scouts and maps the galaxy, trailing smaller boogies in his wake. His dream: to connect all the planets he can to the Hyperfunk Supervibeway.",
+      "release": "0000-00-00",
+      "set": [
+        "Space Groove"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/17/17047.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/17/17047.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/17/17047.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/teemo/skins/skin47/teemoloadscreen_47.pie_c_12_22.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/teemo/skins/skin47/teemoloadscreen_47_le.pie_c_12_22.jpg",
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": true,
+      "newQuotes": false,
+      "voiceActor": [
+        "Melissa Hutchison"
+      ],
       "splashArtist": [
         "Horace 'Hozure' Hsu"
       ]

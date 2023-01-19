@@ -4,7 +4,7 @@
   "name": "Elise",
   "title": "the Spider Queen",
   "fullName": "Elise Kythera Zaavan",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Elise.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Elise.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -130,13 +130,13 @@
       "percentPerLevel": 0.0
     },
     "aramDamageTaken": {
-      "flat": 0.92,
+      "flat": 0.9,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
     },
     "aramDamageDealt": {
-      "flat": 1.08,
+      "flat": 1.1,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
@@ -373,7 +373,7 @@
         "angle": null,
         "castTime": "0.25",
         "effectRadius": null,
-        "targetRange": "625"
+        "targetRange": "575"
       },
       {
         "name": "Venomous Bite",
@@ -420,7 +420,7 @@
                 ]
               },
               {
-                "attribute": "Max. Monster Damage",
+                "attribute": "Maximum Monster Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -623,7 +623,7 @@
             "description": "Passive: Elise's Spiderlings gain bonus attack speed.",
             "leveling": [
               {
-                "attribute": "Passive Attack Speed",
+                "attribute": "Spiderling Bonus Attack Speed",
                 "modifiers": [
                   {
                     "values": [
@@ -649,7 +649,7 @@
             "description": "Active: Elise and her Spiderlings gain bonus attack speed for 3 seconds.",
             "leveling": [
               {
-                "attribute": "Active Attack Speed",
+                "attribute": "Bonus Attack Speed",
                 "modifiers": [
                   {
                     "values": [
@@ -986,13 +986,14 @@
   },
   "releaseDate": "2012-10-26",
   "releasePatch": "1.0.0.150",
-  "patchLastChanged": "12.14",
+  "patchLastChanged": "12.20",
   "price": {
     "blueEssence": 4800,
     "rp": 880,
     "saleRp": 0
   },
   "lore": "Elise is a deadly predator who dwells in a shuttered, lightless palace, deep within the oldest city of Noxus. Once mortal, she was the mistress of a powerful house, but the bite of a vile demigod transformed her into something beautiful, yet utterly inhuman—a spider-like creature, drawing unsuspecting prey into her web. To maintain her eternal youth, Elise now prefers to feed upon the naive and the faithless, and there are few who can resist her seductions.",
+  "faction": "shadow-isles",
   "skins": [
     {
       "name": "Original",
@@ -1056,7 +1057,9 @@
       "voiceActor": [
         "Sydney Rainin-Smith"
       ],
-      "splashArtist": []
+      "splashArtist": [
+        "Michelle Hoefener"
+      ]
     },
     {
       "name": "Victorious",
@@ -1363,13 +1366,13 @@
       "lore": "A witch of some renown, Elise is widely feared by trick-or-treaters after that whole “human-sized cocoons” incident.",
       "release": "2020-10-22",
       "set": [
-        "Trick-or-Treat"
+        "Bewitching"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/60/60006.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/60/60006.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/60/60006.jpg",
       "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/elise/skins/skin06/eliseloadscreen_6.jpg",
-      "loadScreenVintagePath": null,
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/elise/skins/skin06/eliseloadscreen_6_le.pie_c_12_20.jpg",
       "newEffects": true,
       "newAnimations": true,
       "newRecall": true,

@@ -16,7 +16,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6692_assassin_t4_eclipse.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6692_assassin_t4_eclipse.png",
   "simpleDescription": null,
   "nicknames": [],
   "passives": [
@@ -24,8 +24,9 @@
       "unique": true,
       "mythic": false,
       "name": "Ever Rising Moon",
-      "effects": "Hitting an enemy champion with 2 separate attacks or abilities within {{fd|1.5}} seconds deals them {{as|'''bonus''' physical damage}} equal to {{as|{{rd|6%|3%}} of target's '''maximum''' health}} and grants you {{as|15% '''bonus''' movement speed}} and a {{tip|shield}} for {{rd|160|80}} {{as|(+ {{rd|35%|{{fd|17.5}}%}} '''bonus''' AD)}} for 2 seconds.",
+      "effects": "Hitting an enemy champion with 2 separate attacks or abilities within {{fd|1.5}} seconds deals {{as|'''bonus''' physical damage}} equal to {{as|{{rd|6%|3%}} of target's '''maximum''' health}} and grants you {{as|15% '''bonus''' movement speed}} and a {{tip|shield}} for {{rd|160|80}} {{as|(+ {{rd|35%|{{fd|17.5}}%}} '''bonus''' AD)}} for 2 seconds.",
       "range": null,
+      "cooldown": "{{rd|8|16}}",
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -198,6 +199,7 @@
       "name": "Mythic",
       "effects": null,
       "range": 0,
+      "cooldown": 0,
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -397,7 +399,7 @@
       "percentBonus": 0.0
     },
     "attackDamage": {
-      "flat": 55.0,
+      "flat": 60.0,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0,
@@ -461,7 +463,7 @@
       "percentBonus": 0.0
     },
     "lethality": {
-      "flat": 18,
+      "flat": 12,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0,

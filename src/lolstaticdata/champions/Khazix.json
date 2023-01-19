@@ -4,7 +4,7 @@
   "name": "Kha'Zix",
   "title": "the Voidreaver",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Khazix.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Khazix.png",
   "resource": "MANA",
   "attackType": "MELEE",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -130,19 +130,19 @@
       "percentPerLevel": 0.0
     },
     "aramDamageTaken": {
-      "flat": 0.9,
+      "flat": 0.85,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
     },
     "aramDamageDealt": {
-      "flat": 1.1,
+      "flat": 1.15,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
     },
     "aramHealing": {
-      "flat": 1.0,
+      "flat": 1.2,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
@@ -281,7 +281,7 @@
                 ]
               },
               {
-                "attribute": "Isolation Physical Damage",
+                "attribute": "Increased Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -622,7 +622,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Khazix/ability-icon/e",
         "effects": [
           {
-            "description": "Active: Kha'Zix leaps to the target location, dealing physical damage to nearby enemies upon landing.",
+            "description": "Active: Kha'Zix leaps to the target location, dealing physical damage to nearby enemies upon arrival.",
             "leveling": [
               {
                 "attribute": "Physical Damage",
@@ -775,11 +775,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Khazix/ability-icon/r",
         "effects": [
           {
-            "description": "Passive: Each rank in Void Assault allows Kha'Zix to evolve one of his abilities, granting it additional effects. Choosing an ability initiates a 2 second cast time, during which Kha'Zix advances his form, receiving the evolution once it completes.",
-            "leveling": []
-          },
-          {
-            "description": "Kha'Zix cannot evolve while he is unable to cast abilities.",
+            "description": "Passive: Each rank in Void Assault allows Kha'Zix to evolve one of his abilities, granting it additional effects. Evolving an ability causes him to enter a 2-second cast time. Kha'Zix cannot evolve while he is unable to cast abilities.",
             "leveling": []
           },
           {
@@ -898,6 +894,7 @@
     "saleRp": 0
   },
   "lore": "The Void grows, and the Void adapts—in none of its myriad spawn are these truths more apparent than Kha'Zix. Evolution drives the core of this mutating horror, born to survive and to slay the strong. Where it struggles to do so, it grows new, more effective ways to counter and kill its prey. Initially a mindless beast, Kha'Zix's intelligence has developed as much as its form. Now, the creature plans out its hunts, and even utilizes the visceral terror it engenders in its victims.",
+  "faction": "void",
   "skins": [
     {
       "name": "Original",
@@ -924,9 +921,7 @@
       "newRecall": false,
       "newVoice": false,
       "newQuotes": false,
-      "voiceActor": [
-        "Unknown voice actor"
-      ],
+      "voiceActor": [],
       "splashArtist": [
         "Joshua 'HUGEnFAST' Brian Smith"
       ]
@@ -1109,9 +1104,7 @@
       "newRecall": false,
       "newVoice": false,
       "newQuotes": true,
-      "voiceActor": [
-        "Unknown voice actor"
-      ],
+      "voiceActor": [],
       "splashArtist": []
     },
     {
@@ -1141,9 +1134,7 @@
       "newRecall": true,
       "newVoice": false,
       "newQuotes": false,
-      "voiceActor": [
-        "Unknown voice actor"
-      ],
+      "voiceActor": [],
       "splashArtist": [
         "Sperasoft Studio"
       ]
@@ -1175,9 +1166,7 @@
       "newRecall": true,
       "newVoice": false,
       "newQuotes": false,
-      "voiceActor": [
-        "Unknown voice actor"
-      ],
+      "voiceActor": [],
       "splashArtist": [
         "Jean 'Curing' Go"
       ]
@@ -1209,9 +1198,7 @@
       "newRecall": true,
       "newVoice": false,
       "newQuotes": false,
-      "voiceActor": [
-        "Unknown voice actor"
-      ],
+      "voiceActor": [],
       "splashArtist": [
         "Xu 'Crow God' Cheng"
       ]
@@ -1773,12 +1760,9 @@
       "newRecall": true,
       "newVoice": false,
       "newQuotes": false,
-      "voiceActor": [
-        "Unknown voice actor"
-      ],
+      "voiceActor": [],
       "splashArtist": [
-        "Sixmorevodka Studio",
-        "Bo 'chenbowow' Chen"
+        "Maki Planas Mata"
       ]
     },
     {
@@ -1977,9 +1961,7 @@
       "newRecall": true,
       "newVoice": false,
       "newQuotes": false,
-      "voiceActor": [
-        "Unknown voice actor"
-      ],
+      "voiceActor": [],
       "splashArtist": [
         "Sean 'Raiko' Tay",
         "West Studio"

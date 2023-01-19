@@ -16,7 +16,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6632_fighter_t4_divinedevourer.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6632_fighter_t4_divinedevourer.png",
   "simpleDescription": null,
   "nicknames": [
     "devourer"
@@ -26,8 +26,9 @@
       "unique": true,
       "mythic": false,
       "name": "Spellblade",
-      "effects": "After using an [[champion ability|ability]], your next basic attack within 10 seconds deals {{as|125% '''base''' AD}} {{as|(+ {{rd|6%|3%}} of target's '''maximum''' health)}} as {{as|'''bonus''' physical damage}} [[on-hit]], with a '''minimum''' damage equal to {{as|150% '''base''' AD}} and a '''maximum''' damage against monsters equal to {{as|250% '''base''' AD}}. If the target is a champion, {{tip|heal}} for {{as|{{fd|68.75}}% '''base''' AD}} {{as|(+ {{rd|{{fd|3.3}}%|{{fd|1.65}}%}} of target's '''maximum''' health)}}.",
+      "effects": "After using an [[champion ability|ability]], your next basic attack within 10 seconds deals {{as|125% '''base''' AD}} {{as|(+ {{rd|6%|3%}} of target's '''maximum''' health)}} as {{as|'''bonus''' physical damage}} [[on-hit]], for a '''minimum''' of {{as|150% '''base''' AD}} and a '''maximum''' of {{as|250% '''base''' AD}} against monsters. If the target is a champion, {{tip|heal}} for {{as|{{fd|68.75}}% '''base''' AD}} {{as|(+ {{rd|{{fd|3.3}}%|{{fd|1.65}}%}} of target's '''maximum''' health)}}.",
       "range": null,
+      "cooldown": "{{fd|1.5}} (begins after using the empowered attack)",
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -200,8 +201,9 @@
       "name": "Mythic",
       "effects": null,
       "range": 0,
+      "cooldown": 0,
       "stats": {
-        "abilityPower": {
+        "ability_power": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -217,7 +219,7 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "armorPenetration": {
+        "armor_penetration": {
           "flat": 0.0,
           "percent": 3.0,
           "perLevel": 0.0,
@@ -225,7 +227,7 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "attackDamage": {
+        "attack_damage": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -233,7 +235,7 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "attackSpeed": {
+        "attack_speed": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -241,7 +243,7 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "cooldownReduction": {
+        "cooldown_reduction": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -249,7 +251,7 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "criticalStrikeChance": {
+        "critical_strike_chance": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -257,7 +259,7 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "goldPer_10": {
+        "gold_per_10": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -265,7 +267,7 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "healAndShieldPower": {
+        "heal_and_shield_power": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -281,7 +283,7 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "healthRegen": {
+        "health_regen": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -305,7 +307,7 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "magicPenetration": {
+        "magic_penetration": {
           "flat": 0.0,
           "percent": 3.0,
           "perLevel": 0.0,
@@ -313,7 +315,7 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "magicResistance": {
+        "magic_resistance": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -329,7 +331,7 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "manaRegen": {
+        "mana_regen": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -345,7 +347,7 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "abilityHaste": {
+        "ability_haste": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,

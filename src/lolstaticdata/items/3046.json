@@ -14,7 +14,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3046_marksman_t3_phantomdancer.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3046_marksman_t3_phantomdancer.png",
   "simpleDescription": "Move faster while attacking enemies and gain a shield when on low health.",
   "nicknames": [
     "pd"
@@ -26,6 +26,7 @@
       "name": "Spectral Waltz",
       "effects": "Basic attacks [[on-attack]] grant {{tip|ghosting}}, {{as|7% '''bonus''' movement speed}}, and a stack of ''Spectral Waltz'' for 3 seconds, up to 4 stacks. While at 4 stacks, gain {{as|30% '''bonus''' attack speed}}.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,

@@ -12,7 +12,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "Ornn",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6655_mage_t4_ludenstempest.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6655_mage_t4_ludenstempest.png",
   "simpleDescription": null,
   "nicknames": [
     "boomstick"
@@ -24,6 +24,7 @@
       "name": "Echo",
       "effects": "Dealing {{tip|ability damage}} to an enemy deals {{as|100 {{as|(+ 10% AP)}} '''additional''' magic damage|magic damage}} to them and launches orbs at up to 3 other enemies within {{tip|cr|icononly = true}} 600 units around them, impacting after {{rutngt|0.5}} to deal the same damage to each, and grants you {{as|15% '''bonus''' movement speed}} for 2 seconds. Dealing ability damage against champions reduces the cooldown of ''Echo'' by {{fd|0.5}} seconds per champion, up to a '''maximum''' of 3 seconds per cast.",
       "range": null,
+      "cooldown": "10",
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -94,10 +95,10 @@
         "healAndShieldPower": {
           "flat": 0.0,
           "percent": 0.0,
-          "perLevel": 0.0,
-          "percentPerLevel": 0.0,
-          "percentBase": 0.0,
-          "percentBonus": 0.0
+          "per_level": 0.0,
+          "percent_per_level": 0.0,
+          "percent_base": 0.0,
+          "percent_bonus": 0.0
         },
         "health": {
           "flat": 0.0,
@@ -110,10 +111,10 @@
         "healthRegen": {
           "flat": 0.0,
           "percent": 0.0,
-          "perLevel": 0.0,
-          "percentPerLevel": 0.0,
-          "percentBase": 0.0,
-          "percentBonus": 0.0
+          "per_level": 0.0,
+          "percent_per_level": 0.0,
+          "percent_base": 0.0,
+          "percent_bonus": 0.0
         },
         "lethality": {
           "flat": 0.0,
@@ -196,6 +197,7 @@
       "name": "Mythic",
       "effects": null,
       "range": 0,
+      "cooldown": 0,
       "stats": {
         "abilityPower": {
           "flat": 0.0,

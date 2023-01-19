@@ -10,7 +10,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/1504_turretshielder.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/1504_turretshielder.png",
   "simpleDescription": null,
   "nicknames": [],
   "passives": [
@@ -20,6 +20,7 @@
       "name": null,
       "effects": "Provides extra defensive measures. Attackers are rewarded for destroying portions of the plating. This item disappears after 14 minutes.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,

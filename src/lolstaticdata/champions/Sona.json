@@ -4,7 +4,7 @@
   "name": "Sona",
   "title": "Maven of the Strings",
   "fullName": "Sona Buvelle",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Sona.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Sona.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -142,13 +142,13 @@
       "percentPerLevel": 0.0
     },
     "aramHealing": {
-      "flat": 0.6,
+      "flat": 0.8,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
     },
     "aramShielding": {
-      "flat": 0.6,
+      "flat": 0.8,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
@@ -160,13 +160,13 @@
       "percentPerLevel": 0.0
     },
     "urfDamageDealt": {
-      "flat": 0.95,
+      "flat": 0.9,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
     },
     "urfHealing": {
-      "flat": 0.8,
+      "flat": 0.7,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
@@ -202,15 +202,15 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Sona/ability-icon/p",
         "effects": [
           {
-            "description": "Innate - Accelerando: Sona generates a stack of Accelerando each time she hits an enemy champion with Hymn of Valor and each time she mitigates sufficient damage or heals damaged allies with Aria of Perseverance, which stacks up to 120 times. If she has maximum stacks, she instead reduces the cooldown of Crescendo by 1.5 seconds each time.\n Accelerando: For each stack, Sona gains 0.5 basic ability haste, up to a maximum of 60.",
+            "description": "Innate - Accelerando: Sona generates a stack of Accelerando each time she hits an enemy champion with Hymn of Valor and each time she mitigates sufficient damage or heals damaged allies with Aria of Perseverance, stacking up to 120 times. At maximum stacks, she instead reduces the current cooldown of Crescendo by 1.5 seconds each time.\n Accelerando: For each stack, Sona gains 0.5 basic ability haste, up to 60 at maximum stacks.",
             "leveling": []
           },
           {
-            "description": "Innate - Melody: Sona's basic abilities incur 0.5-second global cooldown on her other basic abilities, and cause her to generate a unique aura for 3 seconds that empowers herself and nearby allied champions.",
+            "description": "Innate - Melody: Whenever Sona casts a basic ability, her other basic abilities incur a 0.5-second global cooldown and she generates a unique aura for 3 seconds that empowers herself and nearby allied champions.",
             "leveling": []
           },
           {
-            "description": "Innate - Power Chord: Sona's basic abilities generate a stack of Power Chord, which stacks up to 3 times. At 3 stacks, her next basic attack is empowered to consume them all to have an uncancellable windup, deal 20 − 240 (based on level) (+ 20% AP) bonus magic damage, and apply an additional effect based on the last basic ability cast.",
+            "description": "Innate - Power Chord: Sona's basic abilities generate a stack of Power Chord, stacking up to 3 times. At 3 stacks, her next basic attack is empowered to consume them all to have an uncancellable windup, deal 20 − 240 (based on level) (+ 20% AP) bonus magic damage, and apply an additional effect based on the last basic ability she casted:\n Hymn of Valor - Staccato: Deals 28 − 336 (based on level) (+ 28% AP) modified magic damage.\n Aria of Perseverance - Diminuendo: Reduces the target's size by 8% and damage dealt by 25% (+ 4% per 100 AP) for 3 seconds.\n Song of Celerity - Tempo: Slows the target by 50% (+ 4% per 100 AP) for 2 seconds, capped at a maximum of 99%.",
             "leveling": []
           },
           {
@@ -251,18 +251,18 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Sona/ability-icon/q",
         "effects": [
           {
-            "description": "Active: Sona sends out bolts of sound to the two nearest visible enemies, prioritizing champions, that each deal magic damage and granting sight of the area around them for 1 second. She gains a stack of Accelerando for each bolt that hits an enemy champion.",
+            "description": "Active: Sona sends out bolts of sound to the two nearest visible enemies, prioritizing champions. Each bolt deals magic damage and grants sight of the area around the target for 1 second.Sona gains a stack of Accelerando for each bolt that hits an enemy champion.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
                 "modifiers": [
                   {
                     "values": [
-                      40,
-                      70,
-                      100,
-                      130,
-                      160
+                      50,
+                      80,
+                      110,
+                      140,
+                      170
                     ],
                     "units": [
                       "",
@@ -317,10 +317,6 @@
                 ]
               }
             ]
-          },
-          {
-            "description": "Power Chord : Staccato: Power Chord deals 28 − 336 (based on level) (+ 28% AP) total magic damage.",
-            "leveling": []
           }
         ],
         "cost": {
@@ -421,7 +417,7 @@
             ]
           },
           {
-            "description": "Melody Bonus: Sona and tagged allied champions receive a shield lasting up to 1.5 seconds.",
+            "description": "Melody Bonus: Sona and tagged allied champions are granted a shield for 1.5 seconds.",
             "leveling": [
               {
                 "attribute": "Shield Strength",
@@ -458,7 +454,7 @@
             "description": "Sona gains a stack of Accelerando whenever she heals a wounded ally or shields a minimum amount of damage for an ally with Aria of Perseverance.",
             "leveling": [
               {
-                "attribute": "Minimum Damage Blocked",
+                "attribute": "Minimum Damage Mitigated",
                 "modifiers": [
                   {
                     "values": [
@@ -479,10 +475,6 @@
                 ]
               }
             ]
-          },
-          {
-            "description": "Power Chord : Diminuendo: Power Chord reduces the target's size by 8% and damage output by 25% (+ 4% per 100 AP) for 3 seconds.",
-            "leveling": []
           }
         ],
         "cost": {
@@ -549,14 +541,14 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Sona/ability-icon/e",
         "effects": [
           {
-            "description": "Active: Sona gains 20% (+ 2% per 100 AP) bonus movement speed for 3 seconds, which is extended to up to 7 seconds if she does not take damage during this time.",
+            "description": "Active: Sona gains 20% (+ 2% per 100 AP) bonus movement speed for 7 seconds. If she takes damage during this time, the duration ends prematurely once or if 3 seconds have elapsed.",
             "leveling": []
           },
           {
             "description": "Melody Bonus: Tagged allied champions gain bonus movement speed for 3 seconds.",
             "leveling": [
               {
-                "attribute": "Aura Bonus Movement Speed",
+                "attribute": "Bonus Movement Speed",
                 "modifiers": [
                   {
                     "values": [
@@ -587,10 +579,6 @@
                 ]
               }
             ]
-          },
-          {
-            "description": "Power Chord : Tempo: Power Chord slows the target by 40% (+ 4% per 100 AP) for 2 seconds, capped at a maximum of 99%.",
-            "leveling": []
           }
         ],
         "cost": {
@@ -649,7 +637,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Sona/ability-icon/r",
         "effects": [
           {
-            "description": "Active: Sona strikes an irresistible chord in the target direction that deals magic damage to enemies hit, which stuns and forces them to dance for 1.5 seconds.",
+            "description": "Active: Sona strikes an irresistible chord in the target direction that deals magic damage to enemies hit and stuns them for 1.5 seconds.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -744,13 +732,14 @@
   },
   "releaseDate": "2010-09-21",
   "releasePatch": "1.0.0.101",
-  "patchLastChanged": "12.12",
+  "patchLastChanged": "12.19",
   "price": {
     "blueEssence": 1350,
     "rp": 585,
     "saleRp": 0
   },
   "lore": "Sona is Demacia's foremost virtuoso of the stringed etwahl, speaking only through her graceful chords and vibrant arias. This genteel manner has endeared her to the highborn, though others suspect her spellbinding melodies to actually emanate magic—a Demacian taboo. Silent to outsiders but somehow understood by close companions, Sona plucks her harmonies not only to soothe injured allies, but also to strike down unsuspecting enemies.",
+  "faction": "demacia",
   "skins": [
     {
       "name": "Original",
@@ -1009,7 +998,9 @@
       ],
       "lore": null,
       "release": "2015-02-25",
-      "set": [],
+      "set": [
+        "DJ"
+      ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/37/37006.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/37/37006.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/37/37006.jpg",
@@ -1219,8 +1210,7 @@
         "Erin Fitzgerald"
       ],
       "splashArtist": [
-        "Kelly Aleshire",
-        "Esben Lash Rasmussen"
+        "Kelly Aleshire"
       ]
     },
     {
@@ -1615,7 +1605,7 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/37/37026.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/37/37026.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/37/37026.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin26/sonaloadscreen_26.pie_c_11_18.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin26/sonaloadscreen_26.jpg",
       "loadScreenVintagePath": null,
       "newEffects": true,
       "newAnimations": true,
@@ -1832,7 +1822,7 @@
           ]
         }
       ],
-      "lore": "Quiet and reflective, Sona spends her time away from the Guardians as a composer of music... and her time with them as a figther of incredible power, blasting enemies away with sonically charged starlight. Though she cannot speak, she always makes her voice heard through deeds... or her chatterbox familiar-slash-interpreter, Chiizu.",
+      "lore": "Quiet and reflective, Sona spends her time away from the Guardians as a composer of music... and her time with them as a fighter of incredible power, blasting enemies away with sonically charged starlight. Though she cannot speak, she always makes her voice heard through deeds... or her chatterbox familiar-slash-interpreter, Chiizu.",
       "release": "2022-07-14",
       "set": [
         "Star Guardian Season 4"

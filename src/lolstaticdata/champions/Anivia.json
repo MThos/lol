@@ -4,7 +4,7 @@
   "name": "Anivia",
   "title": "the Cryophoenix",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Anivia.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.23.1/img/champion/Anivia.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -460,7 +460,7 @@
         "onHitEffects": null,
         "occurrence": null,
         "notes": "The initial cast and the manual recast count as ability activations for the purposes of on-cast effects such as  Spellblade and stacking  Force Pulse.\nIf the ability is not manually recasted, the secondary effect will trigger without being considered as an ability activation.\nFlash Frost can only proc  Conqueror once even if it damages the same target twice.\nFlash Frost will fire from wherever Anivia was at the start of the cast time.\n Spell shield can only prevent either the collision hit or recast from affecting the target.",
-        "blurb": "Active:  Anivia sends a chunk of ice in the target direction, dealing magic damage and  slowing enemies hit.",
+        "blurb": "Active:  Anivia launches a chunk of ice that deals magic damage and  slows enemies hit.",
         "missileSpeed": null,
         "rechargeRate": null,
         "collisionRadius": null,
@@ -776,7 +776,7 @@
         "onHitEffects": null,
         "occurrence": null,
         "notes": "The damage of Frostbite is calculated once it hits. If the target's mark from being hit by  Flash Frost or a fully formed  Glacial Storm wares off while the projectile is traveling, the damage is not doubled.\nFrostbite has a different sound effect when it hits a target for double damage.\nIf the target becomes  untargetable,  dies, or is too far away or no longer in  sight during the cast time, this ability will cancel but does not go on  cooldown nor pay its cost (if applicable).",
-        "blurb": "Active:  Anivia blasts a freezing wind at the target enemy, dealing magic damage.",
+        "blurb": "Active:  Anivia blasts a freezing wind at the target enemy that deals magic damage.",
         "missileSpeed": null,
         "rechargeRate": null,
         "collisionRadius": null,
@@ -804,9 +804,9 @@
                 "modifiers": [
                   {
                     "values": [
-                      30,
-                      45,
-                      60
+                      15,
+                      22.5,
+                      30
                     ],
                     "units": [
                       "",
@@ -816,9 +816,9 @@
                   },
                   {
                     "values": [
-                      12.5,
-                      12.5,
-                      12.5
+                      6.25,
+                      6.25,
+                      6.25
                     ],
                     "units": [
                       "% AP",
@@ -855,9 +855,9 @@
                 "modifiers": [
                   {
                     "values": [
-                      90,
-                      135,
-                      180
+                      45,
+                      67.5,
+                      90
                     ],
                     "units": [
                       "",
@@ -867,9 +867,9 @@
                   },
                   {
                     "values": [
-                      37.5,
-                      37.5,
-                      37.5
+                      18.75,
+                      18.75,
+                      18.75
                     ],
                     "units": [
                       "% AP",
@@ -975,6 +975,7 @@
     "saleRp": 0
   },
   "lore": "Anivia is a benevolent winged spirit who endures endless cycles of life, death, and rebirth to protect the Freljord. A demigod born of unforgiving ice and bitter winds, she wields those elemental powers to thwart any who dare disturb her homeland. Anivia guides and protects the tribes of the harsh north, who revere her as a symbol of hope, and a portent of great change. She fights with every ounce of her being, knowing that through her sacrifice, her memory will endure, and she will be reborn into a new tomorrow.",
+  "faction": "freljord",
   "skins": [
     {
       "name": "Original",
@@ -1049,7 +1050,7 @@
       "lore": null,
       "release": "2010-05-02",
       "set": [
-        "American"
+        "Wonders of the World"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/34/34002.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/34/34002.jpg",
@@ -1078,7 +1079,9 @@
       "chromas": [],
       "lore": null,
       "release": "2010-08-24",
-      "set": [],
+      "set": [
+        "Legacy"
+      ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/34/34003.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/34/34003.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/34/34003.jpg",
@@ -1202,8 +1205,7 @@
       "lore": "For one week a year, Anivia takes a break from being a prophetic ice spirit of the Freljord, and takes off for warmer climes… somewhere people will appreciate her samba.",
       "release": "2017-02-23",
       "set": [
-        "Wonders of the World",
-        "Brazilian"
+        "Wonders of the World"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/34/34007.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/34/34007.jpg",
@@ -1418,7 +1420,7 @@
       "newQuotes": false,
       "voiceActor": [],
       "splashArtist": [
-        "Art of Maki"
+        "Maki Planas Mata"
       ]
     },
     {
@@ -1862,8 +1864,8 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/34/34027.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/34/34027.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/34/34027.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin27/anivialoadscreen_27.pie_c_11_17.jpg",
-      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin27/anivialoadscreen_27_le.pie_c_11_17.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin27/anivialoadscreen_27.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin27/anivialoadscreen_27_le.jpg",
       "newEffects": true,
       "newAnimations": true,
       "newRecall": true,
@@ -1872,6 +1874,208 @@
       "voiceActor": [],
       "splashArtist": [
         "David Villegas",
+        "West Studio"
+      ]
+    },
+    {
+      "name": "Bewitching Batnivia",
+      "id": 34037,
+      "isBase": false,
+      "availability": "Legacy",
+      "formatName": "Bewitching Batnivia",
+      "lootEligible": true,
+      "cost": 1350,
+      "sale": 0,
+      "distribution": null,
+      "rarity": "Epic",
+      "chromas": [
+        {
+          "name": "Amethyst",
+          "id": 34043,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/34/34043.png",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Catseye",
+          "id": 34039,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/34/34039.png",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Emerald",
+          "id": 34042,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/34/34042.png",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "descriptions": [
+            {
+              "description": "Obtained through Influencer audience giveaways.",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Pearl",
+          "id": 34045,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/34/34045.png",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Rose Quartz",
+          "id": 34041,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/34/34041.png",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "TENCENT"
+            }
+          ]
+        },
+        {
+          "name": "Ruby",
+          "id": 34038,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/34/34038.png",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "descriptions": [
+            {
+              "description": "This chroma was released as a bundle exclusive in 2022.",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Sapphire",
+          "id": 34040,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/34/34040.png",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Turquoise",
+          "id": 34044,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/34/34044.png",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        }
+      ],
+      "lore": "Enchanted by LeBlanc herself, Batnivia flies along with a coven of witches, shrouding the night sky in darkness and chaos. Though she was once an ordinary bat, Leblanc sensed the spirit of the season in her; now she helps to spread terror to the children below and glee to the partygoers who follow her flight.",
+      "release": "2022-10-20",
+      "set": [
+        "Bewitching"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/34/34037.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/34/34037.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/34/34037.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin37/anivialoadscreen_37.pie_c_12_20.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin37/anivialoadscreen_37_le.pie_c_12_20.jpg",
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [],
+      "splashArtist": [
+        "Huyy Nugyen",
         "West Studio"
       ]
     }

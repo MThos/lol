@@ -4,7 +4,7 @@
   "name": "Twisted Fate",
   "title": "the Card Master",
   "fullName": "Tobias",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/TwistedFate.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/TwistedFate.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -265,11 +265,11 @@
                   },
                   {
                     "values": [
-                      70,
-                      70,
-                      70,
-                      70,
-                      70
+                      80,
+                      80,
+                      80,
+                      80,
+                      80
                     ],
                     "units": [
                       "% AP",
@@ -609,11 +609,11 @@
           "modifiers": [
             {
               "values": [
+                30,
                 40,
-                55,
-                70,
-                85,
-                100
+                50,
+                60,
+                70
               ],
               "units": [
                 "",
@@ -677,7 +677,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/TwistedFate/ability-icon/e",
         "effects": [
           {
-            "description": "Passive: Twisted Fate gains bonus attack speed. His basic attacks generate a stack of Stacked Deck, which stacks up to 3 times. At 3 stacks, his next basic attack is empowered to consume them all to deal bonus magic damage.",
+            "description": "Passive: Twisted Fate gains bonus attack speed. His basic attacks generate a stack of Stacked Deck, stacking up to 3 times. At 3 stacks, his next basic attack is empowered to consume them all to deal bonus magic damage.",
             "leveling": [
               {
                 "attribute": "Bonus Attack Speed",
@@ -773,7 +773,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/TwistedFate/ability-icon/r",
         "effects": [
           {
-            "description": "Active: Twisted Fate marks all targetable enemy champions, revealing them for a few seconds. Destiny can be recast after 0.5 seconds within the duration.",
+            "description": "Active: Twisted Fate marks all targetable enemy champions, revealing them for a duration. Destiny can be recast after 0.5 seconds within the duration.",
             "leveling": [
               {
                 "attribute": "Duration",
@@ -860,13 +860,14 @@
   },
   "releaseDate": "2009-02-21",
   "releasePatch": "Alpha Week 2",
-  "patchLastChanged": "12.14",
+  "patchLastChanged": "12.17",
   "price": {
     "blueEssence": 1350,
     "rp": 585,
     "saleRp": 0
   },
   "lore": "Twisted Fate is an infamous cardsharp and swindler who has gambled and charmed his way across much of the known world, earning the enmity and admiration of the rich and foolish alike. He rarely takes things seriously, greeting each day with a mocking smile and an insouciant swagger. In every possible way, Twisted Fate always has an ace up his sleeve.",
+  "faction": "bilgewater",
   "skins": [
     {
       "name": "Original",
@@ -979,9 +980,7 @@
       "chromas": [],
       "lore": null,
       "release": "2010-05-17",
-      "set": [
-        "Prestigious"
-      ],
+      "set": [],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/4/4003.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/4/4003.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/4/4003.jpg",
@@ -1012,7 +1011,7 @@
       "lore": null,
       "release": "2010-10-05",
       "set": [
-        "Tango"
+        "High Society"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/4/4004.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/4/4004.jpg",
@@ -1079,9 +1078,7 @@
       "chromas": [],
       "lore": null,
       "release": "2011-11-21",
-      "set": [
-        "Musketeer"
-      ],
+      "set": [],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/4/4006.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/4/4006.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/4/4006.jpg",
@@ -1112,7 +1109,6 @@
       "lore": "For those dreading their inevitable meeting with Death, Twisted Fate offers another path. If they win his game of chance, a life of luxury awaits them. If they lose, he gladly adds yet another card to his ever-growing deck of doomed souls.",
       "release": "2012-10-26",
       "set": [
-        "Death Sworn",
         "Trick-or-Treat"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/4/4007.jpg",
@@ -1780,7 +1776,7 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/4/4025.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/4/4025.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/4/4025.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/twistedfate/skins/skin25/twistedfateloadscreen_25.pie_c_11_17.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/twistedfate/skins/skin25/twistedfateloadscreen_25.jpg",
       "loadScreenVintagePath": null,
       "newEffects": true,
       "newAnimations": true,
@@ -1794,6 +1790,207 @@
         "Edward Chee",
         "West Studio"
       ]
+    },
+    {
+      "name": "Space Groove",
+      "id": 4036,
+      "isBase": false,
+      "availability": "Upcoming",
+      "formatName": "Space Groove",
+      "lootEligible": true,
+      "cost": 1350,
+      "sale": 0,
+      "distribution": null,
+      "rarity": "Epic",
+      "chromas": [
+        {
+          "name": "Catseye",
+          "id": 4040,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/4/4040.png",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Emerald",
+          "id": 4038,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/4/4038.png",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Obsidian",
+          "id": 4043,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/4/4043.png",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Rainbow",
+          "id": 4044,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/4/4044.png",
+          "colors": [
+            "#C1F2FF",
+            "#C1F2FF"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Rose Quartz",
+          "id": 4039,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/4/4039.png",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "TENCENT"
+            }
+          ]
+        },
+        {
+          "name": "Ruby",
+          "id": 4037,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/4/4037.png",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "descriptions": [
+            {
+              "description": "This chroma was released as a bundle exclusive in 2022.",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Tanzanite",
+          "id": 4042,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/4/4042.png",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Turquoise",
+          "id": 4041,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/4/4041.png",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        }
+      ],
+      "lore": "He may be a scoundrel, but Twisted Fate is known the galaxy over as someone who gets things done. But even he can't find a trace of his long lost partner, Graves. So when some cats offered him intel on Grave's whereabouts in exchange for the location of the legendary underground disco, The Jam, he happily obliged. What's a few party crashers, anyway?",
+      "release": "0000-00-00",
+      "set": [
+        "Space Groove"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/4/4036.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/4/4036.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/4/4036.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/twistedfate/skins/skin36/twistedfateloadscreen_36.pie_c_12_22.jpg",
+      "loadScreenVintagePath": null,
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Owen Thomas"
+      ],
+      "splashArtist": []
     }
   ]
 }

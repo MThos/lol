@@ -4,7 +4,7 @@
   "name": "Graves",
   "title": "the Outlaw",
   "fullName": "Malcolm Graves",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Graves.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Graves.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -209,7 +209,7 @@
             "leveling": []
           },
           {
-            "description": "Critical strikes spray 6 pellets over a 25% wider cone, with each pellet dealing (20% + 9.33345%) bonus physical damage, resulting in[ 59.98% (+12.44%) bonus damage to attacks where all pellets hit. ][ 223.97% − 319.98% (based on level) (+17.42% − 24.88% (based on level)) AD physical damage if all pellets hit. ]",
+            "description": "Critical strikes spray 6 pellets over a 25% wider cone, with each pellet dealing (20% + 9.33345%) bonus physical damage, resulting in[ 59.98% (+ 12.44%) bonus damage to attacks where all pellets hit. ][ 223.97% − 319.98% (based on level) (+17.42% − 24.88% (based on level)) AD physical damage if all pellets hit. ]",
             "leveling": []
           },
           {
@@ -257,7 +257,7 @@
             "description": "Active: Graves fires a round in the target direction that deals physical damage to enemies it passes through and leaves behind a powder trail.",
             "leveling": [
               {
-                "attribute": "Initial Physical Damage",
+                "attribute": "Physical Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -299,7 +299,7 @@
             "description": "After 2 seconds, or 0.231 seconds upon colliding with terrain, the round detonates to deal physical damage to enemies within a wide perpendicular area and in a reverse wave along the powder trail.",
             "leveling": [
               {
-                "attribute": "Detonation Damage",
+                "attribute": "Physical Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -336,7 +336,7 @@
                 ]
               },
               {
-                "attribute": "Total Damage",
+                "attribute": "Total Physical Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -399,11 +399,11 @@
           "modifiers": [
             {
               "values": [
-                12,
-                11,
+                13,
+                11.5,
                 10,
-                9,
-                8
+                8.5,
+                7
               ],
               "units": [
                 "",
@@ -569,7 +569,7 @@
             "leveling": []
           },
           {
-            "description": "Quickdraw's cooldown is reduced by 0.5 seconds for every pellet impacting an enemy.",
+            "description": "Quickdraw's current cooldown is reduced by 0.5 seconds for every pellet impacting an enemy.",
             "leveling": []
           },
           {
@@ -597,7 +597,7 @@
                 ]
               },
               {
-                "attribute": "Maximum Armor",
+                "attribute": "Maximum Bonus Armor",
                 "modifiers": [
                   {
                     "values": [
@@ -703,9 +703,9 @@
                 "modifiers": [
                   {
                     "values": [
-                      250,
-                      400,
-                      550
+                      275,
+                      425,
+                      575
                     ],
                     "units": [
                       "",
@@ -733,13 +733,13 @@
             "description": "Upon hitting an enemy champion or reaching the end of its range, the shell explodes in a cone to deal 80% damage to additional enemies.",
             "leveling": [
               {
-                "attribute": "Explosion Damage",
+                "attribute": "Reduced Damage",
                 "modifiers": [
                   {
                     "values": [
-                      200,
-                      320,
-                      440
+                      220,
+                      340,
+                      460
                     ],
                     "units": [
                       "",
@@ -825,13 +825,14 @@
   },
   "releaseDate": "2011-10-19",
   "releasePatch": "1.0.0.127",
-  "patchLastChanged": "12.11",
+  "patchLastChanged": "12.17",
   "price": {
     "blueEssence": 4800,
     "rp": 880,
     "saleRp": 0
   },
   "lore": "Malcolm Graves is a renowned mercenary, gambler, and thief—a wanted man in every city and empire he has visited. Even though he has an explosive temper, he possesses a strict sense of criminal honor, often enforced at the business end of his double-barreled shotgun Destiny. In recent years, he has reconciled a troubled partnership with Twisted Fate, and together they have prospered once more in the turmoil of Bilgewater's criminal underbelly.",
+  "faction": "bilgewater",
   "skins": [
     {
       "name": "Original",
@@ -879,9 +880,7 @@
       "chromas": [],
       "lore": null,
       "release": "2011-10-19",
-      "set": [
-        "Hired Gun"
-      ],
+      "set": [],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/104/104001.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/104/104001.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/104/104001.jpg",
@@ -949,7 +948,7 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/104/104003.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/104/104003.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/104/104003.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/graves/skins/skin03/gravesloadscreen_3.pie_c_11_17.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/graves/skins/skin03/gravesloadscreen_3.jpg",
       "loadScreenVintagePath": null,
       "newEffects": false,
       "newAnimations": false,
@@ -1877,8 +1876,8 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/104/104035.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/104/104035.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/104/104035.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/graves/skins/skin35/gravesloadscreen_35.pie_c_11_15.jpg",
-      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/graves/skins/skin35/gravesloadscreen_35_le.pie_c_11_15.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/graves/skins/skin35/gravesloadscreen_35.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/graves/skins/skin35/gravesloadscreen_35_le.jpg",
       "newEffects": true,
       "newAnimations": true,
       "newRecall": true,
@@ -1889,6 +1888,62 @@
       ],
       "splashArtist": [
         "Horace 'Hozure' Hsu"
+      ]
+    },
+    {
+      "name": "EDG",
+      "id": 104042,
+      "isBase": false,
+      "availability": "Legacy",
+      "formatName": "EDG",
+      "lootEligible": true,
+      "cost": 1350,
+      "sale": 0,
+      "distribution": null,
+      "rarity": "Epic",
+      "chromas": [
+        {
+          "name": "Elite",
+          "id": 104043,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/104/104043.png",
+          "colors": [
+            "#131521",
+            "#9E1517"
+          ],
+          "descriptions": [
+            {
+              "description": "This chroma was released as a bundle exclusive during MSI 2022.",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 2,
+              "region": "riot"
+            }
+          ]
+        }
+      ],
+      "lore": "Honoring Flandre's winning performance as Graves during the 2021 World Championship.",
+      "release": "2022-05-12",
+      "set": [
+        "World Champions: 2021"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/104/104042.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/104/104042.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/104/104042.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/graves/skins/skin42/gravesloadscreen_42.pie_c_12_9.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/graves/skins/skin42/gravesloadscreen_42_le.pie_c_12_9.jpg",
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Kyle Hebert"
+      ],
+      "splashArtist": [
+        "Bo 'chenbowow' Chen"
       ]
     }
   ]

@@ -19,7 +19,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3086_fighter_t2_zeal.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3086_fighter_t2_zeal.png",
   "simpleDescription": "Slight bonuses to Critical Strike Chance, Move Speed and Attack Speed",
   "nicknames": [],
   "passives": [
@@ -29,6 +29,7 @@
       "name": "Zealous",
       "effects": "Gain {{as|7% '''bonus''' movement speed}}.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,

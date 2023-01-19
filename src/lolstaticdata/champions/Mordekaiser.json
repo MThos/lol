@@ -4,7 +4,7 @@
   "name": "Mordekaiser",
   "title": "the Iron Revenant",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Mordekaiser.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Mordekaiser.png",
   "resource": "SHIELD",
   "attackType": "MELEE",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -205,11 +205,11 @@
             "leveling": []
           },
           {
-            "description": "Morderkaiser generates a stack for each enemy champion or monster hit by his damaging basic attacks and basic abilities, which lasts 4 seconds, refreshing on subsequent hits and stacking up to 3 times. At 3 stacks, Mordekaiser gains Darkness Rise.",
+            "description": "Morderkaiser generates a stack for each enemy champion or monster hit by his damaging basic attacks or basic abilities, lasting for 4 seconds, refreshing on subsequent hits, and stacking up to 3 times. At 3 stacks, he gains Darkness Rise.",
             "leveling": []
           },
           {
-            "description": "Darkness Rise: Mordekaiser gains 3 / 6 / 9% (based on level) bonus movement speed and creates an aura that deals[ 5 − 15.2 (based on level) (+ 30% AP) (+ 1% − 5% (based on level) of target's maximum health) magic damage per second ][ 0.63 − 1.9 (based on level) (+ 3.75% AP) (+ 0.13% − 0.63% (based on level) of target's maximum health) magic damage every 0.125 seconds ]to nearby enemies. The damage per second against monsters is capped at 180.",
+            "description": "Darkness Rise: Mordekaiser gains 3 / 6 / 9% (based on level) bonus movement speed and deals[ 5 − 15.2 (based on level) (+ 30% AP) (+ 1% − 5% (based on level) of target's maximum health) magic damage every second ][ 0.63 − 1.9 (based on level) (+ 3.75% AP) (+ 0.13% − 0.63% (based on level) of target's maximum health) magic damage every 0.125 seconds ]to nearby enemies. Against monsters, the damage is capped at[ 180 per second. ][ 22.5 per 0.125 seconds. ]",
             "leveling": []
           }
         ],
@@ -246,7 +246,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Mordekaiser/ability-icon/q",
         "effects": [
           {
-            "description": "Active: Mordekaiser smashes the area in the target direction, dealing magic damage to enemies within, increased if it hits only one enemy.",
+            "description": "Active: Mordekaiser strikes his mace down in a line in the target direction, dealing magic damage to enemies within, increased if only one enemy is hit.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -408,7 +408,7 @@
             "leveling": []
           },
           {
-            "description": "Active: Mordekaiser consumes his Potential Shield to shield himself for 4 seconds for the same amount. The shield decays exponentially over the duration. Indestructible can be recast after 0.5 seconds while the shield is active.",
+            "description": "Active: Mordekaiser consumes his Potential Shield to grant himself a shield for the same amount for 4 seconds. The shield decays exponentially over the duration. Indestructible can be recast after 0.5 seconds while the shield is active.",
             "leveling": []
           },
           {
@@ -612,7 +612,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Mordekaiser/ability-icon/r",
         "effects": [
           {
-            "description": "Active: Mordekaiser slows the target enemy champion by 75% during the cast time, then banishes them with him to the Death Realm for 7 seconds. Mordekaiser also consumes the target's soul for 7 seconds, healing himself for 10% of their maximum health and reducing their current attack damage, ability power, total attack speed, maximum health, armor, magic resist, and size by 10%, in addition to gaining them for himself. If the target dies while inside the Death Realm, Mordekaiser keeps their partial stats until they respawn.",
+            "description": "Active: Mordekaiser slows the target enemy champion by 75% over the cast time, then banishes them with him to the Death Realm for 7 seconds. Mordekaiser also consumes the target's soul for 7 seconds, healing himself for 10% of their maximum health and reducing their current attack damage, ability power, total attack speed, maximum health, armor, magic resist, and size by 10%, in addition to gaining them for himself. If the target dies while inside the Death Realm, Mordekaiser keeps their partial stats until they respawn.",
             "leveling": []
           },
           {
@@ -670,13 +670,14 @@
   },
   "releaseDate": "2010-02-24",
   "releasePatch": "1.0.0.75",
-  "patchLastChanged": "12.10",
+  "patchLastChanged": "12.21",
   "price": {
     "blueEssence": 1350,
     "rp": 585,
     "saleRp": 0
   },
   "lore": "Twice slain and thrice born, Mordekaiser is a brutal warlord from a foregone epoch who uses his necromantic sorcery to bind souls into an eternity of servitude. Few now remain who remember his earlier conquests, or know the true extent of his powers—but there are some ancient souls that do, and they fear the day when he may return to claim dominion over both the living and the dead.",
+  "faction": "noxus",
   "skins": [
     {
       "name": "Original",
@@ -741,7 +742,7 @@
         "Fred Tatasciore"
       ],
       "splashArtist": [
-        "Art of Maki"
+        "Maki Planas Mata"
       ]
     },
     {
@@ -1457,7 +1458,7 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/82/82023.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/82/82023.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/82/82023.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/mordekaiser/skins/skin23/mordekaiserloadscreen_23.pie_c_11_18.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/mordekaiser/skins/skin23/mordekaiserloadscreen_23.jpg",
       "loadScreenVintagePath": null,
       "newEffects": true,
       "newAnimations": true,

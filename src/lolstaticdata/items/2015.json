@@ -15,7 +15,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/2015_marksman_t2_kirkcheisshard.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/2015_marksman_t2_kirkcheisshard.png",
   "simpleDescription": "Attack speed and a chargable magic hit",
   "nicknames": [],
   "passives": [
@@ -25,6 +25,7 @@
       "name": "Energized",
       "effects": "Moving and basic attacking generates ''Energize'' stacks, up to 100.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -197,6 +198,7 @@
       "name": "Jolt",
       "effects": "When fully {{tip|Energized}}, your next basic attack deals {{as|80 '''bonus''' magic damage}} [[on-hit]].",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -366,7 +368,7 @@
   ],
   "active": [],
   "stats": {
-    "abilityPower": {
+    "ability_power": {
       "flat": 0.0,
       "percent": 0.0,
       "perLevel": 0.0,
@@ -382,7 +384,7 @@
       "percentBase": 0.0,
       "percentBonus": 0.0
     },
-    "armorPenetration": {
+    "armor_penetration": {
       "flat": 0.0,
       "percent": 0.0,
       "perLevel": 0.0,
@@ -390,7 +392,7 @@
       "percentBase": 0.0,
       "percentBonus": 0.0
     },
-    "attackDamage": {
+    "attack_damage": {
       "flat": 0.0,
       "percent": 0.0,
       "perLevel": 0.0,
@@ -398,7 +400,7 @@
       "percentBase": 0.0,
       "percentBonus": 0.0
     },
-    "attackSpeed": {
+    "attack_speed": {
       "flat": 15.0,
       "percent": 0.0,
       "perLevel": 0.0,
@@ -406,7 +408,7 @@
       "percentBase": 0.0,
       "percentBonus": 0.0
     },
-    "cooldownReduction": {
+    "cooldown_reduction": {
       "flat": 0.0,
       "percent": 0.0,
       "perLevel": 0.0,
@@ -414,7 +416,7 @@
       "percentBase": 0.0,
       "percentBonus": 0.0
     },
-    "criticalStrikeChance": {
+    "critical_strike_chance": {
       "flat": 0.0,
       "percent": 0.0,
       "perLevel": 0.0,
@@ -422,7 +424,7 @@
       "percentBase": 0.0,
       "percentBonus": 0.0
     },
-    "goldPer_10": {
+    "gold_per_10": {
       "flat": 0.0,
       "percent": 0.0,
       "perLevel": 0.0,
@@ -430,7 +432,7 @@
       "percentBase": 0.0,
       "percentBonus": 0.0
     },
-    "healAndShieldPower": {
+    "heal_and_shield_power": {
       "flat": 0.0,
       "percent": 0.0,
       "perLevel": 0.0,
@@ -446,7 +448,7 @@
       "percentBase": 0.0,
       "percentBonus": 0.0
     },
-    "healthRegen": {
+    "health_regen": {
       "flat": 0.0,
       "percent": 0.0,
       "perLevel": 0.0,
@@ -470,7 +472,7 @@
       "percentBase": 0.0,
       "percentBonus": 0.0
     },
-    "magicPenetration": {
+    "magic_penetration": {
       "flat": 0.0,
       "percent": 0.0,
       "perLevel": 0.0,
@@ -478,7 +480,7 @@
       "percentBase": 0.0,
       "percentBonus": 0.0
     },
-    "magicResistance": {
+    "magic_resistance": {
       "flat": 0.0,
       "percent": 0.0,
       "perLevel": 0.0,
@@ -494,7 +496,7 @@
       "percentBase": 0.0,
       "percentBonus": 0.0
     },
-    "manaRegen": {
+    "mana_regen": {
       "flat": 0.0,
       "percent": 0.0,
       "perLevel": 0.0,
@@ -510,7 +512,7 @@
       "percentBase": 0.0,
       "percentBonus": 0.0
     },
-    "abilityHaste": {
+    "ability_haste": {
       "flat": 0.0,
       "percent": 0.0,
       "perLevel": 0.0,

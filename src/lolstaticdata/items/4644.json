@@ -16,7 +16,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/4644_crown.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/4644_crown.png",
   "simpleDescription": null,
   "nicknames": [],
   "passives": [
@@ -24,8 +24,9 @@
       "unique": true,
       "mythic": false,
       "name": "Safeguard",
-      "effects": "Become ''Safeguarded'' and reduce incoming champion damage by 75%, lingering for {{fd|1.5}} seconds after taking damage from a champion.",
+      "effects": "Become ''Safeguarded'' to reduce incoming champion damage by 75%, lingering for {{fd|1.5}} seconds after taking damage from a champion.",
       "range": null,
+      "cooldown": "40 (restarts upon taking damage from champions)",
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -198,6 +199,7 @@
       "name": "Poise",
       "effects": "While ''Safeguarded'', gain {{as|{{pp|10 to 40|1;9 to 18 by 1|formula=10, then +3 per level starting at level 9}} ability power}}, lingering for 3 seconds after ''Safeguard'' is deactivated.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -370,6 +372,7 @@
       "name": "Mythic",
       "effects": null,
       "range": 0,
+      "cooldown": 0,
       "stats": {
         "abilityPower": {
           "flat": 8.0,

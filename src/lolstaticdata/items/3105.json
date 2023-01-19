@@ -10,16 +10,17 @@
   "buildsInto": [
     3190,
     3193,
+    6665,
     3001,
-    3068,
-    4403
+    4403,
+    6667
   ],
   "specialRecipe": 0,
   "noEffects": true,
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3105_tank_t2_aegisofthelegion.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3105_tank_t2_aegisofthelegion.png",
   "simpleDescription": "Grants Armor and Magic Resistance",
   "nicknames": [],
   "passives": [],
@@ -196,9 +197,9 @@
   },
   "shop": {
     "prices": {
-      "total": 1400,
+      "total": 1200,
       "combined": 0,
-      "sell": 560
+      "sell": 480
     },
     "purchasable": true,
     "tags": [

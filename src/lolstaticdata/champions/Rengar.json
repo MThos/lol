@@ -4,7 +4,7 @@
   "name": "Rengar",
   "title": "the Pridestalker",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Rengar.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Rengar.png",
   "resource": "FEROCITY",
   "attackType": "MELEE",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -202,7 +202,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Rengar/ability-icon/p",
         "effects": [
           {
-            "description": "Innate: Rengar generates 1 Ferocity upon casting a basic ability or using Savagery's first attack. At 4 Ferocity, his next basic ability consumes them to become empowered with an additional effect and grant him an additional cast along with 30 / 40 / 50% (based on level) bonus movement speed for 1.5 seconds. Reaching 4 Ferocity with Savagery or Bola Strike locks them from use for 0.1 seconds before and after casting. All Ferocity is lost after 10 seconds of being out of combat.",
+            "description": "Innate: Rengar generates 1 Ferocity upon casting a basic ability or using Savagery's first attack. At 4 Ferocity, his next basic ability consumes them all to become empowered with an additional effect and grant him an additional cast along with 30 / 40 / 50% (based on level) bonus movement speed for 1.5 seconds. Reaching 4 Ferocity with Savagery or Bola Strike locks them from use for 0.1 seconds before and after casting. All Ferocity is lost after 10 seconds of being out of combat.",
             "leveling": []
           },
           {
@@ -214,7 +214,7 @@
             "leveling": []
           },
           {
-            "description": "Innate - Bonetooth Necklace: Scoring a takedown against an enemy champion within 3 seconds of damaging them grants Rengar a Trophy, once per unique champion and up to 5. An additional one is made available through the event The Hunt is On! Trophies grant 1% − 36% (based on trophies) bonus AD as bonus attack damage.",
+            "description": "Innate - Bonetooth Necklace: Scoring a takedown against an enemy champion within 3 seconds of damaging them grants Rengar a Trophy, once per unique champion and up to 5. An additional Trophy is made available through the event The Hunt is On! with the Head of Kha'Zix. Trophies grant bonus attack damage equal to 1% − 36% (based on Trophies) bonus AD.",
             "leveling": []
           }
         ],
@@ -251,7 +251,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Rengar/ability-icon/q",
         "effects": [
           {
-            "description": "Active: Rengar empowers his next two basic attacks within 3 seconds to gain 40% bonus attack speed. His second attack has an uncancellable windup, gains 25 bonus range, and deals bonus physical damage, reduced by 40% against structures. This attack will critically strike (not affected by critical strike damage) and its damage is increased by 0% − 66% (based on critical strike chance).",
+            "description": "Active: Rengar empowers his next two basic attacks within 3 seconds to gain 40% bonus attack speed. His first attack has an uncancellable windup, gains 25 bonus range, and deals bonus physical damage, reduced by 40% against structures. This attack will critically strike, though is not affected by critical strike damage, and its damage is increased by 0% − 66% (based on critical strike chance).",
             "leveling": [
               {
                 "attribute": "Bonus Physical Damage",
@@ -296,7 +296,7 @@
             "description": "Ferocity Bonus: Savagery's damage is modified. Rengar gains 50% − 101% (based on level) bonus attack speed for 5 seconds.",
             "leveling": [
               {
-                "attribute": "Empowered Bonus Physical Damage",
+                "attribute": "Empowered Bonus Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -464,10 +464,10 @@
             ]
           },
           {
-            "description": "Ferocity Bonus: Battle Roar's damage is modified. Rengar cleanses from all crowd control.",
+            "description": "Ferocity Bonus: Battle Roar's damage is modified. Rengar cleanses himself from all crowd control.",
             "leveling": [
               {
-                "attribute": "Empowered Magic Damage",
+                "attribute": "Empowered Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -651,7 +651,7 @@
             "description": "Ferocity Bonus: Bola Strike's damage is modified. The target is rooted instead of slowed.",
             "leveling": [
               {
-                "attribute": "Empowered Physical Damage",
+                "attribute": "Empowered Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -895,6 +895,7 @@
     "saleRp": 0
   },
   "lore": "Rengar is a ferocious vastayan trophy hunter who lives for the thrill of tracking down and killing dangerous creatures. He scours the world for the most fearsome beasts he can find, especially seeking any trace of Kha'Zix, the void creature who scratched out his eye. Rengar stalks his prey neither for food nor glory, but for the sheer beauty of the pursuit.",
+  "faction": "ixtal",
   "skins": [
     {
       "name": "Original",
@@ -1481,8 +1482,7 @@
       "lore": "Once again, the prettiest kitty… is the deadliest.",
       "release": "2019-03-27",
       "set": [
-        "Cats Versus Dogs",
-        "Disguise"
+        "Cats Versus Dogs"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/107/107015.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/107/107015.jpg",
@@ -1873,8 +1873,8 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/107/107030.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/107/107030.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/107/107030.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/rengar/skins/skin30/rengarloadscreen_30.pie_c_11_15.jpg",
-      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/rengar/skins/skin30/rengarloadscreen_30_le.pie_c_11_15.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/rengar/skins/skin30/rengarloadscreen_30.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/rengar/skins/skin30/rengarloadscreen_30_le.jpg",
       "newEffects": true,
       "newAnimations": true,
       "newRecall": true,

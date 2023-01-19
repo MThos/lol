@@ -4,7 +4,7 @@
   "name": "Shaco",
   "title": "the Demon Jester",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Shaco.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Shaco.png",
   "resource": "MANA",
   "attackType": "MELEE",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -241,7 +241,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Shaco/ability-icon/q",
         "effects": [
           {
-            "description": "Active: Shaco becomes invisible for a few seconds, and after a 0.125-second delay he blinks to the target location.",
+            "description": "Active: Shaco becomes invisible for a duration, and after a 0.125-second delay, he blinks to the target location.",
             "leveling": [
               {
                 "attribute": "Invisibility Duration",
@@ -267,14 +267,14 @@
             ]
           },
           {
-            "description": "Deceive's invisibility breaks when Shaco uses a basic attack or casts Two-Shiv Poison, but not from casting Hallucinate.",
+            "description": "Deceive's invisibility breaks when Shaco uses a basic attack or casts Two-Shiv Poison, but not from casting Jack in the Box or Hallucinate.",
             "leveling": []
           },
           {
             "description": "After breaking the invisibility, Shaco empowers his next basic attack within 0.25 seconds to deal bonus physical damage, which is affected by critical strike modifiers.",
             "leveling": [
               {
-                "attribute": "Physical Damage",
+                "attribute": "Bonus Physical Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -423,7 +423,7 @@
             ]
           },
           {
-            "description": "The box will remain for 5 seconds, during which it will automatically fire at nearby visible enemies every 0.5 seconds, dealing magic damage with each attack that is increased against monsters and reduced by 50% against structures. If the box attacks only one target, it deals increased damage.",
+            "description": "Once sprung, the box will remain for 5 seconds, during which it will automatically fire at nearby visible enemies every 0.5 seconds, dealing magic damage with each attack. If the box attacks only one target, it deals increased damage. Boxes deal bonus magic damage to monsters and 50% reduced damage to structures.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -500,7 +500,7 @@
                 ]
               },
               {
-                "attribute": "Monster Bonus Damage",
+                "attribute": "Bonus Monster Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -516,6 +516,80 @@
                       "",
                       "",
                       ""
+                    ]
+                  }
+                ]
+              },
+              {
+                "attribute": "Total Monster Damage",
+                "modifiers": [
+                  {
+                    "values": [
+                      20,
+                      35,
+                      50,
+                      65,
+                      80
+                    ],
+                    "units": [
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "values": [
+                      12,
+                      12,
+                      12,
+                      12,
+                      12
+                    ],
+                    "units": [
+                      "% AP",
+                      "% AP",
+                      "% AP",
+                      "% AP",
+                      "% AP"
+                    ]
+                  }
+                ]
+              },
+              {
+                "attribute": "Increased Monster Damage",
+                "modifiers": [
+                  {
+                    "values": [
+                      35,
+                      60,
+                      85,
+                      110,
+                      135
+                    ],
+                    "units": [
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "values": [
+                      18,
+                      18,
+                      18,
+                      18,
+                      18
+                    ],
+                    "units": [
+                      "% AP",
+                      "% AP",
+                      "% AP",
+                      "% AP",
+                      "% AP"
                     ]
                   }
                 ]
@@ -625,7 +699,7 @@
             ]
           },
           {
-            "description": "Active: Shaco throws a dagger at the target enemy that deal magic damage, increased by 50% if they are below 30% of their maximum health, and slows them for 3 seconds.",
+            "description": "Active: Shaco throws a dagger at the target enemy that deals magic damage, increased by 50% if they are below 30% of their maximum health, and slows them for 3 seconds.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -732,11 +806,32 @@
                     ]
                   }
                 ]
+              },
+              {
+                "attribute": "Slow",
+                "modifiers": [
+                  {
+                    "values": [
+                      20,
+                      22.5,
+                      25,
+                      27.5,
+                      30
+                    ],
+                    "units": [
+                      "%",
+                      "%",
+                      "%",
+                      "%",
+                      "%"
+                    ]
+                  }
+                ]
               }
             ]
           },
           {
-            "description": "Backstab Bonus: The dagger deals an additional 15 − 50 (based on level) (+ 10% AP) bonus magic damage, increased to 22.5 − 75 (based on level) (+ 15% AP) when the target is below 30% of their maximum health.",
+            "description": "Backstab Bonus: The dagger deals an additional 15 − 50 (based on level) (+ 10% AP) bonus magic damage, increased to 22.5 − 75 (based on level) (+ 15% AP) if the target is below 30% of their maximum health.",
             "leveling": []
           }
         ],
@@ -820,7 +915,7 @@
             "leveling": []
           },
           {
-            "description": "The clone will explode upon dying or expiring, which deals magic damage to nearby enemies and deploys three mini-boxes that activate instantly, fearing nearby enemies for 1 second.",
+            "description": "The clone will explode upon dying or expiring to deal magic damage to nearby enemies and deploy three mini-boxes that activate instantly, fearing nearby enemies for 1 second.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -857,7 +952,7 @@
             "description": "The boxes possess Jack in the Box's effects, except they have a doubled, but shared health, and deal modified magic damage with each attack, increased when attacking a single unit.",
             "leveling": [
               {
-                "attribute": "Mini-Box Magic Damage",
+                "attribute": "Modified Magic Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -886,7 +981,7 @@
                 ]
               },
               {
-                "attribute": "Mini-Box Increased Damage",
+                "attribute": "Increased Modified Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -989,6 +1084,7 @@
     "saleRp": 0
   },
   "lore": "Crafted long ago as a plaything for a lonely prince, the enchanted marionette Shaco now delights in murder and mayhem. Corrupted by dark magic and the loss of his beloved charge, the once-kind puppet finds pleasure only in the misery of the poor souls he torments. He uses toys and simple tricks to deadly effect, finding the results of his bloody “games” hilarious—and for those who hear a dark chuckle in the dead of night, the Demon Jester may have marked them as his next plaything.",
+  "faction": "unaffiliated",
   "skins": [
     {
       "name": "Original",
@@ -1132,9 +1228,7 @@
       "chromas": [],
       "lore": null,
       "release": "2011-03-29",
-      "set": [
-        "Workshop"
-      ],
+      "set": [],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/35/35004.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/35/35004.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/35/35004.jpg",
@@ -1805,7 +1899,7 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/35/35023.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/35/35023.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/35/35023.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin23/shacoloadscreen_23.pie_c_11_17.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin23/shacoloadscreen_23.jpg",
       "loadScreenVintagePath": null,
       "newEffects": true,
       "newAnimations": true,

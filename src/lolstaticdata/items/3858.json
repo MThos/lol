@@ -10,7 +10,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3858_tank_t1_relicshield.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3858_tank_t1_relicshield.png",
   "simpleDescription": "Gain gold and upgrade by executing minions alongside allies",
   "nicknames": [
     "Support",
@@ -22,8 +22,9 @@
       "unique": true,
       "mythic": false,
       "name": "Spoils of War",
-      "effects": "Grants a charge every 35 seconds, up to 3 charges. Basic attacks can consume a charge to execute minions. Basic attacks {{tip|execute}} minions {{as|'''below''' {{rd|50%|30%}} of their '''maximum''' health}}. Killing a minion by any means with a charge grants you and the nearest allied champion kill {{g|gold}}. These effects require an allied champion to be {{tt|nearby|1050 range}}. ''Receive diminishing gold from excessive minion kills.''",
+      "effects": "Grants a charge every 35 seconds, up to 3 charges. Basic attacks can consume a charge to {{tip|execute}} minions {{as|'''below''' {{rd|50%|30%}} of their '''maximum''' health}}. Killing a minion by any means with a charge grants you and the nearest allied champion kill {{g|gold}}. These effects require an allied champion to be {{tt|nearby|1050 range}}. ''Receive diminishing gold from excessive minion kills.''",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -194,8 +195,9 @@
       "unique": true,
       "mythic": false,
       "name": "Quest",
-      "effects": "Earn {{g|500}} using this item to upgrade to {{ii|Targon's Buckler}}, gaining the {{sbc|Warding}} active with 3 wards in stock.",
+      "effects": "Earn {{g|500}} using this item to upgrade to {{ii|Targon's Buckler}}, gaining the ''Warding'' active with 3 wards in stock.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,

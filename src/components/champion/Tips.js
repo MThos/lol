@@ -3,7 +3,7 @@ import Heading from './Heading';
 
 const Tips = (props) => {
   const type = (props.type === "friendly" ? "FRIENDLY" : "ENEMY");
-  const type_key = (type === "friendly" ? "allytips" : "enemytips");
+  const type_key = (props.type === "friendly" ? "allytips" : "enemytips");
   const data_dragon = props.data_dragon;
   const champion_name = props.champion_name;
 

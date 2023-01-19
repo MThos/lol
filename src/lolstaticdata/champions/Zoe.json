@@ -4,7 +4,7 @@
   "name": "Zoe",
   "title": "the Aspect of Twilight",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Zoe.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Zoe.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -136,7 +136,7 @@
       "percentPerLevel": 0.0
     },
     "aramDamageDealt": {
-      "flat": 1.05,
+      "flat": 1.1,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
@@ -486,7 +486,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Zoe/ability-icon/w",
         "effects": [
           {
-            "description": "Passive - Wheeeee: Whenever Zoe casts Spell Thief or a summoner spell, she gains bonus movement speed for the next few seconds, and summons three bolts that orbit her for the next 10 seconds.",
+            "description": "Passive - Wheeeee: Whenever Zoe casts Spell Thief or a summoner spell, she gains bonus movement speed for a duration, and summons three bolts that orbit her for the next 10 seconds.",
             "leveling": [
               {
                 "attribute": "Bonus Movement Speed",
@@ -612,7 +612,7 @@
             ]
           },
           {
-            "description": "Passive: Whenever an enemy champion casts a summoner spell or item active, they drop the corresponding Spell Shard onto the ground that grants sight over a 100-radius area and remains for 40 seconds. Some enemy minions spawn with random Spell Shards that drop for 20 seconds if Zoe kills them.",
+            "description": "Passive: Whenever an enemy champion casts a summoner spell or item active, they drop the corresponding Spell Shard onto the ground that grants sight over a 100-radius area and remains for 40 seconds. Enemy minions have a 10% chance to spawn with a random Spell Shard that drops and remains for 20 seconds if Zoe kills them. Allied champions that kill them will cause the orb to drop only if Zoe is nearby.",
             "leveling": []
           },
           {
@@ -686,7 +686,7 @@
         "width": null,
         "angle": null,
         "castTime": null,
-        "effectRadius": "2200 / Global /  525",
+        "effectRadius": "2200 / Global / 1500 /  525",
         "targetRange": null
       }
     ],
@@ -728,11 +728,11 @@
                 "modifiers": [
                   {
                     "values": [
-                      60,
-                      100,
-                      140,
-                      180,
-                      220
+                      70,
+                      110,
+                      150,
+                      190,
+                      230
                     ],
                     "units": [
                       "",
@@ -744,11 +744,11 @@
                   },
                   {
                     "values": [
-                      40,
-                      40,
-                      40,
-                      40,
-                      40
+                      45,
+                      45,
+                      45,
+                      45,
+                      45
                     ],
                     "units": [
                       "% AP",
@@ -770,11 +770,11 @@
                 "modifiers": [
                   {
                     "values": [
-                      120,
-                      200,
-                      280,
-                      360,
-                      440
+                      140,
+                      220,
+                      300,
+                      380,
+                      460
                     ],
                     "units": [
                       "",
@@ -786,11 +786,11 @@
                   },
                   {
                     "values": [
-                      80,
-                      80,
-                      80,
-                      80,
-                      80
+                      90,
+                      90,
+                      90,
+                      90,
+                      90
                     ],
                     "units": [
                       "% AP",
@@ -946,13 +946,14 @@
   },
   "releaseDate": "2017-11-21",
   "releasePatch": "7.23",
-  "patchLastChanged": "12.13",
+  "patchLastChanged": "12.16",
   "price": {
     "blueEssence": 6300,
     "rp": 975,
     "saleRp": 0
   },
   "lore": "As the embodiment of mischief, imagination, and change, Zoe acts as the cosmic messenger of Targon, heralding major events that reshape worlds. Her mere presence warps the arcane mathematics governing realities, sometimes causing cataclysms without conscious effort or malice. This perhaps explains the breezy nonchalance with which Zoe approaches her duties, giving her plenty of time to focus on playing games, tricking mortals, or otherwise amusing herself. An encounter with Zoe can be joyous and life affirming, but it is always more than it appears and often extremely dangerous.",
+  "faction": "mount-targon",
   "skins": [
     {
       "name": "Original",

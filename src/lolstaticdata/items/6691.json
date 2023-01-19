@@ -15,7 +15,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6691_assassin_t4_duskbladeofdraktharr.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6691_assassin_t4_duskbladeofdraktharr.png",
   "simpleDescription": null,
   "nicknames": [],
   "passives": [
@@ -25,6 +25,7 @@
       "name": "Nightstalker",
       "effects": "Your next basic attack against an enemy champion deals {{as|{{rd|75|55}} {{as|(+ {{rd|30%|25%}} '''bonus''' AD)}} '''bonus''' physical damage|physical damage}} [[on-hit]] and {{tip|slow|slows}} the target by 99% for {{fd|0.25}} seconds.",
       "range": null,
+      "cooldown": "15",
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -197,6 +198,7 @@
       "name": "Mythic",
       "effects": null,
       "range": 0,
+      "cooldown": 0,
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -337,10 +339,10 @@
         "movespeed": {
           "flat": 5.0,
           "percent": 0.0,
-          "perLevel": 0.0,
-          "percentPerLevel": 0.0,
-          "percentBase": 0.0,
-          "percentBonus": 0.0
+          "per_level": 0.0,
+          "percent_per_level": 0.0,
+          "percent_base": 0.0,
+          "percent_bonus": 0.0
         },
         "abilityHaste": {
           "flat": 5.0,

@@ -4,7 +4,7 @@
   "name": "Seraphine",
   "title": "the Starry-Eyed Songstress",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Seraphine.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Seraphine.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -130,7 +130,7 @@
       "percentPerLevel": 0.0
     },
     "aramDamageTaken": {
-      "flat": 1.15,
+      "flat": 1.2,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
@@ -203,15 +203,15 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Seraphine/ability-icon/p",
         "effects": [
           {
-            "description": "Innate - Echo: Seraphine basic abilities generate a stack of Echo, which stacks up to 2 times. At 2 stacks, Seraphine's next basic ability casts an additional time at no cost after a 0.033 seconds delay, consuming all Echo stacks after the cast time of the second cast.Seraphine gains maximum stacks of Echo when the game starts and upon respawning.",
+            "description": "Innate - Echo: Seraphine basic abilities generate a stack of Echo, stacking up to 2 times. At 2 stacks, Seraphine's next basic ability casts an additional time at no cost after a 0.033 seconds delay, consuming all Echo stacks after the cast time of the second cast.Seraphine gains maximum stacks of Echo when the game starts and upon respawning.",
             "leveling": []
           },
           {
-            "description": "Innate - Harmony: Seraphine's ability casts grant a Note to herself and nearby allied champions that lasts 6 seconds, which refreshes on subsequent Notes and stacks up to 4 times on each unit.",
+            "description": "Innate - Harmony: Seraphine's ability casts grant a Note to herself and nearby allied champions that lasts 6 seconds, refreshes on subsequent Notes and stacks up to 4 times on each unit.",
             "leveling": []
           },
           {
-            "description": "While any amount of Notes are active, Seraphine's basic attacks are empowered to have an uncancellable windup, gain 25 bonus attack range per Note, and fire all Notes at the target, with each one dealing 4 / 8 / 14 / 24 (based on level) (+ 7% AP) magic damage, reduced by 75% for Notes from allies and increased by 200% against minions.",
+            "description": "While any amount of Notes are active, Seraphine's next basic attack is empowered to have an uncancellable windup, gain 25 bonus attack range per Note, and fire all Notes at the target, with each one dealing 4 / 8 / 14 / 24 (based on level) (+ 7% AP) magic damage, reduced by 75% for Notes from allies and increased by 200% against minions.",
             "leveling": []
           }
         ],
@@ -288,7 +288,7 @@
                 ]
               },
               {
-                "attribute": "Maximum Damage",
+                "attribute": "Increased Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -403,7 +403,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Seraphine/ability-icon/w",
         "effects": [
           {
-            "description": "Active: Seraphine shields herself and nearby allied champions for 2.5 seconds. She also gains 20% (+ 4% per 100 AP) decaying bonus movement speed and grants allies 8% (+ 1.6% per 100 AP) bonus movement speed.",
+            "description": "Active: Seraphine grants a shield to herself and nearby allied champions for 2.5 seconds. For the same duration, she also gains 20% (+ 4% per 100 AP) decaying bonus movement speed and grants allies 8% (+ 1.6% per 100 AP) bonus movement speed.",
             "leveling": [
               {
                 "attribute": "Shield Strength",
@@ -459,11 +459,11 @@
                       7
                     ],
                     "units": [
-                      "%  of missing health",
-                      "%  of missing health",
-                      "%  of missing health",
-                      "%  of missing health",
-                      "%  of missing health"
+                      "%  of target's missing health",
+                      "%  of target's missing health",
+                      "%  of target's missing health",
+                      "%  of target's missing health",
+                      "%  of target's missing health"
                     ]
                   },
                   {
@@ -685,7 +685,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Seraphine/ability-icon/r",
         "effects": [
           {
-            "description": "Active: Seraphine projects a captivating force in the target direction that deals magic damage to enemies hit, revealing them while charming and slowing by 40% for a duration, increasing by 15% every 0.25 seconds over the duration up to 99%.",
+            "description": "Active: Seraphine projects a captivating force in the target direction that deals magic damage to enemies hit, charms them, during which they are revealed, and slows them by 40% for a duration, increasing by 15% every 0.25 seconds over the duration up to 99%.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -808,6 +808,7 @@
     "saleRp": 0
   },
   "lore": "Born in Piltover to Zaunite parents, Seraphine can hear the souls of others—the world sings to her, and she sings back. Though these sounds overwhelmed her in her youth, she now draws on them for inspiration, turning the chaos into a symphony. She performs for the sister cities to remind their citizens that they're not alone, that they're stronger together, and that, in her eyes, their potential is limitless.",
+  "faction": "piltover",
   "skins": [
     {
       "name": "Original",
@@ -856,7 +857,7 @@
       "lore": "With a stunning voice and a sunny disposition, Seraphine has big dreams about her music and what she can offer the world. She knows that someday, if she just keeps trying, she'll make her beloved cat Bao proud.",
       "release": "2020-10-29",
       "set": [
-        "K/DA ALL OUT"
+        "K/DA"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/147/147001.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/147/147001.jpg",
@@ -1093,7 +1094,7 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/147/147004.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/147/147004.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/147/147004.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/seraphine/skins/skin04/seraphineloadscreen_4.pie_c_11_17.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/seraphine/skins/skin04/seraphineloadscreen_4.jpg",
       "loadScreenVintagePath": null,
       "newEffects": true,
       "newAnimations": true,

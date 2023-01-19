@@ -4,7 +4,7 @@
   "name": "Wukong",
   "title": "the Monkey King",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/MonkeyKing.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/MonkeyKing.png",
   "resource": "MANA",
   "attackType": "MELEE",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -52,7 +52,7 @@
       "percentPerLevel": 0.0
     },
     "movespeed": {
-      "flat": 345,
+      "flat": 340,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
@@ -94,7 +94,7 @@
       "percentPerLevel": 0.0
     },
     "attackSpeed": {
-      "flat": 0.711,
+      "flat": 0.68,
       "percent": 0.0,
       "perLevel": 3,
       "percentPerLevel": 0.0
@@ -202,11 +202,11 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/MonkeyKing/ability-icon/p",
         "effects": [
           {
-            "description": "Innate: Whenever Wukong or his clone damage an enemy champion or monster, he generates a stack of Strength of Stone for 5 seconds, which refreshes on subsequent hits and stacks up to 10 times.",
+            "description": "Innate: Whenever Wukong or his clone damage an enemy champion or monster, he generates a stack of Strength of Stone for 5 seconds, refreshing on subsequent hits and stacking up to 10 times.",
             "leveling": []
           },
           {
-            "description": "Strength of Stone: Wukong gains 5 − 9 (based on level) bonus armor and health regeneration equal to 0.35% of his maximum health, increased by 50% for each stack up to a maximum of 30 − 54 (based on level) bonus armor and 2.1% maximum health regeneration.",
+            "description": "Strength of Stone: Wukong gains 5 − 9 (based on level) bonus armor and bonus health regeneration equal to 0.35% of his maximum health, increased by 50% for each stack up to a maximum of 30 − 54 (based on level) bonus armor and 2.1% maximum health regeneration.",
             "leveling": []
           }
         ],
@@ -418,7 +418,7 @@
             "description": "The clone deals reduced outgoing damage.",
             "leveling": [
               {
-                "attribute": "Clone Damage",
+                "attribute": "Clone Outgoing Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -701,7 +701,7 @@
             "description": "Active: Wukong spins his staff around for up to 2 seconds, becoming ghosted and gaining 20% bonus movement speed. The staff deals physical damage every 0.25 seconds to enemies hit, and can knock them up once for 0.6 seconds. Cyclone will not knock up enemies who were already hit by either Wukong or his clone within the same cast.",
             "leveling": [
               {
-                "attribute": "Damage Per Tick",
+                "attribute": "Physical Damage Per Tick",
                 "modifiers": [
                   {
                     "values": [
@@ -717,9 +717,9 @@
                   },
                   {
                     "values": [
-                      27.5,
-                      27.5,
-                      27.5
+                      34.375,
+                      34.375,
+                      34.375
                     ],
                     "units": [
                       "% AD",
@@ -730,13 +730,13 @@
                 ]
               },
               {
-                "attribute": "Total Damage",
+                "attribute": "Total Physical Damage",
                 "modifiers": [
                   {
                     "values": [
-                      16,
-                      24,
-                      32
+                      8,
+                      12,
+                      16
                     ],
                     "units": [
                       "% of target's maximum health",
@@ -746,9 +746,9 @@
                   },
                   {
                     "values": [
-                      440,
-                      440,
-                      440
+                      275,
+                      275,
+                      275
                     ],
                     "units": [
                       "% AD",
@@ -766,7 +766,37 @@
           },
           {
             "description": "Recast: Wukong ends Cyclone. After 1 second, he can cast Cyclone a second time within 8 seconds of the first cast.",
-            "leveling": []
+            "leveling": [
+              {
+                "attribute": "Maximum Total Physical Damage",
+                "modifiers": [
+                  {
+                    "values": [
+                      16,
+                      24,
+                      32
+                    ],
+                    "units": [
+                      "% of target's maximum health",
+                      "% of target's maximum health",
+                      "% of target's maximum health"
+                    ]
+                  },
+                  {
+                    "values": [
+                      550,
+                      550,
+                      550
+                    ],
+                    "units": [
+                      "% AD",
+                      "% AD",
+                      "% AD"
+                    ]
+                  }
+                ]
+              }
+            ]
           },
           {
             "description": "Nimbus Strike's bonus attack speed duration is continuously refreshed while spinning.",
@@ -838,13 +868,14 @@
   },
   "releaseDate": "2011-07-26",
   "releasePatch": "1.0.0.122",
-  "patchLastChanged": "12.14",
+  "patchLastChanged": "12.20",
   "price": {
     "blueEssence": 4800,
     "rp": 880,
     "saleRp": 0
   },
   "lore": "Wukong is a vastayan trickster who uses his strength, agility, and intelligence to confuse his opponents and gain the upper hand. After finding a lifelong friend in the warrior known as Master Yi, Wukong became the last student of the ancient martial art known as Wuju. Armed with an enchanted staff, Wukong seeks to prevent Ionia from falling to ruin.",
+  "faction": "ionia",
   "skins": [
     {
       "name": "Original",
@@ -875,8 +906,7 @@
         "Spike Spencer"
       ],
       "splashArtist": [
-        "Christian Fell",
-        "Joshua 'HUGEnFAST' Brian Smith"
+        "Christian Fell"
       ]
     },
     {

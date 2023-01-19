@@ -4,7 +4,7 @@
   "name": "Pantheon",
   "title": "the Unbreakable Spear",
   "fullName": "Atreus",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Pantheon.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Pantheon.png",
   "resource": "MANA",
   "attackType": "MELEE",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -202,7 +202,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Pantheon/ability-icon/p",
         "effects": [
           {
-            "description": "Innate: Pantheon generates a stack of Mortal Will whenever he lands a basic attack on-hit or casts an ability, stacking up to a maximum of 5. At 5 stacks, Pantheon's next basic ability consumes the stacks to become empowered with an additional effect.",
+            "description": "Innate: Pantheon generates a stack of Mortal Will whenever he lands a basic attack on-hit or casts an ability, stacking up to 5 times. At 5 stacks, Pantheon's next basic ability consumes the stacks to become empowered with an additional effect.",
             "leveling": []
           },
           {
@@ -484,7 +484,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Pantheon/ability-icon/w",
         "effects": [
           {
-            "description": "Active: Pantheon leaps to the front of the target enemy's location and, if the target is within 800 units upon arrival, he deals physical damage and stuns them for 1 second.",
+            "description": "Active: Pantheon leaps to the front of the target enemy's location. If the target is within 800 units upon arrival, he deals physical damage and stuns them for 1 second.",
             "leveling": [
               {
                 "attribute": "Physical Damage",
@@ -606,7 +606,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Pantheon/ability-icon/e",
         "effects": [
           {
-            "description": "Active: Pantheon braces his shield in the target direction and channels for 1.5 seconds, during which he becomes invulnerable against non- turret damage dealt by enemies from the target direction. He also continually performs strikes in a cone in front of him, dealing 8.3% AD physical damage every 0.125 seconds to enemies hit, reduced by 50% against minions and up to 100% AD total physical damage against each target.",
+            "description": "Active: Pantheon braces his shield in the target direction and channels for 1.5 seconds, during which he becomes invulnerable against non- turret damage dealt by enemies from the target direction. He also continually performs strikes in a cone in front of him, dealing 8.3% AD physical damage every 0.125 seconds to enemies hit, reduced by 50% against minions and up to 100% AD total physical damage.",
             "leveling": []
           },
           {
@@ -617,7 +617,7 @@
             "description": "Recast: Pantheon slams with his shield in a cone in front of him, dealing physical damage to enemies hit.",
             "leveling": [
               {
-                "attribute": "Slam Damage",
+                "attribute": "Physical Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -656,7 +656,7 @@
             ]
           },
           {
-            "description": "Mortal Will: Pantheon gains 60% bonus movement speed for 1.5 seconds after recasting.",
+            "description": "Mortal Will: After recasting, Pantheon gains 60% bonus movement speed for 1.5 seconds.",
             "leveling": []
           }
         ],
@@ -762,7 +762,7 @@
             "leveling": []
           },
           {
-            "description": "Over the remaining 1.2 seconds, Pantheon crashes down and creates a shockwave alongside himself that travels toward the target location, dealing magic damage to enemies hit, decreased by up to 50% for those hit at the edge of the area. Upon completion of the channel, Pantheon reappears at the target location and gains full stacks of Mortal Will.",
+            "description": "Over the remaining 1.2 seconds, Pantheon crashes down and creates a shockwave alongside himself that travels toward the target location, dealing magic damage to enemies hit, reduced by up to 50% for those hit at the edge of the area. Upon completion of the channel, Pantheon reappears at the target location and gains full stacks of Mortal Will.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -794,7 +794,7 @@
                 ]
               },
               {
-                "attribute": "Minimum Damage",
+                "attribute": "Reduced Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -897,6 +897,7 @@
     "saleRp": 0
   },
   "lore": "Once an unwilling host to the Aspect of War, Atreus survived when the celestial power within him was slain, refusing to succumb to a blow that tore stars from the heavens. In time, he learned to embrace the power of his own mortality, and the stubborn resilience that goes along with it. Atreus now opposes the divine as Pantheon reborn, his unbreakable will fueling the fallen Aspect's weapons on the field of battle.",
+  "faction": "mount-targon",
   "skins": [
     {
       "name": "Original",
@@ -1760,8 +1761,8 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/80/80025.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/80/80025.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/80/80025.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/pantheon/skins/skin25/pantheonloadscreen_25.pie_c_11_14.jpg",
-      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/pantheon/skins/skin25/pantheonloadscreen_25_le.pie_c_11_14.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/pantheon/skins/skin25/pantheonloadscreen_25.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/pantheon/skins/skin25/pantheonloadscreen_25_le.jpg",
       "newEffects": true,
       "newAnimations": true,
       "newRecall": true,
@@ -1795,8 +1796,8 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/80/80026.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/80/80026.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/80/80026.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/pantheon/skins/skin26/pantheonloadscreen_26.pie_c_11_14.jpg",
-      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/pantheon/skins/skin26/pantheonloadscreen_26_le.pie_c_11_14.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/pantheon/skins/skin26/pantheonloadscreen_26.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/pantheon/skins/skin26/pantheonloadscreen_26_le.jpg",
       "newEffects": true,
       "newAnimations": true,
       "newRecall": true,
@@ -1811,15 +1812,15 @@
       ]
     },
     {
-      "name": "Ashen Knight",
+      "name": "Ashen Conqueror",
       "id": 80036,
       "isBase": false,
       "availability": "Rare",
-      "formatName": "Ashen Knight",
-      "lootEligible": false,
+      "formatName": "Ashen Conqueror",
+      "lootEligible": true,
       "cost": "special",
       "sale": 0,
-      "distribution": "100 Mythic Essence",
+      "distribution": "125 Mythic Essence",
       "rarity": "Mythic",
       "chromas": [
         {

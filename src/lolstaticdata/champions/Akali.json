@@ -4,7 +4,7 @@
   "name": "Akali",
   "title": "the Rogue Assassin",
   "fullName": "Akali Jhomen Tethi",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Akali.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/13.1.1/img/champion/Akali.png",
   "resource": "ENERGY",
   "attackType": "MELEE",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -130,7 +130,7 @@
       "percentPerLevel": 0.0
     },
     "aramDamageTaken": {
-      "flat": 0.9,
+      "flat": 0.85,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
@@ -200,11 +200,11 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Akali/ability-icon/p",
         "effects": [
           {
-            "description": "Innate: When Akali damages an enemy champion with an ability, she creates a ring around them for 4 seconds, refreshing on subsequent damaging abilities against champions. While moving away from the ring, she gains 30 / 40 / 50 / 60% (based on level) bonus movement speed for 2 seconds. Only one ring may be active at a time.",
+            "description": "Innate: When Akali damages an enemy champion with an ability, she creates a ring around them for 4 seconds, refreshing on subsequent damaging abilities against champions. For 2 seconds, she gains 30 / 40 / 50 / 60% (based on level) bonus movement speed while moving away from the center of the ring. Only one ring may be active at a time.",
             "leveling": []
           },
           {
-            "description": "Once Akali exits the ring she regains the bonus movement speed while facing enemy champions for 2 seconds and becomes empowered with Swinging Kama for 4 seconds, during which she cannot create another ring.",
+            "description": "When Akali exits the ring, for 2 seconds, she regains the bonus movement speed while facing nearby enemy champions and becomes empowered with Swinging Kama for 4 seconds, during which she cannot create another ring.",
             "leveling": []
           },
           {
@@ -223,7 +223,7 @@
         "projectile": null,
         "onHitEffects": null,
         "occurrence": null,
-        "notes": "Enemies cannot see the ring, but can see the empower effect.\nSwinging Kama gives a static bonus range which doesn't change if Akali's range changes during it (i.e  Rapid Firecannon):\nIf Rapid Firecannon fully charges within Swinging Kama's duration, Akali's total range increases to 337.5.\nIf Rapid Firecannon fully charges before gaining Swinging Kama, Akali's total range is increased to 395.\nThe ring will be created around the last target hit by  Five Point Strike.\nThe ring's center is offset 120 units away from the enemy's center, towards akali.\nThe empowered attack can be  dodged and  blocked, and will be mitigated by  blinds.\nThe empowered attack will trigger but not be consumed nor apply its effects against structures and wards.",
+        "notes": "Enemies cannot see the ring, but can see the empower effect.\nSwinging Kama gives a static bonus range which doesn't change if Akali's range changes during it (i.e  Rapid Firecannon):\nIf Rapid Firecannon fully charges within Swinging Kama's duration, Akali's total range increases to 337.5.\nIf Rapid Firecannon fully charges before gaining Swinging Kama, Akali's total range is increased to 395.\nThe ring will be created around the last target hit by  Five Point Strike.\nThe ring's center is offset 120 units away from the enemy's center, towards Akali.\nThe empowered attack can be  dodged and  blocked, and will be mitigated by  blinds.\nThe empowered attack will trigger but not be consumed nor apply its effects against structures and wards.",
         "blurb": "Innate:  Akali's damage with abilities against a champion create a ring around them for a few seconds, and she gains  move speed while moving away from the ring.",
         "missileSpeed": null,
         "rechargeRate": null,
@@ -902,6 +902,7 @@
     "saleRp": 0
   },
   "lore": "Abandoning the Kinkou Order and her title of the Fist of Shadow, Akali now strikes alone, ready to be the deadly weapon her people need. Though she holds onto all she learned from her master Shen, she has pledged to defend Ionia from its enemies, one kill at a time. Akali may strike in silence, but her message will be heard loud and clear: fear the assassin with no master.",
+  "faction": "ionia",
   "skins": [
     {
       "name": "Original",
@@ -982,8 +983,7 @@
       "lore": "A djinn summoned from the world below, the Infernal known as Akali will burn her patron's enemies to cinders… though the cost for such service is always dire.",
       "release": "2010-05-11",
       "set": [
-        "Infernal",
-        "Arabian"
+        "Infernal"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/84/84002.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/84/84002.jpg",
@@ -1288,7 +1288,9 @@
       "chromas": [],
       "lore": "Former second-in-command of an honorable clan of assassins, Akali has broken from their ranks to find her own path. She plies her trade in the darkest corners of the world's largest metropolis, awaiting the day when she can establish a clan of her own.",
       "release": "2011-11-29",
-      "set": [],
+      "set": [
+        "Legacy"
+      ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/84/84006.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/84/84006.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/84/84006.jpg",
@@ -2098,7 +2100,7 @@
       "lore": "Fresh off her success with True Damage, Akali hits the stage full-throttle with her bold edge and fresh new direction. She spits fire with a mic in hand and pushes the band to the bleeding edge, because that's what the baddest do.",
       "release": "2020-10-29",
       "set": [
-        "K/DA ALL OUT"
+        "K/DA"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/84/84032.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/84/84032.jpg",
@@ -2327,7 +2329,7 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/84/84050.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/84/84050.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/84/84050.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin50/akaliloadscreen_50.pie_c_11_17.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin50/akaliloadscreen_50.jpg",
       "loadScreenVintagePath": null,
       "newEffects": true,
       "newAnimations": true,
@@ -2339,6 +2341,40 @@
       ],
       "splashArtist": [
         "West Studio"
+      ]
+    },
+    {
+      "name": "Prestige KDA (2022)",
+      "id": 84060,
+      "isBase": false,
+      "availability": "Limited",
+      "formatName": "Prestige K/DA Akali (2022)",
+      "lootEligible": false,
+      "cost": "special",
+      "sale": 0,
+      "distribution": "Given to players who owned the original skin prior to patch 12.5",
+      "rarity": "Mythic",
+      "chromas": [],
+      "lore": "K/DA Akali is on fire right now, spitting rap solos at the Pop Music Awards—and her prestigious costume is exactly what you'd expect from the new golden child of pop.",
+      "release": "2022-04-01",
+      "set": [
+        "K/DA"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/84/84060.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/84/84060.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/84/84060.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin60/akaliloadscreen_60.jpg",
+      "loadScreenVintagePath": null,
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Krizia Bajos"
+      ],
+      "splashArtist": [
+        "Pan Chengwei"
       ]
     },
     {

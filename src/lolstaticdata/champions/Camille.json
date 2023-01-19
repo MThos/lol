@@ -4,7 +4,7 @@
   "name": "Camille",
   "title": "the Steel Shadow",
   "fullName": "Camille Ferros",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Camille.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.23.1/img/champion/Camille.png",
   "resource": "MANA",
   "attackType": "MELEE",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -40,7 +40,7 @@
       "percentPerLevel": 0.0
     },
     "magicResistance": {
-      "flat": 32.1,
+      "flat": 32,
       "percent": 0.0,
       "perLevel": 2.05,
       "percentPerLevel": 0.0
@@ -202,7 +202,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Camille/ability-icon/p",
         "effects": [
           {
-            "description": "Innate: Periodically, Camille's next basic attack against an enemy champion is enhanced to grant her a shield equal to 17% of her maximum health for 2 seconds from either exclusively physical damage or magic damage, based on which type the target has previously dealt most of against champions as well as on Camille's current armor and magic resistance.",
+            "description": "Innate: Periodically, Camille's next basic attack against an enemy champion is enhanced to grant her a shield equal to 20% of her maximum health for 2 seconds from either exclusively physical damage or magic damage, based on which type the target has previously dealt most of against champions as well as on Camille's current armor and magic resistance.",
             "leveling": []
           }
         ],
@@ -386,7 +386,7 @@
         "projectile": null,
         "onHitEffects": null,
         "occurrence": "On-hit",
-        "notes": "Both casts count as ability activations for the purposes of on-cast effects such as  Spellblade and stacking  Force Pulse.\nBoth enhanced attacks cannot  critically strike.\nThe empowered recast's  true damage:\nHas a special case to factor  Spellblade into the true damage conversion of part of her attack's damage.\nOther on-hit effects do not interact with the true damage conversion.\nIs not amplified by modifiers that do not increase true damage such as  Coup de Grace.\nIs dealt just prior to the physical damage portion of the attack.\nPrecision Protocol applies to structures but the recast does not convert to true damage.\nThe enhanced attack will still complete and hit the target even if they become  untargetable during the attack's windup.",
+        "notes": "Both casts count as ability activations for the purposes of on-cast effects such as  Spellblade and stacking  Force Pulse.\nBoth enhanced attacks cannot  critically strike.\nThe 1.5-second delay is \"fuzzy\", meaning it may take up to another 0.25 seconds to ready the window for the empowered attack.\nThis syncs up perfectly with  Sheen's cooldown between casts at 0 Item Haste, which is also \"fuzzy\".\nThe second attack will also become empowered if it simply starts after the 1.5-second delay, even if the recast was consumed earlier.\nBecause Precision Protocol resets Camille's attack timer, it is possible to do an extra basic attack between the two special attacks.\nThe empowered recast's  true damage:\nHas a special case to factor  Spellblade into the true damage conversion of part of her attack's damage.\nOther on-hit effects do not interact with the true damage conversion.\nIs not amplified by modifiers that do not increase true damage such as  Coup de Grace.\nIs dealt just prior to the physical damage portion of the attack.\nPrecision Protocol applies to structures but the recast does not convert to true damage.\nThe enhanced attack will still complete and hit the target even if they become  untargetable during the attack's windup.",
         "blurb": "Active:  Camille's next basic attack deals bonus physical damage and grants her  bonus movement speed.",
         "missileSpeed": null,
         "rechargeRate": null,
@@ -657,6 +657,10 @@
           {
             "description": "Other abilities can be cast during the ability. Casting The Hextech Ultimatum will cause the grapple to disappear if it is in flight.",
             "leveling": []
+          },
+          {
+            "description": "Camille is able to cast Hookshot during her basic attack animation.",
+            "leveling": []
           }
         ],
         "cost": {
@@ -736,10 +740,10 @@
                 "modifiers": [
                   {
                     "values": [
-                      60,
-                      95,
-                      130,
-                      165,
+                      80,
+                      110,
+                      140,
+                      170,
                       200
                     ],
                     "units": [
@@ -752,11 +756,11 @@
                   },
                   {
                     "values": [
-                      75,
-                      75,
-                      75,
-                      75,
-                      75
+                      90,
+                      90,
+                      90,
+                      90,
+                      90
                     ],
                     "units": [
                       "% bonus AD",
@@ -959,13 +963,14 @@
   },
   "releaseDate": "2016-12-07",
   "releasePatch": "6.24",
-  "patchLastChanged": "12.10",
+  "patchLastChanged": "12.23",
   "price": {
     "blueEssence": 6300,
     "rp": 975,
     "saleRp": 0
   },
   "lore": "Weaponized to operate outside the boundaries of the law, Camille is the Principal Intelligencer of Clan Ferros—an elegant and elite agent who ensures the Piltover machine and its Zaunite underbelly runs smoothly. Adaptable and precise, she views sloppy technique as an embarrassment that must be put to order. With a mind as sharp as the blades she bears, Camille's pursuit of superiority through hextech body augmentation has left many to wonder if she is now more machine than woman.",
+  "faction": "piltover",
   "skins": [
     {
       "name": "Original",
@@ -1477,7 +1482,7 @@
       "name": "Strike Commander",
       "id": 164021,
       "isBase": false,
-      "availability": "Upcoming",
+      "availability": "Available",
       "formatName": "Strike Commander",
       "lootEligible": true,
       "cost": 1350,
@@ -1676,7 +1681,7 @@
         }
       ],
       "lore": "There are few truly “veteran” soldiers in the galaxy, and those who make it far enough to earn the title have done so for a reason. As commander of RSM's newly minted Strike Team Hyperion, Camille is ruthless, calculating, and fierce, bringing to bear the full power of the Y03-Principality on any target unlucky enough to end up in her sights.",
-      "release": "0000-00-00",
+      "release": "2022-08-25",
       "set": [
         "Steel Valkyries"
       ],

@@ -4,7 +4,7 @@
   "name": "Pyke",
   "title": "the Bloodharbor Ripper",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Pyke.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Pyke.png",
   "resource": "MANA",
   "attackType": "MELEE",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -130,13 +130,13 @@
       "percentPerLevel": 0.0
     },
     "aramDamageTaken": {
-      "flat": 0.9,
+      "flat": 0.85,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
     },
     "aramDamageDealt": {
-      "flat": 1.05,
+      "flat": 1.1,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
@@ -202,7 +202,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Pyke/ability-icon/p",
         "effects": [
           {
-            "description": "Innate: Pyke's maximum health cannot increase except through growth (per level), instead he gains[ 1 bonus attack damage per 14 bonus health. ][ (7.143% bonus health) bonus attack damage. ]",
+            "description": "Innate: Pyke's maximum health cannot increase except through growth (per level), instead he gains[ 1 bonus attack damage per 14 bonus health. ][ bonus attack damage equal to 7.143% of bonus health. ]",
             "leveling": []
           },
           {
@@ -214,7 +214,7 @@
             "leveling": []
           },
           {
-            "description": "When Pyke is not visible to enemies, he rapidly consumes his grey health to heal for the same amount.",
+            "description": "While Pyke is not visible to enemies, he rapidly consumes his grey health to heal for the same amount.",
             "leveling": []
           }
         ],
@@ -229,7 +229,7 @@
         "projectile": null,
         "onHitEffects": null,
         "occurrence": null,
-        "notes": "Game elements that increase health based on the champion's health (e.g  Overgrowth) will increase the health before getting converted by Gift of the Drowned Ones, thus granting increased bonus AD.\n Spirit Visage and  Grievous Wounds take effect after Gift of the Drowned Ones's healing cap.\nPyke's grey health does not have a time limit, and will stay on his health bar until Pyke leaves enemy vision or dies.\nSince Pyke's maximum health cannot be increased, Gift of the Drowned Ones reaches the upper cap of 60% of maximum health at 40.25 − 172.85 (based on level) bonus attack damage.\n Untargetable champions count towards Pyke's modified grey health storing.\nThe maximum amount of additional Grey Health storing gained possible from all lethality sources is 48.8% at 122 lethality. This is reduced to 24.4% while there are fewer than two enemy champions nearby.\nRelevant mathematics:\n Prowler's Claw: + 7.2% health storing, reduced to 3.6% for fewer than two enemy champions nearby\n Sandshrike's Claw: + 10.4% health storing, reduced to 5.2% for fewer than two enemy champions nearby\nMaximum Mythic Passive Bonuses: + 10% health storing, reduced to 5% for fewer than two enemy champions nearby\n Duskblade of Draktharr: + 7.2% health storing, reduced to 3.6% for fewer than two enemy champions nearby\n Draktharr's Shadowcarver: + 10.4% health storing, reduced to 5.2% for fewer than two enemy champions nearby\n Eclipse: + 7.2% health storing, reduced to 3.6% for fewer than two enemy champions nearby\n Syzygy: + 10.4% health storing, reduced to 5.2% for fewer than two enemy champions nearby\n Youmuu's Ghostblade: + 7.2% health storing, reduced to 3.6% for fewer than two enemy champions nearby\n Serpent's Fang: + 4.8% health storing, reduced to 2.4% for fewer than two enemy champions nearby\n The Collector: + 4.8% health storing, reduced to 2.4% for fewer than two enemy champions nearby\n Axiom Arc: + 7.2% health storing, reduced to 2% for fewer than two enemy champions nearby\n Edge of Night: + 4% health storing, reduced to 2% for fewer than two enemy champions nearby\n Umbral Glaive: + 4% health storing, reduced to 2% for fewer than two enemy champions nearby\n Serrated Dirk: + 4% health storing, reduced to 2% for fewer than two enemy champions nearby\n Sudden Impact: + 3.6% health storing, reduced to 1.8% for fewer than two enemy champions nearby\nTotal Increased Percent:  10.4% + 10% +  7.2% +  4.8% +  4.8% + ( /  /  4%) + ( /  /  4%) +  3.6% = 48% health storing\nTotal Health Storing: 48.8% + 40% = 88.8%\nAmount of attack damage granted from list of items that grants health, converted with Gift of the Drowned Ones:\nThis table is automatically generated based on the data from Module:ItemData/data.\n\nItemCostAmountAvailabilityAbyssal Mask Abyssal Mask2700 32.1All mapsAnathema's Chains Anathema's Chains2500 46.4All mapsArchangel's Staff Archangel's Staff2600 14.3All mapsBami's Cinder Bami's Cinder1000 21.4All mapsBlack Cleaver Black Cleaver3100 70All mapsBlack Mist Scythe Black Mist Scythe400 25.4Summoner's Rift, Nexus BlitzBulwark of the Mountain Bulwark of the Mountain400 17.9Summoner's Rift, Nexus BlitzCaesura Caesura2800 25All mapsCeaseless Hunger Ceaseless Hunger3300 102.1All mapsChempunk Chainsword Chempunk Chainsword2800 72.9All mapsCosmic Drive Cosmic Drive3000 14.3All mapsCrown of the Shattered Queen Crown of the Shattered Queen2800 17.9All mapsCrystalline Bracer Crystalline Bracer800 14.3All mapsDark Seal Dark Seal350 2.9Summoner's Rift, Nexus BlitzDead Man's Plate Dead Man's Plate2900 21.4All mapsDeicide Deicide3300 92.1All mapsDemonic Embrace Demonic Embrace3000 32.1All mapsDivine Sunderer Divine Sunderer3300 61.4All mapsDoran's Blade Doran's Blade450 13.7Summoner's Rift, Nexus BlitzDoran's Ring Doran's Ring400 5Summoner's Rift, Nexus BlitzDoran's Shield Doran's Shield450 5.7Summoner's Rift, Nexus BlitzDreamshatter Dreamshatter3300 88.6All mapsEdge of Night Edge of Night2900 73.2All mapsEquinox Equinox2500 28.6All mapsEternal Winter Eternal Winter2800 25All mapsEvenshroud Evenshroud2500 14.3All mapsEverfrost Everfrost2800 17.9All mapsFimbulwinter Fimbulwinter2700 25All mapsForce of Nature Force of Nature2900 25All mapsForgefire Crest Forgefire Crest3200 42.9All mapsFrostfang Frostfang400 5Summoner's Rift, Nexus BlitzFrostfire Gauntlet Frostfire Gauntlet2800 32.1All mapsGiant's Belt Giant's Belt900 25All mapsGoredrinker Goredrinker3300 76.4All mapsGuardian's Blade Guardian's Blade950 40.7Howling AbyssGuardian's Hammer Guardian's Hammer950 35.7Howling AbyssGuardian's Horn Guardian's Horn950 10.7Howling AbyssGuardian's Orb Guardian's Orb950 10.7Howling AbyssHarrowing Crescent Harrowing Crescent400 14.3Summoner's Rift, Nexus BlitzHextech Alternator Hextech Alternator1050 10.7All mapsHextech Rocketbelt Hextech Rocketbelt3200 17.9All mapsHorizon Focus Horizon Focus3000 10.7All mapsHullbreaker Hullbreaker2800 78.6All mapsIcathia's Curse Icathia's Curse3200 32.1All mapsImperial Mandate Imperial Mandate2500 14.3All mapsInfinity Force Infinity Force3333 73.6All mapsKindlegem Kindlegem800 14.3All mapsKnight's Vow Knight's Vow2300 28.6All mapsLeeching Leer Leeching Leer1300 17.9All mapsLocket of the Iron Solari Locket of the Iron Solari2500 14.3All mapsMejai's Soulstealer Mejai's Soulstealer1600 7.1Summoner's Rift, Nexus BlitzMoonstone Renewer Moonstone Renewer2500 14.3All mapsMorellonomicon Morellonomicon2500 21.4All mapsNight Harvester Night Harvester3200 21.4All mapsPauldrons of Whiterock Pauldrons of Whiterock400 32.9Summoner's Rift, Nexus BlitzPhage Phage1100 29.3All mapsRanduin's Omen Randuin's Omen2700 17.9All mapsRedemption Redemption2300 14.3All mapsRelic Shield Relic Shield400 2.1Summoner's Rift, Nexus BlitzReliquary of the Golden Dawn Reliquary of the Golden Dawn2500 28.6All mapsRiftmaker Riftmaker3200 21.4All mapsRimeforged Grasp Rimeforged Grasp2800 42.9All mapsRuby Crystal Ruby Crystal400 10.7All mapsRunesteel Spaulders Runesteel Spaulders400 13.1Summoner's Rift, Nexus BlitzRylai's Crystal Scepter Rylai's Crystal Scepter2600 28.6All mapsSeat of Command Seat of Command2500 21.4All mapsSeraph's Embrace Seraph's Embrace2600 17.9All mapsShadowflame Shadowflame3000 14.3All mapsShard of True Ice Shard of True Ice400 5.4Summoner's Rift, Nexus BlitzShurelya's Battlesong Shurelya's Battlesong2500 14.3All mapsShurelya's Requiem Shurelya's Requiem2500 21.4All mapsSilvermere Dawn Silvermere Dawn3000 61.4All mapsSpectral Sickle Spectral Sickle400 5.7Summoner's Rift, Nexus BlitzSpectre's Cowl Spectre's Cowl1250 17.9All mapsSpellthief's Edge Spellthief's Edge400 0.7Summoner's Rift, Nexus BlitzSpirit Visage Spirit Visage2900 32.1All mapsStarcaster Starcaster2500 21.4All mapsSteel Shoulderguards Steel Shoulderguards400 5.1Summoner's Rift, Nexus BlitzSterak's Gage Sterak's Gage3100 28.6All mapsStridebreaker Stridebreaker3300 71.4All mapsSunfire Aegis Sunfire Aegis3200 32.1All mapsTargon's Buckler Targon's Buckler400 7.1Summoner's Rift, Nexus BlitzThornmail Thornmail2700 25All mapsTitanic Hydra Titanic Hydra3300 65.7All mapsTrinity Force Trinity Force3333 56.4All mapsTurbo Chemtank Turbo Chemtank2800 32.1All mapsTurbocharged Hexperiment Turbocharged Hexperiment2800 42.9All mapsUpgraded Aeropack Upgraded Aeropack3200 25All mapsVespertide Vespertide3200 28.6All mapsVigilant Wardstone Vigilant Wardstone1100 10.7Summoner's Rift, Nexus BlitzWarmog's Armor Warmog's Armor3000 57.1All mapsWatchful Wardstone Watchful Wardstone1100 10.7Summoner's Rift, Nexus BlitzWinged Moonplate Winged Moonplate800 10.7All mapsWinter's Approach Winter's Approach2700 25All mapsZeke's Convergence Zeke's Convergence2400 17.9All maps",
+        "notes": "Game elements that increase health based on the champion's health (e.g  Overgrowth) will increase the health before getting converted by Gift of the Drowned Ones, thus granting increased bonus AD.\n Spirit Visage and  Grievous Wounds take effect after Gift of the Drowned Ones's healing cap.\nPyke's grey health does not have a time limit, and will stay on his health bar until Pyke leaves enemy vision or dies.\nSince Pyke's maximum health cannot be increased, Gift of the Drowned Ones reaches the upper cap of 60% of maximum health at 40.25 − 172.85 (based on level) bonus attack damage.\n Untargetable champions count towards Pyke's modified grey health storing.\nThe maximum amount of additional Grey Health storing gained possible from all lethality sources is 48.8% at 122 lethality. This is reduced to 24.4% while there are fewer than two enemy champions nearby.\nRelevant mathematics:\n Prowler's Claw: + 7.2% health storing, reduced to 3.6% for fewer than two enemy champions nearby\n Sandshrike's Claw: + 10.4% health storing, reduced to 5.2% for fewer than two enemy champions nearby\nMaximum Mythic Passive Bonuses: + 10% health storing, reduced to 5% for fewer than two enemy champions nearby\n Duskblade of Draktharr: + 7.2% health storing, reduced to 3.6% for fewer than two enemy champions nearby\n Draktharr's Shadowcarver: + 10.4% health storing, reduced to 5.2% for fewer than two enemy champions nearby\n Youmuu's Ghostblade: + 7.2% health storing, reduced to 3.6% for fewer than two enemy champions nearby\n Eclipse: + 4.8% health storing, reduced to 2.4% for fewer than two enemy champions nearby\n Syzygy: + 8% health storing, reduced to 4% for fewer than two enemy champions nearby\n Serpent's Fang: + 4.8% health storing, reduced to 2.4% for fewer than two enemy champions nearby\n The Collector: + 4.8% health storing, reduced to 2.4% for fewer than two enemy champions nearby\n Axiom Arc: + 7.2% health storing, reduced to 2% for fewer than two enemy champions nearby\n Edge of Night: + 4% health storing, reduced to 2% for fewer than two enemy champions nearby\n Umbral Glaive: + 4% health storing, reduced to 2% for fewer than two enemy champions nearby\n Serrated Dirk: + 4% health storing, reduced to 2% for fewer than two enemy champions nearby\n Sudden Impact: + 3.6% health storing, reduced to 1.8% for fewer than two enemy champions nearby\nTotal Increased Percent:  10.4% + 10% +  7.2% +  4.8% +  4.8% + ( /  /  4%) + ( /  /  4%) +  3.6% = 48% health storing\nTotal Health Storing: 48.8% + 40% = 88.8%\nAmount of attack damage granted from list of items that grants health, converted with Gift of the Drowned Ones:\nThis table is automatically generated based on the data from Module:ItemData/data.\n\nItemCostAmountAvailabilityAbyssal Mask Abyssal Mask2700 32.1All mapsAnathema's Chains Anathema's Chains2500 46.4All mapsArchangel's Staff Archangel's Staff2600 14.3All mapsBami's Cinder Bami's Cinder1000 21.4All mapsBlack Cleaver Black Cleaver3100 70All mapsBlack Mist Scythe Black Mist Scythe400 25.4Summoner's Rift, Nexus BlitzBulwark of the Mountain Bulwark of the Mountain400 17.9Summoner's Rift, Nexus BlitzCaesura Caesura2800 25All mapsCeaseless Hunger Ceaseless Hunger3300 102.1All mapsChempunk Chainsword Chempunk Chainsword2800 72.9All mapsCosmic Drive Cosmic Drive3000 14.3All mapsCrown of the Shattered Queen Crown of the Shattered Queen2800 17.9All mapsCrystalline Bracer Crystalline Bracer800 14.3All mapsDark Seal Dark Seal350 2.9Summoner's Rift, Nexus BlitzDead Man's Plate Dead Man's Plate2900 21.4All mapsDeicide Deicide3300 92.1All mapsDemonic Embrace Demonic Embrace3000 25All mapsDivine Sunderer Divine Sunderer3300 61.4All mapsDoran's Blade Doran's Blade450 13.7Summoner's Rift, Nexus BlitzDoran's Ring Doran's Ring400 5Summoner's Rift, Nexus BlitzDoran's Shield Doran's Shield450 5.7Summoner's Rift, Nexus BlitzDreamshatter Dreamshatter3300 88.6All mapsEdge of Night Edge of Night2900 73.2All mapsEquinox Equinox2500 28.6All mapsEternal Winter Eternal Winter2800 25All mapsEvenshroud Evenshroud2500 14.3All mapsEverfrost Everfrost2800 17.9All mapsFimbulwinter Fimbulwinter2700 25All mapsForce of Nature Force of Nature2900 25All mapsForgefire Crest Forgefire Crest3200 42.9All mapsFrostfang Frostfang400 5Summoner's Rift, Nexus BlitzFrostfire Gauntlet Frostfire Gauntlet2800 32.1All mapsGiant's Belt Giant's Belt900 25All mapsGoredrinker Goredrinker3300 76.4All mapsGuardian's Blade Guardian's Blade950 40.7Howling AbyssGuardian's Hammer Guardian's Hammer950 35.7Howling AbyssGuardian's Horn Guardian's Horn950 10.7Howling AbyssGuardian's Orb Guardian's Orb950 10.7Howling AbyssHarrowing Crescent Harrowing Crescent400 14.3Summoner's Rift, Nexus BlitzHextech Alternator Hextech Alternator1050 10.7All mapsHextech Rocketbelt Hextech Rocketbelt3200 17.9All mapsHorizon Focus Horizon Focus3000 10.7All mapsHullbreaker Hullbreaker2800 78.6All mapsIcathia's Curse Icathia's Curse3200 32.1All mapsImperial Mandate Imperial Mandate2500 14.3All mapsInfinity Force Infinity Force3333 73.6All mapsKindlegem Kindlegem800 14.3All mapsKnight's Vow Knight's Vow2300 28.6All mapsLeeching Leer Leeching Leer1300 17.9All mapsLocket of the Iron Solari Locket of the Iron Solari2500 14.3All mapsMejai's Soulstealer Mejai's Soulstealer1600 7.1Summoner's Rift, Nexus BlitzMoonstone Renewer Moonstone Renewer2500 14.3All mapsMorellonomicon Morellonomicon2500 21.4All mapsNight Harvester Night Harvester3200 21.4All mapsPauldrons of Whiterock Pauldrons of Whiterock400 32.9Summoner's Rift, Nexus BlitzPhage Phage1100 29.3All mapsRanduin's Omen Randuin's Omen2700 17.9All mapsRedemption Redemption2300 14.3All mapsRelic Shield Relic Shield400 2.1Summoner's Rift, Nexus BlitzReliquary of the Golden Dawn Reliquary of the Golden Dawn2500 28.6All mapsRiftmaker Riftmaker3200 21.4All mapsRimeforged Grasp Rimeforged Grasp2800 42.9All mapsRuby Crystal Ruby Crystal400 10.7All mapsRunesteel Spaulders Runesteel Spaulders400 13.1Summoner's Rift, Nexus BlitzRylai's Crystal Scepter Rylai's Crystal Scepter2600 28.6All mapsSeat of Command Seat of Command2500 21.4All mapsSeraph's Embrace Seraph's Embrace2600 17.9All mapsShadowflame Shadowflame3000 14.3All mapsShard of True Ice Shard of True Ice400 5.4Summoner's Rift, Nexus BlitzShurelya's Battlesong Shurelya's Battlesong2500 14.3All mapsShurelya's Requiem Shurelya's Requiem2500 21.4All mapsSilvermere Dawn Silvermere Dawn3000 61.4All mapsSpectral Sickle Spectral Sickle400 5.7Summoner's Rift, Nexus BlitzSpectre's Cowl Spectre's Cowl1250 17.9All mapsSpellthief's Edge Spellthief's Edge400 0.7Summoner's Rift, Nexus BlitzSpirit Visage Spirit Visage2900 32.1All mapsStarcaster Starcaster2500 21.4All mapsSteel Shoulderguards Steel Shoulderguards400 5.1Summoner's Rift, Nexus BlitzSterak's Gage Sterak's Gage3100 28.6All mapsStridebreaker Stridebreaker3300 71.4All mapsSunfire Aegis Sunfire Aegis3200 32.1All mapsTargon's Buckler Targon's Buckler400 7.1Summoner's Rift, Nexus BlitzThornmail Thornmail2700 25All mapsTitanic Hydra Titanic Hydra3300 65.7All mapsTrinity Force Trinity Force3333 56.4All mapsTurbo Chemtank Turbo Chemtank2800 32.1All mapsTurbocharged Hexperiment Turbocharged Hexperiment2800 42.9All mapsUpgraded Aeropack Upgraded Aeropack3200 25All mapsVespertide Vespertide3200 28.6All mapsVigilant Wardstone Vigilant Wardstone1100 10.7Summoner's Rift, Nexus BlitzWarmog's Armor Warmog's Armor3000 57.1All mapsWatchful Wardstone Watchful Wardstone1100 10.7Summoner's Rift, Nexus BlitzWinged Moonplate Winged Moonplate800 10.7All mapsWinter's Approach Winter's Approach2700 25All mapsZeke's Convergence Zeke's Convergence2400 17.9All maps",
         "blurb": "Innate:  Pyke  maximum health cannot increase except by  leveling up, instead he gains  attack damage equal to a portion of his  bonus health.",
         "missileSpeed": null,
         "rechargeRate": null,
@@ -255,7 +255,7 @@
             "leveling": []
           },
           {
-            "description": "Recast: Pyke hurls his harpoon in the target direction that deals physical damage to the first enemy hit, pulling them towards his direction, during which they are also revealed, and slowing them by 90% for 1 second.",
+            "description": "Recast: Pyke hurls his harpoon in the target direction that deals physical damage to the first enemy hit and pulls them, during which they are also revealed, then slows them by 90% for 1 second.",
             "leveling": [
               {
                 "attribute": "Physical Damage",
@@ -301,7 +301,7 @@
             "leveling": []
           },
           {
-            "description": "If the charge is interrupted or completes without reactivation, Bone Skewer is cancelled and the ability is put on full cooldown but refunds 75% of the mana cost. Bone Skewer's mana cost is refunded if it hits an enemy champion.",
+            "description": "If the charge is interrupted or completes without reactivation, Bone Skewer is cancelled and the ability is put on full cooldown but refunds 75% of the mana cost. Bone Skewer's mana cost is fully refunded if it hits an enemy champion.",
             "leveling": []
           }
         ],
@@ -355,7 +355,7 @@
         "projectile": "SPECIAL",
         "onHitEffects": null,
         "occurrence": null,
-        "notes": "Only the charged version of Bone Skewer will be  intercepted.\nThis ability will cast from wherever the caster is at the end of the cast time.\nPyke can still use summoner spells besides  Flash,  Teleport,  Hexflash, and  Mark /  Dash while hurling the harpoon but he cannot perform any other action.\nThe following table refers for interactions while Pyke is  channeling:\n\n\nType\n\nCharge channel\n\n\nAttacking\n\nDisabled\n\n\nAbilities\n\nInterrupts\n\n\nMovement\n\nAllowed\n\n\nItems\n\nUsable\n\nN/A\n\n\nDisabled\n\nAll items are disabled\n\n\nInterrupted by\n\nN/A\n\n\nConsumables\n\nDisabled, but can use trinkets\n\n\nSpells\n\nUsable\n\n Barrier  Clarity  Cleanse  Exhaust  Ghost  Heal  Ignite  Smite  Flash\n\n\nDisabled\n\n Teleport  Recall\n\n\nInterrupted by\n\n Hexflash (Recasts)\n\n\nInterrupted by\n\nDeath Cast-inhibiting effects",
+        "notes": "Only the charged version of Bone Skewer will be  intercepted.\nThe pull can fling an enemy behind Pyke if the harpoon hits at close range.\nThis ability will cast from wherever the caster is at the end of the cast time.\nPyke can still use summoner spells besides  Flash,  Teleport,  Hexflash, and  Mark /  Dash while hurling the harpoon but he cannot perform any other action.\nThe following table refers for interactions while Pyke is  channeling:\n\n\nType\n\nCharge channel\n\n\nAttacking\n\nDisabled\n\n\nAbilities\n\nInterrupts\n\n\nMovement\n\nAllowed\n\n\nItems\n\nUsable\n\nN/A\n\n\nDisabled\n\nAll items are disabled\n\n\nInterrupted by\n\nN/A\n\n\nConsumables\n\nDisabled, but can use trinkets\n\n\nSpells\n\nUsable\n\n Barrier  Clarity  Cleanse  Exhaust  Ghost  Heal  Ignite  Smite  Flash\n\n\nDisabled\n\n Teleport  Recall\n\n\nInterrupted by\n\n Hexflash (Recasts)\n\n\nInterrupted by\n\nDeath Cast-inhibiting effects",
         "blurb": "Active:  Pyke  charges up to a short time, increasing the  range of his harpoon. After a brief period, it becomes empowered with a new effect.",
         "missileSpeed": null,
         "rechargeRate": null,
@@ -377,11 +377,11 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Pyke/ability-icon/w",
         "effects": [
           {
-            "description": "Active: Pyke submerges into water, entering camouflage for 5 seconds and gaining 40% (+ 1.5% per 1 Lethality) bonus movement speed that decays over the duration. Enemy champions within 1500 units of Pyke are alerted of his presence and whether he can execute them with Death from Below.",
+            "description": "Active: Pyke submerges into water for 5 seconds, entering camouflage and gaining 40% (+ 1.5% per 1 Lethality) bonus movement speed that decays over the duration. Attacking or casting abilities ends Ghostwater Dive immediately.",
             "leveling": []
           },
           {
-            "description": "Attacking or casting abilities ends Ghostwater Dive immediately.",
+            "description": "Enemy champions within 1500 units of Pyke are alerted of his presence and whether he can execute them with Death from Below.",
             "leveling": []
           }
         ],
@@ -435,7 +435,7 @@
         "projectile": null,
         "onHitEffects": null,
         "occurrence": null,
-        "notes": "When an enemy is alerted, sharks will circle underneath their feet while a sound will be played to them that changes based on health threshold.\nThe maximum amount of  bonus movement speed gained possible from all lethality sources is 183% at 122 lethality.\nRelevant mathematics:\n Prowler's Claw: + 27% bonus MS\n Sandshrike's Claw: + 39% bonus MS\nMaximum Mythic Passive Bonuses: + 37.5% bonus MS\n Duskblade of Draktharr: + 27% bonus MS\n Draktharr's Shadowcarver: + 39% bonus MS\n Eclipse: + 27% bonus MS\n Syzygy: + 39% bonus MS\n Youmuu's Ghostblade: + 27% bonus MS\n Serpent's Fang: + 18% bonus MS\n The Collector: + 18% bonus MS\n Axiom Arc: + 15% bonus MS\n Edge of Night: + 15% bonus MS\n Umbral Glaive: + 15% bonus MS\n Serrated Dirk: + 15% bonus MS\n Sudden Impact: + 13.5% bonus MS\nTotal Increased Percent:  39% + 37.5% +  27% +  18% +  18% + ( /  /  15%) + ( /  /  15%) +  13.5% = 183% bonus MS\nTotal Bonus Movement Speed: 183% + 40% = 223%",
+        "notes": "When an enemy is alerted, sharks will circle underneath their feet while a sound will be played to them that changes based on health threshold.\nThe maximum amount of  bonus movement speed gained possible from all lethality sources is 183% at 122 lethality.\nRelevant mathematics:\n Prowler's Claw: + 27% bonus MS\n Sandshrike's Claw: + 39% bonus MS\nMaximum Mythic Passive Bonuses: + 37.5% bonus MS\n Duskblade of Draktharr: + 27% bonus MS\n Draktharr's Shadowcarver: + 39% bonus MS\n Youmuu's Ghostblade: + 27% bonus MS\n Eclipse: + 18% bonus MS\n Syzygy: + 30% bonus MS\n Serpent's Fang: + 18% bonus MS\n The Collector: + 18% bonus MS\n Axiom Arc: + 15% bonus MS\n Edge of Night: + 15% bonus MS\n Umbral Glaive: + 15% bonus MS\n Serrated Dirk: + 15% bonus MS\n Sudden Impact: + 13.5% bonus MS\nTotal Increased Percent:  39% + 37.5% +  27% +  18% +  18% + ( /  /  15%) + ( /  /  15%) +  13.5% = 183% bonus MS\nTotal Bonus Movement Speed: 183% + 40% = 223%",
         "blurb": "Active:  Pyke submerges into water, entering  camouflage and gaining a burst of  movement speed for a few seconds. Nearby enemies are alerted of his presence.",
         "missileSpeed": null,
         "rechargeRate": null,
@@ -457,11 +457,11 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Pyke/ability-icon/e",
         "effects": [
           {
-            "description": "Active: Pyke dashes a fixed distance in the target direction, leaving behind a Phantom.",
+            "description": "Active: Pyke dashes in the target direction, leaving behind a Phantom.",
             "leveling": []
           },
           {
-            "description": "After a 1-second delay, the Phantom homes back to Pyke to stun enemies around it and those it passes through along the way for 1.25 (+ 0.1 per 10 Lethality) seconds. Enemy champions hit also take physical damage.",
+            "description": "After 1 second, the Phantom homes back to Pyke to stun enemies around it and those it passes through along the way for 1.25 (+ 0.1 per 10 Lethality) seconds. Enemy champions hit also take physical damage.",
             "leveling": [
               {
                 "attribute": "Physical Damage",
@@ -553,7 +553,7 @@
         "projectile": "TRUE",
         "onHitEffects": null,
         "occurrence": null,
-        "notes": "The  dash distance can be extended to up to 900 units (estimated) when targeting across terrain.\nLike most projectiles, the flying Phantom cannot hit targets whose  center is behind the position it originates at or beyond the position it catches up to Pyke at, but the spell can hit targets behind its origin as long as their  hitbox radius overlaps with the original unit Phantom's 110-radius check at the end of its lifespan.\nThe maximum increase in  stun duration possible from all lethality sources is 1.22 seconds at 122 lethality, with the base duration included for a total of 2.47 seconds.\nRelevant mathematics:\n Prowler's Claw: + 0.18 seconds\n Sandshrike's Claw: + 0.26 seconds\nMaximum Mythic Passive Bonuses: + 0.25 seconds\n Duskblade of Draktharr: + 0.18 seconds\n Draktharr's Shadowcarver: + 0.26 seconds\n Eclipse: + 0.18 seconds\n Syzygy: + 0.26 seconds\n Youmuu's Ghostblade: + 0.18 seconds\n Serpent's Fang: + 0.12 seconds\n The Collector: + 0.12 seconds\n Axiom Arc: + 0.10 seconds\n Edge of Night: + 0.10 seconds\n Umbral Glaive: + 0.10 seconds\n Serrated Dirk: + 0.10 seconds\n Sudden Impact: + 0.09 seconds\nTotal Increased Duration:  0.26 + 0.25 +  0.18 +  0.12 +  0.12 + ( /  /  0.10) + ( /  /  0.10) +  0.09 = 1.22 seconds\nTotal Stun Duration: 1.25 + 1.22 = 2.47 seconds",
+        "notes": "The  dash distance can be extended to up to 900 units (estimated) when targeting across terrain.\nLike most projectiles, the flying Phantom cannot hit targets whose  center is behind the position it originates at or beyond the position it catches up to Pyke at, but the spell can hit targets behind its origin as long as their  hitbox radius overlaps with the original unit Phantom's 110-radius check at the end of its lifespan.\nThe maximum increase in  stun duration possible from all lethality sources is 1.22 seconds at 122 lethality, with the base duration included for a total of 2.47 seconds.\nRelevant mathematics:\n Prowler's Claw: + 0.18 seconds\n Sandshrike's Claw: + 0.26 seconds\nMaximum Mythic Passive Bonuses: + 0.25 seconds\n Duskblade of Draktharr: + 0.18 seconds\n Draktharr's Shadowcarver: + 0.26 seconds\n Youmuu's Ghostblade: + 0.18 seconds\n Eclipse: + 0.12 seconds\n Syzygy: + 0.20 seconds\n Serpent's Fang: + 0.12 seconds\n The Collector: + 0.12 seconds\n Axiom Arc: + 0.10 seconds\n Edge of Night: + 0.10 seconds\n Umbral Glaive: + 0.10 seconds\n Serrated Dirk: + 0.10 seconds\n Sudden Impact: + 0.09 seconds\nTotal Increased Duration:  0.26 + 0.25 +  0.18 +  0.12 +  0.12 + ( /  /  0.10) + ( /  /  0.10) +  0.09 = 1.22 seconds\nTotal Stun Duration: 1.25 + 1.22 = 2.47 seconds",
         "blurb": "Active:  Pyke dashes in the target direction, leaving behind a phantom.",
         "missileSpeed": null,
         "rechargeRate": null,
@@ -579,11 +579,11 @@
             "leveling": []
           },
           {
-            "description": "If Death from Below hits an enemy champion or at least one is killed inside the X by an ally, Pyke will blink to the center of the X. For the latter case Pyke also gains the ability to recast within 20 seconds at no cost.",
+            "description": "If Death from Below hits an enemy champion or at least one is killed inside the X by an ally, Pyke will blink to the center of the X. For the latter case Pyke can also recast the ability within 20 seconds at no cost.",
             "leveling": []
           },
           {
-            "description": "Each successful execution grants one 'Your Cut' to the last assisting ally, instead of its natural assist gold. In addition, each enemy champion killed inside the X by an ally during Death from Below's cast time grants Pyke one 'Your Cut'.",
+            "description": "Each successful execution grants one 'Your Cut' to the last assisting ally, instead of its natural assist gold. In addition, Pyke is granted a 'Your Cut' for each enemy champion killed inside the X by an ally during Death from Below's cast time.",
             "leveling": []
           }
         ],
@@ -629,7 +629,7 @@
         "projectile": null,
         "onHitEffects": null,
         "occurrence": null,
-        "notes": "Applies  raw damage to executed targets and  area damage to targets above the threshold.\n 'Your Cut' will be granted if enemy champions\nDeath from Below cannot execute  clones. They are always dealt 50% physical damage.\nOnly the target's current health will count as Pyke's damage in post-game statistics and  spell vamp healing if executed.\nIf the target's current health is less than 50% of the post-mitigation non-executing damage, Pyke will heal less from spell vamp.\nIf the target is in a  zombie state or does not enter the  death state, Death from Below does not grant  'Your Cut' nor the recast.\n Spell shield does not prevent Pyke from  blinking.\nIf an enemy champion dies inside the X during Death from Below's cast time, Pyke will be shown as having received an assist in the kill feed, but this will not trigger  takedown effects.\nDeath from Below cannot be  interrupted; Pyke will always appear at the target location if enemy champions are caught inside the X even if he is moved (e.g. by being  displaced) during the cast time.\nThe only exception is if he is being  suppressed, in which case he will not  blink.\nThe maximum execution threshold increase gained possible from all lethality sources is 183 health at 122 lethality.\nRelevant mathematics:\n Prowler's Claw: + 27 health\n Sandshrike's Claw: + 39 health\nMaximum Mythic Passive Bonuses: + 37.5 health\n Duskblade of Draktharr: + 27 health\n Draktharr's Shadowcarver: + 39 health\n Eclipse: + 27 health\n Syzygy: + 39 health\n Youmuu's Ghostblade: + 27 health\n Serpent's Fang: + 18 health\n The Collector: + 18 health\n Axiom Arc: + 15 health\n Edge of Night: + 15 health\n Umbral Glaive: + 15 health\n Serrated Dirk: + 15 health\n Sudden Impact: + 13.5 health\nTotal Increased Execution Threshold:  39 + 37.5 +  27 +  18 +  18 + ( /  /  15) + ( /  /  15) +  13.5 = 183 health\nTotal Execution Threshold: 183 + 250 − 550 (based on level) (+ 80% bonus AD) = 433 − 733 (based on level) (+ 80% bonus AD)",
+        "notes": "Applies  raw damage to executed targets and  area damage to targets above the threshold.\n 'Your Cut' will be granted if enemy champions\nDeath from Below cannot execute  clones. They are always dealt 50% physical damage.\nOnly the target's current health will count as Pyke's damage in post-game statistics and  spell vamp healing if executed.\nIf the target's current health is less than 50% of the post-mitigation non-executing damage, Pyke will heal less from spell vamp.\nIf the target is in a  zombie state or does not enter the  death state, Death from Below does not grant  'Your Cut' nor the recast.\n Spell shield does not prevent Pyke from  blinking.\nIf an enemy champion dies inside the X during Death from Below's cast time, Pyke will be shown as having received an assist in the kill feed, but this will not trigger  takedown effects.\nDeath from Below cannot be  interrupted; Pyke will always appear at the target location if enemy champions are caught inside the X even if he is moved (e.g. by being  displaced) during the cast time.\nThe only exception is if he is being  suppressed, in which case he will not  blink.\nThe maximum execution threshold increase gained possible from all lethality sources is 183 health at 122 lethality.\nRelevant mathematics:\n Prowler's Claw: + 27 health\n Sandshrike's Claw: + 39 health\nMaximum Mythic Passive Bonuses: + 37.5 health\n Duskblade of Draktharr: + 27 health\n Draktharr's Shadowcarver: + 39 health\n Youmuu's Ghostblade: + 27 health\n Eclipse: + 18 health\n Syzygy: + 30 health\n Serpent's Fang: + 18 health\n The Collector: + 18 health\n Axiom Arc: + 15 health\n Edge of Night: + 15 health\n Umbral Glaive: + 15 health\n Serrated Dirk: + 15 health\n Sudden Impact: + 13.5 health\nTotal Increased Execution Threshold:  39 + 37.5 +  27 +  18 +  18 + ( /  /  15) + ( /  /  15) +  13.5 = 183 health\nTotal Execution Threshold: 183 + 250 − 550 (based on level) (+ 80% bonus AD) = 433 − 733 (based on level) (+ 80% bonus AD)",
         "blurb": "Active:  Pyke strikes the target location in a X pattern, which  executes enemy  champions hit that are at low health. Other enemies hit are instead dealt physical damage.",
         "missileSpeed": null,
         "rechargeRate": null,
@@ -648,13 +648,14 @@
   },
   "releaseDate": "2018-05-31",
   "releasePatch": "8.11",
-  "patchLastChanged": "12.10",
+  "patchLastChanged": "12.17",
   "price": {
     "blueEssence": 6300,
     "rp": 975,
     "saleRp": 0
   },
   "lore": "A renowned harpooner from the slaughter docks of Bilgewater, Pyke should have met his death in the belly of a gigantic jaull-fish… and yet, he returned. Now, stalking the dank alleys and backways of his former hometown, he uses his new supernatural gifts to bring a swift and gruesome end to those who make their fortune by exploiting others—and a city that prides itself on hunting monsters now finds a monster hunting them.",
+  "faction": "bilgewater",
   "skins": [
     {
       "name": "Original",
@@ -1029,7 +1030,6 @@
       ],
       "splashArtist": [
         "Viktor Titov",
-        "Alex 'alexplank' Flores",
         "Grafit Studio"
       ]
     },
@@ -1650,8 +1650,8 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/555/555034.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/555/555034.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/555/555034.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/pyke/skins/skin34/pykeloadscreen_34.pie_c_11_15.jpg",
-      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/pyke/skins/skin34/pykeloadscreen_34_le.pie_c_11_15.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/pyke/skins/skin34/pykeloadscreen_34.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/pyke/skins/skin34/pykeloadscreen_34_le.jpg",
       "newEffects": true,
       "newAnimations": true,
       "newRecall": true,
@@ -1693,7 +1693,7 @@
           ],
           "rarities": [
             {
-              "rarity": 1,
+              "rarity": 4,
               "region": "riot"
             }
           ]
@@ -1719,6 +1719,168 @@
       ],
       "splashArtist": [
         "Jeremy 'Jermu' Anninos"
+      ]
+    },
+    {
+      "name": "Empyrean",
+      "id": 555045,
+      "isBase": false,
+      "availability": "Available",
+      "formatName": "Empyrean",
+      "lootEligible": true,
+      "cost": 1820,
+      "sale": 0,
+      "distribution": null,
+      "rarity": "Legendary",
+      "chromas": [
+        {
+          "name": "Emerald",
+          "id": 555048,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/555/555048.png",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Neon Flare",
+          "id": 555052,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/555/555052.png",
+          "colors": [
+            "#FF655B",
+            "#95E237"
+          ],
+          "descriptions": [
+            {
+              "description": "This chroma was released as a Loot exclusive in the Worlds 2022 Event.",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Pearl",
+          "id": 555049,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/555/555049.png",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Rose Quartz",
+          "id": 555050,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/555/555050.png",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "TENCENT"
+            }
+          ]
+        },
+        {
+          "name": "Ruby",
+          "id": 555047,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/555/555047.png",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "descriptions": [
+            {
+              "description": "This chroma was released as a bundle exclusive in 2022.",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Turquoise",
+          "id": 555051,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/555/555051.png",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        }
+      ],
+      "lore": "Pyke remembers little before falling into the embrace of the Foreglow, only that he was defending his home. Waking in a new realm as the first Empyrean, he hears the whispers of other Pykes across the dimensions, taunting him from their homes. Why was his lost and not theirs? No answer will satisfy his searing rage, except vengeance.",
+      "release": "2022-11-03",
+      "set": [
+        "Empyrean"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/555/555045.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/555/555045.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/555/555045.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/pyke/skins/skin45/pykeloadscreen_45.pie_c_12_21.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/pyke/skins/skin45/pykeloadscreen_45_le.pie_c_12_21.jpg",
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": true,
+      "newQuotes": false,
+      "voiceActor": [
+        "Darien Sills-Evans"
+      ],
+      "splashArtist": [
+        "Nathaniel Himawan",
+        "West Studio"
       ]
     }
   ]

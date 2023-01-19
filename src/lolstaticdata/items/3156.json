@@ -13,7 +13,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3156_fighter_t3_mawofmalmortius.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3156_fighter_t3_mawofmalmortius.png",
   "simpleDescription": "Grants bonus Attack Damage when Health is low",
   "nicknames": [],
   "passives": [
@@ -23,6 +23,7 @@
       "name": "Lifeline",
       "effects": "If you would take {{as|magic damage}} that would reduce you below {{as|30% of your '''maximum''' health}}, you first gain a {{tip|shield}} that absorbs {{rd|200|150}} {{as|(+ {{rd|225%|{{fd|168.75}}%}} '''bonus''' AD)}} {{as|magic damage}} for 5 seconds.",
       "range": null,
+      "cooldown": "75",
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -193,8 +194,9 @@
       "unique": true,
       "mythic": false,
       "name": null,
-      "effects": "Triggering Lifeline also grants 10% omnivamp for 5 seconds. After 2 seconds into the duration, taking or dealing damage refreshes this effect to 3 seconds.",
+      "effects": "Triggering ''Lifeline'' also grants 10% omnivamp for 5 seconds. After 2 seconds into the duration, taking or dealing damage refreshes this effect to 3 seconds.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,

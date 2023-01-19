@@ -4,7 +4,7 @@
   "name": "Nocturne",
   "title": "the Eternal Nightmare",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Nocturne.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Nocturne.png",
   "resource": "MANA",
   "attackType": "MELEE",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -48,7 +48,7 @@
     "attackDamage": {
       "flat": 62,
       "percent": 0.0,
-      "perLevel": 3.1,
+      "perLevel": 2.6,
       "percentPerLevel": 0.0
     },
     "movespeed": {
@@ -100,7 +100,7 @@
       "percentPerLevel": 0.0
     },
     "attackSpeedRatio": {
-      "flat": 0.667999982833862,
+      "flat": 0.721,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
@@ -130,7 +130,7 @@
       "percentPerLevel": 0.0
     },
     "aramDamageTaken": {
-      "flat": 0.9,
+      "flat": 0.85,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
@@ -201,15 +201,15 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Nocturne/ability-icon/p",
         "effects": [
           {
-            "description": "Innate: Periodically, Nocturne empowers next basic attack to slash in a circle that deals 120% AD physical damage to the target and nearby enemies, healing himself for 13 − 30 (based on level) (+ 30% AP) per enemy hit. Against minions, Umbra Blade's damage to secondary targets and healing are reduced by 50% and it applies on-hit effects(bug) to all targets at 100% effectiveness.",
+            "description": "Innate: Periodically, Nocturne empowers his next basic attack to slash in a circle, dealing 120% AD physical damage to the target and nearby enemies and healing himself for 13 − 30 (based on level) (+ 30% AP) per enemy hit. Against minions, Umbra Blade's damage to secondary targets and healing are reduced by 50% and it applies on-hit effects(bug) to all targets at 100% effectiveness.",
             "leveling": []
           },
           {
-            "description": "The attack can critically strike, modifying the physical damage dealt to the primary target to[ (192.5% + 38.5%) AD. ][ 110% of the critical damage of his basic attacks. ]",
+            "description": "Umbra Blades can critically strike against the primary target, modifying the physical damage dealt to[ (192.5% + 38.5%) AD. ][ 110% of the critical damage of his basic attacks. ]",
             "leveling": []
           },
           {
-            "description": "Basic attacks reduce Umbra Blades' cooldown by 1 second, increased to 3 seconds against monsters and enemy champions.",
+            "description": "Basic attacks reduce Umbra Blades' cooldown by 1 second, increased to 3 against enemy champions and monsters.",
             "leveling": []
           }
         ],
@@ -218,9 +218,9 @@
           "modifiers": [
             {
               "values": [
-                14,
-                14,
-                14
+                13,
+                13,
+                13
               ],
               "units": [
                 "",
@@ -304,31 +304,10 @@
             ]
           },
           {
-            "description": "While on the Dusk Trail, Nocturne is ghosted and gains bonus total movement speed and bonus attack damage.",
+            "description": "While on the Dusk Trail, Nocturne is ghosted and gains bonus attack damage and bonus total movement speed.",
             "leveling": [
               {
-                "attribute": "Movement Speed",
-                "modifiers": [
-                  {
-                    "values": [
-                      15,
-                      20,
-                      25,
-                      30,
-                      35
-                    ],
-                    "units": [
-                      "%",
-                      "%",
-                      "%",
-                      "%",
-                      "%"
-                    ]
-                  }
-                ]
-              },
-              {
-                "attribute": "Bonus AD",
+                "attribute": "Bonus Attack Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -344,6 +323,27 @@
                       "",
                       "",
                       ""
+                    ]
+                  }
+                ]
+              },
+              {
+                "attribute": "Bonus Movement Speed",
+                "modifiers": [
+                  {
+                    "values": [
+                      15,
+                      20,
+                      25,
+                      30,
+                      35
+                    ],
+                    "units": [
+                      "%",
+                      "%",
+                      "%",
+                      "%",
+                      "%"
                     ]
                   }
                 ]
@@ -470,7 +470,7 @@
             ]
           },
           {
-            "description": "Active: Nocturne gains a spell shield for 1.5 seconds. Upon successfully blocking a hostile effect, Shroud of Darkness' bonus attack speed is doubled for 5 seconds",
+            "description": "Active: Nocturne gains a spell shield for 1.5 seconds. Upon successfully blocking a hostile effect, Shroud of Darkness' bonus attack speed is doubled for 5 seconds.",
             "leveling": []
           }
         ],
@@ -546,14 +546,14 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Nocturne/ability-icon/e",
         "effects": [
           {
-            "description": "Passive: Nocturne gains 90% bonus movement speed while moving towards feared targets within 1000 units.",
+            "description": "Passive: Nocturne gains 90% bonus movement speed while facing nearby feared targets.",
             "leveling": []
           },
           {
-            "description": "Active: Nocturne torments the target, forming a tether between himself and the target for 2 seconds, during which the target takes magic damage over the duration.",
+            "description": "Active: Nocturne torments the target, forming a tether between himself and the target for 2 seconds, during which the target takes magic damage every 0.5 seconds over the duration.",
             "leveling": [
               {
-                "attribute": "Magic Damage",
+                "attribute": "Total Magic Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -578,6 +578,43 @@
                       100,
                       100,
                       100
+                    ],
+                    "units": [
+                      "% AP",
+                      "% AP",
+                      "% AP",
+                      "% AP",
+                      "% AP"
+                    ]
+                  }
+                ]
+              },
+              {
+                "attribute": "Magic Damage per Tick",
+                "modifiers": [
+                  {
+                    "values": [
+                      20,
+                      31.25,
+                      42.5,
+                      53.75,
+                      65
+                    ],
+                    "units": [
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "values": [
+                      25,
+                      25,
+                      25,
+                      25,
+                      25
                     ],
                     "units": [
                       "% AP",
@@ -680,7 +717,7 @@
         "width": null,
         "angle": null,
         "castTime": "none",
-        "effectRadius": null,
+        "effectRadius": "1000",
         "targetRange": "425"
       }
     ],
@@ -793,13 +830,14 @@
   },
   "releaseDate": "2011-03-15",
   "releasePatch": "1.0.0.113",
-  "patchLastChanged": "12.14",
+  "patchLastChanged": "12.18",
   "price": {
     "blueEssence": 4800,
     "rp": 880,
     "saleRp": 0
   },
   "lore": "A demonic amalgamation drawn from the nightmares that haunt every sentient mind, the thing known as Nocturne has become a primordial force of pure evil. It is liquidly chaotic in aspect, a faceless shadow with cold eyes and armed with wicked-looking blades. After freeing itself from the spirit realm, Nocturne descended upon the waking world, to feed upon the kind of terror that can only thrive in true darkness.",
+  "faction": "unaffiliated",
   "skins": [
     {
       "name": "Original",
@@ -880,7 +918,7 @@
       "lore": null,
       "release": "2011-03-15",
       "set": [
-        "Void"
+        "Curse of the Void"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/56/56002.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/56/56002.jpg",
@@ -1212,8 +1250,8 @@
       "lore": "The great corpses of the Old Gods fed the land, and in time even the Elderwood would come to grow over their putrid rot:hiding it, perhaps, for a time. But the Gods never truly died and, with the resurgence of the Coven, one has risen again:Nocturne, the Eternal Nightmare.",
       "release": "2019-08-29",
       "set": [
-        "Elderwood",
-        "Coven"
+        "Coven",
+        "Elderwood"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/56/56007.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/56/56007.jpg",

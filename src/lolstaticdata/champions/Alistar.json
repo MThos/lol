@@ -4,7 +4,7 @@
   "name": "Alistar",
   "title": "the Minotaur",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Alistar.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/13.1.1/img/champion/Alistar.png",
   "resource": "MANA",
   "attackType": "MELEE",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -377,7 +377,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Alistar/ability-icon/w",
         "effects": [
           {
-            "description": "Active: Alistar dashes to the target enemy's location and, if the target is within 400 units upon arrival, he deals them magic damage and knocks them back 700 units over 0.5 seconds while also stunning them for 0.75 seconds.",
+            "description": "Active: Alistar dashes to the target enemy's location. If they are within 400 units upon arrival, he deals them magic damage and knocks them back 700 units over 0.5 seconds while also stunning them for 0.75 seconds.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -491,7 +491,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Alistar/ability-icon/e",
         "effects": [
           {
-            "description": "Active: Alistar tramples the ground around him every 0.5 seconds over 5 seconds, becoming ghosted and dealing magic damage to nearby enemies. Each time this damages at least one enemy champion, he generates a stack of Trample lasting the remaining duration, which refreshes on subsequent hits and stacks up to 5 times.",
+            "description": "Active: Alistar tramples the ground around him every 0.5 seconds over 5 seconds, becoming ghosted and dealing magic damage to nearby enemies. Each time this damages at least one enemy champion, he generates a stack of Trample that lasts for the remaining duration, stacking up to 5 times.",
             "leveling": [
               {
                 "attribute": "Magic Damage Per Tick",
@@ -711,7 +711,7 @@
         "onHitEffects": null,
         "occurrence": null,
         "notes": "True damage cannot be reduced by any means and will deal full damage to Alistar during Unbreakable Will.\nUnbreakable Will's modifier to incoming damage stacks additively with  Vladimir's  Hemoplague for a total reduction of 45/55/65%.*",
-        "blurb": "Active:  Alistar lets out a wild roar,  cleansing all  crowd control effects and gaining  damage reduction for a few seconds.",
+        "blurb": "Active:  Alistar lets out a wild roar,  cleansing all  crowd control effects and gaining damage reduction for a few seconds.",
         "missileSpeed": null,
         "rechargeRate": null,
         "collisionRadius": null,
@@ -736,6 +736,7 @@
     "saleRp": 0
   },
   "lore": "Always a mighty warrior with a fearsome reputation, Alistar seeks revenge for the death of his clan at the hands of the Noxian empire. Though he was enslaved and forced into the life of a gladiator, his unbreakable will was what kept him from truly becoming a beast. Now, free of the chains of his former masters, he fights in the name of the downtrodden and the disadvantaged, his rage as much a weapon as his horns, hooves and fists.",
+  "faction": "unaffiliated",
   "skins": [
     {
       "name": "Original",
@@ -805,7 +806,7 @@
       "isBase": false,
       "availability": "Available",
       "formatName": "Golden",
-      "lootEligible": false,
+      "lootEligible": true,
       "cost": 390,
       "sale": 0,
       "distribution": null,
@@ -813,7 +814,9 @@
       "chromas": [],
       "lore": null,
       "release": "2010-01-13",
-      "set": [],
+      "set": [
+        "Legacy"
+      ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/12/12002.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/12/12002.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/12/12002.jpg",
@@ -907,7 +910,9 @@
       "chromas": [],
       "lore": null,
       "release": "2011-09-22",
-      "set": [],
+      "set": [
+        "Chronicle"
+      ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/12/12005.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/12/12005.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/12/12005.jpg",
@@ -1241,8 +1246,7 @@
       "lore": "A rare cow-themed variant of the popular Alistar figurines, mint-in-box units have been known to go for several thousand dollars at auction. Yesterday, this one was submerged in the tub. Children don't deserve nice things.",
       "release": "2017-03-29",
       "set": [
-        "Toy Box",
-        "Disguise"
+        "Toy Box"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/12/12010.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/12/12010.jpg",

@@ -4,7 +4,7 @@
   "name": "Lissandra",
   "title": "the Ice Witch",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Lissandra.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Lissandra.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -201,7 +201,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Lissandra/ability-icon/p",
         "effects": [
           {
-            "description": "Innate: Whenever an enemy champion dies while Lissandra is nearby, she spawns a Frozen Thrall from their corpse. Frozen Thralls are invulnerable and untargetable ice spirits that slow all nearby enemies by 25% and gain bonus movement speed that increases over their lifespan. They will chase nearby visible enemies for 4 seconds, prioritizing champions, after which they shatter to deal 120 − 520 (based on level) (+ 50% AP) magic damage to nearby enemies.",
+            "description": "Innate: Whenever a nearby enemy champion dies, Lissandra spawns a Frozen Thrall from their corpse.Frozen Thralls are invulnerable and untargetable ice spirits that have 33.48 − 325 (based on seconds) movement speed and slow nearby enemies by 25%. They will chase nearby visible enemies for 4 seconds, prioritizing champions, after which they shatter to deal 120 − 520 (based on level) (+ 50% AP) magic damage to nearby enemies.",
             "leveling": []
           }
         ],
@@ -638,10 +638,68 @@
             "leveling": []
           },
           {
-            "description": "Self Cast: Lissandra instantly entombs herself, placing herself in stasis for 2.5 seconds while healing herself over the duration, which is increased by 0% − 100% (based on missing health) at time of cast.",
+            "description": "Self Cast: Lissandra instantly entombs herself, placing herself in stasis for 2.5 seconds while healing herself every 0.25 seconds over the duration, which is increased by 0% − 100% (based on missing health) at time of cast.",
             "leveling": [
               {
-                "attribute": "Minimum Self-Heal",
+                "attribute": "Minimum Heal per Tick",
+                "modifiers": [
+                  {
+                    "values": [
+                      9,
+                      14,
+                      19
+                    ],
+                    "units": [
+                      "",
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "values": [
+                      2.5,
+                      2.5,
+                      2.5
+                    ],
+                    "units": [
+                      "% AP",
+                      "% AP",
+                      "% AP"
+                    ]
+                  }
+                ]
+              },
+              {
+                "attribute": "Maximum Heal per Tick",
+                "modifiers": [
+                  {
+                    "values": [
+                      18,
+                      28,
+                      38
+                    ],
+                    "units": [
+                      "",
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "values": [
+                      5,
+                      5,
+                      5
+                    ],
+                    "units": [
+                      " AP",
+                      " AP",
+                      " AP"
+                    ]
+                  }
+                ]
+              },
+              {
+                "attribute": "Minimum Total Heal",
                 "modifiers": [
                   {
                     "values": [
@@ -670,7 +728,7 @@
                 ]
               },
               {
-                "attribute": "Maximum Self-Heal",
+                "attribute": "Maximum Total Heal",
                 "modifiers": [
                   {
                     "values": [
@@ -820,6 +878,7 @@
     "saleRp": 0
   },
   "lore": "Lissandra's magic twists the pure power of ice into something dark and terrible. With the force of her black ice, she does more than freeze—she impales and crushes those who oppose her. To the terrified denizens of the north, she is known only as ''The Ice Witch.'' The truth is much more sinister: Lissandra is a corruptor of nature who plots to unleash an ice age on the world.",
+  "faction": "freljord",
   "skins": [
     {
       "name": "Original",
@@ -918,8 +977,7 @@
         "Tess Masters"
       ],
       "splashArtist": [
-        "Christian Fell",
-        "Joshua 'HUGEnFAST' Brian Smith"
+        "Christian Fell"
       ]
     },
     {
@@ -1606,6 +1664,209 @@
       ],
       "splashArtist": [
         "Jiunn Kuo",
+        "West Studio"
+      ]
+    },
+    {
+      "name": "Space Groove",
+      "id": 127034,
+      "isBase": false,
+      "availability": "Upcoming",
+      "formatName": "Space Groove",
+      "lootEligible": true,
+      "cost": 1350,
+      "sale": 0,
+      "distribution": null,
+      "rarity": "Epic",
+      "chromas": [
+        {
+          "name": "Catseye",
+          "id": 127036,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/127/127036.png",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Emerald",
+          "id": 127041,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/127/127041.png",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Obsidian",
+          "id": 127040,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/127/127040.png",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Pearl",
+          "id": 127042,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/127/127042.png",
+          "colors": [
+            "#C1F2FF",
+            "#C1F2FF"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Rainbow",
+          "id": 127039,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/127/127039.png",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "TENCENT"
+            }
+          ]
+        },
+        {
+          "name": "Rose Quartz",
+          "id": 127039,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/127/127039.png",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "TENCENT"
+            }
+          ]
+        },
+        {
+          "name": "Ruby",
+          "id": 127035,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/127/127035.png",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "descriptions": [
+            {
+              "description": "This chroma was released as a bundle exclusive in 2022.",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Sapphire",
+          "id": 127037,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/127/127037.png",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        }
+      ],
+      "lore": "Brutal alien leader of the Harsh Vibes, Lissandra subjugates planets rich in The Groove for her own nefarious purposes—banning disco and steeping the entire galaxy in Muzak. She and her army of roller-skating derby goons will stop at nothing to eliminate disco forever. But for her latest scheme to work, she's going to need an invite to the disco to end all discos: The Jam.",
+      "release": "0000-00-00",
+      "set": [
+        "Space Groove"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/127/127034.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/127/127034.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/127/127034.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/lissandra/skins/skin34/lissandraloadscreen_34.pie_c_12_22.jpg",
+      "loadScreenVintagePath": null,
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Tess Masters"
+      ],
+      "splashArtist": [
         "West Studio"
       ]
     }

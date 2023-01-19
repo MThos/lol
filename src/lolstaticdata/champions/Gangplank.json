@@ -4,7 +4,7 @@
   "name": "Gangplank",
   "title": "the Saltwater Scourge",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Gangplank.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Gangplank.png",
   "resource": "MANA",
   "attackType": "MELEE",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -130,13 +130,13 @@
       "percentPerLevel": 0.0
     },
     "aramDamageTaken": {
-      "flat": 0.95,
+      "flat": 1.0,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
     },
     "aramDamageDealt": {
-      "flat": 1.05,
+      "flat": 1.0,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
@@ -535,7 +535,7 @@
         "projectile": null,
         "onHitEffects": null,
         "occurrence": null,
-        "notes": "Remove Scury does not remove  debuffs other than  crowd control, even if both occur from the same effect. For example, Remove Scurvy will dispel the  slow from  Exhaust, but not its damage reduction.\nRemove Scurvy can remove the underlying  stun from  airborne, but a  blink or  dash ability is required to override the displacement.",
+        "notes": "Remove Scury does not remove debuffs other than  crowd control, even if both occur from the same effect. For example, Remove Scurvy will dispel the  slow from  Exhaust, but not its damage reduction.\nRemove Scurvy can remove the underlying  stun from  airborne, but a  blink or  dash ability is required to override the displacement.",
         "blurb": "Active:  Gangplank eats citrus to  cleanse  crowd control effects and  heal based on his missing health.",
         "missileSpeed": null,
         "rechargeRate": null,
@@ -1003,13 +1003,14 @@
   },
   "releaseDate": "2009-08-19",
   "releasePatch": "0.9.22.15",
-  "patchLastChanged": "12.14",
+  "patchLastChanged": "12.16",
   "price": {
     "blueEssence": 3150,
     "rp": 790,
     "saleRp": 0
   },
   "lore": "As unpredictable as he is brutal, the dethroned reaver king Gangplank is feared far and wide. Once, he ruled the port city of Bilgewater, and while his reign is over, there are those who believe this has only made him more dangerous. Gangplank would see Bilgewater bathed in blood once more before letting someone else take it—and now with pistol, cutlass, and barrels of gunpowder, he is determined to reclaim what he has lost.",
+  "faction": "bilgewater",
   "skins": [
     {
       "name": "Original",
@@ -1057,9 +1058,7 @@
       "chromas": [],
       "lore": null,
       "release": "2010-03-16",
-      "set": [
-        "Spectral"
-      ],
+      "set": [],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/41/41001.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/41/41001.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/41/41001.jpg",
@@ -1089,9 +1088,7 @@
       "chromas": [],
       "lore": null,
       "release": "2010-07-03",
-      "set": [
-        "Waterloo"
-      ],
+      "set": [],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/41/41002.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/41/41002.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/41/41002.jpg",
@@ -1186,8 +1183,7 @@
       "lore": "How special are the special forces? Let's put it this way: they're the only unit in the military with unlimited access to oranges.",
       "release": "2012-09-12",
       "set": [
-        "Commando",
-        "Brazilian"
+        "Commando"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/41/41005.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/41/41005.jpg",
@@ -1202,9 +1198,7 @@
       "voiceActor": [
         "Matthew Mercer"
       ],
-      "splashArtist": [
-        "Kienan 'Knockwurst' Lafferty"
-      ]
+      "splashArtist": []
     },
     {
       "name": "Sultan",

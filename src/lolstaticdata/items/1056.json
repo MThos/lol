@@ -10,7 +10,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/1056_mage_t1_doransring.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/1056_mage_t1_doransring.png",
   "simpleDescription": "Good starting item for casters",
   "nicknames": [
     "dring"
@@ -20,8 +20,9 @@
       "unique": true,
       "mythic": false,
       "name": "Focus",
-      "effects": "Basic attacks deal {{as|5 '''bonus''' physical damage}} on-hit against [[minion]]s.",
+      "effects": "Basic attacks deal {{as|5 '''bonus''' physical damage}} [[on-hit]] against [[minion]]s.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -84,18 +85,18 @@
         "goldPer_10": {
           "flat": 0.0,
           "percent": 0.0,
-          "perLevel": 0.0,
-          "percentPerLevel": 0.0,
-          "percentBase": 0.0,
-          "percentBonus": 0.0
+          "per_level": 0.0,
+          "percent_per_level": 0.0,
+          "percent_base": 0.0,
+          "percent_bonus": 0.0
         },
         "healAndShieldPower": {
           "flat": 0.0,
           "percent": 0.0,
-          "perLevel": 0.0,
-          "percentPerLevel": 0.0,
-          "percentBase": 0.0,
-          "percentBonus": 0.0
+          "per_level": 0.0,
+          "percent_per_level": 0.0,
+          "percent_base": 0.0,
+          "percent_bonus": 0.0
         },
         "health": {
           "flat": 0.0,
@@ -192,8 +193,9 @@
       "unique": true,
       "mythic": false,
       "name": "Drain",
-      "effects": "Restore {{as|1 mana}} every second, increased to {{as|{{fd|1.5}}|mana}} for 10 seconds when you damage an enemy champion. If you cannot gain mana, {{tip|heal}} for {{ft|45% of this value|{{ap|1.5*0.45}}}}instead.",
+      "effects": "Restore {{as|1 mana}} every second, increased to {{as|{{fd|1.5}}|mana}} for 10 seconds when you damage an enemy champion. If you cannot gain mana, {{tip|heal}} for{{ft|45% of this value|{{ap|1.5*0.45}}}}instead.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,

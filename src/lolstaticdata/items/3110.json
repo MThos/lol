@@ -13,7 +13,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3110_tank_t3_frozenheart.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3110_tank_t3_frozenheart.png",
   "simpleDescription": "Massively increases Armor and slows enemy basic attacks",
   "nicknames": [
     "fh"
@@ -23,8 +23,9 @@
       "unique": true,
       "mythic": false,
       "name": "Winter's Caress",
-      "effects": "{{tip|Cripple|Cripples}} the [[attack speed]] of nearby enemies by 20%.",
-      "range": 0,
+      "effects": "{{tip|Cripple|Cripples}} the [[attack speed]] of enemies within {{tt|700 units|center to edge}} by 20%.",
+      "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -195,8 +196,9 @@
       "unique": true,
       "mythic": false,
       "name": "Rock Solid",
-      "effects": "Every incoming instance of {{tt|post-mitigation|Damage calculated after modifiers}} {{tip|basic damage}} is [[Damage modifier|reduced]] by 7 {{as|(+ {{fd|3.5}} per 1000 '''maximum''' health)}}, '''maximum''' 40% reduction each.",
+      "effects": "Every first incoming instance of {{tt|post-mitigation|Damage calculated after modifiers}} {{tip|basic damage}} per {{tip|cast instance}} is [[Damage modifier|reduced]] by 5 {{as|(+ {{fd|3.5}} per 1000 '''maximum''' health)}}, '''maximum''' 40% reduction each.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -375,7 +377,7 @@
       "percentBonus": 0.0
     },
     "armor": {
-      "flat": 80.0,
+      "flat": 90.0,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0,
@@ -537,9 +539,9 @@
   },
   "shop": {
     "prices": {
-      "total": 2500,
+      "total": 2700,
       "combined": 0,
-      "sell": 1000
+      "sell": 1080
     },
     "purchasable": true,
     "tags": [

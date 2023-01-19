@@ -14,7 +14,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3179_assassin_t3_umbralglaive.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3179_assassin_t3_umbralglaive.png",
   "simpleDescription": "Provides trap and ward detection periodically",
   "nicknames": [],
   "passives": [
@@ -24,6 +24,7 @@
       "name": "Blackout",
       "effects": "When near an enemy [[Stealth#Stealthed_traps_and_wards|stealthed]] {{tip|ward}} or {{tip|stealthed trap|trap}}, gain ''Blackout'' for 8 seconds.",
       "range": 400,
+      "cooldown": "40",
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -194,8 +195,9 @@
       "unique": true,
       "mythic": false,
       "name": null,
-      "effects": "Your [[basic attack]]s instantly [[kill]] revealed traps and deal {{as|2 '''bonus''' true damage}} to wards.",
+      "effects": "Your [[basic attack]]s instantly kill revealed traps and deal {{as|2 '''bonus''' true damage}} to wards.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,

@@ -4,7 +4,7 @@
   "name": "Malzahar",
   "title": "the Prophet of the Void",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Malzahar.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Malzahar.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -261,7 +261,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Malzahar/ability-icon/q",
         "effects": [
           {
-            "description": "Active: Malzahar opens two portals to the void at the target location perpendicular to his facing, granting sight of the area in between. After 0.4 seconds, enemies between the portals are dealt magic damage and silenced for a duration.",
+            "description": "Active: Malzahar opens two portals to the void centered at the target location, granting sight of the area in between. After 0.4 seconds, enemies between the portals are dealt magic damage and silenced for a duration.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -426,7 +426,7 @@
             ]
           },
           {
-            "description": "Voidlings deal magic damage with their attacks. Voidlings deal 50% reduced damage to epic monsters and 200% increased damage to enemy minions infected by Malefic Visions.",
+            "description": "Voidlings deal magic damage with their attacks, reduced by 50% against epic monsters and increased by 200% to enemy minions infected by Malefic Visions.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -602,7 +602,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Malzahar/ability-icon/e",
         "effects": [
           {
-            "description": "Active: Malzahar infects the target enemy's mind, dealing magic damage every 0.5 seconds over 4 seconds, which refreshes upon damaging them with Call of the Void or Nether Grasp.",
+            "description": "Active: Malzahar infects the target enemy's mind, dealing magic damage every 0.5 seconds over 4 seconds, which refreshes upon damaging them with Call of the Void or Nether Grasp. Malefic Visions executes minions below 15 − 45 (based on level) health.",
             "leveling": [
               {
                 "attribute": "Total Magic Damage",
@@ -789,7 +789,7 @@
                 ]
               },
               {
-                "attribute": "Damage Per Tick",
+                "attribute": "Magic Damage Per Tick",
                 "modifiers": [
                   {
                     "values": [
@@ -856,7 +856,7 @@
                 ]
               },
               {
-                "attribute": "Damage Per Tick",
+                "attribute": "Magic Damage Per Tick",
                 "modifiers": [
                   {
                     "values": [
@@ -952,13 +952,14 @@
   },
   "releaseDate": "2010-06-01",
   "releasePatch": "1.0.0.86",
-  "patchLastChanged": "12.10",
+  "patchLastChanged": "12.21",
   "price": {
     "blueEssence": 4800,
     "rp": 880,
     "saleRp": 0
   },
   "lore": "A zealous seer dedicated to the unification of all life, Malzahar truly believes the newly emergent Void to be the path to Runeterra's salvation. In the desert wastes of Shurima, he followed the voices that whispered in his mind, all the way to ancient Icathia. Amidst the ruins of that land, he gazed into the dark heart of the Void itself, and was gifted new power and purpose. Malzahar now sees himself as a shepherd, empowered to bring others into the fold… or to release the voidling creatures that dwell beneath.",
+  "faction": "void",
   "skins": [
     {
       "name": "Original",
@@ -1066,9 +1067,7 @@
       "chromas": [],
       "lore": null,
       "release": "2011-02-01",
-      "set": [
-        "Arabian"
-      ],
+      "set": [],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/90/90003.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/90/90003.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/90/90003.jpg",
@@ -1235,8 +1234,7 @@
         "Vic Mignogna"
       ],
       "splashArtist": [
-        "Xu 'Crow God' Cheng",
-        "Pan Chengwei"
+        "Xu 'Crow God' Cheng"
       ]
     },
     {
@@ -1870,6 +1868,41 @@
       ],
       "splashArtist": [
         "Jennifer Wuestling"
+      ]
+    },
+    {
+      "name": "Three Honors",
+      "id": 90038,
+      "isBase": false,
+      "availability": "Upcoming",
+      "formatName": "Three Honors",
+      "lootEligible": false,
+      "cost": "special",
+      "sale": 0,
+      "distribution": "Honor Capsule",
+      "rarity": "NoRarity",
+      "chromas": [],
+      "lore": "As the Order of Solace's leader, Malzahar wants to extend a gentle, guiding hand to all. It was only by following the tenets of the Three Honors that he was able to escape from a pit of cynicsim, and while apathy may reign supreme, Malzahar will do whatever it takes to build a better world.",
+      "release": "0000-00-00",
+      "set": [
+        "Three Honors"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/90/90038.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/90/90038.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/90/90038.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/malzahar/skins/skin38/malzaharloadscreen_38.pie_c_12_20.jpg",
+      "loadScreenVintagePath": null,
+      "newEffects": false,
+      "newAnimations": false,
+      "newRecall": false,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Vic Mignogna"
+      ],
+      "splashArtist": [
+        "Ina Wong",
+        "West Studio"
       ]
     }
   ]

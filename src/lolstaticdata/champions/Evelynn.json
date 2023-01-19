@@ -4,7 +4,7 @@
   "name": "Evelynn",
   "title": "Agony's Embrace",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Evelynn.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Evelynn.png",
   "resource": "MANA",
   "attackType": "MELEE",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -136,7 +136,7 @@
       "percentPerLevel": 0.0
     },
     "aramDamageDealt": {
-      "flat": 1.1,
+      "flat": 1.15,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
@@ -245,7 +245,7 @@
             "description": "Active: Evelynn launches a dart in the target direction, dealing magic damage to the first enemy hit and marking them for 4 seconds.",
             "leveling": [
               {
-                "attribute": "Dart Damage",
+                "attribute": "Magic Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -287,15 +287,15 @@
             "description": "Evelynn's next 3 basic attacks or abilities against the marked target deal bonus magic damage.",
             "leveling": [
               {
-                "attribute": "Bonus Damage",
+                "attribute": "Bonus Magic Damage",
                 "modifiers": [
                   {
                     "values": [
-                      10,
-                      20,
-                      30,
-                      40,
-                      50
+                      15,
+                      25,
+                      35,
+                      45,
+                      55
                     ],
                     "units": [
                       "",
@@ -328,11 +328,11 @@
                 "modifiers": [
                   {
                     "values": [
-                      30,
-                      60,
-                      90,
-                      120,
-                      150
+                      45,
+                      75,
+                      105,
+                      135,
+                      165
                     ],
                     "units": [
                       "",
@@ -370,7 +370,7 @@
             "description": "Recast: Evelynn unleashes a line of deadly spikes in the direction of her attack target if they are in range, dealing magic damage to all enemies struck. Hate Spike will first prioritize Evelynn's attack target, then the nearest visible enemy champion.",
             "leveling": [
               {
-                "attribute": "Spike Damage",
+                "attribute": "Magic Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -407,7 +407,7 @@
                 ]
               },
               {
-                "attribute": "Maximum Damage",
+                "attribute": "Maximum Magic Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -444,7 +444,7 @@
                 ]
               },
               {
-                "attribute": "Total Damage",
+                "attribute": "Total Magic Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -574,11 +574,11 @@
                 "modifiers": [
                   {
                     "values": [
-                      1,
                       1.25,
                       1.5,
                       1.75,
-                      2
+                      2,
+                      2.25
                     ],
                     "units": [
                       "",
@@ -595,11 +595,11 @@
                 "modifiers": [
                   {
                     "values": [
-                      3,
                       3.25,
                       3.5,
                       3.75,
-                      4
+                      4,
+                      4.25
                     ],
                     "units": [
                       "",
@@ -1081,13 +1081,14 @@
   },
   "releaseDate": "2009-05-01",
   "releasePatch": "May 1, 2009 Patch",
-  "patchLastChanged": "12.15",
+  "patchLastChanged": "12.20",
   "price": {
     "blueEssence": 1350,
     "rp": 585,
     "saleRp": 0
   },
   "lore": "Within the dark seams of Runeterra, the demon Evelynn searches for her next victim. She lures in prey with the voluptuous façade of a human female, but once a person succumbs to her charms, Evelynn's true form is unleashed. She then subjects her victim to unspeakable torment, gratifying herself with their pain. To the demon, these liaisons are innocent flings. To the rest of Runeterra, they are ghoulish tales of lust gone awry and horrific reminders of the cost of wanton desire.",
+  "faction": "unaffiliated",
   "skins": [
     {
       "name": "Original",
@@ -1200,7 +1201,7 @@
       "lore": null,
       "release": "2010-10-05",
       "set": [
-        "Tango"
+        "High Society"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/28/28003.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/28/28003.jpg",
@@ -1701,7 +1702,7 @@
       "lore": "With a single devastating glance, Evelynn can ensure that all eyes are on her—when she wants them to be. K/DA's success has ensured that this provocative diva's name will be on everyone's lips, but Evelynn is intent that her killer fashion sense will keep it there.",
       "release": "2020-10-29",
       "set": [
-        "K/DA ALL OUT"
+        "K/DA"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/28/28015.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/28/28015.jpg",
@@ -1867,8 +1868,8 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/28/28024.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/28/28024.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/28/28024.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin24/evelynnloadscreen_24.pie_c_11_16.jpg",
-      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin24/evelynnloadscreen_24_le.pie_c_11_16.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin24/evelynnloadscreen_24.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin24/evelynnloadscreen_24_le.jpg",
       "newEffects": true,
       "newAnimations": true,
       "newRecall": true,
@@ -1879,6 +1880,264 @@
       ],
       "splashArtist": [
         "Alex 'alexplank' Flores"
+      ]
+    },
+    {
+      "name": "Prestige KDA (2022)",
+      "id": 28031,
+      "isBase": false,
+      "availability": "Limited",
+      "formatName": "Prestige K/DA Evelynn (2022)",
+      "lootEligible": false,
+      "cost": "special",
+      "sale": 0,
+      "distribution": "Given to players who owned the original skin prior to patch 12.5",
+      "rarity": "Mythic",
+      "chromas": [],
+      "lore": "With that wild in her veins, K/DA Evelynn stomps into the spotlight, shimmering in a custom golden outfit from the Pop Music Awards. Only 'winning, winning' now.",
+      "release": "2022-04-01",
+      "set": [
+        "K/DA"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/28/28031.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/28/28031.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/28/28031.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin31/evelynnloadscreen_31.pie_c_12_6.jpg",
+      "loadScreenVintagePath": null,
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Mara Junot"
+      ],
+      "splashArtist": [
+        "Pan Chengwei"
+      ]
+    },
+    {
+      "name": "Spirit Blossom",
+      "id": 28032,
+      "isBase": false,
+      "availability": "Available",
+      "formatName": "Spirit Blossom",
+      "lootEligible": true,
+      "cost": 1350,
+      "sale": 0,
+      "distribution": null,
+      "rarity": "Epic",
+      "chromas": [
+        {
+          "name": "Catseye",
+          "id": 28034,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/28/28034.png",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Emerald",
+          "id": 28038,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/28/28038.png",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Night Blossom",
+          "id": 28041,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/28/28041.png",
+          "colors": [
+            "#0C0C0F",
+            "#B2D1E4"
+          ],
+          "descriptions": [
+            {
+              "description": "This chroma was released as a Loot exclusive in the Worlds 2022 event.",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Obsidian",
+          "id": 28039,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/28/28039.png",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Pearl",
+          "id": 28040,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/28/28040.png",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Rose Quartz",
+          "id": 28035,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/28/28035.png",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "TENCENT"
+            }
+          ]
+        },
+        {
+          "name": "Ruby",
+          "id": 28033,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/28/28033.png",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "descriptions": [
+            {
+              "description": "This chroma was released as a bundle exclusive in 2022.",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Sapphire",
+          "id": 28036,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/28/28036.png",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Turquoise",
+          "id": 28037,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/28/28037.png",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        }
+      ],
+      "lore": "Come. Leave your flesh behind and pass into the Spirit World. Bring with you only your desires, your vices, your painful memories. Let the Spirit of Love feed on these unwanted temptations, for her hunger is ravenous. Evelynn will show you peace at last.",
+      "release": "2022-10-06",
+      "set": [
+        "Spirit Blossom"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/28/28032.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/28/28032.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/28/28032.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin32/evelynnloadscreen_32.pie_c_12_19.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin32/evelynnloadscreen_32_le.pie_c_12_19.jpg",
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Mara Junot"
+      ],
+      "splashArtist": [
+        "Terence 'Terrylefruit' Cantal"
       ]
     }
   ]

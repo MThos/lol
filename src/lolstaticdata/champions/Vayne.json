@@ -4,7 +4,7 @@
   "name": "Vayne",
   "title": "the Night Hunter",
   "fullName": "Shauna Vayne",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Vayne.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Vayne.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -238,7 +238,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Vayne/ability-icon/q",
         "effects": [
           {
-            "description": "Active: Vayne dashes in the target direction, though not through terrain, and empowers her next basic attack within 7 seconds to deal bonus physical damage.",
+            "description": "Active: Vayne dashes a fixed distance in the target direction, though not through terrain, and empowers her next basic attack within 7 seconds to deal bonus physical damage.",
             "leveling": [
               {
                 "attribute": "Bonus Physical Damage",
@@ -340,7 +340,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Vayne/ability-icon/w",
         "effects": [
           {
-            "description": "Passive: Vayne's basic attacks on-hit and Condemn apply a stack of Silver Bolts for 3.5 seconds, which refreshes on subsequent hits, expires upon attacking a new enemy, and stacks up to 3 times.",
+            "description": "Passive: Vayne's basic attacks on-hit and Condemn apply a stack of Silver Bolts for 3.5 seconds, refreshing on subsequent applications, expiring upon attacking a new enemy, and stacking up to 3 times.",
             "leveling": []
           },
           {
@@ -368,7 +368,7 @@
                 ]
               },
               {
-                "attribute": "Minimum True Damage",
+                "attribute": "Minimum Bonus Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -466,10 +466,10 @@
             ]
           },
           {
-            "description": "If the target hits terrain, they take bonus physical damage and become stunned for 1.5 seconds.",
+            "description": "If the target collides with terrain, they take bonus physical damage and become stunned for 1.5 seconds.",
             "leveling": [
               {
-                "attribute": "Bonus Damage",
+                "attribute": "Bonus Physical Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -506,7 +506,7 @@
                 ]
               },
               {
-                "attribute": "Total Damage",
+                "attribute": "Total Physical Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -637,7 +637,7 @@
                 ]
               },
               {
-                "attribute": "Bonus AD",
+                "attribute": "Bonus Attack Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -750,6 +750,7 @@
     "saleRp": 0
   },
   "lore": "Shauna Vayne is a deadly, remorseless Demacian monster hunter, who has dedicated her life to finding and destroying the demon that murdered her family. Armed with a wrist-mounted crossbow and a heart full of vengeance, she is only truly happy when slaying practitioners or creations of the dark arts, striking from the shadows with a flurry of silver bolts.",
+  "faction": "demacia",
   "skins": [
     {
       "name": "Original",
@@ -1058,7 +1059,7 @@
       "lore": null,
       "release": "2016-07-28",
       "set": [
-        "Soulhunter"
+        "Soulstealer"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/67/67010.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/67/67010.jpg",
@@ -1445,7 +1446,7 @@
       "lore": "Vayne came from a lost clan of monster hunters, annihilated to the last when the primordial demon of pain chanced upon their hidden village. Unable to let go, and doomed to her own obsessions for eternity, she hunts the creature without end, always unable to catch it.",
       "release": "2020-07-22",
       "set": [
-        "Akana"
+        "Spirit Blossom"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/67/67014.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/67/67014.jpg",
@@ -1609,8 +1610,8 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/67/67025.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/67/67025.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/67/67025.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/vayne/skins/skin25/vayneloadscreen_25.pie_c_11_14.jpg",
-      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/vayne/skins/skin25/vayneloadscreen_25_le.pie_c_11_14.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/vayne/skins/skin25/vayneloadscreen_25.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/vayne/skins/skin25/vayneloadscreen_25_le.jpg",
       "newEffects": true,
       "newAnimations": true,
       "newRecall": true,
@@ -1845,6 +1846,40 @@
       ],
       "splashArtist": [
         "Jennifer Wuestling"
+      ]
+    },
+    {
+      "name": "Prestige Firecracker (2022)",
+      "id": 67033,
+      "isBase": false,
+      "availability": "Limited",
+      "formatName": "Prestige Firecracker (2022)",
+      "lootEligible": false,
+      "cost": "special",
+      "sale": 0,
+      "distribution": "Given to players who owned the original skin prior to patch 12.5",
+      "rarity": "Mythic",
+      "chromas": [],
+      "lore": "Vayne has donned her even finer Lunar Revel garb, noting the growing anxiety around her explosive-shooting metal wrist-pig. Fashion upgrades solve all problems.",
+      "release": "2022-04-01",
+      "set": [
+        "Lunar Revel: Firecracker"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/67/67033.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/67/67033.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/67/67033.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/vayne/skins/skin33/vayneloadscreen_33.pie_c_12_6.jpg",
+      "loadScreenVintagePath": null,
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Nika Futterman"
+      ],
+      "splashArtist": [
+        "Bo 'chenbowow' Chen"
       ]
     }
   ]

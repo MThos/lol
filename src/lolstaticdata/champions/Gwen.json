@@ -4,7 +4,7 @@
   "name": "Gwen",
   "title": "The Hallowed Seamstress",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Gwen.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Gwen.png",
   "resource": "MANA",
   "attackType": "MELEE",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -130,7 +130,7 @@
       "percentPerLevel": 0.0
     },
     "aramDamageTaken": {
-      "flat": 0.95,
+      "flat": 1.0,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
@@ -243,7 +243,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Gwen/ability-icon/q",
         "effects": [
           {
-            "description": "Passive: Gwen's basic attacks on-hit generate a stack of Snippy for 6 seconds, stacking up to 4 times.",
+            "description": "Passive: Gwen's basic attacks generate a stack of Snippy on-hit for 6 seconds, stacking up to 4 times and refreshing on subsequent attacks.",
             "leveling": []
           },
           {
@@ -255,10 +255,10 @@
                   {
                     "values": [
                       10,
-                      14,
-                      18,
-                      22,
-                      26
+                      15,
+                      20,
+                      25,
+                      30
                     ],
                     "units": [
                       "",
@@ -292,10 +292,10 @@
                   {
                     "values": [
                       10,
-                      14,
-                      18,
-                      22,
-                      26
+                      15,
+                      20,
+                      25,
+                      30
                     ],
                     "units": [
                       "",
@@ -345,10 +345,10 @@
                   {
                     "values": [
                       60,
-                      80,
-                      100,
-                      120,
-                      140
+                      85,
+                      110,
+                      135,
+                      160
                     ],
                     "units": [
                       "",
@@ -382,10 +382,10 @@
                   {
                     "values": [
                       60,
-                      80,
-                      100,
-                      120,
-                      140
+                      85,
+                      110,
+                      135,
+                      160
                     ],
                     "units": [
                       "",
@@ -440,10 +440,10 @@
                   {
                     "values": [
                       70,
-                      94,
-                      118,
-                      142,
-                      166
+                      100,
+                      130,
+                      160,
+                      190
                     ],
                     "units": [
                       "",
@@ -477,10 +477,10 @@
                   {
                     "values": [
                       70,
-                      94,
-                      118,
-                      142,
-                      166
+                      100,
+                      130,
+                      160,
+                      190
                     ],
                     "units": [
                       "",
@@ -530,10 +530,10 @@
                   {
                     "values": [
                       110,
-                      150,
-                      190,
-                      230,
-                      270
+                      160,
+                      210,
+                      260,
+                      310
                     ],
                     "units": [
                       "",
@@ -567,10 +567,10 @@
                   {
                     "values": [
                       110,
-                      150,
-                      190,
-                      230,
-                      270
+                      160,
+                      210,
+                      260,
+                      310
                     ],
                     "units": [
                       "",
@@ -1246,13 +1246,14 @@
   },
   "releaseDate": "2021-04-15",
   "releasePatch": "11.8",
-  "patchLastChanged": "12.15",
+  "patchLastChanged": "12.20",
   "price": {
     "blueEssence": 6300,
     "rp": 975,
     "saleRp": 0
   },
   "lore": "A former doll transformed and brought to life by magic, Gwen wields the very tools that once created her. She carries the weight of her maker's love with every step, taking nothing for granted. At her command is the Hallowed Mist, an ancient and protective magic that has blessed Gwen's scissors, needles, and sewing thread. So much is new to her, but Gwen remains joyfully determined to fight for the good that survives in a broken world.",
+  "faction": "shadow-isles",
   "skins": [
     {
       "name": "Original",

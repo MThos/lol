@@ -4,7 +4,7 @@
   "tier": 4,
   "rank": [],
   "buildsFrom": [
-    3068
+    3067
   ],
   "buildsInto": [],
   "specialRecipe": 0,
@@ -12,7 +12,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "Ornn",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3068_tank_t4_sunfireaegis.png",
+  "icon": "https://raw.communitydragon.org/12.21/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3068_tank_t4_sunfireaegis.png",
   "simpleDescription": null,
   "nicknames": [
     "funfire",
@@ -23,7 +23,7 @@
       "unique": true,
       "mythic": false,
       "name": "Immolate",
-      "effects": "Taking or dealing damage activates this passive for 3 seconds. Deal {{as|15 {{as|(+ {{fd|1.75}}% '''bonus''' health)}} magic damage|magic damage}} every second to enemies within {{tip|cr|icononly = true}} 325 (+ 100% '''bonus''' [[size]]) units, increased by 25% against minions and 150% against monsters. This executes minions that would be killed by one more tick of damage. Damaging enemy champions or epic monsters with this effect grants a stack for 5 seconds that increases subsequent ''Immolate'' damage by 10%, stacking up to 6 times for a 60% increase.",
+      "effects": "Taking or dealing damage activates this passive for 3 seconds. Deal {{as|15 {{as|(+ {{fd|1.75}}% '''bonus''' health)}} magic damage|magic damage}} every second to enemies within {{tip|cr|icononly = true}} 325 (+ 100% '''bonus''' [[size]]) units, with the damage being increased by 25% against minions and 150% against monsters. This executes minions that would be killed by one more tick of damage. Damaging enemy champions or epic monsters with this effect grants a stack for 5 seconds that increases subsequent ''Immolate'' damage by 10%, stacking up to 6 times for a 60% increase.",
       "range": null,
       "stats": {
         "abilityPower": {
@@ -195,7 +195,7 @@
       "unique": true,
       "mythic": false,
       "name": "Flametouch",
-      "effects": "At '''maximum''' stacks, your basic attacks create an explosion around you, applying a burn to all nearby enemies that deals your '''current''' ''Immolate'' damage to them over 3 seconds.",
+      "effects": "At '''maximum''' stacks, your basic attacks create an explosion around you, applying a burn to all enemies within {{tip|cr|icononly = true}} 325 (+ 100% '''bonus''' size) units that deals your '''current''' ''Immolate'' damage to them over 3 seconds.",
       "range": null,
       "stats": {
         "abilityPower": {

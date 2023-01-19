@@ -15,7 +15,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3077_fighter_t2_tiamat.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3077_fighter_t2_tiamat.png",
   "simpleDescription": "Melee attacks hit nearby enemies",
   "nicknames": [],
   "passives": [
@@ -23,8 +23,9 @@
       "unique": true,
       "mythic": false,
       "name": "Cleave",
-      "effects": "Basic attacks [[on-hit]] deal {{as|{{pp|type=distance|changedisplay=true|key=%|60 to 12 for 5|0 to 350}} AD}} {{as|physical damage}} to other enemies near the target.",
+      "effects": "Basic attacks [[on-hit]] deal {{rd|{{as|50% AD}}|{{as|25% AD}}}} {{as|physical damage}} to other enemies within 350 units of the target.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,

@@ -4,7 +4,7 @@
   "name": "Xerath",
   "title": "the Magus Ascendant",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Xerath.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Xerath.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -258,11 +258,11 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Xerath/ability-icon/q",
         "effects": [
           {
-            "description": "Active: Xerath charges while being slowed by 0% − 40% (based on channel time) for up to 3 seconds to increase Arcanopulse's range over the first 1.5:1.75 seconds of the channel.",
+            "description": "Active: Xerath charges while being slowed by 0% − 40% (based on channel time) for up to 3 seconds to increase Arcanopulse's range over the first 1.5 to 1.75 seconds of the channel.",
             "leveling": []
           },
           {
-            "description": "Arcanopulse can be recast within the duration. If the charge is interrupted or completes without reactivation, Arcanopulse is cancelled and refunds half the mana cost.",
+            "description": "Arcanopulse can be recast at any time within the duration. If the charge is interrupted or completes without reactivation, Arcanopulse is cancelled and refunds half the mana cost.",
             "leveling": [
               {
                 "attribute": "Mana Refunded",
@@ -402,7 +402,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Xerath/ability-icon/w",
         "effects": [
           {
-            "description": "Active: Xerath casts down a blast of arcane energy that strikes the target location after 0.528 seconds, briefly granting sight of the area and dealing magic damage to enemies hit, slowing them by 25% for 2.5 seconds.",
+            "description": "Active: Xerath casts down a blast of arcane energy that strikes the target location after 0.528 seconds, briefly granting sight of the area and dealing magic damage to enemies hit and slowing them by 25% for 2.5 seconds.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -447,7 +447,7 @@
             "description": "Enemies in the epicenter take 66.7% increased damage and are slowed by a greater amount, decaying to 25% over the duration.",
             "leveling": [
               {
-                "attribute": "Enhanced Damage",
+                "attribute": "Increased Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -484,7 +484,7 @@
                 ]
               },
               {
-                "attribute": "Enhanced Slow",
+                "attribute": "Increased Slow",
                 "modifiers": [
                   {
                     "values": [
@@ -693,7 +693,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Xerath/ability-icon/r",
         "effects": [
           {
-            "description": "Active: Xerath channels for up to 10 seconds, gaining the ability to recast Rite of the Arcane multiple times after 0.5 seconds within the duration. If Rite of the Arcane ends without using any recasts, half of the cooldown is refunded.",
+            "description": "Active: Xerath channels for up to 10 seconds, gaining the ability to recast Rite of the Arcane multiple times after 0.5 seconds within the duration. If Rite of the Arcane ends without any of the recasts being used, half of its cooldown is refunded.",
             "leveling": [
               {
                 "attribute": "Number of Recasts",
@@ -747,7 +747,7 @@
                 ]
               },
               {
-                "attribute": "Total Damage",
+                "attribute": "Total Magic Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -865,13 +865,14 @@
   },
   "releaseDate": "2011-10-05",
   "releasePatch": "1.0.0.126",
-  "patchLastChanged": "12.14",
+  "patchLastChanged": "12.18",
   "price": {
     "blueEssence": 4800,
     "rp": 880,
     "saleRp": 0
   },
   "lore": "Xerath is an Ascended Magus of ancient Shurima, a being of arcane energy writhing in the broken shards of a magical sarcophagus. For millennia, he was trapped beneath the desert sands, but the rise of Shurima freed him from his ancient prison. Driven insane with power, he now seeks to take what he believes is rightfully his and replace the upstart civilizations of the world with one fashioned in his image.",
+  "faction": "shurima",
   "skins": [
     {
       "name": "Original",
@@ -920,9 +921,7 @@
       "chromas": [],
       "lore": null,
       "release": "2011-10-05",
-      "set": [
-        "Rune"
-      ],
+      "set": [],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/101/101001.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/101/101001.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/101/101001.jpg",
@@ -936,9 +935,7 @@
       "voiceActor": [
         "Michael McConnohie"
       ],
-      "splashArtist": [
-        "Kienan 'Knockwurst' Lafferty"
-      ]
+      "splashArtist": []
     },
     {
       "name": "Battlecast",

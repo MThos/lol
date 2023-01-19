@@ -12,7 +12,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "Ornn",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6671_marksman_t4_galeforce.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6671_marksman_t4_galeforce.png",
   "simpleDescription": null,
   "nicknames": [
     "squallrider"
@@ -24,6 +24,7 @@
       "name": "Mythic",
       "effects": null,
       "range": 0,
+      "cooldown": 0,
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -200,7 +201,7 @@
     {
       "unique": true,
       "name": "Cloudburst",
-      "effects": "{{tip|Dash}} to the target location, though not through terrain, and fire three homing missiles at the {{tt|most wounded|Lowest health percent}} enemy within {{tt|750|Estimated, range type and precise value to be confirmed}} units of you at the end of the dash, prioritizing enemy champions. Each missile deals {{as|{{pp|180/3 to 315/3|1;10 to 18 by 1}} {{as|(+ 15% '''bonus''' AD)}} magic damage|magic damage}}, for a total of {{as|{{pp|180 to 315|1;10 to 18 by 1}} {{as|(+ 45% '''bonus''' AD)}}|magic damage}}, increased by {{pp|type= target's '''missing''' health|color=health|key=%|0 to 50|key1=%|0;7;14;21;28;35;42;49;56;63;70|formula=5% per 7% of enemies' '''missing''' health}}.",
+      "effects": "{{tip|Dash}} to the target location, though not through terrain, and fire three homing missiles at the {{tt|most wounded|Lowest health percent}} enemy within {{tip|cr|icononly=true}} 750 units of you at the end of the dash, prioritizing enemy champions. Each missile deals {{as|{{pp|180/3 to 315/3|1;10 to 18 by 1}} {{as|(+ 15% '''bonus''' AD)}} magic damage|magic damage}}, for a total of {{as|{{pp|180 to 315|1;10 to 18 by 1}} {{as|(+ 45% '''bonus''' AD)}}|magic damage}}, increased by {{pp|type= target's '''missing''' health|color=health|key=%|0 to 50|key1=%|0;7;14;21;28;35;42;49;56;63;70|formula=5% per 7% of enemies' '''missing''' health}}.",
       "range": 0,
       "cooldown": null
     }

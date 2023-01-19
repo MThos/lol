@@ -13,7 +13,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3036_marksman_t3_dominkregards.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3036_marksman_t3_dominikregards.png",
   "simpleDescription": "Overcomes enemies with high health and armor",
   "nicknames": [
     "lw",
@@ -27,6 +27,7 @@
       "name": "Giant Slayer",
       "effects": "Deal {{pp|type='''maximum''' health difference|color=health|key=%|0 to 15 for 11|0 to 2000|formula=0.75% per 100 greater '''maximum''' health}} {{as|'''bonus''' physical damage|physical damage}} against enemy champions with greater {{as|'''maximum''' health}} than you.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,

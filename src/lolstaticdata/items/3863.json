@@ -10,7 +10,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3863_marksman_t2_harrowingcrescent.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3863_marksman_t2_harrowingcrescent.png",
   "simpleDescription": null,
   "nicknames": [
     "Support",
@@ -24,8 +24,9 @@
       "unique": true,
       "mythic": false,
       "name": "Tribute",
-      "effects": "Grants a charge every 10 seconds, up to 3 charges. If an allied champion is {{tt|nearby|2000 range}}, damaging abilities and attacks against champions and structures consume a charge, up to one per attack or cast. Consuming a charge grants {{g|20}}. ''Receive diminishing gold from excessive minion kills.''",
+      "effects": "Grants a charge every 10 seconds, up to 3 charges. If an allied champion is {{tt|nearby|2000 range}}, damaging basic attacks and abilities against champions and structures consume a charge, up to one per attack or cast. Consuming a charge grants {{g|20}}. ''Receive diminishing gold from excessive minion kills.''",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -196,8 +197,9 @@
       "unique": true,
       "mythic": false,
       "name": "Quest",
-      "effects": "Earn {{g|500}} using this item to upgrade to {{ii|Black Mist Scythe}}, increasing the {{sbc|Warding}} active to instead have 4 wards in stock.",
+      "effects": "Earn {{g|500}} using this item to upgrade to {{ii|Black Mist Scythe}}, increasing the ''Warding'' active to instead have 4 wards in stock.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,

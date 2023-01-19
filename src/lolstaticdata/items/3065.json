@@ -13,7 +13,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3065_tank_t3_spiritvisage.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3065_tank_t3_spiritvisage.png",
   "simpleDescription": "Increases Health and healing effects",
   "nicknames": [
     "sv"
@@ -23,8 +23,9 @@
       "unique": true,
       "mythic": false,
       "name": "Boundless Vitality",
-      "effects": "Increases all {{tip|heal|healing}} and {{tip|shield|shielding}} received by 25%.",
+      "effects": "Increases all {{tip|heal|healing}} and {{tip|shield|shielding}} received as well as {{stil|health regeneration}} by 25%.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,

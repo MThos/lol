@@ -4,7 +4,7 @@
   "name": "Ryze",
   "title": "the Rune Mage",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Ryze.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Ryze.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -202,7 +202,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Ryze/ability-icon/p",
         "effects": [
           {
-            "description": "Innate: Ryze gains (10% per 100 AP) maximum mana.",
+            "description": "Innate: Ryze increases his maximum mana by (10% per 100 AP).",
             "leveling": []
           }
         ],
@@ -239,7 +239,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Ryze/ability-icon/q",
         "effects": [
           {
-            "description": "Passive: Ryze's other basic ability casts reset Overload's cooldown and charge a Rune stack that lasts 4 seconds, which refreshes on subsequent casts and stacks up to 2 times.",
+            "description": "Passive: Ryze's other basic ability casts reset Overload's cooldown and charge a Rune stack for 4 seconds, refreshing on subsequent casts and stacking up to 2 times.",
             "leveling": []
           },
           {
@@ -266,11 +266,11 @@
                   },
                   {
                     "values": [
-                      50,
-                      50,
-                      50,
-                      50,
-                      50
+                      55,
+                      55,
+                      55,
+                      55,
+                      55
                     ],
                     "units": [
                       "% AP",
@@ -426,11 +426,11 @@
                   },
                   {
                     "values": [
-                      60,
-                      60,
-                      60,
-                      60,
-                      60
+                      70,
+                      70,
+                      70,
+                      70,
+                      70
                     ],
                     "units": [
                       "% AP",
@@ -766,13 +766,14 @@
   },
   "releaseDate": "2009-02-21",
   "releasePatch": "Alpha Week 2",
-  "patchLastChanged": "12.11",
+  "patchLastChanged": "12.19",
   "price": {
     "blueEssence": 450,
     "rp": 260,
     "saleRp": 0
   },
   "lore": "Widely considered one of the most adept sorcerers on Runeterra, Ryze is an ancient, hard-bitten archmage with an impossibly heavy burden to bear. Armed with immense arcane power and a boundless constitution, he tirelessly hunts for World Runes—fragments of the raw magic that once shaped the world from nothingness. He must retrieve these artifacts before they fall into the wrong hands, for Ryze understands the horrors they could unleash on Runeterra.",
+  "faction": "unaffiliated",
   "skins": [
     {
       "name": "Original",
@@ -800,7 +801,7 @@
       "newVoice": false,
       "newQuotes": false,
       "voiceActor": [
-        "Sean Schemmel"
+        "Dave B. Mitchell"
       ],
       "splashArtist": [
         "Joshua 'HUGEnFAST' Brian Smith"
@@ -834,7 +835,7 @@
       "newVoice": false,
       "newQuotes": false,
       "voiceActor": [
-        "Sean Schemmel"
+        "Dave B. Mitchell"
       ],
       "splashArtist": []
     },
@@ -866,7 +867,7 @@
       "newVoice": false,
       "newQuotes": false,
       "voiceActor": [
-        "Sean Schemmel"
+        "Dave B. Mitchell"
       ],
       "splashArtist": []
     },
@@ -885,8 +886,7 @@
       "lore": "Uncle Ryze wants YOU… to get on the rift!",
       "release": "2010-07-03",
       "set": [
-        "Wonders of the World",
-        "American"
+        "Wonders of the World"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/13/13003.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/13/13003.jpg",
@@ -899,7 +899,7 @@
       "newVoice": false,
       "newQuotes": false,
       "voiceActor": [
-        "Sean Schemmel"
+        "Dave B. Mitchell"
       ],
       "splashArtist": [
         "Bo 'chenbowow' Chen"
@@ -919,7 +919,9 @@
       "chromas": [],
       "lore": null,
       "release": "2010-08-31",
-      "set": [],
+      "set": [
+        "Triumphant"
+      ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/13/13004.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/13/13004.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/13/13004.jpg",
@@ -931,7 +933,7 @@
       "newVoice": false,
       "newQuotes": false,
       "voiceActor": [
-        "Sean Schemmel"
+        "Dave B. Mitchell"
       ],
       "splashArtist": [
         "Bo 'chenbowow' Chen"
@@ -965,7 +967,7 @@
       "newVoice": false,
       "newQuotes": false,
       "voiceActor": [
-        "Sean Schemmel"
+        "Dave B. Mitchell"
       ],
       "splashArtist": [
         "Xi Zhang"
@@ -999,7 +1001,7 @@
       "newVoice": false,
       "newQuotes": false,
       "voiceActor": [
-        "Sean Schemmel"
+        "Dave B. Mitchell"
       ],
       "splashArtist": [
         "Viktor Titov",
@@ -1020,7 +1022,9 @@
       "chromas": [],
       "lore": null,
       "release": "2012-02-20",
-      "set": [],
+      "set": [
+        "Bloodstone"
+      ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/13/13007.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/13/13007.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/13/13007.jpg",
@@ -1032,7 +1036,7 @@
       "newVoice": false,
       "newQuotes": false,
       "voiceActor": [
-        "Sean Schemmel"
+        "Dave B. Mitchell"
       ],
       "splashArtist": [
         "Mike Azevedo"
@@ -1066,7 +1070,7 @@
       "newVoice": false,
       "newQuotes": false,
       "voiceActor": [
-        "Sean Schemmel"
+        "Dave B. Mitchell"
       ],
       "splashArtist": [
         "Mist XG"
@@ -1100,7 +1104,7 @@
       "newVoice": false,
       "newQuotes": false,
       "voiceActor": [
-        "Sean Schemmel"
+        "Dave B. Mitchell"
       ],
       "splashArtist": []
     },
@@ -1132,7 +1136,7 @@
       "newVoice": false,
       "newQuotes": false,
       "voiceActor": [
-        "Sean Schemmel"
+        "Dave B. Mitchell"
       ],
       "splashArtist": [
         "Victor '3rdColossus' Maury"
@@ -1188,7 +1192,7 @@
       "newVoice": false,
       "newQuotes": false,
       "voiceActor": [
-        "Sean Schemmel"
+        "Dave B. Mitchell"
       ],
       "splashArtist": []
     },
@@ -1347,7 +1351,7 @@
       "newVoice": false,
       "newQuotes": false,
       "voiceActor": [
-        "Sean Schemmel"
+        "Dave B. Mitchell"
       ],
       "splashArtist": [
         "David Villegas",
@@ -1551,7 +1555,7 @@
       "newVoice": false,
       "newQuotes": false,
       "voiceActor": [
-        "Sean Schemmel"
+        "Dave B. Mitchell"
       ],
       "splashArtist": [
         "Francis Tneh",

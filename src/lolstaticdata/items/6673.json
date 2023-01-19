@@ -16,7 +16,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6673_marksman_t4_crimsonshieldbow.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6673_marksman_t4_crimsonshieldbow.png",
   "simpleDescription": null,
   "nicknames": [],
   "passives": [
@@ -26,6 +26,7 @@
       "name": "Lifeline",
       "effects": "If you would take damage that would reduce you below {{as|30% of your '''maximum''' health}}, you first gain a {{tip|shield}} that absorbs {{pp|250 to 630|1;10 to 18 by 1}} damage for 3 seconds and {{as|{{pp|15 to 35|1;10 to 18 by 1}} '''bonus''' attack damage}} for 8 seconds.",
       "range": null,
+      "cooldown": "90",
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -198,6 +199,7 @@
       "name": "Mythic",
       "effects": null,
       "range": 0,
+      "cooldown": 0,
       "stats": {
         "abilityPower": {
           "flat": 0.0,

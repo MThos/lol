@@ -4,7 +4,7 @@
   "name": "Swain",
   "title": "the Noxian Grand General",
   "fullName": "Jericho Swain",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Swain.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Swain.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -130,13 +130,13 @@
       "percentPerLevel": 0.0
     },
     "aramDamageTaken": {
-      "flat": 1.1,
+      "flat": 1.15,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
     },
     "aramDamageDealt": {
-      "flat": 0.95,
+      "flat": 0.9,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
@@ -239,7 +239,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Swain/ability-icon/q",
         "effects": [
           {
-            "description": "Active: Swain unleashes five bolts of eldritch power in a cone in the target direction that deal magic damage to enemies hit. Subsequent bolts against an enemy deal bonus magic damage.",
+            "description": "Active: Swain unleashes five bolts of eldritch power over 0.264 seconds in a cone in the target direction that deal magic damage to enemies hit. Subsequent bolts against an enemy deal bonus magic damage.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -406,7 +406,7 @@
         "onHitEffects": null,
         "occurrence": null,
         "notes": "Death's Hand will still cast and deal damage if Swain dies during the cast time.\nThis ability will cast from wherever the caster is at the end of the cast time.\nThe total damage to a single target will be split evenly among each bolt that hits, meaning that hitting with more bolts will deal less damage per hit (but more overall damage).\n Spell shield will block all bolts.",
-        "blurb": "Active:  Swain unleashes five bolts of eldritch power in a cone in the target direction that deal magic damage to enemies hit. Subsequent bolts against an enemy deal bonus magic damage.",
+        "blurb": "Active:  Swain unleashes five bolts of eldritch power over 0.264 seconds in a cone in the target direction that deal magic damage to enemies hit. Subsequent bolts against an enemy deal bonus magic damage.",
         "missileSpeed": null,
         "rechargeRate": null,
         "collisionRadius": null,
@@ -467,7 +467,7 @@
                 ]
               },
               {
-                "attribute": "Reduced Damage",
+                "attribute": "Minion Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -504,7 +504,7 @@
                 ]
               },
               {
-                "attribute": "Slow Strength",
+                "attribute": "Slow",
                 "modifiers": [
                   {
                     "values": [
@@ -603,7 +603,7 @@
         "projectile": null,
         "onHitEffects": null,
         "occurrence": null,
-        "notes": "Spell shield does not prevent Swain from ripping a Soul Fragment.\nVision of Empire will also grant Soul Fragments from hitting  clones.\nSwain will not receive the Soul Fragments if Vision of Empire hits enemy champions while he is dead.\nVision of Empire is visible and audible to enemies through the fog of war.\nHitting an enemy champion with Vision of Empire collects nearby Soul Fragments.",
+        "notes": "Enemy  champions protected by a  spell shield do not have a Soul Fragment collected from them but are  revealed anyway.\nVision of Empire will grant Soul Fragments from hitting  clones.\nSwain will not receive the Soul Fragments if Vision of Empire hits enemy champions while he is dead.\nVision of Empire is visible and audible to enemies through the fog of war.\nHitting an enemy champion with Vision of Empire collects nearby Soul Fragments.",
         "blurb": "Active:  Swain summons a demonic eye at the target location that explodes after a brief moment, dealing magic damage and  slowing enemies within for a short time.",
         "missileSpeed": null,
         "rechargeRate": null,
@@ -667,10 +667,10 @@
             ]
           },
           {
-            "description": "At maximum range, the wave homes back to Swain and detonates upon the first enemy hit, dealing magic damage to nearby enemies and rooting and revealing them for 1.5 seconds. Nevermove can be recast while champions hit are rooted.",
+            "description": "At maximum range, the wave homes back to Swain and detonates upon the first enemy hit, dealing magic damage to nearby enemies and rooting them for 1.5 seconds, during which they are revealed. Nevermove can be recast while champions hit are rooted.",
             "leveling": [
               {
-                "attribute": "Detonation Damage",
+                "attribute": "Magic Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -707,7 +707,7 @@
                 ]
               },
               {
-                "attribute": "Maximum Damage",
+                "attribute": "Total Magic Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -918,7 +918,7 @@
             ]
           },
           {
-            "description": "After a 2 second delay, Swain can cast Demonflare and does so automatically when Demonic Ascension expires.",
+            "description": "After 2 seconds, Swain can cast Demonflare, and does so automatically when Demonic Ascension expires.",
             "leveling": []
           },
           {
@@ -1059,6 +1059,7 @@
     "saleRp": 0
   },
   "lore": "Jericho Swain is the visionary ruler of Noxus, an expansionist nation that reveres only strength. Though he was cast down and crippled in the Ionian wars, his left arm severed, he seized control of the empire with ruthless determination… and a new, demonic hand. Now, Swain commands from the front lines, marching against a coming darkness that only he can see—in glimpses gathered by shadowy ravens from the corpses all around him. In a swirl of sacrifice and secrets, the greatest secret of all is that the true enemy lies within.",
+  "faction": "noxus",
   "skins": [
     {
       "name": "Original",
@@ -1174,7 +1175,9 @@
       "chromas": [],
       "lore": "Swain, though a mighty leader of men, was no match for the ancient demon slumbering beneath Noxus. As dark energies flowed through his once-human body, the new Grand General gave his first decree: “Kneel before me, or die.”",
       "release": "2012-05-22",
-      "set": [],
+      "set": [
+        "Otherroads"
+      ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/50/50003.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/50/50003.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/50/50003.jpg",
@@ -1385,7 +1388,7 @@
         "James Faulkner"
       ],
       "splashArtist": [
-        "Art of Maki"
+        "Maki Planas Mata"
       ]
     },
     {
@@ -1565,6 +1568,27 @@
             {
               "rarity": null,
               "region": null
+            }
+          ]
+        },
+        {
+          "name": "Tiffany & Co.",
+          "id": 50022,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/50/50022.png",
+          "colors": [
+            "#6ECFCC",
+            "#ECF9F8"
+          ],
+          "descriptions": [
+            {
+              "description": "This chroma was released as a Loot exclusive in the Worlds 2022 event.",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
             }
           ]
         }

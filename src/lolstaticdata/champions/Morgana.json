@@ -4,7 +4,7 @@
   "name": "Morgana",
   "title": "the Fallen",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Morgana.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Morgana.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -239,7 +239,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Morgana/ability-icon/q",
         "effects": [
           {
-            "description": "Active: Morgana throws a sphere of dark magic in the target direction that deals magic damage to the first enemy hits and roots them for a duration.",
+            "description": "Active: Morgana throws a sphere of dark magic in the target direction that deals magic damage to the first enemy hit and roots them for a duration.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -353,7 +353,7 @@
         "onHitEffects": null,
         "occurrence": null,
         "notes": "This ability will cast from wherever the caster is at the start of the cast time.",
-        "blurb": "Active: Morgana throws a sphere of dark magic in the target direction that deals magic damage to the first enemy hits and  roots them for a \"short time\".",
+        "blurb": "Active: Morgana throws a sphere of dark magic in the target direction that deals magic damage to the first enemy hit and  roots them for a \"short time\".",
         "missileSpeed": null,
         "rechargeRate": null,
         "collisionRadius": null,
@@ -374,11 +374,11 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Morgana/ability-icon/w",
         "effects": [
           {
-            "description": "Passive: Tormented Shadow's current cooldown is reduced by 5% of the maximum whenever Soul Siphon triggers. Simultaneous triggers from multiple targets will stack the cooldown reduction.",
+            "description": "Passive: Tormented Shadow's current cooldown is reduced by 5% of its total cooldown whenever Soul Siphon triggers. Simultaneous triggers from multiple targets will stack the cooldown reduction.",
             "leveling": []
           },
           {
-            "description": "Active: Morgana desecrates the target area for 5 seconds, which deals magic damage instantly as well as every 0.5 seconds to enemies within, increased by 0% − 170% (based on target's missing health). Tormented Soil deals 155% damage against non-epic monsters.",
+            "description": "Active: Morgana torments the soil at the target location, causing the area to become desecrated for 5 seconds. Enemies within take magic damage on-cast and every 0.5 seconds, increased by 0% − 170% (based on target's missing health). Tormented Shadow deals 155% damage against non-epic monsters.",
             "leveling": [
               {
                 "attribute": "Minimum Damage Per Tick",
@@ -603,7 +603,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Morgana/ability-icon/e",
         "effects": [
           {
-            "description": "Active: Morgana shields the target allied champion or herself for 5 seconds, which absorbs magic damage and grants crowd control immunity while the shield holds.",
+            "description": "Active: Morgana grants a shield to the target allied champion or herself for 5 seconds, which absorbs incoming magic damage and grants crowd control immunity while it holds.",
             "leveling": [
               {
                 "attribute": "Magic Shield Strength",
@@ -780,7 +780,7 @@
             ]
           },
           {
-            "description": "Morgana gains bonus movement speed when moving towards enemies tethered to her.",
+            "description": "Morgana gains bonus movement speed while facing enemies tethered to her.",
             "leveling": [
               {
                 "attribute": "Bonus Movement Speed",
@@ -802,7 +802,7 @@
             ]
           },
           {
-            "description": "If a target maintains the tether after its duration, they are dealt the same magic damage again, becoming revealed and stunned for 1.5 seconds.",
+            "description": "If a target does not break their tether by the ends of its duration, they are dealt the same magic damage again and become stunned for 1.5 seconds, during which they are revealed.",
             "leveling": []
           },
           {
@@ -878,6 +878,7 @@
     "saleRp": 0
   },
   "lore": "Conflicted between her celestial and mortal natures, Morgana bound her wings to embrace humanity, and inflicts her pain and bitterness upon the dishonest and the corrupt. She rejects laws and traditions she believes are unjust, and fights for truth from the shadows of Demacia—even as others seek to repress it—by casting shields and chains of dark fire. More than anything else, Morgana truly believes that even the banished and outcast may one day rise again.",
+  "faction": "demacia",
   "skins": [
     {
       "name": "Original",
@@ -973,7 +974,8 @@
       ],
       "splashArtist": [
         "Jessica 'OwleyCat' Oyhenart",
-        "Victor '3rdColossus' Maury"
+        "Victor '3rdColossus' Maury",
+        "Jennifer Wuestling"
       ]
     },
     {
@@ -1504,13 +1506,13 @@
       "lore": "Ultimately, trick-or-treating is less about dark magic and occult superstition, and more about finding a witch costume that actually fits. Have you seen these sizes? Who is this stuff even made for…?!",
       "release": "2016-10-19",
       "set": [
-        "Trick-or-Treat"
+        "Bewitching"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/25/25011.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/25/25011.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/25/25011.jpg",
       "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/morgana/skins/skin11/morganaloadscreen_11.jpg",
-      "loadScreenVintagePath": null,
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/morgana/skins/skin11/morganaloadscreen_11_le.pie_c_12_20.jpg",
       "newEffects": true,
       "newAnimations": true,
       "newRecall": true,
@@ -2056,8 +2058,8 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/25/25039.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/25/25039.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/25/25039.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/morgana/skins/skin39/morganaloadscreen_39.pie_c_11_19.jpg",
-      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/morgana/skins/skin39/morganaloadscreen_39_le.pie_c_11_19.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/morgana/skins/skin39/morganaloadscreen_39.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/morgana/skins/skin39/morganaloadscreen_39_le.jpg",
       "newEffects": true,
       "newAnimations": true,
       "newRecall": true,
@@ -2085,13 +2087,13 @@
       "lore": "Literal magic wasn't necessary for Morgana to nab top prize in the holiday costume contest. But that didn't stop her from casting a figurative spell on the judges with her enchanting ensemble. This is a party they won't soon forget!",
       "release": "2021-10-07",
       "set": [
-        "Trick-or-Treat"
+        "Bewitching"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/25/25041.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/25/25041.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/25/25041.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/morgana/skins/skin41/morganaloadscreen_41.pie_c_11_20.jpg",
-      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/morgana/skins/skin41/morganaloadscreen_41_le.pie_c_11_20.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/morgana/skins/skin41/morganaloadscreen_41.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/morgana/skins/skin41/morganaloadscreen_41_le.jpg",
       "newEffects": true,
       "newAnimations": true,
       "newRecall": true,

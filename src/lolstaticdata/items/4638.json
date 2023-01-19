@@ -12,7 +12,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/4638_enchanter_t3_watchfulsightstone.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/4638_enchanter_t3_watchfulsightstone.png",
   "simpleDescription": null,
   "nicknames": [
     "Support",
@@ -25,6 +25,7 @@
       "name": null,
       "effects": "Automatically upgrades to {{ii|Vigilant Wardstone}} after completing a support quest ({{g|1000}} generated gold) and reaching [[Experience (champion)|level 13]].",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -197,6 +198,7 @@
       "name": "Arcane Cache",
       "effects": "This item can store up to 3 purchased {{ii|Control Ward|Control Wards}}.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,

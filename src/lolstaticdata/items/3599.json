@@ -10,7 +10,7 @@
   "removed": false,
   "requiredChampion": "Kalista",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3599_kalistapassiveitem.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3599_kalistapassiveitem.png",
   "simpleDescription": "Kalista's spear that binds an Oathsworn Ally.",
   "nicknames": [],
   "passives": [],
@@ -18,7 +18,7 @@
     {
       "unique": true,
       "name": "Oathsworn Bond",
-      "effects": "After a {{fd|3.5}}-second [[Channel#Casting Times|cast time]] and a 3-second {{tip|channel}} afterwards from the user and the target allied champion, both become bound allies. The target is unable to act for 6 seconds after the channel's duration. Afterwards, the target is dubbed ''Oathsworn''.",
+      "effects": "After a {{fd|3.5}}-second [[Channel#Casting Times|cast time]] and a 3-second {{tip|channel}} afterwards from the user and the target allied champion, both become bound allies. The target is unable to act for 6 seconds after the channel's duration. Afterwards, the target becomes an ''Oathsworn''.",
       "range": null,
       "cooldown": null
     }

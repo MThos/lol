@@ -10,7 +10,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/1509_gusto.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/1509_gusto.png",
   "simpleDescription": null,
   "nicknames": [],
   "passives": [
@@ -18,8 +18,9 @@
       "unique": true,
       "mythic": false,
       "name": null,
-      "effects": "{{tip|Turrets}} basic attacks are modified to deal {{as|45% of this minion's '''maximum''' health}} as {{tt|pre-mitigation damage|Damage calculated before modifiers}}.",
+      "effects": "{{tip|Turret}} basic attacks are modified to deal {{as|45% of this minion's '''maximum''' health}} as {{tt|pre-mitigation damage|Damage calculated before modifiers}}.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,

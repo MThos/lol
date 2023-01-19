@@ -4,7 +4,7 @@
   "name": "Viego",
   "title": "The Ruined King",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Viego.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Viego.png",
   "resource": "NONE",
   "attackType": "MELEE",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -154,7 +154,7 @@
       "percentPerLevel": 0.0
     },
     "urfDamageTaken": {
-      "flat": 0.95,
+      "flat": 0.9,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
@@ -206,7 +206,7 @@
             "leveling": []
           },
           {
-            "description": "Possession: For 10 seconds, Viego assumes the enemy champion's form and gains their basic attacks, basic abilities, items, and base stats (based on Viego's level). He also gains a free cast of Heartbreaker, which is initially placed on a 1.5-second cooldown, and 10% bonus movement speed while facing an enemy champion within 2500 units.",
+            "description": "Possession: For 10 seconds, Viego assumes the enemy champion's form and gains their basic attacks, basic abilities, items, and base stats (based on Viego's level). He also gains a free cast of Heartbreaker, which is initially placed on a 1.5-second cooldown, and 10% bonus movement speed while facing enemy champions within 2500 units.",
             "leveling": []
           },
           {
@@ -229,7 +229,7 @@
         "projectile": null,
         "onHitEffects": null,
         "occurrence": null,
-        "notes": "Viego will copy the possessed champion's ability ranks.\nViego cannot level up their abilities with his available skill points.\nMist Wraiths will expire when Viego dies, and they will not expire while he is winding up on them.\nViego gains the bonus movement speed during possession even while moving towards nearby enemy champions that are  untargetable.\nFinishing the possessing attack against a Mist Wraith kills it, rewarding Viego an extra  3 as he becomes the target champion.\nThe wind up's  untargetability does not  destroy in-flight  projectiles from  turrets.\nThe possessed champion's abilities do not cost any  mana or  energy even if that specific champion normally uses either as a casting resource.\nAlternative resources, such as  Fury,  Flow, or  Health, will still be utilized.\nThe current cooldowns of Viego's abilities will not be reset between transformations.\nThose of the possessed champion's abilities will be reset between transformations.\nThe passive cooldowns of items are shared between Viego's and the possessed champion's.\nThis does not apply to Lifeline items.(bug)\nOnce possession ends, Viego returns to his normal state and certain effects gained from the possessed champion's abilities will be immediately removed.\nSome buffs will be kept and some buffs will be lost.\nViego will almost always keep  shields and  spell shields.\nPassive effects will be lost by default, as Viego no longer has their abilities.\n Channeled abilities maintained will be interrupted.\nToggled abilities will be automatically toggled off.\nViego retains his own summoner spells, trinket item, and runes during possession.\nMist Wraiths will still spawn while Viego is in a zombie state.\nSovereign's Domination will not summon a Mist Wraith from  clones.\nThe possession will not expire while Viego is in a  zombie state.\nWhile in a zombie state,  Heartbreaker is disabled.\nIf Viego enters a zombie state while winding up on a Mist Wraith, the possession will still last its normal duration.(bug)\nThe possession will not end prematurely if Viego enters  resurrection.\nThe possession will acquire the basic abilities of shapeshifting champions (e.g.  Elise's  Spider Form / Human Form,  Jayce's  Transform Mercury Cannon /  Transform Mercury Hammer, and  Nidalee's  Aspect of the Cougar) based on which form they died as.\nMist Wraiths are considered  clones and can only be targeted by Viego.\nIf Viego possesses an enemy champion who owns  Dark Seal or  Mejai's Soulstealer, he will gain their Glory stacks for the possession.\nAs  Cull tracks its progress for each player even if they do not possess the item at the time, Viego may discharge stacks for the benefit of  1 each per  minion kill, and if Viego killed 100 minions possessing  Cull, no matter whether bought himself or acquired via a possessed champion's inventory, he receives the  350 payout and can no longer discharge stacks.\nThis entire interaction does not interact with the state of the  Cull stacks of the enemy.\nThe stacks shown on the item in the inventory and scoreboard may not update properly, however.\nIf Viego possesses an enemy champion who owns  Relic Shield,  Steel Shoulderguards,  Spellthief's Edge, or  Spectral Sickle, the gold gained from using any one of the items will also count towards Viego's own Quest.\nIf Viego possesses an enemy champion who owns  Tear of the Goddess, the stacks it has will be transferred to his  Tear of the Goddess if he owns one.\nThe following table refers for interactions while Viego is winding up on a Mist Wraith:\n\n\nAttacking\n\nDisabled\n\n\nAbilities\n\nDisabled\n\n\nMovement\n\nDisabled\n\n\nItems\n\nUsable\n\nN/A\n\n\nDisabled\n\nAll items are disabled\n\n\nInterrupted by\n\nN/A\n\n\nConsumables\n\nDisabled\n\n\nSpells\n\nUsable\n\n Barrier  Clarity  Cleanse  Exhaust  Ghost  Heal  Ignite  Smite\n\n\nDisabled\n\n Flash  Teleport  Recall  Hexflash\n\n\nInterrupted by\n\nN/A\n\n\nInterrupted by\n\nDeath",
+        "notes": "Viego will copy the possessed champion's ability ranks.\nViego cannot level up their abilities with his available skill points.\nMist Wraiths will expire when Viego dies, and they will not expire while he is winding up on them.\nViego gains the bonus movement speed during possession even while moving towards nearby enemy champions that are  untargetable.\nFinishing the possessing attack against a Mist Wraith kills it, rewarding Viego an extra  3 as he becomes the target champion.\nThe wind up's  untargetability does not  destroy in-flight  projectiles from  turrets.\nThe possessed champion's abilities do not cost any  mana or  energy even if that specific champion normally uses either as a casting resource.\nAlternative resources, such as  Fury,  Flow, or  Health, will still be utilized.\nThe current cooldowns of Viego's abilities will not be reset between transformations.\nThose of the possessed champion's abilities will be reset between transformations.\nThis does not apply to the following long-cooldown abilities. Viego specifically tracks their proper cooldowns which can be seen via a buff in his hotbar for each when applicable.\n Anivia's  Rebirth\n Azir's  Shurima's Legacy\n Corki's  \"Special Delivery\" Package\n Zac's  Cell Division\nThe passive cooldowns of items are shared between Viego's and the possessed champion's.\nThis does not apply to Lifeline items.(bug)\nOnce possession ends, Viego returns to his normal state and certain effects gained from the possessed champion's abilities will be immediately removed.\nSome buffs will be kept and some buffs will be lost.\nViego will almost always keep  shields and  spell shields.\nPassive effects will be lost by default, as Viego no longer has their abilities.\n Channeled abilities maintained will be interrupted.\nToggled abilities will be automatically toggled off.\nViego retains his own summoner spells, trinket item, and runes during possession.\nMist Wraiths will still spawn while Viego is in a zombie state.\nSovereign's Domination will not summon a Mist Wraith from  clones.\nThe possession will not expire while Viego is in a  zombie state.\nWhile in a zombie state,  Heartbreaker is disabled.\nIf Viego enters a zombie state while winding up on a Mist Wraith, the possession will still last its normal duration.(bug)\nThe possession will not end prematurely if Viego enters  resurrection.\nThe possession will acquire the basic abilities of shapeshifting champions (e.g.  Elise's  Spider Form / Human Form,  Jayce's  Transform Mercury Cannon /  Transform Mercury Hammer, and  Nidalee's  Aspect of the Cougar) based on which form they died as.\nMist Wraiths are considered  clones and can only be targeted by Viego.\nIf Viego possesses an enemy champion who owns  Dark Seal or  Mejai's Soulstealer, he will gain their Glory stacks for the possession.\nAs  Cull tracks its progress for each player even if they do not possess the item at the time, Viego may discharge stacks for the benefit of  1 each per  minion kill, and if Viego killed 100 minions possessing  Cull, no matter whether bought himself or acquired via a possessed champion's inventory, he receives the  350 payout and can no longer discharge stacks.\nThis entire interaction does not interact with the state of the  Cull stacks of the enemy.\nThe stacks shown on the item in the inventory and scoreboard may not update properly, however.\nIf Viego possesses an enemy champion who owns  Relic Shield,  Steel Shoulderguards,  Spellthief's Edge, or  Spectral Sickle, the gold gained from using any one of the items will also count towards Viego's own Quest.\nIf Viego possesses an enemy champion who owns  Tear of the Goddess, the stacks it has will be transferred to his  Tear of the Goddess if he owns one.\nThe following table refers for interactions while Viego is winding up on a Mist Wraith:\n\n\nAttacking\n\nDisabled\n\n\nAbilities\n\nDisabled\n\n\nMovement\n\nDisabled\n\n\nItems\n\nUsable\n\nN/A\n\n\nDisabled\n\nAll items are disabled\n\n\nInterrupted by\n\nN/A\n\n\nConsumables\n\nDisabled\n\n\nSpells\n\nUsable\n\n Barrier  Clarity  Cleanse  Exhaust  Ghost  Heal  Ignite  Smite\n\n\nDisabled\n\n Flash  Teleport  Recall  Hexflash\n\n\nInterrupted by\n\nN/A\n\n\nInterrupted by\n\nDeath",
         "blurb": "Innate: Scoring an enemy champion  takedown will spawn a Mist Wraith for a period.  Viego can consume the Mist Wraith to briefly become  untargetable and  blink to it, which  heals him for a portion of the target's maximum health and grants Possession.",
         "missileSpeed": null,
         "rechargeRate": null,
@@ -362,38 +362,22 @@
                 ]
               },
               {
-                "attribute": "Physical Damage to Monsters",
+                "attribute": "Monster Damage",
                 "modifiers": [
                   {
                     "values": [
-                      15,
-                      30,
-                      45,
-                      60,
-                      75
+                      35,
+                      50,
+                      65,
+                      80,
+                      95
                     ],
                     "units": [
-                      "  × ",
-                      "  × ",
-                      "  × ",
-                      "  × ",
-                      "  × "
-                    ]
-                  },
-                  {
-                    "values": [
-                      20,
-                      20,
-                      20,
-                      20,
-                      20
-                    ],
-                    "units": [
-                      "",
-                      "",
-                      "",
-                      "",
-                      ""
+                      "  ×",
+                      "  ×",
+                      "  ×",
+                      "  ×",
+                      "  ×"
                     ]
                   },
                   {
@@ -494,7 +478,7 @@
             "leveling": []
           },
           {
-            "description": "Spectral Maw can be recast within the duration and automatically cancels afterwards. If the charge is interrupted, Spectral Maw is put on a 3-second cooldown.",
+            "description": "Spectral Maw can be recast at any time within the duration. If the charge completes without reactivation, Spectral Maw is cancelled and placed on full cooldown. If the charge is interrupted, it will be placed on a 3-second cooldown.",
             "leveling": []
           },
           {
@@ -575,7 +559,7 @@
         "projectile": "TRUE",
         "onHitEffects": null,
         "occurrence": null,
-        "notes": "The following table refers for interactions while Viego is  channeling:\n\n\nType\n\nCharge channel\n\n\nAttacking\n\nDisabled\n\n\nAbilities\n\n Harrowed Path is usable.  Blade of the Ruined King and  Heartbreaker are disabled.\n\n\nMovement\n\nAllowed\n\n\nItems\n\nUsable\n\nN/A\n\n\nDisabled\n\nAll items are disabled\n\n\nInterrupted by\n\nN/A\n\n\nConsumables\n\nDisabled, but can still use trinkets.\n\n\nSpells\n\nUsable\n\n Barrier  Clarity  Cleanse  Exhaust  Ghost  Heal  Ignite  Smite  Flash\n\n\nDisabled\n\n Teleport  Recall\n\n\nInterrupted by\n\n Hexflash (Recasts)\n\n\nInterrupted by\n\nDeath Grounding effects Immobilizing effects Cast-inhibiting effects",
+        "notes": "The reduced cooldown from the charge will not occur if Spectral Maw's cooldown is already below 3 seconds.\nThe following table refers for interactions while Viego is  channeling:\n\n\nType\n\nCharge channel\n\n\nAttacking\n\nDisabled\n\n\nAbilities\n\n Harrowed Path is usable.  Blade of the Ruined King and  Heartbreaker are disabled.\n\n\nMovement\n\nAllowed\n\n\nItems\n\nUsable\n\nN/A\n\n\nDisabled\n\nAll items are disabled\n\n\nInterrupted by\n\nN/A\n\n\nConsumables\n\nDisabled, but can still use trinkets.\n\n\nSpells\n\nUsable\n\n Barrier  Clarity  Cleanse  Exhaust  Ghost  Heal  Ignite  Smite  Flash\n\n\nDisabled\n\n Teleport  Recall\n\n\nInterrupted by\n\n Hexflash (Recasts)\n\n\nInterrupted by\n\nDeath Grounding effects Immobilizing effects Cast-inhibiting effects",
         "blurb": "Active:  Viego  charges up to a short time to increase the  range and stun of his blast. Spectral Maw can be recast within the duration and automatically cancels afterwards.",
         "missileSpeed": null,
         "rechargeRate": null,
@@ -725,10 +709,10 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Viego/ability-icon/r",
         "effects": [
           {
-            "description": "Active: Viego gains displacement immunity over the cast time, then blinks to the target location. Upon arrival, he attacks the most wounded enemy champion nearby (alternatively the closest one), which deals bonus physical damage, slows them by 99% for 0.25 seconds, and applies on-hit effects at 100% effectiveness.",
+            "description": "Active: Viego gains displacement immunity over the cast time, then blinks to the target location. Upon arrival, he strikes the most wounded enemy champion nearby, dealing physical damage, slowing them by 99% for 0.25 seconds, and applying on-hit effects at 100% effectiveness. Other nearby enemies are knocked back up to 400-units away based on proximity, though not through terrain.",
             "leveling": [
               {
-                "attribute": "Bonus Physical Damage",
+                "attribute": "Physical Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -759,7 +743,7 @@
             ]
           },
           {
-            "description": "Other nearby enemies are instead dealt 120% AD physical damage, increased by 0% − 100% (based on critical strike chance), and knocked back up to 400-units away based on proximity, though not through terrain.",
+            "description": "All targets hit are dealt 120% AD physical damage, increased by 0% − 100% (based on critical strike chance).",
             "leveling": []
           },
           {
@@ -813,13 +797,14 @@
   },
   "releaseDate": "2021-01-21",
   "releasePatch": "11.2",
-  "patchLastChanged": "12.15",
+  "patchLastChanged": "12.21",
   "price": {
     "blueEssence": 6300,
     "rp": 975,
     "saleRp": 0
   },
   "lore": "Once ruler of a long-lost kingdom, Viego perished over a thousand years ago when his attempt to bring his wife back from the dead triggered the magical catastrophe known as the Ruination. Transformed into a powerful, unliving wraith tortured by an obsessive longing for his centuries-dead queen, Viego now stands as the Ruined King, controlling the deadly Harrowings as he scours Runeterra for anything that might one day restore her, and destroying all in his path as the Black Mist pours endlessly from his cruel, broken heart.",
+  "faction": "shadow-isles",
   "skins": [
     {
       "name": "Original",
@@ -857,7 +842,7 @@
       "name": "Lunar Beast",
       "id": 234001,
       "isBase": false,
-      "availability": "Available",
+      "availability": "Legacy",
       "formatName": "Lunar Beast",
       "lootEligible": true,
       "cost": 1350,
@@ -1224,7 +1209,7 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/234/234010.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/234/234010.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/234/234010.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/viego/skins/skin10/viegoloadscreen_10.pie_c_11_18.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/viego/skins/skin10/viegoloadscreen_10.jpg",
       "loadScreenVintagePath": null,
       "newEffects": true,
       "newAnimations": true,
@@ -1293,6 +1278,210 @@
       ],
       "splashArtist": [
         "Bo 'chenbowow' Chen"
+      ]
+    },
+    {
+      "name": "King",
+      "id": 234021,
+      "isBase": false,
+      "availability": "Available",
+      "formatName": "King",
+      "lootEligible": true,
+      "cost": 1350,
+      "sale": 0,
+      "distribution": null,
+      "rarity": "Epic",
+      "chromas": [
+        {
+          "name": "Catseye",
+          "id": 234023,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/234/234023.png",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Emerald",
+          "id": 234024,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/234/234024.png",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Meteorite",
+          "id": 234026,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/234/234026.png",
+          "colors": [
+            "#5F432B",
+            "#5F432B"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Obsidian",
+          "id": 234029,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/234/234029.png",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Pearl",
+          "id": 234028,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/234/234028.png",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Rose Quartz",
+          "id": 234027,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/234/234027.png",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "TENCENT"
+            }
+          ]
+        },
+        {
+          "name": "Ruby",
+          "id": 234022,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/234/234022.png",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "descriptions": [
+            {
+              "description": "This chroma was released as a bundle exclusive in 2022.",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Turquoise",
+          "id": 234025,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/234/234025.png",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        }
+      ],
+      "lore": "The heir of Camavor, wielder of the Blade of the King, Viego longs to follow in his father's footsteps. To his advisor Kalista, his doubts were clear long before his coronation, as whispers of the sword's bond echoed throughout the Sanctum of Judgement. But he wears the Argent Crown, and with his blade, Sanctity, Viego will strike fear into the enemies of his nation.",
+      "release": "2022-09-09",
+      "set": [
+        "Ruination"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/234/234021.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/234/234021.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/234/234021.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/viego/skins/skin21/viegoloadscreen_21.pie_c_12_17.jpg",
+      "loadScreenVintagePath": null,
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Sean Teale"
+      ],
+      "splashArtist": [
+        "Francis Tneh",
+        "West Studio"
       ]
     }
   ]

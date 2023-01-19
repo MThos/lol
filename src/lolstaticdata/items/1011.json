@@ -7,9 +7,11 @@
     1028
   ],
   "buildsInto": [
+    3084,
     3075,
     3083,
     3116,
+    3143,
     3748,
     4637,
     8001
@@ -19,7 +21,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/1011_class_t2_giantsbelt.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/1011_class_t2_giantsbelt.png",
   "simpleDescription": "Greatly increases Health",
   "nicknames": [],
   "passives": [],

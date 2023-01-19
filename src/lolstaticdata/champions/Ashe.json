@@ -4,7 +4,7 @@
   "name": "Ashe",
   "title": "the Frost Archer",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Ashe.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.23.1/img/champion/Ashe.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -28,7 +28,7 @@
       "percentPerLevel": 0.0
     },
     "manaRegen": {
-      "flat": 6.97,
+      "flat": 7,
       "percent": 0.0,
       "perLevel": 0.4,
       "percentPerLevel": 0.0
@@ -48,7 +48,7 @@
     "attackDamage": {
       "flat": 59,
       "percent": 0.0,
-      "perLevel": 2.96,
+      "perLevel": 2.95,
       "percentPerLevel": 0.0
     },
     "movespeed": {
@@ -130,7 +130,7 @@
       "percentPerLevel": 0.0
     },
     "aramDamageTaken": {
-      "flat": 1.1,
+      "flat": 1.15,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
@@ -201,7 +201,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Ashe/ability-icon/p",
         "effects": [
           {
-            "description": "Innate - Frost Shot: Ashe's basic attacks and ability hits apply Frost to enemies, which slows them by 20% − 30% (based on level) for 2 seconds. Basic attacks against enemies with Frost are modified to deal 110% (+ (75% + 35%) of critical strike chance) damage.",
+            "description": "Innate - Frost Shot: Ashe's basic attacks and ability hits apply Frost to enemies for 2 seconds, which slows them by 20% − 30% (based on level) for the duration. Basic attacks against enemies with Frost are modified to deal 110% (+ (75% + 35%) of critical strike chance) damage.",
             "leveling": []
           },
           {
@@ -253,11 +253,11 @@
                 "modifiers": [
                   {
                     "values": [
-                      20,
                       25,
-                      30,
-                      35,
-                      40
+                      32.5,
+                      40,
+                      47.5,
+                      55
                     ],
                     "units": [
                       "%",
@@ -272,10 +272,10 @@
             ]
           },
           {
-            "description": "Each arrow deals modified physical damage that benefits from Frost Shot and life steal. Flurries trigger on-hit effects only once.",
+            "description": "Each arrow deals modified physical damage that benefits from Frost Shot and life steal. Flurries apply on-hit effects only once.",
             "leveling": [
               {
-                "attribute": "Damage Per Arrow",
+                "attribute": "Physical Damage Per Arrow",
                 "modifiers": [
                   {
                     "values": [
@@ -637,7 +637,7 @@
             "description": "Enemies surrounding the primary target are dealt 50% damage and afflicted with Frost Shot.",
             "leveling": [
               {
-                "attribute": "Secondary Magic Damage",
+                "attribute": "Reduced Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -729,13 +729,14 @@
   },
   "releaseDate": "2009-02-21",
   "releasePatch": "Alpha Week 2",
-  "patchLastChanged": "12.10",
+  "patchLastChanged": "12.22",
   "price": {
     "blueEssence": 450,
     "rp": 260,
     "saleRp": 0
   },
   "lore": "Iceborn warmother of the Avarosan tribe, Ashe commands the most populous horde in the north. Stoic, intelligent, and idealistic, yet uncomfortable with her role as leader, she taps into the ancestral magics of her lineage to wield a bow of True Ice. With her people's belief that she is the mythological hero Avarosa reincarnated, Ashe hopes to unify the Freljord once more by retaking their ancient, tribal lands.",
+  "faction": "freljord",
   "skins": [
     {
       "name": "Original",
@@ -913,7 +914,9 @@
       "chromas": [],
       "lore": null,
       "release": "2011-11-15",
-      "set": [],
+      "set": [
+        "Legacy"
+      ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/22/22005.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/22/22005.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/22/22005.jpg",
@@ -1802,8 +1805,8 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/22/22032.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/22/22032.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/22/22032.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/ashe/skins/skin32/asheloadscreen_32.pie_c_11_16.jpg",
-      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/ashe/skins/skin32/asheloadscreen_32_le.pie_c_11_16.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/ashe/skins/skin32/asheloadscreen_32.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/ashe/skins/skin32/asheloadscreen_32_le.jpg",
       "newEffects": true,
       "newAnimations": true,
       "newRecall": true,
@@ -2018,6 +2021,228 @@
       "splashArtist": [
         "Terence 'Terrylefruit' Cantal"
       ]
+    },
+    {
+      "name": "Lunar Empress",
+      "id": 22052,
+      "isBase": false,
+      "availability": "Upcoming",
+      "formatName": "Lunar Empress",
+      "lootEligible": true,
+      "cost": 1350,
+      "sale": 0,
+      "distribution": null,
+      "rarity": "Epic",
+      "chromas": [
+        {
+          "name": "Emerald",
+          "id": 22055,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/22/22055.png",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Obsidian",
+          "id": 22060,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/22/22060.png",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Pearl",
+          "id": 22059,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/22/22059.png",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Resplendent",
+          "id": 22061,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/22/22061.png",
+          "colors": [
+            "#3766D5",
+            "#C6EB6E"
+          ],
+          "descriptions": [
+            {
+              "description": "This chroma was released as a Loot exclusive in the 2023 Lunar Revel event.",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Rose Quartz",
+          "id": 22056,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/22/22056.png",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "TENCENT"
+            }
+          ]
+        },
+        {
+          "name": "Ruby",
+          "id": 22053,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/22/22053.png",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "descriptions": [
+            {
+              "description": "This chroma was released as a bundle exclusive in 2023.",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Sapphire",
+          "id": 22054,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/22/22054.png",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Tanzanite",
+          "id": 22058,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/22/22058.png",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Turquoise",
+          "id": 22057,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/22/22057.png",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        }
+      ],
+      "lore": "Her people slaughtered, Ashe—daughter of the Emperor of the Great Sea—sought solace on an abandoned island far from home. There, she made alliances with a strange serpent and a sinister would-be king, in the hope that their untapped might could help seize her empire back. It was a hard-fought victory, but the true battle is far from over: diplomacy.",
+      "release": "0000-00-00",
+      "set": [
+        "Lunar Revel"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/22/22052.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/22/22052.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/22/22052.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/ashe/skins/skin52/asheloadscreen_52.pie_c_13_1.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/ashe/skins/skin52/asheloadscreen_52_le.pie_c_13_1.jpg",
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Melissa Hutchison"
+      ],
+      "splashArtist": []
     }
   ]
 }

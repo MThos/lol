@@ -4,7 +4,7 @@
   "name": "LeBlanc",
   "title": "the Deceiver",
   "fullName": "Emilia (Evaine) LeBlanc",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Leblanc.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Leblanc.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -130,13 +130,13 @@
       "percentPerLevel": 0.0
     },
     "aramDamageTaken": {
-      "flat": 0.9,
+      "flat": 0.83,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
     },
     "aramDamageDealt": {
-      "flat": 1.1,
+      "flat": 1.17,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
@@ -202,15 +202,11 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Leblanc/ability-icon/p",
         "effects": [
           {
-            "description": "Innate: When LeBlanc is damaged to 40% maximum health, she creates a clone of herself, after which they both instantly become invisible for 1 second.",
+            "description": "Innate: Periodically, when LeBlanc is damaged to 40% maximum health, she creates a clone of herself, after which they both instantly become invisible for 1 second.",
             "leveling": []
           },
           {
             "description": "The clone can basic attack but deals no damage, lasts for 8 seconds, and starts running 1900 units towards a random place in front of LeBlanc decided the moment it spawns.",
-            "leveling": []
-          },
-          {
-            "description": "Mirror Image can occur only once every few seconds.",
             "leveling": []
           },
           {
@@ -267,7 +263,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Leblanc/ability-icon/q",
         "effects": [
           {
-            "description": "Active: LeBlanc projects an orb at the target enemy that upon arrival deals them magic damage and marks them for 3.5 seconds.",
+            "description": "Active: LeBlanc projects an orb at the target enemy that deals magic damage and marks them for 3.5 seconds.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -312,7 +308,7 @@
             "description": "Leblanc's next damaging ability against the marked target will consume the mark to deal them the same damage again.",
             "leveling": [
               {
-                "attribute": "Total Damage",
+                "attribute": "Total Magic Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -423,7 +419,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Leblanc/ability-icon/w",
         "effects": [
           {
-            "description": "Active: LeBlanc dashes to the target location, dealing magic damage to all nearby enemies upon arrival and leaving a return pad at the cast location for 4 seconds. Distortion can be recast after 0.2 seconds of the dash ending for its duration.",
+            "description": "Active: LeBlanc dashes to the target location, dealing magic damage to all nearby enemies upon arrival and leaving a return pad at the cast location for 4 seconds. Distortion can be recast after 0.2 seconds of the dash ending for the pad's duration.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -523,7 +519,7 @@
         "projectile": null,
         "onHitEffects": null,
         "occurrence": null,
-        "notes": "Distortion will be buffered and cast as soon as the cooldown ends if the player attempts to cast it within 0.5 seconds of the cooldown ending.\nThe recast will be buffered and cast as soon as it becomes available if the player attempts to cast it within 0.3 seconds of it becoming available to cast.\nThe initial cast counts as an ability activation for the purposes of on-cast effects such as  Spellblade and stacking  Force Pulse.\nRecasting the ability does not.\n Mimic: Distortion has the same properties.\nDistortion and  Mimic: Distortion have independent return pads and LeBlanc can travel to both while they are active.\nDistortion's dash speed is unaffected by LeBlanc's movement speed.",
+        "notes": "Distortion will be buffered and cast as soon as the cooldown ends if the player attempts to cast it within 0.5 seconds of the cooldown ending.\nThe recast will be buffered and cast as soon as it becomes available if the player attempts to cast it within 0.3 seconds of it becoming available to cast.\nThe initial cast counts as an ability activation for the purposes of on-cast effects such as  Spellblade and stacking  Force Pulse.\nRecasting the ability does not.\n Mimic: Distortion has the same properties.\nDistortion and  Mimic: Distortion have independent return pads and LeBlanc can travel to both while they are active.\nDistortion's pad duration starts once the dash ends.",
         "blurb": "Active:  LeBlanc  dashes to the target location, dealing magic damage to nearby enemies upon arrival. She leaves behind a return pad at her original location that lasts a few seconds, during which she can recast.",
         "missileSpeed": null,
         "rechargeRate": null,
@@ -545,7 +541,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Leblanc/ability-icon/e",
         "effects": [
           {
-            "description": "Active: LeBlanc flings an illusory chain in the target direction that latches onto the first enemy it hits, dealing them magic damage and forming a tether between LeBlanc and the target for 1.5 seconds, during which the target is revealed.",
+            "description": "Active: LeBlanc flings an illusory chain in the target direction that deals magic damage to the first enemy it hits and forms a tether between LeBlanc and the target for 1.5 seconds, during which they are revealed.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -587,10 +583,10 @@
             ]
           },
           {
-            "description": "If the tether is not broken by the end of its duration, the target is dealt magic damage and is revealed and rooted for 1.5 seconds.",
+            "description": "If the tether is not broken by the end of its duration, the target is dealt magic damage and is rooted for 1.5 seconds, during which they are revealed.",
             "leveling": [
               {
-                "attribute": "Delayed Damage",
+                "attribute": "Magic Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -774,7 +770,7 @@
                 ]
               },
               {
-                "attribute": "Mark Damage",
+                "attribute": "Enhanced Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -803,7 +799,7 @@
                 ]
               },
               {
-                "attribute": "Total Damage",
+                "attribute": "Total Magic Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -868,7 +864,7 @@
             ]
           },
           {
-            "description": "Mimic: Ethereal Chains: Deals modified damage and double damage upon rooting.",
+            "description": "Mimic: Ethereal Chains: Deals modified damage and double damage after the tether lasts its full duration.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -900,7 +896,7 @@
                 ]
               },
               {
-                "attribute": "Root Damage",
+                "attribute": "Enhanced Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -929,7 +925,7 @@
                 ]
               },
               {
-                "attribute": "Total Damage",
+                "attribute": "Total Magic Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -1013,6 +1009,7 @@
     "saleRp": 0
   },
   "lore": "Mysterious even to other members of the Black Rose cabal, LeBlanc is but one of many names for a pale woman who has manipulated people and events since the earliest days of Noxus. Using her magic to mirror herself, the sorceress can appear to anyone, anywhere, and even be in many places at once. Always plotting just out of sight, LeBlanc's true motives are as inscrutable as her shifting identity.",
+  "faction": "noxus",
   "skins": [
     {
       "name": "Original",
@@ -1206,8 +1203,7 @@
       "lore": "LeBlanc is currently evading an international manhunt after making a jet liner filled with passengers disappear, then realizing she had no idea where they went or how to bring them back.",
       "release": "2010-11-02",
       "set": [
-        "Day Job",
-        "Prestigious"
+        "Day Job"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/7/7002.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/7/7002.jpg",
@@ -1509,7 +1505,7 @@
       "newVoice": false,
       "newQuotes": false,
       "voiceActor": [
-        " Carrie Keranen "
+        "Carrie Keranen"
       ],
       "splashArtist": [
         "Choe HeonHwa"
@@ -1900,8 +1896,8 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/7/7033.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/7/7033.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/7/7033.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/leblanc/skins/skin33/leblancloadscreen_33.pie_c_11_16.jpg",
-      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/leblanc/skins/skin33/leblancloadscreen_33_le.pie_c_11_16.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/leblanc/skins/skin33/leblancloadscreen_33.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/leblanc/skins/skin33/leblancloadscreen_33_le.jpg",
       "newEffects": true,
       "newAnimations": true,
       "newRecall": true,
@@ -2136,6 +2132,209 @@
       ],
       "splashArtist": [
         "Jennifer Wuestling"
+      ]
+    },
+    {
+      "name": "Bewitching",
+      "id": 7045,
+      "isBase": false,
+      "availability": "Legacy",
+      "formatName": "Bewitching",
+      "lootEligible": true,
+      "cost": 1350,
+      "sale": 0,
+      "distribution": null,
+      "rarity": "Epic",
+      "chromas": [
+        {
+          "name": "Catseye",
+          "id": 7047,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/7/7047.png",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Emerald",
+          "id": 7048,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/7/7048.png",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Obsidian",
+          "id": 7052,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/7/7052.png",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Pearl",
+          "id": 7053,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/7/7053.png",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Rose Quartz",
+          "id": 7050,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/7/7050.png",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "TENCENT"
+            }
+          ]
+        },
+        {
+          "name": "Ruby",
+          "id": 7046,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/7/7046.png",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "descriptions": [
+            {
+              "description": "This chroma was released as a bundle exclusive in 2022.",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Sapphire",
+          "id": 7051,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/7/7051.png",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Turquoise",
+          "id": 7049,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/7/7049.png",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        }
+      ],
+      "lore": "Everyone shares spooky stories of LeBlanc, the host of this year's celebration! It's said she delights in causing misery; she can turn any Jack-o'-lantern's smile upside down. But there's a softer side to her as well, one she tries to keep hidden, even from herself.",
+      "release": "2022-10-20",
+      "set": [
+        "Bewitching"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/7/7045.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/7/7045.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/7/7045.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/leblanc/skins/skin45/leblancloadscreen_45.pie_c_12_20.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/leblanc/skins/skin45/leblancloadscreen_45_le.pie_c_12_20.jpg",
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Carrie Keranen"
+      ],
+      "splashArtist": [
+        "West Studio"
       ]
     }
   ]

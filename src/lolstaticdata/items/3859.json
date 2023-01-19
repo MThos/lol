@@ -10,7 +10,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3859_tank_t2_targonsbucker.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3859_tank_t2_targonsbucker.png",
   "simpleDescription": null,
   "nicknames": [
     "Support",
@@ -26,6 +26,7 @@
       "name": "Spoils of War",
       "effects": "Grants a charge every 35 seconds, up to 3 charges. Basic attacks can consume a charge to {{tip|execute}} minions {{as|'''below''' 50% of their '''maximum''' health}}. Killing a minion by any means with a charge grants you and the nearest allied champion kill {{g|gold}}. These effects require an allied champion to be {{tt|nearby|1050 range}}. ''Receive diminishing gold from excessive minion kills.''",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -196,8 +197,9 @@
       "unique": true,
       "mythic": false,
       "name": "Quest",
-      "effects": "Earn {{g|500}} using this item to upgrade to {{ii|Bulwark of the Mountain}}, increasing the {{sbc|Ward}} active to instead have 4 wards in stock.",
+      "effects": "Earn {{g|500}} using this item to upgrade to {{ii|Bulwark of the Mountain}}, increasing the ''Warding'' active to instead have 4 wards in stock.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,

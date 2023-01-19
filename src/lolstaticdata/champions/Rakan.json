@@ -4,7 +4,7 @@
   "name": "Rakan",
   "title": "The Charmer",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Rakan.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Rakan.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -201,7 +201,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Rakan/ability-icon/p",
         "effects": [
           {
-            "description": "Innate: Periodically, Rakan generates a 30 − 225 (based on level) (+ 85% AP) shield that lasts until broken. After being out of combat for 5 seconds, any leftover shield will be restored to maximum value.",
+            "description": "Innate: Periodically, Rakan grants himself a shield for 30 − 225 (based on level) (+ 95% AP) that lasts until broken. After being out of combat for 5 seconds, any leftover shield will be restored to maximum value.",
             "leveling": []
           },
           {
@@ -315,11 +315,11 @@
                   },
                   {
                     "values": [
-                      60,
-                      60,
-                      60,
-                      60,
-                      60
+                      70,
+                      70,
+                      70,
+                      70,
+                      70
                     ],
                     "units": [
                       "% AP",
@@ -410,11 +410,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Rakan/ability-icon/w",
         "effects": [
           {
-            "description": "Active: Rakan dashes to the target location.",
-            "leveling": []
-          },
-          {
-            "description": "After a 0.35-second delay upon arrival, he deals magic damage to nearby enemies and knocks them up for 1 second.",
+            "description": "Active: Rakan dashes to the target location. After a 0.35-second delay upon arrival, he deals magic damage to nearby enemies and knocks them up for 1 second.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -536,7 +532,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Rakan/ability-icon/e",
         "effects": [
           {
-            "description": "Active: Rakan shields the target allied champion for 3 seconds and then dashes to and around them. Battle Dance can be recast within 5 seconds at no additional cost.",
+            "description": "Active: Rakan grants a shield to the target allied champion for 3 seconds and then dashes to and around them. Battle Dance can be recast within 5 seconds at no additional cost.",
             "leveling": [
               {
                 "attribute": "Shield Strength",
@@ -662,7 +658,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Rakan/ability-icon/r",
         "effects": [
           {
-            "description": "Active: Rakan breaks into a captivating sprint for 4 seconds, gaining 75% bonus movement speed and becoming ghosted for the duration. During this time, Rakan deals magic damage to enemies he collides with and charms and slows them by 75% for a duration. This cannot affect the same enemy more than once.",
+            "description": "Active: Rakan breaks into a captivating sprint for 4 seconds, gaining ghosting and 75% bonus movement speed for the duration. During this time, he deals magic damage to enemies he collides with and charms and slows them by 75% for a duration. This cannot affect the same enemy more than once.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -782,13 +778,14 @@
   },
   "releaseDate": "2017-04-19",
   "releasePatch": "7.8",
-  "patchLastChanged": "12.15",
+  "patchLastChanged": "12.21",
   "price": {
     "blueEssence": 6300,
     "rp": 975,
     "saleRp": 0
   },
   "lore": "As mercurial as he is charming, Rakan is an infamous vastayan troublemaker and the greatest battle-dancer in Lhotlan tribal history. To the humans of the Ionian highlands, his name has long been synonymous with wild festivals, uncontrollable parties, and anarchic music. Few would suspect this energetic, traveling showman is also partner to the rebel Xayah, and is dedicated to her cause.",
+  "faction": "ionia",
   "skins": [
     {
       "name": "Original",

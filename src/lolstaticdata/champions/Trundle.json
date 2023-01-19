@@ -4,7 +4,7 @@
   "name": "Trundle",
   "title": "the Troll King",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Trundle.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Trundle.png",
   "resource": "MANA",
   "attackType": "MELEE",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -202,7 +202,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Trundle/ability-icon/p",
         "effects": [
           {
-            "description": "Innate: Whenever a nearby enemy dies, Trundle heals himself for 1.8% − 5.5% (based on level) of their maximum health.",
+            "description": "Innate: Whenever a nearby enemy dies, Trundle heals himself for 1.8% − 5.5% (based on level) of the target's maximum health.",
             "leveling": []
           }
         ],
@@ -479,11 +479,11 @@
           "modifiers": [
             {
               "values": [
+                18,
+                17,
+                16,
                 15,
-                14,
-                13,
-                12,
-                11
+                14
               ],
               "units": [
                 "",
@@ -625,7 +625,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Trundle/ability-icon/r",
         "effects": [
           {
-            "description": "Active: Trundle drains the life force out of the target enemy champion, dealing magic damage and healing himself for the same amount. He also steals 40% of their current armor and magic resistance, and increases in size by 18% while reducing the target's size by 9.9%.\nHalf of the total damage and stealing are applied instantly, and the other half, as well as the size modifiers, are applied over the next 4 seconds, even if the target has died.",
+            "description": "Active: Trundle drains the life force out of the target enemy champion, dealing magic damage and healing himself for the same amount. He also steals 40% of their current armor and magic resistance, and increases in size by 18% while reducing the target's size by 9.9%.",
             "leveling": [
               {
                 "attribute": "Total Magic Damage",
@@ -655,7 +655,12 @@
                     ]
                   }
                 ]
-              },
+              }
+            ]
+          },
+          {
+            "description": "Half of the total damage and stealing are applied instantly, and the other half, as well as the size modifiers, are applied every second over the next 4 seconds, even if the target has died.",
+            "leveling": [
               {
                 "attribute": "Initial Magic Damage",
                 "modifiers": [
@@ -763,7 +768,7 @@
         "projectile": null,
         "onHitEffects": null,
         "occurrence": null,
-        "notes": "The total value of armor and magic resist stolen and damage dealt is determined at the time of cast. The stolen stats do not update dynamically relative to the target's stats at any point during the effect, as the steal is applied to the current value of armor and magic resistance.\nTrundle gains 11.7 extra range on his  basic attacks (relative to his and enemy center) as a consequence of his increased size.\nSo do his enemies.\nHe gains 3.78 to 6.255 range against the target he subjugated, depending on their base size, and so does the target against him.\nTrundle will lose the buff if the target enters  resurrection.(bug)\nIf the target becomes  untargetable,  dies, or is too far away or no longer in  sight during the cast time, this ability will cancel but does not go on  cooldown nor pay its cost (if applicable).",
+        "notes": "The total value of armor and magic resist stolen and damage dealt is determined at the time of cast. The stolen stats do not update dynamically relative to the target's stats at any point during the effect, as the steal is applied to the current value of armor and magic resistance.\nTrundle gains 11.7 extra range on his basic attacks (relative to his and enemy center) as a consequence of his increased size.\nSo do his enemies.\nHe gains 3.78 to 6.255 range against the target he subjugated, depending on their base size, and so does the target against him.\nTrundle will lose the buff if the target enters  resurrection.(bug)\nIf the target becomes  untargetable,  dies, or is too far away or no longer in  sight during the cast time, this ability will cancel but does not go on  cooldown nor pay its cost (if applicable).",
         "blurb": "Active:  Trundle drains the life force of the target enemy champion, dealing magic damage based on their maximum health and  healing for the same amount. He also steals a portion of their  armor and  magic resist, and increases in size while reducing their size.",
         "missileSpeed": null,
         "rechargeRate": null,
@@ -782,13 +787,14 @@
   },
   "releaseDate": "2010-12-01",
   "releasePatch": "1.0.0.106",
-  "patchLastChanged": "12.14",
+  "patchLastChanged": "12.17",
   "price": {
     "blueEssence": 3150,
     "rp": 790,
     "saleRp": 0
   },
   "lore": "Trundle is a hulking and devious troll with a particularly vicious streak, and there is nothing he cannot bludgeon into submission—not even the Freljord itself. Fiercely territorial, he chases down anyone foolish enough to enter his domain. Then, his massive club of True Ice at the ready, he chills his enemies to the bone and impales them with jagged, frozen pillars, laughing as they bleed out onto the tundra.",
+  "faction": "freljord",
   "skins": [
     {
       "name": "Original",
@@ -915,7 +921,9 @@
       "newRecall": false,
       "newVoice": true,
       "newQuotes": false,
-      "voiceActor": [],
+      "voiceActor": [
+        "Joshua Tomar"
+      ],
       "splashArtist": [
         "Mitchell Malloy"
       ]
@@ -1124,6 +1132,210 @@
       ],
       "splashArtist": [
         "Lucas Parolin",
+        "West Studio"
+      ]
+    },
+    {
+      "name": "Fright Night",
+      "id": 48012,
+      "isBase": false,
+      "availability": "Available",
+      "formatName": "Fright Night",
+      "lootEligible": true,
+      "cost": 1350,
+      "sale": 0,
+      "distribution": null,
+      "rarity": "Epic",
+      "chromas": [
+        {
+          "name": "Catseye",
+          "id": 48015,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/48/48015.png",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Emerald",
+          "id": 48016,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/48/48016.png",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Pearl",
+          "id": 48019,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/48/48019.png",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Rose Quartz",
+          "id": 48017,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/48/48017.png",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "TENCENT"
+            }
+          ]
+        },
+        {
+          "name": "Ruby",
+          "id": 48013,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/48/48013.png",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "descriptions": [
+            {
+              "description": "This chroma was released as a bundle exclusive in 2022.",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Sapphire",
+          "id": 48020,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/48/48020.png",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Tanzanite",
+          "id": 48018,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/48/48018.png",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Turquoise",
+          "id": 48014,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/48/48014.png",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        }
+      ],
+      "lore": "Teenage nightmare Trundle leaves everything distressed<br>But he won't lift a finger cleaning up his mess<br>Howling, growling, scowling, his chores he won't address,<br>For he has a team (or two) of Scareball players to impress!",
+      "release": "2022-09-22",
+      "set": [
+        "Fright Night"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/48/48012.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/48/48012.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/48/48012.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/skin12/trundleloadscreen_12.pie_c_12_18.jpg",
+      "loadScreenVintagePath": null,
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Joshua Tomar"
+      ],
+      "splashArtist": [
+        "David Villegas",
         "West Studio"
       ]
     }

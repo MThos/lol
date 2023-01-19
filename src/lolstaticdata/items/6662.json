@@ -1,12 +1,12 @@
 {
-  "name": "Frostfire Gauntlet",
+  "name": "Iceborn Gauntlet",
   "id": 6662,
   "tier": 3,
   "rank": [],
   "buildsFrom": [
-    6660,
-    1033,
-    1029
+    3057,
+    3067,
+    1031
   ],
   "buildsInto": [
     7005
@@ -16,191 +16,17 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6662_tank_t4_frostfiregauntlet.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6662_tank_t3_iceborngauntlet.png",
   "simpleDescription": "High Magic Resist.Passively slow nearby enemies. When spells are cast near you, release a wave of energy that damages and slows.",
-  "nicknames": [
-    "iceborn",
-    "chilly mittens"
-  ],
+  "nicknames": [],
   "passives": [
     {
       "unique": true,
       "mythic": false,
-      "name": "Immolate",
-      "effects": "Taking or dealing damage activates this passive for 3 seconds. Deal {{as|12 {{as|(+ 1% '''bonus''' health)}} magic damage|magic damage}} every second to enemies within {{tip|cr|icononly = true}} 325 (+ 100% '''bonus''' [[size]]) units, increased by 25% against minions and 150% against monsters. This executes minions that would be killed by one more tick of damage.",
+      "name": "Spellblade",
+      "effects": "After using an [[champion ability|ability]], your next basic attack within 10 seconds deals {{as|100% '''base''' AD}} {{as|'''bonus''' physical damage}} [[on-hit]] and creates a 300 radius frost field for {{fd|2.5}} seconds. Enemies within the field are slowed by {{rd|15%|{{fd|7.5}}%}} {{as|(+ {{rd|{{fd|0.4}}%|{{fd|0.2}}%}} per 100 '''maximum''' health)}}. Your primary target is slowed for double the amount and has their damage against you reduced by 10% for {{fd|2.5}} seconds.",
       "range": null,
-      "stats": {
-        "abilityPower": {
-          "flat": 0.0,
-          "percent": 0.0,
-          "perLevel": 0.0,
-          "percentPerLevel": 0.0,
-          "percentBase": 0.0,
-          "percentBonus": 0.0
-        },
-        "armor": {
-          "flat": 0.0,
-          "percent": 0.0,
-          "perLevel": 0.0,
-          "percentPerLevel": 0.0,
-          "percentBase": 0.0,
-          "percentBonus": 0.0
-        },
-        "armorPenetration": {
-          "flat": 0.0,
-          "percent": 0.0,
-          "perLevel": 0.0,
-          "percentPerLevel": 0.0,
-          "percentBase": 0.0,
-          "percentBonus": 0.0
-        },
-        "attackDamage": [
-          {
-            "flat": 0.0,
-            "percent": 0.0,
-            "perLevel": 0.0,
-            "percentPerLevel": 0.0,
-            "percentBase": 0.0,
-            "percentBonus": 0.0
-          }
-        ],
-        "attackSpeed": {
-          "flat": 0.0,
-          "percent": 0.0,
-          "perLevel": 0.0,
-          "percentPerLevel": 0.0,
-          "percentBase": 0.0,
-          "percentBonus": 0.0
-        },
-        "cooldownReduction": {
-          "flat": 0.0,
-          "percent": 0.0,
-          "perLevel": 0.0,
-          "percentPerLevel": 0.0,
-          "percentBase": 0.0,
-          "percentBonus": 0.0
-        },
-        "criticalStrikeChance": {
-          "flat": 0.0,
-          "percent": 0.0,
-          "perLevel": 0.0,
-          "percentPerLevel": 0.0,
-          "percentBase": 0.0,
-          "percentBonus": 0.0
-        },
-        "goldPer_10": {
-          "flat": 0.0,
-          "percent": 0.0,
-          "perLevel": 0.0,
-          "percentPerLevel": 0.0,
-          "percentBase": 0.0,
-          "percentBonus": 0.0
-        },
-        "healAndShieldPower": {
-          "flat": 0.0,
-          "percent": 0.0,
-          "perLevel": 0.0,
-          "percentPerLevel": 0.0,
-          "percentBase": 0.0,
-          "percentBonus": 0.0
-        },
-        "health": {
-          "flat": 0.0,
-          "percent": 0.0,
-          "perLevel": 0.0,
-          "percentPerLevel": 0.0,
-          "percentBase": 0.0,
-          "percentBonus": 0.0
-        },
-        "healthRegen": {
-          "flat": 0.0,
-          "percent": 0.0,
-          "perLevel": 0.0,
-          "percentPerLevel": 0.0,
-          "percentBase": 0.0,
-          "percentBonus": 0.0
-        },
-        "lethality": {
-          "flat": 0.0,
-          "percent": 0.0,
-          "perLevel": 0.0,
-          "percentPerLevel": 0.0,
-          "percentBase": 0.0,
-          "percentBonus": 0.0
-        },
-        "lifesteal": {
-          "flat": 0.0,
-          "percent": 0.0,
-          "perLevel": 0.0,
-          "percentPerLevel": 0.0,
-          "percentBase": 0.0,
-          "percentBonus": 0.0
-        },
-        "magicPenetration": {
-          "flat": 0.0,
-          "percent": 0.0,
-          "perLevel": 0.0,
-          "percentPerLevel": 0.0,
-          "percentBase": 0.0,
-          "percentBonus": 0.0
-        },
-        "magicResistance": {
-          "flat": 0.0,
-          "percent": 0.0,
-          "perLevel": 0.0,
-          "percentPerLevel": 0.0,
-          "percentBase": 0.0,
-          "percentBonus": 0.0
-        },
-        "mana": {
-          "flat": 0.0,
-          "percent": 0.0,
-          "perLevel": 0.0,
-          "percentPerLevel": 0.0,
-          "percentBase": 0.0,
-          "percentBonus": 0.0
-        },
-        "manaRegen": {
-          "flat": 0.0,
-          "percent": 0.0,
-          "perLevel": 0.0,
-          "percentPerLevel": 0.0,
-          "percentBase": 0.0,
-          "percentBonus": 0.0
-        },
-        "movespeed": 0.0,
-        "abilityHaste": {
-          "flat": 0.0,
-          "percent": 0.0,
-          "perLevel": 0.0,
-          "percentPerLevel": 0.0,
-          "percentBase": 0.0,
-          "percentBonus": 0.0
-        },
-        "omnivamp": {
-          "flat": 0.0,
-          "percent": 0.0,
-          "perLevel": 0.0,
-          "percentPerLevel": 0.0,
-          "percentBase": 0.0,
-          "percentBonus": 0.0
-        },
-        "tenacity": {
-          "flat": 0.0,
-          "percent": 0.0,
-          "perLevel": 0.0,
-          "percentPerLevel": 0.0,
-          "percentBase": 0.0,
-          "percentBonus": 0.0
-        }
-      }
-    },
-    {
-      "unique": true,
-      "mythic": false,
-      "name": "Snowbind",
-      "effects": "Basic attacks create a 250 radius frost field around the target that lasts for {{fd|1.5}} seconds and deals {{as|{{rd|12 to 85|6 to 42.5|pp=true}}|magic damage}} {{as|magic damage}} to all enemies inside initially and {{tip|slow|slows}} all enemies within by {{rd|25%|{{fd|12.5%}}}} {{as|(+ {{rd|4%|2%}} per 1000 '''maximum''' health)}} for {{fd|1.5}} seconds.",
-      "range": null,
+      "cooldown": "{{fd|1.5}} (begins after using the empowered attack)",
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -373,6 +199,7 @@
       "name": "Mythic",
       "effects": null,
       "range": 0,
+      "cooldown": 0,
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -447,7 +274,7 @@
           "percentBonus": 0.0
         },
         "health": {
-          "flat": 100.0,
+          "flat": 50.0,
           "percent": 0.0,
           "perLevel": 0.0,
           "percentPerLevel": 0.0,
@@ -535,7 +362,7 @@
           "percentBonus": 0.0
         },
         "tenacity": {
-          "flat": 0.0,
+          "flat": 5.0,
           "percent": 0.0,
           "perLevel": 0.0,
           "percentPerLevel": 0.0,
@@ -556,7 +383,7 @@
       "percentBonus": 0.0
     },
     "armor": {
-      "flat": 25.0,
+      "flat": 50.0,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0,
@@ -620,7 +447,7 @@
       "percentBonus": 0.0
     },
     "health": {
-      "flat": 450.0,
+      "flat": 400.0,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0,
@@ -660,7 +487,7 @@
       "percentBonus": 0.0
     },
     "magicResistance": {
-      "flat": 25.0,
+      "flat": 0.0,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0,
@@ -718,9 +545,9 @@
   },
   "shop": {
     "prices": {
-      "total": 2800,
+      "total": 3000,
       "combined": 0,
-      "sell": 1120
+      "sell": 1200
     },
     "purchasable": true,
     "tags": [

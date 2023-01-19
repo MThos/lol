@@ -14,7 +14,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3124_marksman_t3_guinsoosrageblade.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3124_marksman_t3_guinsoosrageblade.png",
   "simpleDescription": null,
   "nicknames": [],
   "passives": [
@@ -24,6 +24,7 @@
       "name": "Wrath",
       "effects": "Convert every {{as|1% critical strike chance}} into {{as|2 '''bonus''' physical damage}} [[on-hit]], capped at {{as|100% critical strike chance}}, for a '''maximum''' of {{as|200 '''bonus''' physical damage}} on-hit. This damage is affected by {{tip|critical strike}} modifiers.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -196,6 +197,7 @@
       "name": "Seething Strike",
       "effects": "Basic attacks [[on-attack]] grant a stack for 6 seconds, up to 2 stacks. At 2 stacks, the next basic attack consumes all stacks on-attack to trigger a ''Phantom Hit'' that applies {{tip|on-hit}} effects to the target at 100% effectiveness after a {{fd|0.15}} second delay.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,

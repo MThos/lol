@@ -14,7 +14,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6609_fighter_t3_chempunkchainsword.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6609_fighter_t3_chempunkchainsword.png",
   "simpleDescription": null,
   "nicknames": [
     "grievous"
@@ -26,6 +26,7 @@
       "name": "Hackshorn",
       "effects": "Dealing {{as|physical damage}} to enemy champions inflicts them with 25% {{tip|Grievous Wounds}} for 3 seconds, increased to 40% if the target is left with less than {{as|50% of their '''maximum''' health}}.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,

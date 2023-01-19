@@ -10,7 +10,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3048_mage_t3_seraphsembrace.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3048_mage_t3_seraphsembrace.png",
   "simpleDescription": null,
   "nicknames": [],
   "passives": [
@@ -20,6 +20,7 @@
       "name": "Awe",
       "effects": "Grants {{as|ability haste}} equal to {{as|{{fd|1.3}}% '''bonus''' mana}}.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -192,6 +193,7 @@
       "name": "Empyrean",
       "effects": "{{tip|Heal}} for {{as|25% of mana spent}}, up to {{pp|25 to 50}} {{as|(+ 10% AP)}} per cast. Toggle abilities can heal up to {{pp|25 to 50}} {{as|(+ 10% AP)}} per second.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,

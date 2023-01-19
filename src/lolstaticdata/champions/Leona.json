@@ -4,7 +4,7 @@
   "name": "Leona",
   "title": "the Radiant Dawn",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Leona.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Leona.png",
   "resource": "MANA",
   "attackType": "MELEE",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -136,7 +136,7 @@
       "percentPerLevel": 0.0
     },
     "aramDamageDealt": {
-      "flat": 1.0,
+      "flat": 0.9,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
@@ -202,7 +202,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Leona/ability-icon/p",
         "effects": [
           {
-            "description": "Innate: Leona's abilities against enemies apply a mark that lasts 1.5 seconds, which refreshes on subsequent hits. Allied champions' damaging attacks and abilities against a marked target will consume the mark to deal 32 − 168 (based on level) bonus magic damage.",
+            "description": "Innate: Leona's abilities mark enemies hit for 1.5 seconds, refreshing on subsequent hits. Allied champions' damaging attacks and abilities against a marked target will consume the mark to deal 32 − 168 (based on level) bonus magic damage.",
             "leveling": []
           }
         ],
@@ -550,7 +550,7 @@
         "onHitEffects": null,
         "occurrence": null,
         "notes": "Neither the cast nor detonation of Eclipse interrupts any of Leona's previous orders or ongoing attack windups.\nThe resistance scaling will factor from all other sources, excluding Eclipse's flat bonus. This will recalculate over the duration.\n Spell shield will block the damage but Eclipse's extended duration will not be prevented.",
-        "blurb": "Active:  Leona raises her guard for a short time, gaining flat  damage reduction,  bonus armor and  bonus magic resistance.",
+        "blurb": "Active:  Leona raises her guard for a short time, gaining flat damage reduction,  bonus armor and  bonus magic resistance.",
         "missileSpeed": null,
         "rechargeRate": null,
         "collisionRadius": null,
@@ -727,7 +727,7 @@
             ]
           },
           {
-            "description": "Enemies hit are also slowed by 80% for 1.75 seconds, or stunned for the same duration if they are hit by the epicenter.",
+            "description": "Targets are also slowed by 80% for 1.75 seconds, or stunned for the same duration if they are hit by the epicenter.",
             "leveling": []
           }
         ],
@@ -799,6 +799,7 @@
     "saleRp": 0
   },
   "lore": "Imbued with the fire of the sun, Leona is a holy warrior of the Solari who defends Mount Targon with her Zenith Blade and the Shield of Daybreak. Her skin shimmers with starfire while her eyes burn with the power of the celestial Aspect within her. Armored in gold and bearing a terrible burden of ancient knowledge, Leona brings enlightenment to some, death to others.",
+  "faction": "mount-targon",
   "skins": [
     {
       "name": "Original",
@@ -1577,7 +1578,7 @@
       "lootEligible": true,
       "cost": "special",
       "sale": 0,
-      "distribution": "125 Mythic Essence",
+      "distribution": "150 Mythic Essence",
       "rarity": "Mythic",
       "chromas": [],
       "lore": "After being selected for the yearly cross-academy tournament, Leona sharpened her combat prowess almost every free moment she had, knowing she had to beat out other top-ranking students from rival schools like Durandal, Babylon, Amrita, and Sharur. Her bloodlust now honed and her shield at the ready, she will pummel anyone who challenges her into a meaty pulp.",

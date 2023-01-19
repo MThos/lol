@@ -15,7 +15,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3001_support_lunari.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3001_support_lunari.png",
   "simpleDescription": "Nearby enemies take more magic damage",
   "nicknames": [],
   "passives": [
@@ -23,8 +23,9 @@
       "unique": true,
       "mythic": false,
       "name": "Coruscation",
-      "effects": "Becoming affected by or applying an {{tip|immobilize|immobilizing}} or {{tip|ground|grounding}} effect to or from an enemy champion affects them and all enemy champions in {{tip|cr|icononly = true}} 600 radius around you with ''Repent'', increasing the damage they take by 9% for 4 seconds.",
+      "effects": "Becoming affected by or applying an {{tip|immobilize|immobilizing}} or {{tip|ground|grounding}} effect to or from an enemy champion affects them and all enemy champions within {{tip|cr|icononly = true}} 600 units of you with ''Repent'', increasing the damage they take by 10% for 5 seconds.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -103,10 +104,10 @@
         "health": {
           "flat": 0.0,
           "percent": 0.0,
-          "perLevel": 0.0,
-          "percentPerLevel": 0.0,
-          "percentBase": 0.0,
-          "percentBonus": 0.0
+          "per_level": 0.0,
+          "percent_per_level": 0.0,
+          "percent_base": 0.0,
+          "percent_bonus": 0.0
         },
         "healthRegen": {
           "flat": 0.0,
@@ -197,6 +198,7 @@
       "name": "Mythic",
       "effects": null,
       "range": 0,
+      "cooldown": 0,
       "stats": {
         "abilityPower": {
           "flat": 0.0,

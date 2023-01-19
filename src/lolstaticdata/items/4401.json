@@ -14,7 +14,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/4401_tank_t3_forceofnature.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/4401_tank_t3_forceofnature.png",
   "simpleDescription": "Move Speed, Magic Resist, and max Health Regeneration",
   "nicknames": [
     "fon"
@@ -26,6 +26,7 @@
       "name": "Absorb",
       "effects": "Taking {{as|magic damage}} from champions grants a stack of ''Steadfast'' for 7 seconds, stacking up to 6 times with the duration refreshing on subsequent {{as|magic damage}} from them and whenever dealing damage to them. Becoming {{tip|immobilize|immobilized}} by an enemy champion grants 2 stacks and also refreshes the duration. Damaging basic attacks and spells per {{tip|cast instance}} can only grant 1 stack of ''Steadfast'' every 1 second.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -38,10 +39,10 @@
         "armor": {
           "flat": 0.0,
           "percent": 0.0,
-          "perLevel": 0.0,
-          "percentPerLevel": 0.0,
-          "percentBase": 0.0,
-          "percentBonus": 0.0
+          "per_level": 0.0,
+          "percent_per_level": 0.0,
+          "percent_base": 0.0,
+          "percent_bonus": 0.0
         },
         "armorPenetration": {
           "flat": 0.0,
@@ -198,6 +199,7 @@
       "name": "Dissipate",
       "effects": "While at 6 stacks of ''Steadfast'', gain {{as|10% '''bonus''' movement speed}} and reduce all incoming {{as|magic damage}} by 25%.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,

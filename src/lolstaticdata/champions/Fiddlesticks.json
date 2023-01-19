@@ -4,7 +4,7 @@
   "name": "Fiddlesticks",
   "title": "the Ancient Fear",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Fiddlesticks.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Fiddlesticks.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -136,7 +136,7 @@
       "percentPerLevel": 0.0
     },
     "aramDamageDealt": {
-      "flat": 1.0,
+      "flat": 0.95,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
@@ -492,11 +492,11 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Fiddlesticks/ability-icon/w",
         "effects": [
           {
-            "description": "Active: Fiddlesticks forms a tether between itself and each nearby enemy over the cast time, then channels for up to 2 seconds to harvest their souls, revealing itself in the process.",
+            "description": "Active: Fiddlesticks forms a tether between itself and each nearby enemy over the cast time, then channels for up to 2 seconds to harvest their souls, revealing them in the process.",
             "leveling": []
           },
           {
-            "description": "While Fiddlesticks is channeling, tethered enemies are revealed and dealt magic damage every 0.25 seconds, with the final tick at the end of the channel dealing additional magic damage. Bountiful Harvest deals 135% damage against monsters and 50% damage against minions.",
+            "description": "While Fiddlesticks is channeling, the tethered enemies are dealt magic damage every 0.25 seconds, with the final tick at the end of the channel dealing additional magic damage. Bountiful Harvest deals 135% damage against monsters and 50% damage against minions.",
             "leveling": [
               {
                 "attribute": "Magic Damage per Tick",
@@ -829,7 +829,7 @@
             ]
           },
           {
-            "description": "Bountiful Harvest ends if all targets have died or broken their tethers. If the channel was not interrupted, 60% of the remaining cooldown is refunded.",
+            "description": "Bountiful Harvest ends if all targets have died or broken their tethers. If the channel was not interrupted, 60% of the current cooldown is refunded.",
             "leveling": []
           },
           {
@@ -1183,6 +1183,7 @@
     "saleRp": 0
   },
   "lore": "Something has awoken in Runeterra. Something ancient. Something terrible. The ageless horror known as Fiddlesticks stalks the edges of mortal society, drawn to areas thick with paranoia where it feeds upon terrorized victims. Wielding a jagged scythe, the haggard, makeshift creature reaps fear itself, shattering the minds of those unlucky enough to survive in its wake. Beware the sounding of the crow, or the whispering of the shape that appears <i>almost</i> human… Fiddlesticks has returned.",
+  "faction": "unaffiliated",
   "skins": [
     {
       "name": "Original",
@@ -1266,8 +1267,7 @@
       "lore": "A gruesome spectre, rumored to stand eternally watchful over a peculiar book of fables. Brave knights and cruel sorceresses alike have tried in vain to reach the tome, but none have ever returned. Perhaps that lost queendom of old isn't so fictional after all…",
       "release": "2010-03-16",
       "set": [
-        "Omen of the Dark",
-        "Spectral"
+        "Omen of the Dark"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/9/9001.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/9/9001.jpg",
@@ -1637,8 +1637,7 @@
       "lore": "Everyone told you hiring a clown would be a good idea. “Clowns are great for parties,” they said. But now everyone's missing, and the power is out, and something's laughing just down the hall...",
       "release": "2011-10-27",
       "set": [
-        "Surprise Party",
-        "Anniversary"
+        "Surprise Party"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/9/9006.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/9/9006.jpg",
@@ -1885,7 +1884,7 @@
         "N/A"
       ],
       "splashArtist": [
-        "Bo 'chenbowow' Chen"
+        "Maki Planas Mata"
       ]
     },
     {

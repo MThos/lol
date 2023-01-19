@@ -13,7 +13,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3094_marksman_t3_rapidfirehandcannon.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3094_marksman_t3_rapidfirehandcannon.png",
   "simpleDescription": "Movement builds charges that release a sieging fire attack on release",
   "nicknames": [
     "canon",
@@ -27,6 +27,7 @@
       "name": "Energized",
       "effects": "Moving and basic attacking generates ''Energize'' stacks, up to 100.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -197,8 +198,9 @@
       "unique": true,
       "mythic": false,
       "name": "Sharpshooter",
-      "effects": "When fully {{tip|Energized}}, your next basic attack deals {{as|120 '''bonus''' magic damage}} [[on-hit]]. Energized attacks gain 35% '''bonus''' [[range]], capped at 150.",
+      "effects": "When fully {{tip|Energized}}, your next basic attack deals {{as|120 '''bonus''' magic damage}} [[on-hit]]. ''Energized'' attacks gain 35% '''bonus''' range, capped at 150.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,

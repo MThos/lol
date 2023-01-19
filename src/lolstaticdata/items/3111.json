@@ -13,7 +13,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3111_class_t2_mercurystreads.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3111_class_t2_mercurystreads.png",
   "simpleDescription": "Increases Move Speed and reduces duration of disabling effects",
   "nicknames": [
     "boots",
@@ -33,10 +33,10 @@
     "armor": {
       "flat": 0.0,
       "percent": 0.0,
-      "perLevel": 0.0,
-      "percentPerLevel": 0.0,
-      "percentBase": 0.0,
-      "percentBonus": 0.0
+      "per_level": 0.0,
+      "percent_per_level": 0.0,
+      "percent_base": 0.0,
+      "percent_bonus": 0.0
     },
     "armorPenetration": {
       "flat": 0.0,
@@ -57,10 +57,10 @@
     "attackSpeed": {
       "flat": 0.0,
       "percent": 0.0,
-      "perLevel": 0.0,
-      "percentPerLevel": 0.0,
-      "percentBase": 0.0,
-      "percentBonus": 0.0
+      "per_level": 0.0,
+      "percent_per_level": 0.0,
+      "percent_base": 0.0,
+      "percent_bonus": 0.0
     },
     "cooldownReduction": {
       "flat": 0.0,

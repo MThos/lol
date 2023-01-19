@@ -4,7 +4,7 @@
   "name": "Rumble",
   "title": "the Mechanized Menace",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Rumble.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Rumble.png",
   "resource": "HEAT",
   "attackType": "MELEE",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -202,7 +202,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Rumble/ability-icon/p",
         "effects": [
           {
-            "description": "Innate: Rumble's basic ability casts generate Heat, which refreshes on subsequent casts and expires by 10 Heat per second after not using any basic ability within 4 seconds or The Equalizer within 2 seconds. Rumble's mech enters the Danger Zone when at or above 50 Heat , and becomes Overheated while at 100 Heat.",
+            "description": "Innate: Rumble's basic ability casts generate Heat, which refreshes on subsequent casts and decays by 10 Heat per second after not using any basic ability within 4 seconds or The Equalizer within 2 seconds. Rumble's mech enters the Danger Zone when at or above 50 Heat, and becomes Overheated while at 100 Heat.",
             "leveling": []
           },
           {
@@ -287,7 +287,7 @@
                 ]
               },
               {
-                "attribute": "Damage Per Tick",
+                "attribute": "Magic Damage Per Tick",
                 "modifiers": [
                   {
                     "values": [
@@ -324,7 +324,7 @@
                 ]
               },
               {
-                "attribute": "Minion Damage Percentage",
+                "attribute": "Modified Minion Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -627,7 +627,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Rumble/ability-icon/w",
         "effects": [
           {
-            "description": "Active: Rumble generates 20 Heat to shield himself for 1.5 seconds.",
+            "description": "Active: Rumble generates 20 Heat to grant himself a shield for 1.5 seconds.",
             "leveling": [
               {
                 "attribute": "Shield Strength",
@@ -695,7 +695,7 @@
             ]
           },
           {
-            "description": "Danger Zone Bonus: Scrap Shield's shield strength and bonus movement speed are increased by 50%.",
+            "description": "Danger Zone Bonus: Scrap Shield's shield strength and bonus movement speed are increased in effectiveness by 50%.",
             "leveling": [
               {
                 "attribute": "Enhanced Shield Strength",
@@ -811,7 +811,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Rumble/ability-icon/e",
         "effects": [
           {
-            "description": "Active: Rumble generates 10 Heat to shoot a harpoon in the target direction that deals magic damage to the first enemy hit, inflicting them with 10% magic resistance reduction for 4 seconds and slowing them for 2 seconds. These effects stack additively with multiple harpoons.",
+            "description": "Active: Rumble generates 10 Heat to shoot a harpoon in the target direction that deals magic damage to the first enemy hit, inflicting them with 10% magic resistance reduction for 4 seconds and slowing them for 2 seconds. These effects stack additively with multiple harpoons, refreshing their duration and stacking up to 2 times.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -939,7 +939,7 @@
             "description": "Danger Zone Bonus: Electro Harpoon's effects are increased by 50%. The magic resistance reduction is increased to 15%.",
             "leveling": [
               {
-                "attribute": "Enhanced Magic Damage",
+                "attribute": "Enhanced Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -976,7 +976,7 @@
                 ]
               },
               {
-                "attribute": "Total Enhanced Magic Damage",
+                "attribute": "Total Enhanced Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -1156,6 +1156,35 @@
                 ]
               },
               {
+                "attribute": "Minimum Magic Damage",
+                "modifiers": [
+                  {
+                    "values": [
+                      140,
+                      210,
+                      280
+                    ],
+                    "units": [
+                      "",
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "values": [
+                      35,
+                      35,
+                      35
+                    ],
+                    "units": [
+                      "% AP",
+                      "% AP",
+                      "% AP"
+                    ]
+                  }
+                ]
+              },
+              {
                 "attribute": "Maximum Magic Damage",
                 "modifiers": [
                   {
@@ -1175,35 +1204,6 @@
                       175,
                       175,
                       175
-                    ],
-                    "units": [
-                      "% AP",
-                      "% AP",
-                      "% AP"
-                    ]
-                  }
-                ]
-              },
-              {
-                "attribute": "Minimum Magic damage",
-                "modifiers": [
-                  {
-                    "values": [
-                      140,
-                      210,
-                      280
-                    ],
-                    "units": [
-                      "",
-                      "",
-                      ""
-                    ]
-                  },
-                  {
-                    "values": [
-                      35,
-                      35,
-                      35
                     ],
                     "units": [
                       "% AP",
@@ -1269,6 +1269,7 @@
     "saleRp": 0
   },
   "lore": "Rumble is a young inventor with a temper. Using nothing more than his own two hands and a heap of scrap, the feisty yordle constructed a colossal mech suit outfitted with an arsenal of electrified harpoons and incendiary rockets. Though others may scoff and sneer at his junkyard creations, Rumble doesn't mind—after all, he's the one with the flamespitter.",
+  "faction": "bandle-city",
   "skins": [
     {
       "name": "Original",

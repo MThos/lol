@@ -16,7 +16,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/1043_base_t2_recurvebow.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/1043_base_t2_recurvebow.png",
   "simpleDescription": "Greatly increases Attack Speed",
   "nicknames": [],
   "passives": [
@@ -26,6 +26,7 @@
       "name": "Steeltipped",
       "effects": "Basic attacks deal {{as|15 '''bonus''' physical damage}} [[on-hit]].",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,

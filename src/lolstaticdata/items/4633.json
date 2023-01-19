@@ -15,7 +15,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/4633_mage_t4_riftmaker.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/4633_mage_t4_riftmaker.png",
   "simpleDescription": null,
   "nicknames": [
     "velkoz"
@@ -27,6 +27,7 @@
       "name": "Void Corruption",
       "effects": "For each second [[combat status|in combat]] with champions, deal 3% '''bonus''' damage, stacking up to 3 times for a '''maximum''' of 9%. While this effect is fully stacked, convert 100% of the '''bonus''' damage into {{as|true damage}}.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -199,6 +200,7 @@
       "name": "Mythic",
       "effects": null,
       "range": 0,
+      "cooldown": 0,
       "stats": {
         "abilityPower": {
           "flat": 8.0,

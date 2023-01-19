@@ -14,7 +14,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/2419_mage_t1_stopwatch.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/2419_mage_t1_stopwatch.png",
   "simpleDescription": null,
   "nicknames": [],
   "passives": [
@@ -24,6 +24,7 @@
       "name": null,
       "effects": "Transforms into a {{ii|Perfectly Timed Stopwatch}} after 14 minutes. Scoring a {{tip|takedown}} against an enemy champion reduces this timer by 2 minutes. That '''Stopwatch''' contributes {{g|250}} to the items it builds into.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,

@@ -14,7 +14,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3070_all_t1_tearofthegoddess.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3070_all_t1_tearofthegoddess.png",
   "simpleDescription": "Increases maximum Mana as Mana is spent",
   "nicknames": [],
   "passives": [
@@ -24,6 +24,7 @@
       "name": "Focus",
       "effects": "Basic attacks deal {{as|5 '''bonus''' physical damage}} on-hit against minions.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -194,8 +195,9 @@
       "unique": true,
       "mythic": false,
       "name": "Mana Charge",
-      "effects": "Grants a charge every 8 seconds, up to 4 charges. Affecting an enemy or ally with an ability consumes a charge and grants {{as|3 '''bonus''' mana}}, increased to {{as|6|mana}} if they are a champion, up to '''maximum''' of {{as|360 '''bonus''' mana}}.",
+      "effects": "Grants a charge every 8 seconds, up to 4 charges. Affecting an enemy or ally with an [[champion ability|ability]] consumes a charge to grant {{as|3 '''bonus''' mana}}, increased to {{as|6|mana}} if they are a champion, up to '''maximum''' of {{as|360 '''bonus''' mana}}.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,

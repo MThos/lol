@@ -4,7 +4,7 @@
   "name": "Irelia",
   "title": "the Blade Dancer",
   "fullName": "Xan Irelia",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Irelia.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Irelia.png",
   "resource": "MANA",
   "attackType": "MELEE",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -36,11 +36,11 @@
     "armor": {
       "flat": 36,
       "percent": 0.0,
-      "perLevel": 4.2,
+      "perLevel": 4.7,
       "percentPerLevel": 0.0
     },
     "magicResistance": {
-      "flat": 28,
+      "flat": 30,
       "percent": 0.0,
       "perLevel": 2.05,
       "percentPerLevel": 0.0
@@ -202,7 +202,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Irelia/ability-icon/p",
         "effects": [
           {
-            "description": "Innate: Irelia generates a stack of Ionian Fervor for each enemy champion hit by her abilities, or if she hits at least one non-champion. Ionian Fervor lasts for 6 seconds, refreshing with basic attacks and ability hits against enemy champions and large monsters, and stacking up to 4 times.",
+            "description": "Innate: Irelia generates a stack of Ionian Fervor for each enemy champion hit by her abilities, or if she hits at least one non-champion, lasting for 6 seconds, refreshing on basic attacks and ability hits against enemy champions and large monsters, and stacking up to 4 times.",
             "leveling": []
           },
           {
@@ -247,7 +247,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Irelia/ability-icon/q",
         "effects": [
           {
-            "description": "Active: Irelia dashes 100 units through the target enemy's location, and upon collision or dash completion, she deals physical damage, applies on-hit effects, and heals herself. Bladesurge deals 55 − 259 (based on level) bonus damage to minions.",
+            "description": "Active: Irelia dashes 100 units through the target enemy's location, and upon collision or dash completion, she deals physical damage, applies on-hit effects, and heals herself. Bladesurge deals 55 − 259 (based on level) bonus physical damage to minions.",
             "leveling": [
               {
                 "attribute": "Physical Damage",
@@ -310,7 +310,7 @@
             ]
           },
           {
-            "description": "Bladesurge's cooldown is reduced to 0.2 seconds upon collision of targets marked as Unsteady, and is reset if the target dies to or during Bladesurge's dash.",
+            "description": "Bladesurge's current cooldown is reduced to 0.2 seconds upon collision of targets marked as Unsteady, and is reset if the target dies to or during Bladesurge's dash.",
             "leveling": []
           },
           {
@@ -401,7 +401,7 @@
             "description": "Recast: Irelia swipes her blades in the target direction, dealing physical damage to enemies around her and within a line, increased by 0% − 200% (based on channel time). She also retains the damage reduction for 0.5 seconds.",
             "leveling": [
               {
-                "attribute": "Minimum Damage",
+                "attribute": "Minimum Physical Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -454,7 +454,7 @@
                 ]
               },
               {
-                "attribute": "Maximum Damage",
+                "attribute": "Maximum Physical Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -564,7 +564,7 @@
         "onHitEffects": null,
         "occurrence": null,
         "notes": "Enemies around Irelia will be dealt the damage once the recast's cast time ends, while enemies within the line are dealt the damage via a missile that reaches the furthest targets after a 0.066 seconds delay after the recast's cast time.\nQuick Casting utilizes hold-and-release for the two casts.\nDefiant Dance reaches 100% physical damage reduction at 857.14 − 428.57 (based on level) AP.\nDefiant Dance reaches 100% magic damage reduction at 2285.71 − 1857.14 (based on level) AP.\nDefiant Dance will also recast automatically upon entering  resurrection.\nThis ability will cast from wherever the caster is at the end of the cast time.\nThis refers to the recast.\nThe following table refers for interactions while Irelia is  channeling:\n\n\nType\n\nCharge channel\n\n\nAttacking\n\nDisabled\n\n\nAbilities\n\nDisabled\n\n\nMovement\n\nDisabled\n\n\nItems\n\nUsable\n\nN/A\n\n\nDisabled\n\nAll items are disabled\n\n\nInterrupted by\n\nN/A\n\n\nConsumables\n\nDisabled, but can still use trinkets\n\n\nSpells\n\nUsable\n\n Barrier  Clarity  Cleanse  Exhaust  Ghost  Heal  Ignite  Smite\n\n\nDisabled\n\n Flash  Teleport  Recall\n\n\nInterrupted by\n\n Hexflash (Recasts)\n\n\nInterrupted by\n\nDeath",
-        "blurb": "Active:  Irelia  charges up for a brief moment, during which she  reduces incoming physical damage.\nDefiant Dance can be recast within the duration, and does so automatically afterwards. The charge cannot be  interrupted.",
+        "blurb": "Active:  Irelia  charges up for a brief moment, during which she reduces incoming physical damage.\nDefiant Dance can be recast within the duration, and does so automatically afterwards. The charge cannot be  interrupted.",
         "missileSpeed": null,
         "rechargeRate": null,
         "collisionRadius": null,
@@ -711,7 +711,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Irelia/ability-icon/r",
         "effects": [
           {
-            "description": "Passive: Bladesurge's cooldown is reduced.",
+            "description": "Passive: Bladesurge's total cooldown is reduced.",
             "leveling": [
               {
                 "attribute": "Cooldown Reduction",
@@ -736,7 +736,7 @@
             "description": "Active: Irelia launches a barrage of blades in the target direction, expanding outward upon hitting an enemy champion, dealing magic damage to all enemies hit and revealing them for 1 second.",
             "leveling": [
               {
-                "attribute": "Barrage Damage",
+                "attribute": "Magic Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -767,38 +767,8 @@
             ]
           },
           {
-            "description": "After expanding, the blades drop on the ground, knocking all enemy units away from them, though not rendering them airborne, and forming a spade-shaped perimeter around the enemy champion hit for 2.5 seconds that grants sight of its surroundings. Enemies that pass through the blades for the first time are dealt magic damage and are slowed by 90% for 1.5 seconds.",
-            "leveling": [
-              {
-                "attribute": "Perimeter Damage",
-                "modifiers": [
-                  {
-                    "values": [
-                      125,
-                      250,
-                      375
-                    ],
-                    "units": [
-                      "",
-                      "",
-                      ""
-                    ]
-                  },
-                  {
-                    "values": [
-                      70,
-                      70,
-                      70
-                    ],
-                    "units": [
-                      "% AP",
-                      "% AP",
-                      "% AP"
-                    ]
-                  }
-                ]
-              }
-            ]
+            "description": "After expanding, the blades drop on the ground, knocking all enemy units away from them, though not rendering them airborne, and forming a spade-shaped perimeter around the enemy champion hit for 2.5 seconds that grants sight of its surroundings. Enemies that pass through the blades for the first time are dealt the same magic damage and are slowed by 90% for 1.5 seconds.",
+            "leveling": []
           },
           {
             "description": "The perimeter will point at the same angle Irelia casted it from, but based on the target's center.",
@@ -866,13 +836,14 @@
   },
   "releaseDate": "2010-11-16",
   "releasePatch": "1.0.0.105",
-  "patchLastChanged": "12.14",
+  "patchLastChanged": "12.16",
   "price": {
     "blueEssence": 4800,
     "rp": 880,
     "saleRp": 0
   },
   "lore": "The Noxian occupation of Ionia produced many heroes, none more unlikely than young Irelia of Navori. Trained in the ancient dances of her province, she adapted her art for war, using the graceful and carefully practised movements to levitate a host of deadly blades. After proving herself as a fighter, she was thrust into the role of resistance leader and figurehead, and to this day remains dedicated to the preservation of her homeland.",
+  "faction": "ionia",
   "skins": [
     {
       "name": "Original",
@@ -1342,7 +1313,7 @@
         "Cherami Leigh"
       ],
       "splashArtist": [
-        "Art of Maki"
+        "Maki Planas Mata"
       ]
     },
     {
@@ -1376,8 +1347,8 @@
         "Cherami Leigh"
       ],
       "splashArtist": [
-        "Kudos Production",
-        "Xuning Cui"
+        "Xuning Cui",
+        "Kudos Production"
       ]
     },
     {
@@ -1772,8 +1743,8 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/39/39026.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/39/39026.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/39/39026.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/irelia/skins/skin26/irelialoadscreen_26.pie_c_11_14.jpg",
-      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/irelia/skins/skin26/irelialoadscreen_26_le.pie_c_11_14.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/irelia/skins/skin26/irelialoadscreen_26.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/irelia/skins/skin26/irelialoadscreen_26_le.jpg",
       "newEffects": true,
       "newAnimations": true,
       "newRecall": true,
@@ -1784,6 +1755,41 @@
       ],
       "splashArtist": [
         "Bo 'chenbowow' Chen"
+      ]
+    },
+    {
+      "name": "Prestige PROJECT (2022)",
+      "id": 39036,
+      "isBase": false,
+      "availability": "Limited",
+      "formatName": "Prestige PROJECT: Irelia (2022)",
+      "lootEligible": false,
+      "cost": "special",
+      "sale": 0,
+      "distribution": "Given to players who owned the original skin prior to patch 12.5",
+      "rarity": "Mythic",
+      "chromas": [],
+      "lore": "There are moments when Irelia and the other outcasts remember who they once were, before PROJECT exiled them into a wasteland filled with sand-blasted monuments to corporate greed. These memories are fleeting, the last flickering images of a long-compromised humanity.",
+      "release": "2022-04-01",
+      "set": [
+        "PROJECT"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/39/39036.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/39/39036.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/39/39036.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/irelia/skins/skin36/irelialoadscreen_36.pie_c_12_6.jpg",
+      "loadScreenVintagePath": null,
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Cherami Leigh"
+      ],
+      "splashArtist": [
+        "Xuning Cui",
+        "Kudos Production"
       ]
     }
   ]

@@ -4,7 +4,7 @@
   "name": "Nami",
   "title": "the Tidecaller",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Nami.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Nami.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -239,7 +239,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Nami/ability-icon/q",
         "effects": [
           {
-            "description": "Active: Nami launches a bubble at the target location that lands after 0.726 seconds, dealing magic damage to enemies within as well as revealing and suspending them for 1.5 seconds.",
+            "description": "Active: Nami launches a bubble at the target location that lands after 0.726 seconds, dealing magic damage to enemies hit and suspending them for 1.5 seconds, during which they are revealed.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -756,7 +756,7 @@
         "projectile": null,
         "onHitEffects": null,
         "occurrence": null,
-        "notes": "The enhanced attacks will apply other  on-hit effects and can  critically strike as normal (the bonus damage does not).\nThe bonus magic damage benefits from the allied target's  magic penetration, not Nami's.\nThe effect will not trigger against structures nor wards.",
+        "notes": "The enhanced attacks will apply other  on-hit effects and can  critically strike as normal (the bonus damage does not).\nThe bonus magic damage benefits from the allied target's  magic penetration, not Nami's.\nThe effect will not trigger against structures nor wards.\nDamage instances of Tidecaller's Blessing beyond the first do not count as separate applications for the purposes of  Electrocute and  Phase Rush.",
         "blurb": "Active:  Nami blesses herself or the target allied champion for a few seconds, causing the target's next three basic attacks or abilities to deal bonus magic damage and briefly  slow.",
         "missileSpeed": null,
         "rechargeRate": null,
@@ -778,7 +778,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Nami/ability-icon/r",
         "effects": [
           {
-            "description": "Active: Nami surges a tidal wave in the target direction that grants sight around its trajectory as it travels, dealing magic damage to enemies hit, knocking them up for 0.5 seconds, and slowing them for 2 − 4 (based on distance traveled) seconds.",
+            "description": "Active: Nami surges a tidal wave in the target direction, granting sight around its trajectory as it travels, dealing magic damage to enemies hit, knocking them up for 0.5 seconds, and slowing them for 2 − 4 (based on distance traveled) seconds.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -890,13 +890,14 @@
   },
   "releaseDate": "2012-12-07",
   "releasePatch": "1.0.0.152",
-  "patchLastChanged": "12.10",
+  "patchLastChanged": "12.17",
   "price": {
     "blueEssence": 4800,
     "rp": 880,
     "saleRp": 0
   },
   "lore": "A headstrong young vastaya of the seas, Nami was the first of the Marai tribe to leave the waves and venture onto dry land, when their ancient accord with the Targonians was broken. With no other option, she took it upon herself to complete the sacred ritual that would ensure the safety of her people. Amidst the chaos of this new age, Nami faces an uncertain future with grit and determination, using her Tidecaller staff to summon the strength of the oceans themselves.",
+  "faction": "unaffiliated",
   "skins": [
     {
       "name": "Original",
@@ -927,7 +928,7 @@
         "Cassandra Lee Morris"
       ],
       "splashArtist": [
-        "Katie 'TeaTime' De Sousa"
+        "Michelle Hoefener"
       ]
     },
     {
@@ -1022,7 +1023,9 @@
       "voiceActor": [
         "Cassandra Lee Morris"
       ],
-      "splashArtist": []
+      "splashArtist": [
+        "Michelle Hoefener"
+      ]
     },
     {
       "name": "River Spirit",
@@ -1039,8 +1042,7 @@
       "lore": "Once upon a time, a young farmer was enchanted by music coming from the deep jungle, and followed it to the grove of a river spirit. Overcome by her beauty, he went to embrace her—and was dragged screaming into the emerald waters below, never to be seen again.",
       "release": "2014-06-01",
       "set": [
-        "Fables",
-        "Brazilian"
+        "Fables"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/267/267002.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/267/267002.jpg",
@@ -1073,9 +1075,7 @@
       "chromas": [],
       "lore": null,
       "release": "2015-03-31",
-      "set": [
-        "Disguise"
-      ],
+      "set": [],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/267/267003.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/267/267003.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/267/267003.jpg",
@@ -1872,12 +1872,215 @@
       "lore": "Bobbing for apples is certainly a lot more challenging when Nami brings the tides with her to the party. The apples don't bite back, but the pumpkin-fish do!",
       "release": "2021-10-07",
       "set": [
-        "Trick-or-Treat"
+        "Bewitching"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/267/267032.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/267/267032.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/267/267032.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/nami/skins/skin32/namiloadscreen_32.pie_c_11_20.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/nami/skins/skin32/namiloadscreen_32.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/nami/skins/skin32/namiloadscreen_32_le.pie_c_12_20.jpg",
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Cassandra Lee Morris"
+      ],
+      "splashArtist": [
+        "West Studio"
+      ]
+    },
+    {
+      "name": "Space Groove",
+      "id": 267041,
+      "isBase": false,
+      "availability": "Upcoming",
+      "formatName": "Space Groove",
+      "lootEligible": true,
+      "cost": 1350,
+      "sale": 0,
+      "distribution": null,
+      "rarity": "Epic",
+      "chromas": [
+        {
+          "name": "Citrine",
+          "id": 267044,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/267/267044.png",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Emerald",
+          "id": 267045,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/267/267045.png",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Obsidian",
+          "id": 267048,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/267/267048.png",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Pearl",
+          "id": 267049,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/267/267049.png",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Rainbow",
+          "id": 267050,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/267/267050.png",
+          "colors": [
+            "#C1F2FF",
+            "#C1F2FF"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Rose Quartz",
+          "id": 267047,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/267/267047.png",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "TENCENT"
+            }
+          ]
+        },
+        {
+          "name": "Ruby",
+          "id": 267043,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/267/267043.png",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "descriptions": [
+            {
+              "description": "This chroma was released as a bundle exclusive in 2022.",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Sapphire",
+          "id": 267046,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/267/267046.png",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        }
+      ],
+      "lore": "Fashioning herself as the Siren of the Cosmic Hot Tub, Nami's songs have crowds from across the galaxy flocking to catch one of her sets. So when the organizers of The Jam asked her to perform her songs at the most stellar of interstellar discos, her enthusiastic “Yes!” was a no-brainer.",
+      "release": "0000-00-00",
+      "set": [
+        "Space Groove"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/267/267041.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/267/267041.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/267/267041.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/nami/skins/skin41/namiloadscreen_41.pie_c_12_22.jpg",
       "loadScreenVintagePath": null,
       "newEffects": true,
       "newAnimations": true,
@@ -1888,6 +2091,42 @@
         "Cassandra Lee Morris"
       ],
       "splashArtist": [
+        "Huyy Nguyen",
+        "West Studio"
+      ]
+    },
+    {
+      "name": "Prestige Space Groove",
+      "id": 267042,
+      "isBase": false,
+      "availability": "Upcoming",
+      "formatName": "Prestige Space Groove",
+      "lootEligible": false,
+      "cost": "special",
+      "sale": 0,
+      "distribution": "125 Mythic Essence",
+      "rarity": "Epic",
+      "chromas": [],
+      "lore": "Nami has been serving up splashy looks at the Gala for a long time and has never been one to swim with the current trends. This season, she's showcasing her musical side, hoping to push the show to a new, groovier beat. With a stage as nice as the Gala's, why not dance on it?",
+      "release": "0000-00-00",
+      "set": [
+        "Space Groove"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/267/267042.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/267/267042.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/267/267042.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/nami/skins/skin42/namiloadscreen_42.pie_c_12_22.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/nami/skins/skin42/namiloadscreen_42_le.pie_c_12_22.jpg",
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Cassandra Lee Morris"
+      ],
+      "splashArtist": [
+        "Marie Magny",
         "West Studio"
       ]
     }

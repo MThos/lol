@@ -4,7 +4,7 @@
   "name": "Shyvana",
   "title": "the Half-Dragon",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Shyvana.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Shyvana.png",
   "resource": "FURY",
   "attackType": "MELEE",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -160,7 +160,7 @@
       "percentPerLevel": 0.0
     },
     "urfDamageDealt": {
-      "flat": 1.0,
+      "flat": 0.9,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
@@ -202,11 +202,11 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Shyvana/ability-icon/p",
         "effects": [
           {
-            "description": "Innate: Shyvana gains 5 bonus armor and 5 bonus magic resistance, which is increased by 5 for every elemental drake and Elder Dragon her team slays.",
+            "description": "Innate: Shyvana gains 5 bonus armor and 5 bonus magic resistance, which are each increased by 5 for every elemental drake and Elder Dragon her team slays.",
             "leveling": []
           },
           {
-            "description": "Additionally, Shyvana deals 20% bonus physical damage and magic damage to Dragons.",
+            "description": "Additionally, Shyvana deals 20% increased damage to Dragons.",
             "leveling": []
           }
         ],
@@ -221,7 +221,7 @@
         "projectile": null,
         "onHitEffects": null,
         "occurrence": null,
-        "notes": "No additional details.",
+        "notes": "Fury of the Dragonborn's increased damage modifier to  Dragons does not affect true damage.",
         "blurb": "Innate:  Shyvana gains  bonus armor and  bonus magic resist, which is permanently increased for every  elemental drake and  Elder Dragon her team slays.",
         "missileSpeed": null,
         "rechargeRate": null,
@@ -243,7 +243,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Shyvana/ability-icon/q",
         "effects": [
           {
-            "description": "Active: Shyvana empowers her next basic attack within 6 seconds to gain 25 bonus range, deal 100% AD (+ 35% AP) and cause her to strike again after 0.25 seconds, which deals bonus physical damage and applies on-hit and on-attack effects at 100% effectiveness.",
+            "description": "Active: Shyvana empowers her next basic attack within 6 seconds to gain 25 bonus range, deal 100% AD (+ 35% AP) physical damage, and cause her to strike again after 0.25 seconds to deal bonus physical damage.The second strike applies on-hit and on-attack effects at 100% effectiveness and is affected by critical strike modifiers.",
             "leveling": [
               {
                 "attribute": "Bonus Physical Damage",
@@ -285,11 +285,11 @@
             ]
           },
           {
-            "description": "Basic attacks reduce Twin Bite's cooldown by 0.5 seconds on-hit.",
+            "description": "Basic attacks reduce Twin Bite's current cooldown by 0.5 seconds on-hit.",
             "leveling": []
           },
           {
-            "description": "Dragon Form Bonus: Shyvana instantly attacks enemies in a cone around the target before applying Twin Bite's effects to each of them. The basic attacks deal 100% AD (+ 35% AP) physical damage, are affected by critical strike modifiers, and apply on-hit effects to each target hit. The second strike cannot critically strike nor trigger on-attack effects, but it will still apply on-hit effects. Additionally, Twin Bite's empowered attack has an uncancellable windup.",
+            "description": "Dragon Form Bonus: Shyvana attacks enemies in a cone in front of her and applies the second strike to enemies surrounding the primary target. Both the attack and the strike occur at the same time and each of them apply Twin Strike's respective effects to all targets hit, with the exception of the second strike not applying on-attack effects and being unable to critically strike. The attack is affected by critical strike modifiers, applies on-hit effects to enemies hit, and triggers on-attack effects against only the primary target. Additionally, Twin Bite's empowered attack has an uncancellable windup.",
             "leveling": []
           },
           {
@@ -328,7 +328,7 @@
         "projectile": null,
         "onHitEffects": null,
         "occurrence": "On-hit",
-        "notes": "Dragon Form's Twin Bite cannot apply  Tiamat's Cleave on each target hit because of Cleave's internal 0.05 seconds interval during which it cannot be applied on a different target.\nBoth strikes belong to the same cast instance.\nSince the second strike applies after the ability goes on cooldown, it will reduce its own cooldown.\nUnlike most on-hit effects, the one reducing the cooldown of Twin Bite also triggers against  structures.\nIn Dragon Form, Twin Bite consumes an additional stack of  Hail of Blades. (bug)",
+        "notes": "Dragon Form's Twin Bite cannot apply  Tiamat's Cleave on each target hit because of Cleave's internal 0.05 seconds interval during which it cannot be applied on a different target.\nDragon Form's Twin Bite only applies the attack to enemies that would be hit by the second strike.\nBoth strikes belong to the same cast instance.\nSince the second strike applies after the ability goes on cooldown, it will reduce its own cooldown.\nUnlike most on-hit effects, the one reducing the cooldown of Twin Bite also triggers against  structures.\nIn Dragon Form, Twin Bite consumes an additional stack of  Hail of Blades. (bug)",
         "blurb": "Active:  Shyvana's next basic attack within a few seconds will cause her to quickly strike again, dealing bonus physical damage.",
         "missileSpeed": null,
         "rechargeRate": null,
@@ -338,9 +338,9 @@
         "innerRadius": null,
         "speed": null,
         "width": null,
-        "angle": null,
+        "angle": "180°",
         "castTime": "none",
-        "effectRadius": null,
+        "effectRadius": "325 /  250",
         "targetRange": null
       }
     ],
@@ -350,7 +350,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Shyvana/ability-icon/w",
         "effects": [
           {
-            "description": "Active: Shyvana creates a flame aura for 3 seconds, gaining decaying bonus movement speed and dealing magic damage each 0.5 seconds to nearby enemies.",
+            "description": "Active: Shyvana surrounds herself in flames for 3 seconds, gaining decaying bonus movement speed and dealing magic damage every 0.5 seconds to nearby enemies.",
             "leveling": [
               {
                 "attribute": "Bonus Movement Speed",
@@ -431,11 +431,11 @@
                   },
                   {
                     "values": [
-                      10,
-                      10,
-                      10,
-                      10,
-                      10
+                      15,
+                      15,
+                      15,
+                      15,
+                      15
                     ],
                     "units": [
                       "% bonus AD",
@@ -450,7 +450,7 @@
             ]
           },
           {
-            "description": "During this time, Shyvana's basic attacks deal additional magic damage on-hit equal to 50% of Burnout's per-tick damage to surrounding enemies and extend the duration of Burnout by 1 second, which can occur up to 4 times for a total 4 seconds.",
+            "description": "During this time, Shyvana's basic attacks deal additional magic damage on-hit equal to 50% of Burnout's per-tick damage to surrounding enemies and extend the duration of Burnout by 1 second, which can occur up to 4 times for a total of 4 additional seconds.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -473,11 +473,11 @@
                   },
                   {
                     "values": [
-                      5,
-                      5,
-                      5,
-                      5,
-                      5
+                      7.5,
+                      7.5,
+                      7.5,
+                      7.5,
+                      7.5
                     ],
                     "units": [
                       "% bonus AD",
@@ -492,7 +492,7 @@
             ]
           },
           {
-            "description": "Dragon Form Bonus: The aura is enlarged, scaling with Dragon's Descent's rank.",
+            "description": "Dragon Form Bonus: Burnout's radius increases, scaling with Dragon's Descent's rank.",
             "leveling": []
           }
         ],
@@ -572,11 +572,11 @@
                   },
                   {
                     "values": [
-                      30,
-                      30,
-                      30,
-                      30,
-                      30
+                      40,
+                      40,
+                      40,
+                      40,
+                      40
                     ],
                     "units": [
                       "% AD",
@@ -588,11 +588,11 @@
                   },
                   {
                     "values": [
-                      70,
-                      70,
-                      70,
-                      70,
-                      70
+                      90,
+                      90,
+                      90,
+                      90,
+                      90
                     ],
                     "units": [
                       "% AP",
@@ -607,35 +607,35 @@
             ]
           },
           {
-            "description": "Shyvana's basic attacks against marked enemies are empowered to deal 3.75% of the target's maximum health as bonus magic damage on-hit, capped at 150 against monsters.",
+            "description": "Shyvana's basic attacks against marked enemies are empowered to deal bonus magic damage on-hit equal to 3.5% of the target's maximum health, capped at 150 against monsters.",
             "leveling": []
           },
           {
             "description": "Dragon Form Bonus: The fireball deals increased magic damage and explodes upon hitting an enemy champion or reaching the target location, creating a scorched field for 4 seconds. Enemies within the field are marked once and dealt 30 − 60 (based on level) (+ 5% AD) (+ 10% AP) magic damage every 0.5 seconds.",
             "leveling": [
               {
-                "attribute": "Empowered Magic Damage",
+                "attribute": "Increased Damage",
                 "modifiers": [
                   {
                     "values": [
-                      100.0,
-                      103.52941176470588,
-                      107.05882352941177,
-                      110.58823529411765,
-                      114.11764705882354,
-                      117.64705882352942,
-                      121.17647058823529,
-                      124.70588235294117,
-                      128.23529411764707,
-                      131.76470588235293,
-                      135.29411764705884,
-                      138.8235294117647,
-                      142.35294117647058,
-                      145.88235294117646,
-                      149.41176470588235,
-                      152.94117647058823,
-                      156.47058823529412,
-                      160.0
+                      75.0,
+                      78.52941176470588,
+                      82.05882352941177,
+                      85.58823529411765,
+                      89.11764705882354,
+                      92.64705882352942,
+                      96.17647058823529,
+                      99.70588235294117,
+                      103.23529411764706,
+                      106.76470588235294,
+                      110.29411764705883,
+                      113.8235294117647,
+                      117.35294117647058,
+                      120.88235294117646,
+                      124.41176470588235,
+                      127.94117647058823,
+                      131.47058823529412,
+                      135.0
                     ],
                     "units": [
                       "",
@@ -676,11 +676,11 @@
                   },
                   {
                     "values": [
-                      60,
-                      60,
-                      60,
-                      60,
-                      60
+                      70,
+                      70,
+                      70,
+                      70,
+                      70
                     ],
                     "units": [
                       "% AD",
@@ -692,11 +692,11 @@
                   },
                   {
                     "values": [
-                      100,
-                      100,
-                      100,
-                      100,
-                      100
+                      120,
+                      120,
+                      120,
+                      120,
+                      120
                     ],
                     "units": [
                       "% AP",
@@ -809,9 +809,9 @@
                   },
                   {
                     "values": [
-                      100,
-                      100,
-                      100
+                      130,
+                      130,
+                      130
                     ],
                     "units": [
                       "% AP",
@@ -929,13 +929,14 @@
   },
   "releaseDate": "2011-11-01",
   "releasePatch": "1.0.0.128",
-  "patchLastChanged": "12.10",
+  "patchLastChanged": "12.19",
   "price": {
     "blueEssence": 3150,
     "rp": 790,
     "saleRp": 0
   },
   "lore": "Shyvana is a creature with the magic of a rune shard burning within her heart. Though she often appears humanoid, she can take her true form as a fearsome dragon, incinerating her foes with fiery breath. Having saved the life of the crown prince Jarvan IV, Shyvana now serves uneasily in his royal guard, struggling to find acceptance among the suspicious people of Demacia.",
+  "faction": "demacia",
   "skins": [
     {
       "name": "Original",
@@ -1359,7 +1360,7 @@
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/102/102008.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/102/102008.jpg",
       "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/skins/skin08/shyvanaloadscreen_8.jpg",
-      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/skins/skin08/shyvanaloadscreen_8_le.pie_c_11_14.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/skins/skin08/shyvanaloadscreen_8_le.jpg",
       "newEffects": true,
       "newAnimations": true,
       "newRecall": true,

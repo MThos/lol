@@ -4,7 +4,7 @@
   "name": "Tryndamere",
   "title": "the Barbarian King",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Tryndamere.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Tryndamere.png",
   "resource": "FURY",
   "attackType": "MELEE",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -136,13 +136,13 @@
       "percentPerLevel": 0.0
     },
     "aramDamageDealt": {
-      "flat": 1.1,
+      "flat": 1.15,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
     },
     "aramHealing": {
-      "flat": 1.2,
+      "flat": 1.4,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
@@ -243,10 +243,10 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Tryndamere/ability-icon/q",
         "effects": [
           {
-            "description": "Passive: Tryndamere gains bonus attack damage, and gains additional bonus attack damage per 1% of his missing health.",
+            "description": "Passive: Tryndamere gains bonus attack damage, plus an additional amount based on his missing health.",
             "leveling": [
               {
-                "attribute": "Bonus AD",
+                "attribute": "Bonus Attack Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -257,17 +257,17 @@
                       30
                     ],
                     "units": [
-                      " AD",
-                      " AD",
-                      " AD",
-                      " AD",
-                      " AD"
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
                     ]
                   }
                 ]
               },
               {
-                "attribute": "Bonus AD Per Missing Health",
+                "attribute": "Additional Bonus AD",
                 "modifiers": [
                   {
                     "values": [
@@ -278,17 +278,17 @@
                       0.55
                     ],
                     "units": [
-                      " AD",
-                      " AD",
-                      " AD",
-                      " AD",
-                      " AD"
+                      " per 1% missing health",
+                      " per 1% missing health",
+                      " per 1% missing health",
+                      " per 1% missing health",
+                      " per 1% missing health"
                     ]
                   }
                 ]
               },
               {
-                "attribute": "Maximum Bonus AD",
+                "attribute": "Maximum Total Bonus AD",
                 "modifiers": [
                   {
                     "values": [
@@ -299,11 +299,11 @@
                       85
                     ],
                     "units": [
-                      " AD",
-                      " AD",
-                      " AD",
-                      " AD",
-                      " AD"
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
                     ]
                   }
                 ]
@@ -351,7 +351,7 @@
                 ]
               },
               {
-                "attribute": "Heal Per Fury",
+                "attribute": "Heal Per 1 Fury",
                 "modifiers": [
                   {
                     "values": [
@@ -502,7 +502,7 @@
             "description": "Active: Tryndamere reduces the attack damage of nearby enemy champions for 4 seconds.",
             "leveling": [
               {
-                "attribute": "AD Reduction",
+                "attribute": "Attack Damage Reduction",
                 "modifiers": [
                   {
                     "values": [
@@ -513,11 +513,11 @@
                       80
                     ],
                     "units": [
-                      " AD",
-                      " AD",
-                      " AD",
-                      " AD",
-                      " AD"
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
                     ]
                   }
                 ]
@@ -666,7 +666,7 @@
             ]
           },
           {
-            "description": "Critical strikes reduce Spinning Slash's cooldown by 0.75 seconds, doubled to 1.5 seconds against champions.",
+            "description": "Critical strikes reduce Spinning Slash's current cooldown by 0.75 seconds, doubled to 1.5 seconds against champions.",
             "leveling": []
           },
           {
@@ -823,6 +823,7 @@
     "saleRp": 0
   },
   "lore": "Fueled by unbridled fury and rage, Tryndamere once carved his way through the Freljord, openly challenging the greatest warriors of the north to prepare himself for even darker days ahead. The wrathful barbarian has long sought revenge for the annihilation of his clan, though more recently he has found companionship with Ashe, the Avarosan warmother, and a home with her people. His almost inhuman strength and fortitude is legendary, and has delivered him and his new allies countless victories against the greatest of odds.",
+  "faction": "freljord",
   "skins": [
     {
       "name": "Original",
@@ -966,7 +967,9 @@
       "chromas": [],
       "lore": null,
       "release": "2011-08-01",
-      "set": [],
+      "set": [
+        "Otherroads"
+      ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/23/23004.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/23/23004.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/23/23004.jpg",
@@ -1064,9 +1067,7 @@
       "chromas": [],
       "lore": null,
       "release": "2015-06-07",
-      "set": [
-        "Nightmare"
-      ],
+      "set": [],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/23/23007.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/23/23007.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/23/23007.jpg",
@@ -1522,8 +1523,8 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/23/23018.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/23/23018.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/23/23018.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/tryndamere/skins/skin18/tryndamereloadscreen_18.pie_c_11_19.jpg",
-      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/tryndamere/skins/skin18/tryndamereloadscreen_18_le.pie_c_11_19.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/tryndamere/skins/skin18/tryndamereloadscreen_18.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/tryndamere/skins/skin18/tryndamereloadscreen_18_le.jpg",
       "newEffects": true,
       "newAnimations": true,
       "newRecall": true,

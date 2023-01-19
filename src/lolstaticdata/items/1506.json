@@ -10,7 +10,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3042_netherrift_armor.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3042_netherrift_armor.png",
   "simpleDescription": null,
   "nicknames": [],
   "passives": [
@@ -20,6 +20,7 @@
       "name": null,
       "effects": "While no enemy {{tip|minions}} or {{ui|Rift Herald|Summoned Rift Herald}} are within range, gain {{fd|66.67%}} damage reduction and immunity to {{as|true damage}}.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -190,8 +191,9 @@
       "unique": true,
       "mythic": false,
       "name": null,
-      "effects": "Base turrets have health regeneration, but cannot regenerate past their current segment. Base turrets are segmented at 33%, 66% and 100% health.",
+      "effects": "Base turrets have health regeneration, but cannot regenerate past their current segment. They are segmented at {{as|33%|health}}, {{as|66%|health}} and {{as|100% health}}.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,

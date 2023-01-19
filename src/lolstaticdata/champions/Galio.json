@@ -4,7 +4,7 @@
   "name": "Galio",
   "title": "the Colossus",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Galio.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Galio.png",
   "resource": "MANA",
   "attackType": "MELEE",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -755,7 +755,7 @@
             "description": "Galio deals magic damage to enemies he passes through, reduced by 50% against non-champions, and knocks them up for 0.75 seconds as well as reveals them for the same duration.",
             "leveling": [
               {
-                "attribute": "Champion Magic Damage",
+                "attribute": "Magic Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -792,7 +792,7 @@
                 ]
               },
               {
-                "attribute": "Non-Champion Magic Damage",
+                "attribute": "Non-Champion Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -1013,6 +1013,7 @@
     "saleRp": 0
   },
   "lore": "Outside the gleaming city of Demacia, the stone colossus Galio keeps vigilant watch. Built as a bulwark against enemy mages, he often stands motionless for decades until the presence of powerful magic stirs him to life. Once activated, Galio makes the most of his time, savoring the thrill of a fight and the rare honor of defending his countrymen. But his triumphs are always bittersweet, for the magic he destroys is also his source of reanimation, and each victory leaves him dormant once again.",
+  "faction": "demacia",
   "skins": [
     {
       "name": "Original",
@@ -1400,13 +1401,33 @@
               "region": "riot"
             }
           ]
+        },
+        {
+          "name": "Worlds Early Bird",
+          "id": 3029,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/3/3029.png",
+          "colors": [
+            "#0027F8",
+            "#252739"
+          ],
+          "descriptions": [
+            {
+              "description": "This chroma was released as a Loot exclusive in the Worlds 2022 event.",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
+            }
+          ]
         }
       ],
       "lore": "A proud and noble salesman of delicious fried chicken, Birdio is the regional manager (and salesman of the year) for one of the world's largest chicken restaurants. Not one to be beaten at literally anything, he and Sivir have a well documented rivalry over who is the better employee.",
       "release": "2018-03-29",
       "set": [
-        "Culinary Masters",
-        "Disguise"
+        "Culinary Masters"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/3/3006.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/3/3006.jpg",

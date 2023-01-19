@@ -4,7 +4,7 @@
   "name": "Taric",
   "title": "the Shield of Valoran",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Taric.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Taric.png",
   "resource": "MANA",
   "attackType": "MELEE",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -40,7 +40,7 @@
       "percentPerLevel": 0.0
     },
     "magicResistance": {
-      "flat": 32,
+      "flat": 28,
       "percent": 0.0,
       "perLevel": 2.05,
       "percentPerLevel": 0.0
@@ -130,7 +130,7 @@
       "percentPerLevel": 0.0
     },
     "aramDamageTaken": {
-      "flat": 1.0,
+      "flat": 1.05,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
@@ -166,7 +166,7 @@
       "percentPerLevel": 0.0
     },
     "urfHealing": {
-      "flat": 1.0,
+      "flat": 0.85,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
@@ -203,7 +203,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Taric/ability-icon/p",
         "effects": [
           {
-            "description": "Innate: After casting an ability, Taric empowers his next two basic attacks within 5 seconds to each gain 100% total attack speed, deal 25 − 93 (based on level) (+ 15% bonus armor) bonus magic damage, and reduce the cooldowns of his basic abilities by 1 second.",
+            "description": "Innate: After casting an ability, Taric empowers his next two basic attacks within 5 seconds to each gain 100% total attack speed, deal 25 − 93 (based on level) (+ 15% bonus armor) bonus magic damage, and reduce the current cooldowns of his basic abilities by 1 second.",
             "leveling": []
           }
         ],
@@ -240,7 +240,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Taric/ability-icon/q",
         "effects": [
           {
-            "description": "Active: Taric heals himself and nearby allied champions for 25 (+ 15% AP) (+ 1% of Taric's maximum health) per charge of Starlight's Touch that he periodically stocks, up to a maximum amount. Bravado's empowered attacks each grant one charge.",
+            "description": "Active: Taric heals himself and nearby allied champions for 25 (+ 15% AP) (+ 1% of his maximum health) per charge of Starlight's Touch that he periodically stocks, up to a maximum amount. Bravado's empowered attacks each grant one charge.",
             "leveling": [
               {
                 "attribute": "Maximum Charges",
@@ -374,7 +374,7 @@
             ]
           },
           {
-            "description": "Active: Taric shields himself and the target allied champion for 2.5 seconds, binding them with Bastion.",
+            "description": "Active: Taric grants himself and the target allied champion a shield for 2.5 seconds, binding them with Bastion.",
             "leveling": [
               {
                 "attribute": "Shield Strength",
@@ -562,11 +562,11 @@
           "modifiers": [
             {
               "values": [
+                16,
                 15,
                 14,
                 13,
-                12,
-                11
+                12
               ],
               "units": [
                 "",
@@ -675,13 +675,14 @@
   },
   "releaseDate": "2009-08-19",
   "releasePatch": "0.9.22.15",
-  "patchLastChanged": "12.11",
+  "patchLastChanged": "12.17",
   "price": {
     "blueEssence": 1350,
     "rp": 585,
     "saleRp": 0
   },
   "lore": "Taric is the Aspect of the Protector, wielding incredible power as Runeterra's guardian of life, love, and beauty. Shamed by a dereliction of duty and exiled from his homeland Demacia, Taric ascended Mount Targon to find redemption, only to discover a higher calling among the stars. Imbued with the might of ancient Targon, the Shield of Valoran now stands ever vigilant against the insidious corruption of the Void.",
+  "faction": "mount-targon",
   "skins": [
     {
       "name": "Original",
@@ -1135,6 +1136,207 @@
         "Francis Tneh",
         "West Studio"
       ]
+    },
+    {
+      "name": "Space Groove",
+      "id": 44018,
+      "isBase": false,
+      "availability": "Upcoming",
+      "formatName": "Space Groove",
+      "lootEligible": true,
+      "cost": 1350,
+      "sale": 0,
+      "distribution": null,
+      "rarity": "Epic",
+      "chromas": [
+        {
+          "name": "Catseye",
+          "id": 44020,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/44/44020.png",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Emerald",
+          "id": 44024,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/44/44024.png",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Obsidian",
+          "id": 44025,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/44/44025.png",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Rainbow",
+          "id": 44026,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/44/44026.png",
+          "colors": [
+            "#C1F2FF",
+            "#C1F2FF"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Rose Quartz",
+          "id": 44021,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/44/44021.png",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "TENCENT"
+            }
+          ]
+        },
+        {
+          "name": "Ruby",
+          "id": 44019,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/44/44019.png",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "descriptions": [
+            {
+              "description": "This chroma was released as a bundle exclusive in 2022.",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Sapphire",
+          "id": 44023,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/44/44023.png",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Turquoise",
+          "id": 44022,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/44/44022.png",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        }
+      ],
+      "lore": "Taric always found himself wanting more out of life and dreamed of discovering what was beyond his mundane world. His wish was granted when Teemo arrived on his planet and swept him off on an adventure. He's now found a place for himself as Ornn's apprentice as he works to understand the concept of Groove.",
+      "release": "0000-00-00",
+      "set": [
+        "Space Groove"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/44/44018.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/44/44018.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/44/44018.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/taric/skins/skin18/taricloadscreen_18.pie_c_12_22.jpg",
+      "loadScreenVintagePath": null,
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Yuri Lowenthal"
+      ],
+      "splashArtist": []
     }
   ]
 }

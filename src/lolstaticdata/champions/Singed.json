@@ -4,7 +4,7 @@
   "name": "Singed",
   "title": "the Mad Chemist",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Singed.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Singed.png",
   "resource": "MANA",
   "attackType": "MELEE",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -130,13 +130,13 @@
       "percentPerLevel": 0.0
     },
     "aramDamageTaken": {
-      "flat": 1.0,
+      "flat": 1.05,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
     },
     "aramDamageDealt": {
-      "flat": 1.0,
+      "flat": 0.9,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
@@ -160,7 +160,7 @@
       "percentPerLevel": 0.0
     },
     "urfDamageDealt": {
-      "flat": 1.0,
+      "flat": 0.9,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
@@ -202,7 +202,11 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Singed/ability-icon/p",
         "effects": [
           {
-            "description": "Innate: Whenever Singed moves near a champion, he gains 25% bonus movement speed for 2 seconds, which refreshes on subsequent passes and stacks up to 25 times.",
+            "description": "Innate: Whenever Singed moves near a champion, he gains a stack of Noxious Slipstream for 2 seconds, refreshing on subsequent passes and stacking up to 25 times.",
+            "leveling": []
+          },
+          {
+            "description": "Noxious Slipstream: For each stack, Singed gains 25% bonus movement speed, up to a maximum of 625%.",
             "leveling": []
           },
           {
@@ -401,7 +405,7 @@
             "description": "Active: Singed spills a potent adhesive that lands at the target location over 0.264 seconds to 0.528 seconds, creating a field for 3 seconds that grounds enemies within and slows them.",
             "leveling": [
               {
-                "attribute": "Slow Strength",
+                "attribute": "Slow",
                 "modifiers": [
                   {
                     "values": [
@@ -689,7 +693,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Singed/ability-icon/r",
         "effects": [
           {
-            "description": "Active: Singed empowers himself for 25 seconds with bonus ability power, bonus armor, bonus magic resistance, bonus movement speed, bonus health regeneration, and bonus mana regeneration.",
+            "description": "Active: Singed empowers himself for 25 seconds with ability power, bonus armor, bonus magic resistance, bonus movement speed, bonus health regeneration, and bonus mana regeneration.",
             "leveling": [
               {
                 "attribute": "Bonus Stats",
@@ -745,7 +749,7 @@
             ]
           },
           {
-            "description": "During this time, Poison Trail additionally applies 25% Grievous Wounds for 1 second, and refreshes every 0.25 seconds while the poison persists.",
+            "description": "During this time, Poison Trail additionally applies 25% Grievous Wounds for 1 second, which refreshes every 0.25 seconds while the poison persists.",
             "leveling": []
           }
         ],
@@ -817,6 +821,7 @@
     "saleRp": 0
   },
   "lore": "Singed is a Zaunite alchemist of unmatched intellect, who has devoted his life to pushing the boundaries of knowledge—with no price, even his own sanity, too high to pay. Is there a method to his madness? His concoctions rarely fail, but it appears to many that Singed has lost all sense of humanity, leaving a toxic trail of misery and terror in his wake.",
+  "faction": "zaun",
   "skins": [
     {
       "name": "Original",

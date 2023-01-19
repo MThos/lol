@@ -13,7 +13,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/2419_mage_t1_stopwatch.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/2419_mage_t1_stopwatch.png",
   "simpleDescription": "Activate to become invincible but unable to take actions",
   "nicknames": [
     "zhg",

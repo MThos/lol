@@ -4,7 +4,7 @@
   "name": "Vi",
   "title": "the Piltover Enforcer",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Vi.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Vi.png",
   "resource": "MANA",
   "attackType": "MELEE",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -202,11 +202,11 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Vi/ability-icon/p",
         "effects": [
           {
-            "description": "Innate: Periodically, Vi's next ability hit will generate a shield equal to 13% of her maximum health for 3 seconds.",
+            "description": "Innate: Periodically, Vi's next ability hit grants her a shield equal to 13% of her maximum health for 3 seconds.",
             "leveling": []
           },
           {
-            "description": "The cooldown is reduced by 3 seconds each time Denting Blows is triggered.",
+            "description": "Blast Shield's cooldown is reduced by 3 seconds each time Denting Blows is consumed.",
             "leveling": []
           }
         ],
@@ -297,7 +297,7 @@
             "leveling": []
           },
           {
-            "description": "Recast: Vi dashes in the target direction to deal physical damage to enemies she passes through, increased by 0% − 100% (based on channel time).",
+            "description": "Recast: Vi dashes in the target direction to deal physical damage to enemies within her path, increased by 0% − 100% (based on channel time), and pull all non-champions hit towards her.",
             "leveling": [
               {
                 "attribute": "Minimum Physical Damage",
@@ -337,7 +337,7 @@
                 ]
               },
               {
-                "attribute": "Maximum Damage",
+                "attribute": "Maximum Physical Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -376,7 +376,7 @@
             ]
           },
           {
-            "description": "Vi stops upon hitting an enemy champion, knocking them back over 0.75 seconds, while non-champion enemies hit are instead pulled towards her.",
+            "description": "She stops upon hitting an enemy champion, knocking them back over 0.75 seconds.",
             "leveling": []
           },
           {
@@ -456,7 +456,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Vi/ability-icon/w",
         "effects": [
           {
-            "description": "Passive: Vi's basic attacks on-hit and Vault Breaker apply a stack of Denting Blows to enemies hit for 4 seconds, which refreshes on subsequent hits. The third stack consumes them all to deal bonus physical damage, capped at 300 against non-champions, and inflict 20% armor reduction for 4 seconds.",
+            "description": "Passive: Vi's basic attacks on-hit and Vault Breaker apply a stack of Denting Blows to enemies hit for 4 seconds, refreshing on subsequent applications and stacking up to 3 times. The third stack consumes them all to deal bonus physical damage, capped at 300 against non-champions, and inflict 20% armor reduction for 4 seconds.",
             "leveling": [
               {
                 "attribute": "Bonus Physical Damage",
@@ -498,7 +498,7 @@
             ]
           },
           {
-            "description": "After triggering Denting Blows, Vi gains bonus attack speed for 4 seconds, which refreshes on subsequent triggers.",
+            "description": "After consuming Denting Blows, Vi gains bonus attack speed for 4 seconds, which refreshes on subsequent triggers.",
             "leveling": [
               {
                 "attribute": "Bonus Attack Speed",
@@ -807,6 +807,7 @@
     "saleRp": 0
   },
   "lore": "Once a criminal from the mean streets of Zaun, Vi is a hotheaded, impulsive, and fearsome woman with only a very loose respect for authority figures. Growing up all but alone, Vi developed finely honed survival instincts as well as a wickedly abrasive sense of humor. Now working with the Wardens of Piltover to keep the peace, she wields mighty hextech gauntlets that can punch through walls and suspects with equal ease.",
+  "faction": "piltover",
   "skins": [
     {
       "name": "Original",
@@ -1571,7 +1572,7 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/254/254029.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/254/254029.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/254/254029.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/vi/skins/skin29/viloadscreen_29.pie_c_11_22.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/vi/skins/skin29/viloadscreen_29.jpg",
       "loadScreenVintagePath": null,
       "newEffects": true,
       "newAnimations": true,

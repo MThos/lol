@@ -14,7 +14,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3193_tank_t3_gargoylestoneplate.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3193_tank_t3_gargoylestoneplate.png",
   "simpleDescription": "Greatly increases defense near multiple enemies.",
   "nicknames": [],
   "passives": [
@@ -24,6 +24,7 @@
       "name": "Fortify",
       "effects": "Increase your {{as|'''bonus''' armor}} and {{as|'''bonus''' magic resistance}} by 5% for 6 seconds when a champion deals damage to you, stacks up to 5 times for a '''maximum''' of 25%. This stacks once per unique champion.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,

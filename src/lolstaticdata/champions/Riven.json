@@ -4,7 +4,7 @@
   "name": "Riven",
   "title": "the Exile",
   "fullName": "Konte Riven",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Riven.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Riven.png",
   "resource": "NONE",
   "attackType": "MELEE",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -202,7 +202,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Riven/ability-icon/p",
         "effects": [
           {
-            "description": "Innate: Riven's ability casts generate a stack of Charge that lasts 6 seconds, which refreshes on subsequent casts and stacks up to 3 times. Riven's basic attacks are empowered to each consume a stack to deal 30% − 60% (based on level) AD bonus physical damage.",
+            "description": "Innate: Riven's ability casts generate a stack of Charge for 6 seconds, refreshing on subsequent casts and stacking up to 3 times. Riven's basic attacks are empowered to each consume a stack to deal bonus physical damage equal to 30% − 60% (based on level) AD.",
             "leveling": []
           },
           {
@@ -486,7 +486,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Riven/ability-icon/e",
         "effects": [
           {
-            "description": "Active: Riven dashes to the target location, though not through terrain, while shielding herself for 1.5 seconds.",
+            "description": "Active: Riven dashes to the target location, though not through terrain, while granting herself a shield for 1.5 seconds.",
             "leveling": [
               {
                 "attribute": "Shield Strength",
@@ -528,7 +528,7 @@
             ]
           },
           {
-            "description": "Other abilities can be cast during the dash, and Broken Wings may be cast during Ki Burst or Blade of the Exile cast times if they're used at the end or briefly after the dash.(bug) Valor will cast at max range if cast beyond that.",
+            "description": "Riven can cast any of her abilities during the dash. Valor will cast at max range if cast beyond that.",
             "leveling": []
           }
         ],
@@ -563,7 +563,7 @@
         "projectile": null,
         "onHitEffects": null,
         "occurrence": null,
-        "notes": null,
+        "notes": "Broken Wings may be cast during  Ki Burst or  Blade of the Exile cast times if they're used at the end or briefly after the dash.(bug)",
         "blurb": "Active:  Riven  dashes to the target location and gains a brief  shield.",
         "missileSpeed": null,
         "rechargeRate": null,
@@ -617,7 +617,7 @@
         "onHitEffects": null,
         "occurrence": null,
         "notes": "All bonuses are gained after 0.5 seconds of the ability starting its cast.\nThe bonus attack damage amount is factored upon cast, and does not change.\nIf Riven has a basic attack buffered before the end of Blade of the Exile's cast time, the buffered basic attack will start 0.33 seconds after the end of the cast time.\nThe delay will not apply to basic attack commands input after Blade of the Exile's cast time.",
-        "blurb": "Active:  Riven empowers her blade for some time, gaining  bonus attack damage and increased  range on her  basic attacks,  Broken Wings and  Ki Burst.",
+        "blurb": "Active:  Riven empowers her blade for some time, gaining  bonus attack damage and increased  range on her basic attacks,  Broken Wings and  Ki Burst.",
         "missileSpeed": null,
         "rechargeRate": null,
         "collisionRadius": null,
@@ -636,7 +636,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Riven/ability-icon/r",
         "effects": [
           {
-            "description": "Active: Riven unleashes a wave of energy in a cone in the target direction that deals physical damage to enemies hit once, increased by 0% − 200% (based on missing health).",
+            "description": "Active: Riven unleashes a wave of energy in a cone in the target direction that deals physical damage to enemies hit, increased by 0% − 200% (based on missing health).",
             "leveling": [
               {
                 "attribute": "Minimum Physical Damage",
@@ -736,6 +736,7 @@
     "saleRp": 0
   },
   "lore": "Once a swordmaster in the warhosts of Noxus, Riven is an expatriate in a land she previously tried to conquer. She rose through the ranks on the strength of her conviction and brutal efficiency, and was rewarded with a legendary runic blade and a warband of her own. However, on the Ionian front, Riven's faith in her homeland was tested and ultimately broken. Having severed all ties to the empire, she now seeks to find her place in a shattered world, even as rumors abound that Noxus itself has been reforged...",
+  "faction": "noxus",
   "skins": [
     {
       "name": "Original",
@@ -783,7 +784,9 @@
       "chromas": [],
       "lore": null,
       "release": "2011-09-14",
-      "set": [],
+      "set": [
+        "Otherroads"
+      ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/92/92001.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/92/92001.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/92/92001.jpg",
@@ -1277,7 +1280,7 @@
       "lore": "Born from swirling energies at the dawn of creation, Riven is the living embodiment of order in the cosmos. Fated to clash against the Nightbringer for all time, she awaits a day when her light will finally break his darkness.",
       "release": "2017-06-14",
       "set": [
-        "Order Versus Chaos"
+        "Dawnbringer"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/92/92016.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/92/92016.jpg",
@@ -1605,7 +1608,7 @@
       "lore": "A brave warrior from an ancient land, Riven was ignobly cut down in the heat of battle thousands of years ago, her sword shattering in the process. Unable to find peace, she obsessively scours an otherworldly battlefield for pieces of her broken blade, possessed by a horrific darkness that guides her into oblivion.",
       "release": "2020-08-06",
       "set": [
-        "Akana"
+        "Spirit Blossom"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/92/92023.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/92/92023.jpg",
@@ -1834,8 +1837,8 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/92/92034.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/92/92034.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/92/92034.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin34/rivenloadscreen_34.pie_c_11_14.jpg",
-      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin34/rivenloadscreen_34_le.pie_c_11_14.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin34/rivenloadscreen_34.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin34/rivenloadscreen_34_le.jpg",
       "newEffects": true,
       "newAnimations": true,
       "newRecall": true,
@@ -2072,6 +2075,41 @@
       "splashArtist": [
         "Francis Tneh",
         "West Studio"
+      ]
+    },
+    {
+      "name": "Prestige Valiant Sword (2022)",
+      "id": 92045,
+      "isBase": false,
+      "availability": "Limited",
+      "formatName": "Prestige Valiant Sword (2022)",
+      "lootEligible": false,
+      "cost": "special",
+      "sale": 0,
+      "distribution": "Given to players who owned the original skin prior to patch 12.5",
+      "rarity": "Mythic",
+      "chromas": [],
+      "lore": "Riven's destiny is greater than she knows. One day she will determine the fate of the heavens, land, and sea, and awaken the slumbering power of the dragon within her.",
+      "release": "2022-04-01",
+      "set": [
+        "Immortal Journey"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/92/92045.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/92/92045.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/92/92045.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin45/rivenloadscreen_45.pie_c_12_6.jpg",
+      "loadScreenVintagePath": null,
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Cristina Valenzuela"
+      ],
+      "splashArtist": [
+        "Zuoan Dong",
+        "Kudos Productions"
       ]
     }
   ]

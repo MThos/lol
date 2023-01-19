@@ -16,7 +16,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3044_fighter_t2_phage.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3044_fighter_t2_phage.png",
   "simpleDescription": "Attacks and kills give a small burst of speed",
   "nicknames": [
     "mallet"
@@ -28,6 +28,7 @@
       "name": "Sturdy",
       "effects": "After dealing {{as|physical damage}} to an enemy champion, {{tip|heal}} for {{as|{{rd|{{fd|1.6}}%|{{fd|0.8}}%}} of '''maximum''' health}} over 6 seconds.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -82,26 +83,26 @@
         "criticalStrikeChance": {
           "flat": 0.0,
           "percent": 0.0,
-          "perLevel": 0.0,
-          "percentPerLevel": 0.0,
-          "percentBase": 0.0,
-          "percentBonus": 0.0
+          "per_level": 0.0,
+          "percent_per_level": 0.0,
+          "percent_base": 0.0,
+          "percent_bonus": 0.0
         },
         "goldPer_10": {
           "flat": 0.0,
           "percent": 0.0,
-          "perLevel": 0.0,
-          "percentPerLevel": 0.0,
-          "percentBase": 0.0,
-          "percentBonus": 0.0
+          "per_level": 0.0,
+          "percent_per_level": 0.0,
+          "percent_base": 0.0,
+          "percent_bonus": 0.0
         },
         "healAndShieldPower": {
           "flat": 0.0,
           "percent": 0.0,
-          "perLevel": 0.0,
-          "percentPerLevel": 0.0,
-          "percentBase": 0.0,
-          "percentBonus": 0.0
+          "per_level": 0.0,
+          "percent_per_level": 0.0,
+          "percent_base": 0.0,
+          "percent_bonus": 0.0
         },
         "health": {
           "flat": 0.0,
@@ -114,10 +115,10 @@
         "healthRegen": {
           "flat": 0.0,
           "percent": 0.0,
-          "perLevel": 0.0,
-          "percentPerLevel": 0.0,
-          "percentBase": 0.0,
-          "percentBonus": 0.0
+          "per_level": 0.0,
+          "percent_per_level": 0.0,
+          "percent_base": 0.0,
+          "percent_bonus": 0.0
         },
         "lethality": {
           "flat": 0.0,
@@ -197,7 +198,7 @@
   ],
   "active": [],
   "stats": {
-    "abilityPower": {
+    "ability_power": {
       "flat": 0.0,
       "percent": 0.0,
       "perLevel": 0.0,
@@ -213,7 +214,7 @@
       "percentBase": 0.0,
       "percentBonus": 0.0
     },
-    "armorPenetration": {
+    "armor_penetration": {
       "flat": 0.0,
       "percent": 0.0,
       "perLevel": 0.0,
@@ -221,7 +222,7 @@
       "percentBase": 0.0,
       "percentBonus": 0.0
     },
-    "attackDamage": {
+    "attack_damage": {
       "flat": 15.0,
       "percent": 0.0,
       "perLevel": 0.0,
@@ -229,7 +230,7 @@
       "percentBase": 0.0,
       "percentBonus": 0.0
     },
-    "attackSpeed": {
+    "attack_speed": {
       "flat": 0.0,
       "percent": 0.0,
       "perLevel": 0.0,
@@ -237,7 +238,7 @@
       "percentBase": 0.0,
       "percentBonus": 0.0
     },
-    "cooldownReduction": {
+    "cooldown_reduction": {
       "flat": 0.0,
       "percent": 0.0,
       "perLevel": 0.0,
@@ -245,7 +246,7 @@
       "percentBase": 0.0,
       "percentBonus": 0.0
     },
-    "criticalStrikeChance": {
+    "critical_strike_chance": {
       "flat": 0.0,
       "percent": 0.0,
       "perLevel": 0.0,
@@ -253,7 +254,7 @@
       "percentBase": 0.0,
       "percentBonus": 0.0
     },
-    "goldPer_10": {
+    "gold_per_10": {
       "flat": 0.0,
       "percent": 0.0,
       "perLevel": 0.0,
@@ -261,7 +262,7 @@
       "percentBase": 0.0,
       "percentBonus": 0.0
     },
-    "healAndShieldPower": {
+    "heal_and_shield_power": {
       "flat": 0.0,
       "percent": 0.0,
       "perLevel": 0.0,
@@ -277,7 +278,7 @@
       "percentBase": 0.0,
       "percentBonus": 0.0
     },
-    "healthRegen": {
+    "health_regen": {
       "flat": 0.0,
       "percent": 0.0,
       "perLevel": 0.0,
@@ -301,7 +302,7 @@
       "percentBase": 0.0,
       "percentBonus": 0.0
     },
-    "magicPenetration": {
+    "magic_penetration": {
       "flat": 0.0,
       "percent": 0.0,
       "perLevel": 0.0,
@@ -309,7 +310,7 @@
       "percentBase": 0.0,
       "percentBonus": 0.0
     },
-    "magicResistance": {
+    "magic_resistance": {
       "flat": 0.0,
       "percent": 0.0,
       "perLevel": 0.0,
@@ -325,7 +326,7 @@
       "percentBase": 0.0,
       "percentBonus": 0.0
     },
-    "manaRegen": {
+    "mana_regen": {
       "flat": 0.0,
       "percent": 0.0,
       "perLevel": 0.0,
@@ -341,7 +342,7 @@
       "percentBase": 0.0,
       "percentBonus": 0.0
     },
-    "abilityHaste": {
+    "ability_haste": {
       "flat": 0.0,
       "percent": 0.0,
       "perLevel": 0.0,

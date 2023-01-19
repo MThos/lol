@@ -4,7 +4,7 @@
   "name": "Maokai",
   "title": "the Twisted Treant",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Maokai.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Maokai.png",
   "resource": "MANA",
   "attackType": "MELEE",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -130,7 +130,7 @@
       "percentPerLevel": 0.0
     },
     "aramDamageTaken": {
-      "flat": 1.05,
+      "flat": 1.1,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
@@ -166,7 +166,7 @@
       "percentPerLevel": 0.0
     },
     "urfHealing": {
-      "flat": 0.8,
+      "flat": 0.7,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
@@ -202,11 +202,11 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Maokai/ability-icon/p",
         "effects": [
           {
-            "description": "Innate: Periodically, Maokai empowers his next basic attack to have an uncancellable windup and heal him for 5 − 45 (based on level) (+ 4.5% − 11% (based on level) maximum health) after a 0.25-second delay.",
+            "description": "Innate: Periodically, Maokai empowers his next basic attack to have an uncancellable windup and heal him for 4 − 34 (based on level) (+ 4% − 10% (based on level) maximum health) after a 0.25-second delay.",
             "leveling": []
           },
           {
-            "description": "Each time Maokai casts an ability or is struck by an enemy's ability, Sap Magic's cooldown is reduced by 4 seconds.",
+            "description": "Each time Maokai casts an ability, hits at least one enemy champion or epic monster with Sapling Toss, or is struck by an enemy's ability, Sap Magic's cooldown is reduced by 4 seconds, modified to 1.5 if he is hit by a large monster's basic attack or ability.",
             "leveling": []
           },
           {
@@ -263,18 +263,18 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Maokai/ability-icon/q",
         "effects": [
           {
-            "description": "Active: Maokai sends a shockwave in the target direction that deals magic damage to enemies and slows them by 99% for 0.25 seconds.",
+            "description": "Active: Maokai sends a shockwave in the target direction that deals magic damage to enemies hit and slows them by 99% for 0.25 seconds. Bramble Smash deals bonus magic damage to monsters.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
                 "modifiers": [
                   {
                     "values": [
-                      70,
+                      65,
                       110,
-                      150,
-                      190,
-                      230
+                      155,
+                      200,
+                      245
                     ],
                     "units": [
                       "",
@@ -282,6 +282,96 @@
                       "",
                       "",
                       ""
+                    ]
+                  },
+                  {
+                    "values": [
+                      2,
+                      2.25,
+                      2.5,
+                      2.75,
+                      3
+                    ],
+                    "units": [
+                      "% of the target's maximum health",
+                      "% of the target's maximum health",
+                      "% of the target's maximum health",
+                      "% of the target's maximum health",
+                      "% of the target's maximum health"
+                    ]
+                  },
+                  {
+                    "values": [
+                      40,
+                      40,
+                      40,
+                      40,
+                      40
+                    ],
+                    "units": [
+                      "% AP",
+                      "% AP",
+                      "% AP",
+                      "% AP",
+                      "% AP"
+                    ]
+                  }
+                ]
+              },
+              {
+                "attribute": "Bonus Monster Damage",
+                "modifiers": [
+                  {
+                    "values": [
+                      80,
+                      100,
+                      120,
+                      140,
+                      160
+                    ],
+                    "units": [
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ]
+                  }
+                ]
+              },
+              {
+                "attribute": "Total Monster Damage",
+                "modifiers": [
+                  {
+                    "values": [
+                      145,
+                      210,
+                      275,
+                      340,
+                      405
+                    ],
+                    "units": [
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "values": [
+                      2,
+                      2.25,
+                      2.5,
+                      2.75,
+                      3
+                    ],
+                    "units": [
+                      "% of the target's maximum health",
+                      "% of the target's maximum health",
+                      "% of the target's maximum health",
+                      "% of the target's maximum health",
+                      "% of the target's maximum health"
                     ]
                   },
                   {
@@ -359,7 +449,7 @@
         "projectile": "TRUE",
         "onHitEffects": null,
         "occurrence": null,
-        "notes": "This ability will cast from wherever the caster is at the end of the cast time.\n Displacement immunity will also resist the application of the  stun.",
+        "notes": "This ability will cast from wherever the caster is at the end of the cast time.\nBramble Smash's damage based on the target's health ratio is capped at 9999 against non-champions.\n Displacement immunity will also resist the application of the  stun.",
         "blurb": "Active:  Maokai sends a shockwave in the target direction that deals magic damage and briefly  slows enemies hit.",
         "missileSpeed": null,
         "rechargeRate": null,
@@ -381,7 +471,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Maokai/ability-icon/w",
         "effects": [
           {
-            "description": "Active: Maokai dashes to the target enemy while being untargetable, dealing magic damage and rooting them for a duration upon arrival.",
+            "description": "Active: Maokai dashes to the target enemy while being untargetable. Upon arrival, he deals magic damage and roots them for a duration.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -516,18 +606,22 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Maokai/ability-icon/e",
         "effects": [
           {
-            "description": "Active: Maokai flings a Sapling to the target location, granting sight of the area. Once landed, a Sapling remains stationary for 30 seconds or until it reacts to the first nearby visible enemy, chasing them for up to 2.5 seconds. The Sapling explodes upon colliding with an enemy or when it expires, dealing magic damage to nearby enemies upon detonation, capped at 300 against non-champions, and slowing them by 35% for 2 seconds.",
+            "description": "Active: Maokai flings a Sapling to the target location, granting sight of the area.",
+            "leveling": []
+          },
+          {
+            "description": "Once landed, a Sapling remains stationary for 30 seconds or until it reacts to the first nearby visible enemy, chasing them for up to 2.5 seconds. The Sapling explodes upon colliding with an enemy or when it expires, dealing magic damage to nearby enemies, capped at 300 against non-champions, and slowing them by 45% for 2 seconds.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
                 "modifiers": [
                   {
                     "values": [
-                      20,
-                      45,
-                      70,
-                      95,
-                      120
+                      55,
+                      80,
+                      105,
+                      130,
+                      155
                     ],
                     "units": [
                       "",
@@ -539,18 +633,34 @@
                   },
                   {
                     "values": [
-                      7,
-                      7.25,
-                      7.5,
-                      7.75,
-                      8
+                      6,
+                      6,
+                      6,
+                      6,
+                      6
                     ],
                     "units": [
-                      "% (+ 0.7% per 100 AP) of target's maximum health",
-                      "% (+ 0.7% per 100 AP) of target's maximum health",
-                      "% (+ 0.7% per 100 AP) of target's maximum health",
-                      "% (+ 0.7% per 100 AP) of target's maximum health",
-                      "% (+ 0.7% per 100 AP) of target's maximum health"
+                      "% bonus health",
+                      "% bonus health",
+                      "% bonus health",
+                      "% bonus health",
+                      "% bonus health"
+                    ]
+                  },
+                  {
+                    "values": [
+                      40,
+                      40,
+                      40,
+                      40,
+                      40
+                    ],
+                    "units": [
+                      "% AP",
+                      "% AP",
+                      "% AP",
+                      "% AP",
+                      "% AP"
                     ]
                   }
                 ]
@@ -558,18 +668,18 @@
             ]
           },
           {
-            "description": "A Sapling placed in brush instead lasts 30 (+ 2.5% bonus health) seconds and deals double damage to struck targets over 3 bursts as well as revealing them for 3 seconds. The first instance of damage is dealt instantly and the second and third instances occur each 0.75 seconds thereafter. The total damage is capped at 600 against non-champions.",
+            "description": "A Sapling placed in brush instead lasts 30 (+ 2.5% bonus health) seconds, deals double damage to struck non- minion targets over 3 bursts, and slows them by 45% (+ 0.6% per 100 bonus health) (+ 2% per 100 AP), as well as reveals them for 3 seconds. The first instance of damage is dealt instantly and the second and third instances occur each 0.75 seconds thereafter. The total damage is capped at 600 against non-champions.",
             "leveling": [
               {
-                "attribute": "Total Increased Damage",
+                "attribute": "Total Enhanced Damage",
                 "modifiers": [
                   {
                     "values": [
-                      40,
-                      90,
-                      140,
-                      190,
-                      240
+                      110,
+                      160,
+                      210,
+                      260,
+                      310
                     ],
                     "units": [
                       "",
@@ -581,32 +691,48 @@
                   },
                   {
                     "values": [
-                      14,
-                      14.5,
-                      15,
-                      15.5,
-                      16
+                      12,
+                      12,
+                      12,
+                      12,
+                      12
                     ],
                     "units": [
-                      "% (+ 1.4% per 100 AP) of target's maximum health",
-                      "% (+ 1.4% per 100 AP) of target's maximum health",
-                      "% (+ 1.4% per 100 AP) of target's maximum health",
-                      "% (+ 1.4% per 100 AP) of target's maximum health",
-                      "% (+ 1.4% per 100 AP) of target's maximum health"
+                      "% bonus health",
+                      "% bonus health",
+                      "% bonus health",
+                      "% bonus health",
+                      "% bonus health"
+                    ]
+                  },
+                  {
+                    "values": [
+                      80,
+                      80,
+                      80,
+                      80,
+                      80
+                    ],
+                    "units": [
+                      "% AP",
+                      "% AP",
+                      "% AP",
+                      "% AP",
+                      "% AP"
                     ]
                   }
                 ]
               },
               {
-                "attribute": "Increased Damage Per Tick",
+                "attribute": "Enhanced Damage Per Tick",
                 "modifiers": [
                   {
                     "values": [
-                      13.33,
-                      30,
-                      46.67,
-                      63.33,
-                      80
+                      36.67,
+                      53.33,
+                      70,
+                      86.67,
+                      103.33
                     ],
                     "units": [
                       "",
@@ -618,18 +744,34 @@
                   },
                   {
                     "values": [
-                      4.67,
-                      4.83,
-                      5,
-                      5.17,
-                      5.33
+                      4,
+                      4,
+                      4,
+                      4,
+                      4
                     ],
                     "units": [
-                      "% (+ 0.46% per 100 AP) of target's maximum health",
-                      "% (+ 0.46% per 100 AP) of target's maximum health",
-                      "% (+ 0.46% per 100 AP) of target's maximum health",
-                      "% (+ 0.46% per 100 AP) of target's maximum health",
-                      "% (+ 0.46% per 100 AP) of target's maximum health"
+                      "% bonus health",
+                      "% bonus health",
+                      "% bonus health",
+                      "% bonus health",
+                      "% bonus health"
+                    ]
+                  },
+                  {
+                    "values": [
+                      26.67,
+                      26.67,
+                      26.67,
+                      26.67,
+                      26.67
+                    ],
+                    "units": [
+                      "% AP",
+                      "% AP",
+                      "% AP",
+                      "% AP",
+                      "% AP"
                     ]
                   }
                 ]
@@ -645,11 +787,11 @@
           "modifiers": [
             {
               "values": [
-                60,
-                70,
-                80,
-                90,
-                100
+                45,
+                55,
+                65,
+                75,
+                85
               ],
               "units": [
                 "",
@@ -713,8 +855,26 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Maokai/ability-icon/r",
         "effects": [
           {
-            "description": "Active: Maokai summons a colossal wall of five thorny brambles that slowly advances in the target direction, accelerating over time, each stopping when they collide with an enemy champion.",
-            "leveling": []
+            "description": "Active: Maokai summons a colossal wall of five thorny brambles that slowly advances in the target direction, accelerating over time, each stopping when they collide with an enemy champion. Hitting at least one enemy champion grants Maokai bonus movement speed decaying over 2 seconds.",
+            "leveling": [
+              {
+                "attribute": "Bonus Movement Speed",
+                "modifiers": [
+                  {
+                    "values": [
+                      40,
+                      50,
+                      60
+                    ],
+                    "units": [
+                      "%",
+                      "%",
+                      "%"
+                    ]
+                  }
+                ]
+              }
+            ]
           },
           {
             "description": "Each bramble deals magic damage to enemies hit and roots them for 0.8 − 2.6 (based on distance traveled) seconds.",
@@ -772,8 +932,8 @@
             {
               "values": [
                 120,
-                100,
-                80
+                110,
+                100
               ],
               "units": [
                 "",
@@ -801,7 +961,7 @@
         "tetherRadius": null,
         "onTargetCdStatic": null,
         "innerRadius": null,
-        "speed": "50 - 600",
+        "speed": "100 / 400 / 700 / 750 (based on seconds active)",
         "width": "240",
         "angle": null,
         "castTime": "0.5",
@@ -812,13 +972,14 @@
   },
   "releaseDate": "2011-02-16",
   "releasePatch": "1.0.0.111",
-  "patchLastChanged": "12.13",
+  "patchLastChanged": "12.20",
   "price": {
     "blueEssence": 4800,
     "rp": 880,
     "saleRp": 0
   },
   "lore": "Maokai is a rageful, towering treant who fights the unnatural horrors of the Shadow Isles. He was twisted into a force of vengeance after a magical cataclysm destroyed his home, surviving undeath only through the Waters of Life infused within his heartwood. Once a peaceful nature spirit, Maokai now furiously battles to banish the scourge of unlife from the Shadow Isles and restore his home to its former beauty.",
+  "faction": "shadow-isles",
   "skins": [
     {
       "name": "Original",
@@ -1200,8 +1361,7 @@
       "lore": "Maokai has, at long last, embraced his role as a giant, haunted scratching post.",
       "release": "2016-03-31",
       "set": [
-        "Cats Versus Dogs",
-        "Disguise"
+        "Cats Versus Dogs"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/57/57006.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/57/57006.jpg",
@@ -1626,7 +1786,7 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/57/57024.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/57/57024.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/57/57024.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/maokai/skins/skin24/maokailoadscreen_24.pie_c_11_13.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/maokai/skins/skin24/maokailoadscreen_24.jpg",
       "loadScreenVintagePath": null,
       "newEffects": true,
       "newAnimations": true,

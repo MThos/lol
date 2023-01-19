@@ -8,15 +8,17 @@
   ],
   "buildsInto": [
     3026,
+    3068,
     3742,
-    6333
+    6333,
+    6662
   ],
   "specialRecipe": 0,
   "noEffects": true,
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/1031_base_t2_chainvest.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/1031_base_t2_chainvest.png",
   "simpleDescription": "Greatly increases Armor",
   "nicknames": [],
   "passives": [],

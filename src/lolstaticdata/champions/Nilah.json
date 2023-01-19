@@ -4,7 +4,7 @@
   "name": "Nilah",
   "title": "The Joy Unbound",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Nilah.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Nilah.png",
   "resource": "MANA",
   "attackType": "MELEE",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -206,7 +206,7 @@
             "leveling": []
           },
           {
-            "description": "Innate: Whenever a nearby allied champion uses an ability to heal or shield either Nilah or themselves, they both receive a bonus amount equal to 7.5% of the healing or 15% of the shielding after a 0.5-second delay. Bonus shielding lasts as long as the shield that triggered the effect, up to a maximum duration of 4 seconds.",
+            "description": "Innate: Whenever a nearby allied champion uses an ability to heal or shield either Nilah or themselves, both they and Nilah receive a bonus amount equal to 7.5% of the healing or 15% of the shielding after a 0.5-second delay. Bonus shielding lasts as long as the shield that triggered the effect, up to a maximum duration of 4 seconds.",
             "leveling": []
           }
         ],
@@ -487,7 +487,7 @@
         "onHitEffects": null,
         "occurrence": null,
         "notes": "Allies may only be affected by Jubilant Veil only once every 6 seconds.",
-        "blurb": "Active:  Nilah briefly envelops herself in mist, during which she gains  move speed and  magic damage reduction, and  dodges all non-turret basic attacks.",
+        "blurb": "Active:  Nilah briefly envelops herself in mist, during which she gains  move speed and magic damage reduction, and  dodges all non-turret basic attacks.",
         "missileSpeed": null,
         "rechargeRate": null,
         "collisionRadius": "150",
@@ -608,7 +608,7 @@
         "projectile": null,
         "onHitEffects": null,
         "occurrence": null,
-        "notes": null,
+        "notes": "Slipstream has a very brief cast time before the start of the dash.(bug)\nFormless Blade used during Slipstream might not register, rendering it on cooldown without being casted.(bug)\nSlipstream has a chance of visually not using charge, causing it to showing one available charge without possibility of using it.(bug)\nDashing to target through a wall within casting range will cancel the dash if wall is longer than dash range.(bug)",
         "blurb": "Active:  Nilah  dashes in the target enemy's direction, dealing physical damage to enemies she passes through.",
         "missileSpeed": null,
         "rechargeRate": [
@@ -625,7 +625,7 @@
         "speed": "2200",
         "width": null,
         "angle": null,
-        "castTime": "none",
+        "castTime": "0.01",
         "effectRadius": null,
         "targetRange": "550"
       }
@@ -638,35 +638,6 @@
           {
             "description": "Active: Nilah whirls her whip-blade over 1 second, dealing physical damage to nearby enemies every 0.25 seconds. She then unleashes a burst that deals physical damage and pulls them 250 units towards her. Each hit also slows targets by 10% for 3 seconds, refreshing on subsequent hits.",
             "leveling": [
-              {
-                "attribute": "Whirl Total Physical Damage",
-                "modifiers": [
-                  {
-                    "values": [
-                      60,
-                      120,
-                      180
-                    ],
-                    "units": [
-                      "",
-                      "",
-                      ""
-                    ]
-                  },
-                  {
-                    "values": [
-                      140,
-                      140,
-                      140
-                    ],
-                    "units": [
-                      "% bonus AD",
-                      "% bonus AD",
-                      "% bonus AD"
-                    ]
-                  }
-                ]
-              },
               {
                 "attribute": "Physical Damage per Tick",
                 "modifiers": [
@@ -697,7 +668,36 @@
                 ]
               },
               {
-                "attribute": "Burst Physical Damage",
+                "attribute": "Total Physical Damage",
+                "modifiers": [
+                  {
+                    "values": [
+                      60,
+                      120,
+                      180
+                    ],
+                    "units": [
+                      "",
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "values": [
+                      140,
+                      140,
+                      140
+                    ],
+                    "units": [
+                      "% bonus AD",
+                      "% bonus AD",
+                      "% bonus AD"
+                    ]
+                  }
+                ]
+              },
+              {
+                "attribute": "Physical Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -826,13 +826,14 @@
   },
   "releaseDate": "2022-07-13",
   "releasePatch": "12.13",
-  "patchLastChanged": "12.15",
+  "patchLastChanged": "12.21",
   "price": {
     "blueEssence": 6300,
     "rp": 975,
     "saleRp": 0
   },
   "lore": "Nilah is an ascetic warrior from a distant land, seeking the world's deadliest, most titanic opponents so that she might challenge and destroy them. Having won her power through an encounter with the long-imprisoned demon of joy, she has no emotions other than unceasing jubilation—a small price to pay for the vast strength she now possesses. Channeling the demon's liquid form into a blade of unparalleled might, she stands defiant against ancient threats long forgotten.",
+  "faction": "bilgewater",
   "skins": [
     {
       "name": "Original",
@@ -1086,7 +1087,9 @@
       "voiceActor": [
         "Sandra Saad"
       ],
-      "splashArtist": []
+      "splashArtist": [
+        "Jennifer Wuestling"
+      ]
     }
   ]
 }

@@ -4,7 +4,7 @@
   "name": "Lulu",
   "title": "the Fae Sorceress",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Lulu.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Lulu.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -136,7 +136,7 @@
       "percentPerLevel": 0.0
     },
     "aramDamageDealt": {
-      "flat": 1.0,
+      "flat": 1.05,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
@@ -202,7 +202,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Lulu/ability-icon/p",
         "effects": [
           {
-            "description": "Innate: Lulu is assisted by Pix, an untargetable faerie, who follows her around and fires a barrage of 3 bolts towards Lulu's target whenever she uses a basic attack on-attack. Each bolt deals 5 − 39 (based on level) (+ 5% AP) magic damage to Lulu's attack target or to the first enemy they collide with, for a total of 15 − 117 (based on level) (+ 15% AP) magic damage on hitting a single enemy with all three bolts.",
+            "description": "Innate: Lulu is assisted by Pix, an untargetable faerie, who follows her around and fires a barrage of 3 bolts towards her target whenever she uses a basic attack on-attack. Each bolt deals 5 − 39 (based on level) (+ 5% AP) magic damage to the first enemy it collides with, for a total of 15 − 117 (based on level) (+ 15% AP) on hitting a single target with all three bolts.",
             "leveling": []
           },
           {
@@ -247,7 +247,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Lulu/ability-icon/q",
         "effects": [
           {
-            "description": "Active: Lulu and Pix each fire a magic bolt towards the target point, each one dealing magic damage, reduced to 70% against minions, and slowing them by 80%, decaying over 2 seconds.",
+            "description": "Active: Lulu and Pix each fire a magic bolt towards the target point, each one dealing magic damage to enemies hit, reduced to 70% against minions, and slowing them by 80% decaying over 2 seconds.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -275,43 +275,6 @@
                       40,
                       40,
                       40
-                    ],
-                    "units": [
-                      "% AP",
-                      "% AP",
-                      "% AP",
-                      "% AP",
-                      "% AP"
-                    ]
-                  }
-                ]
-              },
-              {
-                "attribute": "Maximum Damage",
-                "modifiers": [
-                  {
-                    "values": [
-                      87.5,
-                      131.25,
-                      175,
-                      218.75,
-                      262.5
-                    ],
-                    "units": [
-                      "",
-                      "",
-                      "",
-                      "",
-                      ""
-                    ]
-                  },
-                  {
-                    "values": [
-                      50,
-                      50,
-                      50,
-                      50,
-                      50
                     ],
                     "units": [
                       "% AP",
@@ -359,9 +322,125 @@
                     ]
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "description": "Enemies take 25% damage from a second bolt.",
+            "leveling": [
+              {
+                "attribute": "Reduced Damage",
+                "modifiers": [
+                  {
+                    "values": [
+                      17.5,
+                      26.25,
+                      35,
+                      43.75,
+                      52.5
+                    ],
+                    "units": [
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "values": [
+                      10,
+                      10,
+                      10,
+                      10,
+                      10
+                    ],
+                    "units": [
+                      "% AP",
+                      "% AP",
+                      "% AP",
+                      "% AP",
+                      "% AP"
+                    ]
+                  }
+                ]
               },
               {
-                "attribute": "Maximum Minion Damage",
+                "attribute": "Total Magic Damage",
+                "modifiers": [
+                  {
+                    "values": [
+                      87.5,
+                      131.25,
+                      175,
+                      218.75,
+                      262.5
+                    ],
+                    "units": [
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "values": [
+                      50,
+                      50,
+                      50,
+                      50,
+                      50
+                    ],
+                    "units": [
+                      "% AP",
+                      "% AP",
+                      "% AP",
+                      "% AP",
+                      "% AP"
+                    ]
+                  }
+                ]
+              },
+              {
+                "attribute": "Reduced Minion Damage",
+                "modifiers": [
+                  {
+                    "values": [
+                      12.25,
+                      18.375,
+                      24.5,
+                      30.625,
+                      36.75
+                    ],
+                    "units": [
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "values": [
+                      7,
+                      7,
+                      7,
+                      7,
+                      7
+                    ],
+                    "units": [
+                      "% AP",
+                      "% AP",
+                      "% AP",
+                      "% AP",
+                      "% AP"
+                    ]
+                  }
+                ]
+              },
+              {
+                "attribute": "Total Minion Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -398,10 +477,6 @@
                 ]
               }
             ]
-          },
-          {
-            "description": "Enemies take 25% damage from a second bolt.",
-            "leveling": []
           }
         ],
         "cost": {
@@ -480,18 +555,18 @@
             "leveling": []
           },
           {
-            "description": "Enemy Cast: Lulu launches a spell onto the target enemy champion that upon arrival polymorphs them into a harmless critter for a duration, during which their base movement speed is reduced by 60, and disarming them for the same duration.",
+            "description": "Enemy Cast: Lulu launches a spell onto the target enemy champion that polymorphs them into a harmless critter for a duration, during which their base movement speed is reduced by 60, and disarming them for the same duration.",
             "leveling": [
               {
                 "attribute": "Disable Duration",
                 "modifiers": [
                   {
                     "values": [
-                      1.25,
-                      1.5,
-                      1.75,
-                      2,
-                      2.25
+                      1.2,
+                      1.4,
+                      1.6,
+                      1.8,
+                      2
                     ],
                     "units": [
                       "",
@@ -506,7 +581,7 @@
             ]
           },
           {
-            "description": "Self / Ally Cast: Lulu instantly casts erratic magic upon the target allied champion or herself, granting the target bonus attack speed and 30% (+ 5% per 100 AP) bonus movement speed for the next few seconds.",
+            "description": "Self / Ally Cast: Lulu instantly casts erratic magic upon the target allied champion or herself, granting the target bonus attack speed and 25% (+ 5% per 100 AP) bonus movement speed for the duration.",
             "leveling": [
               {
                 "attribute": "Bonus Attack Speed",
@@ -578,10 +653,10 @@
             {
               "values": [
                 17,
+                16.5,
                 16,
-                15,
-                14,
-                13
+                15.5,
+                15
               ],
               "units": [
                 "",
@@ -629,7 +704,7 @@
             "leveling": []
           },
           {
-            "description": "Enemy Cast: Lulu sends Pix to the far side of the target enemy for 4 seconds, dealing them magic damage and revealing them for the same duration.",
+            "description": "Enemy Cast: Lulu sends Pix to the far side of the target enemy for 4 seconds, dealing magic damage and revealing them for the same duration.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -671,7 +746,7 @@
             ]
           },
           {
-            "description": "Self / Ally Cast: Lulu sends Pix to the target ally for 6 seconds, granting them a shield for 2.5 seconds if they are a champion.",
+            "description": "Self / Ally Cast: Lulu sends Pix to the target ally for 6.25 seconds. If the target is a champion, they are granted a shield for 2.5 seconds.",
             "leveling": [
               {
                 "attribute": "Shield Strength",
@@ -785,7 +860,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Lulu/ability-icon/r",
         "effects": [
           {
-            "description": "Active: Lulu enchants herself or the target allied champion, knocking up surrounding enemies for 0.75 seconds. The target remains enchanted for 7 seconds, gaining bonus health, 40% increased size and an aura that slows nearby enemies for the duration, lingering for 0.25 seconds.",
+            "description": "Active: Lulu enlarges herself or the target allied champion, knocking up nearby enemies for 0.75 seconds. For the next 7 seconds, the target gains bonus health and 40% increased size and slows nearby enemies, which lingers for 0.25 seconds.",
             "leveling": [
               {
                 "attribute": "Bonus Health",
@@ -897,13 +972,14 @@
   },
   "releaseDate": "2012-03-20",
   "releasePatch": "1.0.0.136",
-  "patchLastChanged": "12.10",
+  "patchLastChanged": "12.18",
   "price": {
     "blueEssence": 4800,
     "rp": 880,
     "saleRp": 0
   },
   "lore": "The yordle mage Lulu is known for conjuring dreamlike illusions and fanciful creatures as she roams Runeterra with her fairy companion Pix. Lulu shapes reality on a whim, warping the fabric of the world, and what she views as the constraints of this mundane, physical realm. While others might consider her magic at best unnatural, and at worst dangerous, she believes everyone could use a touch of enchantment.",
+  "faction": "bandle-city",
   "skins": [
     {
       "name": "Original",
@@ -1574,8 +1650,7 @@
       "lore": "Fuzzy onesies! Paper fortune tellers! Cuddly, incoming! Lulu's so ready for this slumber party. Even Pix is excited, and getting into the spirit of things. Star Guardians are destined to protect the universe—but that doesn't mean they can't have a little fun along the way!",
       "release": "2018-11-21",
       "set": [
-        "Star Guardian Season 1",
-        "Disguise"
+        "Star Guardian Season 1"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/117/117015.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/117/117015.jpg",

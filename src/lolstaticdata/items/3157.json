@@ -14,7 +14,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3157_mage_t3_zhonyashourglass.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3157_mage_t3_zhonyashourglass.png",
   "simpleDescription": "Activate to become invincible but unable to take actions",
   "nicknames": [
     "zhg",
@@ -33,7 +33,7 @@
   ],
   "stats": {
     "abilityPower": {
-      "flat": 65.0,
+      "flat": 80.0,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0,
@@ -177,7 +177,7 @@
       "percentBonus": 0.0
     },
     "abilityHaste": {
-      "flat": 10.0,
+      "flat": 15.0,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0,
@@ -203,9 +203,9 @@
   },
   "shop": {
     "prices": {
-      "total": 2600,
+      "total": 3000,
       "combined": 0,
-      "sell": 1040
+      "sell": 1200
     },
     "purchasable": true,
     "tags": [

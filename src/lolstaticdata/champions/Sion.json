@@ -4,7 +4,7 @@
   "name": "Sion",
   "title": "The Undead Juggernaut",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Sion.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Sion.png",
   "resource": "MANA",
   "attackType": "MELEE",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -202,7 +202,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Sion/ability-icon/p",
         "effects": [
           {
-            "description": "Innate: Upon taking fatal damage, Sion enters stasis for 1.5 seconds to reanimate into a frenzy, restoring 100% of his maximum health but losing 2 − 19 (based on level) health every 0.264 seconds, increasing by[ 70% of the base value ][ 1.4 − 13.3 (based on level) health ]per subsequent tick. Sion's health regeneration and any healing (except life steal) he receives during this time is 0% effective.",
+            "description": "Innate: Upon taking fatal damage, Sion enters stasis for 1.5 seconds to reanimate into a frenzy, restoring 100% of his maximum health but losing 2 − 19 (based on level) health every 0.264 seconds, increasing by[ 70% of the base value ][ 1.4 − 13.3 (based on level) ]per subsequent tick. Sion's health regeneration and any healing (except life steal) he receives during this time is 0% effective.",
             "leveling": []
           },
           {
@@ -301,7 +301,7 @@
             "description": "Active: Sion charges for up to 2 seconds to increase Decimating Smash's range over an area, knock up duration, stun duration, and damage every 0.25 seconds, which has up to a maximum bonus for the base damage and up to a 200% bonus for the scaling damage.",
             "leveling": [
               {
-                "attribute": "Max. Base Damage Increase",
+                "attribute": "Maximum Base Damage Increase",
                 "modifiers": [
                   {
                     "values": [
@@ -322,7 +322,7 @@
                 ]
               },
               {
-                "attribute": "Minimum Damage",
+                "attribute": "Minimum Physical Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -359,7 +359,7 @@
                 ]
               },
               {
-                "attribute": "Maximum Damage",
+                "attribute": "Maximum Physical Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -555,7 +555,7 @@
             ]
           },
           {
-            "description": "If Decimating Smash was charged for at least 1 second, Sion instead slams his axe down in the target direction, dealing physical damage to enemies hit and knocking them up for 0.5 − 1 (based on channel time) seconds and stunning them for 1.25 − 2.25 (based on channel time) seconds.",
+            "description": "If Decimating Smash was charged for at least 1 second, Sion instead slams his axe down in the target direction, dealing physical damage to enemies hit, knocking them up for 0.5 − 1 (based on channel time) seconds, and stunning them for 1.25 − 2.25 (based on channel time) seconds.",
             "leveling": []
           }
         ],
@@ -635,7 +635,7 @@
             "leveling": []
           },
           {
-            "description": "Active: Sion gains a shield that lasts for up to 6 seconds. Soul Furnace can be recast after 3 seconds while the shield holds, and does so automatically at the end of the duration.",
+            "description": "Active: Sion grants himself a shield that lasts for up to 6 seconds. Soul Furnace can be recast after 3 seconds while the shield holds, and does so automatically at the end of the duration.",
             "leveling": [
               {
                 "attribute": "Shield Strength",
@@ -827,7 +827,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Sion/ability-icon/e",
         "effects": [
           {
-            "description": "Active: Sion bellows a shockwave in the target direction that deals magic damage to the first enemy hit, slowing them for 2.5 seconds and inflicting them with 20% armor reduction for 4 seconds.",
+            "description": "Active: Sion bellows a shockwave in the target direction that deals magic damage to the first enemy hit, slows them for 2.5 seconds and inflicts them with 20% armor reduction for 4 seconds.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -978,7 +978,7 @@
             "leveling": []
           },
           {
-            "description": "Enemies hit by Sion's charge are dealt physical damage. The base damage increases by 0% − 166.67% (based on channel time) and the bonus AD ratio increases by 0% − 100% (based on channel time).",
+            "description": "Enemies hit by Sion's charge are dealt physical damage. The base damage increases by 0% − 166.67% (based on channel time) and the scaling increases by 0% − 100% (based on channel time).",
             "leveling": [
               {
                 "attribute": "Minimum Physical Damage",
@@ -1041,7 +1041,7 @@
             ]
           },
           {
-            "description": "Enemies, including turrets, hit by the slam are dealt the same physical damage and are slowed for 3 seconds. Enemies in a smaller radius are also pulled towards Sion over 0.5 seconds and become stunned after a brief delay for 0.25 − 1.75 (based on channel time) seconds.",
+            "description": "Enemies, including turrets, hit by the slam are dealt the same damage and are slowed for 3 seconds. Enemies in a smaller radius are also pulled towards Sion over 0.5 seconds and become stunned after a brief delay for 0.25 − 1.75 (based on channel time) seconds.",
             "leveling": [
               {
                 "attribute": "Slow",
@@ -1124,13 +1124,14 @@
   },
   "releaseDate": "2009-02-21",
   "releasePatch": "Alpha Week 2",
-  "patchLastChanged": "12.14",
+  "patchLastChanged": "12.16",
   "price": {
     "blueEssence": 1350,
     "rp": 585,
     "saleRp": 0
   },
   "lore": "A war hero from a bygone era, Sion was revered in Noxus for choking the life out of a Demacian king with his bare hands—but, denied oblivion, he was resurrected to serve his empire even in death. His indiscriminate slaughter claimed all who stood in his way, regardless of allegiance, proving he no longer retained his former humanity. Even so, with crude armor bolted onto rotten flesh, Sion continues to charge into battle with reckless abandon, struggling to remember his true self between the swings of his mighty axe.",
+  "faction": "noxus",
   "skins": [
     {
       "name": "Original",

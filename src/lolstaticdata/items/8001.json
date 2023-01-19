@@ -13,7 +13,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/8001_tank_t3_anathemaschains.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/8001_tank_t3_anathemaschains.png",
   "simpleDescription": null,
   "nicknames": [],
   "passives": [
@@ -21,8 +21,9 @@
       "unique": true,
       "mythic": false,
       "name": "Vendetta",
-      "effects": "Take 1% reduced damage per stack of ''Vendetta'' from your ''Nemesis'', up to 30% reduced damage.",
+      "effects": "Take 1% reduced damage per stack of ''Vendetta'' from your ''Nemesis'', up to 30% damage reduction against them.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -195,6 +196,7 @@
       "name": "Vengeance",
       "effects": "At '''maximum''' stacks, your ''Nemesis'' has 20% reduced {{tip|tenacity}} while they are within {{tip|cr|icononly = true}} 700 units of you.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -366,7 +368,7 @@
     {
       "unique": true,
       "name": "Vow",
-      "effects": "Curse the target enemy champion, designating them as your ''Nemesis'' and granting you 1 stack of ''Vendetta'' every 2 seconds over 60 seconds, up to 30 stacks, resetting upon selecting a new ''Nemesis''. Cannot be cast for 15 seconds while in combat with champions.",
+      "effects": "Curse the target enemy champion, designating them as your ''Nemesis'' and granting you 1 stack of ''Vendetta'' every 2 seconds over 60 seconds, stacking up to 30 times. These stacks are lost upon selecting a new ''Nemesis''. Cannot be cast for 15 seconds while in combat with enemy champions.",
       "range": 0,
       "cooldown": null
     }

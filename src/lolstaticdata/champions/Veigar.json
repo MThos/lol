@@ -4,7 +4,7 @@
   "name": "Veigar",
   "title": "the Tiny Master of Evil",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Veigar.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Veigar.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -478,7 +478,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Veigar/ability-icon/e",
         "effects": [
           {
-            "description": "Active: Veigar forms a cage at the target location that erects after a 0.5 second delay, and remains for 3 seconds. Enemies that collide with the edges of the cage are knocked down and stunned for a duration.",
+            "description": "Active: Veigar forms a cage at the target location that erects after a 0.5 second delay, remaining there for 3 seconds. Enemies that collide with the edges of the cage are knocked down and stunned for a duration.",
             "leveling": [
               {
                 "attribute": "Stun Duration",
@@ -504,7 +504,7 @@
             ]
           },
           {
-            "description": "Enemies can only be affected by Event Horizon's effects once per cast.",
+            "description": "Enemies can be affected by Event Horizon's effects only once per cast.",
             "leveling": []
           }
         ],
@@ -583,7 +583,7 @@
             "description": "Active: Veigar sends a primordial burst at the target enemy champion that deals magic damage, increased by 0% − 100% (based on target's missing health).",
             "leveling": [
               {
-                "attribute": "Minimum Damage",
+                "attribute": "Minimum Magic Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -612,7 +612,7 @@
                 ]
               },
               {
-                "attribute": "Maximum Damage",
+                "attribute": "Maximum Magic Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -711,6 +711,7 @@
     "saleRp": 0
   },
   "lore": "An enthusiastic master of dark sorcery, Veigar has embraced powers that few mortals dare approach. As a free-spirited inhabitant of Bandle City, he longed to push beyond the limitations of yordle magic, and turned instead to arcane texts that had been hidden away for thousands of years. Now a stubborn creature with an endless fascination for the mysteries of the universe, Veigar is often underestimated by others—but even though he believes himself truly evil, he possesses an inner morality that leads some to question his deeper motivations.",
+  "faction": "bandle-city",
   "skins": [
     {
       "name": "Original",
@@ -750,7 +751,7 @@
       "isBase": false,
       "availability": "Available",
       "formatName": "White Mage",
-      "lootEligible": false,
+      "lootEligible": true,
       "cost": 390,
       "sale": 0,
       "distribution": null,
@@ -887,8 +888,7 @@
       "lore": "Ruler of the New Bandle Republic, Veigar considers himself the ultimate dark power of the wasteland—an evil so great that no man, woman, or creature would ever dare challenge his authority. Recently, he fixed up a water purifier and an electric grid for the city, too. An electric grid… OF EVIL!",
       "release": "2011-06-27",
       "set": [
-        "Road Warrior",
-        "Baron"
+        "Road Warrior"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/45/45005.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/45/45005.jpg",
@@ -1344,7 +1344,7 @@
         "Bob Beal"
       ],
       "splashArtist": [
-        "Art of Maki"
+        "Maki Planas Mata"
       ]
     },
     {
@@ -1530,9 +1530,7 @@
       ],
       "lore": "50% fury, 50% horn,100% evil.",
       "release": "2020-04-01",
-      "set": [
-        "Disguise"
-      ],
+      "set": [],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/45/45023.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/45/45023.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/45/45023.jpg",
@@ -1739,7 +1737,7 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/45/45032.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/45/45032.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/45/45032.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin32/veigarloadscreen_32.pie_c_11_13.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin32/veigarloadscreen_32.jpg",
       "loadScreenVintagePath": null,
       "newEffects": true,
       "newAnimations": true,

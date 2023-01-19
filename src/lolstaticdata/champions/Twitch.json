@@ -4,7 +4,7 @@
   "name": "Twitch",
   "title": "the Plague Rat",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Twitch.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Twitch.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -201,7 +201,11 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Twitch/ability-icon/p",
         "effects": [
           {
-            "description": "Innate: Twitch's basic attacks on-hit apply a stack of Deadly Venom for 6 seconds, which refreshes on subsequent hits and stacks up to 6 times.\nDeadly Venom: For each stack, the target is dealt[ 1 / 2 / 3 / 4 / 5 (based on level) (+ 2.5% AP) true damage per second over the duration, ][ 6 / 12 / 18 / 24 / 30 (based on level) (+ 15% AP) total true damage over the duration, ]for a maximum of[ 6 / 12 / 18 / 24 / 30 (based on level) (+ 15% AP) true damage with each tick. ][ 36 / 72 / 108 / 144 / 180 (based on level) (+ 90% AP) total true damage over the duration. ]This effect is considered a poison.",
+            "description": "Innate: Twitch's basic attacks on-hit apply a stack of Deadly Venom for 6 seconds, refreshing on subsequent applications and stacking up to 6 times.",
+            "leveling": []
+          },
+          {
+            "description": "Deadly Venom: For each stack, the target is dealt[ 1 / 2 / 3 / 4 / 5 (based on level) (+ 3% AP) true damage per second over the duration, ][ 6 / 12 / 18 / 24 / 30 (based on level) (+ 18% AP) total true damage over the duration, ]for a maximum of[ 6 / 12 / 18 / 24 / 30 (based on level) (+ 18% AP) true damage with each tick. ][ 36 / 72 / 108 / 144 / 180 (based on level) (+ 108% AP) total true damage over the duration. ]This effect is considered a poison.",
             "leveling": []
           }
         ],
@@ -238,7 +242,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Twitch/ability-icon/q",
         "effects": [
           {
-            "description": "Active: After a 1 second delay, Twitch becomes camouflaged for a duration. Attacking or casting Venom Cask or Contaminate ends Ambush immediately.",
+            "description": "Active: After a 1-second delay, Twitch becomes camouflaged for a duration. Attacking or casting Venom Cask or Contaminate ends Ambush immediately.",
             "leveling": [
               {
                 "attribute": "Stealth Duration",
@@ -488,7 +492,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Twitch/ability-icon/e",
         "effects": [
           {
-            "description": "Active: Twitch sends out a lethal toxin to each nearby enemy afflicted by Deadly Venom, dealing each of them physical damage at the end of the cast time.",
+            "description": "Active: Twitch sends out a lethal toxin to each nearby enemy afflicted by Deadly Venom, dealing them physical damage.",
             "leveling": [
               {
                 "attribute": "Base Physical Damage",
@@ -514,7 +518,7 @@
             ]
           },
           {
-            "description": "Contaminate deals additional physical damage and 33% AP magic damage for each stack of Deadly Venom on the target.",
+            "description": "Contaminate deals additional physical damage and 35% AP magic damage for each stack of Deadly Venom on the target.",
             "leveling": [
               {
                 "attribute": "Physical Damage Per Stack",
@@ -590,11 +594,11 @@
                   },
                   {
                     "values": [
-                      33,
-                      33,
-                      33,
-                      33,
-                      33
+                      35,
+                      35,
+                      35,
+                      35,
+                      35
                     ],
                     "units": [
                       "% AP",
@@ -643,11 +647,11 @@
                   },
                   {
                     "values": [
-                      198,
-                      198,
-                      198,
-                      198,
-                      198
+                      210,
+                      210,
+                      210,
+                      210,
+                      210
                     ],
                     "units": [
                       "% AP",
@@ -741,7 +745,7 @@
             "description": "Active: Twitch gains bonus attack damage and 300 bonus attack range for 6 seconds, during which his basic attacks are replaced by bolts that travel slightly further than his attack range in a straight line, dealing damage to every enemy unit hit.",
             "leveling": [
               {
-                "attribute": "Bonus AD",
+                "attribute": "Bonus Attack Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -825,13 +829,14 @@
   },
   "releaseDate": "2009-05-01",
   "releasePatch": "May 1, 2009 Patch",
-  "patchLastChanged": "12.10",
+  "patchLastChanged": "12.19",
   "price": {
     "blueEssence": 3150,
     "rp": 790,
     "saleRp": 0
   },
   "lore": "A Zaunite plague rat by birth, but a connoisseur of filth by passion, Twitch is not afraid to get his paws dirty. Aiming a chem-powered crossbow at the gilded heart of Piltover, he has vowed to show those in the city above just how filthy they really are. Always a sneaky sneak, when he's not rooting around in the Sump, he's digging deep into other people's garbage for discarded treasures… and perhaps a moldy sandwich.",
+  "faction": "zaun",
   "skins": [
     {
       "name": "Original",
@@ -906,7 +911,7 @@
       "availability": "Rare",
       "formatName": "Medieval",
       "lootEligible": false,
-      "cost": 2400,
+      "cost": "special",
       "sale": 0,
       "distribution": "Honor Capsule",
       "rarity": "NoRarity",

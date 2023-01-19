@@ -14,7 +14,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/4629_mage_t3_cosmicdrive.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/4629_mage_t3_cosmicdrive.png",
   "simpleDescription": "Massive amounts of Cooldown Reduction",
   "nicknames": [
     "hat"
@@ -24,8 +24,9 @@
       "unique": true,
       "mythic": false,
       "name": "Spelldance",
-      "effects": "After dealing 3 instances of damage from basic attacks or [[ability damage]] to champions within 3 seconds, gain {{as|15% '''bonus''' movement speed}}, decaying to {{as|5%|ms}} over 2 seconds, and {{as|40 ability power}} for 5 seconds, refreshing on damage dealt to champions though not resetting the effect.",
+      "effects": "After dealing 3 instances of damage from basic attacks or {{tip|ability damage}} to champions within 3 seconds, gain {{as|15% '''bonus''' movement speed}}, decaying to {{as|5%|ms}} over 2 seconds, and {{as|40 ability power}} for 5 seconds, refreshing on damage dealt to champions though not resetting the effect.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 40.0,

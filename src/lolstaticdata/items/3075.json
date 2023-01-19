@@ -13,7 +13,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3075_tank_t3_thornmail.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3075_tank_t3_thornmail.png",
   "simpleDescription": null,
   "nicknames": [
     "grievous wounds"
@@ -25,6 +25,7 @@
       "name": "Thorns",
       "effects": "When struck by a basic attack [[on-hit]], deal {{as|10 {{as|(+ 20% '''bonus''' armor)}} magic damage|magic damage}} to the attacker and, if they are a champion, inflict them with 25% {{tip|Grievous Wounds}} for 3 seconds. {{tip|Immobilize|Immobilizing}} enemy champions also inflicts them with 40% {{tip|Grievous Wounds}} for 3 seconds.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,

@@ -9,6 +9,7 @@
     3072,
     3031,
     3095,
+    3161,
     4403
   ],
   "specialRecipe": 0,
@@ -16,7 +17,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/1038_marksman_t1_bfsword.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/1038_marksman_t1_bfsword.png",
   "simpleDescription": "Greatly increases Attack Damage",
   "nicknames": [
     "bf"

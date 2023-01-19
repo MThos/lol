@@ -4,7 +4,7 @@
   "name": "Katarina",
   "title": "the Sinister Blade",
   "fullName": "Katarina Du Couteau",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Katarina.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Katarina.png",
   "resource": "NONE",
   "attackType": "MELEE",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -205,11 +205,11 @@
             "leveling": []
           },
           {
-            "description": "Innate - Sinister Steel: Whenever Katarina retrieves a Dagger, she uses it to slash around herself, dealing 68 − 240 (based on level) (+ 60% bonus AD) (+ 65 / 75 / 85 / 95% (based on level) AP) magic damage to nearby enemies and applying on-hit effects at 100% effectiveness to enemy champions hit, as well as reducing Shunpo's total cooldown by 78 / 84 / 90 / 96% (based on level).",
+            "description": "Innate - Sinister Steel: Whenever Katarina retrieves a Dagger, she uses it to slash around herself, dealing 68 − 240 (based on level) (+ 60% bonus AD) (+ 65 / 75 / 85 / 95% (based on level) AP) magic damage to nearby enemies and applying on-hit effects at 100% effectiveness to enemy champions hit, as well as reducing Shunpo's current cooldown by 78 / 84 / 90 / 96% (based on level) of its total cooldown.",
             "leveling": []
           },
           {
-            "description": "Daggers will disappear after being on the ground for 4 seconds, granting sight of their radius.",
+            "description": "Daggers grant sight of their radius and will disappear after being on the ground for 4 seconds.",
             "leveling": []
           }
         ],
@@ -246,7 +246,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Katarina/ability-icon/q",
         "effects": [
           {
-            "description": "Active: Katarina throws a Dagger at the target enemy that can bounce to up to two additional nearby enemies, dealing magic damage.",
+            "description": "Active: Katarina throws a Dagger at the target enemy that deals magic damage and can bounce to up to two additional nearby enemies.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -288,7 +288,7 @@
             ]
           },
           {
-            "description": "The Dagger then lands onto the ground after 1 second, roughly 350 units opposite from where it struck the first target.",
+            "description": "The Dagger then lands onto the ground after 1 second, about 350 units opposite from where it struck the first target.",
             "leveling": []
           },
           {
@@ -575,7 +575,7 @@
                 ]
               },
               {
-                "attribute": "Maximum Single-Target Physical Damage",
+                "attribute": "Maximum Physical Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -633,7 +633,7 @@
                 ]
               },
               {
-                "attribute": "Maximum Single-Target Magic Damage",
+                "attribute": "Maximum Magic Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -738,6 +738,7 @@
     "saleRp": 0
   },
   "lore": "Decisive in judgment and lethal in combat, Katarina is a Noxian assassin of the highest caliber. Eldest daughter to the legendary General Du Couteau, she made her talents known with swift kills against unsuspecting enemies. Her fiery ambition has driven her to pursue heavily-guarded targets, even at the risk of endangering her allies—but no matter the mission, Katarina will not hesitate to execute her duty amid a whirlwind of serrated daggers.",
+  "faction": "noxus",
   "skins": [
     {
       "name": "Original",
@@ -914,7 +915,9 @@
       "chromas": [],
       "lore": null,
       "release": "2011-02-22",
-      "set": [],
+      "set": [
+        "Bilgewater: Mercs"
+      ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/55/55005.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/55/55005.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/55/55005.jpg",
@@ -1895,7 +1898,7 @@
           ]
         }
       ],
-      "lore": "“My people got swindled. I aim to collect what we're owed,” the Outsider says, pinning her dagger in a wanted poster of the Mechanical Devil. Her eyes burn like stoked coal as she fixes each dusty traveler in her gaze, “And I hear y'all plan on jumpin' the Sulfur Rail, Harbingers. If you're gonna take this devil down, I want in.”",
+      "lore": "“My people got swindled. I aim to collect what we're owed,” the Outsider says, pinning her dagger in a wanted poster of the Mechanical Devil. Her eyes burn like stoked coal as she fixes each dusty traveler in her gaze, “And I hear y'all plan on jumpin' the Sulfur Rail, Harbingers. If you're gonna take this devil down, I want in.” ",
       "release": "2022-05-12",
       "set": [
         "High Noon"

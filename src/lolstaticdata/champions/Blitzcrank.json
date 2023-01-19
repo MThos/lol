@@ -4,13 +4,13 @@
   "name": "Blitzcrank",
   "title": "the Great Steam Golem",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Blitzcrank.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.23.1/img/champion/Blitzcrank.png",
   "resource": "MANA",
   "attackType": "MELEE",
   "adaptiveType": "MAGIC_DAMAGE",
   "stats": {
     "health": {
-      "flat": 653,
+      "flat": 633,
       "percent": 0.0,
       "perLevel": 109,
       "percentPerLevel": 0.0
@@ -40,7 +40,7 @@
       "percentPerLevel": 0.0
     },
     "magicResistance": {
-      "flat": 32,
+      "flat": 28,
       "percent": 0.0,
       "perLevel": 2.05,
       "percentPerLevel": 0.0
@@ -94,13 +94,13 @@
       "percentPerLevel": 0.0
     },
     "attackSpeed": {
-      "flat": 0.625,
+      "flat": 0.65,
       "percent": 0.0,
       "perLevel": 1.13,
       "percentPerLevel": 0.0
     },
     "attackSpeedRatio": {
-      "flat": 0.625,
+      "flat": 0.7,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
@@ -202,7 +202,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Blitzcrank/ability-icon/p",
         "effects": [
           {
-            "description": "Innate: Periodically, when Blitzcrank is damaged to 30% maximum health, he first generates a shield equal to 30% of maximum mana, lasting up to 10 seconds.",
+            "description": "Innate: Periodically, when damaged to 30% maximum health, Blitzcrank generates a shield equal to 15% − 45% (based on level) of maximum mana, lasting up to 10 seconds.",
             "leveling": []
           }
         ],
@@ -233,7 +233,7 @@
         "projectile": null,
         "onHitEffects": null,
         "occurrence": null,
-        "notes": "The shield will absorb the portion of incoming damage that would reduce health past 30%.\nMana Barrier's interactions with other  shield effects that trigger before taking damage that would reduce below 30% health:\nMana Barrier will trigger simultaneously with the Lifeline effect from  Hexdrinker,  Maw of Malmortius, or  Immortal Shieldbow if Blitzcrank takes damage while above 30% health, and trigger before them when he takes damage while below 30% health.\nMana Barrier will always trigger simultaneously with the Lifeline effect from  Sterak's Gage if Blitzcrank takes damage while above or below 30% health.\nMana Barrier will trigger after  Nullifying Orb if Blitzcrank takes damage while above 30% health, and trigger simultaneously with it while below 30% health.",
+        "notes": "The shield will absorb the portion of incoming damage that would reduce health past 30%.\nMana Barrier's interactions with other  shield effects that trigger before taking damage that would reduce below 30% health:\nMana Barrier will trigger simultaneously with the Lifeline effect from  Hexdrinker,  Maw of Malmortius, or  Immortal Shieldbow if Blitzcrank takes damage while above 30% health, and trigger before them when the damage is taken while below 30% health.\nMana Barrier will always trigger simultaneously with the Lifeline effect from  Sterak's Gage if Blitzcrank takes damage while above or below 30% health.\nMana Barrier will trigger after  Nullifying Orb if Blitzcrank takes damage while above 30% health, and trigger simultaneously with it while below 30% health.",
         "blurb": "Innate: Periodically, when  Blitzcrank gets to low-health, Mana Barrier generates a  shield that scales with  maximum mana.",
         "missileSpeed": null,
         "rechargeRate": null,
@@ -255,7 +255,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Blitzcrank/ability-icon/q",
         "effects": [
           {
-            "description": "Active: Blitzcrank fires his right hand in the target direction that catches the first enemy hit, dealing them magic damage, stunning them for 0.65 seconds, and pulling them towards Blitzcrank, during which they are revealed.",
+            "description": "Active: Blitzcrank fires their right hand in the target direction that catches the first enemy hit, dealing them magic damage, stunning them for 0.65 seconds, and pulling them towards Blitzcrank, during which they are revealed.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -263,10 +263,10 @@
                   {
                     "values": [
                       105,
-                      155,
-                      205,
-                      255,
-                      305
+                      150,
+                      195,
+                      240,
+                      285
                     ],
                     "units": [
                       "",
@@ -351,7 +351,7 @@
         "projectile": "TRUE",
         "onHitEffects": null,
         "occurrence": null,
-        "notes": "Rocket Grab's range is composed of a missile with 1080 range, and a smaller center-range area check at the end (colloqially known as a 'lollipop').\nThe area check is currently half as long as it is supposed to be, reducing the intended 1150 range of the ability to 1115 range.\nHitting an enemy with this area check only also fails to play the ability's hit SFX. This makes it possible to easily distinguish whether the target was picked up by the missile collision or 'lollipop'.\nTargets larger than 95 units in radius can be hit by a different edge-range circle check at the end of the missile.\nThe  airborne debuff lasts for up-to 1 second but will end prematurely when the target's movement stops, while the stun will persist (if duration permits).\n Displacement immunity will not resist the application of the  stun.\nThe target's destination lies 75 units in front of Blitzcrank.\nIf the target is closer than this, the effect will still move them to this location.\nIf this location would be inside static terrain, the target's destination will end up on Blitzcrank's side, even if that means pulling them right on top of him.\nThis can occasionally fail.\nIf Blitzcrank is being moved (e.g.  Airborne,  Kinematics or  Fate's Call) during the grab, the target will be pulled towards Blitzcranks old location.\nBlitzcrank will be ordered to basic attack the target once the target arrives.\nIf the target dies to Rocket Grab's damage, they will not be pulled.\nThis ability will cast from wherever the caster is at the end of the cast time.\n\n\nType\n\nCast time\n\n\nAttacking\n\nDisabled\n\n\nAbilities\n\nDisabled\n\n\nMovement\n\nDisabled\n\n\nItems\n\nUsable\n\n Shurelya's Battlesong  Turbo Chemtank  Youmuu's Ghostblade  Gargoyle Stoneplate  Randuin's Omen\n\n\nDisabled\n\nAll the other item-actives are disabled\n\n\nInterrupted by\n\nN/A\n\n\nConsumables\n\nUsable\n\n\nSpells\n\nUsable\n\n Barrier  Clarity  Cleanse  Exhaust  Ghost  Heal  Ignite  Smite\n\n\nDisabled\n\n Flash  Teleport  Recall  Hexflash\n\n\nInterrupted by\n\nN/A\n\n\nInterrupted by\n\nDeath, unless protected by  Resurrection",
+        "notes": "Rocket Grab's range is composed of a missile with 1080 range, and a smaller center-range area check at the end (colloqially known as a 'lollipop').\nThe area check is currently half as long as it is supposed to be, reducing the intended 1150 range of the ability to 1115 range.\nHitting an enemy with this area check only also fails to play the ability's hit SFX. This makes it possible to easily distinguish whether the target was picked up by the missile collision or 'lollipop'.\nTargets larger than 95 units in radius can be hit by a different edge-range circle check at the end of the missile.\nThe  airborne debuff lasts for up-to 1 second but will end prematurely when the target's movement stops, while the stun will persist (if duration permits).\n Displacement immunity will not resist the application of the  stun.\nThe target's destination lies 75 units in front of Blitzcrank.\nIf the target is closer than this, the effect will still move them to this location.\nIf this location would be inside static terrain, the target's destination will end up on Blitzcrank's side, even if that means pulling them right on top of Blitzcrank.\nThis can occasionally fail.\nIf Blitzcrank is being moved (e.g.  Airborne,  Kinematics or  Fate's Call) during the grab, the target will be pulled towards Blitzcranks old location.\nBlitzcrank will be ordered to basic attack the target once the target arrives.\nIf the target dies to Rocket Grab's damage, they will not be pulled.\nThis ability will cast from wherever the caster is at the end of the cast time.\n\n\nType\n\nCast time\n\n\nAttacking\n\nDisabled\n\n\nAbilities\n\nDisabled\n\n\nMovement\n\nDisabled\n\n\nItems\n\nUsable\n\n Shurelya's Battlesong  Turbo Chemtank  Youmuu's Ghostblade  Gargoyle Stoneplate  Randuin's Omen\n\n\nDisabled\n\nAll the other item-actives are disabled\n\n\nInterrupted by\n\nN/A\n\n\nConsumables\n\nUsable\n\n\nSpells\n\nUsable\n\n Barrier  Clarity  Cleanse  Exhaust  Ghost  Heal  Ignite  Smite\n\n\nDisabled\n\n Flash  Teleport  Recall  Hexflash\n\n\nInterrupted by\n\nN/A\n\n\nInterrupted by\n\nDeath, unless protected by  Resurrection",
         "blurb": "Active:  Blitzcrank fires the right hand which deals magic damage and  stuns the first enemy hit. The target is also  pulled towards Blitzcrank.",
         "missileSpeed": null,
         "rechargeRate": null,
@@ -373,18 +373,18 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Blitzcrank/ability-icon/w",
         "effects": [
           {
-            "description": "Active: Blitzcrank shifts into overdrive, gaining bonus attack speed for 5 seconds and bonus movement speed that decays to 10% over the first 2.5 seconds.",
+            "description": "Active: Blitzcrank shifts into overdrive, gaining bonus attack speed for 5 seconds and a burst of bonus movement speed that decays to 10% over the first 2.9 seconds. While active, his basic attacks deal bonus magic damage on-hit equal to 1% of the target's maximum health, increased by 60 − 220 (based on level) against non-champions.",
             "leveling": [
               {
-                "attribute": "Attack Speed",
+                "attribute": "Bonus Attack Speed",
                 "modifiers": [
                   {
                     "values": [
                       30,
-                      38,
-                      46,
-                      54,
-                      62
+                      43,
+                      56,
+                      69,
+                      82
                     ],
                     "units": [
                       "%",
@@ -397,7 +397,7 @@
                 ]
               },
               {
-                "attribute": "Movement Speed",
+                "attribute": "Bonus Movement Speed",
                 "modifiers": [
                   {
                     "values": [
@@ -428,11 +428,11 @@
           "modifiers": [
             {
               "values": [
-                75,
-                75,
-                75,
-                75,
-                75
+                85,
+                85,
+                85,
+                85,
+                85
               ],
               "units": [
                 "",
@@ -469,12 +469,12 @@
         "affects": "Self",
         "spellshieldable": null,
         "resource": "MANA",
-        "damageType": null,
-        "spellEffects": null,
+        "damageType": "MAGIC_DAMAGE",
+        "spellEffects": "proc",
         "projectile": null,
         "onHitEffects": null,
         "occurrence": null,
-        "notes": "The self-slow is affected by  slow resist and  Tenacity.",
+        "notes": "The movement speed boost's decay is linear. On the first stat update after the buff is gained, the boost does not decay.\nThe self-slow is affected by  slow resist and  Tenacity.",
         "blurb": "Active:  Blitzcrank shifts into overdrive, gaining  bonus attack speed and a burst of  movement speed.",
         "missileSpeed": null,
         "rechargeRate": null,
@@ -496,7 +496,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Blitzcrank/ability-icon/e",
         "effects": [
           {
-            "description": "Active: Blitzcrank empowers his next basic attack within 5 seconds to have an uncancellable windup, deal 100% AD bonus physical damage and knock up the target for 1 second.",
+            "description": "Active: Blitzcrank empowers their next basic attack within 5 seconds to have an uncancellable windup, deal 75% AD (+ 25% AP) bonus physical damage, increased to 250% AD (+ 150% AP) against non-champions, and knock up the target for 1 second. This damage is affected by critical strike modifiers.",
             "leveling": []
           },
           {
@@ -508,11 +508,11 @@
           "modifiers": [
             {
               "values": [
-                25,
-                25,
-                25,
-                25,
-                25
+                40,
+                40,
+                40,
+                40,
+                40
               ],
               "units": [
                 "",
@@ -576,10 +576,10 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Blitzcrank/ability-icon/r",
         "effects": [
           {
-            "description": "Passive: While Static Field is not on cooldown, Blitzcrank's basic attacks on-hit apply a stack, stacking up to 3 times. After every 1 second, 1 stack is consumed to deal magic damage.",
+            "description": "Passive: While Static Field is not on cooldown, Blitzcrank's basic attacks apply a stack to the target on-hit. After every 1 second, one stack is consumed to deal them magic damage.",
             "leveling": [
               {
-                "attribute": "Bolt Magic Damage",
+                "attribute": "Magic Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -596,8 +596,8 @@
                   {
                     "values": [
                       30,
-                      30,
-                      30
+                      40,
+                      50
                     ],
                     "units": [
                       "% AP",
@@ -613,7 +613,7 @@
             "description": "Active: Blitzcrank detonates a static field, completely destroying damage-mitigating shields of nearby enemies before dealing them magic damage and silencing them for 0.5 seconds.",
             "leveling": [
               {
-                "attribute": "Detonation Magic Damage",
+                "attribute": "Magic Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -705,13 +705,14 @@
   },
   "releaseDate": "2009-09-02",
   "releasePatch": "0.9.22.16",
-  "patchLastChanged": "12.12",
+  "patchLastChanged": "12.22",
   "price": {
     "blueEssence": 3150,
     "rp": 790,
     "saleRp": 0
   },
   "lore": "Blitzcrank is an enormous, near-indestructible automaton from Zaun, originally built to dispose of hazardous waste. However, he found this primary purpose too restricting, and modified his own form to better serve the fragile people of the Sump. Blitzcrank selflessly uses his strength and durability to protect others, extending a helpful metal fist or burst of energy to subdue any troublemakers.",
+  "faction": "zaun",
   "skins": [
     {
       "name": "Original",
@@ -823,7 +824,9 @@
       "chromas": [],
       "lore": null,
       "release": "2009-11-20",
-      "set": [],
+      "set": [
+        "Legacy"
+      ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/53/53001.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/53/53001.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/53/53001.jpg",
@@ -851,7 +854,7 @@
       "distribution": null,
       "rarity": "NoRarity",
       "chromas": [],
-      "lore": "One of the all time greatest keepers for Chaos FC, Blitzcrank has finally taken his place in the Sports Hall of Fame. His image rests proudly with the likes of Volleyball Dragon, Women's Tennis Scuttle Crab, and Badminton Baron Nashor.",
+      "lore": "One of the all time greatest keepers for Chaos FC, Blitzcrank has finally taken their place in the Sports Hall of Fame. Their image rests proudly with the likes of Volleyball Dragon, Women's Tennis Scuttle Crab, and Badminton Baron Nashor.",
       "release": "2010-06-24",
       "set": [
         "Soccer Cup"
@@ -883,10 +886,9 @@
       "distribution": null,
       "rarity": "NoRarity",
       "chromas": [],
-      "lore": "His fists are named “boom” and “boom,” proving that robots are a perfect facsimile of human life.",
+      "lore": "Their fists are named “boom” and “boom,” proving that robots are a perfect facsimile of human life.",
       "release": "2010-08-29",
       "set": [
-        "Heavy Metal",
         "Day Job"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/53/53003.jpg",
@@ -1217,7 +1219,7 @@
           ]
         }
       ],
-      "lore": "A boss hailing from a popular science fiction shooter, Blitzcrank is well known in the gaming community for cheap mechanics, powerful attacks, and a massive health pool. Veigar fittingly made him the gatekeeper of his personal fortress, because Veigar hates fun.",
+      "lore": "A boss hailing from a popular science fiction shooter, Blitzcrank is well known in the gaming community for cheap mechanics, powerful attacks, and a massive health pool. Veigar fittingly made them the gatekeeper of his personal fortress, because Veigar hates fun.",
       "release": "2015-08-19",
       "set": [
         "Arcade: Battle Bosses"
@@ -1861,7 +1863,7 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/53/53036.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/53/53036.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/53/53036.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/blitzcrank/skins/skin36/blitzcrankloadscreen_36.pie_c_11_22.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/blitzcrank/skins/skin36/blitzcrankloadscreen_36.jpg",
       "loadScreenVintagePath": null,
       "newEffects": true,
       "newAnimations": true,
@@ -1873,6 +1875,209 @@
       ],
       "splashArtist": [
         "Forrest Imel",
+        "West Studio"
+      ]
+    },
+    {
+      "name": "Zenith Games",
+      "id": 53047,
+      "isBase": false,
+      "availability": "Available",
+      "formatName": "Zenith Games",
+      "lootEligible": true,
+      "cost": 1350,
+      "sale": 0,
+      "distribution": null,
+      "rarity": "Epic",
+      "chromas": [
+        {
+          "name": "Citrine",
+          "id": 53050,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/53/53050.png",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Emerald",
+          "id": 53052,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/53/53052.png",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Obsidian",
+          "id": 53055,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/53/53055.png",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Pearl",
+          "id": 53054,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/53/53054.png",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Rose Quartz",
+          "id": 53049,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/53/53049.png",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "TENCENT"
+            }
+          ]
+        },
+        {
+          "name": "Ruby",
+          "id": 53048,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/53/53048.png",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "descriptions": [
+            {
+              "description": "This chroma was released as a bundle exclusive in 2022.",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Sapphire",
+          "id": 53051,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/53/53051.png",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Tanzanite",
+          "id": 53053,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/53/53053.png",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        }
+      ],
+      "lore": "Originally a bomb defusal robot, Blitzcrank was made a referee because of their ability to make split-second adjustments to stay ahead of the prodigious athletes. Only later did everyone realize that the bot's background made them unusually effective in defusing the intense... disagreements that often arise.",
+      "release": "2022-09-09",
+      "set": [
+        "Zenith Games"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/53/53047.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/53/53047.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/53/53047.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/blitzcrank/skins/skin47/blitzcrankloadscreen_47.pie_c_12_17.jpg",
+      "loadScreenVintagePath": null,
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Duncan Watt"
+      ],
+      "splashArtist": [
         "West Studio"
       ]
     }

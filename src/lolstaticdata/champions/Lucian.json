@@ -4,7 +4,7 @@
   "name": "Lucian",
   "title": "the Purifier",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Lucian.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Lucian.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -200,7 +200,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Lucian/ability-icon/p",
         "effects": [
           {
-            "description": "Innate: After casting an ability, Lucian's next basic attack on-attack within 3.5 seconds fires an additional shot after 0.25 seconds, which deals 50 / 55 / 60% (based on level) AD physical damage, increased to 100% AD against minions.",
+            "description": "Innate: After casting an ability, Lucian's next basic attack within 3.5 seconds fires an additional shot on-attack after 0.25 seconds, which deals 50 / 55 / 60% (based on level) AD physical damage, increased to 100% AD against minions.",
             "leveling": []
           },
           {
@@ -212,7 +212,7 @@
             "leveling": []
           },
           {
-            "description": "Innate - Vigilance: Whenever Lucian is healed, shielded or granted a buff by an ally, his next two shots within 6 seconds are empowered to deal 14 (+ 20% AD) bonus magic damage on-hit. The empowered shots can stack up to 4 times and applies against structures.",
+            "description": "Innate - Vigilance: Whenever Lucian is healed, shielded or granted a buff by an ally, his next two shots within 6 seconds are empowered to deal 14 (+ 20% AD) bonus magic damage on-hit. The empowered shots can stack up to 4 times.",
             "leveling": []
           }
         ],
@@ -227,7 +227,7 @@
         "projectile": null,
         "onHitEffects": null,
         "occurrence": "On-hit",
-        "notes": "Lightslinger is triggered and consumed by the first attack.\nThe second attack, if the initial target was killed, will prioritize enemy champions regardless of having  sight of them or not and enemy  minions with  low health.\nLightslinger will still be consumed if no second target is found when Lucian fires.\nLucian can perform actions freely while firing Lightslinger since the second attack is integrated into the first one.\nThe second attack has special movement animations depending on the direction Lucian is moving while firing.\nThe additional shot counts as a separate hit for effects such as  Electrocute,  Muramana's Shock, and  Eclipse's Ever Rising Moon.",
+        "notes": "Lightslinger is triggered and consumed by the first attack.\nThe second attack, if the initial target was killed, will prioritize enemy champions regardless of having  sight of them or not and enemy  minions with  low health.\nLightslinger will still be consumed if no second target is found when Lucian fires.\nLucian can perform actions freely while firing Lightslinger since the second attack is integrated into the first one.\nThe second attack has special movement animations depending on the direction Lucian is moving while firing.\nThe additional shot counts as a separate hit for effects such as  Electrocute,  Muramana's Shock, and  Eclipse's Ever Rising Moon.\nThe empowered shots will apply against structures.",
         "blurb": "Innate: After casting an ability,  Lucian's next basic attack within a few seconds fires a second attack that deals reduced physical damage.",
         "missileSpeed": null,
         "rechargeRate": null,
@@ -249,7 +249,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Lucian/ability-icon/q",
         "effects": [
           {
-            "description": "Active: Lucian fires a laser in a line in the direction of the target enemy, dealing physical damage to enemies hit.",
+            "description": "Active: Lucian fires a laser in a line in the direction of the target enemy that deals physical damage to enemies hit.",
             "leveling": [
               {
                 "attribute": "Physical Damage",
@@ -363,7 +363,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Lucian/ability-icon/w",
         "effects": [
           {
-            "description": "Active: Lucian fires a missile in the target direction that explodes in a cross pattern upon hitting an enemy or maximum range, dealing magic damage to enemies hit and granting sight of the area for 1 second.",
+            "description": "Active: Lucian fires a missile in the target direction that explodes in a cross pattern upon hitting an enemy or reaching maximum range, dealing magic damage to enemies hit and granting sight of the area for 1 second.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -494,7 +494,7 @@
         "onTargetCdStatic": null,
         "innerRadius": null,
         "speed": "1600",
-        "width": "110 / X / X",
+        "width": "110",
         "angle": null,
         "castTime": "0.25",
         "effectRadius": null,
@@ -507,7 +507,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Lucian/ability-icon/e",
         "effects": [
           {
-            "description": "Passive: Relentless Pursuit's cooldown is reduced by 1 second for each Lightslinger shot hit, doubled to 2 seconds against enemy champions.",
+            "description": "Passive: Relentless Pursuit's current cooldown is reduced by 1 second for each Lightslinger shot hit, doubled to 2 seconds against enemy champions.",
             "leveling": []
           },
           {
@@ -569,7 +569,7 @@
         "projectile": null,
         "onHitEffects": null,
         "occurrence": null,
-        "notes": "Additional on-hits during Lightslinger are not considered for the cooldown reduction (i.e  Runaan's Hurricane,  Guinsoo's Rageblade).\nUnlike some dashes, Lucian's dash speed does not scale with his movement speed.\nRelentless Pursuit's dash can go through terrain, but will not be extended further if the target location is within terrain, unlike other dashes, like  Ekko's  Phase Dive.",
+        "notes": "Additional on-hits during Lightslinger are not considered for the cooldown reduction (i.e  Runaan's Hurricane,  Guinsoo's Rageblade).\nUnlike some dashes, Lucian's dash speed does not scale with his movement speed.\nRelentless Pursuit's dash can go through terrain, but will not be extended further if the target location is within terrain, unlike other dashes, like  Ekko's  Phase Dive.\nCasting Relentless Pursuit directly after attacking with Lightslinger will reduce Relentless Pursuit's cooldown when the projectiles hit the target.\nIn combination with  Navori Quickblades, attacking a champion with Lightslinger, followed by Relentless Pursuit, and another Lightslinger attack will fully reset rank 5 Relentless Pursuit's cooldown if they all critically strike the target.",
         "blurb": "Passive: Relentless Pursuit's cooldown is  reduced for each  Lightslinger shot hit, doubled against enemy  champions.",
         "missileSpeed": null,
         "rechargeRate": null,
@@ -635,6 +635,124 @@
                 ]
               },
               {
+                "attribute": "Additional Damage per 20% Crit Chance",
+                "modifiers": [
+                  {
+                    "values": [
+                      75,
+                      150,
+                      225
+                    ],
+                    "units": [
+                      "",
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "values": [
+                      125,
+                      125,
+                      125
+                    ],
+                    "units": [
+                      "% AD",
+                      "% AD",
+                      "% AD"
+                    ]
+                  },
+                  {
+                    "values": [
+                      75,
+                      75,
+                      75
+                    ],
+                    "units": [
+                      "% AP",
+                      "% AP",
+                      "% AP"
+                    ]
+                  }
+                ]
+              },
+              {
+                "attribute": "Total Physical Damage",
+                "modifiers": [
+                  {
+                    "values": [
+                      330,
+                      660,
+                      990
+                    ],
+                    "units": [
+                      "  ",
+                      "  ",
+                      "  "
+                    ]
+                  },
+                  {
+                    "values": [
+                      15,
+                      30,
+                      45
+                    ],
+                    "units": [
+                      "   per 4% critical strike chance",
+                      "   per 4% critical strike chance",
+                      "   per 4% critical strike chance"
+                    ]
+                  },
+                  {
+                    "values": [
+                      550,
+                      550,
+                      550
+                    ],
+                    "units": [
+                      "% AD",
+                      "% AD",
+                      "% AD"
+                    ]
+                  },
+                  {
+                    "values": [
+                      330,
+                      330,
+                      330
+                    ],
+                    "units": [
+                      "% AP",
+                      "% AP",
+                      "% AP"
+                    ]
+                  },
+                  {
+                    "values": [
+                      25,
+                      25,
+                      25
+                    ],
+                    "units": [
+                      "% AD",
+                      "% AD",
+                      "% AD"
+                    ]
+                  },
+                  {
+                    "values": [
+                      15,
+                      15,
+                      15
+                    ],
+                    "units": [
+                      "% AP",
+                      "% AP",
+                      "% AP"
+                    ]
+                  }
+                ]
+              },
+              {
                 "attribute": "Minion Damage Per Shot",
                 "modifiers": [
                   {
@@ -647,6 +765,124 @@
                       "",
                       "",
                       ""
+                    ]
+                  },
+                  {
+                    "values": [
+                      50,
+                      50,
+                      50
+                    ],
+                    "units": [
+                      "% AD",
+                      "% AD",
+                      "% AD"
+                    ]
+                  },
+                  {
+                    "values": [
+                      30,
+                      30,
+                      30
+                    ],
+                    "units": [
+                      "% AP",
+                      "% AP",
+                      "% AP"
+                    ]
+                  }
+                ]
+              },
+              {
+                "attribute": "Additional Minion Damage per 20% Crit Chance",
+                "modifiers": [
+                  {
+                    "values": [
+                      150,
+                      300,
+                      450
+                    ],
+                    "units": [
+                      "",
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "values": [
+                      250,
+                      250,
+                      250
+                    ],
+                    "units": [
+                      "% AD",
+                      "% AD",
+                      "% AD"
+                    ]
+                  },
+                  {
+                    "values": [
+                      150,
+                      150,
+                      150
+                    ],
+                    "units": [
+                      "% AP",
+                      "% AP",
+                      "% AP"
+                    ]
+                  }
+                ]
+              },
+              {
+                "attribute": "Total Minion Damage",
+                "modifiers": [
+                  {
+                    "values": [
+                      660,
+                      1320,
+                      1980
+                    ],
+                    "units": [
+                      "  ",
+                      "  ",
+                      "  "
+                    ]
+                  },
+                  {
+                    "values": [
+                      30,
+                      60,
+                      90
+                    ],
+                    "units": [
+                      "   per 4% critical strike chance",
+                      "   per 4% critical strike chance",
+                      "   per 4% critical strike chance"
+                    ]
+                  },
+                  {
+                    "values": [
+                      1100,
+                      1100,
+                      1100
+                    ],
+                    "units": [
+                      "% AD",
+                      "% AD",
+                      "% AD"
+                    ]
+                  },
+                  {
+                    "values": [
+                      660,
+                      660,
+                      660
+                    ],
+                    "units": [
+                      "% AP",
+                      "% AP",
+                      "% AP"
                     ]
                   },
                   {
@@ -728,7 +964,7 @@
         "projectile": "TRUE",
         "onHitEffects": null,
         "occurrence": null,
-        "notes": "At 0% critical strike chance, The Culling can fire up to 22 shots.\nThe total damage at the base number of shots is 330 / 495 / 660 / 825 / 990 (+ 550% AD) (+ 330% AP) physical damage.\nAgainst minions, this is increased to 660 / 990 / 1320 / 1650 / 1980 (+ 1100% AD) (+ 660% AP).\nAt 100% critical strike chance, The Culling fires up to 25 additional shots, for a total of 47 shots.\nThe total damage at the maximum number of shots (at 100% critical strike chance) is 705 / 1057.5 / 1410 / 1762.5 / 2115 (+ 1175% AD) (+ 705% AP) physical damage.\nAgainst minions, this is increased to 1410 / 2115 / 2820 / 3525 / 4230 (+ 2350% AD) (+ 1410% AP).\nThe fire rate increases with the number of shots.\nDuring The Culling, Lucian's facing direction is in the direction that he is firing.\nLucian can interact with  Dark Passage or  Devour without  interrupting The Culling.\nThe Culling creates the shots at an offset of 35 units to the front plus 35 units towards each side of Lucian (sides alternating, first shot fired from Lucian's right gun), unlike the missiles of most abilities.\nThe damage dealt by each bullet of The Culling is calculated when the bullet reaches a target, just like single missile abilities.\n Spell shield only blocks one instance of damage.\nThe following table refers for interactions while Lucian is  channeling:\n\n\nType\n\nChannel\n\n\nAttacking\n\nDisabled\n\n\nAbilities\n\n Relentless Pursuit is usable.  Piercing Light and  Ardent Blaze are disabled. This ability recasts to end channel.\n\n\nMovement\n\nAllowed\n\n\nItems\n\nUsable\n\nAll the other item-actives are usable\n\n\nDisabled\n\nN/A\n\n\nInterrupted by\n\n Stopwatch  Zhonya's Hourglass\n\n\nConsumables\n\nUsable\n\n\nSpells\n\nUsable\n\n Barrier  Clarity  Cleanse  Exhaust  Ghost  Heal  Ignite  Smite  Flash  Teleport\n\n\nDisabled\n\n Recall  Hexflash\n\n\nInterrupted by\n\nN/A\n\n\nInterrupted by\n\nDeath Cast-inhibiting effects",
+        "notes": "At 100% critical strike chance, The Culling fires up to 25 additional shots, for a total of 47 shots.\nThe total damage at the maximum number of shots (at 100% critical strike chance) is 705 / 1057.5 / 1410 / 1762.5 / 2115 (+ 1175% AD) (+ 705% AP) physical damage.\nAgainst minions, this is increased to 1410 / 2115 / 2820 / 3525 / 4230 (+ 2350% AD) (+ 1410% AP).\nThe fire rate increases with the number of shots.\nDuring The Culling, Lucian's facing direction is in the direction that he is firing.\nLucian can interact with  Dark Passage or  Devour without  interrupting The Culling.\nThe Culling creates the shots at an offset of 35 units to the front plus 35 units towards each side of Lucian (sides alternating, first shot fired from Lucian's right gun), unlike the missiles of most abilities.\nThe damage dealt by each bullet of The Culling is calculated when the bullet reaches a target, just like single missile abilities.\n Spell shield only blocks one instance of damage.\nThe following table refers for interactions while Lucian is  channeling:\n\n\nType\n\nChannel\n\n\nAttacking\n\nDisabled\n\n\nAbilities\n\n Relentless Pursuit is usable.  Piercing Light and  Ardent Blaze are disabled. This ability recasts to end channel.\n\n\nMovement\n\nAllowed\n\n\nItems\n\nUsable\n\nAll the other item-actives are usable\n\n\nDisabled\n\nN/A\n\n\nInterrupted by\n\n Stopwatch  Zhonya's Hourglass\n\n\nConsumables\n\nUsable\n\n\nSpells\n\nUsable\n\n Barrier  Clarity  Cleanse  Exhaust  Ghost  Heal  Ignite  Smite  Flash  Teleport\n\n\nDisabled\n\n Recall  Hexflash\n\n\nInterrupted by\n\nN/A\n\n\nInterrupted by\n\nDeath Cast-inhibiting effects",
         "blurb": "Active:  Lucian  channels for a few seconds to rapidly fire a torrent of bullets in the target direction. Each shot deals physical damage to the first enemy hit. The Culling can be recast within the duration.",
         "missileSpeed": null,
         "rechargeRate": null,
@@ -754,6 +990,7 @@
     "saleRp": 0
   },
   "lore": "Lucian, a Sentinel of Light, is a grim hunter of undying spirits, pursuing them relentlessly and annihilating them with his twin relic pistols. After the wraith Thresh slew his wife, Lucian embarked on the path of vengeance—but even with her return to life, his rage is undiminished. Merciless and single-minded, Lucian will stop at nothing to protect the living from the long-dead horrors of the Black Mist.",
+  "faction": "unaffiliated",
   "skins": [
     {
       "name": "Original",
@@ -866,9 +1103,7 @@
       "chromas": [],
       "lore": null,
       "release": "2013-08-21",
-      "set": [
-        "Hired Gun"
-      ],
+      "set": [],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/236/236001.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/236/236001.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/236/236001.jpg",
@@ -1748,7 +1983,7 @@
       "name": "Strike Paladin",
       "id": 236040,
       "isBase": false,
-      "availability": "Upcoming",
+      "availability": "Available",
       "formatName": "Strike Paladin",
       "lootEligible": true,
       "cost": 1350,
@@ -1947,7 +2182,7 @@
         }
       ],
       "lore": "Lucian is the ace pilot of the Z01-Orion, assigned to the inaugural mission of Strike Team Hyperion: reclaiming the experimental X01-Butterfly from its turncoat thief, Kai'Sa. He may not always agree with Commander Camille's methods, or her morality, but they both know that rogue exosuits in the wrong hands would spell disaster for the galaxy.",
-      "release": "0000-00-00",
+      "release": "2022-08-25",
       "set": [
         "Steel Valkyries"
       ],

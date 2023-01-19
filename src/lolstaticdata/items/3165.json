@@ -14,7 +14,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3165_mage_t3_morellonomicon.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3165_mage_t3_morellonomicon.png",
   "simpleDescription": "Increases magic damage",
   "nicknames": [
     "nmst",
@@ -30,8 +30,9 @@
       "name": "Affliction",
       "effects": "Dealing {{as|magic damage}} to enemy champions inflicts them with 25% {{tip|Grievous Wounds}} for 3 seconds, increased to 40% if the target is left with less than {{as|50% of their '''maximum''' health}}.",
       "range": null,
+      "cooldown": null,
       "stats": {
-        "abilityPower": {
+        "ability_power": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -47,7 +48,7 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "armorPenetration": {
+        "armor_penetration": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -55,7 +56,7 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "attackDamage": [
+        "attack_damage": [
           {
             "flat": 0.0,
             "percent": 0.0,
@@ -65,7 +66,7 @@
             "percentBonus": 0.0
           }
         ],
-        "attackSpeed": {
+        "attack_speed": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -73,7 +74,7 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "cooldownReduction": {
+        "cooldown_reduction": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -81,7 +82,7 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "criticalStrikeChance": {
+        "critical_strike_chance": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -89,7 +90,7 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "goldPer_10": {
+        "gold_per_10": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -97,7 +98,7 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "healAndShieldPower": {
+        "heal_and_shield_power": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -113,7 +114,7 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "healthRegen": {
+        "health_regen": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -132,12 +133,12 @@
         "lifesteal": {
           "flat": 0.0,
           "percent": 0.0,
-          "perLevel": 0.0,
-          "percentPerLevel": 0.0,
-          "percentBase": 0.0,
-          "percentBonus": 0.0
+          "per_level": 0.0,
+          "percent_per_level": 0.0,
+          "percent_base": 0.0,
+          "percent_bonus": 0.0
         },
-        "magicPenetration": {
+        "magic_penetration": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -145,7 +146,7 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "magicResistance": {
+        "magic_resistance": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -161,7 +162,7 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "manaRegen": {
+        "mana_regen": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -170,7 +171,7 @@
           "percentBonus": 0.0
         },
         "movespeed": 0.0,
-        "abilityHaste": {
+        "ability_haste": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,

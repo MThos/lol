@@ -10,7 +10,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/1512_supermechpowerfield.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/1512_supermechpowerfield.png",
   "simpleDescription": null,
   "nicknames": [],
   "passives": [
@@ -20,6 +20,7 @@
       "name": null,
       "effects": "Grants nearby minions (excluding super minions) {{as|35 armor}} and {{as|35 magic resistance}}.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,

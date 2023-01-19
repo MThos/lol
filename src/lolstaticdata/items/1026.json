@@ -7,6 +7,7 @@
   "buildsInto": [
     3165,
     4633,
+    6657,
     3003,
     3115,
     3116,
@@ -20,7 +21,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/1026_mage_t1_blastingwand.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/1026_mage_t1_blastingwand.png",
   "simpleDescription": "Moderately increases Ability Power",
   "nicknames": [],
   "passives": [],

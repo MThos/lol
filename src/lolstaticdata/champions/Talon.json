@@ -4,7 +4,7 @@
   "name": "Talon",
   "title": "the Blade's Shadow",
   "fullName": "Talon Du Couteau",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Talon.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Talon.png",
   "resource": "MANA",
   "attackType": "MELEE",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -200,11 +200,11 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Talon/ability-icon/p",
         "effects": [
           {
-            "description": "Innate: Talon's abilities apply a stack of Wound to enemy champions and large monsters each time they are hit. Wound lasts for 6 seconds, refreshing with basic attacks and subsequent hits, and stacks up to 3 times.",
+            "description": "Innate: Talon's abilities apply a stack of Wound to enemy champions and large monsters hit for 6 seconds, refreshing on basic attacks and subsequent applications and stacking up to 3 times.",
             "leveling": []
           },
           {
-            "description": "Talon's next basic attack against an enemy with 3 Wound stacks is empowered to consume them all to cause the target to bleed, dealing[ 75 − 245 (based on level) (+ 200% bonus AD) total physical damage over 2 seconds, ][ 4.6875 − 15.3125 (based on level) (+ 12.5% bonus AD) physical damage every 0.125 seconds over 2 seconds, ]increased to 120% damage against monsters. The target cannot gain stacks during this time.",
+            "description": "Talon's next basic attack against an enemy with 3 Wound stacks is empowered to consume them all to cause the target to bleed, dealing[ 75 − 245 (based on level) (+ 200% bonus AD) total physical damage over 2 seconds, ][ 4.6875 − 15.3125 (based on level) (+ 12.5% bonus AD) physical damage every 0.125 seconds over 2 seconds, ]increased to 120% damage against monsters. The target cannot gain Wound stacks during this time.",
             "leveling": []
           }
         ],
@@ -283,7 +283,7 @@
             ]
           },
           {
-            "description": "If Noxian Diplomacy kills the target, Talon heals for 9 − 55 (based on level) and its cooldown is reduced by 50%.",
+            "description": "If Noxian Diplomacy kills the target, Talon heals for 9 − 55 (based on level) and the ability's cooldown is reduced by 50%.",
             "leveling": []
           },
           {
@@ -405,10 +405,10 @@
             ]
           },
           {
-            "description": "At maximum range, the daggers linger for 0.75 seconds before homing back to Talon, dealing physical damage and slowing enemies hit for 1 second. Enemies can be hit only once per pass.",
+            "description": "At maximum range, the daggers linger for 0.75 seconds before homing back to Talon, dealing physical damage to enemies hit and slowing them for 1 second.",
             "leveling": [
               {
-                "attribute": "Return Physical Damage",
+                "attribute": "Physical Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -506,6 +506,10 @@
           },
           {
             "description": "Rake deals 105% damage against monsters.",
+            "leveling": []
+          },
+          {
+            "description": "Enemies can be hit only once per pass.",
             "leveling": []
           }
         ],
@@ -678,6 +682,32 @@
                 ]
               },
               {
+                "attribute": "Bonus Movement Speed",
+                "modifiers": [
+                  {
+                    "values": [
+                      40,
+                      55,
+                      70
+                    ],
+                    "units": [
+                      "%",
+                      "%",
+                      "%"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "description": "Shadow Assault can be recast after 1 second within the duration, and does so automatically after the duration or if Talon emerges from invisibility.",
+            "leveling": []
+          },
+          {
+            "description": "Recast: Talon ends Shadow Assault, breaking the invisibility and causing the blades to converge to him, dealing the same damage to enemies hit. Breaking invisibility with a basic attack or Noxian Diplomacy causes the blades to converge to the target instead.",
+            "leveling": [
+              {
                 "attribute": "Total Physical Damage",
                 "modifiers": [
                   {
@@ -705,33 +735,8 @@
                     ]
                   }
                 ]
-              },
-              {
-                "attribute": "Bonus Movement Speed",
-                "modifiers": [
-                  {
-                    "values": [
-                      40,
-                      55,
-                      70
-                    ],
-                    "units": [
-                      "%",
-                      "%",
-                      "%"
-                    ]
-                  }
-                ]
               }
             ]
-          },
-          {
-            "description": "Shadow Assault can be recast after 1 second within the duration, and does so automatically after the duration or if Talon emerges from invisibility.",
-            "leveling": []
-          },
-          {
-            "description": "Recast: Talon ends Shadow Assault, breaking invisibility and converging the blades to him, dealing the same physical damage to enemies hit. Breaking invisibility with a basic attack or Noxian Diplomacy causes the blades to converge to the target instead.",
-            "leveling": []
           }
         ],
         "cost": {
@@ -802,6 +807,7 @@
     "saleRp": 0
   },
   "lore": "Talon is the knife in the darkness, a merciless killer able to strike without warning and escape before any alarm is raised. He carved out a dangerous reputation on the brutal streets of Noxus, where he was forced to fight, kill, and steal to survive. Adopted by the notorious Du Couteau family, he now plies his deadly trade at the empire's command, assassinating enemy leaders, captains, and heroes… as well as any Noxian foolish enough to earn the scorn of their masters.",
+  "faction": "noxus",
   "skins": [
     {
       "name": "Original",

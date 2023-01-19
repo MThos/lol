@@ -4,7 +4,7 @@
   "name": "Miss Fortune",
   "title": "the Bounty Hunter",
   "fullName": "Sarah Fortune",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/MissFortune.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/MissFortune.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -12,7 +12,7 @@
     "health": {
       "flat": 640,
       "percent": 0.0,
-      "perLevel": 107,
+      "perLevel": 103,
       "percentPerLevel": 0.0
     },
     "healthRegen": {
@@ -48,7 +48,7 @@
     "attackDamage": {
       "flat": 52,
       "percent": 0.0,
-      "perLevel": 2.7,
+      "perLevel": 2.4,
       "percentPerLevel": 0.0
     },
     "movespeed": {
@@ -130,7 +130,7 @@
       "percentPerLevel": 0.0
     },
     "aramDamageTaken": {
-      "flat": 1.1,
+      "flat": 1.15,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
@@ -200,7 +200,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/MissFortune/ability-icon/p",
         "effects": [
           {
-            "description": "Innate: Miss Fortune's basic attacks are empowered to apply a mark that expires when attacking a new enemy. If the enemy was unmarked, this also deals 50% − 100% (based on level) AD bonus physical damage, halved to 25% − 50% (based on level) AD against minions.",
+            "description": "Innate: Miss Fortune's basic attacks are empowered to apply a mark that expires upon attacking a new enemy. If the enemy was unmarked, this also deals 50% − 100% (based on level) AD bonus physical damage, halved to 25% − 50% (based on level) AD against minions.",
             "leveling": []
           }
         ],
@@ -237,7 +237,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/MissFortune/ability-icon/q",
         "effects": [
           {
-            "description": "Active: Miss Fortune fires a shot at the target enemy that deals physical damage, which then bounces to hit another enemy behind them. The shot applies on-attack effects to the first enemy hit, as well as on-hit effects at 100% effectiveness to both enemies hit.",
+            "description": "Active: Miss Fortune fires a shot at the target enemy that deals physical damage. Upon arrival, it bounces to hit another enemy behind them. The shot applies on-attack effects to the first enemy hit, as well as on-hit effects at 100% effectiveness to both enemies hit.",
             "leveling": [
               {
                 "attribute": "Physical Damage",
@@ -245,10 +245,10 @@
                   {
                     "values": [
                       20,
-                      40,
-                      60,
-                      80,
-                      100
+                      45,
+                      70,
+                      95,
+                      120
                     ],
                     "units": [
                       "",
@@ -364,7 +364,7 @@
         "speed": "1400",
         "width": null,
         "angle": "160°",
-        "castTime": "0.25",
+        "castTime": "Basic Attack Timer",
         "effectRadius": "500",
         "targetRange": "Miss Fortune's  attack range"
       }
@@ -427,7 +427,7 @@
             ]
           },
           {
-            "description": "Marking a new target with Love Tap reduces Strut's cooldown by 2 seconds.",
+            "description": "Marking a new target with Love Tap reduces Strut's current cooldown by 2 seconds.",
             "leveling": []
           }
         ],
@@ -503,18 +503,18 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/MissFortune/ability-icon/e",
         "effects": [
           {
-            "description": "Active: Miss Fortune casts a storm of bullets at the target location that grants sight of the area for 2 seconds, dealing magic damage and slowing enemies within every 0.25 seconds.",
+            "description": "Active: Miss Fortune casts a storm of bullets at the target location for 2 seconds, granting sight of the area, dealing magic damage every 0.25 seconds to enemies within, and slowing them by 40% (+ 6% per 100 AP).",
             "leveling": [
               {
                 "attribute": "Magic Damage Per Tick",
                 "modifiers": [
                   {
                     "values": [
-                      10,
-                      14.375,
-                      18.75,
-                      23.125,
-                      27.5
+                      8.75,
+                      12.5,
+                      16.25,
+                      20,
+                      23.75
                     ],
                     "units": [
                       "",
@@ -526,11 +526,11 @@
                   },
                   {
                     "values": [
-                      10,
-                      10,
-                      10,
-                      10,
-                      10
+                      15,
+                      15,
+                      15,
+                      15,
+                      15
                     ],
                     "units": [
                       "% AP",
@@ -543,15 +543,15 @@
                 ]
               },
               {
-                "attribute": "Maximum Magic Damage",
+                "attribute": "Total Magic Damage",
                 "modifiers": [
                   {
                     "values": [
-                      80,
-                      115,
-                      150,
-                      185,
-                      220
+                      70,
+                      100,
+                      130,
+                      160,
+                      190
                     ],
                     "units": [
                       "",
@@ -563,11 +563,11 @@
                   },
                   {
                     "values": [
-                      80,
-                      80,
-                      80,
-                      80,
-                      80
+                      120,
+                      120,
+                      120,
+                      120,
+                      120
                     ],
                     "units": [
                       "% AP",
@@ -575,27 +575,6 @@
                       "% AP",
                       "% AP",
                       "% AP"
-                    ]
-                  }
-                ]
-              },
-              {
-                "attribute": "Slow",
-                "modifiers": [
-                  {
-                    "values": [
-                      40,
-                      45,
-                      50,
-                      55,
-                      60
-                    ],
-                    "units": [
-                      "%",
-                      "%",
-                      "%",
-                      "%",
-                      "%"
                     ]
                   }
                 ]
@@ -632,10 +611,10 @@
             {
               "values": [
                 18,
+                17,
                 16,
-                14,
-                12,
-                10
+                15,
+                14
               ],
               "units": [
                 "",
@@ -679,7 +658,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/MissFortune/ability-icon/r",
         "effects": [
           {
-            "description": "Active: Miss Fortune channels for up to 3 seconds, firing several waves of bullets in a spread of 6 projectiles per wave in the target direction, with each wave dealing 75% AD (+ 20% AP) physical damage to enemies hit.",
+            "description": "Active: Miss Fortune channels for up to 3 seconds, firing a number of waves of bullets in the target direction. Each wave is in a spread of 6 projectiles that deals 75% AD (+ 25% AP) physical damage to enemies hit.",
             "leveling": [
               {
                 "attribute": "Total Waves",
@@ -715,9 +694,9 @@
                   },
                   {
                     "values": [
-                      280,
-                      320,
-                      360
+                      350,
+                      400,
+                      450
                     ],
                     "units": [
                       "% AP",
@@ -747,7 +726,7 @@
             ]
           },
           {
-            "description": "Each wave can critically strike for (20% + 7%) bonus physical damage.",
+            "description": "Each of the waves can critically strike for (20% + 7%) bonus physical damage.",
             "leveling": []
           }
         ],
@@ -812,13 +791,14 @@
   },
   "releaseDate": "2010-09-08",
   "releasePatch": "1.0.0.100",
-  "patchLastChanged": "12.10",
+  "patchLastChanged": "12.21",
   "price": {
     "blueEssence": 3150,
     "rp": 790,
     "saleRp": 0
   },
   "lore": "A Bilgewater captain famed for her looks but feared for her ruthlessness, Sarah Fortune paints a stark figure among the hardened criminals of the port city. As a child, she witnessed the reaver king Gangplank murder her family—an act she brutally avenged years later, blowing up his flagship while he was still aboard. Those who underestimate her will face a beguiling and unpredictable opponent… and, likely, a bullet or two in their guts.",
+  "faction": "bilgewater",
   "skins": [
     {
       "name": "Original",
@@ -896,9 +876,7 @@
       "chromas": [],
       "lore": null,
       "release": "2010-09-08",
-      "set": [
-        "Waterloo"
-      ],
+      "set": [],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/21/21002.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/21/21002.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/21/21002.jpg",
@@ -1379,8 +1357,7 @@
       "lore": "Sarah Fortune does not usually attend slumber parties. Nor wear fluffy pajamas. Nor play Truth or Dare. But Lulu insisted, and Lux asked so nicely, so somehow Sarah found herself doing all three. At least her pajamas came with holsters—juuust in case some cosmic enemies show up. You never know. It could happen.",
       "release": "2018-11-21",
       "set": [
-        "Star Guardian Season 2",
-        "Disguise"
+        "Star Guardian Season 2"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/21/21017.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/21/21017.jpg",
@@ -1412,7 +1389,7 @@
       "lore": "A powerful witch with a flair for the dramatic, and a soft spot for misguided monsters, Miss Fortune has resurfaced for an evening of adventure with her spooky sistren.",
       "release": "2019-10-24",
       "set": [
-        "Trick-or-Treat"
+        "Bewitching"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/21/21018.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/21/21018.jpg",
@@ -1426,7 +1403,7 @@
       "newQuotes": false,
       "voiceActor": [],
       "splashArtist": [
-        "Art of Maki"
+        "Maki Planas Mata"
       ]
     },
     {
@@ -1444,7 +1421,7 @@
       "lore": "Having wrestled control of the lion's share of sweets from ghastly spirits and unruly children alike, Miss Fortune now rules over the night. Her reign is one filled with revelry and mischief.",
       "release": "2019-10-24",
       "set": [
-        "Trick-or-Treat"
+        "Bewitching"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/21/21020.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/21/21020.jpg",
@@ -1672,8 +1649,8 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/21/21021.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/21/21021.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/21/21021.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/missfortune/skins/skin21/missfortuneloadscreen_21.pie_c_11_15.jpg",
-      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/missfortune/skins/skin21/missfortuneloadscreen_21_le.pie_c_11_15.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/missfortune/skins/skin21/missfortuneloadscreen_21.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/missfortune/skins/skin21/missfortuneloadscreen_21_le.jpg",
       "newEffects": true,
       "newAnimations": true,
       "newRecall": true,
@@ -1843,6 +1820,39 @@
       ],
       "splashArtist": [
         "Pan Chengwei"
+      ]
+    },
+    {
+      "name": "Prestige Bewitching (2022)",
+      "id": 21033,
+      "isBase": false,
+      "availability": "Limited",
+      "formatName": "Prestige Bewitching (2022)",
+      "lootEligible": false,
+      "cost": "special",
+      "sale": 0,
+      "distribution": "Given to players who owned the original skin prior to patch 12.5",
+      "rarity": "Mythic",
+      "chromas": [],
+      "lore": "Having wrestled control of the lion's share of sweets from ghastly spirits and unruly children alike, Miss Fortune now rules over the night. Her reign is one filled with revelry and mischief.",
+      "release": "2022-04-01",
+      "set": [
+        "Bewitching"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/21/21033.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/21/21033.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/21/21033.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/missfortune/skins/skin33/missfortuneloadscreen_33.pie_c_12_6.jpg",
+      "loadScreenVintagePath": null,
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [],
+      "splashArtist": [
+        "Sanhua Chen",
+        "Kudos Productions"
       ]
     }
   ]

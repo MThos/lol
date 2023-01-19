@@ -14,7 +14,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3031_marksman_t3_infinityedge.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3031_marksman_t3_infinityedge.png",
   "simpleDescription": "Massively enhances critical strikes",
   "nicknames": [
     "ie"
@@ -26,6 +26,7 @@
       "name": "Perfection",
       "effects": "Gain {{as|35% '''bonus''' critical strike damage}} if you have at least {{as|60% critical strike chance}}.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,

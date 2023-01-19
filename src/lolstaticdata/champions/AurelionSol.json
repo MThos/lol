@@ -4,7 +4,7 @@
   "name": "Aurelion Sol",
   "title": "The Star Forger",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/AurelionSol.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.23.1/img/champion/AurelionSol.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -852,11 +852,12 @@
   "releasePatch": "6.6",
   "patchLastChanged": "12.10",
   "price": {
-    "blueEssence": 6300,
-    "rp": 975,
+    "blueEssence": 4800,
+    "rp": 880,
     "saleRp": 0
   },
   "lore": "Aurelion Sol once graced the vast emptiness of the cosmos with celestial wonders of his own devising. Now, he is forced to wield his awesome power at the behest of a space-faring empire that tricked him into servitude. Desiring a return to his star-forging ways, Aurelion Sol will drag the very stars from the sky, if he must, in order to regain his freedom.",
+  "faction": "unaffiliated",
   "skins": [
     {
       "name": "Original",
@@ -865,7 +866,7 @@
       "availability": "Available",
       "formatName": "Original",
       "lootEligible": true,
-      "cost": 975,
+      "cost": 880,
       "sale": 0,
       "distribution": null,
       "rarity": "NoRarity",

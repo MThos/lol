@@ -4,7 +4,7 @@
   "name": "Samira",
   "title": "the Desert Rose",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Samira.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Samira.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -200,11 +200,11 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Samira/ability-icon/p",
         "effects": [
           {
-            "description": "Innate - Style: Samira's damaging basic attacks and abilities against at least one enemy champion different from the previous damaging hit made against champions generate a Style stack for 6 seconds, which refreshes on subsequent hits and stacks up to 6 times.",
+            "description": "Innate: Samira's damaging basic attacks and abilities against at least one enemy champion different from the previous damaging hit made against champions generate a stack of Style for 6 seconds, refreshing on subsequent hits and stacking up to 6 times.",
             "leveling": []
           },
           {
-            "description": "Samira gains 0% − 21% (based on Style stacks) bonus movement speed.",
+            "description": "Style: For each stack, Samira gains 3.5% bonus movement speed, up to a maximum of 21%. At maximum stacks, Samira can cast Inferno Trigger.",
             "leveling": []
           },
           {
@@ -212,7 +212,7 @@
             "leveling": []
           },
           {
-            "description": "Samira's basic attack against an immobilized target is empowered to have an uncancellable windup and deal the attack's damage over 6 strikes in 0.5 seconds. If the target is a monster or is airborne, the attack also knocks them up for 0.5 seconds. Samira will dash into her attack range from the target if they are nearby, though not through terrain.",
+            "description": "Samira's basic attack against an immobilized target is empowered to have an uncancellable windup and deal the attack's damage over 6 strikes in 0.5 seconds. If the target is a monster or is airborne, the attack also knocks them up for 0.5 seconds. Samira will dash into her attack range of the target if they are nearby, though not through terrain.",
             "leveling": []
           },
           {
@@ -299,7 +299,7 @@
             "leveling": []
           },
           {
-            "description": "If Flair is cast during Wild Rush, Samira deploys explosives in her wake that detonate upon the end of the dash, dealing the same damage to enemies hit. This can be done while performing Blade Whirl or Inferno Trigger despite Flair being disabled during them.(bug)",
+            "description": "If Flair is cast during Wild Rush, Samira deploys explosives in her wake that detonate upon the end of the dash, dealing the same damage to enemies hit.",
             "leveling": []
           },
           {
@@ -357,7 +357,7 @@
         "projectile": "SPECIAL",
         "onHitEffects": null,
         "occurrence": null,
-        "notes": "Applies  spell damage on the shot and  area damage on the slash and explosives.\n Life steal will always benefit from the damage dealt at 66.6% effectiveness and does not take into account of the ability's spell effects, whereas on the other hand for  omnivamp does, and it will modify the  healing accordingly.\nThe slash and explosives roll their  critical strike against each target individually.\nThe shot and the slash do not count as different abilities for stacking  Style.\nSamira's next attack after using Flair will occasionally come out faster.(bug)\nSamira can use  Wild Rush during Flair's cast time.\nThis ability will cast from wherever the caster is at the end of the cast time.\nFlair will fire or slash from wherever Samira is at the end of the cast time.\nSamira will always slash in her facing direction, and she will turn to face the target direction only once at the start of the cast time.\nFlair can be buffered 0.5 seconds before it comes off cooldown.\nOnly the shot will be destroyed by  projectile-intercepting effects.\nThe explosive placement is illustrated in  Wild Rush regardless of whether Flair is available.\nThe VFX always covers the the full dash's distance even if  Wild Rush is interrupted mid-dash.",
+        "notes": "Applies  spell damage on the shot and  area damage on the slash and explosives.\n Life steal will always benefit from the damage dealt at 66.6% effectiveness and does not take into account of the ability's spell effects, whereas on the other hand for  omnivamp does, and it will modify the  healing accordingly.\nFlair can be cast during  Wild Rush even if  Blade Whirl or  Inferno Trigger are active.\nThe slash and explosives roll their  critical strike against each target individually.\nThe shot and the slash do not count as different abilities for stacking  Style.\nSamira's next attack after using Flair will occasionally come out faster.(bug)\nSamira can use  Wild Rush during Flair's cast time.\nThis ability will cast from wherever the caster is at the end of the cast time.\nFlair will fire or slash from wherever Samira is at the end of the cast time.\nSamira will always slash in her facing direction, and she will turn to face the target direction only once at the start of the cast time.\nFlair can be buffered 0.5 seconds before it comes off cooldown.\nOnly the shot will be destroyed by  projectile-intercepting effects.\nThe explosive placement is illustrated in  Wild Rush regardless of whether Flair is available.\nThe VFX always covers the the full dash's distance even if  Wild Rush is interrupted mid-dash.",
         "blurb": "Active:  Samira fires a shot in the target direction that deals physical damage to the first enemy hit.",
         "missileSpeed": null,
         "rechargeRate": null,
@@ -379,14 +379,14 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Samira/ability-icon/w",
         "effects": [
           {
-            "description": "Active: Samira spins her blade over 0.75 seconds, destroying hostile non- turret projectiles within the area for the duration.",
+            "description": "Active: Samira spins her blade over 0.75 seconds, destroying all hostile non- turret projectiles within the area for the duration.",
             "leveling": []
           },
           {
             "description": "Samira slashes twice during Blade Whirl, each one dealing physical damage to all nearby enemies. The first slash occurs immediately and the second one occurs after the duration.",
             "leveling": [
               {
-                "attribute": "Slash Damage",
+                "attribute": "Physical Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -423,7 +423,7 @@
                 ]
               },
               {
-                "attribute": "Total Damage",
+                "attribute": "Total Physical Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -538,7 +538,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Samira/ability-icon/e",
         "effects": [
           {
-            "description": "Active: Samira dashes in the direction of the target enemy or enemy structure, dealing magic damage to enemies she passes through. She also gains bonus attack speed for 3 seconds.",
+            "description": "Active: Samira dashes a fixed distance in the direction of the target enemy or enemy structure, dealing magic damage to enemies she passes through. She also gains bonus attack speed for 3 seconds.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -578,7 +578,7 @@
                 ]
               },
               {
-                "attribute": "Attack Speed",
+                "attribute": "Bonus Attack Speed",
                 "modifiers": [
                   {
                     "values": [
@@ -713,7 +713,7 @@
                 ]
               },
               {
-                "attribute": "Total Damage Per Target",
+                "attribute": "Total Physical Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -771,7 +771,7 @@
                 ]
               },
               {
-                "attribute": "Total Damage Per Minion",
+                "attribute": "Total Minion Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -882,6 +882,7 @@
     "saleRp": 0
   },
   "lore": "Samira stares death in the eye with unyielding confidence, seeking thrill wherever she goes. After her Shuriman home was destroyed as a child, Samira found her true calling in Noxus, where she built a reputation as a stylish daredevil taking on dangerous missions of the highest caliber. Wielding black-powder pistols and a custom-engineered blade, Samira thrives in life-or-death circumstances, eliminating any who stand in her way with flash and flair.",
+  "faction": "noxus",
   "skins": [
     {
       "name": "Original",

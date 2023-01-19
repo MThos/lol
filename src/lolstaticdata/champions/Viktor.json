@@ -4,7 +4,7 @@
   "name": "Viktor",
   "title": "the Machine Herald",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Viktor.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Viktor.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -201,7 +201,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Viktor/ability-icon/p",
         "effects": [
           {
-            "description": "Innate: Viktor can augment each of his basic abilities at the cost of the maximum 100 Hex Fragments, he obtains them by killing enemies:\n Minions and monsters generate 1 Hex Fragment.\nSiege minions, super minions, and epic monsters generate 5 Hex Fragments.\nEnemy champion takedowns generate 25 Hex Fragments.",
+            "description": "Innate: Viktor can augment each of his basic abilities at the cost of 100 Hex Fragments, which he gains from killing enemies:\n Minions and monsters generate 1 Hex Fragment.\nSiege minions, super minions, and epic monsters generate 5 Hex Fragments.\nEnemy champion takedowns generate 25 Hex Fragments.",
             "leveling": []
           },
           {
@@ -220,7 +220,7 @@
         "projectile": null,
         "onHitEffects": null,
         "occurrence": null,
-        "notes": "Minions shared through  Relic Shield's Spoils of War will generate Hex Fragments.",
+        "notes": "Minions shared through  Relic Shield's Spoils of War will generate Hex Fragments.\nViktor can only have up to 100 Hex Fragments, and must upgrade an ability before obtaining any more.",
         "blurb": "Innate:  Viktor collects Hex Fragments from enemies he kills and enemy champion  takedowns, he can augment each of his basic abilities at the cost of max Hex Fragments.",
         "missileSpeed": null,
         "rechargeRate": null,
@@ -242,7 +242,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Viktor/ability-icon/q",
         "effects": [
           {
-            "description": "Active: Viktor throws a device at the target enemy that deals magic damage. He also shields himself for 27 − 105 (based on level) (+ 18% AP) for 2.5 seconds and gains Discharge for 3.5 seconds.",
+            "description": "Active: Viktor throws a device at the target enemy that deals magic damage. He also grants himself a shield for 27 − 105 (based on level) (+ 18% AP) for 2.5 seconds and gains Discharge for 3.5 seconds.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -287,7 +287,7 @@
             "description": "Discharge: Viktor's next basic attack is empowered to become non-projectile and deal modified magic damage.",
             "leveling": [
               {
-                "attribute": "Discharge Damage",
+                "attribute": "Modified Magic Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -340,7 +340,7 @@
                 ]
               },
               {
-                "attribute": "Total Damage",
+                "attribute": "Total Magic Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -497,7 +497,7 @@
             ]
           },
           {
-            "description": "The field inflicts a stack to enemies within every 0.5 seconds, the third stack consumes them all to knock down and stun the target for 1.5 seconds. The target then becomes immune to Gravity Field, occurring once per cast.",
+            "description": "The field applies a stack to enemies within every 0.5 seconds, stacking up to 3 times. The third stack consumes them all to knock down and stun the target for 1.5 seconds. The target then becomes immune to Gravity Field's effects, occurring once per cast.",
             "leveling": []
           },
           {
@@ -619,10 +619,10 @@
             ]
           },
           {
-            "description": "Augment: Aftershock: The path explodes along the beam's wake after 1 second, dealing additional magic damage to enemies hit.",
+            "description": "Augment: Aftershock: The path explodes along the beam's wake after 1 second, dealing magic damage to enemies hit.",
             "leveling": [
               {
-                "attribute": "Aftershock Magic Damage",
+                "attribute": "Magic Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -770,7 +770,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Viktor/ability-icon/r",
         "effects": [
           {
-            "description": "Active: Viktor conjures a singularity at the target location, dealing magic damage to enemies within the area and disrupting their channeled abilities.\nThe singularity then remains active for 6.5 seconds, dealing magic damage to enemies within it every second and granting sight of the area. The singularity targets the nearest champion hit by its initial damage and will follow them, moving faster based on its proximity to Viktor.",
+            "description": "Active: Viktor conjures an arcane singularity at the target location, dealing magic damage to enemies within the area and disrupting their channeled abilities.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -800,7 +800,12 @@
                     ]
                   }
                 ]
-              },
+              }
+            ]
+          },
+          {
+            "description": "The singularity then remains active for 6.5 seconds, dealing magic damage to enemies within it every second and granting sight of the area. The singularity targets the nearest champion hit by its initial damage and will follow them, moving faster based on its proximity to Viktor.",
+            "leveling": [
               {
                 "attribute": "Magic Damage Per Tick",
                 "modifiers": [
@@ -872,10 +877,6 @@
           {
             "description": "Augment: Perfect Storm: The singularity moves 25% faster.",
             "leveling": []
-          },
-          {
-            "description": "Chaos Storm's recast can be used while affected by cast-inhibiting crowd control.",
-            "leveling": []
           }
         ],
         "cost": {
@@ -946,6 +947,7 @@
     "saleRp": 0
   },
   "lore": "The herald of a new age of technology, Viktor has devoted his life to the advancement of humankind. An idealist who seeks to lift the people of Zaun to a new level of understanding, he believes that only by embracing a glorious evolution of technology can humanity's full potential be realized. With a body augmented by steel and science, Viktor is zealous in his pursuit of this bright future.",
+  "faction": "zaun",
   "skins": [
     {
       "name": "Original",
@@ -1028,7 +1030,9 @@
       "chromas": [],
       "lore": null,
       "release": "2011-12-29",
-      "set": [],
+      "set": [
+        "Otherroads"
+      ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/112/112002.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/112/112002.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/112/112002.jpg",

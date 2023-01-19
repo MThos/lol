@@ -14,7 +14,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3504_enchanter_t3_ardentcenser.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3504_enchanter_t3_ardentcenser.png",
   "simpleDescription": "Shield and heal effects on other units grant both of you Attack Speed and their attacks deal additional on-hit magic damage.",
   "nicknames": [
     "censor"
@@ -24,8 +24,9 @@
       "unique": true,
       "mythic": false,
       "name": "Sanctify",
-      "effects": "{{tip|Heal|Healing}} or {{tip|shield|shielding}} allied champions (''excluding yourself'') enhances you and them with {{as|{{pp|type=target's level|key=%|10 to 30}} '''bonus''' attack speed}} and {{as|{{pp|type=target's level|5 to 20}} '''bonus''' magic damage|magic damage}} [[on-hit]] on basic attacks for 6 seconds.",
+      "effects": "{{tip|Heal|Healing}} or {{tip|shield|shielding}} allied champions (''excluding yourself'') enhances you and them for 6 seconds, granting {{as|{{pp|type=target's level|key=%|10 to 30}} '''bonus''' attack speed|attack speed}} and {{as|{{pp|type=target's level|5 to 20}} '''bonus''' magic damage|magic damage}} [[on-hit]] on basic attacks.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,

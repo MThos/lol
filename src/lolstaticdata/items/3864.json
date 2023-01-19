@@ -10,7 +10,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3864_marksman_t3_blackmistscythe.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3864_marksman_t3_blackmistscythe.png",
   "simpleDescription": null,
   "nicknames": [
     "Support",
@@ -26,6 +26,7 @@
       "name": null,
       "effects": "Receives diminishing gold from excessive minion kills.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,

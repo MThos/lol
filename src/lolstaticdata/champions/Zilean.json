@@ -4,7 +4,7 @@
   "name": "Zilean",
   "title": "the Chronokeeper",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Zilean.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Zilean.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -407,7 +407,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Zilean/ability-icon/w",
         "effects": [
           {
-            "description": "Active: Zilean reduces the cooldowns of Time Bomb and Time Warp by 10 seconds each.",
+            "description": "Active: Zilean reduces the current cooldowns of Time Bomb and Time Warp by 10 seconds each.",
             "leveling": []
           }
         ],
@@ -691,6 +691,7 @@
     "saleRp": 0
   },
   "lore": "Once a powerful Icathian mage, Zilean became obsessed with the passage of time after witnessing his homeland's destruction by the Void. Unable to spare even a minute to grieve the catastrophic loss, he called upon ancient temporal magic to divine all possible outcomes. Having become functionally immortal, Zilean now drifts through the past, present, and future, bending and warping the flow of time around him, always searching for that elusive moment that will turn back the clock and undo Icathia's destruction.",
+  "faction": "unaffiliated",
   "skins": [
     {
       "name": "Original",
@@ -797,7 +798,9 @@
       "chromas": [],
       "lore": null,
       "release": "2010-09-08",
-      "set": [],
+      "set": [
+        "Chronicle"
+      ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/26/26003.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/26/26003.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/26/26003.jpg",

@@ -4,13 +4,13 @@
   "name": "Syndra",
   "title": "the Dark Sovereign",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Syndra.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Syndra.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "MAGIC_DAMAGE",
   "stats": {
     "health": {
-      "flat": 593,
+      "flat": 563,
       "percent": 0.0,
       "perLevel": 104,
       "percentPerLevel": 0.0
@@ -201,7 +201,19 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Syndra/ability-icon/p",
         "effects": [
           {
-            "description": "Innate: Each of Syndra's abilities gain an additional effect at maximum rank.",
+            "description": "Innate: Syndra collects Splinters of Wrath that enhance each of her abilities based on the number of them collected, stacking up to 120 times. She gains Splinters of Wrath from the following:\nDealing two instances of ability damage to an enemy champion within 4 seconds grants 1 / 2 / 3 (based on level) Splinters. This cannot occur on the same target more than once every 8 seconds.\nRanking up an ability with any skill points beyond level 1 grants 5 Splinters, up to 85.\nKilling a large minion grants 1 Splinter.",
+            "leveling": []
+          },
+          {
+            "description": "Collecting a Splinter of Wrath from an enemy restores 20 − 215 (based on level) mana. Splinters of Wrath are brought to Syndra from enemies over 0.6 seconds.",
+            "leveling": []
+          },
+          {
+            "description": "At 120 Splinters of Wrath, Syndra achieves Transcendence, increasing her ability power by 15%.",
+            "leveling": []
+          },
+          {
+            "description": "Syndra can collect Splinters of Wrath from enemies even if she is at maximum stacks. These Splinters do not grant any stacks, but will still restore mana for Syndra.",
             "leveling": []
           }
         ],
@@ -216,8 +228,8 @@
         "projectile": null,
         "onHitEffects": null,
         "occurrence": null,
-        "notes": "The earliest possible champion level required for Transcendent to take effect is level 9, as this is the lowest level at which a basic ability can reach rank 5.\nSyndra's abilities gain additional visual effects when they reach rank 5. Her spells will also gain a red colored tint outlining the VFX.\n Dark Sphere will cause fractures to appear in the earth when it is used.",
-        "blurb": "Innate: Each of  Syndra's abilities gain an additional effect at max rank.",
+        "notes": "Syndra's abilities gain additional visual effects when they reach their Splinter of Wrath thresholds. Her spells will also gain a red colored tint outlining the VFX.\n Dark Sphere will cause fractures to appear in the earth when it is used.",
+        "blurb": "Innate:  Syndra collects Splinters of Wrath that enhance her abilities based on the number of them collected, up to a maximum amount. She can collect them from dealing damage to enemy  champions, ranking up her abilities, and killing large  minions.",
         "missileSpeed": null,
         "rechargeRate": null,
         "collisionRadius": null,
@@ -261,11 +273,11 @@
                   },
                   {
                     "values": [
-                      65,
-                      65,
-                      65,
-                      65,
-                      65
+                      70,
+                      70,
+                      70,
+                      70,
+                      70
                     ],
                     "units": [
                       "% AP",
@@ -280,83 +292,8 @@
             ]
           },
           {
-            "description": "Transcendent Bonus: Dark Sphere deals 25% bonus damage against champions.",
-            "leveling": [
-              {
-                "attribute": "Bonus Damage",
-                "modifiers": [
-                  {
-                    "values": [
-                      52.5,
-                      52.5,
-                      52.5,
-                      52.5,
-                      52.5
-                    ],
-                    "units": [
-                      "",
-                      "",
-                      "",
-                      "",
-                      ""
-                    ]
-                  },
-                  {
-                    "values": [
-                      16.25,
-                      16.25,
-                      16.25,
-                      16.25,
-                      16.25
-                    ],
-                    "units": [
-                      "% AP",
-                      "% AP",
-                      "% AP",
-                      "% AP",
-                      "% AP"
-                    ]
-                  }
-                ]
-              },
-              {
-                "attribute": "Total Damage",
-                "modifiers": [
-                  {
-                    "values": [
-                      262.5,
-                      262.5,
-                      262.5,
-                      262.5,
-                      262.5
-                    ],
-                    "units": [
-                      "",
-                      "",
-                      "",
-                      "",
-                      ""
-                    ]
-                  },
-                  {
-                    "values": [
-                      81.25,
-                      81.25,
-                      81.25,
-                      81.25,
-                      81.25
-                    ],
-                    "units": [
-                      "% AP",
-                      "% AP",
-                      "% AP",
-                      "% AP",
-                      "% AP"
-                    ]
-                  }
-                ]
-              }
-            ]
+            "description": "Transcendent Bonus: Collecting 40 Splinters of Wrath causes Syndra to periodically stock a Dark Sphere charge, up to a maximum of 2.",
+            "leveling": []
           },
           {
             "description": "Dark Sphere will cast at max range if cast beyond that.",
@@ -368,10 +305,10 @@
             {
               "values": [
                 40,
+                45,
                 50,
-                60,
-                70,
-                80
+                55,
+                60
               ],
               "units": [
                 "",
@@ -387,11 +324,11 @@
           "modifiers": [
             {
               "values": [
-                4,
-                4,
-                4,
-                4,
-                4
+                7,
+                7,
+                7,
+                7,
+                7
               ],
               "units": [
                 "",
@@ -402,7 +339,7 @@
               ]
             }
           ],
-          "affectedByCdr": true
+          "affectedByCdr": false
         },
         "targeting": "Location",
         "affects": "Enemies",
@@ -416,7 +353,13 @@
         "notes": "Dark Sphere can be conjured inside terrain, but cannot be thrown there with  Force of Will.\nThere is no limit as to how many Dark Spheres can be active at a time.",
         "blurb": "Active: After a brief delay,  Syndra conjures a Dark Sphere at the target location that deals magic damage to nearby enemies. The Dark Sphere then remains on the ground for a few seconds.",
         "missileSpeed": null,
-        "rechargeRate": null,
+        "rechargeRate": [
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
         "collisionRadius": null,
         "tetherRadius": null,
         "onTargetCdStatic": null,
@@ -425,7 +368,7 @@
         "width": null,
         "angle": null,
         "castTime": "none",
-        "effectRadius": "180",
+        "effectRadius": "210",
         "targetRange": "800"
       }
     ],
@@ -435,7 +378,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Syndra/ability-icon/w",
         "effects": [
           {
-            "description": "Active: Syndra grabs the nearest Dark Sphere, enemy minion or non-epic monster within 400 range from the target location, and holds it for 5 seconds. If a Dark Sphere is grabbed, its duration is refreshed; if a minion or monster is grabbed, it is put in stasis. If no valid target can be found at the target location, Syndra will grab the nearest Dark Sphere.",
+            "description": "Active: Syndra grabs the nearest Dark Sphere, enemy minion or non-epic monster within 500 units from the target location, and holds the target for 5 seconds. If a Dark Sphere is grabbed, its duration is refreshed; if a minion or monster is grabbed, it is put in stasis. She prioritizes grabbing the nearest unit, then Dark Spheres.",
             "leveling": []
           },
           {
@@ -443,7 +386,7 @@
             "leveling": []
           },
           {
-            "description": "Recast: Syndra throws the grabbed target towards the target location, granting sight of their surroundings as they fall and dealing magic damage to them and nearby enemies, slowing all of them for 1.5 seconds.",
+            "description": "Recast: Syndra throws the grabbed target towards the target location, granting sight of their surroundings as they fall and dealing magic damage to them and nearby enemies. All targets hit are slowed for 1.5 seconds.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -506,7 +449,7 @@
             ]
           },
           {
-            "description": "Transcendent Bonus: Force of Will deals[ 20% bonus true damage. ][ 46 (+ 14% AP) bonus true damage. ]",
+            "description": "Transcendent Bonus: Collecting 60 Splinters of Wrath enhances Force of Will to deal 15% (+ 1.5% per 100 AP) bonus true damage.",
             "leveling": []
           }
         ],
@@ -560,7 +503,7 @@
         "projectile": "FALSE",
         "onHitEffects": null,
         "occurrence": null,
-        "notes": "The initial cast does not count as an ability activation for the purposes of on-cast effects such as  Spellblade and stacking  Force Pulse.\nDetonating the ability manually does.\nIf the ability is not recast within the duration, Syndra will release the unit or Dark Sphere that she is holding.\nForce of Will does not destroy in-flight  projectiles for the  minion or  monster grabbed.\nForce of Will  cleanses the target  minion or  monster grabbed from all  crowd control.\nSyndra can grab  pets, such as  Shaco's  Jack in the Box.\nCasting  Teleport or  Recall will cause Syndra to cancel Force of Will autonomously and drop anything she is holding.\nGrabbing prioritizes Dark Spheres.\nOnce upgraded to maximum rank Force of Will gains a total damage increase of (20 + enemy's MR ÷ 5)%.\nEnemy  pets that passively have an effect on their surroundings will continue to affect the area around them while they are being held. For example,  Annie's  Tibbers will continue to inflict burn damage on surrounding units while being held.\nGrabbing a  Dark Sphere will cause the duration on it to refresh, but only on the first cast, not when it is thrown.\nForce of Will has additional effects when targeting the  Blue Sentinel and  Red Brambleback. Throwing the former will refund 10  mana to Syndra upon cast and will reduce the  cooldown of Force of Will by 1 second, while throwing the latter will apply the  Crest of Cinders burn to any affected units in the area of effect.",
+        "notes": "The initial cast does not count as an ability activation for the purposes of on-cast effects such as  Spellblade and stacking  Force Pulse.\nDetonating the ability manually does.\nIf the ability is not recast within the duration, Syndra will release the unit or Dark Sphere that she is holding.\nForce of Will does not destroy in-flight  projectiles for the  minion or  monster grabbed.\nForce of Will  cleanses the target  minion or  monster grabbed from all  crowd control.\nForce of Will prevents non-sphere targets from dying when picking them up.\nSyndra can grab  pets, such as  Shaco's  Jack in the Box.\nCasting  Teleport or  Recall will cause Syndra to cancel Force of Will autonomously and drop anything she is holding.\nGrabbing prioritizes Dark Spheres.\nEnemy  pets that passively have an effect on their surroundings will continue to affect the area around them while they are being held. For example,  Annie's  Tibbers will continue to inflict burn damage on surrounding units while being held.\nGrabbing a  Dark Sphere will cause the duration on it to refresh, but only on the first cast, not when it is thrown.\nForce of Will has additional effects when targeting the  Blue Sentinel and  Red Brambleback. Throwing the former will refund 10  mana to Syndra upon cast and will reduce the  cooldown of Force of Will by 1 second, while throwing the latter will apply the  Crest of Cinders burn to any affected units in the area of effect.\nForce of Will's first cast uses a  modified icon while it has the  Transcendent bonus.",
         "blurb": "Active:  Syndra grabs the nearest  Dark Sphere, enemy  minion or non-epic  monster from the target location, and holds it for a few seconds.",
         "missileSpeed": null,
         "rechargeRate": null,
@@ -573,7 +516,7 @@
         "angle": null,
         "castTime": "none",
         "effectRadius": "225",
-        "targetRange": "925 / 950"
+        "targetRange": "925 / 950 / 500"
       }
     ],
     "E": [
@@ -589,11 +532,11 @@
                 "modifiers": [
                   {
                     "values": [
-                      85,
-                      130,
-                      175,
-                      220,
-                      265
+                      75,
+                      115,
+                      155,
+                      195,
+                      235
                     ],
                     "units": [
                       "",
@@ -605,11 +548,11 @@
                   },
                   {
                     "values": [
-                      60,
-                      60,
-                      60,
-                      60,
-                      60
+                      55,
+                      55,
+                      55,
+                      55,
+                      55
                     ],
                     "units": [
                       "% AP",
@@ -624,11 +567,11 @@
             ]
           },
           {
-            "description": "Dark Spheres can be knocked back for 1000 units and up to 1300 units away from Syndra based on proximity, knocking back enemies they hit over 100 units, though not through terrain. This also stuns and reveals them for 1.5 seconds, and deals Scatter the Weak's damage if they were not damaged by the initial cast.",
+            "description": "Dark Spheres can be knocked back for 950 units and up to 1200 units away from Syndra based on proximity, knocking back enemies they hit over 70 units, though not through terrain. Targets hit are also stunned for 1.25 seconds, during which they are also revealed, and dealt Scatter the Weak's damage if they were not damaged by the initial cast.",
             "leveling": []
           },
           {
-            "description": "Transcendent Bonus: Scatter the Weak's area of effect is 50% wider.",
+            "description": "Transcendent Bonus: Collecting 80 Splinters of Wrath enhances Scatter the Weak to have an increased scatter angle and slow enemies hit by 70% for 1.25 seconds starting after the knock back ends or if the target was hit by a pushed Dark Sphere, after the stun has ended.",
             "leveling": []
           }
         ],
@@ -656,11 +599,11 @@
           "modifiers": [
             {
               "values": [
-                18,
-                17,
-                16,
                 15,
-                14
+                15,
+                15,
+                15,
+                15
               ],
               "units": [
                 "",
@@ -682,20 +625,20 @@
         "projectile": "SPECIAL",
         "onHitEffects": null,
         "occurrence": null,
-        "notes": "Scatter the Weak is blocked by the portion of  Wind Wall it collides with. Spheres thrown will stop upon colliding with the wall.\nEnemies and spheres will be knocked into the direction directly away from Syndra, and the knock back has no dispersion.\nConjuring a  Dark Sphere at max range or close to or inside the edge of Scatter the Weak's conic-area of effect will knock back the sphere immediately once it has formed. This considers the sphere's center.(bug)\nScatter the Weak will knock back Spheres even farther if they are inside terrain, up until they reach open space. If the terrain they're inside in cannot be surpassed, the Spheres will be knocked in the opposite direction.\nScatter the Weak will delay the expiration of a Sphere until after it finishes being knocked back.\nThis ability will cast from wherever the caster is at the end of the cast time.\nOnce Scatter the Weak has been learned, an arrow directly in front of every  Dark Sphere will appear to signify the direction the sphere will be knocked towards, each one corresponding to Syndra's position. This is only visible to Syndra.",
+        "notes": "Scatter the Weak is blocked by the portion of  Wind Wall it collides with. Spheres thrown will stop upon colliding with the wall.\nSpheres spawned at close range of the ability are more likely to be hit.\nEnemies and spheres will be knocked into the direction directly away from Syndra, and the knock back has no dispersion.\nScatter the Weak will knock back Spheres even farther if they are inside terrain, up until they reach open space. If the terrain they're inside in cannot be surpassed, the Spheres will be knocked in the opposite direction.\nScatter the Weak will delay the expiration of a Sphere until after it finishes being knocked back.\nThis ability will cast from wherever the caster is at the end of the cast time.\nOnce Scatter the Weak has been learned, an arrow directly in front of every  Dark Sphere will appear to signify the direction the sphere will be knocked towards, each one corresponding to Syndra's position. This is only visible to Syndra.",
         "blurb": "Active:  Syndra propels a wave of force in a cone in the target direction that deals magic damage and  knocks back enemies hit based on proximity.",
         "missileSpeed": null,
         "rechargeRate": null,
-        "collisionRadius": null,
+        "collisionRadius": "70",
         "tetherRadius": null,
         "onTargetCdStatic": null,
         "innerRadius": null,
-        "speed": "2500",
-        "width": null,
-        "angle": "40° / 60°",
+        "speed": "2500 / 2000",
+        "width": "120 / 200",
+        "angle": "56° / 84°",
         "castTime": "0.25",
         "effectRadius": null,
-        "targetRange": "700 / 800"
+        "targetRange": null
       }
     ],
     "R": [
@@ -703,6 +646,28 @@
         "name": "Unleashed Power",
         "icon": "https://cdn.communitydragon.org/latest/champion/Syndra/ability-icon/r",
         "effects": [
+          {
+            "description": "Passive: Dark Sphere gains ability haste.",
+            "leveling": [
+              {
+                "attribute": "Ability Haste",
+                "modifiers": [
+                  {
+                    "values": [
+                      10,
+                      20,
+                      30
+                    ],
+                    "units": [
+                      "",
+                      "",
+                      ""
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
           {
             "description": "Active: Syndra enters a 0.264 seconds cast time, creating 3 Dark Spheres and grabbing up to 4 nearby Dark Spheres that were last spawned. Afterwards, the collected Dark Spheres are hurled in a volley at the target enemy champion, each dealing magic damage upon hit.",
             "leveling": [
@@ -712,8 +677,8 @@
                   {
                     "values": [
                       90,
-                      140,
-                      190
+                      130,
+                      170
                     ],
                     "units": [
                       "",
@@ -723,9 +688,9 @@
                   },
                   {
                     "values": [
-                      20,
-                      20,
-                      20
+                      17,
+                      17,
+                      17
                     ],
                     "units": [
                       "% AP",
@@ -736,13 +701,13 @@
                 ]
               },
               {
-                "attribute": "Minimum Damage",
+                "attribute": "Minimum Magic Damage",
                 "modifiers": [
                   {
                     "values": [
                       270,
-                      420,
-                      570
+                      390,
+                      510
                     ],
                     "units": [
                       "",
@@ -752,9 +717,9 @@
                   },
                   {
                     "values": [
-                      60,
-                      60,
-                      60
+                      51,
+                      51,
+                      51
                     ],
                     "units": [
                       "% AP",
@@ -765,13 +730,13 @@
                 ]
               },
               {
-                "attribute": "Maximum Damage",
+                "attribute": "Maximum Magic Damage",
                 "modifiers": [
                   {
                     "values": [
                       630,
-                      980,
-                      1330
+                      910,
+                      1190
                     ],
                     "units": [
                       "",
@@ -781,9 +746,9 @@
                   },
                   {
                     "values": [
-                      140,
-                      140,
-                      140
+                      119,
+                      119,
+                      119
                     ],
                     "units": [
                       "% AP",
@@ -800,7 +765,7 @@
             "leveling": []
           },
           {
-            "description": "Transcendent Bonus: Unleashed Power's cast range is increased.",
+            "description": "Transcendent Bonus: Collecting 100 Splinters of Wrath enhances Unleashed Power to execute the target if they are below 15% of their maximum health.",
             "leveling": []
           }
         ],
@@ -846,7 +811,7 @@
         "projectile": "TRUE",
         "onHitEffects": null,
         "occurrence": null,
-        "notes": "Unleashed Power makes Syndra enter a brief cast time, but the initial cast is completed instantly. If she dies during this cast time, Unleashed Power will still complete the remaining effect.\nCasting Unleashed Power on a target that becomes  untargetable while the spheres are in flight will not destroy them but cause them to deal no damage instead.\nSpheres already in flight will still travel if Syndra's target dies, but any remaining sphere will not. However, their duration will still get reset.\nA Dark Sphere summoned very shortly before Unleashed Power will be used as one of the spheres that get thrown.\nDepending on how many spheres are on the map and how far away the enemy is upon casting Unleashed Power it is possible that Syndra would conjure the sphere behind her as if she was going to throw it, but she won't.\nUnleashed Power will not add a Sphere that Syndra is holding with Force of Will.\nSpheres that are being pushed by Scatter the Weak (normally ones that were made late during the push) will not get picked up for Unleashed Power.\n Spell shield will only block the damage of a single sphere.",
+        "notes": "Unleashed Power makes Syndra enter a brief cast time, but the initial cast is completed instantly. If she dies during this cast time, Unleashed Power will still complete the remaining effect.\nCasting Unleashed Power on a target that becomes  untargetable while the spheres are in flight will not destroy them but cause them to deal no damage instead.\nSpheres already in flight will still travel if Syndra's target dies, but any remaining sphere will not. However, their duration will still get reset.\nA Dark Sphere summoned very shortly before Unleashed Power will be used as one of the spheres that get thrown.\nDepending on how many spheres are on the map and how far away the enemy is upon casting Unleashed Power it is possible that Syndra would conjure the sphere behind her as if she was going to throw it, but she won't.\nUnleashed Power will not add a Sphere that Syndra is holding with  Force of Will.\nSpheres that are being pushed by  Scatter the Weak (normally ones that were made late during the push) will not get picked up for Unleashed Power.\n Spell shield will only block the damage of a single sphere.",
         "blurb": "Active:  Syndra creates a few  Dark Spheres and grabs a few more nearby, then hurls them in a volley at the target enemy champion. Each sphere deals magic damage upon hit, and remains on the ground for a few seconds.",
         "missileSpeed": null,
         "rechargeRate": null,
@@ -857,21 +822,22 @@
         "speed": null,
         "width": null,
         "angle": null,
-        "castTime": "0",
+        "castTime": "none",
         "effectRadius": "3000",
-        "targetRange": "675 / 750"
+        "targetRange": "675"
       }
     ]
   },
   "releaseDate": "2012-09-13",
   "releasePatch": "1.0.0.147",
-  "patchLastChanged": "12.10",
+  "patchLastChanged": "12.21",
   "price": {
     "blueEssence": 4800,
     "rp": 880,
     "saleRp": 0
   },
   "lore": "Syndra is a fearsome Ionian mage with incredible power at her command. As a child, she disturbed the village elders with her reckless and wild magic. She was sent away to be taught greater control, but eventually discovered her supposed mentor was restraining her abilities. Forming her feelings of betrayal and hurt into dark spheres of energy, Syndra has sworn to destroy all who would try to control her.",
+  "faction": "ionia",
   "skins": [
     {
       "name": "Original",
@@ -1882,13 +1848,13 @@
       "lore": "No celebration would be complete without the March of the Pumpkin Lanterns! Syndra conjures hundreds of great gourds from the sky, their crooked smiles delighting the children below.",
       "release": "2021-10-07",
       "set": [
-        "Trick-or-Treat"
+        "Bewitching"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/134/134025.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/134/134025.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/134/134025.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/syndra/skins/skin25/syndraloadscreen_25.pie_c_11_20.jpg",
-      "loadScreenVintagePath": null,
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/syndra/skins/skin25/syndraloadscreen_25.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/syndra/skins/skin25/syndraloadscreen_25_le.pie_c_12_20.jpg",
       "newEffects": true,
       "newAnimations": true,
       "newRecall": true,
@@ -1906,10 +1872,10 @@
       "isBase": false,
       "availability": "Rare",
       "formatName": "Prestige Star Guardian",
-      "lootEligible": false,
+      "lootEligible": true,
       "cost": "special",
       "sale": 0,
-      "distribution": "2000 Star Guardian Tokens",
+      "distribution": "125 Mythic Essence",
       "rarity": "Mythic",
       "chromas": [],
       "lore": "A vision in silk and shadow, Syndra doesn't need hordes of adoring fans (though she has them) nor hundreds of eager ateliers desperate to design for her (though she has those, too), because she is always at the center of her own orbit. Her secret? Starlight never goes out of style.",
@@ -1931,6 +1897,228 @@
       "splashArtist": [
         "Marie Magny",
         "West Studio"
+      ]
+    },
+    {
+      "name": "Spirit Blossom",
+      "id": 134044,
+      "isBase": false,
+      "availability": "Available",
+      "formatName": "Spirit Blossom",
+      "lootEligible": true,
+      "cost": 1350,
+      "sale": 0,
+      "distribution": null,
+      "rarity": "Epic",
+      "chromas": [
+        {
+          "name": "Catseye",
+          "id": 134047,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/134/134047.png",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Night Blossom",
+          "id": 134053,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/134/134053.png",
+          "colors": [
+            "#0C0C0F",
+            "#B2D1E4"
+          ],
+          "descriptions": [
+            {
+              "description": "This chroma was released as a Loot exclusive in the Worlds 2022 event.",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Obsidian",
+          "id": 134052,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/134/134052.png",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Pearl",
+          "id": 134051,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/134/134051.png",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Rose Quartz",
+          "id": 134049,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/134/134049.png",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "TENCENT"
+            }
+          ]
+        },
+        {
+          "name": "Ruby",
+          "id": 134045,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/134/134045.png",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "descriptions": [
+            {
+              "description": "This chroma was released as a bundle exclusive in 2022.",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Sapphire",
+          "id": 134048,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/134/134048.png",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Tanzanite",
+          "id": 134050,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/134/134050.png",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Turquoise",
+          "id": 134046,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/134/134046.png",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        }
+      ],
+      "lore": "Children hear stories of the savior of lost souls, the ever-reclusive Spirit of Freedom. One such speaks of a tree that wrapped its roots around a wandering wisp. The wisp struggled alone—until Syndra ripped off the bindings that held it tight, as she would do for all creatures, lest they be lost forever. ",
+      "release": "2022-10-06",
+      "set": [
+        "Spirit Blossom"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/134/134044.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/134/134044.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/134/134044.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/syndra/skins/skin44/syndraloadscreen_44.pie_c_12_19.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/syndra/skins/skin44/syndraloadscreen_44_le.pie_c_12_19.jpg",
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [],
+      "splashArtist": [
+        "Pan Chengwei"
       ]
     }
   ]

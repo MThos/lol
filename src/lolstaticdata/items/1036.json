@@ -5,8 +5,8 @@
   "rank": [],
   "buildsFrom": [],
   "buildsInto": [
-    3179,
     1053,
+    3179,
     3004,
     6692,
     3035,
@@ -26,7 +26,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/1036_class_t1_longsword.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/1036_class_t1_longsword.png",
   "simpleDescription": "Slightly increases Attack Damage",
   "nicknames": [],
   "passives": [],

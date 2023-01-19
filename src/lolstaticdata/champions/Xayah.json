@@ -4,7 +4,7 @@
   "name": "Xayah",
   "title": "the Rebel",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Xayah.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Xayah.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -204,7 +204,7 @@
             "leveling": []
           },
           {
-            "description": "Innate: Xayah's ability casts generate 3 stacks of Clean Cuts for 8 seconds, which refresh on subsequent casts or attacking structures, and stack up to 5 times. Xayah's basic attacks are empowered to each consume a stack on-attack to instead shoot a Feather that deals the attack's damage to the primary target and 30 / 40 / 50% (based on level) AD physical damage to other enemies hit, the secondary damage also critically striking if the main attack does.",
+            "description": "Innate: Xayah's ability casts generate 3 stacks of Clean Cuts, lasting for 8 seconds, refreshing on subsequent casts, and stacking up to 5 times. Xayah's basic attacks are empowered to each consume a stack on-attack to instead shoot a Feather that deals the attack's damage to the primary target and 30 / 40 / 50% (based on level) AD physical damage to other enemies hit, with the secondary damage also critically striking if the main attack does.",
             "leveling": []
           },
           {
@@ -248,7 +248,7 @@
             "description": "Active: Xayah throws a volley of two Feathers in the target direction that each deal physical damage to enemies hit.",
             "leveling": [
               {
-                "attribute": "Damage Per Blade",
+                "attribute": "Physical Damage Per Hit",
                 "modifiers": [
                   {
                     "values": [
@@ -285,7 +285,7 @@
                 ]
               },
               {
-                "attribute": "Maximum Total Damage",
+                "attribute": "Total Physical Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -324,10 +324,10 @@
             ]
           },
           {
-            "description": "Targets hit after the first take 50% damage.",
+            "description": "Targets hit after the first take 50% reduced damage.",
             "leveling": [
               {
-                "attribute": "Minimum Damage Per Blade",
+                "attribute": "Reduced Damage per Hit",
                 "modifiers": [
                   {
                     "values": [
@@ -364,7 +364,7 @@
                 ]
               },
               {
-                "attribute": "Minimum Total Damage",
+                "attribute": "Total Reduced Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -744,7 +744,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Xayah/ability-icon/r",
         "effects": [
           {
-            "description": "Active: Xayah leaps into the air, becoming untargetable and ghosted for 1.5 seconds. After 1 second, she shoots 5 Feathers in a cone in the target direction that each deal physical damage to enemies hit.",
+            "description": "Active: Xayah leaps into the air, becoming untargetable and ghosted for 1.5 seconds. After 1 second, she shoots 5 Feathers in a cone in the target direction that deal physical damage to enemies hit.",
             "leveling": [
               {
                 "attribute": "Physical Damage",
@@ -850,6 +850,7 @@
     "saleRp": 0
   },
   "lore": "Deadly and precise, Xayah is a vastayan revolutionary waging a personal war to save her people. She uses her speed, guile, and razor-sharp feather blades to cut down anyone who stands in her way. Xayah fights alongside her partner and lover, Rakan, to protect their dwindling tribe, and restore their race to her vision of its former glory.",
+  "faction": "ionia",
   "skins": [
     {
       "name": "Original",
@@ -1507,7 +1508,7 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/498/498017.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/498/498017.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/498/498017.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/xayah/skins/skin17/xayahloadscreen_17.pie_c_11_17.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/xayah/skins/skin17/xayahloadscreen_17.jpg",
       "loadScreenVintagePath": null,
       "newEffects": true,
       "newAnimations": true,

@@ -4,7 +4,7 @@
   "name": "Rell",
   "title": "the Iron Maiden",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Rell.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Rell.png",
   "resource": "MANA",
   "attackType": "MELEE",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -291,7 +291,7 @@
                 ]
               },
               {
-                "attribute": "Secondary Damage",
+                "attribute": "Reduced Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -333,7 +333,7 @@
             "description": "If Rell is tethered with Attract and Repel, she and the bound ally heal for each enemy champion hit.",
             "leveling": [
               {
-                "attribute": "Heal Per Champion",
+                "attribute": "Heal Per Champion Hit",
                 "modifiers": [
                   {
                     "values": [
@@ -464,7 +464,7 @@
             "leveling": []
           },
           {
-            "description": "Active: Rell becomes Dismounted and leaps to the target location over the cast time, gaining a shield that lasts until destroyed or casting Ferromancy: Mount Up. Upon arrival, she deals magic damage to nearby enemies and knocks them up for 1 second. She will continue sliding forward another 300 units over 0.5 seconds, though not through terrain, affecting further enemies along her path.",
+            "description": "Active: Rell becomes Dismounted and leaps to the target location over the cast time, granting herself a shield that lasts until destroyed or casting Ferromancy: Mount Up. Upon arrival, she deals magic damage to nearby enemies and knocks them up for 1 second. She will continue sliding forward another 300 units over 0.5 seconds, though not through terrain, affecting further enemies along her path.",
             "leveling": [
               {
                 "attribute": "Shield Strength",
@@ -543,7 +543,7 @@
             ]
           },
           {
-            "description": "While Rell is Dismounted, she can cast Ferromancy: Mount Up. Rell will automatically revert to Mounted form without casting the ability and reset Ferromancy: Mount Up's cooldown upon completing a Recall channel or respawning.",
+            "description": "While Rell is Dismounted, she can cast Ferromancy: Mount Up. Upon completing a Recall channel or respawning, Rell will automatically revert to Mounted form without casting the ability and reset Ferromancy: Mount Up's cooldown.",
             "leveling": []
           },
           {
@@ -621,7 +621,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Rell/ability-icon/w",
         "effects": [
           {
-            "description": "Passive: While Rell is Dismounted, she gains 10% bonus armor and 10% bonus magic resistance, but her base movement speed is modified to 250, and she has a movement speed cap of 290 − 400 (based on level).",
+            "description": "Passive: While Rell is Dismounted, she gains 10% bonus armor and 10% bonus magic resistance, but her base movement speed is modified to 280. She has a movement speed cap of 290 − 400 (based on level).",
             "leveling": []
           },
           {
@@ -651,7 +651,7 @@
             ]
           },
           {
-            "description": "During this time, Rell empowers her next basic attack to gain 100 bonus attack range and cause her to charge at the target's location, which has a 0.2-second cast time and consumes the bonus movement speed. Upon arrival or collision, she deals bonus magic damage, stuns the target for 1 second, and flings them 150 units over herself, though not through terrain.",
+            "description": "During this time, Rell empowers her next basic attack to consume the bonus movement speed to have a 0.2-second cast time, gain 100 bonus attack range and cause her to charge at the target's location. Upon arrival or collision, she deals bonus magic damage, stuns the target for 1 second, and flings them 150 units over herself, though not through terrain.",
             "leveling": [
               {
                 "attribute": "Bonus Magic Damage",
@@ -832,11 +832,11 @@
           "modifiers": [
             {
               "values": [
-                18,
-                16.25,
-                14.5,
-                12.75,
-                11
+                13,
+                13,
+                13,
+                13,
+                13
               ],
               "units": [
                 "",
@@ -880,7 +880,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Rell/ability-icon/r",
         "effects": [
           {
-            "description": "Active: Rell erupts with magnetic fury, pulling nearby enemies inward. She then creates a Kinematic field around her for the next 2 seconds that deals magic damage and drags nearby enemies every 0.25 seconds.",
+            "description": "Active: Rell erupts with magnetic fury, pulling nearby enemies inward. She then creates a gravitational field around her for the next 2 seconds that deals magic damage every 0.25 seconds to nearby enemies and drags them towards her over the duration.",
             "leveling": [
               {
                 "attribute": "Magic Damage Per Tick",
@@ -912,7 +912,7 @@
                 ]
               },
               {
-                "attribute": "Total Magic Damage Per Target",
+                "attribute": "Total Magic Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -1004,13 +1004,14 @@
   },
   "releaseDate": "2020-12-10",
   "releasePatch": "10.25",
-  "patchLastChanged": "12.13",
+  "patchLastChanged": "12.17",
   "price": {
     "blueEssence": 6300,
     "rp": 975,
     "saleRp": 0
   },
   "lore": "The product of brutal experimentation at the hands of the Black Rose, Rell is a defiant, living weapon determined to topple Noxus. Her childhood was one of misery and horror, enduring unspeakable procedures to perfect and weaponize her magical control over metal... until she staged a violent escape, killing many of her captors in the process. Now branded as a criminal, Rell attacks Noxian soldiers on sight as she searches for survivors of her old “academy,” defending the meek while delivering violent death to her former overseers.",
+  "faction": "noxus",
   "skins": [
     {
       "name": "Original",

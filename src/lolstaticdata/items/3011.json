@@ -13,7 +13,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3011_enchanter_t3_chemtechfumigator.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3011_enchanter_t3_chemtechfumigator.png",
   "simpleDescription": null,
   "nicknames": [
     "putrid",
@@ -27,6 +27,7 @@
       "name": "Puffcap Toxin",
       "effects": "Dealing {{as|magic damage}} to enemy champions inflicts them with 25% {{tip|Grievous Wounds}} for 3 seconds. {{tip|Heal|Healing}} or {{tip|shield|shielding}} allied champions (''excluding yourself'') empowers your and their next instance of damage against enemy champions within 5 seconds to apply 40% {{tip|Grievous Wounds}} for 3 seconds.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,

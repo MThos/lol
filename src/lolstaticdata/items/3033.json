@@ -13,7 +13,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3033_marksman_t3_mortalreminder.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3033_marksman_t3_mortalreminder.png",
   "simpleDescription": "Overcomes enemies with high Health recovery and Armor",
   "nicknames": [
     "lw",
@@ -26,6 +26,7 @@
       "name": "Sepsis",
       "effects": "Dealing {{as|physical damage}} to enemy champions inflicts them with 25% {{tip|Grievous Wounds}} for 3 seconds. Basic attacking a champion 2 times while they remain affected by {{tip|Grievous Wounds}} increases their effect to 40%, and dealing {{as|physical damage}} to a target affected by 40% {{tip|Grievous Wounds}} will refresh the empowered effect.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -220,7 +221,7 @@
       "percentBonus": 0.0
     },
     "attackDamage": {
-      "flat": 25.0,
+      "flat": 35.0,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0,
@@ -228,7 +229,7 @@
       "percentBonus": 0.0
     },
     "attackSpeed": {
-      "flat": 25.0,
+      "flat": 20.0,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0,
@@ -366,9 +367,9 @@
   },
   "shop": {
     "prices": {
-      "total": 2500,
+      "total": 2600,
       "combined": 0,
-      "sell": 1000
+      "sell": 1040
     },
     "purchasable": true,
     "tags": [

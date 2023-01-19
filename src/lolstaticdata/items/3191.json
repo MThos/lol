@@ -15,7 +15,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3191_battlemage_t2_seekersarmguard.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3191_battlemage_t2_seekersarmguard.png",
   "simpleDescription": "Increases Armor and Ability Power",
   "nicknames": [],
   "passives": [
@@ -23,8 +23,9 @@
       "unique": true,
       "mythic": false,
       "name": "Witch's Path",
-      "effects": "Killing a unit grants {{as|{{fd|0.5}} '''bonus''' armor}}, up to a '''maximum''' of {{as|15|armor}}.",
+      "effects": "Killing a unit grants {{as|{{fd|0.5}} '''bonus''' armor}}, up to a '''maximum''' of {{as|15|armor}} at 30 unit kills.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -195,7 +196,7 @@
   "active": [],
   "stats": {
     "abilityPower": {
-      "flat": 20.0,
+      "flat": 30.0,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0,

@@ -4,7 +4,7 @@
   "name": "Lee Sin",
   "title": "the Blind Monk",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/LeeSin.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/LeeSin.png",
   "resource": "ENERGY",
   "attackType": "MELEE",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -12,7 +12,7 @@
     "health": {
       "flat": 645,
       "percent": 0.0,
-      "perLevel": 99,
+      "perLevel": 105,
       "percentPerLevel": 0.0
     },
     "healthRegen": {
@@ -130,13 +130,13 @@
       "percentPerLevel": 0.0
     },
     "aramDamageTaken": {
-      "flat": 0.9,
+      "flat": 0.95,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
     },
     "aramDamageDealt": {
-      "flat": 1.1,
+      "flat": 1.05,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
@@ -359,10 +359,10 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/LeeSin/ability-icon/q",
         "effects": [
           {
-            "description": "Active: Lee Sin dashes to the nearby enemy marked by Sonic Wave, consuming the mark upon arrival to deal physical damage, increased by 0% − 100% (based on target's missing health).",
+            "description": "Active: Lee Sin dashes to the nearby enemy marked by Sonic Wave. Upon arrival, he consumes the mark and deals physical damage, increased by 0% − 100% (based on target's missing health).",
             "leveling": [
               {
-                "attribute": "Physical Damage",
+                "attribute": "Minimum Physical Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -399,7 +399,7 @@
                 ]
               },
               {
-                "attribute": "Maximum Damage",
+                "attribute": "Maximum Physical Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -494,7 +494,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/LeeSin/ability-icon/w",
         "effects": [
           {
-            "description": "Active: Lee Sin dashes to the target allied unit's location. If the ally is a champion, both they and Lee Sin gain a shield for 2 seconds upon his arrival and Safeguard's cooldown is halved.\nLee Sin can self-cast Safeguard to shield himself.",
+            "description": "Active: Lee Sin dashes to the target allied unit's location. If the ally is a champion upon arrival, both they and Lee Sin gain a shield for 2 seconds and Safeguard's cooldown is halved.\nLee Sin can self-cast Safeguard to shield himself.",
             "leveling": [
               {
                 "attribute": "Shield Strength",
@@ -622,10 +622,10 @@
                   {
                     "values": [
                       5,
-                      9.5,
-                      14,
-                      18.5,
-                      23
+                      10.5,
+                      16,
+                      21.5,
+                      27
                     ],
                     "units": [
                       "%",
@@ -886,7 +886,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/LeeSin/ability-icon/r",
         "effects": [
           {
-            "description": "Active: Lee Sin roots the target enemy champion during the cast time and roundhouse kicks them, dealing physical damage and knocking them back up-to 800 units over 0.8 seconds, rendering them airborne for 1 second.",
+            "description": "Active: Lee Sin roots the target enemy champion over the cast time, then roundhouse kicks them to deal physical damage and knock them back up to 800 units over 0.8 seconds, rendering them airborne for 1 second.",
             "leveling": [
               {
                 "attribute": "Physical Damage",
@@ -920,10 +920,10 @@
             ]
           },
           {
-            "description": "Enemies that collide with the displaced enemy while it is airborne take bonus physical damage and are knocked up for 1 second.",
+            "description": "Enemies that collide with the displaced enemy while it is airborne take the same damage plus bonus physical damage and are knocked up for 1 second.",
             "leveling": [
               {
-                "attribute": "Collision Damage",
+                "attribute": "Collision Physical Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -1012,13 +1012,14 @@
   },
   "releaseDate": "2011-04-01",
   "releasePatch": "1.0.0.114",
-  "patchLastChanged": "12.15",
+  "patchLastChanged": "12.18",
   "price": {
     "blueEssence": 4800,
     "rp": 880,
     "saleRp": 0
   },
   "lore": "A master of Ionia's ancient martial arts, Lee Sin is a principled fighter who channels the essence of the dragon spirit to face any challenge. Though he lost his sight many years ago, the warrior-monk has devoted his life to protecting his homeland against any who would dare upset its sacred balance. Enemies who underestimate his meditative demeanor will endure his fabled burning fists and blazing roundhouse kicks.",
+  "faction": "ionia",
   "skins": [
     {
       "name": "Original",
@@ -1064,7 +1065,9 @@
       "chromas": [],
       "lore": null,
       "release": "2011-04-01",
-      "set": [],
+      "set": [
+        "Otherroads"
+      ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/64/64002.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/64/64002.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/64/64002.jpg",
@@ -2039,6 +2042,245 @@
       ],
       "splashArtist": [
         "Pan Chengwei"
+      ]
+    },
+    {
+      "name": "Prestige Nightbringer (2022)",
+      "id": 64039,
+      "isBase": false,
+      "availability": "Limited",
+      "formatName": "Prestige Nightbringer (2022)",
+      "lootEligible": false,
+      "cost": "special",
+      "sale": 0,
+      "distribution": "Given to players who owned the original skin prior to patch 12.5",
+      "rarity": "Mythic",
+      "chromas": [],
+      "lore": "Fully consumed by chaos and his blind devotion to the thrill of battle, Lee Sin has become night incarnate, gilded by his divinity.",
+      "release": "2022-04-01",
+      "set": [
+        "Nightbringer",
+        "Dawnbringer"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/64/64039.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/64/64039.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/64/64039.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin39/leesinloadscreen_39.pie_c_12_6.jpg",
+      "loadScreenVintagePath": null,
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Feodor Chin"
+      ],
+      "splashArtist": [
+        "Malex Zhang",
+        "Kudos Productions"
+      ]
+    },
+    {
+      "name": "Zenith Games",
+      "id": 64041,
+      "isBase": false,
+      "availability": "Available",
+      "formatName": "Zenith Games",
+      "lootEligible": true,
+      "cost": 1350,
+      "sale": 0,
+      "distribution": null,
+      "rarity": "Epic",
+      "chromas": [
+        {
+          "name": "Catseye",
+          "id": 64043,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/64/64043.png",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Emerald",
+          "id": 64044,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/64/64044.png",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Obsidian",
+          "id": 64049,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/64/64049.png",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Pearl",
+          "id": 64048,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/64/64048.png",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Rose Quartz",
+          "id": 64047,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/64/64047.png",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "TENCENT"
+            }
+          ]
+        },
+        {
+          "name": "Ruby",
+          "id": 64042,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/64/64042.png",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "descriptions": [
+            {
+              "description": "This chroma was released as a bundle exclusive in 2022.",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Sapphire",
+          "id": 64045,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/64/64045.png",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Turquoise",
+          "id": 64046,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/64/64046.png",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        }
+      ],
+      "lore": "Martial artist Lee Sin's focus on overwhelming his opponents before they could react had won him many championships, but also burned him out. Realizing that his strategy had been rooted in fear, he augments his body not to give himself more strength, but to concentrate his mind and senses.",
+      "release": "2022-09-09",
+      "set": [
+        "Zenith Games"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/64/64041.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/64/64041.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/64/64041.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin41/leesinloadscreen_41.pie_c_12_17.jpg",
+      "loadScreenVintagePath": null,
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Feodor Chin"
+      ],
+      "splashArtist": [
+        "West Studio"
       ]
     }
   ]

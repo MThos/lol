@@ -4,7 +4,7 @@
   "name": "Zac",
   "title": "the Secret Weapon",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Zac.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Zac.png",
   "resource": "HEALTH",
   "attackType": "MELEE",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -130,7 +130,7 @@
       "percentPerLevel": 0.0
     },
     "aramDamageTaken": {
-      "flat": 1.0,
+      "flat": 0.96,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
@@ -142,7 +142,7 @@
       "percentPerLevel": 0.0
     },
     "aramHealing": {
-      "flat": 1.0,
+      "flat": 1.2,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
@@ -206,7 +206,7 @@
             "leveling": []
           },
           {
-            "description": "Innate - Goo: Whenever Zac damages at least one enemy with an ability, he sheds a number of chunks of himself to a nearby location, landing towards visible nearby enemy champions and lasting for 6 seconds.\n Stretching Strikes: 1 chunk for each strike hit (excluding the collision) on different targets, up to 2\n Unstable Matter: 1 chunk if it hits at least one target\n Elastic Slingshot: 1 chunk for each enemy champion hit\n Let's Bounce!: 1 chunk for each bounce that hits an enemy champion, up to 4",
+            "description": "Innate - Goo: Whenever Zac damages at least one enemy with an ability, he sheds a number of chunks of himself to a nearby location, landing towards nearby visible enemy champions and lasting for 6 seconds.\n Stretching Strikes: 1 chunk for each strike hit (excluding the collision) on different targets, up to 2\n Unstable Matter: 1 chunk if it hits at least one target\n Elastic Slingshot: 1 chunk for each enemy champion hit\n Let's Bounce!: 1 chunk for each bounce that hits an enemy champion, up to 4",
             "leveling": []
           },
           {
@@ -271,7 +271,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Zac/ability-icon/q",
         "effects": [
           {
-            "description": "Active: Zac stretches his left arm in the target direction that catches the first enemy hit, dealing magic damage, slowing them by 40% for 0.5 seconds, and forming a revealing tether between Zac and the target for 2 seconds.",
+            "description": "Active: Zac stretches his left arm in the target direction that catches the first enemy hit, dealing magic damage, slowing them by 40% for 0.5 seconds, and forming a tether between Zac and the target for 2 seconds, during which they are revealed.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -390,7 +390,7 @@
             "leveling": []
           },
           {
-            "description": "If the two targets are near each other, they're instead slammed together via the displacement. This deals the initial magic damage, knocks up and stuns them for 0.25 seconds upon impact. Surrounding enemies are also dealt the initial magic damage.",
+            "description": "If the two targets are near each other, they are instead slammed together through the displacement, dealing the initial magic damage and knocking them up and stunning them for 0.25 seconds upon impact. Surrounding enemies are also dealt the initial magic damage.",
             "leveling": []
           },
           {
@@ -510,7 +510,7 @@
                 ]
               },
               {
-                "attribute": "Capped Damage",
+                "attribute": "Capped Non-Champion Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -537,7 +537,7 @@
             "leveling": []
           },
           {
-            "description": "Unstable Matter's cooldown is reduced by 1 second whenever Zac collects a Cell Division chunk.",
+            "description": "Unstable Matter's current cooldown is reduced by 1 second whenever Zac collects a Cell Division chunk.",
             "leveling": []
           }
         ],
@@ -639,11 +639,11 @@
             ]
           },
           {
-            "description": "Elastic Slingshot can be recast within the duration. If Zac cancels* the channel himself, or the charge completes without reactivation, 50% of Elastic Slingshot's health cost and cooldown are refunded.",
+            "description": "Elastic Slingshot can be recast within the duration. If Zac cancels the channel himself, or the charge completes without reactivation, 50% of Elastic Slingshot's health cost and cooldown are refunded.",
             "leveling": []
           },
           {
-            "description": "Recast: Zac dashes to the target location to deal magic damage to enemies hit on impact, knocking them up and stunning them for 0.5 seconds, increased to 1 second if Elastic Slingshot was charged for more than 1 second.",
+            "description": "Recast: Zac leaps to the target location. Upon landing, he deals magic damage to nearby enemies and knocks them up and stuns them for 0.5 seconds, increased to 1 second if Elastic Slingshot was charged for more than 1 second.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -783,7 +783,7 @@
             ]
           },
           {
-            "description": "Active: Zac bounces after the cast time, then bounces 3 additional times each second over 3 seconds, during which he also gains 20% − 50% (based on duration) bonus movement speed but becomes unable to declare basic attacks and use Stretching Strikes and Elastic Slingshot.",
+            "description": "Active: Zac bounces after the cast time, then bounces 3 additional times each second over 3 seconds, during which he also gains 20% − 50% (based on duration) bonus movement speed but becomes unable to declare basic attacks and cast Stretching Strikes and Elastic Slingshot.",
             "leveling": []
           },
           {
@@ -817,7 +817,12 @@
                     ]
                   }
                 ]
-              },
+              }
+            ]
+          },
+          {
+            "description": "An enemy can be hit by multiple bounces, but ones beyond the first deal 50% damage to them and do not apply the knock back.",
+            "leveling": [
               {
                 "attribute": "Reduced Damage",
                 "modifiers": [
@@ -848,7 +853,7 @@
                 ]
               },
               {
-                "attribute": "Maximum Single-Target Damage",
+                "attribute": "Total Magic Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -877,10 +882,6 @@
                 ]
               }
             ]
-          },
-          {
-            "description": "An enemy can be hit by multiple bounces, but ones beyond the first deal 50% damage to them and do not apply the knock back.",
-            "leveling": []
           }
         ],
         "cost": null,
@@ -929,13 +930,14 @@
   },
   "releaseDate": "2013-03-29",
   "releasePatch": "3.5",
-  "patchLastChanged": "12.10",
+  "patchLastChanged": "12.16",
   "price": {
     "blueEssence": 4800,
     "rp": 880,
     "saleRp": 0
   },
   "lore": "Zac is the product of a toxic spill that ran through a chemtech seam and pooled in an isolated cavern deep in Zaun's Sump. Despite such humble origins, Zac has grown from primordial ooze into a thinking being who dwells in the city's pipes, occasionally emerging to help those who cannot help themselves or to rebuild the broken infrastructure of Zaun.",
+  "faction": "zaun",
   "skins": [
     {
       "name": "Original",
@@ -1279,6 +1281,229 @@
       "newQuotes": false,
       "voiceActor": [],
       "splashArtist": []
+    },
+    {
+      "name": "Empyrean",
+      "id": 154014,
+      "isBase": false,
+      "availability": "Available",
+      "formatName": "Empyrean",
+      "lootEligible": true,
+      "cost": 1350,
+      "sale": 0,
+      "distribution": null,
+      "rarity": "Epic",
+      "chromas": [
+        {
+          "name": "Citrine",
+          "id": 154018,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/154/154018.png",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Emerald",
+          "id": 154017,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/154/154017.png",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Neon Flare",
+          "id": 154023,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/154/154023.png",
+          "colors": [
+            "#FF655B",
+            "#95E237"
+          ],
+          "descriptions": [
+            {
+              "description": "This chroma was released as a Loot exclusive in the Worlds 2022 Event.",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Pearl",
+          "id": 154022,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/154/154022.png",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Rose Quartz",
+          "id": 154019,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/154/154019.png",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "TENCENT"
+            }
+          ]
+        },
+        {
+          "name": "Ruby",
+          "id": 154015,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/154/154015.png",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "descriptions": [
+            {
+              "description": "This chroma was released as a bundle exclusive in 2022.",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Sapphire",
+          "id": 154016,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/154/154016.png",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Tanzanite",
+          "id": 154020,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/154/154020.png",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Turquoise",
+          "id": 154021,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/154/154021.png",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        }
+      ],
+      "lore": "The Foreglow affects everyone differently. For Zac, it burned away all of his insecurities, but opened up his senses to the loneliness felt by the other Zacs across the realms. They needed him, and now he has the power to bring everyone together as one. A family reunion for the ages.",
+      "release": "2022-11-03",
+      "set": [
+        "Empyrean"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/154/154014.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/154/154014.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/154/154014.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/zac/skins/skin14/zacloadscreen_14.pie_c_12_21.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/zac/skins/skin14/zacloadscreen_14_le.pie_c_12_21.jpg",
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [],
+      "splashArtist": [
+        "David Villegas",
+        "West Studio"
+      ]
     }
   ]
 }

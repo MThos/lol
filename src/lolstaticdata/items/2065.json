@@ -15,7 +15,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/2065_tank_t4_shurelyasbattlesong.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/2065_tank_t4_shurelyasbattlesong.png",
   "simpleDescription": "Activate to speed up nearby allies.",
   "nicknames": [
     "shurelya",
@@ -28,6 +28,7 @@
       "name": "Motivate",
       "effects": "{{tip|Heal|Healing}}, {{tip|shield|shielding}}, or [[buff]]ing allied champions (''excluding yourself'') grants you and them {{as|25% '''bonus''' movement speed}} for {{fd|1.5}} seconds.",
       "range": null,
+      "cooldown": "4 (per champion)",
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -200,6 +201,7 @@
       "name": "Mythic",
       "effects": null,
       "range": 0,
+      "cooldown": 0,
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -376,7 +378,7 @@
     {
       "unique": true,
       "name": "Inspire",
-      "effects": "Grants you and all allies within 1000 units of you {{as|30% '''bonus''' movement speed}} for 4 seconds.",
+      "effects": "Grants you and all allies within 1000 units {{as|30% '''bonus''' movement speed}} for 4 seconds.",
       "range": null,
       "cooldown": null
     }

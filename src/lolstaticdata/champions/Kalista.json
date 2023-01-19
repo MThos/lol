@@ -4,13 +4,13 @@
   "name": "Kalista",
   "title": "the Spear of Vengeance",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Kalista.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Kalista.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "PHYSICAL_DAMAGE",
   "stats": {
     "health": {
-      "flat": 604,
+      "flat": 574,
       "percent": 0.0,
       "perLevel": 114,
       "percentPerLevel": 0.0
@@ -154,13 +154,13 @@
       "percentPerLevel": 0.0
     },
     "urfDamageTaken": {
-      "flat": 0.95,
+      "flat": 0.9,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
     },
     "urfDamageDealt": {
-      "flat": 1.05,
+      "flat": 1.1,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
@@ -249,7 +249,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Kalista/ability-icon/q",
         "effects": [
           {
-            "description": "Active: Kalista throws a spear in the target direction that deals physical damage to the first enemy hit.",
+            "description": "Active: Kalista launches a spear in the target direction that deals physical damage to the first enemy hit.",
             "leveling": [
               {
                 "attribute": "Physical Damage",
@@ -371,7 +371,7 @@
             "leveling": []
           },
           {
-            "description": "If both Soul-Marks are applied to the same target within 4 seconds, they take bonus magic damage, capped against non-champions, and cannot be Soul-Marked again for a few seconds. Soul-Mark deals a minimum of 75 damage to minions and executes them if they're below 125 health. Kalista applies the damage on-attack while the Oathsworn does so on-hit.",
+            "description": "If both Soul-Marks are applied to the same target within 4 seconds, they take bonus magic damage, capped against non-champions, and cannot be Soul-Marked again for a few seconds. Soul-Mark deals a minimum of 75 damage to minions, executes them if they're below 125 health, and is capped against non-champions. Kalista applies the damage on-attack while the Oathsworn does so on-hit.",
             "leveling": [
               {
                 "attribute": "Bonus Magic Damage",
@@ -418,7 +418,7 @@
             ]
           },
           {
-            "description": "Active: Kalista summons a Sentinel that patrols back and forth on a path to the target location, granting sight along its trajectory as it travels.",
+            "description": "Active: Kalista summons a Sentinel that patrols back and forth on a path along the target location, granting sight of its surroundings as it travels.",
             "leveling": []
           },
           {
@@ -489,11 +489,11 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Kalista/ability-icon/e",
         "effects": [
           {
-            "description": "Passive: Kalista's basic attacks on-hit and Pierce apply a stack of Rend that last 4 seconds, which refreshes on subsequent hits and stacks up to 254 times.",
+            "description": "Passive: Kalista's basic attacks on-hit and Pierce apply a stack of Rend to enemies for 4 seconds, refreshing on subsequent hits and stacking up to 254 times.",
             "leveling": []
           },
           {
-            "description": "Active: Kalista rips all lodged spears from valid nearby enemies, consuming all of their stacks to deal them physical damage and slow them for 2 seconds. Each additional spear on the target deals reduced damage. Rend deals 50% reduced damage against epic monsters.",
+            "description": "Active: Kalista rips all lodged spears from nearby enemies, consuming all of their stacks to deal them physical damage and slow them for 2 seconds. Each additional spear on the target deals reduced damage. Rend deals 50% reduced damage against epic monsters.",
             "leveling": [
               {
                 "attribute": "Physical Damage",
@@ -533,7 +533,7 @@
                 ]
               },
               {
-                "attribute": "Damage per Additional Spear",
+                "attribute": "Damage per Additional Stack",
                 "modifiers": [
                   {
                     "values": [
@@ -596,7 +596,7 @@
             "description": "If Rend kills at least one target, the cooldown is reset and Kalista restores mana.",
             "leveling": [
               {
-                "attribute": "Mana Restore",
+                "attribute": "Mana Restored",
                 "modifiers": [
                   {
                     "values": [
@@ -673,7 +673,7 @@
         "projectile": null,
         "onHitEffects": null,
         "occurrence": null,
-        "notes": "Rend at maximum stacks will deal a total of 2550 / 3572 / 4847 / 6375 / 8156 (+ 5914.3 / 7079.618 / 8186.493 / 9293.368 / 10400.243% AD) physical damage.\nRend cannot activate on  untargetable enemies.\nRend applies its effects instantly on cast.\nThe cooldown will not reset if the target is protected by  resurrection effects.\nIf Rend is used against  Sion under the effects of  Glory in Death, the cooldown will reset even if it does not kill him.\nA stack is not applied if the attack is  dodged,  blocked or missed while Kalista is  blinded.\n Pierce does not apply a stack of Rend if blocked by  spell shield.",
+        "notes": "Rend at maximum stacks will deal a total of 2550 / 3572 / 4847 / 6375 / 8156 (+ 5914.3 / 7079.618 / 8186.493 / 9293.368 / 10400.243% AD) physical damage.\nRend cannot activate on  untargetable enemies.\nRend applies its effects instantly on cast.\nThe cooldown will not reset if the target is protected by  resurrection effects.\nIf Rend is used against  Sion under the effects of  Glory in Death, the cooldown will reset even if it does not kill him.(bug)\nA stack is not applied if the attack is  dodged,  blocked or missed while Kalista is  blinded.\n Pierce does not apply a stack of Rend if blocked by  spell shield.\nWhile  beserk, Kalista's attacks will also stack Rend on allies.\nKalista will be unable to cast Rend if there are no stacks on an enemy in range.\nRend will only remove enemy spears if cast while both an ally and enemy with stacks are in range.",
         "blurb": "Passive: Kalista's basic attacks and  Pierce lodge a spear into their target, applying a stack of Rend for a few seconds.",
         "missileSpeed": null,
         "rechargeRate": null,
@@ -699,7 +699,7 @@
             "leveling": []
           },
           {
-            "description": "While held, the Oathsworn is vanished and may dash with displacement immunity to end Fate's Call's effects and reappear at the target location; after the duration, they will automatically do so at maximum range from Kalista's facing direction. The Oathsworn stops upon colliding with an enemy champion, knocking up all nearby enemies for a duration, then landing to their basic attack range from the target collided with.",
+            "description": "While held, the Oathsworn is vanished and may dash with displacement immunity to end Fate's Call's effects and reappear at the target location; after the duration, they will automatically do so at maximum range from Kalista's facing direction. The Oathsworn stops upon colliding with an enemy champion, knocking up all nearby enemies for a duration and landing to their basic attack range from the target collided with.",
             "leveling": [
               {
                 "attribute": "Knockup Duration",
@@ -786,13 +786,14 @@
   },
   "releaseDate": "2014-11-20",
   "releasePatch": "4.20",
-  "patchLastChanged": "12.15",
+  "patchLastChanged": "12.18",
   "price": {
     "blueEssence": 4800,
     "rp": 880,
     "saleRp": 0
   },
   "lore": "A specter of wrath and retribution, Kalista is the undying spirit of vengeance, an armored nightmare summoned from the Shadow Isles to hunt deceivers and traitors. The betrayed may cry out in blood to be avenged, but Kalista only answers those willing to pay with their very souls. Those who become the focus of Kalista's wrath should make their final peace, for any pact sealed with this grim hunter can only end with the cold, piercing fire of her soul-spears.",
+  "faction": "shadow-isles",
   "skins": [
     {
       "name": "Original",

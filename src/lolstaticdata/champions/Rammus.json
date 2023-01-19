@@ -4,7 +4,7 @@
   "name": "Rammus",
   "title": "the Armordillo",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Rammus.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Rammus.png",
   "resource": "MANA",
   "attackType": "MELEE",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -382,7 +382,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Rammus/ability-icon/w",
         "effects": [
           {
-            "description": "Active: Rammus enters a defensive stance for 6 seconds becoming slowed by 30% while gaining bonus armor and bonus magic resistance. During this time, Spiked Shell's damage is increased by 50% and also applies to enemies that land a basic attack on-hit against Rammus. Defensive Ball Curl can be recast after 1 second within the duration, and does so automatically afterwards.",
+            "description": "Active: Rammus enters a defensive stance for 6 seconds, gaining bonus armor and bonus magic resistance. While active, enemies that use a basic attack on-hit against Rammus are dealt magic damage equal to Spiked Shell's bonus damage.",
             "leveling": [
               {
                 "attribute": "Bonus Armor",
@@ -461,7 +461,11 @@
             ]
           },
           {
-            "description": "Rammus' basic attacks extend Defensive Ball Curl's duration by 0.4 seconds, up to a maximum of 4 additional seconds.",
+            "description": "Rammus' basic attacks extend the remaining duration of Defensive Ball Curl by 0.4 seconds, up to a maximum of 4 additional seconds.",
+            "leveling": []
+          },
+          {
+            "description": "Defensive Ball Curl can be recast after 1 second within the duration, and does so automatically upon casting Powerball.",
             "leveling": []
           },
           {
@@ -519,8 +523,8 @@
         "projectile": null,
         "onHitEffects": null,
         "occurrence": null,
-        "notes": "The initial cast counts as an ability activation for the purposes of on-cast effects such as  Spellblade and stacking  Force Pulse.\nDeactivating the ability manually does not.\nDefensive Ball Curl ends immediately if  Powerball is cast.\nDefensive Ball Curl will return damage from attacks and/or abilities that apply on-hit effects ( Mystic Shot) as well as from  Runaan's Hurricane's Wind's Fury (will not return damage from turrets,  H-28G Evolution Turret, or  Jack in the Box).\nThe resistance scaling will factor from all other sources, including Defensive Ball Curl's flat bonus. This will recalculate over the duration.\nThe  slow is reduced by  slow resist.",
-        "blurb": "Active:  Rammus enters a defensive stance for a few seconds, becoming  slowed while gaining  bonus armor and  bonus magic resist. During this time,  Spiked Shell's damage is increased and also applies to enemies that land a basic attack against Rammus.",
+        "notes": "The initial cast counts as an ability activation for the purposes of on-cast effects such as  Spellblade and stacking  Force Pulse.\nDeactivating the ability manually does not.\nDefensive Ball Curl ends immediately if  Powerball is cast.\nDefensive Ball Curl will return damage from attacks and/or abilities that apply on-hit effects ( Mystic Shot) as well as from  Runaan's Hurricane's Wind's Fury (will not return damage from turrets,  H-28G Evolution Turret, or  Jack in the Box).\nThe resistance scaling will factor from all other sources, excluding Defensive Ball Curl's flat bonus. This will recalculate over the duration.\nThe  slow is reduced by  slow resist.",
+        "blurb": "Active:  Rammus enters a defensive stance for a few seconds, gaining  bonus armor and  bonus magic resist. During this time,  Spiked Shell's damage is increased and also applies to enemies that land a basic attack against Rammus.",
         "missileSpeed": null,
         "rechargeRate": null,
         "collisionRadius": null,
@@ -685,10 +689,10 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Rammus/ability-icon/r",
         "effects": [
           {
-            "description": "Active: Rammus leaps to the target location with Cc-immunity, impacting the ground upon arrival to deal magic damage to nearby enemies and slow them for 1.5 seconds. The impact deals increased damage at the epicenter if Soaring Slam was cast further than 800 units, capped at 1700 units with 50% increased damage. If Soaring Slam was cast during Powerball, enemies within the epicenter are also knocked up for 0.75 seconds and are dealt Powerball's damage. Powerball will not collide with enemies during the dash, and its channel will be maintained for the dash and end afterwards.",
+            "description": "Active: Rammus leaps to the target location with immunity to crowd control. Upon arrival, he creates an impact that deals magic damage to nearby enemies and slows them for 1.5 seconds. The impact deals increased damage at the epicenter if Soaring Slam was cast further than 800 units, capped at 1700 units with 50% increased damage.",
             "leveling": [
               {
-                "attribute": "Impact Magic Damage",
+                "attribute": "Magic Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -716,6 +720,57 @@
                   }
                 ]
               },
+              {
+                "attribute": "Center Increased Damage",
+                "modifiers": [
+                  {
+                    "values": [
+                      150,
+                      262.5,
+                      375
+                    ],
+                    "units": [
+                      "",
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "values": [
+                      90,
+                      90,
+                      90
+                    ],
+                    "units": [
+                      "% AP",
+                      "% AP",
+                      "% AP"
+                    ]
+                  }
+                ]
+              },
+              {
+                "attribute": "Slow",
+                "modifiers": [
+                  {
+                    "values": [
+                      15,
+                      17.5,
+                      20
+                    ],
+                    "units": [
+                      "%",
+                      "%",
+                      "%"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "description": "If Soaring Slam was cast during Powerball, enemies within the epicenter are also knocked up for 0.75 seconds and are dealt Powerball's damage. Powerball will not collide with enemies during the dash, and its channel will be maintained for the dash and end afterwards.",
+            "leveling": [
               {
                 "attribute": "Center Minimum Damage",
                 "modifiers": [
@@ -797,31 +852,14 @@
                     ]
                   }
                 ]
-              },
-              {
-                "attribute": "Slow",
-                "modifiers": [
-                  {
-                    "values": [
-                      15,
-                      17.5,
-                      20
-                    ],
-                    "units": [
-                      "%",
-                      "%",
-                      "%"
-                    ]
-                  }
-                ]
               }
             ]
           },
           {
-            "description": "The impact causes 3 aftershocks to burst from the area over 3.5 seconds. Each aftershock deals magic damage to enemies within the area and applies the initial slow, which stacks up to 4 times.",
+            "description": "The impact causes 3 aftershocks to burst from the area over 3.5 seconds, each one dealing magic damage to enemies within and applying the initial slow, which stacks up to 4 times.",
             "leveling": [
               {
-                "attribute": "Aftershock Magic Damage",
+                "attribute": "Magic Damage per Hit",
                 "modifiers": [
                   {
                     "values": [
@@ -850,7 +888,7 @@
                 ]
               },
               {
-                "attribute": "Maximum Aftershock Damage",
+                "attribute": "Total Magic Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -894,216 +932,12 @@
                     ]
                   }
                 ]
-              },
-              {
-                "attribute": "Total Damage",
-                "modifiers": [
-                  {
-                    "values": [
-                      160,
-                      265,
-                      370
-                    ],
-                    "units": [
-                      "",
-                      "",
-                      ""
-                    ]
-                  },
-                  {
-                    "values": [
-                      90,
-                      90,
-                      90
-                    ],
-                    "units": [
-                      "% AP",
-                      "% AP",
-                      "% AP"
-                    ]
-                  }
-                ]
-              },
-              {
-                "attribute": "Increased Total Damage",
-                "modifiers": [
-                  {
-                    "values": [
-                      210,
-                      352.5,
-                      495
-                    ],
-                    "units": [
-                      "",
-                      "",
-                      ""
-                    ]
-                  },
-                  {
-                    "values": [
-                      120,
-                      120,
-                      120
-                    ],
-                    "units": [
-                      "% AP",
-                      "% AP",
-                      "% AP"
-                    ]
-                  }
-                ]
               }
             ]
           },
           {
             "description": "Soaring Slam's damage affects structures and is doubled against turrets.",
-            "leveling": [
-              {
-                "attribute": "Maximum Turret Damage",
-                "modifiers": [
-                  {
-                    "values": [
-                      420,
-                      705,
-                      990
-                    ],
-                    "units": [
-                      "",
-                      "",
-                      ""
-                    ]
-                  },
-                  {
-                    "values": [
-                      240,
-                      240,
-                      240
-                    ],
-                    "units": [
-                      "% AP",
-                      "% AP",
-                      "% AP"
-                    ]
-                  }
-                ]
-              },
-              {
-                "attribute": "Total Turret Damage",
-                "modifiers": [
-                  {
-                    "values": [
-                      320,
-                      530,
-                      740
-                    ],
-                    "units": [
-                      "",
-                      "",
-                      ""
-                    ]
-                  },
-                  {
-                    "values": [
-                      180,
-                      180,
-                      180
-                    ],
-                    "units": [
-                      "% AP",
-                      "% AP",
-                      "% AP"
-                    ]
-                  }
-                ]
-              },
-              {
-                "attribute": "Impact Turret Damage",
-                "modifiers": [
-                  {
-                    "values": [
-                      200,
-                      350,
-                      500
-                    ],
-                    "units": [
-                      "",
-                      "",
-                      ""
-                    ]
-                  },
-                  {
-                    "values": [
-                      120,
-                      120,
-                      120
-                    ],
-                    "units": [
-                      "% AP",
-                      "% AP",
-                      "% AP"
-                    ]
-                  }
-                ]
-              },
-              {
-                "attribute": "Aftershock Turret Damage",
-                "modifiers": [
-                  {
-                    "values": [
-                      40,
-                      60,
-                      80
-                    ],
-                    "units": [
-                      "",
-                      "",
-                      ""
-                    ]
-                  },
-                  {
-                    "values": [
-                      20,
-                      20,
-                      20
-                    ],
-                    "units": [
-                      "% AP",
-                      "% AP",
-                      "% AP"
-                    ]
-                  }
-                ]
-              },
-              {
-                "attribute": "Total Aftershock Turret Damage",
-                "modifiers": [
-                  {
-                    "values": [
-                      120,
-                      180,
-                      240
-                    ],
-                    "units": [
-                      "",
-                      "",
-                      ""
-                    ]
-                  },
-                  {
-                    "values": [
-                      60,
-                      60,
-                      60
-                    ],
-                    "units": [
-                      "% AP",
-                      "% AP",
-                      "% AP"
-                    ]
-                  }
-                ]
-              }
-            ]
+            "leveling": []
           },
           {
             "description": "Soaring Slam will cast at max range if cast beyond that.",
@@ -1171,13 +1005,14 @@
   },
   "releaseDate": "2009-07-10",
   "releasePatch": "July 10, 2009 Patch",
-  "patchLastChanged": "12.15",
+  "patchLastChanged": "12.20",
   "price": {
     "blueEssence": 1350,
     "rp": 585,
     "saleRp": 0
   },
   "lore": "Idolized by many, dismissed by some, mystifying to all, the curious being Rammus is an enigma. Protected by a spiked shell, he inspires increasingly disparate theories on his origin wherever he goes—from demigod, to sacred oracle, to a mere beast transformed by magic. Whatever the truth may be, Rammus keeps his own counsel and stops for no one as he roams the Shuriman desert.",
+  "faction": "shurima",
   "skins": [
     {
       "name": "Original",
@@ -1223,7 +1058,9 @@
       "chromas": [],
       "lore": null,
       "release": "2009-10-20",
-      "set": [],
+      "set": [
+        "Beta"
+      ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/33/33001.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/33/33001.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/33/33001.jpg",
@@ -1253,9 +1090,7 @@
       "chromas": [],
       "lore": null,
       "release": "2010-05-17",
-      "set": [
-        "Web Browser"
-      ],
+      "set": [],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/33/33002.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/33/33002.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/33/33002.jpg",
@@ -1866,7 +1701,7 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/33/33017.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/33/33017.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/33/33017.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/rammus/skins/skin17/rammusloadscreen_17.pie_c_11_13.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/rammus/skins/skin17/rammusloadscreen_17.jpg",
       "loadScreenVintagePath": null,
       "newEffects": true,
       "newAnimations": true,

@@ -4,7 +4,7 @@
   "name": "Lillia",
   "title": "the Bashful Bloom",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Lillia.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Lillia.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -202,7 +202,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Lillia/ability-icon/p",
         "effects": [
           {
-            "description": "Innate: Lillia's abilities apply Dream Dust to enemies hit, which deals[ 6% (+ 1.2% per 100 AP) of the target's maximum health total magic damage over 3 seconds, ][ 1% (+ 0.2% per 100 AP) of the target's maximum health magic damage every 0.5 seconds over 3 seconds, ]capped at 50 − 150 (based on level) damage against monsters.",
+            "description": "Innate: Lillia's abilities apply Dream Dust to enemies hit, which deals[ 6% (+ 1.2% per 100 AP) of the target's maximum health total magic damage over 3 seconds, capped at 50 − 150 (based on level) ][ 1% (+ 0.2% per 100 AP) of the target's maximum health magic damage every 0.5 seconds over 3 seconds, capped at 8.33 − 25 (based on level) per tick ]against monsters.",
             "leveling": []
           },
           {
@@ -243,7 +243,11 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Lillia/ability-icon/q",
         "effects": [
           {
-            "description": "Passive: Whenever Lillia's abilities hit at least one enemy, she generates a stack of Prance for 6.5 seconds, which refreshes on subsequent hits and stacks up to 4 times. Stacks expire by one every 1.5 seconds. Prance: For each stack, Lillia gains bonus movement speed.",
+            "description": "Passive: Whenever Lillia's abilities hit at least one enemy, she generates a stack of Prance for 6.5 seconds, refreshing on subsequent hits and stacking up to 4 times. Stacks expire by one every 1.5 seconds when the duration ends.",
+            "leveling": []
+          },
+          {
+            "description": "Prance: For each stack, Lillia gains bonus movement speed.",
             "leveling": [
               {
                 "attribute": "Bonus Movement Speed",
@@ -473,7 +477,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Lillia/ability-icon/w",
         "effects": [
           {
-            "description": "Active: Lillia dashes to 150 units in front of the target area over 0.759 seconds, though not through terrain, and deals magic damage in an area around the target spot. Enemies hit within the epicenter are dealt 200% increased damage.",
+            "description": "Active: Lillia dashes to 150 units in front of the target location over 0.759 seconds, though not through terrain, and deals magic damage in an area around the target spot. Enemies hit within the epicenter are dealt 200% increased damage.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -707,7 +711,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Lillia/ability-icon/e",
         "effects": [
           {
-            "description": "Active: Lillia lobs a seed at the target area that rolls forward indefinitely. The seed detonates upon hitting an enemy or terrain while on the ground, dealing magic damage to enemies in a cone, slowing them by 40% for 3 seconds and revealing them for 2 seconds.",
+            "description": "Active: Lillia lobs a seed at the target location that rolls forward indefinitely. The seed detonates upon hitting an enemy or terrain while on the ground, dealing magic damage to enemies in a cone, slowing them by 40% for 3 seconds and revealing them for 2 seconds.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -825,7 +829,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Lillia/ability-icon/r",
         "effects": [
           {
-            "description": "Active: Lillia casts a magical lullaby over all targetable enemy champions affected by Dream Dust, which arrives after 0.3 seconds and renders them drowsy for 1.5 seconds, slowing them by 10%. After the duration, they fall asleep for a few seconds.",
+            "description": "Active: Lillia casts a magical lullaby over all enemy champions affected by Dream Dust, which arrives after 0.3 seconds and renders them drowsy for 1.5 seconds, slowing them by 10%. After the duration, they fall asleep for a duration.",
             "leveling": [
               {
                 "attribute": "Sleep Duration",
@@ -847,7 +851,7 @@
             ]
           },
           {
-            "description": "The next instance of non- persistent non- minion non-small and medium monster damage taken by each of the sleeping targets consumes the debuff to deal additional magic damage.",
+            "description": "The next instance of non- persistent non- minion non-small and medium monster damage against a sleeping target consumes the debuff to deal additional magic damage.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -953,6 +957,7 @@
     "saleRp": 0
   },
   "lore": "Intensely shy, the fae fawn Lillia skittishly wanders Ionia's forests. Hiding just out of sight of mortals—whose mysterious natures have long captivated, but intimidated, her—Lillia hopes to discover why their dreams no longer reach the ancient Dreaming Tree. She now travels Ionia with a magical branch in hand, in an effort to find people's unrealized dreams. Only then can Lillia herself bloom and help others untangle their fears to find the sparkle within. Eep!",
+  "faction": "ionia",
   "skins": [
     {
       "name": "Original",
@@ -1170,7 +1175,7 @@
       "lore": "A shy fawn spirit, Lillia once served as the guardian of a sacred Ionian forest—until her grove was destroyed and cast into flame. Consumed by loss, she now slumbers in the spirit realm, reliving the destruction in an unending nightmare—unaware of the timid hope still waiting to bloom...",
       "release": "2020-07-22",
       "set": [
-        "Akana"
+        "Spirit Blossom"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/876/876001.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/876/876001.jpg",
@@ -1379,8 +1384,8 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/876/876010.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/876/876010.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/876/876010.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/lillia/skins/skin10/lillialoadscreen_10.pie_c_11_19.jpg",
-      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/lillia/skins/skin10/lillialoadscreen_10_le.pie_c_11_19.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/lillia/skins/skin10/lillialoadscreen_10.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/lillia/skins/skin10/lillialoadscreen_10_le.jpg",
       "newEffects": true,
       "newAnimations": true,
       "newRecall": true,

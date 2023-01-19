@@ -4,7 +4,7 @@
   "name": "Sivir",
   "title": "the Battle Mistress",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Sivir.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Sivir.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -48,7 +48,7 @@
     "attackDamage": {
       "flat": 58,
       "percent": 0.0,
-      "perLevel": 3,
+      "perLevel": 2.8,
       "percentPerLevel": 0.0
     },
     "movespeed": {
@@ -200,7 +200,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Sivir/ability-icon/p",
         "effects": [
           {
-            "description": "Innate: Sivir's basic attacks and ability hits against enemy champions grant her 55 − 75 (based on level) bonus movement speed decaying over 1.5 seconds, which refreshes on subsequent hits.",
+            "description": "Innate: Sivir's basic attacks and ability hits against enemy champions grant her 55 − 75 (based on level) bonus movement speed decaying over 1.5 seconds, refreshing on subsequent hits.",
             "leveling": []
           }
         ],
@@ -291,60 +291,12 @@
                     ]
                   }
                 ]
-              },
-              {
-                "attribute": "Champion Maximum Damage",
-                "modifiers": [
-                  {
-                    "values": [
-                      30,
-                      60,
-                      90,
-                      120,
-                      150
-                    ],
-                    "units": [
-                      "",
-                      "",
-                      "",
-                      "",
-                      ""
-                    ]
-                  },
-                  {
-                    "values": [
-                      160,
-                      170,
-                      180,
-                      190,
-                      200
-                    ],
-                    "units": [
-                      "% AD",
-                      "% AD",
-                      "% AD",
-                      "% AD",
-                      "% AD"
-                    ]
-                  },
-                  {
-                    "values": [
-                      120,
-                      120,
-                      120,
-                      120,
-                      120
-                    ],
-                    "units": [
-                      "% AP",
-                      "% AP",
-                      "% AP",
-                      "% AP",
-                      "% AP"
-                    ]
-                  }
-                ]
-              },
+              }
+            ]
+          },
+          {
+            "description": "Boomerang Blade's damage is reduced by 0% − 60% (based on non-champions hit). Upon reaching maximum range, the crossblade returns to her, resetting the damage modifier and dealing the same damage to enemies on its way back.",
+            "leveling": [
               {
                 "attribute": "Minimum Damage",
                 "modifiers": [
@@ -397,12 +349,61 @@
                     ]
                   }
                 ]
+              },
+              {
+                "attribute": "Total Maximum Champion Damage",
+                "modifiers": [
+                  {
+                    "values": [
+                      30,
+                      60,
+                      90,
+                      120,
+                      150
+                    ],
+                    "units": [
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "values": [
+                      160,
+                      170,
+                      180,
+                      190,
+                      200
+                    ],
+                    "units": [
+                      "% AD",
+                      "% AD",
+                      "% AD",
+                      "% AD",
+                      "% AD"
+                    ]
+                  },
+                  {
+                    "values": [
+                      120,
+                      120,
+                      120,
+                      120,
+                      120
+                    ],
+                    "units": [
+                      "% AP",
+                      "% AP",
+                      "% AP",
+                      "% AP",
+                      "% AP"
+                    ]
+                  }
+                ]
               }
             ]
-          },
-          {
-            "description": "Boomerang Blade's damage is reduced by 0% − 60% (based on non-champions hit). Upon reaching maximum range, the crossblade returns to her, resetting the damage modifier and dealing the same damage to enemies on its way back.",
-            "leveling": []
           },
           {
             "description": "Enemies can be hit only once per pass.",
@@ -509,11 +510,11 @@
                 "modifiers": [
                   {
                     "values": [
+                      25,
                       30,
                       35,
                       40,
-                      45,
-                      50
+                      45
                     ],
                     "units": [
                       "% AD",
@@ -530,11 +531,11 @@
                 "modifiers": [
                   {
                     "values": [
+                      16.25,
                       19.5,
                       22.75,
                       26,
-                      29.25,
-                      32.5
+                      29.25
                     ],
                     "units": [
                       "% AD",
@@ -724,7 +725,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Sivir/ability-icon/r",
         "effects": [
           {
-            "description": "Active: Sivir gains On the Hunt for a few seconds, and creates an aura that grants allied champions the effect for the remaining duration. On the Hunt: Gain bonus movement speed.",
+            "description": "Active: Sivir gains On the Hunt for a duration and grants it to nearby allied champions for the remaining duration.",
             "leveling": [
               {
                 "attribute": "Buff Duration",
@@ -742,7 +743,12 @@
                     ]
                   }
                 ]
-              },
+              }
+            ]
+          },
+          {
+            "description": "On the Hunt: Gain bonus movement speed.",
+            "leveling": [
               {
                 "attribute": "Bonus Movement Speed",
                 "modifiers": [
@@ -763,7 +769,7 @@
             ]
           },
           {
-            "description": "While active, Sivir's basic attacks on-attack reduce her basic abilities' cooldowns by 0.5 seconds each.",
+            "description": "While active, Sivir's basic attacks on-attack reduce her basic abilities' current cooldowns by 0.5 seconds each.",
             "leveling": []
           },
           {
@@ -824,7 +830,7 @@
         "speed": null,
         "width": null,
         "angle": null,
-        "castTime": null,
+        "castTime": "none",
         "effectRadius": "1000",
         "targetRange": null
       }
@@ -832,13 +838,14 @@
   },
   "releaseDate": "2009-02-21",
   "releasePatch": "Alpha Week 2",
-  "patchLastChanged": "12.15",
+  "patchLastChanged": "12.17",
   "price": {
     "blueEssence": 450,
     "rp": 260,
     "saleRp": 0
   },
   "lore": "Sivir is a renowned fortune hunter and mercenary captain who plies her trade in the deserts of Shurima. Armed with her legendary jeweled crossblade, she has fought and won countless battles for those who can afford her exorbitant price. Known for her fearless resolve and endless ambition, she prides herself on recovering buried treasures from the perilous tombs of Shurima—for a generous bounty. With ancient forces stirring the very bones of Shurima, Sivir finds herself torn between conflicting destinies.",
+  "faction": "shurima",
   "skins": [
     {
       "name": "Original",
@@ -1153,7 +1160,7 @@
       "lootEligible": false,
       "cost": "special",
       "sale": 0,
-      "distribution": "Code Redemption and obtainable for a limited time period as a Hextech Crafting skin. Will return in the future.",
+      "distribution": "Code Redemption and obtainable for a limited time period as a Hextech Crafting skin.",
       "rarity": "Mythic",
       "chromas": [],
       "lore": "A special event skin given away PAX West 2017.",
@@ -1535,8 +1542,7 @@
         "Alexa Kahn"
       ],
       "splashArtist": [
-        "Horace 'Hozure' Hsu",
-        "Alex 'alexplank' Flores"
+        "Horace 'Hozure' Hsu"
       ]
     },
     {

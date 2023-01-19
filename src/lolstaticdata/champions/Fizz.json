@@ -4,7 +4,7 @@
   "name": "Fizz",
   "title": "the Tidal Trickster",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Fizz.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Fizz.png",
   "resource": "MANA",
   "attackType": "MELEE",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -217,7 +217,7 @@
         "onHitEffects": null,
         "occurrence": null,
         "notes": null,
-        "blurb": "Innate:  Fizz ignores  unit collision, and takes  reduced damage.",
+        "blurb": "Innate:  Fizz ignores  unit collision, and takes reduced damage.",
         "missileSpeed": null,
         "rechargeRate": null,
         "collisionRadius": null,
@@ -238,7 +238,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Fizz/ability-icon/q",
         "effects": [
           {
-            "description": "Active: Fizz dashes a fixed distance in the direction of the target enemy, and upon colliding with them or if they are still within 200 units when the dash ends, he deals them magic damage plus 100% AD physical damage and applies on-hit effects at 100% effectiveness.",
+            "description": "Active: Fizz dashes a fixed distance in the direction of the target enemy. If they are in range upon arrival, he deals magic damage plus 100% AD physical damage and applies on-hit effects at 100% effectiveness.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -334,7 +334,7 @@
         "projectile": null,
         "onHitEffects": null,
         "occurrence": null,
-        "notes": "Urchin Strike can only go through walls if the target is on the other side.\nFizz will be automatically ordered to basic attack the target after Urchin Strike.\nUrchin Strike does not deal damage if the target is  untargetable.\nThe physical portion of the effect deals  basic damage, while the magic portion of the effect deals  proc damage.\n Life steal applies only on the physical damage component.  Spell vamp applies to both the physical damage and bonus magic damage.",
+        "notes": "Urchin Strike can only go through walls if the target is on the other side.\nUrchin Strike only damages targets if within 200 units of their original location upon completion of the dash.\nFizz will be automatically ordered to basic attack the target after Urchin Strike.\nUrchin Strike does not deal damage if the target is  untargetable.\nThe physical portion of the effect deals  basic damage, while the magic portion of the effect deals  proc damage.\n Life steal applies only on the physical damage component.  Spell vamp applies to both the physical damage and bonus magic damage.",
         "blurb": "Active:  Fizz  dashes through the target enemy, dealing magic damage, physical damage, and applying  on-hit effects.",
         "missileSpeed": null,
         "rechargeRate": null,
@@ -356,7 +356,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Fizz/ability-icon/w",
         "effects": [
           {
-            "description": "Passive: Basic attacks rend enemies on-hit, dealing magic damage every 0.5 seconds over 3 seconds, refreshing on-hit.",
+            "description": "Passive: Fizz's basic attacks rend enemies on-hit, dealing magic damage every 0.5 seconds over 3 seconds, refreshing on-hit.",
             "leveling": [
               {
                 "attribute": "Total Magic Damage",
@@ -501,7 +501,7 @@
                 ]
               },
               {
-                "attribute": "Bonus On-Hit Damage",
+                "attribute": "Bonus Magic Damage On-Hit",
                 "modifiers": [
                   {
                     "values": [
@@ -643,11 +643,11 @@
                   },
                   {
                     "values": [
-                      75,
-                      75,
-                      75,
-                      75,
-                      75
+                      90,
+                      90,
+                      90,
+                      90,
+                      90
                     ],
                     "units": [
                       "% AP",
@@ -737,7 +737,7 @@
         "projectile": null,
         "onHitEffects": null,
         "occurrence": null,
-        "notes": "Playful counts as an ability activation for the purposes of on-cast effects such as  Spellblade and stacking  Force Pulse.\nDetonating the ability early for  Trickster does not.\nPlayful cannot be used for approximately 0.5 seconds after using  Urchin Strike.\n Flash can be used while hopping off the trident but not while balanced on it.\nIf the first dash is interrupted, Fizz initiates the hop immediately, and if the second one is, the splash will not occur.\nIn either cases, Fizz loses the untargetability.\nIf Playful is cast while under the effect of a move block, Fizz will not become untargetable and will initiate the hop instantly.(bug)\nIf  Trickster is cast, the splash will not occur.(bug)\nIf Fizz enters  stasis during either Playful or  Trickster, the splash occurs after the stasis ends.",
+        "notes": "Playful counts as an ability activation for the purposes of on-cast effects such as  Spellblade and stacking  Force Pulse.\nDetonating the ability early for  Trickster does not.\nPlayful cannot be used for approximately 0.5 seconds after using  Urchin Strike.\n Flash can be used while hopping off the trident but not while balanced on it.\nIf the first dash is interrupted, Fizz initiates the hop immediately, and if the second one is, the splash will not occur.\nIn either cases, Fizz loses the untargetability.\nIf Playful is cast while under the effect of a move block, Fizz will not become untargetable and will initiate the hop instantly.(bug)\nIf  Trickster is cast, the splash will not occur.(bug)\nThere is a minimum dash distance of 25 units for Playful.\nIf Fizz casts Playful on top of himself after being teleported (e.g.  Flash,  Recall), the minimum dash distance will not apply.(bug)\nIf Fizz enters  stasis during either Playful or  Trickster, the splash occurs after the stasis ends.",
         "blurb": "Active:  Fizz  vaults in the target direction and balances onto his spear, becoming  untargetable. From this position, Fizz can either slam the ground or choose to jump again with  Trickster.",
         "missileSpeed": null,
         "rechargeRate": null,
@@ -749,8 +749,8 @@
         "width": null,
         "angle": null,
         "castTime": "none",
-        "effectRadius": "400",
-        "targetRange": "330"
+        "effectRadius": "375",
+        "targetRange": "400"
       },
       {
         "name": "Trickster",
@@ -776,7 +776,7 @@
         "projectile": null,
         "onHitEffects": null,
         "occurrence": null,
-        "notes": "Trickster does not count as an ability activation.\nBoth  Playful's and Trickster's  dashes may be directed separately.\n Flash cannot be used during the dash.\nThe splash occurs immediately if Fizz encounters terrain that cannot be dashed through (he has to be particularly close to the wall).",
+        "notes": "Trickster does not count as an ability activation.\nBoth  Playful's and Trickster's  dashes may be directed separately.\nTrickster has a minimum dash distance of 75 units.\n Flash cannot be used during the dash.\nThe splash occurs immediately if Fizz encounters terrain that cannot be dashed through (he has to be particularly close to the wall).",
         "blurb": "Active:  Fizz  vaults in the target direction and slams down, dealing magic damage to nearby enemies.This area is smaller than  Playful.",
         "missileSpeed": null,
         "rechargeRate": null,
@@ -788,8 +788,8 @@
         "width": null,
         "angle": null,
         "castTime": null,
-        "effectRadius": "200",
-        "targetRange": "270"
+        "effectRadius": "225",
+        "targetRange": "300"
       }
     ],
     "R": [
@@ -969,13 +969,14 @@
   },
   "releaseDate": "2011-11-15",
   "releasePatch": "1.0.0.129",
-  "patchLastChanged": "12.11",
+  "patchLastChanged": "12.19",
   "price": {
     "blueEssence": 4800,
     "rp": 880,
     "saleRp": 0
   },
   "lore": "Fizz is an amphibious yordle, who dwells among the reefs surrounding Bilgewater. He often retrieves and returns the tithes cast into the sea by superstitious captains, but even the saltiest of sailors know better than to cross him—for many are the tales of those who have underestimated this slippery character. Often mistaken for some manner of capricious ocean spirit, he seems able to command the beasts of the deep, and delights in confounding his allies and enemies alike.",
+  "faction": "unaffiliated",
   "skins": [
     {
       "name": "Original",
@@ -1187,7 +1188,7 @@
       "lore": null,
       "release": "2014-04-06",
       "set": [
-        "Void"
+        "Curse of the Void"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/105/105004.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/105/105004.jpg",
@@ -1435,7 +1436,7 @@
         "Philece Sampler"
       ],
       "splashArtist": [
-        "Kudos Productions"
+        "Rudy Siswanto"
       ]
     },
     {
@@ -1622,7 +1623,6 @@
       "lore": "Sea's a dwelling place for demons.",
       "release": "2020-10-22",
       "set": [
-        "Trick-or-Treat",
         "Demonic"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/105/105016.jpg",
@@ -1641,6 +1641,40 @@
       "splashArtist": [
         "Lucas Parolin",
         "West Studio"
+      ]
+    },
+    {
+      "name": "Prestige Fuzz (2022)",
+      "id": 105025,
+      "isBase": false,
+      "availability": "Limited",
+      "formatName": "Prestige Fuzz (2022)",
+      "lootEligible": false,
+      "cost": "special",
+      "sale": 0,
+      "distribution": "Given to players who owned the original skin prior to patch 12.5",
+      "rarity": "Mythic",
+      "chromas": [],
+      "lore": "There's something deeply unnerving about a bipedal Cocker Spaniel mix running around society unchecked, stabbing pedestrians with a tennis ball grabber, and summoning other, bigger dogs out of the ground. And yet, here we all are. Together.",
+      "release": "2022-04-01",
+      "set": [
+        "Cats Versus Dogs"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/105/105025.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/105/105025.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/105/105025.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin25/fizzloadscreen_25.pie_c_12_6.jpg",
+      "loadScreenVintagePath": null,
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Philece Sampler"
+      ],
+      "splashArtist": [
+        "Kudos Productions"
       ]
     }
   ]

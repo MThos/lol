@@ -4,7 +4,7 @@
   "name": "Zyra",
   "title": "Rise of the Thorns",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Zyra.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Zyra.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -564,7 +564,7 @@
         "projectile": "TRUE",
         "onHitEffects": null,
         "occurrence": null,
-        "notes": "This ability will cast from wherever the caster is at the start of the cast time.\nEach  Vine Lasher will generate 2 stacks of  Conqueror and 1 stack of each of  Phase Rush and  Electrocute.\n\n\nType\n\nCast time\n\n\nAttacking\n\nDisabled\n\n\nAbilities\n\nDisabled\n\n\nMovement\n\nDisabled\n\n\nItems\n\nUsable\n\n Shurelya's Battlesong  Turbo Chemtank  Youmuu's Ghostblade  Gargoyle Stoneplate  Randuin's Omen\n\n\nDisabled\n\nAll the other item-actives are disabled\n\n\nInterrupted by\n\nN/A\n\n\nConsumables\n\nUsable\n\n\nSpells\n\nUsable\n\n Barrier  Clarity  Cleanse  Exhaust  Ghost  Heal  Ignite  Smite\n\n\nDisabled\n\n Flash  Teleport  Recall  Hexflash\n\n\nInterrupted by\n\nN/A\n\n\nInterrupted by\n\nDeath, unless protected by  Resurrection",
+        "notes": "This ability will cast from wherever the caster is at the start of the cast time.\nZyra will be locked for 0.15 seconds after casting Grasping Roots.\nEach  Vine Lasher will generate 2 stacks of  Conqueror and 1 stack of each of  Phase Rush and  Electrocute.\n\n\nType\n\nCast time\n\n\nAttacking\n\nDisabled\n\n\nAbilities\n\nDisabled\n\n\nMovement\n\nDisabled\n\n\nItems\n\nUsable\n\n Shurelya's Battlesong  Turbo Chemtank  Youmuu's Ghostblade  Gargoyle Stoneplate  Randuin's Omen\n\n\nDisabled\n\nAll the other item-actives are disabled\n\n\nInterrupted by\n\nN/A\n\n\nConsumables\n\nUsable\n\n\nSpells\n\nUsable\n\n Barrier  Clarity  Cleanse  Exhaust  Ghost  Heal  Ignite  Smite\n\n\nDisabled\n\n Flash  Teleport  Recall  Hexflash\n\n\nInterrupted by\n\nN/A\n\n\nInterrupted by\n\nDeath, unless protected by  Resurrection",
         "blurb": "Active:  Zyra shoots a surge of vines in the target direction that deals magic damage to enemies hit and briefly  roots them.",
         "missileSpeed": null,
         "rechargeRate": null,
@@ -689,13 +689,14 @@
   },
   "releaseDate": "2012-07-24",
   "releasePatch": "1.0.0.143",
-  "patchLastChanged": "12.10",
+  "patchLastChanged": "12.16",
   "price": {
     "blueEssence": 4800,
     "rp": 880,
     "saleRp": 0
   },
   "lore": "Born in an ancient, sorcerous catastrophe, Zyra is the wrath of nature given form—an alluring hybrid of plant and human, kindling new life with every step. She views the many mortals of Valoran as little more than prey for her seeded progeny, and thinks nothing of slaying them with flurries of deadly spines. Though her true purpose has not been revealed, Zyra wanders the world, indulging her most primal urges to colonize, and strangle all other life from it.",
+  "faction": "ixtal",
   "skins": [
     {
       "name": "Original",
@@ -1303,6 +1304,27 @@
               "region": "riot"
             }
           ]
+        },
+        {
+          "name": "Tiffany & Co.",
+          "id": 143035,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/143/143035.png",
+          "colors": [
+            "#6ECFCC",
+            "#ECF9F8"
+          ],
+          "descriptions": [
+            {
+              "description": "This chroma was released as a Loot exclusive in the Worlds 2022 event.",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
+            }
+          ]
         }
       ],
       "lore": "Born from a cutting of the Crystal Rose, Zyra wields her piercing thorns against any who seek to harm it. For this year's festival, she has agreed to attend in a social capacity, accompanying Swain as the Crystal Rose Festival's dual hosts. But her respect for his vision will not distract her from springing into action at the slightest hint of danger.",
@@ -1538,7 +1560,7 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/143/143016.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/143/143016.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/143/143016.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin16/zyraloadscreen_16.pie_c_11_17.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin16/zyraloadscreen_16.jpg",
       "loadScreenVintagePath": null,
       "newEffects": true,
       "newAnimations": true,

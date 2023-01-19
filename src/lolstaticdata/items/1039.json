@@ -10,7 +10,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/1039_all_t1_hailblade.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/1039_all_t1_hailblade.png",
   "simpleDescription": "Provides damage against Monsters and Mana Regen in the Jungle",
   "nicknames": [
     "jungle"
@@ -20,7 +20,7 @@
       "unique": true,
       "mythic": false,
       "name": "Sear",
-      "effects": "Damaging monsters burns them for {{as|60 {{as|(+ 30% AP)}} {{as|(+ 5% '''bonus''' AD)}} {{as|(+ 2% '''bonus''' health)}} magic damage|magic damage}} over 5 seconds. Omnivamp against monsters provided by this item is not reduced by [[area of effect]] damage.",
+      "effects": "Damaging monsters burns them for{{ft|{{as|60 {{as|(+ 30% AP)}} {{as|(+ 5% '''bonus''' AD)}} {{as|(+ 2% '''bonus''' health)}} '''total''' magic damage|magic damage}} over 5 seconds.|{{as|12|magic damage}} {{as|(+ 6% AP)}} {{as|(+ 1% '''bonus''' AD)}} {{as|(+ {{fd|0.4}}% '''bonus''' health)}} {{as|magic damage}} every second over 5 seconds.}}Omnivamp against monsters provided by this item is not reduced by [[area of effect]] damage.",
       "range": null,
       "stats": {
         "abilityPower": {
@@ -192,7 +192,7 @@
       "unique": true,
       "mythic": false,
       "name": "Chilling Path",
-      "effects": "Using {{si|Smite}} 5 times '''consumes this item''' to upgrade your Smite into {{si|Chilling Smite}}, doubling its damage, and grants all of this item's effects permanently after a {{fd|2.5}}-second delay.",
+      "effects": "Using {{si|Smite}} 5 times '''consumes this item''' to upgrade the spell into {{si|Chilling Smite}}, doubling its damage, and grants all of this item's effects permanently after a {{fd|2.5}}-second delay.",
       "range": null,
       "stats": {
         "abilityPower": {
@@ -882,7 +882,7 @@
       "combined": 0,
       "sell": 140
     },
-    "purchasable": true,
+    "purchasable": false,
     "tags": [
       "FIGHTER",
       "MARKSMAN",

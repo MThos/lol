@@ -17,7 +17,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3051_fighter_t2_axeofavarosa.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3051_fighter_t2_axeofavarosa.png",
   "simpleDescription": null,
   "nicknames": [
     "blue arrow"
@@ -29,6 +29,7 @@
       "name": "Nimble",
       "effects": "Basic attacks grant {{as|{{rd|20|10}} '''bonus''' movement speed}} for 2 seconds.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,

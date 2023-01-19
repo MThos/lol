@@ -14,7 +14,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3742_tank_t3_deadmansplate.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3742_tank_t3_deadmansplate.png",
   "simpleDescription": "Build momentum as you move around then smash into enemies.",
   "nicknames": [
     "dmp",
@@ -27,8 +27,9 @@
       "unique": true,
       "mythic": false,
       "name": "Shipwrecker",
-      "effects": "While moving, generates 7 stacks of ''Momentum'' each {{fd|0.25}} seconds, granting up to {{as|40 '''bonus''' movement speed}} at 100 stacks after {{fd|3.75}} seconds of moving. ''Momentum'' decays by 15 every {{fd|0.25}} seconds while {{tip|immobilize|immobilized}}. Basic attacks consume all stacks to deal {{pp|0 to 40 for 11|0 to 100|type=Momentum|label1=stacks of Momentum|formula=1 for every 1 stack of Momentum, capped at 40}} {{as|(+ {{pp|0 to 100 for 11|0 to 100|key=%|type=Momentum|label1=stacks of Momentum|formula=1% for every 1 stack of Momentum, capped at 100}} '''base''' AD)}} {{as|'''bonus''' physical damage}} [[on-hit]]. At '''maximum''' stacks, the target is also {{tip|slow|slowed}} by 50% for 1 second.",
+      "effects": "While moving, generates 7 stacks of ''Momentum'' every {{fd|0.25}} seconds, granting up to {{as|40 '''bonus''' movement speed}} at 100 stacks after {{fd|3.75}} seconds of moving. ''Momentum'' decays by 15 every {{fd|0.25}} seconds while {{tip|immobilize|immobilized}}. Basic attacks consume all stacks to deal {{as|{{pp|0 to 40 for 11|0 to 100|type=Momentum|label1=stacks of Momentum|formula=1 for every 1 stack of Momentum, capped at 40}}|physical damage}} {{as|(+ {{pp|0 to 100 for 11|0 to 100|key=%|type=Momentum|label1=stacks of Momentum|formula=1% for every 1 stack of Momentum, capped at 100}} '''base''' AD)}} {{as|'''bonus''' physical damage}} [[on-hit]]. At '''maximum''' stacks, the target is also {{tip|slow|slowed}} by 50% for 1 second.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,

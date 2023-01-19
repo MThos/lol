@@ -4,7 +4,7 @@
   "name": "Azir",
   "title": "the Emperor of the Sands",
   "fullName": "Omah Azir",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Azir.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.23.1/img/champion/Azir.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -313,7 +313,7 @@
             ]
           },
           {
-            "description": "Enemies hit by subsequent soldiers are instead slowed by an additional 25% per soldier.",
+            "description": "Enemies hit by subsequent soldiers take no additional damage and are instead slowed by an additional 25% per soldier.",
             "leveling": []
           },
           {
@@ -393,7 +393,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Azir/ability-icon/w",
         "effects": [
           {
-            "description": "Passive: Azir gains bonus attack speed, doubled for 5 seconds if he summons a third concurrent soldier.",
+            "description": "Passive: Azir gains bonus attack speed, doubled for 5 seconds if he summons a third concurrent soldier with Arise!",
             "leveling": [
               {
                 "attribute": "Bonus Attack Speed",
@@ -444,7 +444,7 @@
             "leveling": []
           },
           {
-            "description": "When Azir declares a basic attack against an enemy in a soldier's attack range, the Sand Soldier attacks in his stead, dealing 50 − 150 (based on level) (+ 60% AP) magic damage to enemies struck in a line. Targets beyond the closest take 25 / 50 / 75 / 100% (based on level) damage. Subsequent Sand Soldiers beyond the first deal 25% damage.",
+            "description": "When Azir declares a basic attack against an enemy in a soldier's attack range, the Sand Soldier attacks in his stead, thrusting their spear in the target's direction to deal 50 − 150 (based on level) (+ 55% AP) magic damage to enemies struck in a line. Targets hit beyond the closest take 25 / 50 / 75 / 100% (based on level) damage. Subsequent Sand Soldiers against the same target deal 25% damage.",
             "leveling": []
           },
           {
@@ -499,21 +499,21 @@
         },
         "targeting": "Location",
         "affects": "Enemies",
-        "spellshieldable": "True",
+        "spellshieldable": "false",
         "resource": "MANA",
         "damageType": "MAGIC_DAMAGE",
         "spellEffects": "aoe",
         "projectile": "FALSE",
         "onHitEffects": null,
         "occurrence": null,
-        "notes": "Nearsighting effects will only allow Azir to perform attacks from soldiers within his own sight radius.\nAzir must rank Arise! as his first ability, and will do so automatically if he reaches level 2 before ranking an ability.\nAzir can only command his soldiers to attack if he is able to declare basic attack commands himself, meaning  crowd control effects that disable attacking, such as  disarm, do not allow him to order his soldiers to attack in his stead.\n Spell shield will block a single attack from the soldiers.\nDamage to enemy champions from Sand Soldier stabs will draw minion aggro even if the enemy champion was not the primary target.(bug)\nAttacking with the soldiers will trigger  Hail of Blades.\nSand Soldiers will attack the closest enemy to Azir when using attack move (or A + RMB / Shift + RMB) or  auto-attack.\n    An exclamation mark (!) will appear above the Sand Soldier's head when within the range of an enemy  turret.",
+        "notes": "Nearsighting effects will only allow Azir to perform attacks from soldiers within his own sight radius.\nAzir must rank Arise! as his first ability, and will do so automatically if he reaches level 2 before ranking an ability.\nAzir can only command his soldiers to attack if he is able to declare basic attack commands himself, meaning  crowd control effects that disable attacking, such as  disarm, do not allow him to order his soldiers to attack in his stead.\nDamage to enemy champions from Sand Soldier stabs will draw minion aggro even if the enemy champion was not the primary target.(bug)\nAttacking with the soldiers will trigger  Hail of Blades.\nSand Soldiers will attack the closest enemy to Azir when using attack move (or A + RMB / Shift + RMB) or  auto-attack.\n     An exclamation mark (!) will appear above the Sand Soldier's head when within the range of an enemy  turret.",
         "blurb": "Passive: If three Sand Soldiers are summoned,  Azir gains  bonus attack speed.",
         "missileSpeed": null,
         "rechargeRate": [
-          8,
+          9,
+          8.25,
           7.5,
-          7,
-          6.5,
+          6.75,
           6
         ],
         "collisionRadius": null,
@@ -534,7 +534,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Azir/ability-icon/e",
         "effects": [
           {
-            "description": "Active: Azir shields himself for 1.5 seconds and dashes to the target Sand Soldier, dealing magic damage to enemies he passes through.",
+            "description": "Active: Azir grants himself a shield for 1.5 seconds and dashes to the target Sand Soldier, dealing magic damage to enemies within his path.",
             "leveling": [
               {
                 "attribute": "Shield Strength",
@@ -645,11 +645,11 @@
           "modifiers": [
             {
               "values": [
+                22,
+                20.5,
                 19,
-                18,
-                17,
-                16,
-                15
+                17.5,
+                16
               ],
               "units": [
                 "",
@@ -848,13 +848,14 @@
   },
   "releaseDate": "2014-09-16",
   "releasePatch": "4.16",
-  "patchLastChanged": "12.10",
+  "patchLastChanged": "12.17",
   "price": {
     "blueEssence": 4800,
     "rp": 880,
     "saleRp": 0
   },
   "lore": "Azir was a mortal emperor of Shurima in a far distant age, a proud man who stood at the cusp of immortality. His hubris saw him betrayed and murdered at the moment of his greatest triumph, but now, millennia later, he has been reborn as an Ascended being of immense power. With his buried city risen from the sand, Azir seeks to restore Shurima to its former glory.",
+  "faction": "shurima",
   "skins": [
     {
       "name": "Original",
@@ -863,7 +864,7 @@
       "availability": "Available",
       "formatName": "Original",
       "lootEligible": true,
-      "cost": 975,
+      "cost": 880,
       "sale": 0,
       "distribution": null,
       "rarity": "NoRarity",
@@ -918,9 +919,7 @@
       "voiceActor": [
         "Travis Willingham"
       ],
-      "splashArtist": [
-        "Alex 'alexplank' Flores"
-      ]
+      "splashArtist": []
     },
     {
       "name": "Gravelord",
@@ -936,7 +935,9 @@
       "chromas": [],
       "lore": "In the service of Death rises Gravelord Azir! He who knows neither victory nor defeat, for even the bloodiest of battles strengthen his undying legions.",
       "release": "2015-12-01",
-      "set": [],
+      "set": [
+        "Death Sworn"
+      ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/268/268002.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/268/268002.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/268/268002.jpg",
@@ -1224,6 +1225,126 @@
       "splashArtist": [
         "Zuoan Dong",
         "Kudos Productions"
+      ]
+    },
+    {
+      "name": "Worlds 2022",
+      "id": 268014,
+      "isBase": false,
+      "availability": "Legacy",
+      "formatName": "Worlds 2022",
+      "lootEligible": true,
+      "cost": 1350,
+      "sale": 0,
+      "distribution": null,
+      "rarity": "Epic",
+      "chromas": [
+        {
+          "name": "Obsidian",
+          "id": 268017,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/268/268017.png",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "descriptions": [
+            {
+              "description": "This chroma was released during the Worlds 2022 event.",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "One & Only",
+          "id": 268018,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/268/268018.png",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "descriptions": [
+            {
+              "description": "This chroma was released as a Loot exclusive in the Worlds 2022 event.",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 2,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Tanzanite",
+          "id": 268015,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/268/268015.png",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "descriptions": [
+            {
+              "description": "This chroma was released as a bundle exclusive in 2022.",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 2,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Turquoise",
+          "id": 268016,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/268/268016.png",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "descriptions": [
+            {
+              "description": "This chroma was released during the Worlds 2022 event.",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
+            }
+          ]
+        }
+      ],
+      "lore": "Celebrating Worlds 2022 in North America.",
+      "release": "2022-09-22",
+      "set": [
+        "World Championship"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/268/268014.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/268/268014.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/268/268014.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/azir/skins/skin14/azirloadscreen_14.pie_c_12_18.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/azir/skins/skin14/azirloadscreen_14_le.pie_c_12_18.jpg",
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Kyle Hebert"
+      ],
+      "splashArtist": [
+        "Augusto Quirino",
+        "West Studio"
       ]
     }
   ]

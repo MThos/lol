@@ -4,7 +4,7 @@
   "name": "Vladimir",
   "title": "the Crimson Reaper",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Vladimir.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Vladimir.png",
   "resource": "BLOODTHIRST",
   "attackType": "RANGED",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -324,7 +324,7 @@
             "description": "Crimson Rush Bonus: Transfusion consumes all Bloodthirst to deal 85% increased damage and heal Vladimir for an additional 30 − 200 (based on level) (+ 5% (+ 4% per 100 AP) missing health), reduced to 35% against minions.",
             "leveling": [
               {
-                "attribute": "Empowered Damage",
+                "attribute": "Increased Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -420,7 +420,7 @@
             "leveling": []
           },
           {
-            "description": "Enemies within the pool are slowed by 40% and dealt magic damage every 0.5 seconds over the duration. Vladimir heals himself for 15% of the pre-mitigation damage dealt by Sanguine Pool.",
+            "description": "Enemies within the pool are dealt magic damage every 0.5 seconds over the duration and are slowed by 40%. Vladimir heals himself for 15% of the pre-mitigation damage dealt.",
             "leveling": [
               {
                 "attribute": "Magic Damage Per Tick",
@@ -460,7 +460,7 @@
                 ]
               },
               {
-                "attribute": "Maximum Magic Damage",
+                "attribute": "Total Magic Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -499,7 +499,7 @@
             ]
           },
           {
-            "description": "Vladimir cannot use basic attacks or abilities during Sanguine Pool, but can still move. If Tides of Blood is charging at the time of Sanguine Pool's activation, that ability may still be recast.",
+            "description": "Vladimir cannot use basic attacks nor abilities during Sanguine Pool, but he can still move. If Tides of Blood is charging at the time of Sanguine Pool's activation, that ability may still be recast.",
             "leveling": []
           }
         ],
@@ -575,11 +575,11 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Vladimir/ability-icon/e",
         "effects": [
           {
-            "description": "Active: Vladimir charges for up to 1.5 seconds, slowing himself by 20% if he charges for more than 1 second. Tides of Blood can be recast within the duration, and does so automatically afterwards or if interrupted.",
+            "description": "Active: Vladimir charges for up to 1.5 seconds, slowing himself by 20% after the first second. Tides of Blood can be recast at any time within the duration, and does so automatically afterwards or if it is interrupted.",
             "leveling": []
           },
           {
-            "description": "Recast: Vladimir unleashes a nova of 15 blood bolts that each deal magic damage to the first enemy hit, increased based on charge time, up to the first second.",
+            "description": "Recast: Vladimir unleashes a nova of 15 blood bolts around himself that each deal magic damage to the first enemy hit, increased based on charge time, up to the first second.",
             "leveling": [
               {
                 "attribute": "Minimum Magic Damage",
@@ -798,7 +798,7 @@
             "leveling": []
           },
           {
-            "description": "After the duration, the infection bursts to deal magic damage to all infected targets. Infected champions also have their blood siphoned to Vladimir over 0.4 seconds for him to harvest, healing him, reduced by 40% for each subsequent champion.",
+            "description": "After the duration, the infection bursts to deal magic damage to all affected targets and, after a 0.4-second delay, heal Vladimir for each infected champion, reduced by 40% for subsequent champions.",
             "leveling": [
               {
                 "attribute": "Magic damage",
@@ -888,7 +888,7 @@
                 ]
               },
               {
-                "attribute": "Maximum Heal",
+                "attribute": "Maximum Total Heal",
                 "modifiers": [
                   {
                     "values": [
@@ -947,7 +947,7 @@
         "onHitEffects": null,
         "occurrence": null,
         "notes": "Hemoplague will amplify almost all sources and types of damage (including damage from neutral monsters but excluding  true damage, with percent modifiers stacking multiplicatively).\nHemoplague amplifies itself for an actual 165 / 220 / 275 / 330 / 385 (+ 77% AP) damage.\nHemoplague's modifier to incoming damage stacks additively with  Alistar's  Unbreakable Will for a total damage reduction of 45/55/65%.*\n Spell shield does not negate the detonation.",
-        "blurb": "Active:  Vladimir unleashes a plague at the target location that infects nearby enemies hit for a few seconds,  increasing the damage they take from all sources.",
+        "blurb": "Active:  Vladimir unleashes a plague at the target location that infects nearby enemies hit for a few seconds, increasing the damage they take from all sources.",
         "missileSpeed": null,
         "rechargeRate": null,
         "collisionRadius": null,
@@ -972,6 +972,7 @@
     "saleRp": 0
   },
   "lore": "A fiend with a thirst for mortal blood, Vladimir has influenced the affairs of Noxus since the empire's earliest days. In addition to unnaturally extending his life, his mastery of hemomancy allows him to control the minds and bodies of others as easily as his own. In the flamboyant salons of the Noxian aristocracy, this has enabled him to build a fanatical cult of personality around himself—while in the lowest back alleys, it allows him to bleed his enemies dry.",
+  "faction": "noxus",
   "skins": [
     {
       "name": "Original",
@@ -1188,7 +1189,7 @@
       "lore": null,
       "release": "2014-07-09",
       "set": [
-        "Soulhunter"
+        "Soulstealer"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/8/8006.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/8/8006.jpg",

@@ -3,15 +3,15 @@
   "id": 3903,
   "tier": 1,
   "rank": [],
-  "buildsFrom": [],
-  "buildsInto": [],
-  "specialRecipe": 0,
-  "noEffects": false,
+  "builds_from": [],
+  "builds_into": [],
+  "special_recipe": 0,
+  "no_effects": false,
   "removed": false,
-  "requiredChampion": "Gangplank",
-  "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3903_champ_t0_raisemoralecircle.png",
-  "simpleDescription": "Allies in the Cannon Barrage gain <speed>30% Move Speed</speed> for 2 seconds.",
+  "required_champion": "Gangplank",
+  "required_ally": "",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3903_champ_t0_raisemoralecircle.png",
+  "simple_description": "Allies in the Cannon Barrage gain <speed>30% Move Speed</speed> for 2 seconds.",
   "nicknames": [],
   "passives": [
     {
@@ -20,8 +20,9 @@
       "name": "Raise Morale",
       "effects": "{{ci|Gangplank}} and his allies within {{ai|Cannon Barrage|Gangplank}} gain {{as|30% '''bonus''' movement speed}}, which persists for 2 seconds after leaving the area.",
       "range": null,
+      "cooldown": null,
       "stats": {
-        "abilityPower": {
+        "ability_power": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -37,7 +38,7 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "armorPenetration": {
+        "armor_penetration": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -45,7 +46,7 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "attackDamage": [
+        "attack_damage": [
           {
             "flat": 0.0,
             "percent": 0.0,
@@ -55,7 +56,7 @@
             "percentBonus": 0.0
           }
         ],
-        "attackSpeed": {
+        "attack_speed": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -63,7 +64,7 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "cooldownReduction": {
+        "cooldown_reduction": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -71,7 +72,7 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "criticalStrikeChance": {
+        "critical_strike_chance": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -79,7 +80,7 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "goldPer_10": {
+        "gold_per_10": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -87,7 +88,7 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "healAndShieldPower": {
+        "heal_and_shield_power": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -103,7 +104,7 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "healthRegen": {
+        "health_regen": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -127,7 +128,7 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "magicPenetration": {
+        "magic_penetration": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -135,7 +136,7 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "magicResistance": {
+        "magic_resistance": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -151,7 +152,7 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "manaRegen": {
+        "mana_regen": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -160,7 +161,7 @@
           "percentBonus": 0.0
         },
         "movespeed": 0.0,
-        "abilityHaste": {
+        "ability_haste": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -344,10 +345,10 @@
     "omnivamp": {
       "flat": 0.0,
       "percent": 0.0,
-      "perLevel": 0.0,
-      "percentPerLevel": 0.0,
-      "percentBase": 0.0,
-      "percentBonus": 0.0
+      "per_level": 0.0,
+      "percent_per_level": 0.0,
+      "percent_base": 0.0,
+      "percent_bonus": 0.0
     },
     "tenacity": {
       "flat": 0.0,

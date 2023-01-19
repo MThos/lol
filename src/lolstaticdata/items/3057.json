@@ -8,14 +8,15 @@
     6632,
     3100,
     3078,
-    3508
+    3508,
+    6662
   ],
   "specialRecipe": 0,
   "noEffects": false,
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3057_fighter_t2_sheen.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3057_fighter_t2_sheen.png",
   "simpleDescription": "Grants a bonus to next attack after spell cast",
   "nicknames": [
     "jimmy neutron"
@@ -27,6 +28,7 @@
       "name": "Spellblade",
       "effects": "After using an [[Champion ability|ability]], your next basic attack within 10 seconds deals {{as|100% '''base''' AD}} {{as|'''bonus''' physical damage}} [[on-hit]].",
       "range": null,
+      "cooldown": "{{fd|1.5}} (begins after using the empowered attack)",
       "stats": {
         "abilityPower": {
           "flat": 0.0,

@@ -15,7 +15,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3155_fighter_t2_hexdrinker.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3155_fighter_t2_hexdrinker.png",
   "simpleDescription": "Increases Attack Damage and Magic Resist",
   "nicknames": [],
   "passives": [
@@ -25,6 +25,7 @@
       "name": "Lifeline",
       "effects": "If you would take {{as|magic damage}} that would reduce you below {{as|30% of your '''maximum''' health}}, you first gain a {{tip|shield}} that absorbs {{as|{{rd|110 to 280|82.5 to 210|pp=true}} magic damage}} for 3 seconds.",
       "range": null,
+      "cooldown": "90",
       "stats": {
         "abilityPower": {
           "flat": 0.0,

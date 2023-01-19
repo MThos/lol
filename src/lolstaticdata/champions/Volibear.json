@@ -4,7 +4,7 @@
   "name": "Volibear",
   "title": "the Relentless Storm",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Volibear.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Volibear.png",
   "resource": "MANA",
   "attackType": "MELEE",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -130,7 +130,7 @@
       "percentPerLevel": 0.0
     },
     "aramDamageTaken": {
-      "flat": 0.95,
+      "flat": 1.0,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
@@ -202,7 +202,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Volibear/ability-icon/p",
         "effects": [
           {
-            "description": "Innate: Whenever Volibear damages at least one enemy with a basic attack or ability, he generates a stack of The Relentless Storm for 6 seconds, which refreshes on subsequent hits and stacks up to 5 times. At 5 stacks, Volibear gains Lightning Claws.",
+            "description": "Innate: Whenever Volibear damages at least one enemy with a basic attack or ability, he generates a stack of The Relentless Storm for 6 seconds, refreshing on subsequent damage and stacking up to 5 times. At 5 stacks, Volibear gains Lightning Claws.",
             "leveling": []
           },
           {
@@ -271,7 +271,7 @@
                 ]
               },
               {
-                "attribute": "Increased Movement Speed",
+                "attribute": "Increased Bonus Movement Speed",
                 "modifiers": [
                   {
                     "values": [
@@ -294,10 +294,10 @@
             ]
           },
           {
-            "description": "During this time, Volibear's next basic attack is empowered to have an uncancellable windup and pounce on the target, dealing bonus physical damage and stunning them for 1 second.",
+            "description": "During this time, Volibear's next basic attack is empowered to consume the bonus movement speed to have an uncancellable windup and pounce on the target, dealing bonus physical damage and stunning them for 1 second.",
             "leveling": [
               {
-                "attribute": "Bonus Damage",
+                "attribute": "Bonus Physical Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -686,7 +686,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Volibear/ability-icon/e",
         "effects": [
           {
-            "description": "Active: Volibear summons a lightning bolt to strike at the target location after a 2-second delay. This can hit Volibear, which shields him for 14% of his maximum health (+ 75% AP) for 3 seconds.",
+            "description": "Active: Volibear summons a lightning bolt to strike at the target location after a 2-second delay. If Volibear is within the strike, he gains a shield equal to 14% of his maximum health (+ 75% AP) for 3 seconds.",
             "leveling": []
           },
           {
@@ -846,7 +846,7 @@
             ]
           },
           {
-            "description": "Volibear impacts after 1 second, slowing nearby enemies by 50%, decaying over 1 second. Enemies in the epicenter are also dealt physical damage.",
+            "description": "Volibear impacts after 1 second, slowing nearby enemies by 50% decaying over 1 second. Enemies within the epicenter are also dealt physical damage.",
             "leveling": [
               {
                 "attribute": "Physical Damage",
@@ -892,7 +892,7 @@
             ]
           },
           {
-            "description": "Volibear also disables enemy turrets in an area for a few seconds, rendering them unable to attack, as well as dealing them the same physical damage.",
+            "description": "Volibear also disables enemy turrets in an area for a duration, rendering them unable to attack, as well as dealing them the same damage.",
             "leveling": [
               {
                 "attribute": "Turret Disable Duration",
@@ -986,6 +986,7 @@
     "saleRp": 0
   },
   "lore": "To those who still revere him, the Volibear is the storm made manifest. Destructive, wild, and stubbornly resolute, he existed before mortals walked the Freljord's tundra, and is fiercely protective of the lands that he and his demi-god kin created. Cultivating a deep hatred of civilization and the weakness it brought with it, he now fights to return to the old ways—when the land was untamed, and blood spilled freely—and eagerly battles all who oppose him, with tooth, claw, and thundering domination.",
+  "faction": "freljord",
   "skins": [
     {
       "name": "Original",
@@ -1101,7 +1102,9 @@
       "chromas": [],
       "lore": null,
       "release": "2013-04-29",
-      "set": [],
+      "set": [
+        "Otherroads"
+      ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/106/106003.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/106/106003.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/106/106003.jpg",
@@ -1172,7 +1175,7 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/106/106005.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/106/106005.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/106/106005.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/volibear/skins/skin05/volibearloadscreen_5.dr_mundo_vgu.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/volibear/skins/skin05/volibearloadscreen_5.jpg",
       "loadScreenVintagePath": null,
       "newEffects": false,
       "newAnimations": false,
@@ -1200,7 +1203,9 @@
       "chromas": [],
       "lore": "Ancient Freljordian legends speak of spirit walkers consumed by the true spirit of the unrelenting bear—a force older than the Freljord itself. Those who dare to invoke its name cannot fathom the terrible, primal power they call down upon themselves.",
       "release": "2020-05-28",
-      "set": [],
+      "set": [
+        "Ursine"
+      ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/106/106006.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/106/106006.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/106/106006.jpg",
@@ -1428,8 +1433,8 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/106/106007.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/106/106007.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/106/106007.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/volibear/skins/skin07/volibearloadscreen_7.pie_c_11_21.jpg",
-      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/volibear/skins/skin07/volibearloadscreen_7_le.pie_c_11_21.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/volibear/skins/skin07/volibearloadscreen_7.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/volibear/skins/skin07/volibearloadscreen_7_le.jpg",
       "newEffects": true,
       "newAnimations": true,
       "newRecall": true,
@@ -1463,8 +1468,8 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/106/106009.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/106/106009.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/106/106009.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/volibear/skins/skin09/volibearloadscreen_9.pie_c_11_21.jpg",
-      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/volibear/skins/skin09/volibearloadscreen_9_le.pie_c_11_21.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/volibear/skins/skin09/volibearloadscreen_9.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/volibear/skins/skin09/volibearloadscreen_9_le.jpg",
       "newEffects": true,
       "newAnimations": true,
       "newRecall": true,

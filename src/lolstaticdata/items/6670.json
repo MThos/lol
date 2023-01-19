@@ -18,7 +18,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6670_marksman_t2_noonquiver.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6670_marksman_t2_noonquiver.png",
   "simpleDescription": null,
   "nicknames": [],
   "passives": [
@@ -28,6 +28,7 @@
       "name": "Precision",
       "effects": "Basic attacks deal {{as|20 '''bonus''' physical damage}} [[on-hit]] against minions and monsters.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,

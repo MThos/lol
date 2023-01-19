@@ -19,7 +19,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3802_mage_tier2_lostchapter.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3802_mage_tier2_lostchapter.png",
   "simpleDescription": "Restores Mana upon levelling up.",
   "nicknames": [
     "book"
@@ -31,6 +31,7 @@
       "name": "Enlighten",
       "effects": "Upon leveling up, restores {{as|20% of '''maximum''' mana}} over 3 seconds.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,

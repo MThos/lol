@@ -13,7 +13,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/4645_shadowflame.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/4645_shadowflame.png",
   "simpleDescription": null,
   "nicknames": [],
   "passives": [
@@ -23,6 +23,7 @@
       "name": "Cinderbloom",
       "effects": "Dealing {{as|magic damage}} to champions ignores {{pp|type=target's '''current''' health|10 to 20 for 11|2500 to 1000}} of their {{as|magic resistance}}, increased to '''maximum''' value if the they were affected by a {{tip|shield}} within the last 5 seconds.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,

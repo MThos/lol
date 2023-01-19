@@ -4,7 +4,7 @@
   "name": "Gnar",
   "title": "the Missing Link",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Gnar.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Gnar.png",
   "resource": "RAGE",
   "attackType": "RANGED",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -130,7 +130,7 @@
       "percentPerLevel": 0.0
     },
     "aramDamageTaken": {
-      "flat": 1.0,
+      "flat": 0.95,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
@@ -154,13 +154,13 @@
       "percentPerLevel": 0.0
     },
     "urfDamageTaken": {
-      "flat": 1.0,
+      "flat": 0.9,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
     },
     "urfDamageDealt": {
-      "flat": 1.0,
+      "flat": 1.1,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
@@ -351,7 +351,7 @@
             ]
           },
           {
-            "description": "Catching the boomerang while it is returning back refunds 40% of the ability's maximum cooldown.",
+            "description": "Catching the boomerang while it is returning back refunds 40% of the ability's total cooldown.",
             "leveling": []
           },
           {
@@ -530,11 +530,11 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Gnar/ability-icon/w",
         "effects": [
           {
-            "description": "Passive: Gnar's basic attacks on-hit and abilities apply a stack of Hyper to enemies for 3.5 seconds, stacking up to 3 times and refreshing on subsequent applications.",
+            "description": "Passive: Gnar's basic attacks on-hit and ability hits apply a stack of Hyper to enemies for 3.5 seconds, refreshing on subsequent applications and stacking up to 3 times.",
             "leveling": []
           },
           {
-            "description": "Upon applying 3 stacks to a target, the stacks are consumed to deal bonus magic damage, capped at 300 against monsters, and grant Gnar 20 / 40 / 60 / 80% (based on GNAR!'s rank) bonus movement speed that decays over 3 seconds.",
+            "description": "The third stack against a target consumes them all to deal bonus magic damage, capped at 300 against monsters, and grant Gnar 20 / 40 / 60 / 80% (based on GNAR!'s rank) bonus movement speed that decays over 3 seconds.",
             "leveling": [
               {
                 "attribute": "Bonus Magic Damage",
@@ -725,7 +725,7 @@
             "description": "Active: Gnar leaps to the target location, then gains bonus attack speed for 6 seconds.",
             "leveling": [
               {
-                "attribute": "Attack Speed",
+                "attribute": "Bonus Attack Speed",
                 "modifiers": [
                   {
                     "values": [
@@ -949,7 +949,7 @@
         "speed": null,
         "width": null,
         "angle": null,
-        "castTime": null,
+        "castTime": "none",
         "effectRadius": "375",
         "targetRange": "675"
       }
@@ -982,7 +982,7 @@
             ]
           },
           {
-            "description": "Mega Gnar - Active: Gnar thrusts in the target direction, knocking away nearby enemies up to 590 units in that direction, though not through terrain, and afterwards dealing them physical damage, as well as slowing them by 45% after a 0.4-second delay.",
+            "description": "Mega Gnar - Active: Gnar thrusts in the target direction, knocking away nearby enemies up to 590 units in that direction, though not through terrain, and afterwards dealing them physical damage, as well as slowing them by 45% after a 0.4-second delay for a duration.",
             "leveling": [
               {
                 "attribute": "Physical Damage",
@@ -1026,6 +1026,28 @@
                 ]
               },
               {
+                "attribute": "Disable Duration",
+                "modifiers": [
+                  {
+                    "values": [
+                      1.25,
+                      1.5,
+                      1.75
+                    ],
+                    "units": [
+                      "",
+                      "",
+                      ""
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "description": "Enemies that collide with terrain take 50% increased damage instantly and are stunned instead of slowed.",
+            "leveling": [
+              {
                 "attribute": "Increased Damage",
                 "modifiers": [
                   {
@@ -1062,28 +1084,6 @@
                       "% AP",
                       "% AP",
                       "% AP"
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "description": "Enemies that collide with terrain take 50% increased damage instantly and are stunned instead of slowed.",
-            "leveling": [
-              {
-                "attribute": "Disable Duration",
-                "modifiers": [
-                  {
-                    "values": [
-                      1.25,
-                      1.5,
-                      1.75
-                    ],
-                    "units": [
-                      "",
-                      "",
-                      ""
                     ]
                   }
                 ]
@@ -1144,6 +1144,7 @@
     "saleRp": 0
   },
   "lore": "Gnar is a primeval yordle whose playful antics can erupt into a toddler's outrage in an instant, transforming him into a massive beast bent on destruction. Frozen in True Ice for millennia, the curious creature broke free and now hops about a changed world he sees as exotic and wondrous. Delighted by danger, Gnar flings whatever he can at his enemies, be it his bonetooth boomerang, or a nearby building.",
+  "faction": "freljord",
   "skins": [
     {
       "name": "Original",
@@ -1362,8 +1363,7 @@
       "lore": null,
       "release": "2014-08-13",
       "set": [
-        "Toy Box",
-        "Disguise"
+        "Toy Box"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/150/150001.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/150/150001.jpg",

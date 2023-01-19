@@ -14,7 +14,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/4637_mage_t3_demonicembrace.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/4637_mage_t3_demonicembrace.png",
   "simpleDescription": null,
   "nicknames": [
     "helmet"
@@ -26,6 +26,7 @@
       "name": "Dark Pact",
       "effects": "Gain {{as|ability power}} equal to {{as|2% '''bonus''' health}}.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -196,8 +197,9 @@
       "unique": true,
       "mythic": false,
       "name": "Azakana Gaze",
-      "effects": "Dealing {{tip|ability damage}} curses enemies, causing them to take{{ft|{{as|{{rd|{{fd|7.2}}%|4%}} of their '''maximum''' health}} as {{as|'''total''' magic damage}} over 4 seconds.|{{as|{{rd|{{fd|1.8}}%|1%}} of their '''maximum''' health}} as {{as|magic damage}} every second over 4 seconds.}}",
+      "effects": "Dealing {{tip|ability damage}} curses enemies, causing them to take{{ft|{{as|{{rd|{{fd|7.2}}%|{{fd|3.2}}%}} of their '''maximum''' health}} as {{as|'''total''' magic damage}} over 4 seconds.|{{as|{{rd|{{fd|1.8}}%|{{fd|0.8}}%}} of their '''maximum''' health}} as {{as|magic damage}} every second over 4 seconds.}}",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -368,7 +370,7 @@
   "active": [],
   "stats": {
     "abilityPower": {
-      "flat": 60.0,
+      "flat": 75.0,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0,
@@ -440,7 +442,7 @@
       "percentBonus": 0.0
     },
     "health": {
-      "flat": 450.0,
+      "flat": 350.0,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0,

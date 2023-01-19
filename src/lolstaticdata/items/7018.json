@@ -12,7 +12,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "Ornn",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3078_fighter_t4_trinityforce.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3078_fighter_t4_trinityforce.png",
   "simpleDescription": null,
   "nicknames": [
     "triforce",
@@ -23,8 +23,9 @@
       "unique": true,
       "mythic": false,
       "name": "Threefold Strike",
-      "effects": "Basic attacks grant {{as|20 '''bonus''' movement speed}} for 3 seconds and, if the target is a champion or a structure, increase {{as|'''base''' attack damage by 4%}} for the same duration, stacking up to 5 times for a {{as|20% increase|attack damage}}. Stacks decay once every {{fd|0.5}} seconds after the duration ends.",
+      "effects": "Basic attacks grant {{as|20 '''bonus''' movement speed}} for 3 seconds and, if the target is a champion or a structure, increase {{as|'''base''' attack damage by 4%}} for the same duration, stacking up to 5 times for a {{as|20% increase|attack damage}}. Stacks expire by one every {{fd|0.5}} seconds when the duration ends.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -54,10 +55,10 @@
           {
             "flat": 0.0,
             "percent": 0.0,
-            "perLevel": 0.0,
-            "percentPerLevel": 0.0,
-            "percentBase": 0.0,
-            "percentBonus": 0.0
+            "per_level": 0.0,
+            "percent_per_level": 0.0,
+            "percent_base": 0.0,
+            "percent_bonus": 0.0
           }
         ],
         "attackSpeed": {
@@ -197,6 +198,7 @@
       "name": "Spellblade",
       "effects": "After using an [[Champion ability|ability]], your next basic attack within 10 seconds deals {{as|200% '''base''' AD}} {{as|'''bonus''' physical damage}} [[on-hit]].",
       "range": null,
+      "cooldown": "{{fd|1.5}} (begins after using the empowered attack)",
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -369,6 +371,7 @@
       "name": "Mythic",
       "effects": null,
       "range": 0,
+      "cooldown": 0,
       "stats": {
         "abilityPower": {
           "flat": 0.0,

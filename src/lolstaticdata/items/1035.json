@@ -10,7 +10,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/1035_alll_t1_emberknife.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/1035_alll_t1_emberknife.png",
   "simpleDescription": null,
   "nicknames": [
     "jungle"
@@ -20,7 +20,7 @@
       "unique": true,
       "mythic": false,
       "name": "Sear",
-      "effects": "Damaging monsters burns them for {{as|60 {{as|(+ 30% AP)}} {{as|(+ 5% '''bonus''' AD)}} {{as|(+ 2% '''bonus''' health)}} magic damage|magic damage}} over 5 seconds. Omnivamp against monsters provided by this item is not reduced by [[area of effect]] damage.",
+      "effects": "Damaging monsters burns them for{{ft|{{as|60 {{as|(+ 30% AP)}} {{as|(+ 5% '''bonus''' AD)}} {{as|(+ 2% '''bonus''' health)}} '''total''' magic damage|magic damage}} over 5 seconds.|{{as|12|magic damage}} {{as|(+ 6% AP)}} {{as|(+ 1% '''bonus''' AD)}} {{as|(+ {{fd|0.4}}% '''bonus''' health)}} {{as|magic damage}} every second over 5 seconds.}}Omnivamp against monsters provided by this item is not reduced by [[area of effect]] damage.",
       "range": null,
       "stats": {
         "abilityPower": {
@@ -192,7 +192,7 @@
       "unique": true,
       "mythic": false,
       "name": "Challenging Path",
-      "effects": "Using {{si|Smite}} 5 times '''consumes this item''' to upgrade your Smite into {{si|Challenging Smite}}, doubling its damage, and grants all of this item's effects permanently after a {{fd|2.5}}-second delay.",
+      "effects": "Using {{si|Smite}} 5 times '''consumes this item''' to upgrade the spell into {{si|Challenging Smite}}, doubling its damage, and grants all of this item's effects permanently after a {{fd|2.5}}-second delay.",
       "range": null,
       "stats": {
         "abilityPower": {
@@ -539,7 +539,7 @@
       "effects": "Regenerate up to {{as|{{pp|8 to 18}} mana}} per second while in the jungle or river, based on {{as|'''missing''' mana}}.",
       "range": null,
       "stats": {
-        "abilityPower": {
+        "ability_power": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -555,7 +555,7 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "armorPenetration": {
+        "armor_penetration": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -563,7 +563,7 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "attackDamage": [
+        "attack_damage": [
           {
             "flat": 0.0,
             "percent": 0.0,
@@ -573,7 +573,7 @@
             "percentBonus": 0.0
           }
         ],
-        "attackSpeed": {
+        "attack_speed": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -581,7 +581,7 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "cooldownReduction": {
+        "cooldown_reduction": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -589,7 +589,7 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "criticalStrikeChance": {
+        "critical_strike_chance": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -597,7 +597,7 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "goldPer_10": {
+        "gold_per_10": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -605,7 +605,7 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "healAndShieldPower": {
+        "heal_and_shield_power": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -621,7 +621,7 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "healthRegen": {
+        "health_regen": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -645,7 +645,7 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "magicPenetration": {
+        "magic_penetration": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -653,7 +653,7 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "magicResistance": {
+        "magic_resistance": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -669,7 +669,7 @@
           "percentBase": 0.0,
           "percentBonus": 0.0
         },
-        "manaRegen": {
+        "mana_regen": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -678,7 +678,7 @@
           "percentBonus": 0.0
         },
         "movespeed": 0.0,
-        "abilityHaste": {
+        "ability_haste": {
           "flat": 0.0,
           "percent": 0.0,
           "perLevel": 0.0,
@@ -882,7 +882,7 @@
       "combined": 0,
       "sell": 140
     },
-    "purchasable": true,
+    "purchasable": false,
     "tags": [
       "FIGHTER",
       "MARKSMAN",

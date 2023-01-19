@@ -4,7 +4,7 @@
   "name": "Warwick",
   "title": "the Uncaged Wrath of Zaun",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Warwick.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Warwick.png",
   "resource": "MANA",
   "attackType": "MELEE",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -217,7 +217,7 @@
         "projectile": null,
         "onHitEffects": null,
         "occurrence": null,
-        "notes": "Eternal Hunger does not affect:\nstructures\nwards (except  effigies),\n Gangplank's  kegs\n 𝐏𝐄𝐍𝐃𝐈𝐍𝐆 𝐅𝐎𝐑 𝐓𝐄𝐒𝐓  Other units with modified health behaviour.",
+        "notes": "Eternal Hunger does not affect:\nstructures\nwards (except  effigies),\n Gangplank's  kegs\n Illaoi's  Tentacles\n 𝐏𝐄𝐍𝐃𝐈𝐍𝐆 𝐅𝐎𝐑 𝐓𝐄𝐒𝐓  Other units with modified health behaviour.",
         "blurb": "Innate:  Warwick deals bonus magic damage on-hit.",
         "missileSpeed": null,
         "rechargeRate": null,
@@ -239,10 +239,10 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Warwick/ability-icon/q",
         "effects": [
           {
-            "description": "Active: Warwick lunges at the target enemy and bites them, dealing 120% AD (+ 100% AP) magic damage plus bonus magic damage based on the target's maximum health, healing himself for a percentage of the post-mitigation damage dealt, as well as applying on-hit and on-attack effects, and life steal at 100% effectiveness.",
+            "description": "Active: Warwick lunges at the target enemy over 0.264 seconds and bites them, dealing magic damage, healing himself for a percentage of the post-mitigation damage dealt, as well as applying on-hit and on-attack effects, and life steal at 100% effectiveness. The damage based on the target's health ratio is capped against monsters.",
             "leveling": [
               {
-                "attribute": "Bonus Magic Damage",
+                "attribute": "Magic Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -259,11 +259,43 @@
                       "% of target's maximum health",
                       "% of target's maximum health"
                     ]
+                  },
+                  {
+                    "values": [
+                      120,
+                      120,
+                      120,
+                      120,
+                      120
+                    ],
+                    "units": [
+                      "% AD",
+                      "% AD",
+                      "% AD",
+                      "% AD",
+                      "% AD"
+                    ]
+                  },
+                  {
+                    "values": [
+                      100,
+                      100,
+                      100,
+                      100,
+                      100
+                    ],
+                    "units": [
+                      "% AP",
+                      "% AP",
+                      "% AP",
+                      "% AP",
+                      "% AP"
+                    ]
                   }
                 ]
               },
               {
-                "attribute": "Cap Against Monsters",
+                "attribute": "Maximum Monster Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -279,6 +311,38 @@
                       "",
                       "",
                       ""
+                    ]
+                  },
+                  {
+                    "values": [
+                      120,
+                      120,
+                      120,
+                      120,
+                      120
+                    ],
+                    "units": [
+                      "% AD",
+                      "% AD",
+                      "% AD",
+                      "% AD",
+                      "% AD"
+                    ]
+                  },
+                  {
+                    "values": [
+                      100,
+                      100,
+                      100,
+                      100,
+                      100
+                    ],
+                    "units": [
+                      "% AP",
+                      "% AP",
+                      "% AP",
+                      "% AP",
+                      "% AP"
                     ]
                   }
                 ]
@@ -365,7 +429,7 @@
         "projectile": null,
         "onHitEffects": "True",
         "occurrence": null,
-        "notes": "Details\nJaws of the Beast deals  basic damage, but also triggers spell effects by dealing an additional 0  spell damage.\nJaws of the Beast has a 0.264 seconds seconds cast delay, which is the amount of time required for the bite to occur from the start of the cast. This should not be confused with [cast times].\nIf the cast started beforehand, both the damage and the heal occur even after Warwick's  death, or during  resurrection.\nIf the target dies prior to Warwick reaching them, Jaws of the Beast refunds its cooldown when tapped. The ability can be still held, however, Warwick is no longer eligible for the refund in this case.  Correction: The refund can occasionally fail. (bug)\nThe healing is calculated only from Jaws of the Beast's damage, while additional effects, such as on-hits, are not.\nWhile the bite always occurs after the same delay, the time spent lunging does not, which depends on the range Jaws of the Beast was cast away from the target, up to 0.5 seconds when cast at maximum range.\nThis does not affect the  lockout timer, which is the same as the bite's delay.\nThe lunge always places Warwick to his attack range to the center of his target, while the dash will place him up to the edge of his attack range from the target's edge.\nIt has been special cased so Warwick does not follow an enemy's  Recall or a  Sion that revives from  Glory in Death.Correction: This may occasionally fail. Also note that as of currently, if Warwick manages to bite the target in those conditions, he will almost always end up following them to their base. (bug)\nJaws of the Beast's channel cannot be initiated while  grounded or  rooted. Warwick can only use the normal cast.\nThe channel will not be interrupted by either of the two effects, despite the lock-on being a movement channel.\nInteractions & Other\n\nIn order to hit the cap, the target monster needs to have at least 1667 / 1786 / 1875 / 1945 / 2000 health.\nJaws of the Beast is the only ability in the game that combines  channeling with  displacement immunity. Every  interrupting crowd control effect that is not resisted by the displacement immunity will prematurely stop the  dash.\nThe bite can still occur if cast before the crowd control application, but Warwick cannot start channeling.\nAbilities that apply both  stun and  airborne at the same time cause Warwick to ignore the displacement, but prematurely stop the channel and the dash.\nThe only exception to this is  Sion's  Glory in Death.\nWarwick will follow enemies that move via  attachment effects but the lock-on will not be extended.\nWhile Jaws of the Beast does not use Quick Casting by default, click-and-hold is comparable to the input required to use  Bone Skewer or  Comet Spear. It does not accept two-click input (e.g. First Cast and Recast) that abilities like  Piercing Arrow or  Decimating Smash use in Standard Casting.\nWarwick will attempt to basic attack the target after a short delay.\nThe following table refers for interactions while Warwick is  channeling:\n\n\nType\n\nCharge channel\n\n\nAttacking\n\nDisabled\n\n\nAbilities\n\n Primal Howl is usable.  Blood Hunt and  Infinite Duress are disabled.\n\n\nMovement\n\nDisabled\n\n\nItems\n\nUsable\n\n Shurelya's Battlesong  Turbo Chemtank  Youmuu's Ghostblade  Gargoyle Stoneplate  Randuin's Omen\n\n\nDisabled\n\n Hextech Rocketbelt\n\n\nInterrupted by\n\nAll item-actives not specified above interrupt\n\n\nConsumables\n\nUsable\n\n\nSpells\n\nUsable\n\n Barrier  Clarity  Cleanse  Exhaust  Ghost  Heal  Ignite  Smite\n\n\nDisabled\n\nN/A\n\n\nInterrupted by\n\n Flash  Teleport  Recall  Hexflash\n\n\nInterrupted by\n\nDeath Cast-inhibiting effects\n\nKnown Issues\n\nJaws of the Beast will also refund its  cooldown if it kills the target after being held for exactly its bite delay. (bug)\nThe ability can be shortly cast on a dead target, with the ability going on cooldown.(bug)",
+        "notes": "Details\nJaws of the Beast deals  basic damage, but also triggers spell effects by dealing an additional 0  spell damage.\nJaws of the Beast has a 0.264 seconds cast delay, which is the amount of time required for the bite to occur from the start of the cast. This should not be confused with [cast times].\nIf the cast started beforehand, both the damage and the heal occur even after Warwick's  death, or during  resurrection.\nIf the target dies prior to Warwick reaching them, Jaws of the Beast refunds its cooldown when tapped. The ability can be still held, however, Warwick is no longer eligible for the refund in this case.  Correction: The refund can occasionally fail. (bug)\nThe healing is calculated only from Jaws of the Beast's damage, while additional effects, such as on-hits, are not.\nWhile the bite always occurs after the same delay, the time spent lunging does not, which depends on the range Jaws of the Beast was cast away from the target, up to 0.5 seconds when cast at maximum range.\nThis does not affect the  lockout timer, which is the same as the bite's delay.\nThe lunge always places Warwick to his attack range to the center of his target, while the dash will place him up to the edge of his attack range from the target's edge.\nIt has been special cased so Warwick does not follow an enemy's  Recall or a  Sion that revives from  Glory in Death.Correction: This may occasionally fail. Also note that as of currently, if Warwick manages to bite the target in those conditions, he will almost always end up following them to their base. (bug)\nJaws of the Beast's channel cannot be initiated while  grounded or  rooted. Warwick can only use the normal cast.\nThe channel will not be interrupted by either of the two effects, despite the lock-on being a movement channel.\nInteractions & Other\n\nIn order to hit the cap, the target monster needs to have at least 1667 / 1786 / 1875 / 1945 / 2000 health.\nJaws of the Beast is the only ability in the game that combines  channeling with  displacement immunity. Every  interrupting crowd control effect that is not resisted by the displacement immunity will prematurely stop the  dash.\nThe bite can still occur if cast before the crowd control application, but Warwick cannot start channeling.\nAbilities that apply both  stun and  airborne at the same time cause Warwick to ignore the displacement, but prematurely stop the channel and the dash.\nThe only exception to this is  Sion's  Glory in Death.\nWarwick will follow enemies that move via  attachment effects but the lock-on will not be extended.\nWhile Jaws of the Beast does not use Quick Casting by default, click-and-hold is comparable to the input required to use  Bone Skewer or  Comet Spear. It does not accept two-click input (e.g. First Cast and Recast) that abilities like  Piercing Arrow or  Decimating Smash use in Standard Casting.\nWarwick will attempt to basic attack the target after a short delay.\nThe following table refers for interactions while Warwick is  channeling:\n\n\nType\n\nCharge channel\n\n\nAttacking\n\nDisabled\n\n\nAbilities\n\n Primal Howl is usable.  Blood Hunt and  Infinite Duress are disabled.\n\n\nMovement\n\nDisabled\n\n\nItems\n\nUsable\n\n Shurelya's Battlesong  Turbo Chemtank  Youmuu's Ghostblade  Gargoyle Stoneplate  Randuin's Omen\n\n\nDisabled\n\n Hextech Rocketbelt\n\n\nInterrupted by\n\nAll item-actives not specified above interrupt\n\n\nConsumables\n\nUsable\n\n\nSpells\n\nUsable\n\n Barrier  Clarity  Cleanse  Exhaust  Ghost  Heal  Ignite  Smite\n\n\nDisabled\n\nN/A\n\n\nInterrupted by\n\n Flash  Teleport  Recall  Hexflash\n\n\nInterrupted by\n\nDeath Cast-inhibiting effects\n\nKnown Issues\n\nJaws of the Beast will also refund its  cooldown if it kills the target after being held for exactly its bite delay. (bug)\nThe ability can be shortly cast on a dead target, with the ability going on cooldown.(bug)",
         "blurb": "Active:  Warwick lunges at his target and bites them, dealing magic damage that is increased based on the target's maximum health and  healing himself for a portion of the damage dealt. When held, he also  charges briefly,  leaping behind his target.",
         "missileSpeed": null,
         "rechargeRate": null,
@@ -489,7 +553,7 @@
             "leveling": []
           },
           {
-            "description": "Blood Hunt is placed on a 3-second static cooldown during champion combat. Additionally, while no enemy champions are marked, the cooldown of Blood Hunt runs out twice as quickly - it is reduced by an additional second for each second passed.",
+            "description": "Blood Hunt is placed on a 3-second static cooldown during champion combat. Additionally, while no enemy champions are marked, the current cooldown of Blood Hunt runs out twice as quickly - it is reduced by an additional second for each second passed.",
             "leveling": []
           }
         ],
@@ -650,7 +714,7 @@
         "onHitEffects": null,
         "occurrence": null,
         "notes": "The initial cast and the manual recast count as ability activations for the purposes of on-cast effects such as  Spellblade and stacking  Force Pulse.\nIf the ability is not manually recasted, the secondary effect will trigger without being considered as an ability activation.\nThe recast's howling animation has a 0.5-second  lockout time.\nThis will also cancel Warwick's basic attack.\nWarwick cannot attack or cast abilities during the animation, instead the last input will be buffered to play after it ends.\nWarwick will automatically recast if he enters  resurrection.",
-        "blurb": "Active:  Warwick gains  damage reduction for a short time. Primal Howl can be recast within the duration, and does so automatically afterwards.",
+        "blurb": "Active:  Warwick gains damage reduction for a short time. Primal Howl can be recast within the duration, and does so automatically afterwards.",
         "missileSpeed": null,
         "rechargeRate": null,
         "collisionRadius": null,
@@ -785,6 +849,7 @@
     "saleRp": 0
   },
   "lore": "Warwick is a monster who hunts the gray alleys of Zaun. Transformed by agonizing experiments, his body is fused with an intricate system of chambers and pumps, machinery filling his veins with alchemical rage. Bursting out of the shadows, he preys upon those criminals who terrorize the city's depths. Warwick is drawn to blood, and driven mad by its scent. None who spill it can escape him.",
+  "faction": "zaun",
   "skins": [
     {
       "name": "Original",
@@ -830,9 +895,7 @@
       "chromas": [],
       "lore": null,
       "release": "2010-03-31",
-      "set": [
-        "Disguise"
-      ],
+      "set": [],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/19/19002.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/19/19002.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/19/19002.jpg",
@@ -887,7 +950,7 @@
       "availability": "Rare",
       "formatName": "Grey",
       "lootEligible": false,
-      "cost": 2400,
+      "cost": "special",
       "sale": 0,
       "distribution": "Honor Capsule",
       "rarity": "NoRarity",
@@ -990,7 +1053,9 @@
       "chromas": [],
       "lore": null,
       "release": "2010-08-15",
-      "set": [],
+      "set": [
+        "Freljord"
+      ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/19/19004.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/19/19004.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/19/19004.jpg",
@@ -1148,9 +1213,7 @@
       "chromas": [],
       "lore": null,
       "release": "2017-11-08",
-      "set": [
-        "Disguise"
-      ],
+      "set": [],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/19/19009.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/19/19009.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/19/19009.jpg",
@@ -1743,8 +1806,8 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/19/19035.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/19/19035.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/19/19035.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/warwick/skins/skin35/warwickloadscreen_35.pie_c_11_16.jpg",
-      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/warwick/skins/skin35/warwickloadscreen_35_le.pie_c_11_16.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/warwick/skins/skin35/warwickloadscreen_35.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/warwick/skins/skin35/warwickloadscreen_35_le.jpg",
       "newEffects": true,
       "newAnimations": true,
       "newRecall": true,

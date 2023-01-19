@@ -4,7 +4,7 @@
   "tier": 4,
   "rank": [],
   "buildsFrom": [
-    6664
+    6662
   ],
   "buildsInto": [],
   "specialRecipe": 0,
@@ -12,7 +12,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "Ornn",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6664_tank_t4_acceleratedchemtank.png",
+  "icon": "https://raw.communitydragon.org/12.21/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6664_tank_t4_acceleratedchemtank.png",
   "simpleDescription": null,
   "nicknames": [
     "catastrophe"
@@ -22,7 +22,7 @@
       "unique": true,
       "mythic": false,
       "name": "Refuel",
-      "effects": "Moving and taking damage fills up the ''Chemtank'', gaining stacks. Gain 5 stacks per instance of damage taken from champions and large monsters per cast instance and 1 stack for every 25 units travelled, capped at 10 stacks when travelling by [[dash]]es or [[blink]]s. At 100 stacks, your next basic attack deals {{as|{{pp|40 to 120}}|magic damage}} {{as|(+ 1% '''maximum''' health)}} {{as|(+ 3% movement speed)}} {{as|magic damage}} to all nearby enemies, increased by 30% against minions and 200% against monsters.",
+      "effects": "Moving and taking damage fills up the ''Chemtank'', gaining stacks. Gain 5 stacks per instance of damage taken from champions and large monsters per cast instance and 1 stack for every 25 units travelled, capped at 10 stacks when travelling by [[dash]]es or [[blink]]s. At 100 stacks, your next basic attack deals {{as|{{pp|40 to 120}}|magic damage}} {{as|(+ 1% '''maximum''' health)}} {{as|(+ 3% movement speed)}} {{as|magic damage}} to all enemies within {{tip|cr|icononly=true}} 400 units, increased by 30% against minions and 200% against monsters.",
       "range": null,
       "stats": {
         "abilityPower": {
@@ -379,7 +379,7 @@
     {
       "unique": true,
       "name": "Supercharged",
-      "effects": "For 4 seconds, grants {{as|40% '''bonus''' movement speed}} and {{tip|ghosted|ghosting}} when moving towards a {{tip|turret}} or {{tip|sight|visible}} enemy champion within 2000 units. After the duration or when an enemy champion is within {{tt|225 units|center to edge}}, you emit a shockwave, {{tip|slow|slowing}} enemy champions within {{tip|cr|450}} range by 50% for {{fd|1.5}} seconds.",
+      "effects": "For 4 seconds, grants {{as|40% '''bonus''' movement speed}} and {{tip|ghosted|ghosting}} while facing a {{tip|turret}} or {{tip|sight|visible}} enemy champion within 2000 units. After the duration or when an enemy champion is within {{tt|225 units|center to edge}}, you emit a shockwave, {{tip|slow|slowing}} enemy champions within {{tip|cr|icononly=true}} 450 units by 50% for {{fd|1.5}} seconds.",
       "range": null,
       "cooldown": null
     }

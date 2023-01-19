@@ -4,7 +4,7 @@
   "name": "Renekton",
   "title": "the Butcher of the Sands",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Renekton.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Renekton.png",
   "resource": "FURY",
   "attackType": "MELEE",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -130,7 +130,7 @@
       "percentPerLevel": 0.0
     },
     "aramDamageTaken": {
-      "flat": 0.95,
+      "flat": 1.0,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
@@ -202,11 +202,11 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Renekton/ability-icon/p",
         "effects": [
           {
-            "description": "Innate: Renekton's basic attacks generate 5 Fury, which expires by 1 Fury every 0.25 seconds after 12 seconds out of combat.",
+            "description": "Innate: Renekton's basic attacks generate 5 Fury. After 12 seconds of being out of combat, he loses 1 Fury every 0.25 seconds.",
             "leveling": []
           },
           {
-            "description": "While Renekton has at least 50 Fury, his next basic ability consumes 50 Fury to become empowered with an additional effect, and does not generate Fury.",
+            "description": "While Renekton has at least 50 Fury, his next basic ability consumes 50 Fury to become empowered with an additional effect. Empowered abilities do not generate Fury.",
             "leveling": []
           },
           {
@@ -254,11 +254,11 @@
                 "modifiers": [
                   {
                     "values": [
-                      65,
-                      100,
-                      135,
-                      170,
-                      205
+                      60,
+                      90,
+                      120,
+                      150,
+                      180
                     ],
                     "units": [
                       "",
@@ -270,11 +270,11 @@
                   },
                   {
                     "values": [
-                      80,
-                      80,
-                      80,
-                      80,
-                      80
+                      100,
+                      100,
+                      100,
+                      100,
+                      100
                     ],
                     "units": [
                       "% bonus AD",
@@ -287,15 +287,15 @@
                 ]
               },
               {
-                "attribute": "Enhanced Physical Damage",
+                "attribute": "Enhanced Damage",
                 "modifiers": [
                   {
                     "values": [
-                      100,
-                      150,
-                      200,
-                      250,
-                      300
+                      90,
+                      135,
+                      180,
+                      225,
+                      270
                     ],
                     "units": [
                       "",
@@ -307,11 +307,11 @@
                   },
                   {
                     "values": [
-                      120,
-                      120,
-                      120,
-                      120,
-                      120
+                      140,
+                      140,
+                      140,
+                      140,
+                      140
                     ],
                     "units": [
                       "% bonus AD",
@@ -525,7 +525,7 @@
             "leveling": []
           },
           {
-            "description": "Reign of Anger Bonus: Cull the Meek has increased damage, increased total healing by 200%, and increased healing cap by 300%.",
+            "description": "Reign of Anger Bonus: Cull the Meek has increased damage, tripled total healing, and a quadrupled healing cap.",
             "leveling": []
           },
           {
@@ -907,10 +907,47 @@
             "leveling": []
           },
           {
-            "description": "Reign of Anger Bonus: Dice deals additional damage to enemies and inflicts them with armor reduction for 4 seconds.",
+            "description": "Reign of Anger Bonus: Dice deals bonus physical damage and inflicts armor reduction to enemies hit for 4 seconds.",
             "leveling": [
               {
-                "attribute": "Enhanced Physical Damage",
+                "attribute": "Bonus Physical Damage",
+                "modifiers": [
+                  {
+                    "values": [
+                      30,
+                      45,
+                      60,
+                      75,
+                      90
+                    ],
+                    "units": [
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "values": [
+                      45,
+                      45,
+                      45,
+                      45,
+                      45
+                    ],
+                    "units": [
+                      "% bonus AD",
+                      "% bonus AD",
+                      "% bonus AD",
+                      "% bonus AD",
+                      "% bonus AD"
+                    ]
+                  }
+                ]
+              },
+              {
+                "attribute": "Total Bonus Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -947,7 +984,7 @@
                 ]
               },
               {
-                "attribute": "Total Enhanced Damage",
+                "attribute": "Total Physical Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -1040,7 +1077,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Renekton/ability-icon/r",
         "effects": [
           {
-            "description": "Active: Renekton empowers himself for 15 seconds, gaining bonus health, 20% increased size, 25 bonus range, 20 Fury and increasing Cull the Meek's effect radius.",
+            "description": "Active: Renekton empowers himself for 15 seconds, gaining bonus health, 20% increased size, 25 bonus attack range, and 20 Fury, as well as increasing Cull the Meek's effect radius.",
             "leveling": [
               {
                 "attribute": "Bonus Health",
@@ -1195,13 +1232,14 @@
   },
   "releaseDate": "2011-01-18",
   "releasePatch": "1.0.0.109",
-  "patchLastChanged": "12.14",
+  "patchLastChanged": "12.17",
   "price": {
     "blueEssence": 4800,
     "rp": 880,
     "saleRp": 0
   },
   "lore": "Renekton is a terrifying, rage-fueled Ascended being from the scorched deserts of Shurima. Once, he was his empire's most esteemed warrior, leading the nation's armies to countless victories. However, after the empire's fall, Renekton was entombed beneath the sands, and slowly, as the world turned and changed, he succumbed to insanity. Now free once more, he is utterly consumed with finding and killing his brother, Nasus, who he blames, in his madness, for the centuries he spent in darkness.",
+  "faction": "shurima",
   "skins": [
     {
       "name": "Original",
@@ -1301,9 +1339,7 @@
       "voiceActor": [
         "Patrick Seitz"
       ],
-      "splashArtist": [
-        "Wesley Keil"
-      ]
+      "splashArtist": []
     },
     {
       "name": "Bloodfury",
@@ -1351,7 +1387,9 @@
       "chromas": [],
       "lore": null,
       "release": "2012-04-30",
-      "set": [],
+      "set": [
+        "Otherroads"
+      ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/58/58004.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/58/58004.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/58/58004.jpg",

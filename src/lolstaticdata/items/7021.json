@@ -12,7 +12,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "Ornn",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6617_enchanter_t4_moonstonerenewer.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6617_enchanter_t4_moonstonerenewer.png",
   "simpleDescription": null,
   "nicknames": [
     "yuumi"
@@ -24,6 +24,7 @@
       "name": "Starlit Grace",
       "effects": "When affecting champions with attacks or abilities in combat, {{tip|heal}} the nearby allied champion (''excluding yourself'') with the most {{as|'''missing''' health}} for 60.",
       "range": null,
+      "cooldown": "2",
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -196,6 +197,7 @@
       "name": "Mythic",
       "effects": null,
       "range": 0,
+      "cooldown": 0,
       "stats": {
         "abilityPower": {
           "flat": 0.0,

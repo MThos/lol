@@ -14,7 +14,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3053_steraks_gage.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3053_steraks_gage.png",
   "simpleDescription": "Shields against large bursts of damage",
   "nicknames": [
     "juggernaut",
@@ -27,8 +27,9 @@
       "unique": true,
       "mythic": false,
       "name": "The Claws that Catch",
-      "effects": "Gain {{as|45% '''base''' AD}} as '''bonus''' attack damage.",
+      "effects": "Gain {{as|'''bonus''' attack damage}} equal to {{as|50% '''base''' AD}}.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -199,8 +200,9 @@
       "unique": true,
       "mythic": false,
       "name": "Lifeline",
-      "effects": "If you would take damage that would reduce you below {{as|30% of your '''maximum''' health}}, gain a {{tip|shield}} equal to {{as|75% of '''bonus''' health}} that decays over {{fd|3.75}} seconds.",
+      "effects": "If you would take damage that would reduce you below {{as|30% of your '''maximum''' health}}, gain a {{tip|shield}} equal to {{as|80% of '''bonus''' health}} that decays over {{fd|4.5}} seconds.",
       "range": null,
+      "cooldown": "60",
       "stats": {
         "abilityPower": {
           "flat": 0.0,

@@ -4,7 +4,7 @@
   "name": "Kayle",
   "title": "the Righteous",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Kayle.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Kayle.png",
   "resource": "MANA",
   "attackType": "MELEE",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -206,7 +206,7 @@
             "leveling": []
           },
           {
-            "description": "Level 1 - Zealous: Kayle's basic attacks on-attack generate a stack of Zeal that lasts 5 seconds, which refreshes on subsequent hits and stacks up to 5 times. For each stack, she gains 6% (+ 1% per 100 AP) bonus attack speed, up to a maximum 30% (+ 5% per 100 AP). At max stacks, she becomes Exalted, gaining 8% bonus movement speed.",
+            "description": "Level 1 - Zealous: Kayle's basic attacks on-attack generate a stack of Zeal for 5 seconds, refreshing on subsequent hits and stacking up to 5 times. For each stack, she gains 6% (+ 1% per 100 AP) bonus attack speed, up to a maximum 30% (+ 5% per 100 AP). At max stacks, she becomes Exalted, gaining 8% bonus movement speed.",
             "leveling": []
           },
           {
@@ -858,6 +858,7 @@
     "saleRp": 0
   },
   "lore": "Born to a Targonian Aspect at the height of the Rune Wars, Kayle honored her mother's legacy by fighting for justice on wings of divine flame. She and her twin sister Morgana were the protectors of Demacia for many years—until Kayle became disillusioned with the repeated failings of mortals, and abandoned this realm altogether. Still, legends are told of her punishing the unjust with her fiery swords, and many hope that she will one day return…",
+  "faction": "demacia",
   "skins": [
     {
       "name": "Original",
@@ -889,7 +890,8 @@
       ],
       "splashArtist": [
         "Jessica 'OwleyCat' Oyhenart",
-        "Victor '3rdColossus' Maury"
+        "Victor '3rdColossus' Maury",
+        "Jennifer Wuestling"
       ]
     },
     {
@@ -1080,7 +1082,9 @@
       "chromas": [],
       "lore": "Having cast aside her humanity, Kayle has transcended and fully assumed her mother's mantle as the divine Aspect of Justice. She is aware of her mortal origins, but views it as something distant that she left behind very long ago.",
       "release": "2010-07-13",
-      "set": [],
+      "set": [
+        "Otherroads"
+      ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/10/10003.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/10/10003.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/10/10003.jpg",
@@ -2025,7 +2029,7 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/10/10033.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/10/10033.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/10/10033.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin33/kayleloadscreen_33.pie_c_11_18.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin33/kayleloadscreen_33.jpg",
       "loadScreenVintagePath": null,
       "newEffects": true,
       "newAnimations": true,

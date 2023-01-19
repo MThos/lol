@@ -4,7 +4,7 @@
   "name": "Braum",
   "title": "the Heart of the Freljord",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Braum.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.23.1/img/champion/Braum.png",
   "resource": "MANA",
   "attackType": "MELEE",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -202,11 +202,11 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Braum/ability-icon/p",
         "effects": [
           {
-            "description": "Innate: Braum's basic attacks and Winter's Bite each apply a Concussive Blows stack to their target for 4 seconds, stacking up to 4 times, refreshing with each application. Once the first stack has been applied, any allied champion's basic attack applies an additional stack to the target on-hit.",
+            "description": "Innate: Braum's basic attacks and Winter's Bite each apply a stack of Concussive Blows to their target for 4 seconds, refreshing on subsequent applications and stacking up to 4 times. Once the first stack has been applied, any allied champion's basic attack applies an additional stack to the target on-hit.",
             "leveling": []
           },
           {
-            "description": "Upon applying 4 stacks to a target, Concussive Blows is consumed to deal 26 − 196 (based on level) magic damage and stun them for 1.25 − 1.75 (based on level) seconds.",
+            "description": "The fourth stack against a target consumes them all to deal 26 − 196 (based on level) magic damage and stun them for 1.25 − 1.75 (based on level) seconds.",
             "leveling": []
           },
           {
@@ -619,7 +619,7 @@
                 ]
               },
               {
-                "attribute": "Duration",
+                "attribute": "Barrier Duration",
                 "modifiers": [
                   {
                     "values": [
@@ -864,6 +864,7 @@
     "saleRp": 0
   },
   "lore": "Blessed with massive biceps and an even bigger heart, Braum is a beloved hero of the Freljord. Every mead hall north of Frostheld toasts his legendary strength, said to have felled a forest of oaks in a single night, and punched an entire mountain into rubble. Bearing an enchanted vault door as his shield, Braum roams the frozen north sporting a mustachioed smile as big as his muscles—a true friend to all those in need.",
+  "faction": "freljord",
   "skins": [
     {
       "name": "Original",
@@ -872,7 +873,7 @@
       "availability": "Available",
       "formatName": "Original",
       "lootEligible": true,
-      "cost": 975,
+      "cost": 880,
       "sale": 0,
       "distribution": null,
       "rarity": "NoRarity",
@@ -1818,7 +1819,7 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/201/201033.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/201/201033.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/201/201033.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/braum/skins/skin33/braumloadscreen_33.pie_c_11_12.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/braum/skins/skin33/braumloadscreen_33.jpg",
       "loadScreenVintagePath": null,
       "newEffects": true,
       "newAnimations": true,

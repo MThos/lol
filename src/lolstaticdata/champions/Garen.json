@@ -4,7 +4,7 @@
   "name": "Garen",
   "title": "The Might of Demacia",
   "fullName": "Garen Crownguard",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Garen.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Garen.png",
   "resource": "NONE",
   "attackType": "MELEE",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -368,15 +368,15 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Garen/ability-icon/w",
         "effects": [
           {
-            "description": "Passive: Garen gains 0.2 bonus armor and 0.2 bonus magic resistance every time he kills an enemy, up to a maximum of 30 bonus resistances at 150 unit kills.",
+            "description": "Passive: Whenever Garen kills an enemy, he generates a stack of Courage, stacking up to 150 times.",
             "leveling": []
           },
           {
-            "description": "After reaching maximum stacks, Garen gains 10% bonus armor and 10% bonus magic resistance.",
+            "description": "Courage: For each stack, Garen gains 0.2 bonus armor and 0.2 bonus magic resistance, up to a maximum of 30 bonus resistances. After reaching maximum stacks, Garen gains 10% bonus armor and 10% bonus magic resistance.",
             "leveling": []
           },
           {
-            "description": "Active: Garen reduces incoming damage by 30% for a few seconds. For the first 0.75 seconds, Garen additionally gains a shield and 60% tenacity.",
+            "description": "Active: Garen reduces incoming damage by 30% for a few seconds. For the first 0.75 seconds, Garen additionally grants himself a shield and 60% tenacity.",
             "leveling": [
               {
                 "attribute": "Duration",
@@ -668,7 +668,7 @@
             "leveling": []
           },
           {
-            "description": "Judgment can critically strike for (58% + 35%) bonus physical damage. Additionally, Judgment deals 150% damage against non-epic monsters.",
+            "description": "Judgment can critically strike for (75% + 35%) bonus physical damage. Additionally, Judgment deals 150% damage against non-epic monsters.",
             "leveling": []
           }
         ],
@@ -805,13 +805,14 @@
   },
   "releaseDate": "2010-04-27",
   "releasePatch": "1.0.0.83",
-  "patchLastChanged": "12.10",
+  "patchLastChanged": "12.19",
   "price": {
     "blueEssence": 450,
     "rp": 260,
     "saleRp": 0
   },
   "lore": "A proud and noble warrior, Garen fights as one of the Dauntless Vanguard. He is popular among his fellows, and respected well enough by his enemies—not least as a scion of the prestigious Crownguard family, entrusted with defending Demacia and its ideals. Clad in magic-resistant armor and bearing a mighty broadsword, Garen stands ready to confront mages and sorcerers on the field of battle, in a veritable whirlwind of righteous steel.",
+  "faction": "demacia",
   "skins": [
     {
       "name": "Original",

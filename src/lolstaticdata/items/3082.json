@@ -16,7 +16,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3082_tank_t2_wardensmail.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3082_tank_t2_wardensmail.png",
   "simpleDescription": null,
   "nicknames": [],
   "passives": [
@@ -24,8 +24,9 @@
       "unique": true,
       "mythic": false,
       "name": "Rock Solid",
-      "effects": "Every incoming instance of {{tt|post-mitigation|Damage calculated after modifiers}}  {{tip|basic damage}} is [[damage modifier|reduced]] by 5 {{as|(+ {{fd|3.5}} per 1000 '''maximum''' health)}}, '''maximum''' 40% reduction each.",
+      "effects": "Every first incoming instance of {{tt|post-mitigation|Damage calculated after modifiers}} {{tip|basic damage}} per {{tip|cast instance}} is [[Damage modifier|reduced]] by 5 {{as|(+ {{fd|3.5}} per 1000 '''maximum''' health)}}, '''maximum''' 40% reduction each.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,

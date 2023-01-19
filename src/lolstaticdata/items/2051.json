@@ -10,7 +10,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/2051_guardians_horn.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/2051_aram_t1_guardianshorn.png",
   "simpleDescription": "Good starting item for tanks",
   "nicknames": [
     "Golden Arm of Kobe",
@@ -26,6 +26,7 @@
       "name": "Undaunted",
       "effects": "Reduces all sources of incoming champion damage by 15 ''({{fd|3.75}} against [[damage over time]] abilities)''.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -198,6 +199,7 @@
       "name": "Legendary",
       "effects": "This item counts as a Legendary item.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,

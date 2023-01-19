@@ -16,7 +16,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3152_mage_t4_hextechrocketbelt.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3152_mage_t4_hextechrocketbelt.png",
   "simpleDescription": "Activate to dash forward and unleash a fiery explosion",
   "nicknames": [
     "protobelt",
@@ -29,6 +29,7 @@
       "name": "Mythic",
       "effects": null,
       "range": 0,
+      "cooldown": 0,
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -205,7 +206,7 @@
     {
       "unique": true,
       "name": "Supersonic",
-      "effects": "{{tip|Dash}} 125 to 275 units in the target direction, though not through terrain, unleashing an arc of 7 rockets in the same direction that deal {{as|125 {{as|(+ 15% AP)}} magic damage|magic damage}}. Afterwards, gain {{as|30% '''bonus''' movement speed}} while moving towards nearby enemy champions for {{fd|1.5}} seconds.",
+      "effects": "{{tip|Dash}} 125 to 275 units in the target direction, though not through terrain, unleashing an arc of 7 rockets in the same direction that deal {{as|125 {{as|(+ 15% AP)}} magic damage|magic damage}} to enemies hit. Afterwards, gain {{as|30% '''bonus''' movement speed}} while facing nearby enemy champions for {{fd|1.5}} seconds.",
       "range": null,
       "cooldown": null
     }

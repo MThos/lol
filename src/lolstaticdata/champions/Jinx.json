@@ -4,7 +4,7 @@
   "name": "Jinx",
   "title": "the Loose Cannon",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Jinx.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Jinx.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -46,7 +46,7 @@
       "percentPerLevel": 0.0
     },
     "attackDamage": {
-      "flat": 57,
+      "flat": 59,
       "percent": 0.0,
       "perLevel": 3.4,
       "percentPerLevel": 0.0
@@ -200,7 +200,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Jinx/ability-icon/p",
         "effects": [
           {
-            "description": "Innate: Whenever Jinx scores a takedown against an enemy champion, epic monster, turret, or inhibitor within 3 seconds of damaging them, she gains 175% bonus movement speed which decays over 6 seconds.",
+            "description": "Innate: Whenever Jinx scores a takedown against an enemy champion, epic monster, turret, or inhibitor within 3 seconds of damaging them, she gains 175% bonus movement speed decaying over 6 seconds.",
             "leveling": []
           },
           {
@@ -245,8 +245,50 @@
             "leveling": []
           },
           {
-            "description": "Pow-Pow: Basic attacks with Pow-Pow generate a stack of Rev'd up for 2.5 seconds, stacking up to 3 times, with the duration refreshing on subsequent attacks with Pow-Pow. Rev'd up grants bonus attack speed, with the first stack being twice as potent. Stacks expire one at a time.",
+            "description": "Pow-Pow: Basic attacks with Pow-Pow generate a stack of Rev'd up for 2.5 seconds, refreshing on subsequent attacks with Pow-Pow and stacking up to 3 times. Each stack of Rev'd up grants bonus attack speed, with all stacks beyond the first one being 50% effective. Stacks expire by one when the duration ends.",
             "leveling": [
+              {
+                "attribute": "Bonus Attack Speed",
+                "modifiers": [
+                  {
+                    "values": [
+                      15,
+                      27.5,
+                      40,
+                      52.5,
+                      65
+                    ],
+                    "units": [
+                      "%",
+                      "%",
+                      "%",
+                      "%",
+                      "%"
+                    ]
+                  }
+                ]
+              },
+              {
+                "attribute": "Attack Speed per Subsequent Stack",
+                "modifiers": [
+                  {
+                    "values": [
+                      7.5,
+                      13.75,
+                      20,
+                      26.25,
+                      32.5
+                    ],
+                    "units": [
+                      "%",
+                      "%",
+                      "%",
+                      "%",
+                      "%"
+                    ]
+                  }
+                ]
+              },
               {
                 "attribute": "Maximum Attack Speed",
                 "modifiers": [
@@ -271,7 +313,7 @@
             ]
           },
           {
-            "description": "Fishbones: Basic attacks with Fishbones cost mana on-attack to deal 110% AD modified physical damage to the primary target as well as surrounding enemies. The damage is affected by critical strike modifiers. While using Fishbones, Jinx gains bonus range but loses 10% of her bonus attack speed.",
+            "description": "Fishbones: Basic attacks with Fishbones cost mana on-attack to deal 110% AD modified physical damage to the target and nearby enemies. The damage is affected by critical strike modifiers. While Fishbones is equipped, Jinx gains bonus range but loses 10% of her bonus attack speed.",
             "leveling": [
               {
                 "attribute": "Bonus Range",
@@ -508,7 +550,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Jinx/ability-icon/e",
         "effects": [
           {
-            "description": "Active: Jinx tosses out 3 Chompers at the target location that land in a perpendicular line after 0.4 seconds, arming after 0.5 seconds, and exploding after 5 seconds, dealing magic damage to all enemies within a small area.",
+            "description": "Active: Jinx tosses out 3 Chompers centered at the target location, landing after 0.4 seconds, arming after 0.5 seconds, and exploding after 5 seconds to deal magic damage to nearby enemies.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -550,7 +592,7 @@
             ]
           },
           {
-            "description": "Each Chomper explodes on contact with an enemy champion, knocking them down and rooting them for 1.5 seconds. Enemy champions can only be affected by one Chomper.",
+            "description": "Each Chomper explodes on contact with an enemy champion, knocking them down and rooting them for 1.5 seconds. Enemy champions can be affected by only one Chomper.",
             "leveling": []
           },
           {
@@ -630,20 +672,20 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Jinx/ability-icon/r",
         "effects": [
           {
-            "description": "Active: Jinx fires a rocket in the target direction, granting brief sight of the area it flies through. The rocket explodes upon colliding with an enemy champion, dealing physical damage to them and all enemies in an area around them and granting sight of the area around them for 2 seconds.",
+            "description": "Active: Jinx fires a massive rocket in the target direction, briefly granting sight of its surroundings and exploding upon colliding with an enemy champion. The explosion deals physical damage to nearby enemies and grants sight of the area for 2 seconds.",
             "leveling": []
           },
           {
-            "description": "The rocket deals 10% − 100% (based on distance traveled) damage; the bonus damage based on missing health is kept the same.",
+            "description": "Super Mega Death Rocket! deals 10% − 100% (based on distance traveled) damage. This does not affect the bonus damage based on the target's missing health.",
             "leveling": [
               {
                 "attribute": "Maximum Physical Damage",
                 "modifiers": [
                   {
                     "values": [
-                      250,
-                      400,
-                      550
+                      300,
+                      450,
+                      600
                     ],
                     "units": [
                       "",
@@ -682,9 +724,9 @@
                 "modifiers": [
                   {
                     "values": [
-                      25,
-                      40,
-                      55
+                      30,
+                      45,
+                      60
                     ],
                     "units": [
                       "",
@@ -721,16 +763,16 @@
             ]
           },
           {
-            "description": "Enemies surrounding the main target take 80% damage. Bonus damage based on missing health is based on each unit's own missing health, with a maximum bonus damage of 800 against monsters.",
+            "description": "Enemies surrounding the primary target take 80% damage. The bonus damage based on the target's missing health is capped at 800 against monsters.",
             "leveling": [
               {
                 "attribute": "Maximum Secondary Damage",
                 "modifiers": [
                   {
                     "values": [
-                      200,
-                      320,
-                      440
+                      240,
+                      360,
+                      480
                     ],
                     "units": [
                       "",
@@ -769,9 +811,9 @@
                 "modifiers": [
                   {
                     "values": [
-                      20,
-                      32,
-                      44
+                      24,
+                      36,
+                      48
                     ],
                     "units": [
                       "",
@@ -850,7 +892,7 @@
         "projectile": "TRUE",
         "onHitEffects": null,
         "occurrence": null,
-        "notes": "Spell shield will not prevent the explosion.\nSuper Mega Death Rocket's projectile has an  icon on the mini-map while it is in flight. It can be seen by only Jinx and her allies.\nUnlike similar spells, Super Mega Death Rocket will not increase it's damage when ranked up while the missile is in flight.(bug)\nThis is because the base damage is fixed at a multiple of the damage the rocket initially started with.\nThe bonus AD ratio will still update when AD is gained or lost between the cast and hit of the missile.\nThis ability will cast from wherever the caster is at the start of the cast time.",
+        "notes": "Spell shield will not prevent the explosion.\nSuper Mega Death Rocket's projectile has an  icon on the mini-map while it is in flight. It can be seen by only Jinx and her allies.\nThe bonus damage based on missing health is based on each unit's own missing health and not the primary target's.\nUnlike similar spells, Super Mega Death Rocket will not increase it's damage when ranked up while the missile is in flight.(bug)\nThis is because the base damage is fixed at a multiple of the damage the rocket initially started with.\nThe bonus AD ratio will still update when AD is gained or lost between the cast and hit of the missile.\nThis ability will cast from wherever the caster is at the start of the cast time.",
         "blurb": "Active:  Jinx fires a rocket in the target direction that explodes upon the first enemy champion hit, dealing physical damage to the target and surrounding enemies.",
         "missileSpeed": null,
         "rechargeRate": null,
@@ -869,13 +911,14 @@
   },
   "releaseDate": "2013-10-10",
   "releasePatch": "3.12",
-  "patchLastChanged": "12.14",
+  "patchLastChanged": "12.19",
   "price": {
     "blueEssence": 4800,
     "rp": 880,
     "saleRp": 0
   },
   "lore": "A manic and impulsive criminal from Zaun, Jinx lives to wreak havoc without care for the consequences. With an arsenal of deadly weapons, she unleashes the loudest blasts and brightest explosions to leave a trail of mayhem and panic in her wake. Jinx despises boredom, and gleefully brings her own chaotic brand of pandemonium wherever she goes.",
+  "faction": "zaun",
   "skins": [
     {
       "name": "Original",

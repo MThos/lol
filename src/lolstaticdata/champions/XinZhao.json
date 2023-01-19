@@ -4,7 +4,7 @@
   "name": "Xin Zhao",
   "title": "the Seneschal of Demacia",
   "fullName": "Xin Zhao",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/XinZhao.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/XinZhao.png",
   "resource": "MANA",
   "attackType": "MELEE",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -202,7 +202,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/XinZhao/ability-icon/p",
         "effects": [
           {
-            "description": "Innate: Xin Zhao's basic attacks and Wind Becomes Lightning strikes generate a stack of Determination, which stacks up to 3 times. The third stack consumes them all to deal 15 / 25 / 35 / 45% (based on level) AD bonus physical damage and heal Xin Zhao for 6 − 74 (based on level) (+ 10% AD) (+ 55% AP).",
+            "description": "Innate: Xin Zhao's basic attacks and Wind Becomes Lightning strikes generate a stack of Determination, stacking up to 3 times. The third stack consumes them all to deal 15 / 30 / 45 / 60% (based on level) AD bonus physical damage and heal Xin Zhao for 6 − 74 (based on level) (+ 10% AD) (+ 65% AP).",
             "leveling": []
           }
         ],
@@ -217,7 +217,7 @@
         "projectile": null,
         "onHitEffects": null,
         "occurrence": null,
-        "notes": "The stack counter displays 1:3 rather than the usual 0:2, meaning that a count of 1 does not translate to having 1 stack.\n Wind Becomes Lightning's generates one stack per strike that hits at least one enemy.\nStacks reset when Xin Zhao  dies.\nStacks of Determination will be gained even if the attack is  blocked.\n 𝐏𝐄𝐍𝐃𝐈𝐍𝐆 𝐅𝐎𝐑 𝐓𝐄𝐒𝐓 : Determination's interaction with parrying effects ( dodge,  blind).\nDetermination deals  proc damage.\nSince it is a separate instance of damage when applied by basic attack or either of  Wind Becomes Lightning's strikes,  flat damage reduction that applies to both the main and bonus damage such as  Amumu's  Tantrum's passive will reduce each, for twice the reduction.\nThe bonus damage cannot  critically strike.\nWhen applied by a basic attack:\nThe attack uses a unique animation.\nThe bonus damage benefits from  life steal.\n 𝐏𝐄𝐍𝐃𝐈𝐍𝐆 𝐅𝐎𝐑 𝐓𝐄𝐒𝐓  It applies life steal specifically.\nWhen applied by either of  Wind Becomes Lightning's strikes:\nTriggers against the closest target struck by the strike (equals first target to receive spell effects).\nDoes not benefit from  life steal, including not healing from Wind Becomes Lightning's 33% conversion for this bonus damage.\nSince  proc damage is 'single target',  Vamp will heal from 100% of the bonus damage.",
+        "notes": "The stack counter displays 1:3 rather than the usual 0:2, meaning that a count of 1 does not translate to having 1 stack.\n Wind Becomes Lightning's generates one stack per strike that hits at least one enemy.\nStacks reset when Xin Zhao  dies.\nStacks of Determination will be gained even if the attack is  blocked.\n 𝐏𝐄𝐍𝐃𝐈𝐍𝐆 𝐅𝐎𝐑 𝐓𝐄𝐒𝐓 : Determination's interaction with parrying effects ( dodge,  blind).\nDetermination deals  proc damage.\nSince it is a separate instance of damage when applied by basic attack or either of  Wind Becomes Lightning's strikes, flat damage reduction that applies to both the main and bonus damage such as  Amumu's  Tantrum's passive will reduce each, for twice the reduction.\nThe bonus damage cannot  critically strike.\nWhen applied by a basic attack:\nThe attack uses a unique animation.\nThe bonus damage benefits from  life steal.\n 𝐏𝐄𝐍𝐃𝐈𝐍𝐆 𝐅𝐎𝐑 𝐓𝐄𝐒𝐓  It applies life steal specifically.\nWhen applied by either of  Wind Becomes Lightning's strikes:\nTriggers against the closest target struck by the strike (equals first target to receive spell effects).\nDoes not benefit from  life steal, including not healing from Wind Becomes Lightning's 33% conversion for this bonus damage.\nSince  proc damage is 'single target',  Vamp will heal from 100% of the bonus damage.",
         "blurb": "Innate:  Xin Zhao's basic attacks and  Wind Becomes Lightning strikes generate a stack of Determination, which stacks up to 3 times.",
         "missileSpeed": null,
         "rechargeRate": null,
@@ -239,7 +239,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/XinZhao/ability-icon/q",
         "effects": [
           {
-            "description": "Active: Xin Zhao empowers his next three basic attacks on-attack to each have an uncancellable windup, deal bonus physical damage and reduce his other abilities' cooldowns by 1 second. Each attack refreshes the duration.",
+            "description": "Active: Xin Zhao empowers his next three basic attacks on-attack to each have an uncancellable windup, deal bonus physical damage and reduce his other abilities' current cooldowns by 1 second. Each attack refreshes the duration.",
             "leveling": [
               {
                 "attribute": "Bonus Physical Damage",
@@ -279,7 +279,7 @@
                 ]
               },
               {
-                "attribute": "Total Bonus Damage",
+                "attribute": "Total Bonus Physical Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -402,10 +402,10 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/XinZhao/ability-icon/w",
         "effects": [
           {
-            "description": "Active: Xin Zhao slashes in an arc and, after the cast time, thrusts his spear in a line in the target direction. Each strike deals physical damage to enemies hit, modified to 50% − 100% (based on level) against minions.\nThe thrust deals increased damage, further by 0% − 33.3% (based on critical strike chance), and slows enemies hit by 50% for 1.5 seconds, champions and monsters hit are also revealed and marked Challenged for 3 seconds.",
+            "description": "Active: Xin Zhao slashes in an arc and, after the cast time, thrusts his spear in a line in the target direction. Each strike deals physical damage to enemies hit, modified to 50% − 100% (based on level) against minions.\nThe thrust deals increased damage, further by 0% − 33.3% (based on critical strike chance), and slows enemies hit by 50% for 1.5 seconds. Enemy champions and monsters hit are also marked Challenged for 3 seconds, during which they are revealed.",
             "leveling": [
               {
-                "attribute": "Slash Damage",
+                "attribute": "Slash Physical Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -442,7 +442,7 @@
                 ]
               },
               {
-                "attribute": "Thrust Damage",
+                "attribute": "Thrust Physical Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -495,7 +495,7 @@
                 ]
               },
               {
-                "attribute": "Total Damage",
+                "attribute": "Total Physical Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -630,7 +630,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/XinZhao/ability-icon/e",
         "effects": [
           {
-            "description": "Active: Xin Zhao dashes to the target enemy's location, dealing magic damage to nearby enemies and slowing them by 30% for 0.5 seconds. Audacious Charge's range is increased against a Challenged target.",
+            "description": "Active: Xin Zhao dashes to the target enemy's location, dealing magic damage to enemies near them and slowing them by 30% for 0.5 seconds. Audacious Charge's range is increased against Challenged targets.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -726,11 +726,11 @@
           "modifiers": [
             {
               "values": [
-                12,
-                12,
-                12,
-                12,
-                12
+                11,
+                11,
+                11,
+                11,
+                11
               ],
               "units": [
                 "",
@@ -836,7 +836,7 @@
             ]
           },
           {
-            "description": "For the next 4 seconds, Xin Zhao is invulnerable against enemy champions far away from of him.",
+            "description": "For the next 4 seconds, Xin Zhao is invulnerable against enemy champions far away from him.",
             "leveling": []
           }
         ],
@@ -901,13 +901,14 @@
   },
   "releaseDate": "2010-07-13",
   "releasePatch": "1.0.0.96",
-  "patchLastChanged": "12.11",
+  "patchLastChanged": "12.21",
   "price": {
     "blueEssence": 1350,
     "rp": 585,
     "saleRp": 0
   },
   "lore": "Xin Zhao is a resolute warrior loyal to the ruling Lightshield dynasty. Once condemned to the fighting pits of Noxus, he survived countless gladiatorial bouts, but after being freed by Demacian forces, he swore his life and allegiance to these brave liberators. Armed with his favored three-talon spear, Xin Zhao now fights for his adopted kingdom, audaciously challenging any foe, no matter the odds.",
+  "faction": "demacia",
   "skins": [
     {
       "name": "Original",
@@ -1019,7 +1020,7 @@
       "lore": null,
       "release": "2010-11-22",
       "set": [
-        "Gladiator Era"
+        "Chronicle"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/5/5003.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/5/5003.jpg",

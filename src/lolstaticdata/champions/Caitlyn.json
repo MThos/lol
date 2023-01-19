@@ -4,7 +4,7 @@
   "name": "Caitlyn",
   "title": "the Sheriff of Piltover",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Caitlyn.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.23.1/img/champion/Caitlyn.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -130,7 +130,7 @@
       "percentPerLevel": 0.0
     },
     "aramDamageTaken": {
-      "flat": 1.0,
+      "flat": 1.05,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
@@ -204,7 +204,7 @@
             "leveling": []
           },
           {
-            "description": "Headshot: Caitlyn's basic attack is empowered to have an uncancellable windup and deal (60 / 85 / 110% (based on level) + (131.25% + 26.25%) critical strike chance) AD bonus physical damage, increased to (110% + (131.25% + 26.25%) critical strike chance) AD against non-champions.",
+            "description": "Headshot: Caitlyn's basic attack is empowered to have an uncancellable windup and deal (60 / 90 / 120% (based on level) + (131.25% + 26.25%) critical strike chance) AD bonus physical damage, increased to (110 / 115 / 120% (based on level) + (131.25% + 26.25%) critical strike chance) AD against non-champions.",
             "leveling": []
           },
           {
@@ -228,7 +228,7 @@
         "onHitEffects": null,
         "occurrence": null,
         "notes": "Headshot is consumed when the missile successfully hits the target.\nIf Caitlyn's current target becomes trapped by  Yordle Snap Trap or  90 Caliber Net while her attack is on cooldown, this ongoing cooldown will be refunded partially so that her next attack on them can begin earlier.\nSwapping the target to an enemy trapped by  Yordle Snap Trap or  90 Caliber Net also reduces her ongoing attack cooldown.\n 𝐏𝐄𝐍𝐃𝐈𝐍𝐆 𝐅𝐎𝐑 𝐓𝐄𝐒𝐓 : The exact attack cooldown refund appears to be 50% of the attack cooldown at current attack speed, but at a minimum amount it lets Caitlyn start the attack against the trapped target within 0.5 seconds of her previous attack windup completing.\nThe bonus range from  Rapid Firecannon will not have any effect during  trap and  net extended Headshot attacks.\nOnly the ordinary 100% attack damage portion of the attack can critically strike. The bonus from Headshot is added after the critical strike is rolled.\nThe full damage of Headshot applies  life steal.\nHeadshot is a single instance of damage, thus does not trigger  Amumu's  Tantrum's or  Warden's Mail's passives twice.\nThe basic attack triggering Headshot can  critically strike, but Headshot's damage remains unchanged if it does.\nSince Caitlyn's Art and Sustainability Update, Ability-granted Headshots are the same as the original Headshot override attack, though what lets them cast at high range is still relatively special. They trigger on-attack effects (including stacking Headshot).\n 𝐏𝐄𝐍𝐃𝐈𝐍𝐆 𝐅𝐎𝐑 𝐓𝐄𝐒𝐓   Runaan's Hurricane's Wind's Fury, is special cased to search targets with the increased range as well.\nBecause Headshot stacks are generated on-attack,  Runaan's Hurricane bolts will not generate stacks towards Headshot.\nThe empowered attack will not trigger against wards.\nStacks will still be generated towards Headshot when attacking them.",
-        "blurb": "Innate:  Caitlyn's basic attacks generate stacks of Count. At maximum stacks, her next  basic attack will fire a Headshot dealing bonus physical damage that scales with her  critical strike chance.",
+        "blurb": "Innate:  Caitlyn's basic attacks generate stacks of Count. At maximum stacks, her next basic attack will fire a Headshot dealing bonus physical damage that scales with her  critical strike chance.",
         "missileSpeed": null,
         "rechargeRate": null,
         "collisionRadius": null,
@@ -702,7 +702,7 @@
             "leveling": []
           },
           {
-            "description": "Once Caitlyn completes the channel, she fires a homing bullet toward the target that deals physical damage to the first enemy champion it hits.",
+            "description": "Once Caitlyn completes the channel, she fires a homing bullet toward the target that deals physical damage to the first enemy champion it hits, increased by 0% − 25% (based on critical strike chance).",
             "leveling": [
               {
                 "attribute": "Physical damage",
@@ -797,13 +797,14 @@
   },
   "releaseDate": "2011-01-04",
   "releasePatch": "1.0.0.108",
-  "patchLastChanged": "12.11",
+  "patchLastChanged": "12.23",
   "price": {
     "blueEssence": 4800,
     "rp": 880,
     "saleRp": 0
   },
   "lore": "Renowned as its finest peacekeeper, Caitlyn is also Piltover's best shot at ridding the city of its elusive criminal elements. She is often paired with Vi, acting as a cool counterpoint to her partner's more impetuous nature. Even though she carries a one-of-a-kind hextech rifle, Caitlyn's most powerful weapon is her superior intellect, allowing her to lay elaborate traps for any lawbreakers foolish enough to operate in the City of Progress.",
+  "faction": "piltover",
   "skins": [
     {
       "name": "Original",
@@ -887,7 +888,7 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/51/51000.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/51/51000.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/51/51000.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/caitlyn/skins/base/caitlynloadscreen_0.caitlyn_art_sustainability_update.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/caitlyn/skins/base/caitlynloadscreen_0.jpg",
       "loadScreenVintagePath": null,
       "newEffects": false,
       "newAnimations": false,
@@ -921,7 +922,7 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/51/51001.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/51/51001.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/51/51001.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/caitlyn/skins/skin01/caitlynloadscreen_1.pie_c_11_23.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/caitlyn/skins/skin01/caitlynloadscreen_1.jpg",
       "loadScreenVintagePath": null,
       "newEffects": false,
       "newAnimations": false,
@@ -956,7 +957,7 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/51/51002.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/51/51002.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/51/51002.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/caitlyn/skins/skin02/caitlynloadscreen_2.caitlyn_art_sustainability_update.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/caitlyn/skins/skin02/caitlynloadscreen_2.jpg",
       "loadScreenVintagePath": null,
       "newEffects": false,
       "newAnimations": false,
@@ -983,17 +984,17 @@
       "distribution": null,
       "rarity": "NoRarity",
       "chromas": [],
-      "lore": null,
+      "lore": "When she isn't attending galas or teaching seminars, Dr. Caitlyn Kiramman can be found exploring ancient ruins in search of historical artifacts. Armed with her trusty rifle, a wealth of esoteric knowledge, and an accident-prone Ezreal, she braves the most mysterious places in the world to bring long-dead civilizations and their secrets into the light.",
       "release": "2011-05-10",
       "set": [
-        "Web Browser"
+        "Legacy"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/51/51003.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/51/51003.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/51/51003.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/caitlyn/skins/skin03/caitlynloadscreen_3.pie_c_11_23.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/caitlyn/skins/skin03/caitlynloadscreen_3.jpg",
       "loadScreenVintagePath": null,
-      "newEffects": false,
+      "newEffects": true,
       "newAnimations": false,
       "newRecall": false,
       "newVoice": false,
@@ -1018,7 +1019,7 @@
       "distribution": null,
       "rarity": "NoRarity",
       "chromas": [],
-      "lore": null,
+      "lore": "Most people assume that Caitlyn is the \"good cop\" between her and Vi. What they don't know is that her sharp eyes, quick wit, and dedication make her one of the toughest officers on the force. She doesn't mind being underestimated, especially if it gives her the upper hand.",
       "release": "2011-10-05",
       "set": [
         "Cops and Robbers"
@@ -1026,9 +1027,9 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/51/51005.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/51/51005.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/51/51005.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/caitlyn/skins/skin05/caitlynloadscreen_5.pie_c_11_23.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/caitlyn/skins/skin05/caitlynloadscreen_5.jpg",
       "loadScreenVintagePath": null,
-      "newEffects": false,
+      "newEffects": true,
       "newAnimations": false,
       "newRecall": false,
       "newVoice": false,
@@ -1061,7 +1062,7 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/51/51004.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/51/51004.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/51/51004.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/caitlyn/skins/skin04/caitlynloadscreen_4.pie_c_11_23.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/caitlyn/skins/skin04/caitlynloadscreen_4.jpg",
       "loadScreenVintagePath": null,
       "newEffects": false,
       "newAnimations": false,
@@ -1096,7 +1097,7 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/51/51006.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/51/51006.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/51/51006.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/caitlyn/skins/skin06/caitlynloadscreen_6.pie_c_11_23.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/caitlyn/skins/skin06/caitlynloadscreen_6.jpg",
       "loadScreenVintagePath": null,
       "newEffects": true,
       "newAnimations": true,
@@ -1152,7 +1153,7 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/51/51010.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/51/51010.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/51/51010.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/caitlyn/skins/skin10/caitlynloadscreen_10.pie_c_11_23.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/caitlyn/skins/skin10/caitlynloadscreen_10.jpg",
       "loadScreenVintagePath": null,
       "newEffects": true,
       "newAnimations": true,
@@ -1346,7 +1347,7 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/51/51013.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/51/51013.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/51/51013.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/caitlyn/skins/skin13/caitlynloadscreen_13.pie_c_11_23.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/caitlyn/skins/skin13/caitlynloadscreen_13.jpg",
       "loadScreenVintagePath": null,
       "newEffects": true,
       "newAnimations": true,
@@ -1380,8 +1381,8 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/51/51019.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/51/51019.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/51/51019.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/caitlyn/skins/skin19/caitlynloadscreen_19.caitlyn_art_sustainability_update.jpg",
-      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/caitlyn/skins/skin19/caitlynloadscreen_19_le.caitlyn_art_sustainability_update.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/caitlyn/skins/skin19/caitlynloadscreen_19.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/caitlyn/skins/skin19/caitlynloadscreen_19_le.jpg",
       "newEffects": true,
       "newAnimations": true,
       "newRecall": true,
@@ -1414,7 +1415,7 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/51/51020.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/51/51020.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/51/51020.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/caitlyn/skins/skin20/caitlynloadscreen_20_le.caitlyn_art_sustainability_update.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/caitlyn/skins/skin20/caitlynloadscreen_20_le.jpg",
       "loadScreenVintagePath": null,
       "newEffects": true,
       "newAnimations": true,
@@ -1590,7 +1591,7 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/51/51028.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/51/51028.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/51/51028.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/caitlyn/skins/skin28/caitlynloadscreen_28.caitlyn_art_sustainability_update.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/caitlyn/skins/skin28/caitlynloadscreen_28.jpg",
       "loadScreenVintagePath": null,
       "newEffects": true,
       "newAnimations": true,
@@ -1603,6 +1604,41 @@
       "splashArtist": [
         "Francis Tneh",
         "West Studio"
+      ]
+    },
+    {
+      "name": "Prestige Arcade (2022)",
+      "id": 51029,
+      "isBase": false,
+      "availability": "Limited",
+      "formatName": "Prestige Arcade (2022)",
+      "lootEligible": false,
+      "cost": "special",
+      "sale": 0,
+      "distribution": "Given to players who owned the original skin prior to patch 12.5",
+      "rarity": "Mythic",
+      "chromas": [],
+      "lore": "Appearing most recently in “Sniper Cop 7” as a golden-clad secret character, Caitlyn's popularity has finally transcended games as a medium.",
+      "release": "2022-04-01",
+      "set": [
+        "Arcade: Heroes"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/51/51029.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/51/51029.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/51/51029.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/caitlyn/skins/skin29/caitlynloadscreen_29.jpg",
+      "loadScreenVintagePath": null,
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Kirsten Potter"
+      ],
+      "splashArtist": [
+        "Malex Zhang",
+        "Kudos Productions"
       ]
     },
     {

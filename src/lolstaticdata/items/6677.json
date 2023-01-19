@@ -15,7 +15,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6677_marksman_t2_rageknife.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6677_marksman_t2_rageknife.png",
   "simpleDescription": null,
   "nicknames": [
     "angry"
@@ -27,6 +27,7 @@
       "name": "Wrath",
       "effects": "Convert every {{as|1% critical strike chance}} into {{as|{{fd|1.75}} '''bonus''' physical damage}} [[on-hit]], capped at {{as|100% critical strike chance}}, for a '''maximum''' of {{as|175 '''bonus''' physical damage}} on-hit. This damage is affected by {{tip|critical strike}} modifiers.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,

@@ -4,7 +4,7 @@
   "name": "Sett",
   "title": "the Boss",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Sett.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Sett.png",
   "resource": "GRIT",
   "attackType": "MELEE",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -40,7 +40,7 @@
       "percentPerLevel": 0.0
     },
     "magicResistance": {
-      "flat": 32,
+      "flat": 28,
       "percent": 0.0,
       "perLevel": 2.05,
       "percentPerLevel": 0.0
@@ -202,15 +202,15 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Sett/ability-icon/p",
         "effects": [
           {
-            "description": "Innate - Heart of the Half-Beast: Sett regenerates an additional [ 0.25 / 0.5 / 1 / 2 (based on level) health per second for every 5% of his missing health. ][ up-to 4.75 / 9.5 / 19 / 38 (based on level) health per second (maximum reached at 95% missing health). ]",
+            "description": "Innate - Heart of the Half-Beast: Sett regenerates[ an additional 0.15 / 0.5 / 1 / 2 (based on level) health per second for every 5% of his missing health. ][ up-to 2.85 / 9.5 / 19 / 38 (based on level) health per second (maximum reached at 95% missing health). ]",
             "leveling": []
           },
           {
-            "description": "Innate - Heavy Hands: Sett's basic attacks alternate between his Left Punch and a Right Punch on-attack. Sett begins attacking with Left Punch, and will reset back to it after 2 seconds of not performing a Right Punch.",
+            "description": "Innate - Heavy Hands: Sett's basic attacks alternate between his Left Punch and a Right Punch on-attack. Sett begins attacking with his Left Punch, and will reset back to it after 2 seconds of not performing a Right Punch.",
             "leveling": []
           },
           {
-            "description": "Sett's Right Punch is empowered to gain 50 bonus range (unless Knuckle Down is active), attack at 8 times the Left Punch's attack speed, and deal 5 − 90 (based on level) (+ 50% bonus AD) bonus physical damage.",
+            "description": "Sett's Right Punch is empowered to gain 50 bonus range (unless Knuckle Down is active), attack at 8 times the Left Punch's attack speed, and deal 5 − 90 (based on level) (+ 55% bonus AD) bonus physical damage.",
             "leveling": []
           }
         ],
@@ -287,7 +287,7 @@
                 ]
               },
               {
-                "attribute": "Total Bonus Damage",
+                "attribute": "Total Bonus Physical Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -326,7 +326,7 @@
             ]
           },
           {
-            "description": "For 1.5 seconds, Sett also gains 30% bonus movement speed while moving toward enemy champions visible within 2000 units.",
+            "description": "For 1.5 seconds, Sett also gains 30% bonus movement speed while facing visible enemy champions within 2000 units.",
             "leveling": []
           },
           {
@@ -391,7 +391,7 @@
             "leveling": []
           },
           {
-            "description": "Active: Sett immediately gains a shield equal to his expended Grit for 3 seconds, decaying after 0.75 seconds, and charges up a strike over the cast time.",
+            "description": "Active: Sett immediately grants himself a shield equal to his expended Grit for 3 seconds, decaying after 0.75 seconds, and charges up a strike over the cast time.",
             "leveling": []
           },
           {
@@ -425,11 +425,11 @@
                       25
                     ],
                     "units": [
-                      "% (+ 20% per 100 bonus AD) of expended Grit",
-                      "% (+ 20% per 100 bonus AD) of expended Grit",
-                      "% (+ 20% per 100 bonus AD) of expended Grit",
-                      "% (+ 20% per 100 bonus AD) of expended Grit",
-                      "% (+ 20% per 100 bonus AD) of expended Grit"
+                      "% (+ 25% per 100 bonus AD) of expended Grit",
+                      "% (+ 25% per 100 bonus AD) of expended Grit",
+                      "% (+ 25% per 100 bonus AD) of expended Grit",
+                      "% (+ 25% per 100 bonus AD) of expended Grit",
+                      "% (+ 25% per 100 bonus AD) of expended Grit"
                     ]
                   }
                 ]
@@ -509,7 +509,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Sett/ability-icon/e",
         "effects": [
           {
-            "description": "Active: Sett pulls in enemies at his front and back along the target direction, dealing physical damage and slowing them by 50% for 0.5 seconds.",
+            "description": "Active: Sett pulls in enemies at his front and back along the target direction, dealing physical damage and slowing them by 70% for 0.5 seconds.",
             "leveling": [
               {
                 "attribute": "Physical Damage",
@@ -660,7 +660,7 @@
                 ]
               },
               {
-                "attribute": "Minimum Physical Damage",
+                "attribute": "Reduced Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -753,13 +753,14 @@
   },
   "releaseDate": "2020-01-14",
   "releasePatch": "10.1",
-  "patchLastChanged": "12.10",
+  "patchLastChanged": "12.20",
   "price": {
     "blueEssence": 6300,
     "rp": 975,
     "saleRp": 0
   },
   "lore": "A leader of Ionia's growing criminal underworld, Sett rose to prominence in the wake of the war with Noxus. Though he began as a humble challenger in the fighting pits of Navori, he quickly gained notoriety for his savage strength, and his ability to take seemingly endless amounts of punishment. Now, having climbed through the ranks of local combatants, Sett has muscled to the top, reigning over the pits he once fought in.",
+  "faction": "ionia",
   "skins": [
     {
       "name": "Original",
@@ -1403,7 +1404,7 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/875/875010.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/875/875010.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/875/875010.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/sett/skins/skin10/settloadscreen_10.pie_c_11_12.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/sett/skins/skin10/settloadscreen_10.jpg",
       "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/sett/skins/base/settloadscreen_le.jpg",
       "newEffects": true,
       "newAnimations": true,
@@ -1640,6 +1641,168 @@
       ],
       "splashArtist": [
         "Augusto Quirino",
+        "West Studio"
+      ]
+    },
+    {
+      "name": "Spirit Blossom",
+      "id": 875038,
+      "isBase": false,
+      "availability": "Available",
+      "formatName": "Spirit Blossom",
+      "lootEligible": true,
+      "cost": 1820,
+      "sale": 0,
+      "distribution": null,
+      "rarity": "Legendary",
+      "chromas": [
+        {
+          "name": "Catseye",
+          "id": 875043,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/875/875043.png",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Emerald",
+          "id": 875041,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/875/875041.png",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Night Blossom",
+          "id": 875044,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/875/875044.png",
+          "colors": [
+            "#0C0C0F",
+            "#B2D1E4"
+          ],
+          "descriptions": [
+            {
+              "description": "This chroma was released as a Loot exclusive in the Worlds 2022 event.",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Rose Quartz",
+          "id": 875042,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/875/875042.png",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "TENCENT"
+            }
+          ]
+        },
+        {
+          "name": "Ruby",
+          "id": 875039,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/875/875039.png",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "descriptions": [
+            {
+              "description": "This chroma was released as a bundle exclusive in 2022.",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Sapphire",
+          "id": 875040,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/875/875040.png",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        }
+      ],
+      "lore": "Some guide the dead down the path; others tempt them from it. Another still has no allegiances, as his spirit lies in conflict with itself. Born from Kanmei and Akana, Sett lived harmoniously until, abandoned by his father, he sought retribution. Now he can only catch whispers of salvation as he spends his days challenging slain warriors, testing their worth. ",
+      "release": "2022-10-06",
+      "set": [
+        "Spirit Blossom"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/875/875038.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/875/875038.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/875/875038.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/sett/skins/skin38/settloadscreen_38.pie_c_12_19.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/sett/skins/skin38/settloadscreen_38_le.pie_c_12_19.jpg",
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": true,
+      "newQuotes": false,
+      "voiceActor": [
+        "Xander Mobus"
+      ],
+      "splashArtist": [
+        "Marie Magny",
         "West Studio"
       ]
     }

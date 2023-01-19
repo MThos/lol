@@ -4,7 +4,7 @@
   "name": "Amumu",
   "title": "the Sad Mummy",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Amumu.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/13.1.1/img/champion/Amumu.png",
   "resource": "MANA",
   "attackType": "MELEE",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -12,7 +12,7 @@
     "health": {
       "flat": 685,
       "percent": 0.0,
-      "perLevel": 89,
+      "perLevel": 100,
       "percentPerLevel": 0.0
     },
     "healthRegen": {
@@ -28,9 +28,9 @@
       "percentPerLevel": 0.0
     },
     "manaRegen": {
-      "flat": 7.38,
+      "flat": 7.4,
       "percent": 0.0,
-      "perLevel": 0.53,
+      "perLevel": 0.55,
       "percentPerLevel": 0.0
     },
     "armor": {
@@ -222,7 +222,7 @@
         "onHitEffects": null,
         "occurrence": null,
         "notes": "If the triggering basic attack from Amumu applies magic damage  on-hit, Curse will be applied before the magic damage.\nThe Curse application from  Curse of the Sad Mummy applies after the magic damage.\nNeutral units / enemies affected by the Curse can receive bonus damage from the opposing team of Amumu / neutral units, but the damage will be credited to Amumu.\nThe application of Curse on  Curse of the Sad Mummy is negated if the ability is blocked by a  spell shield.",
-        "blurb": "Innate:  Amumu's basic attacks and  Curse of the Sad Mummy mark enemies with Curse.  Despair will refresh ongoing Curse marks on-hit.",
+        "blurb": "Innate:  Amumu's basic attacks and  Curse of the Sad Mummy mark enemies with Curse.  Despair will refresh ongoing Curse marks on enemies hit.",
         "missileSpeed": null,
         "rechargeRate": null,
         "collisionRadius": null,
@@ -243,7 +243,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Amumu/ability-icon/q",
         "effects": [
           {
-            "description": "Active: Amumu tosses a bandage in the target direction that deals magic damage to the first enemy hit, stunning them for 1 second and pulling him to them, during which they are revealed.",
+            "description": "Active: Amumu throws a bandage in the target direction that deals magic damage to the first enemy hit, stunning them for 1 second and pulling him to them, during which they are revealed.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -297,11 +297,11 @@
           "modifiers": [
             {
               "values": [
-                30,
-                35,
                 40,
                 45,
-                50
+                50,
+                55,
+                60
               ],
               "units": [
                 "",
@@ -344,7 +344,7 @@
         "onHitEffects": null,
         "occurrence": null,
         "notes": "Amumu will track the target if they change locations.\nHe will dash to the target's previous location if the target is 2000 or more units away or moves beyond 2000 units.\nBandage Toss will always be directed towards the target's location even if Amumu moves while it is in flight.\n Immobilizing effects will not prevent Amumu from commencing the  dash.\nBandage Toss does not fizzle on Amumu's  death, and can still stun and damage enemies.\nAmumu is still able to  dash even if Bandage Toss is blocked by  spell shield.\nAmumu will be ordered to basic attack the target upon completion of the dash.\nThis ability will cast from wherever the caster is at the end of the cast time.",
-        "blurb": "Active:  Amumu tosses a bandage in the target direction,  stunning and dealing magic damage to the first enemy hit while he  dashes to them.",
+        "blurb": "Active:  Amumu throws a bandage that deals magic damage and  stuns the first enemy hit while he  dashes to them.",
         "missileSpeed": null,
         "rechargeRate": [
           16,
@@ -394,11 +394,11 @@
                   },
                   {
                     "values": [
-                      0.5,
-                      0.575,
-                      0.65,
-                      0.725,
-                      0.8
+                      1,
+                      1.25,
+                      1.5,
+                      1.75,
+                      2
                     ],
                     "units": [
                       "% (+ 0.25% per 100 AP) of target's maximum health",
@@ -464,7 +464,7 @@
         "onHitEffects": null,
         "occurrence": null,
         "notes": "Toggle abilities do not count as ability activations for the purposes of on-cast effects such as  Spellblade and stacking  Force Pulse.\nDespite the rounding in Despair's tooltip, it will deal increased damage for every point of ability power.",
-        "blurb": "Toggle:  Amumu begins crying, damaging nearby enemies for a portion of their maximum health continually as magic damage.",
+        "blurb": "Toggle:  Amumu begins crying, continually dealing magic damage to nearby enemies based on their maximum health.",
         "missileSpeed": null,
         "rechargeRate": null,
         "collisionRadius": null,
@@ -550,11 +550,11 @@
                 "modifiers": [
                   {
                     "values": [
-                      75,
-                      100,
-                      125,
-                      150,
-                      175
+                      80,
+                      110,
+                      140,
+                      170,
+                      200
                     ],
                     "units": [
                       "",
@@ -585,7 +585,7 @@
             ]
           },
           {
-            "description": "Tantrum's cooldown is reduced by 0.5 seconds whenever Amumu is hit by a basic attack.",
+            "description": "Tantrum's current cooldown is reduced by 0.75 seconds whenever Amumu is hit by a basic attack.",
             "leveling": []
           }
         ],
@@ -639,8 +639,8 @@
         "projectile": null,
         "onHitEffects": null,
         "occurrence": null,
-        "notes": "A  basic attack's  basic damage and each on-hit effect are all separate damage instances, and may be reduced each if they deal physical damage.\nTantrum's cooldown reduction will trigger multiple times for effects such as  Double Strike and  Guinsoo's Rageblade's Phantom Hit.\nThe cooldown will be reduced, even if the incoming attack is  blocked.\nThe cooldown will not be reduced, if the incoming attack misses due to the enemy being  blinded.\nThis ability will cast from wherever the caster is at the end of the cast time.",
-        "blurb": "Passive:  Amumu gains  damage reduction against physical damage. Tantrum's cooldown is  reduced whenever he is hit by a  basic attack.",
+        "notes": "A basic attack's  basic damage and each on-hit effect are all separate damage instances, and may be reduced each if they deal physical damage.\nTantrum's cooldown reduction will trigger multiple times for effects such as  Double Strike and  Guinsoo's Rageblade's Phantom Hit.\nThe cooldown will be reduced, even if the incoming attack is  blocked.\nThe cooldown will not be reduced, if the incoming attack misses due to the enemy being  blinded.\nThis ability will cast from wherever the caster is at the end of the cast time.",
+        "blurb": "Passive:  Amumu gains damage reduction against physical damage.  Tantrum's cooldown is reduced whenever he is hit by a basic attack.",
         "missileSpeed": null,
         "rechargeRate": null,
         "collisionRadius": null,
@@ -661,7 +661,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Amumu/ability-icon/r",
         "effects": [
           {
-            "description": "Active: Amumu entangles surrounding enemies in bandages, dealing them magic damage as well as knocking them down and stunning them for 1.5 seconds.",
+            "description": "Active: Amumu entangles nearby enemies in bandages, dealing magic damage as well as knocking down and stunning them for 1.5 seconds.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -738,7 +738,7 @@
         "onHitEffects": null,
         "occurrence": null,
         "notes": "This ability will cast from wherever the caster is at the end of the cast time.",
-        "blurb": "Active:  Amumu entangles surrounding enemies in bandages, dealing magic damage,  stopping their movements, and  stunning them.",
+        "blurb": "Active:  Amumu entangles nearby enemies in bandages, dealing magic damage as well as briefly  knocking down and  stunning them.",
         "missileSpeed": null,
         "rechargeRate": null,
         "collisionRadius": null,
@@ -756,13 +756,14 @@
   },
   "releaseDate": "2009-06-26",
   "releasePatch": "June 26, 2009 Patch",
-  "patchLastChanged": "12.12",
+  "patchLastChanged": "13.1",
   "price": {
     "blueEssence": 450,
     "rp": 260,
     "saleRp": 0
   },
   "lore": "Legend claims that Amumu is a lonely and melancholy soul from ancient Shurima, roaming the world in search of a friend. Doomed by an ancient curse to remain alone forever, his touch is death, his affection ruin. Those who claim to have seen him describe a living cadaver, small in stature and wrapped in creeping bandages. Amumu has inspired myths, songs, and folklore told and retold for generations—such that it is impossible to separate truth from fiction.",
+  "faction": "shurima",
   "skins": [
     {
       "name": "Original",
@@ -937,7 +938,7 @@
       "lore": null,
       "release": "2011-02-07",
       "set": [
-        "Prom"
+        "Day Job"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/32/32005.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/32/32005.jpg",
@@ -1002,7 +1003,9 @@
       "chromas": [],
       "lore": null,
       "release": "2012-05-28",
-      "set": [],
+      "set": [
+        "Mad Scientists"
+      ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/32/32007.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/32/32007.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/32/32007.jpg",
@@ -1831,8 +1834,8 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/32/32034.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/32/32034.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/32/32034.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/amumu/skins/skin34/amumuloadscreen_34.pie_c_12_2.jpg",
-      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/amumu/skins/skin34/amumuloadscreen_34_le.pie_c_12_2.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/amumu/skins/skin34/amumuloadscreen_34.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/amumu/skins/skin34/amumuloadscreen_34_le.jpg",
       "newEffects": true,
       "newAnimations": true,
       "newRecall": true,

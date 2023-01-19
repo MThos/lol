@@ -4,7 +4,7 @@
   "name": "Nunu & Willump",
   "title": "the Boy and His Yeti",
   "fullName": "Nunu & Willump",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Nunu.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Nunu.png",
   "resource": "MANA",
   "attackType": "MELEE",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -247,14 +247,14 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Nunu/ability-icon/q",
         "effects": [
           {
-            "description": "Active: Willump takes a bite out of the target enemy, dealing damage and healing himself. The heal is increased by 50% when he is below 50% maximum health.",
+            "description": "Active: Willump takes a bite out of the target enemy, dealing damage and healing himself. The heal is increased by 50% while he is below 50% maximum health.",
             "leveling": []
           },
           {
-            "description": "Against minions and monsters he deals true damage. Additionally, if Consume would kill the target minion or small or medium monster, the target is stunned and pulled towards Willump over the cast time.",
+            "description": "Against minions and monsters, he deals true damage. Additionally, if Consume would kill the target minion or small or medium monster, the target is stunned and pulled towards Willump over the cast time.",
             "leveling": [
               {
-                "attribute": "Non-Champion Damage",
+                "attribute": "Non-Champion True Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -275,7 +275,7 @@
                 ]
               },
               {
-                "attribute": "Base Healing from Non-Champions",
+                "attribute": "Base Non-Champion Heal",
                 "modifiers": [
                   {
                     "values": [
@@ -328,7 +328,7 @@
                 ]
               },
               {
-                "attribute": "Empowered Healing from Non-Champions",
+                "attribute": "Empowered Non-Champion Heal",
                 "modifiers": [
                   {
                     "values": [
@@ -383,10 +383,10 @@
             ]
           },
           {
-            "description": "Against champions he deals magic damage and the heal is reduced to 60%.",
+            "description": "Against champions, he deals magic damage and the heal is reduced to 60%.",
             "leveling": [
               {
-                "attribute": "Champion Damage",
+                "attribute": "Champion Magic Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -439,7 +439,7 @@
                 ]
               },
               {
-                "attribute": "Base Healing from Champions",
+                "attribute": "Base Champion Heal",
                 "modifiers": [
                   {
                     "values": [
@@ -492,7 +492,7 @@
                 ]
               },
               {
-                "attribute": "Empowered Healing from Champions",
+                "attribute": "Empowered Champion Heal",
                 "modifiers": [
                   {
                     "values": [
@@ -619,7 +619,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Nunu/ability-icon/w",
         "effects": [
           {
-            "description": "Active: Willump cleanses himself from all slows and channels for up to 10 seconds, becoming ghosted, slow-immune and creating a rolling snowball. Willump automatically navigates his movement and can steer the snowball with a slow turn rate that increases over time, resetting upon changing direction. The duo have their movement speed reduced by 50% for the first 1 second, but after a delay they start gaining 14 movement speed every 0.25 seconds, up to a cap.",
+            "description": "Active: Willump cleanses himself from all slows and channels for up to 10 seconds, becoming ghosted and slow-immune and creating a rolling snowball. Willump automatically navigates his movement and can steer the snowball with a slow turn rate that increases over time, resetting upon changing direction. The duo have their movement speed reduced by 50% for the first 1 second, but after a delay they start gaining 14 movement speed every 0.25 seconds, up to a cap.",
             "leveling": []
           },
           {
@@ -630,7 +630,7 @@
             "description": "The snowball explodes upon hitting an enemy champion, large pet, medium / large monster or terrain, dealing magic damage to nearby enemies, increased by 0% − 400% (based on charge time), knocking them up for 0.5 − 0.75 (based on charge time) seconds and subsequently stunning them for 0 − 0.5 (based on charge time) seconds.",
             "leveling": [
               {
-                "attribute": "Minimum Explosion Damage",
+                "attribute": "Minimum Magic Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -667,7 +667,7 @@
                 ]
               },
               {
-                "attribute": "Maximum Explosion Damage",
+                "attribute": "Maximum Magic Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -709,7 +709,7 @@
             "description": "The snowball rolls over enemy minions and small monsters hit, dealing 33.3% of the damage as magic damage.",
             "leveling": [
               {
-                "attribute": "Minimum Rollover Damage",
+                "attribute": "Minimum Reduced Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -746,7 +746,7 @@
                 ]
               },
               {
-                "attribute": "Maximum Rollover Damage",
+                "attribute": "Maximum Reduced Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -864,7 +864,7 @@
             "description": "Active: Nunu swiftly throws a volley of 3 snowballs in the target direction over 0.4 seconds that each shatter upon hitting an enemy, dealing magic damage to enemies in a cone.",
             "leveling": [
               {
-                "attribute": "Damage Per Snowball",
+                "attribute": "Magic Damage Per Hit",
                 "modifiers": [
                   {
                     "values": [
@@ -901,7 +901,7 @@
                 ]
               },
               {
-                "attribute": "Damage Per Volley",
+                "attribute": "Total Magic Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -926,43 +926,6 @@
                       30,
                       30,
                       30
-                    ],
-                    "units": [
-                      "% AP",
-                      "% AP",
-                      "% AP",
-                      "% AP",
-                      "% AP"
-                    ]
-                  }
-                ]
-              },
-              {
-                "attribute": "Total Magic Damage",
-                "modifiers": [
-                  {
-                    "values": [
-                      144,
-                      216,
-                      288,
-                      360,
-                      432
-                    ],
-                    "units": [
-                      "",
-                      "",
-                      "",
-                      "",
-                      ""
-                    ]
-                  },
-                  {
-                    "values": [
-                      90,
-                      90,
-                      90,
-                      90,
-                      90
                     ],
                     "units": [
                       "% AP",
@@ -1004,7 +967,45 @@
           },
           {
             "description": "Recast: Nunu hurls another volley of snowballs, mimicking the first cast's effects. An enemy may only be slowed once for being hit by snowballs.",
-            "leveling": []
+            "leveling": [
+              {
+                "attribute": "Maximum Total Magic Damage",
+                "modifiers": [
+                  {
+                    "values": [
+                      144,
+                      216,
+                      288,
+                      360,
+                      432
+                    ],
+                    "units": [
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "values": [
+                      90,
+                      90,
+                      90,
+                      90,
+                      90
+                    ],
+                    "units": [
+                      "% AP",
+                      "% AP",
+                      "% AP",
+                      "% AP",
+                      "% AP"
+                    ]
+                  }
+                ]
+              }
+            ]
           },
           {
             "description": "After 3 seconds from the first cast, Snowbound enemies near Willump take magic damage and are rooted for 0.5 − 1.5 (based on level) seconds.",
@@ -1121,7 +1122,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Nunu/ability-icon/r",
         "effects": [
           {
-            "description": "Active: Nunu and Willump channel a blizzard for up to 3 seconds, gaining a shield and slowing nearby enemies by 0% − 95% (based on channel time).",
+            "description": "Active: Nunu and Willump channel a blizzard for up to 3 seconds, granting themself a shield and slowing nearby enemies by 0% − 95% (based on channel time).",
             "leveling": [
               {
                 "attribute": "Shield Strength",
@@ -1190,9 +1191,9 @@
                   },
                   {
                     "values": [
-                      250,
-                      250,
-                      250
+                      300,
+                      300,
+                      300
                     ],
                     "units": [
                       "% AP",
@@ -1266,13 +1267,14 @@
   },
   "releaseDate": "2009-02-21",
   "releasePatch": "Alpha Week 2",
-  "patchLastChanged": "12.11",
+  "patchLastChanged": "12.19",
   "price": {
     "blueEssence": 450,
     "rp": 260,
     "saleRp": 0
   },
   "lore": "Once upon a time, there was a boy who wanted to prove he was a hero by slaying a fearsome monster—only to discover that the beast, a lonely and magical yeti, merely needed a friend. Bound together by ancient power and a shared love of snowballs, Nunu and Willump now ramble wildly across the Freljord, breathing life into imagined adventures. They hope that somewhere out there, they will find Nunu's mother. If they can save her, maybe they will be heroes after all…",
+  "faction": "freljord",
   "skins": [
     {
       "name": "Original",
@@ -1357,8 +1359,7 @@
       "lore": "While the sight of a holiday yeti and his small elf companion may seem frightening, there is no gentler pair than Willump and Nunu. Nunu builds the toys, while Willump accidentally crushes them with his inhuman strength.",
       "release": "2009-12-17",
       "set": [
-        "Snowdown Showdown",
-        "Workshop"
+        "Snowdown Showdown"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/20/20002.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/20/20002.jpg",
@@ -1393,8 +1394,7 @@
       "lore": "“Gnar left all his toys out. Hmm. I wonder what this one's name is? I think I'll call him Willump. What do you think Willump, should we go on an adventure? LET'S JUMP IN SOME TRASH!”",
       "release": "2010-08-10",
       "set": [
-        "Toy Box",
-        "Disguise"
+        "Toy Box"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/20/20003.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/20/20003.jpg",
@@ -1482,7 +1482,7 @@
         "Unknown voice actor"
       ],
       "splashArtist": [
-        "Art of Maki"
+        "Maki Planas Mata"
       ]
     },
     {
@@ -1732,7 +1732,7 @@
         "Unknown voice actor"
       ],
       "splashArtist": [
-        "Art of Maki"
+        "Maki Planas Mata"
       ]
     },
     {

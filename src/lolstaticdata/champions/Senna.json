@@ -4,7 +4,7 @@
   "name": "Senna",
   "title": "the Redeemer",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Senna.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Senna.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -130,13 +130,13 @@
       "percentPerLevel": 0.0
     },
     "aramDamageTaken": {
-      "flat": 1.0,
+      "flat": 1.05,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
     },
     "aramDamageDealt": {
-      "flat": 0.97,
+      "flat": 0.94,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
@@ -202,7 +202,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Senna/ability-icon/p",
         "effects": [
           {
-            "description": "Innate - Weakened Soul: Senna's basic attacks on-hit and damaging abilities on enemy champions apply a stack of Mist for 4 seconds, modified to 0.75 seconds if Senna starts winding up a basic attack on them. Subsequent hits will collect Mist, dealing 1% − 10% (based on level) of target's current health as bonus physical damage, and rendering the target immune to further Mist applications for a few seconds. This damage applies life steal at 100% effectiveness.",
+            "description": "Innate - Weakened Soul: Senna's basic attacks on-hit and damaging abilities on enemy champions apply a stack of Mist for 4 seconds, modified to 0.75 seconds if Senna starts winding up a basic attack on them. Subsequent hits will collect Mist and deal bonus physical damage equal to 1% − 10% (based on level) of target's current health, rendering the target immune to further Mist applications for a few seconds. This damage applies life steal at 100% effectiveness.",
             "leveling": []
           },
           {
@@ -251,7 +251,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Senna/ability-icon/q",
         "effects": [
           {
-            "description": "Active: Senna fires a spectral laser in the direction of the target unit, healing herself and allied champions hit, and dealing physical damage to enemies hit in a thinner line. Enemies hit are slowed by 15% (+ 10% per 100 bonus AD) (+ 6% per 100 AP) for a few seconds. The damage applies life steal at 100% effectiveness.",
+            "description": "Active: Senna fires a spectral laser in the direction of the target unit, healing herself and allied champions hit, and dealing physical damage to enemies hit in a thinner line. Enemies hit are slowed by 15% (+ 10% per 100 bonus AD) (+ 6% per 100 AP) for a duration. The damage applies life steal at 100% effectiveness.",
             "leveling": [
               {
                 "attribute": "Healing",
@@ -387,7 +387,7 @@
             "leveling": []
           },
           {
-            "description": "Basic attacks reduce Piercing Darkness' cooldown by 1 second on-hit.",
+            "description": "Basic attacks reduce Piercing Darkness' current cooldown by 1 second on-hit.",
             "leveling": []
           }
         ],
@@ -441,7 +441,7 @@
         "projectile": "FALSE",
         "onHitEffects": "true",
         "occurrence": null,
-        "notes": "Piercing Darkness also applies most on-attack effects to one enemy champion struck, and ocassionally to two.(bug)\n Hail of Blades will spend a stack on hitting a champion with Piercing Darkness but only if  Hail of Blades was activated first by an auto-attack.\nPiercing Darkness' cast time is always 80% of the caster's attack windup time.\nBecause Senna's windup percent scales down with levels but her windup time also only scales with 60% attack speed, the precise numbers get complicated quickly.\nAt base attack speed and level 1, Senna's attack windup is 0.5 seconds.\nReducing Senna's attack speed via  attack speed reductions also increases Piercing Darkness' cast time by 60% of the fraction.\nPiercing Darkness' cast time reduction per level via her own windup-per-level-reduction mirrors  Lucian's  Piercing Light's cast time values.\nSenna can generally target anything that is not either explicitly  untargetable or herself.\nValid targets include anything that can be targeted by a basic attack from someone.\nPiercing Darkness will attempt to lead the target if it is moving but does not adjust further during cast time (enemies can dodge the laser if they change their position by a sufficient amount during the cast time).\nIt leads by (up-to?) 80 units.\nOn-hit effects are applied in order of struck units' spawn IDs. This matters for effects that are consumed on-hit (e.g.  Duskblade of Draktharr,  Spellblade), which are applied to the target with the lowest Spawn ID.\n\"Spawn ID\" is an unofficial abbreviation to describe the spawn order for all units at the beginning of games, below are some examples.\nIf Senna targets an enemy champion but hits at least one more enemy champion simultaneously,  Press the Attack's first stack will be applied to that target. If no champion was targeted, it will default to the champion with the lowest Spawn ID out of the ones struck by the ability. Whether the effect stacks up on a champion or not when multiple enemy champions are stuck also depends on Spawn ID.\nIf Piercing Darkness struck an enemy champion and turret simultaneously, with  Rapid Firecannon fully charged, the passive effect will most likely proc on the turret since towers are often spawned before champions.\nFor on-attack effects, they are also applied in order of struck units' spawn IDs. However, there are some specific on-attack effects that will apply to both the target of Piercing Darkness and the target with the lowest Spawn ID if the two unit is not identical. (bug) Confirmed cases:\nEnergized effects are stacked 2 stacks\nSpectral Waltz are granted 2 stacks\n 𝐏𝐄𝐍𝐃𝐈𝐍𝐆 𝐅𝐎𝐑 𝐓𝐄𝐒𝐓 \n Spell shield will not prevent on-hit effects from being applied.\n 𝐏𝐄𝐍𝐃𝐈𝐍𝐆 𝐅𝐎𝐑 𝐓𝐄𝐒𝐓 : Piercing Darkness interaction with  dodging,  blocking, and  blinding effects.\nThe maximum healing increase gained possible from all lethality sources is 195.2 at 122 lethality.\nRelevant mathematics:\n Prowler's Claw: + 28.8 healing\n Sandshrike's Claw: + 41.6 healing\nMaximum Mythic Passive Bonuses: + 40 healing\n Duskblade of Draktharr: + 28.8 healing\n Draktharr's Shadowcarver: + 41.6 healing\n Eclipse: + 28.8 healing\n Syzygy: + 41.6 healing\n Youmuu's Ghostblade: + 28.8 healing\n Serpent's Fang: + 19.2 healing\n The Collector: + 19.2 healing\n Axiom Arc: + 16 healing\n Edge of Night: + 16 healing\n Umbral Glaive: + 16 healing\n Serrated Dirk: + 16 healing\n Sudden Impact: + 14.4 healing\nTotal Increased Healing:  41.6 + 40 +  28.8 +  19.2 +  19.2 + ( /  /  16) + ( /  /  16) +  14.4 = 195.2 healing",
+        "notes": "Piercing Darkness also applies most on-attack effects to one enemy champion struck, and ocassionally to two.(bug)\n Hail of Blades will spend a stack on hitting a champion with Piercing Darkness but only if  Hail of Blades was activated first by an auto-attack.\nPiercing Darkness' cast time is always 80% of the caster's attack windup time.\nBecause Senna's windup percent scales down with levels but her windup time also only scales with 60% attack speed, the precise numbers get complicated quickly.\nAt base attack speed and level 1, Senna's attack windup is 0.5 seconds.\nReducing Senna's attack speed via  attack speed reductions also increases Piercing Darkness' cast time by 60% of the fraction.\nPiercing Darkness' cast time reduction per level via her own windup-per-level-reduction mirrors  Lucian's  Piercing Light's cast time values.\nSenna can generally target anything that is not either explicitly  untargetable or herself.\nValid targets include anything that can be targeted by a basic attack from someone.\nPiercing Darkness will attempt to lead the target if it is moving but does not adjust further during cast time (enemies can dodge the laser if they change their position by a sufficient amount during the cast time).\nIt leads by (up-to?) 80 units.\nOn-hit effects are applied in order of struck units' spawn IDs. This matters for effects that are consumed on-hit (e.g.  Duskblade of Draktharr,  Spellblade), which are applied to the target with the lowest Spawn ID.\n\"Spawn ID\" is an unofficial abbreviation to describe the spawn order for all units at the beginning of games, below are some examples.\nIf Senna targets an enemy champion but hits at least one more enemy champion simultaneously,  Press the Attack's first stack will be applied to that target. If no champion was targeted, it will default to the champion with the lowest Spawn ID out of the ones struck by the ability. Whether the effect stacks up on a champion or not when multiple enemy champions are stuck also depends on Spawn ID.\nIf Piercing Darkness struck an enemy champion and turret simultaneously, with  Rapid Firecannon fully charged, the passive effect will most likely proc on the turret since towers are often spawned before champions.\nFor on-attack effects, they are also applied in order of struck units' spawn IDs. However, there are some specific on-attack effects that will apply to both the target of Piercing Darkness and the target with the lowest Spawn ID if the two unit is not identical. (bug) Confirmed cases:\nEnergized effects are stacked 2 stacks\nSpectral Waltz are granted 2 stacks\n 𝐏𝐄𝐍𝐃𝐈𝐍𝐆 𝐅𝐎𝐑 𝐓𝐄𝐒𝐓 \n Spell shield will not prevent on-hit effects from being applied.\n 𝐏𝐄𝐍𝐃𝐈𝐍𝐆 𝐅𝐎𝐑 𝐓𝐄𝐒𝐓 : Piercing Darkness interaction with  dodging,  blocking, and  blinding effects.\nThe maximum healing increase gained possible from all lethality sources is 195.2 at 122 lethality.\nRelevant mathematics:\n Prowler's Claw: + 28.8 healing\n Sandshrike's Claw: + 41.6 healing\nMaximum Mythic Passive Bonuses: + 40 healing\n Duskblade of Draktharr: + 28.8 healing\n Draktharr's Shadowcarver: + 41.6 healing\n Youmuu's Ghostblade: + 28.8 healing\n Eclipse: + 19.2 healing\n Syzygy: + 32 healing\n Serpent's Fang: + 19.2 healing\n The Collector: + 19.2 healing\n Axiom Arc: + 16 healing\n Edge of Night: + 16 healing\n Umbral Glaive: + 16 healing\n Serrated Dirk: + 16 healing\n Sudden Impact: + 14.4 healing\nTotal Increased Healing:  41.6 + 40 +  28.8 +  19.2 +  19.2 + ( /  /  16) + ( /  /  16) +  14.4 = 195.2 healing",
         "blurb": "Active:  Senna fires a spectral laser toward the target unit,  healing herself and allied  champions hit while dealing physical damage and  slowing enemies hit for a short time.",
         "missileSpeed": null,
         "rechargeRate": null,
@@ -759,7 +759,7 @@
             ]
           },
           {
-            "description": "The broad wave shields Senna and allied champions hit for 3 seconds.",
+            "description": "The broad wave grants a shield to Senna and allied champions hit for 3 seconds.",
             "leveling": [
               {
                 "attribute": "Shield Strength",
@@ -873,6 +873,7 @@
     "saleRp": 0
   },
   "lore": "Cursed from childhood to be haunted by the supernatural Black Mist, Senna joined a sacred order known as the Sentinels of Light, and fiercely fought back—only to be killed, her soul imprisoned in a lantern by the cruel wraith Thresh. But refusing to lose hope, within the lantern Senna learned to use the Mist, and reemerged to new life, forever changed. Now wielding darkness along with light, Senna seeks to end the Black Mist by turning it against itself—with every blast of her relic weapon, redeeming the souls lost within.",
+  "faction": "unaffiliated",
   "skins": [
     {
       "name": "Original",
@@ -1177,6 +1178,27 @@
           ]
         },
         {
+          "name": "Mythic",
+          "id": 235037,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/235/235037.png",
+          "colors": [
+            "#CFC0A7",
+            "#59C3F2"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 4,
+              "region": "riot"
+            }
+          ]
+        },
+        {
           "name": "Rose Quartz",
           "id": 235014,
           "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/235/235014.png",
@@ -1472,8 +1494,8 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/235/235016.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/235/235016.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/235/235016.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin16/sennaloadscreen_16.pie_c_legacy_bugs_2021.jpg",
-      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin16/sennaloadscreen_16_le.pie_c_legacy_bugs_2021.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin16/sennaloadscreen_16.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin16/sennaloadscreen_16_le.jpg",
       "newEffects": true,
       "newAnimations": true,
       "newRecall": true,
@@ -1699,7 +1721,7 @@
       "lootEligible": true,
       "cost": "special",
       "sale": 0,
-      "distribution": "125 Mythic Essence",
+      "distribution": "150 Mythic Essence",
       "rarity": "Mythic",
       "chromas": [],
       "lore": "Burning up the runway in a look inspired by an ancient order of magical knights, Senna brings a cold, but determined energy to the Gala proceedings. Evil beware — these looks can kill... and kill again.",
@@ -1722,6 +1744,210 @@
       ],
       "splashArtist": [
         "Julia Yurtsev"
+      ]
+    },
+    {
+      "name": "Bewitching",
+      "id": 235036,
+      "isBase": false,
+      "availability": "Legacy",
+      "formatName": "Bewitching",
+      "lootEligible": true,
+      "cost": 1350,
+      "sale": 0,
+      "distribution": null,
+      "rarity": "Epic",
+      "chromas": [
+        {
+          "name": "Catseye",
+          "id": 235039,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/235/235039.png",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Emerald",
+          "id": 235040,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/235/235040.png",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Obsidian",
+          "id": 235045,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/235/235045.png",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Pearl",
+          "id": 235044,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/235/235044.png",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Rose Quartz",
+          "id": 235043,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/235/235043.png",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "TENCENT"
+            }
+          ]
+        },
+        {
+          "name": "Ruby",
+          "id": 235038,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/235/235038.png",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "descriptions": [
+            {
+              "description": "This chroma was released as a bundle exclusive in 2022.",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Sapphire",
+          "id": 235041,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/235/235041.png",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Turquoise",
+          "id": 235042,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/235/235042.png",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        }
+      ],
+      "lore": "When she was just a young witch, a warlock bound Senna's soul to a tome of spells, hoping to rid himself of her rising power. But her time spent disembodied only made her stronger. While others party, the overly serious Senna searches for ghouls and ghosts, planning to send them to the grave... again.",
+      "release": "2022-10-20",
+      "set": [
+        "Bewitching"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/235/235036.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/235/235036.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/235/235036.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin36/sennaloadscreen_36.pie_c_12_20.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin36/sennaloadscreen_36_le.pie_c_12_20.jpg",
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Cynthia Kaye McWilliams"
+      ],
+      "splashArtist": [
+        "Huyy Nugyen",
+        "West Studio"
       ]
     }
   ]

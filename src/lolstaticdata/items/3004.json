@@ -14,7 +14,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3004_marksman_t3_manamune.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3004_marksman_t3_manamune.png",
   "simpleDescription": "Increases Attack Damage based on maximum Mana",
   "nicknames": [],
   "passives": [
@@ -22,8 +22,9 @@
       "unique": true,
       "mythic": false,
       "name": "Awe",
-      "effects": "Grants {{as|'''bonus''' [[attack damage]]}} equal to {{as|{{fd|2.5}}% '''maximum''' mana}}.",
+      "effects": "Grants {{as|'''bonus''' attack damage}} equal to {{as|{{fd|2.5}}% '''maximum''' mana}}.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -194,8 +195,9 @@
       "unique": true,
       "mythic": false,
       "name": "Mana Charge",
-      "effects": "Grants a charge every 8 seconds, up to 4 charges. Consumes a charge [[on-hit]] and whenever affecting an enemy or ally with an ability to grant {{as|3 '''bonus''' mana}}, increased to {{as|6|mana}} for champion targets, up to a '''maximum''' of {{as|360 '''bonus''' mana}}.",
+      "effects": "Grants a charge every 8 seconds, up to 4 charges. Consumes a charge [[on-hit]] and whenever affecting an enemy or ally with an [[champion ability|ability]] to grant {{as|3 '''bonus''' mana}}, increased to {{as|6|mana}} for champion targets, up to a '''maximum''' of {{as|360 '''bonus''' mana}}.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -366,8 +368,9 @@
       "unique": false,
       "mythic": false,
       "name": null,
-      "effects": "Transforms into {{ii|Muramana}} at {{as|+360 mana}}.",
+      "effects": "Transforms into {{ii|Muramana}} at {{as|360 '''bonus''' mana}}.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -454,10 +457,10 @@
         "healthRegen": {
           "flat": 0.0,
           "percent": 0.0,
-          "perLevel": 0.0,
-          "percentPerLevel": 0.0,
-          "percentBase": 0.0,
-          "percentBonus": 0.0
+          "per_level": 0.0,
+          "percent_per_level": 0.0,
+          "percent_base": 0.0,
+          "percent_bonus": 0.0
         },
         "lethality": {
           "flat": 0.0,

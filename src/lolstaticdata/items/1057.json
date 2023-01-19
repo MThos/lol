@@ -3,25 +3,26 @@
   "id": 1057,
   "tier": 2,
   "rank": [],
-  "buildsFrom": [
+  "builds_from": [
     1033
   ],
-  "buildsInto": [
+  "builds_into": [
     4401,
-    3222
+    3222,
+    6664
   ],
-  "specialRecipe": 0,
-  "noEffects": true,
+  "special_recipe": 0,
+  "no_effects": true,
   "removed": false,
-  "requiredChampion": "",
-  "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/1057_tank_t2_negatroncloak.png",
-  "simpleDescription": "Moderately increases Magic Resist",
+  "required_champion": "",
+  "required_ally": "",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/1057_tank_t2_negatroncloak.png",
+  "simple_description": "Moderately increases Magic Resist",
   "nicknames": [],
   "passives": [],
   "active": [],
   "stats": {
-    "abilityPower": {
+    "ability_power": {
       "flat": 0.0,
       "percent": 0.0,
       "perLevel": 0.0,
@@ -37,7 +38,7 @@
       "percentBase": 0.0,
       "percentBonus": 0.0
     },
-    "armorPenetration": {
+    "armor_penetration": {
       "flat": 0.0,
       "percent": 0.0,
       "perLevel": 0.0,
@@ -45,7 +46,7 @@
       "percentBase": 0.0,
       "percentBonus": 0.0
     },
-    "attackDamage": {
+    "attack_damage": {
       "flat": 0.0,
       "percent": 0.0,
       "perLevel": 0.0,
@@ -53,7 +54,7 @@
       "percentBase": 0.0,
       "percentBonus": 0.0
     },
-    "attackSpeed": {
+    "attack_speed": {
       "flat": 0.0,
       "percent": 0.0,
       "perLevel": 0.0,
@@ -61,7 +62,7 @@
       "percentBase": 0.0,
       "percentBonus": 0.0
     },
-    "cooldownReduction": {
+    "cooldown_reduction": {
       "flat": 0.0,
       "percent": 0.0,
       "perLevel": 0.0,
@@ -69,7 +70,7 @@
       "percentBase": 0.0,
       "percentBonus": 0.0
     },
-    "criticalStrikeChance": {
+    "critical_strike_chance": {
       "flat": 0.0,
       "percent": 0.0,
       "perLevel": 0.0,
@@ -77,7 +78,7 @@
       "percentBase": 0.0,
       "percentBonus": 0.0
     },
-    "goldPer_10": {
+    "gold_per_10": {
       "flat": 0.0,
       "percent": 0.0,
       "perLevel": 0.0,
@@ -85,7 +86,7 @@
       "percentBase": 0.0,
       "percentBonus": 0.0
     },
-    "healAndShieldPower": {
+    "heal_and_shield_power": {
       "flat": 0.0,
       "percent": 0.0,
       "perLevel": 0.0,
@@ -101,7 +102,7 @@
       "percentBase": 0.0,
       "percentBonus": 0.0
     },
-    "healthRegen": {
+    "health_regen": {
       "flat": 0.0,
       "percent": 0.0,
       "perLevel": 0.0,
@@ -125,15 +126,15 @@
       "percentBase": 0.0,
       "percentBonus": 0.0
     },
-    "magicPenetration": {
+    "magic_penetration": {
       "flat": 0.0,
       "percent": 0.0,
-      "perLevel": 0.0,
-      "percentPerLevel": 0.0,
-      "percentBase": 0.0,
-      "percentBonus": 0.0
+      "per_level": 0.0,
+      "percent_per_level": 0.0,
+      "percent_base": 0.0,
+      "percent_bonus": 0.0
     },
-    "magicResistance": {
+    "magic_resistance": {
       "flat": 50.0,
       "percent": 0.0,
       "perLevel": 0.0,
@@ -149,7 +150,7 @@
       "percentBase": 0.0,
       "percentBonus": 0.0
     },
-    "manaRegen": {
+    "mana_regen": {
       "flat": 0.0,
       "percent": 0.0,
       "perLevel": 0.0,
@@ -165,7 +166,7 @@
       "percentBase": 0.0,
       "percentBonus": 0.0
     },
-    "abilityHaste": {
+    "ability_haste": {
       "flat": 0.0,
       "percent": 0.0,
       "perLevel": 0.0,

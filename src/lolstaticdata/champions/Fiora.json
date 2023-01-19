@@ -4,7 +4,7 @@
   "name": "Fiora",
   "title": "the Grand Duelist",
   "fullName": "Fiora Laurent",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Fiora.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Fiora.png",
   "resource": "MANA",
   "attackType": "MELEE",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -166,7 +166,7 @@
       "percentPerLevel": 0.0
     },
     "urfHealing": {
-      "flat": 0.8,
+      "flat": 0.65,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
@@ -465,8 +465,8 @@
         "projectile": "TRUE",
         "onHitEffects": null,
         "occurrence": null,
-        "notes": "Riposte is not  invulnerability but instead reduces any damage to her by 100% late into the damage event. Because of this, it interacts differently with effects triggered from damage:\n Life steal and  Healing based on damage dealt (Vamp) will still have effect even if the damage is ultimately ignored by Riposte.\n Shields will absorb damage before Riposte takes effect.\nFiora cannot be  executed by  Pyke's  Death from Below during Riposte but she can by  Aspect of the Dragon.\nRiposte will not negate allied  crowd control.\nRiposte will not negate  nearsight.\n Immobilizing effects include those from  Blast Cone (only if triggered by an enemy) and  epic monsters.\n Debuff immunity includes summoner spells, such as  Exhaust and  Ignite, as well as damage over time and other effects.\nRiposte is and is not prioritized over certain effects:\nRiposte will block effects before  spell shields.\n Black Shield will negate  crowd control before Riposte.\nRiposte will not be able to apply its  stun, as it requires Riposte to negate the  immobilize and not any other external source to do so.\n Spell shield will also prevent Vitals from being triggered by Riposte.\nThe following table refers for interactions while Fiora is performing Riposte:\n\n\nAttacking\n\nDisabled\n\n\nAbilities\n\nDisabled\n\n\nMovement\n\nDisabled\n\n\nItems\n\nUsable\n\nN/A\n\n\nDisabled\n\nAll items are disabled\n\n\nInterrupted by\n\nN/A\n\n\nConsumables\n\nDisabled\n\n\nSpells\n\nUsable\n\n Barrier  Clarity  Cleanse  Exhaust  Ghost  Heal  Ignite  Smite\n\n\nDisabled\n\n Flash  Teleport  Recall\n\n\nInterrupted by\n\nN/A\n\n\nInterrupted by\n\nDeath",
-        "blurb": "Active:  Fiora briefly parries all incoming damage,  debuffs, and  disables, then stabs in a direction, dealing magic damage to enemies hit.",
+        "notes": "Riposte is not  invulnerability but instead reduces any damage to her by 100% late into the damage event. Because of this, it interacts differently with effects triggered from damage:\n Life steal and  Healing based on damage dealt (Vamp) will still have effect even if the damage is ultimately ignored by Riposte.\n Shields will absorb damage before Riposte takes effect.\nFiora cannot be  executed by  Pyke's  Death from Below during Riposte but she can by  Aspect of the Dragon.\nRiposte will not negate allied  crowd control.\nRiposte will not negate  nearsight.\n Immobilizing effects include those from  Blast Cone (only if triggered by an enemy) and  epic monsters.\nDebuff immunity includes summoner spells, such as  Exhaust and  Ignite, as well as damage over time and other effects.\nRiposte is and is not prioritized over certain effects:\nRiposte will block effects before  spell shields.\n Black Shield will negate  crowd control before Riposte.\nRiposte will not be able to apply its  stun, as it requires Riposte to negate the  immobilize and not any other external source to do so.\n Spell shield will also prevent Vitals from being triggered by Riposte.\nThe following table refers for interactions while Fiora is performing Riposte:\n\n\nAttacking\n\nDisabled\n\n\nAbilities\n\nDisabled\n\n\nMovement\n\nDisabled\n\n\nItems\n\nUsable\n\nN/A\n\n\nDisabled\n\nAll items are disabled\n\n\nInterrupted by\n\nN/A\n\n\nConsumables\n\nDisabled\n\n\nSpells\n\nUsable\n\n Barrier  Clarity  Cleanse  Exhaust  Ghost  Heal  Ignite  Smite\n\n\nDisabled\n\n Flash  Teleport  Recall\n\n\nInterrupted by\n\nN/A\n\n\nInterrupted by\n\nDeath",
+        "blurb": "Active:  Fiora briefly parries all incoming damage, debuffs, and  disables, then stabs in a direction, dealing magic damage to enemies hit.",
         "missileSpeed": null,
         "rechargeRate": null,
         "collisionRadius": null,
@@ -773,13 +773,14 @@
   },
   "releaseDate": "2012-02-29",
   "releasePatch": "1.0.0.135",
-  "patchLastChanged": "12.12",
+  "patchLastChanged": "12.20",
   "price": {
     "blueEssence": 4800,
     "rp": 880,
     "saleRp": 0
   },
   "lore": "The most feared duelist in all Valoran, Fiora is as renowned for her brusque manner and cunning mind as she is for the speed of her bluesteel rapier. Born to House Laurent in the kingdom of Demacia, Fiora took control of the family from her father in the wake of a scandal that nearly destroyed them. House Laurent's reputation was sundered, but Fiora bends her every effort to restore her family's honor and return them to their rightful place among the great and good of Demacia.",
+  "faction": "demacia",
   "skins": [
     {
       "name": "Original",
@@ -827,9 +828,7 @@
       "chromas": [],
       "lore": null,
       "release": "2012-02-29",
-      "set": [
-        "Musketeer"
-      ],
+      "set": [],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/114/114001.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/114/114001.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/114/114001.jpg",
@@ -861,7 +860,9 @@
       "chromas": [],
       "lore": null,
       "release": "2012-02-29",
-      "set": [],
+      "set": [
+        "Bloodstone"
+      ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/114/114002.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/114/114002.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/114/114002.jpg",
@@ -1881,7 +1882,7 @@
         "Karen Strassman"
       ],
       "splashArtist": [
-        "Art of Maki"
+        "Maki Planas Mata"
       ]
     },
     {
@@ -2056,7 +2057,7 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/114/114050.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/114/114050.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/114/114050.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiora/skins/skin50/fioraloadscreen_50.pie_c_legacy_bugs_2021.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiora/skins/skin50/fioraloadscreen_50.jpg",
       "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiora/skins/skin50/fioraloadscreen_50_le.jpg",
       "newEffects": true,
       "newAnimations": true,
@@ -2292,13 +2293,13 @@
       "lore": "Fiora is tired of Nami crashing the party every year. She's determined that apple bobbing takes a back seat to tests of true skill—like seeing who can eat the most candy.",
       "release": "2021-10-07",
       "set": [
-        "Trick-or-Treat"
+        "Bewitching"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/114/114060.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/114/114060.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/114/114060.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiora/skins/skin60/fioraloadscreen_60.pie_c_11_20.jpg",
-      "loadScreenVintagePath": null,
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiora/skins/skin60/fioraloadscreen_60.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiora/skins/skin60/fioraloadscreen_60_le.pie_c_12_20.jpg",
       "newEffects": true,
       "newAnimations": true,
       "newRecall": true,

@@ -4,7 +4,7 @@
   "name": "Kennen",
   "title": "the Heart of the Tempest",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Kennen.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Kennen.png",
   "resource": "ENERGY",
   "attackType": "RANGED",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -202,11 +202,15 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Kennen/ability-icon/p",
         "effects": [
           {
-            "description": "Innate: Kennen's abilities apply a stack of Mark of the Storm to affected enemies for 6 seconds, which refreshes on subsequent hits and stacks up to 3 times. The third stack consumes them all to stun the target for 1.25 seconds and restore 25 energy. The duration is reduced to 0.5 seconds if this occurs on the same target again within 6 seconds,",
+            "description": "Innate: Kennen's abilities apply a stack of Mark of the Storm to enemies hit for 6 seconds, refreshing on subsequent applications and stacking up to 3 times.",
             "leveling": []
           },
           {
-            "description": "Slicing Maelstrom can only apply up to 3 stacks on a target.",
+            "description": "The third stack against a target consumes them all to stun them for 1.25 seconds and restore 25 energy. The stun duration is reduced to 0.5 seconds if this occurs on the same target again within 6 seconds.",
+            "leveling": []
+          },
+          {
+            "description": "Slicing Maelstrom can apply only up to 3 stacks on a target.",
             "leveling": []
           }
         ],
@@ -357,7 +361,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Kennen/ability-icon/w",
         "effects": [
           {
-            "description": "Passive: Kennen's basic attacks on-attack generate a stack of Electrical Surge, which stacks up to 4 times. At 4 stacks, his next basic attack is empowered to consume them all to deal bonus magic damage and apply a stack of Mark of the Storm.",
+            "description": "Passive: Kennen's basic attacks on-attack generate a stack of Electrical Surge, stacking up to 4 times. At 4 stacks, his next basic attack is empowered to consume them all to deal bonus magic damage and apply a stack of Mark of the Storm.",
             "leveling": [
               {
                 "attribute": "Bonus Magic Damage",
@@ -533,7 +537,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Kennen/ability-icon/e",
         "effects": [
           {
-            "description": "Active: Kennen becomes lightning, a ghosted form that is unable to declare basic attacks but gains 100% bonus movement speed for 2 seconds. He deals magic damage to enemies he passes through, halved against non-champions, and restores 40 energy upon damaging at least one enemy.",
+            "description": "Active: Kennen turns into lightning for 2 seconds, becoming unable to declare basic attacks but gaining ghosting and 100% bonus movement speed. He deals magic damage to enemies he passes through, halved against non-champions, and restores 40 energy upon damaging at least one enemy.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -612,11 +616,11 @@
             ]
           },
           {
-            "description": "Lightning Rush can be recast after 0.5 seconds, and does so automatically after the duration. The recast can be used while affected by cast-inhibiting crowd control.",
+            "description": "Lightning Rush can be recast after 0.5 seconds, and does so automatically after the duration.",
             "leveling": []
           },
           {
-            "description": "Recast: Kennen ends Lightning Rush and gains bonus attack speed for 4 seconds.",
+            "description": "Recast: Kennen ends Lightning Rush to gain bonus attack speed and be allowed to exceed the attack speed cap for 4 seconds.",
             "leveling": [
               {
                 "attribute": "Bonus Attack Speed",
@@ -640,6 +644,10 @@
                 ]
               }
             ]
+          },
+          {
+            "description": "Lightning Rush's recast can be used while affected by cast-inhibiting crowd control.",
+            "leveling": []
           }
         ],
         "cost": {
@@ -714,7 +722,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Kennen/ability-icon/r",
         "effects": [
           {
-            "description": "Active: Kennen summons the Shuriken Storm around himself for 3 seconds, gaining bonus armor and bonus magic resistance.",
+            "description": "Active: Kennen summons a storm around himself for 3 seconds, gaining bonus armor and bonus magic resistance for the duration.",
             "leveling": [
               {
                 "attribute": "Bonus Resistances",
@@ -736,7 +744,7 @@
             ]
           },
           {
-            "description": "The storm strikes lightning bolts down on all nearby enemies every 0.5 seconds, dealing magic damage.",
+            "description": "The storm strikes lightning bolts down on nearby enemies every 0.5 seconds, each one dealing magic damage.",
             "leveling": [
               {
                 "attribute": "Magic Damage Per Bolt",
@@ -850,13 +858,14 @@
   },
   "releaseDate": "2010-04-08",
   "releasePatch": "1.0.0.82",
-  "patchLastChanged": "12.15",
+  "patchLastChanged": "12.18",
   "price": {
     "blueEssence": 4800,
     "rp": 880,
     "saleRp": 0
   },
   "lore": "More than just the lightning-quick enforcer of Ionian balance, Kennen is the only yordle member of the Kinkou. Despite his small, furry stature, he is eager to take on any threat with a whirling storm of shuriken and boundless enthusiasm. Alongside his master Shen, Kennen patrols the spirit realm, employing devastating electrical energy to strike down his enemies.",
+  "faction": "ionia",
   "skins": [
     {
       "name": "Original",
@@ -1262,7 +1271,6 @@
       "lore": "Coming to a store near you: the new Super Kennen action figure! At 6″ tall, the new Super Kennen is fully articulated, with dazzling lightning bolt action! Add this fitting tribute to New Valoran's bravest hero to your collection today!",
       "release": "2017-03-29",
       "set": [
-        "Toy Box",
         "Silver Age"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/85/85007.jpg",

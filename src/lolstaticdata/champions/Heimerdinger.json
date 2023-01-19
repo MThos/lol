@@ -4,7 +4,7 @@
   "name": "Heimerdinger",
   "title": "the Revered Inventor",
   "fullName": "Cecil B. Heimerdinger",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Heimerdinger.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Heimerdinger.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -130,13 +130,13 @@
       "percentPerLevel": 0.0
     },
     "aramDamageTaken": {
-      "flat": 1.06,
+      "flat": 1.1,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
     },
     "aramDamageDealt": {
-      "flat": 0.94,
+      "flat": 0.9,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
@@ -247,7 +247,7 @@
             "leveling": []
           },
           {
-            "description": "Up to 3 H-28G Evolution Turrets can be deployed at a time, and deploying a fourth destroys the oldest one.",
+            "description": "Up to 3 H-28G Evolution Turrets can be deployed at a time, with those deployed beyond the maximum destroying the oldest one.",
             "leveling": []
           },
           {
@@ -368,10 +368,10 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Heimerdinger/ability-icon/w",
         "effects": [
           {
-            "description": "Active: Heimerdinger unleashes a wave of 5 rockets that converge to the target location and fan beyond it up to a maximum range, with each rocket dealing magic damage to the first enemy it hits. Every rocket hitting an enemy champion grants 20% beam charge to all turrets within 1000 range, up to a maximum of 100% beam charge when hitting 5 rockets on an enemy champion.",
+            "description": "Active: Heimerdinger unleashes a wave of 5 rockets that converge to the target location and fan beyond it up to a maximum range, with each one dealing magic damage to the first enemy it hits. Every rocket hitting an enemy champion grants 20% beam charge to all turrets within 1000 range, up to a maximum of 100% beam charge when hitting 5 rockets on an enemy champion.",
             "leveling": [
               {
-                "attribute": "Initial Rocket Magic Damage",
+                "attribute": "Initial Magic Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -402,10 +402,10 @@
             ]
           },
           {
-            "description": "Enemies can be hit by multiple rockets, with each one beyond the first dealing reduced damage, and minions taking increased additional damage.",
+            "description": "Enemies can be hit by multiple rockets, with each one beyond the first dealing 20% damage, increased to 40% against minions.",
             "leveling": [
               {
-                "attribute": "Additional Damage",
+                "attribute": "Additional Magic Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -434,7 +434,7 @@
                 ]
               },
               {
-                "attribute": "Total Damage",
+                "attribute": "Total Magic Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -593,10 +593,10 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Heimerdinger/ability-icon/w",
         "effects": [
           {
-            "description": "UPGRADE!!! - Active: Heimerdinger launches 4 waves of rockets in quick succession to the target location, each rocket dealing magic damage. Enemy champions and monsters are dealt reduced damage from rockets beyond the first, and further reduced beyond the fifth. Minions take increased damage.",
+            "description": "UPGRADE!!! - Active: Heimerdinger launches 4 waves of 5 rockets in quick succession to the target location, each one dealing magic damage. Enemy champions and monsters are dealt reduced damage from rockets beyond the first, and further reduced beyond the fifth. Minions take 100% damage from every rocket.",
             "leveling": [
               {
-                "attribute": "Initial Rocket Magic Damage",
+                "attribute": "Initial Rocket Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -646,7 +646,7 @@
                 ]
               },
               {
-                "attribute": "6-20 Rocket Magic Damage",
+                "attribute": "6-20 Rocket Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -671,7 +671,7 @@
                 ]
               },
               {
-                "attribute": "Total Magic Damage",
+                "attribute": "Total Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -696,7 +696,32 @@
                 ]
               },
               {
-                "attribute": "Total Minion Magic Damage",
+                "attribute": "Minion Rocket Damage",
+                "modifiers": [
+                  {
+                    "values": [
+                      135,
+                      180,
+                      225
+                    ],
+                    "units": [
+                      "",
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "values": [
+                      45
+                    ],
+                    "units": [
+                      "% AP"
+                    ]
+                  }
+                ]
+              },
+              {
+                "attribute": "Total Minion Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -780,7 +805,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Heimerdinger/ability-icon/e",
         "effects": [
           {
-            "description": "Active: Heimerdinger hurls a grenade at the target location, detonating upon impact to deal magic damage to enemies within the area and slow them by 35% for 2 seconds. If the grenade hits an enemy champion, all turrets within 1000 range of the impact gain 100% beam charge.",
+            "description": "Active: Heimerdinger hurls a grenade at the target location that detonates upon impact, dealing magic damage to nearby enemies and slowing them by 35% for 2 seconds. If the grenade hits an enemy champion, all turrets within 1000 range of the impact gain 100% beam charge.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -1039,6 +1064,7 @@
     "saleRp": 0
   },
   "lore": "A brilliant yet eccentric yordle scientist, Professor Cecil B. Heimerdinger is one of the most innovative and esteemed inventors Piltover has ever known. Relentless in his work to the point of neurotic obsession, he thrives on answering the universe's most impenetrable questions. Though his theories often appear opaque and esoteric, Heimerdinger has crafted some of Piltover's most miraculous—not to mention lethal—machinery, and constantly tinkers with his inventions to make them even more efficient.",
+  "faction": "piltover",
   "skins": [
     {
       "name": "Original",

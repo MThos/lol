@@ -4,7 +4,7 @@
   "name": "Vel'Koz",
   "title": "the Eye of the Void",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Velkoz.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Velkoz.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -201,7 +201,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Velkoz/ability-icon/p",
         "effects": [
           {
-            "description": "Innate: Vel'Koz's abilities apply a stack of Deconstruction to enemies hit for 7 seconds. Basic attacks and subsequent hits refresh the duration.",
+            "description": "Innate: Vel'Koz's abilities apply a stack of Deconstruction to enemies hit for 7 seconds, refreshing on basic attacks and subsequent applications and stacking up to 3 times.",
             "leveling": []
           },
           {
@@ -242,7 +242,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Velkoz/ability-icon/q",
         "effects": [
           {
-            "description": "Active: Vel'Koz fires a plasma bolt in the target direction that deals magic damage to the first enemy hit, slowing them by 70% decaying over a few seconds.\nPlasma Fission can be recast after 0.25 seconds while the bolt is in flight, and does so automatically upon hitting an enemy or maximum range.",
+            "description": "Active: Vel'Koz fires a plasma bolt in the target direction that deals magic damage to the first enemy hit and slows them by 70% decaying over a duration.\nPlasma Fission can be recast after 0.25 seconds while the bolt is in flight, and does so automatically upon hitting an enemy or maximum range.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -305,14 +305,14 @@
             ]
           },
           {
-            "description": "Recast: The bolt splits in two over 0.25 seconds, each part firing in perpendicular opposite directions.",
+            "description": "Recast: Vel'Koz splits the bolt in two over 0.25 seconds, each part firing perpendicularly in opposite directions and applying the same effects to enemies hit.",
             "leveling": []
           },
           {
             "description": "Whenever Plasma Fission kills an enemy, Vel'Koz restores mana.",
             "leveling": [
               {
-                "attribute": "Mana Restore per Kill",
+                "attribute": "Mana Restored per Kill",
                 "modifiers": [
                   {
                     "values": [
@@ -431,7 +431,7 @@
             "description": "Active: Vel'Koz cracks a rift in the target direction that opens after a 0.25-second delay, cascading through the area over 0.65 seconds to deal magic damage to enemies within.",
             "leveling": [
               {
-                "attribute": "Initial Magic Damage",
+                "attribute": "Magic Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -473,7 +473,7 @@
             "description": "After 0.75 seconds, the rift violently collapses, dealing magic damage to enemies within and granting sight of the surrounding area for 0.25 seconds.",
             "leveling": [
               {
-                "attribute": "Detonation Magic Damage",
+                "attribute": "Magic Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -510,7 +510,7 @@
                 ]
               },
               {
-                "attribute": "Total Damage",
+                "attribute": "Total Magic Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -631,7 +631,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Velkoz/ability-icon/e",
         "effects": [
           {
-            "description": "Active: Vel'Koz hurls a disruptive anomaly that lands at the target location after 0.75 seconds, which deals magic damage to enemies hit and knocks them up and stuns them for 0.75 seconds, as well as granting sight of the area briefly.",
+            "description": "Active: Vel'Koz hurls a disruptive anomaly that lands to the target location after 0.75 seconds, dealing magic damage to enemies hit and knocking them up and stunning them for 0.75 seconds, as well as granting sight of the area briefly.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -673,7 +673,7 @@
             ]
           },
           {
-            "description": "If Tectonic Disruption is cast close to Vel'Koz, the anomaly will also slightly knock back enemies hit in the direction of the cast.",
+            "description": "If Tectonic Disruption is cast in close proximity of Vel'Koz, the anomaly will also slightly knock back enemies hit in the direction of the cast.",
             "leveling": []
           }
         ],
@@ -749,7 +749,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Velkoz/ability-icon/r",
         "effects": [
           {
-            "description": "Passive - Researched: Applying 3 Deconstruction stacks to an enemy champion will mark them Researched for 7 seconds, which refreshes on basic attacks and ability hits.",
+            "description": "Passive - Researched: Applying 3 Deconstruction stacks to an enemy champion marks them as Researched for 7 seconds, refreshing on basic attacks and ability hits against them.",
             "leveling": []
           },
           {
@@ -892,6 +892,7 @@
     "saleRp": 0
   },
   "lore": "It is unclear if Vel'Koz was the first Void-spawn to emerge on Runeterra, but there has certainly never been another to match his level of cruel, calculating sentience. While his kin devour or defile everything around them, he seeks instead to scrutinize and study the physical realm—and the strange, warlike beings that dwell there—for any weakness the Void might exploit. But Vel'Koz is far from a passive observer, striking back at threats with deadly plasma, or by disrupting the very fabric of the world itself.",
+  "faction": "void",
   "skins": [
     {
       "name": "Original",

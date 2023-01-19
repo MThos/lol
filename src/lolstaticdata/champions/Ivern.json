@@ -4,7 +4,7 @@
   "name": "Ivern",
   "title": "the Green Father",
   "fullName": "Ivern Bramblefoot",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Ivern.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Ivern.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -255,7 +255,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Ivern/ability-icon/q",
         "effects": [
           {
-            "description": "Active: Ivern throws a vine in the target direction, dealing magic damage to the first enemy hit and rooting them for a short duration, during which they are also revealed. Rootcaller can be recast while the target is rooted.",
+            "description": "Active: Ivern throws a vine in the target direction, dealing magic damage to the first enemy hit and rooting them for a duration, during which they are also revealed. Rootcaller can be recast while the target is rooted.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -318,7 +318,7 @@
             ]
           },
           {
-            "description": "Ivern and allied champions can select the target rooted by Rootcaller to dash to their location, with allies stopping at their attack range and Ivern stopping within 125 range from the target.",
+            "description": "Ivern and allied champions can select the target rooted by Rootcaller to dash to their location, with allies stopping at their attack range and Ivern stopping within 125 units from the target.",
             "leveling": []
           },
           {
@@ -389,7 +389,7 @@
         "angle": null,
         "castTime": "0.25",
         "effectRadius": null,
-        "targetRange": "1100"
+        "targetRange": "1100 /  125 /  Attack range"
       }
     ],
     "W": [
@@ -398,7 +398,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Ivern/ability-icon/w",
         "effects": [
           {
-            "description": "Passive: While in Ivern is in brush, his basic attacks are empowered to deal bonus magic damage on-hit. This bonus persists for 3 seconds after leaving brush.",
+            "description": "Passive: While Ivern is in brush, his basic attacks are empowered to deal bonus magic damage on-hit. This bonus persists for 3 seconds after leaving brush.",
             "leveling": [
               {
                 "attribute": "Bonus Magic Damage",
@@ -440,7 +440,7 @@
             ]
           },
           {
-            "description": "Active: Ivern grows a patch of brush at the target location for 30 seconds, granting sight of the area within and around it for 3 seconds. Brushmaker spawns more brush if used near terrain or other brush.",
+            "description": "Active: Ivern grows a patch of brush at the target location for 30 seconds, granting sight of the area within and around it for 3 seconds. Spawning brush near terrain or other brush increases its radius.",
             "leveling": []
           },
           {
@@ -498,7 +498,7 @@
         "projectile": null,
         "onHitEffects": null,
         "occurrence": null,
-        "notes": "A  Brush will be immediately  exposed if grown within the  sight of an enemy  turret.\nThe bonus magic damage applies to towers.\nThe bonus magic damage can be  blocked or  dodged.\n 𝐏𝐄𝐍𝐃𝐈𝐍𝐆 𝐅𝐎𝐑 𝐓𝐄𝐒𝐓 : Passive's interactions with  blinding effects.",
+        "notes": "A  brush will be immediately  exposed if grown within the  sight of an enemy  turret.\nThe bonus damage applies to turrets.\nThe bonus damage can be  blocked or  dodged.\n 𝐏𝐄𝐍𝐃𝐈𝐍𝐆 𝐅𝐎𝐑 𝐓𝐄𝐒𝐓 : Passive's interactions with  blinding effects.",
         "blurb": "Passive: While  Ivern is in  brush, his basic attacks deal bonus magic damage.",
         "missileSpeed": null,
         "rechargeRate": [
@@ -526,7 +526,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Ivern/ability-icon/e",
         "effects": [
           {
-            "description": "Active: Ivern can target an allied champion, Daisy, or himself to place a shield for 2 seconds.",
+            "description": "Active: Ivern places a seed on the target allied champion, Daisy, or himself, granting the target a shield for 2 seconds.",
             "leveling": [
               {
                 "attribute": "Shield Strength",
@@ -568,7 +568,7 @@
             ]
           },
           {
-            "description": "The target then explodes to deal magic damage and slow nearby enemies for 2 seconds.",
+            "description": "After 2 seconds, the seed explodes to deal magic damage to nearby enemies and slow them for 2 seconds.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -787,6 +787,7 @@
     "saleRp": 0
   },
   "lore": "Ivern Bramblefoot, known to many as the Green Father, is a peculiar half man, half tree who roams Runeterra's forests, cultivating life everywhere he goes. He knows the secrets of the natural world, and holds deep friendships with all things that grow, fly, and scuttle. Ivern wanders the wilderness, imparting strange wisdom to any he meets, enriching the forests, and occasionally entrusting loose-lipped butterflies with his secrets.",
+  "faction": "ionia",
   "skins": [
     {
       "name": "Original",

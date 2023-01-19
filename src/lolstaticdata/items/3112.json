@@ -10,7 +10,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3112_orb_of_winter.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3112_aram_t1_guardiansorb.png",
   "simpleDescription": "Good starting item for mages",
   "nicknames": [],
   "passives": [
@@ -18,8 +18,9 @@
       "unique": true,
       "mythic": false,
       "name": "Recovery",
-      "effects": "Restore {{as|10 mana}} every 5 seconds, manaless champions restore {{as|15 health}} instead.",
+      "effects": "Restore {{as|10 mana}} every 5 seconds. Manaless champions restore {{as|15 health}} instead.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -192,6 +193,7 @@
       "name": "Legendary",
       "effects": "This item counts as a Legendary item.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -362,7 +364,7 @@
   "active": [],
   "stats": {
     "abilityPower": {
-      "flat": 40.0,
+      "flat": 50.0,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0,

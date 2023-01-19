@@ -4,7 +4,7 @@
   "name": "Karma",
   "title": "the Enlightened One",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Karma.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Karma.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -366,7 +366,7 @@
                 ]
               },
               {
-                "attribute": "Total Damage",
+                "attribute": "Total Magic Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -414,7 +414,7 @@
             "description": "The explosion creates a field for 1.5 seconds that slows enemies within by 50%, which then ruptures to deal magic damage.",
             "leveling": [
               {
-                "attribute": "Detonation Magic Damage",
+                "attribute": "Magic Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -550,7 +550,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Karma/ability-icon/w",
         "effects": [
           {
-            "description": "Active: Karma deals magic damage to the target enemy champion or monster and forms a tether between her and them for 2 seconds, during which the target is also revealed.",
+            "description": "Active: Karma deals magic damage to the target enemy champion or monster and forms a tether between her and them for 2 seconds, during which they are revealed.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -797,7 +797,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Karma/ability-icon/e",
         "effects": [
           {
-            "description": "Active: Karma applies a shield on herself or the target allied champion for 2.5 seconds, which grants 40% bonus movement speed for 1.5 seconds.",
+            "description": "Active: Karma grants a shield to herself or the target allied champion for 2.5 seconds as well as 40% bonus movement speed for 1.5 seconds.",
             "leveling": [
               {
                 "attribute": "Shield Strength",
@@ -901,10 +901,10 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Karma/ability-icon/e",
         "effects": [
           {
-            "description": "Mantra - Active: Inspire's shield is increased. Inspire spreads to surrounding allied champions at 30% effectiveness.Secondary targets receive 12% bonus movement speed.",
+            "description": "Mantra - Active: Inspire's shield strength is increased. Inspire spreads to surrounding allied champions at 30% effectiveness.Secondary targets receive 12% bonus movement speed.",
             "leveling": [
               {
-                "attribute": "Primary Target Bonus Shield",
+                "attribute": "Bonus Shield",
                 "modifiers": [
                   {
                     "values": [
@@ -974,7 +974,7 @@
                 ]
               },
               {
-                "attribute": "Secondary Target Bonus Shield",
+                "attribute": "Reduced Bonus Shield",
                 "modifiers": [
                   {
                     "values": [
@@ -1001,7 +1001,7 @@
                 ]
               },
               {
-                "attribute": "Total Shield",
+                "attribute": "Reduced Total Shield",
                 "modifiers": [
                   {
                     "values": [
@@ -1146,6 +1146,7 @@
     "saleRp": 0
   },
   "lore": "No mortal exemplifies the spiritual traditions of Ionia more than Karma. She is the living embodiment of an ancient soul reincarnated countless times, carrying all her accumulated memories into each new life, and blessed with power that few can comprehend. She has done her best to guide her people in recent times of crisis, though she knows that peace and harmony may come only at a considerable cost—both to her, and to the land she holds most dear.",
+  "faction": "ionia",
   "skins": [
     {
       "name": "Original",
@@ -2197,7 +2198,7 @@
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/43/43027.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/43/43027.jpg",
       "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/karma/skins/skin27/karmaloadscreen_27.jpg",
-      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/karma/skins/skin27/karmaloadscreen_27_le.pie_c_11_14.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/karma/skins/skin27/karmaloadscreen_27_le.jpg",
       "newEffects": true,
       "newAnimations": true,
       "newRecall": true,
@@ -2421,8 +2422,8 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/43/43044.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/43/43044.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/43/43044.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/karma/skins/skin44/karmaloadscreen_44.pie_c_11_21.jpg",
-      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/karma/skins/skin44/karmaloadscreen_44_le.pie_c_11_21.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/karma/skins/skin44/karmaloadscreen_44.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/karma/skins/skin44/karmaloadscreen_44_le.jpg",
       "newEffects": true,
       "newAnimations": true,
       "newRecall": true,

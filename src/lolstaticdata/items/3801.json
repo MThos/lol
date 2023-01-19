@@ -8,6 +8,7 @@
     1006
   ],
   "buildsInto": [
+    3084,
     3109,
     3083
   ],
@@ -16,7 +17,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3801_tank_t2_crystallinebracer.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3801_tank_t2_crystallinebracer.png",
   "simpleDescription": "Grants Health and Health Regen",
   "nicknames": [],
   "passives": [],

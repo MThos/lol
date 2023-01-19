@@ -4,7 +4,7 @@
   "name": "Corki",
   "title": "the Daring Bombardier",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Corki.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Corki.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -12,7 +12,7 @@
     "health": {
       "flat": 588,
       "percent": 0.0,
-      "perLevel": 101,
+      "perLevel": 105,
       "percentPerLevel": 0.0
     },
     "healthRegen": {
@@ -48,7 +48,7 @@
     "attackDamage": {
       "flat": 55,
       "percent": 0.0,
-      "perLevel": 2.5,
+      "perLevel": 2.8,
       "percentPerLevel": 0.0
     },
     "movespeed": {
@@ -601,7 +601,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Corki/ability-icon/e",
         "effects": [
           {
-            "description": "Active: Corki sprays bullets in a cone toward his facing direction for 4 seconds, dealing equal parts physical and magic damage every 0.25 seconds to all enemies hit, and reducing the targets' armor and magic resistance with each tick, stacking up to 8 times and lasting for 2 seconds, which refreshes on subsequent ticks.",
+            "description": "Active: Corki sprays bullets in a cone toward his facing direction for 4 seconds, dealing equal parts physical and magic damage every 0.25 seconds to all enemies hit, and reducing the targets' armor and magic resistance with each tick, lasting for 2 seconds, refreshing on subsequent ticks, and stacking up to 8 times.",
             "leveling": [
               {
                 "attribute": "Mixed Damage Per Tick",
@@ -955,13 +955,14 @@
   },
   "releaseDate": "2009-09-19",
   "releasePatch": "0.9.25.21",
-  "patchLastChanged": "12.13",
+  "patchLastChanged": "12.21",
   "price": {
     "blueEssence": 3150,
     "rp": 790,
     "saleRp": 0
   },
   "lore": "The yordle pilot Corki loves two things above all others: flying, and his glamorous mustache... though not necessarily in that order. After leaving Bandle City, he settled in Piltover and fell in love with the wondrous machines he found there. He dedicated himself to the development of flying contraptions, leading an aerial defense force of seasoned veterans known as the Screaming Yipsnakes. Calm under fire, Corki patrols the skies around his adopted home, and has never encountered a problem that a good missile barrage couldn't solve.",
+  "faction": "bandle-city",
   "skins": [
     {
       "name": "Original",
@@ -1071,9 +1072,7 @@
       "chromas": [],
       "lore": null,
       "release": "2010-03-24",
-      "set": [
-        "Baron"
-      ],
+      "set": [],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/42/42003.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/42/42003.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/42/42003.jpg",
@@ -1135,9 +1134,7 @@
       "chromas": [],
       "lore": null,
       "release": "2011-04-04",
-      "set": [
-        "Disguise"
-      ],
+      "set": [],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/42/42005.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/42/42005.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/42/42005.jpg",
@@ -1817,7 +1814,7 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/42/42026.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/42/42026.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/42/42026.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/corki/skins/skin26/corkiloadscreen_26.pie_c_11_13.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/corki/skins/skin26/corkiloadscreen_26.jpg",
       "loadScreenVintagePath": null,
       "newEffects": true,
       "newAnimations": true,

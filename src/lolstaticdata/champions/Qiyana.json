@@ -4,7 +4,7 @@
   "name": "Qiyana",
   "title": "Empress of the Elements",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Qiyana.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Qiyana.png",
   "resource": "MANA",
   "attackType": "MELEE",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -130,7 +130,7 @@
       "percentPerLevel": 0.0
     },
     "aramDamageTaken": {
-      "flat": 0.85,
+      "flat": 0.8,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
@@ -321,7 +321,7 @@
             ]
           },
           {
-            "description": "Gathering an Element with Terrashape will reset the cooldown and upgrades Edge of Ixtal into Elemental Wrath.",
+            "description": "Gathering an Element with Terrashape resets Edge of Ixtal's cooldown and upgrades it into Elemental Wrath.",
             "leveling": []
           },
           {
@@ -399,11 +399,11 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Qiyana/ability-icon/q",
         "effects": [
           {
-            "description": "Active: Qiyana hurls her blade in the target direction that blasts in a line upon hitting an enemy or maximum range. This consumes the current Element to empower the blade with an additional effect.",
+            "description": "Active: Qiyana hurls her blade in the target direction that blasts in a line upon hitting an enemy or maximum range, consuming the current Element to empower the blade with an additional effect.",
             "leveling": []
           },
           {
-            "description": "Enemies hit are dealt Edge of Ixtal's physical damage, reduced to 75% against subsequent enemies beyond the closest. Elemental Wrath deals 150% damage against monsters.",
+            "description": "Enemies hit are dealt Edge of Ixtal's damage, reduced to 75% against subsequent enemies beyond the closest. Elemental Wrath deals 150% damage against monsters.",
             "leveling": [
               {
                 "attribute": "Physical Damage",
@@ -490,47 +490,10 @@
             "leveling": []
           },
           {
-            "description": "Terrain: The blast deals 60% bonus damage against enemies below 50% of their maximum health.",
+            "description": "Terrain: The blast deals 60% increased damage against enemies below 50% of their maximum health.",
             "leveling": [
               {
-                "attribute": "Bonus Damage",
-                "modifiers": [
-                  {
-                    "values": [
-                      30,
-                      48,
-                      66,
-                      84,
-                      102
-                    ],
-                    "units": [
-                      "",
-                      "",
-                      "",
-                      "",
-                      ""
-                    ]
-                  },
-                  {
-                    "values": [
-                      45,
-                      45,
-                      45,
-                      45,
-                      45
-                    ],
-                    "units": [
-                      "% bonus AD",
-                      "% bonus AD",
-                      "% bonus AD",
-                      "% bonus AD",
-                      "% bonus AD"
-                    ]
-                  }
-                ]
-              },
-              {
-                "attribute": "Total Damage",
+                "attribute": "Increased Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -567,15 +530,15 @@
                 ]
               },
               {
-                "attribute": "Total Damage to targets beyond the first",
+                "attribute": "Subsequent Increased Damage",
                 "modifiers": [
                   {
                     "values": [
-                      67.5,
-                      108,
-                      148.5,
-                      189,
-                      229.5
+                      60,
+                      96,
+                      132,
+                      168,
+                      204
                     ],
                     "units": [
                       "",
@@ -587,11 +550,11 @@
                   },
                   {
                     "values": [
-                      101.25,
-                      101.25,
-                      101.25,
-                      101.25,
-                      101.25
+                      90,
+                      90,
+                      90,
+                      90,
+                      90
                     ],
                     "units": [
                       "% bonus AD",
@@ -827,7 +790,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Qiyana/ability-icon/e",
         "effects": [
           {
-            "description": "Active: Qiyana dashes a fixed distance towards the target enemy and deals physical damage if they are still in range upon arrival.",
+            "description": "Active: Qiyana dashes a fixed distance in the direction of the target enemy. If they are in range upon arrival, she deals physical damage.",
             "leveling": [
               {
                 "attribute": "Physical Damage",
@@ -923,7 +886,7 @@
         "projectile": null,
         "onHitEffects": null,
         "occurrence": null,
-        "notes": "Audacity only damages targets if within 250 range at the end of the dash.",
+        "notes": "Audacity only damages targets if within 250 range upon completion of the dash.",
         "blurb": "Active:  Qiyana  dashes toward the target enemy and deals physical damage upon arrival.",
         "missileSpeed": null,
         "rechargeRate": null,
@@ -949,7 +912,7 @@
             "leveling": []
           },
           {
-            "description": "The windblast creates a cascading shockwave across any River or Brush it passes through, as well as around the borders of Terrain it reaches, dealing physical damage to enemies hit, with the damage based on the target's health being capped against monsters. The shockwave also stuns enemies hit for 0.5 − 1 (based on proximity) seconds, and grants sight of the area along its path each for 0.75 seconds.",
+            "description": "The windblast creates a cascading shockwave across any River or Brush it passes through, as well as around the borders of Terrain it reaches, dealing physical damage to enemies hit, stunning them for 0.5 − 1 (based on proximity) seconds, and briefly granting sight of the area along its path. The damage based on the target's health ratio is capped against monsters.",
             "leveling": [
               {
                 "attribute": "Physical Damage",
@@ -993,7 +956,7 @@
                 ]
               },
               {
-                "attribute": "Capped percentage monster damage",
+                "attribute": "Capped Monster Health Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -1054,7 +1017,7 @@
         "projectile": "SPECIAL",
         "onHitEffects": null,
         "occurrence": null,
-        "notes": "The windblast needs only to reach near terrain to trigger the terrain shockwave.\nArtificial terrain (e.g,  Anivia's  Crystallize,  Taliyah's  Weaver's Wall,  Trundle's  Pillar of Ice) touching map terrain will be treated as a single piece of terrain, even when bridging two pieces of map terrain together; the shockwave will wrap around all connecting terrain. The shockwave's path is determined once it initially spreads; any expired terrain will be treated as if it were still there.\n Projectile-intercepting effects will block the windblast but not the shockwave.\nThis ability will cast from wherever the caster is at the end of the cast time.",
+        "notes": "The windblast needs only to reach near terrain to trigger the terrain shockwave.\nThe shockwave grants sight along each part of its path for 0.75 seconds.\nArtificial terrain (e.g,  Anivia's  Crystallize,  Taliyah's  Weaver's Wall,  Trundle's  Pillar of Ice) touching map terrain will be treated as a single piece of terrain, even when bridging two pieces of map terrain together; the shockwave will wrap around all connecting terrain. The shockwave's path is determined once it initially spreads; any expired terrain will be treated as if it were still there.\n Projectile-intercepting effects will block the windblast but not the shockwave.\nThis ability will cast from wherever the caster is at the end of the cast time.",
         "blurb": "Active:  Qiyana sweeps a windblast in the target direction that  knocks back enemies hit and stops upon hitting Terrain.",
         "missileSpeed": null,
         "rechargeRate": null,
@@ -1080,6 +1043,7 @@
     "saleRp": 0
   },
   "lore": "In the jungle city of Ixaocan, Qiyana plots her own ruthless path to the high seat of the Yun Tal. Last in line to succeed her parents, she faces those who stand in her way with brash confidence and unprecedented mastery over elemental magic. With the land itself obeying her every command, Qiyana sees herself as the greatest elementalist in the history of Ixaocan—and by that right, deserving of not only a city, but an empire.",
+  "faction": "ixtal",
   "skins": [
     {
       "name": "Original",
@@ -1766,6 +1730,40 @@
       "splashArtist": [
         "Félix Donadio",
         "West Studio"
+      ]
+    },
+    {
+      "name": "Prestige True Damage (2022)",
+      "id": 246021,
+      "isBase": false,
+      "availability": "Limited",
+      "formatName": "Prestige True Damage (2022)",
+      "lootEligible": false,
+      "cost": "special",
+      "sale": 0,
+      "distribution": "Given to players who owned the original skin prior to patch 12.5",
+      "rarity": "Mythic",
+      "chromas": [],
+      "lore": "Always a fixture in the spotlight, Qiyana dressed to impress at True Damage's sold-out concert in Paris. While the paparazzi swarmed her with photos and questions, she reveled in the attention, knowing this was only the beginning of her empire of celebrity.",
+      "release": "2022-04-01",
+      "set": [
+        "True Damage"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/246/246021.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/246/246021.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/246/246021.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin21/qiyanaloadscreen_21.pie_c_12_6.jpg",
+      "loadScreenVintagePath": null,
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Montse Hernandez"
+      ],
+      "splashArtist": [
+        "Jessica 'OwleyCat' Oyhenart"
       ]
     }
   ]

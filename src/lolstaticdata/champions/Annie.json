@@ -4,7 +4,7 @@
   "name": "Annie",
   "title": "the Dark Child",
   "fullName": "Annie Hastur",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Annie.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.23.1/img/champion/Annie.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -48,7 +48,7 @@
     "attackDamage": {
       "flat": 50,
       "percent": 0.0,
-      "perLevel": 2.63,
+      "perLevel": 2.65,
       "percentPerLevel": 0.0
     },
     "movespeed": {
@@ -288,7 +288,7 @@
             ]
           },
           {
-            "description": "If Disintegrate kills its target, 50% of the cooldown is reduced and the mana cost is refunded.",
+            "description": "If this kills the target, 50% of the cooldown is reduced and the mana cost is refunded.",
             "leveling": []
           }
         ],
@@ -613,7 +613,7 @@
         "onHitEffects": null,
         "occurrence": null,
         "notes": "Molten Shield casts on ally if targeted or if very close to targeting them (within a range of 225); otherwise self casts.\nMolten Shield does not deal damage to  turrets when attacked by them.\nAttacks that are  dodged or  miss against the shielded target will not cause the shield to deal damage, while  blocked attacks still deal damage to the attacker.",
-        "blurb": "Active:  Annie grants herself or an allied champion—and  Tibbers—a  shield with a burst of  movement speed.",
+        "blurb": "Active:  Annie grants herself or an allied champion—and  Tibbers—a  shield with a burst of  move speed.",
         "missileSpeed": null,
         "rechargeRate": null,
         "collisionRadius": null,
@@ -741,13 +741,14 @@
   },
   "releaseDate": "2009-02-21",
   "releasePatch": "Alpha Week 2",
-  "patchLastChanged": "12.14",
+  "patchLastChanged": "12.22",
   "price": {
     "blueEssence": 450,
     "rp": 260,
     "saleRp": 0
   },
   "lore": "Dangerous, yet disarmingly precocious, Annie is a child mage with immense pyromantic power. Even in the shadows of the mountains north of Noxus, she is a magical outlier. Her natural affinity for fire manifested early in life through unpredictable, emotional outbursts, though she eventually learned to control these “playful tricks.” Her favorite includes the summoning of her beloved teddy bear, Tibbers, as a fiery protector. Lost in the perpetual innocence of childhood, Annie wanders the dark forests, always looking for someone to play with.",
+  "faction": "unaffiliated",
   "skins": [
     {
       "name": "Original",
@@ -802,7 +803,7 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/1/1001.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/1/1001.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/1/1001.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/annie/skins/skin01/annieloadscreen_1.pie_c_12_1.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/annie/skins/skin01/annieloadscreen_1.jpg",
       "loadScreenVintagePath": null,
       "newEffects": true,
       "newAnimations": false,
@@ -895,7 +896,7 @@
       "lore": null,
       "release": "2011-02-07",
       "set": [
-        "Prom"
+        "Day Job"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/1/1004.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/1/1004.jpg",
@@ -927,7 +928,7 @@
       "lore": null,
       "release": "2011-09-06",
       "set": [
-        "Disguise"
+        "Legacy"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/1/1006.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/1/1006.jpg",
@@ -1027,8 +1028,7 @@
       "lore": "Annie is a big part of Lunar Revel festivities, using her pyromancy to set off scores of high powered fireworks. Her panda bear Tibbers hauls the rockets for her, mauling anyone who tries to make off with even the smallest sparkler.",
       "release": "2013-02-08",
       "set": [
-        "Lunar Revel: Firecracker",
-        "Panda"
+        "Lunar Revel: Firecracker"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/1/1008.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/1/1008.jpg",
@@ -1164,7 +1164,7 @@
       "lore": "Ten years of epic outplays, last second turnarounds, and brutal throws - and we couldn't have done it without each and every one of you. Annie is ready to usher in the festivities, and Teemo… has been lifting, I see. Happy 10!",
       "release": "2019-10-27",
       "set": [
-        "Anniversary"
+        "Surprise Party"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/1/1012.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/1/1012.jpg",
@@ -1414,8 +1414,8 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/1/1022.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/1/1022.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/1/1022.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/annie/skins/skin22/annieloadscreen_22.pie_c_11_23.jpg",
-      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/annie/skins/skin22/annieloadscreen_22_le.pie_c_11_23.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/annie/skins/skin22/annieloadscreen_22.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/annie/skins/skin22/annieloadscreen_22_le.jpg",
       "newEffects": true,
       "newAnimations": true,
       "newRecall": true,
@@ -1427,6 +1427,209 @@
       "splashArtist": [
         "Sora Kim",
         "West Studio"
+      ]
+    },
+    {
+      "name": "Fright Night",
+      "id": 1031,
+      "isBase": false,
+      "availability": "Available",
+      "formatName": "Fright Night",
+      "lootEligible": true,
+      "cost": 1350,
+      "sale": 0,
+      "distribution": null,
+      "rarity": "Epic",
+      "chromas": [
+        {
+          "name": "Aquamarine",
+          "id": 1035,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/1/1035.png",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Catseye",
+          "id": 1033,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/1/1033.png",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Emerald",
+          "id": 1034,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/1/1034.png",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Obsidian",
+          "id": 1039,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/1/1039.png",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Pearl",
+          "id": 1038,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/1/1038.png",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Rose Quartz",
+          "id": 1036,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/1/1036.png",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "TENCENT"
+            }
+          ]
+        },
+        {
+          "name": "Ruby",
+          "id": 1032,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/1/1032.png",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "descriptions": [
+            {
+              "description": "This chroma was released as a bundle exclusive in 2022.",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Tanzanite",
+          "id": 1037,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/1/1037.png",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        }
+      ],
+      "lore": "Awful Orphan Annie comes home from school each day<br>A lonely little lady with whom no one will play<br>Now all her family's fled (or dead or gone away)<br>She can depend on Mr. Tibbers to make her new friends stay!",
+      "release": "2022-09-22",
+      "set": [
+        "Fright Night"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/1/1031.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/1/1031.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/1/1031.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/annie/skins/skin31/annieloadscreen_31.pie_c_12_18.jpg",
+      "loadScreenVintagePath": null,
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Cristina Milizia"
+      ],
+      "splashArtist": [
+        "Julia Yurtsev"
       ]
     }
   ]

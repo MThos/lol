@@ -4,7 +4,7 @@
   "name": "Lux",
   "title": "the Lady of Luminosity",
   "fullName": "Luxanna Crownguard",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Lux.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Lux.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -203,7 +203,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Lux/ability-icon/p",
         "effects": [
           {
-            "description": "Innate: Lux's abilities apply a mark to enemies hit that lasts 6 seconds, which refreshes on subsequent hits. Lux's basic attacks and Final Spark consume the mark to deal 20 − 190 (based on level) (+ 20% AP) bonus magic damage.",
+            "description": "Innate: Lux's abilities apply a mark to enemies hit for 6 seconds, refeshing on subsequent hits. Lux's basic attacks and Final Spark consume the mark to deal 20 − 190 (based on level) (+ 20% AP) bonus magic damage.",
             "leveling": []
           }
         ],
@@ -509,7 +509,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Lux/ability-icon/e",
         "effects": [
           {
-            "description": "Active: Lux sends a lucent singularity to the target location that lasts 5 seconds, granting sight of the area and slowing nearby enemies. Lucent Singularity can be recast at any time while it is in flight or within the duration, and does so automatically after the duration.",
+            "description": "Active: Lux sends a lucent singularity to the target location, remaining there for 5 seconds to grant sight of the area and slow nearby enemies.",
             "leveling": [
               {
                 "attribute": "Slow",
@@ -533,6 +533,10 @@
                 ]
               }
             ]
+          },
+          {
+            "description": "Lucent Singularity can be recast at any time while it is in flight or within the duration, and does so automatically after the duration.",
+            "leveling": []
           },
           {
             "description": "Recast: Lux detonates the singularity, dealing magic damage to enemies within. If Lucent Singularity was recast while in flight, it will detonate upon arrival.",
@@ -755,6 +759,7 @@
     "saleRp": 0
   },
   "lore": "Luxanna Crownguard hails from Demacia, an insular realm where magical abilities are viewed with fear and suspicion. Able to bend light to her will, she grew up dreading discovery and exile, and was forced to keep her power secret, in order to preserve her family's noble status. Nonetheless, Lux's optimism and resilience have led her to embrace her unique talents, and she now covertly wields them in service of her homeland.",
+  "faction": "demacia",
   "skins": [
     {
       "name": "Original",
@@ -784,7 +789,9 @@
       "voiceActor": [
         "Carrie Keranen"
       ],
-      "splashArtist": []
+      "splashArtist": [
+        "Katie 'TeaTime' De Sousa"
+      ]
     },
     {
       "name": "Sorceress",
@@ -1006,7 +1013,9 @@
       ],
       "lore": null,
       "release": "2016-11-28",
-      "set": [],
+      "set": [
+        "Elementalist"
+      ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/99/99007.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/99/99007.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/99/99007.jpg",
@@ -1187,8 +1196,7 @@
       "lore": "As captain of her Star Guardian team, Lux knows the importance of a little R&R. As host of the party, though, she's still working on the relaxation part. It's hard to cut loose—especially when a certain handsome blond Guardian keeps flashing that charming grin!—but Lux's boundless optimism still lights up any room.",
       "release": "2018-11-21",
       "set": [
-        "Star Guardian Season 1",
-        "Disguise"
+        "Star Guardian Season 1"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/99/99014.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/99/99014.jpg",
@@ -1250,7 +1258,7 @@
       "lootEligible": true,
       "cost": "special",
       "sale": 0,
-      "distribution": "150 Mythic Essence",
+      "distribution": "200 Mythic Essence",
       "rarity": "Mythic",
       "chromas": [],
       "lore": "Now in her second year at Durandal Academy, Lux has been hardened by the harrowing trials, losses, and betrayals that punctuated her freshman experience. Following the climactic clash with a certain Rogue God-Weapon, Lux has mastered her powers and risen to take her place as head of the Sorcery Club, as well as the new class president.",
@@ -1272,7 +1280,7 @@
         "Carrie Keranen"
       ],
       "splashArtist": [
-        "Kudos Productions"
+        "Rudy Siswanto"
       ]
     },
     {
@@ -1805,6 +1813,264 @@
       ],
       "splashArtist": [
         "Forrest Imel",
+        "West Studio"
+      ]
+    },
+    {
+      "name": "Prestige Battle Academia (2022)",
+      "id": 99039,
+      "isBase": false,
+      "availability": "Limited",
+      "formatName": "Prestige Battle Academia (2022)",
+      "lootEligible": false,
+      "cost": "special",
+      "sale": 0,
+      "distribution": "Given to players who owned the original skin prior to patch 12.5",
+      "rarity": "Mythic",
+      "chromas": [],
+      "lore": "Now in her second year at Durandal Academy, Lux has been hardened by the harrowing trials, losses, and betrayals that punctuated her freshman experience. Following the climactic clash with a certain Rogue God-Weapon, Lux has mastered her powers and risen to take her place as head of the Sorcery Club, as well as the new class president.",
+      "release": "2022-04-01",
+      "set": [
+        "Battle Academia"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/99/99039.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/99/99039.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/99/99039.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/lux/skins/skin39/luxloadscreen_39.pie_c_12_6.jpg",
+      "loadScreenVintagePath": null,
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Carrie Keranen"
+      ],
+      "splashArtist": [
+        "Rudy Siswanto"
+      ]
+    },
+    {
+      "name": "Empyrean",
+      "id": 99042,
+      "isBase": false,
+      "availability": "Available",
+      "formatName": "Empyrean",
+      "lootEligible": true,
+      "cost": 1350,
+      "sale": 0,
+      "distribution": null,
+      "rarity": "Epic",
+      "chromas": [
+        {
+          "name": "Catseye",
+          "id": 99045,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/99/99045.png",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Emerald",
+          "id": 99046,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/99/99046.png",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Neon Flare",
+          "id": 99051,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/99/99051.png",
+          "colors": [
+            "#FF655B",
+            "#95E237"
+          ],
+          "descriptions": [
+            {
+              "description": "This chroma was released as a Loot exclusive in the Worlds 2022 Event.",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Obsidian",
+          "id": 99050,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/99/99050.png",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Pearl",
+          "id": 99049,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/99/99049.png",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Rose Quartz",
+          "id": 99044,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/99/99044.png",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "TENCENT"
+            }
+          ]
+        },
+        {
+          "name": "Ruby",
+          "id": 99043,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/99/99043.png",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "descriptions": [
+            {
+              "description": "This chroma was released as a bundle exclusive in 2022.",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Sapphire",
+          "id": 99047,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/99/99047.png",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Tanzanite",
+          "id": 99048,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/99/99048.png",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        }
+      ],
+      "lore": "Forced to live in squalor and shame for her magical abilities, Lux ironically escaped certain death when her realm collapsed. Now with the raw power of the Foreglow, she's free. It doesn't matter that she's on her last legs: she intends to live and experience as much as she can before the fire consumes her.",
+      "release": "2022-11-03",
+      "set": [
+        "Empyrean"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/99/99042.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/99/99042.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/99/99042.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/lux/skins/skin42/luxloadscreen_42.pie_c_12_21.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/lux/skins/skin42/luxloadscreen_42_le.pie_c_12_21.jpg",
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Carrie Keranen"
+      ],
+      "splashArtist": [
         "West Studio"
       ]
     }

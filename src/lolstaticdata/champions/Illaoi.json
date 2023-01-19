@@ -4,7 +4,7 @@
   "name": "Illaoi",
   "title": "the Kraken Priestess",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Illaoi.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Illaoi.png",
   "resource": "MANA",
   "attackType": "MELEE",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -516,7 +516,7 @@
         "projectile": null,
         "onHitEffects": null,
         "occurrence": null,
-        "notes": "The bonus damage doesn't apply  life steal but it does apply  spell vamp.\n 𝐏𝐄𝐍𝐃𝐈𝐍𝐆 𝐅𝐎𝐑 𝐓𝐄𝐒𝐓 : Omnivamp\nHarsh Lesson is made of two different abilities which are decided by Illaoi's range to the target, being either  melee or within  dash range.\nThe close range ability:\nHas an  uncancellable windup.\nCan be used while  grounded or  rooted. If Illaoi attack commands and then casts Harsh Lesson, she is able to use the close range version within its dash range. (bug)\nStarting the attack before triggering  Guardian Angel's passive and hitting while she's in it will not cause the Tentacles to slam. (bug)\nThe attack will still hit if the target becomes  untargetable, but will not if it  dies. (bug)\nTentacles will slam if the attack is  blocked, but not if it's  dodged or if it  misses. (bug)\nDoes trigger  Hail of Blades.\nTriggers  Energized effects on-hit.\nIf the empowered attack duration ends during the attack animation, the attack won't be empowered. (bug)\nAfter hitting the target, Illaoi can quickly cast other abilities.\n 𝐏𝐄𝐍𝐃𝐈𝐍𝐆 𝐅𝐎𝐑 𝐓𝐄𝐒𝐓  The attack goes through  spell shields.\nThe dash range ability:\nDoes not have an uncancellable windup, meaning effects that can interrupt the dash will cancel the attack and put the ability on cooldown.\nCan be cast but cannot be used while  grounded or  rooted because Illaoi loses the  bonus attack range.\nThe attack will not hit if the target becomes  untargetable, but does hit if it  dies. (bug)\nTentacles will slam if the attack is  dodged,  blocked or if it  misses.\nDoes not trigger  Hail of Blades. (bug)\nTriggers  Energized effects during the jump. (bug)\nHaving enough attack speed will perform an unusual dunk. (bug)\nIf the empowered attack duration ends during the dash, the buff will linger until the attack has finished.\nAfter hitting the target, Illaoi has a short delay before she can cast other abilities. (bug)\n 𝐏𝐄𝐍𝐃𝐈𝐍𝐆 𝐅𝐎𝐑 𝐓𝐄𝐒𝐓  The attack goes through  spell shields, and also pops them.\nIf the target dies at the instant Harsh Lesson is about to hit the target, the attack will hit, be consumed, but will not make the Tentacles slam. (bug)\nThe Tentacle attacking because of Harsh Lesson is considered to be of the same cast instance, and thus will not grant additional stacks of  Conqueror,  Electrocute,  Phase Rush and Tribute. (bug)\nHarsh Lesson triggers  Bone Plating and one of its plates with the same attack. (bug)\nIt also triggers  Arcane Comet and reduces its cooldown twice.\nAttack moving while charging  Hexflash will delay the attack.",
+        "notes": "The bonus damage doesn't apply  life steal but it does apply  spell vamp.\n 𝐏𝐄𝐍𝐃𝐈𝐍𝐆 𝐅𝐎𝐑 𝐓𝐄𝐒𝐓 : Omnivamp\nHarsh Lesson is made of two different abilities which are decided by Illaoi's range to the target, being either  melee or within  dash range.\nThe close range ability:\nHas an  uncancellable windup.\nCan be used while  grounded or  rooted. If Illaoi attack commands and then casts Harsh Lesson while rooted, she is able to use the close range version within its dash range. (bug)\nStarting the attack before triggering  Guardian Angel's passive and hitting while she's in it will not cause the Tentacles to slam. (bug)\nThe attack will still hit if the target becomes  untargetable, but will not if it  dies. (bug)\nTentacles will slam if the attack is  blocked, but not if it's  dodged or if it  misses. (bug)\nDoes trigger  Hail of Blades.\nTriggers  Energized effects on-hit.\nIf the empowered attack duration ends during the attack animation, the attack won't be empowered. (bug)\nAfter hitting the target, Illaoi can quickly cast other abilities.\n 𝐏𝐄𝐍𝐃𝐈𝐍𝐆 𝐅𝐎𝐑 𝐓𝐄𝐒𝐓  The attack goes through  spell shields.\nThe dash range ability:\nDoes not have an uncancellable windup, meaning effects that can interrupt the dash will cancel the attack and put the ability on cooldown.\nCan be cast but cannot be used while  grounded or  rooted because Illaoi loses the  bonus attack range.\nThe attack will not hit if the target becomes  untargetable, but does hit if it  dies. (bug)\nTentacles will slam if the attack is  dodged,  blocked or if it  misses.\nDoes not trigger  Hail of Blades. (bug)\nTriggers  Energized effects during the jump. (bug)\nHaving enough attack speed will perform an unusual dunk. (bug)\nIf the empowered attack duration ends during the dash, the buff will linger until the attack has finished.\nAfter hitting the target, Illaoi has a short delay before she can cast other abilities. (bug)\n 𝐏𝐄𝐍𝐃𝐈𝐍𝐆 𝐅𝐎𝐑 𝐓𝐄𝐒𝐓  The attack goes through  spell shields, and also pops them.\nIf the target dies at the instant Harsh Lesson is about to hit the target, the attack will hit, be consumed, but will not make the Tentacles slam. (bug)\nThe Tentacle attacking because of Harsh Lesson is considered to be of the same cast instance, and thus will not grant additional stacks of  Conqueror,  Electrocute,  Phase Rush and Tribute. (bug)\nHarsh Lesson triggers  Bone Plating and one of its plates with the same attack. (bug)\nIt also triggers  Arcane Comet and reduces its cooldown twice.\nAttack moving while charging  Hexflash will delay the attack.",
         "blurb": "Active:  Illaoi's next basic attack gains  bonus attack range and causes her to  leap to her target, dealing bonus physical damage and commanding nearby Tentacles to attack the target.",
         "missileSpeed": null,
         "rechargeRate": null,
@@ -774,6 +774,7 @@
     "saleRp": 0
   },
   "lore": "Illaoi's powerful physique is dwarfed only by her indomitable faith. As the prophet of the Great Kraken, she uses a huge, golden idol to rip her foes' spirits from their bodies and shatter their perception of reality. All who challenge the “Truth Bearer of Nagakabouros” soon discover Illaoi never battles alone—the god of the Serpent Isles fights by her side.",
+  "faction": "bilgewater",
   "skins": [
     {
       "name": "Original",
@@ -822,7 +823,7 @@
       "lore": null,
       "release": "2015-11-24",
       "set": [
-        "Void"
+        "Curse of the Void"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/420/420001.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/420/420001.jpg",

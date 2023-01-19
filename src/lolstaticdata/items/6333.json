@@ -14,7 +14,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6333_fighter_t3_deathsdance.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6333_fighter_t3_deathsdance.png",
   "simpleDescription": null,
   "nicknames": [
     "dd",
@@ -27,6 +27,7 @@
       "name": "Ignore Pain",
       "effects": "Stores {{rd|30%|10%}} of all {{tt|post-mitigation|Damage calculated after modifiers}} {{as|physical|physical damage}} and {{as|magic|magic damage}} damage received, including on {{tip|shield|shields}}, which is successively taken as {{as|true damage}} over 3 seconds instead, dealing a third of the stored damage each second.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -197,8 +198,9 @@
       "unique": true,
       "mythic": false,
       "name": "Defy",
-      "effects": "If an enemy champion dies within 3 seconds of you damaging them, removes ''Ignore Pain's'' remaining stored damage, and {{tip|heals}} you for {{as|120% '''bonus''' AD}} over 2 seconds.",
+      "effects": "If an enemy champion dies within 3 seconds of you damaging them, removes ''Ignore Pain's'' remaining stored damage and {{tip|heals}} you for {{as|120% '''bonus''' AD}} over 2 seconds.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,

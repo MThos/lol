@@ -4,7 +4,7 @@
   "name": "Bard",
   "title": "the Wandering Caretaker",
   "fullName": "Bard",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Bard.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.23.1/img/champion/Bard.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -373,7 +373,7 @@
         "onTargetCdStatic": null,
         "innerRadius": null,
         "speed": "1500",
-        "width": null,
+        "width": "60",
         "angle": null,
         "castTime": "0.25",
         "effectRadius": null,
@@ -701,6 +701,7 @@
     "saleRp": 0
   },
   "lore": "A traveler from beyond the stars, Bard is an agent of serendipity who fights to maintain a balance where life can endure the indifference of chaos. Many Runeterrans sing songs that ponder his extraordinary nature, yet they all agree that the cosmic vagabond is drawn to artifacts of great magical power. Surrounded by a jubilant choir of helpful spirit meeps, it is impossible to mistake his actions as malevolent, as Bard always serves the greater good... in his own odd way.",
+  "faction": "unaffiliated",
   "skins": [
     {
       "name": "Original",
@@ -709,7 +710,7 @@
       "availability": "Available",
       "formatName": "Original",
       "lootEligible": true,
-      "cost": 975,
+      "cost": 880,
       "sale": 0,
       "distribution": null,
       "rarity": "NoRarity",
@@ -904,8 +905,7 @@
       "lore": "Though playing a famously unpopular Riftquest character class, Bard Bard has turned the ancient art of song into a reality-altering weapon of death. Unfortunately his turns take forever, since he has no concept of linear time and speaks in those weird “bwong” sounds.",
       "release": "2016-11-17",
       "set": [
-        "Rift Quest",
-        "Double Name"
+        "Rift Quest"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/432/432006.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/432/432006.jpg",
@@ -1319,8 +1319,8 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/432/432017.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/432/432017.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/432/432017.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/bard/skins/skin17/bardloadscreen_17.pie_c_11_23.jpg",
-      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/bard/skins/skin17/bardloadscreen_17_le.pie_c_11_23.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/bard/skins/skin17/bardloadscreen_17.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/bard/skins/skin17/bardloadscreen_17_le.jpg",
       "newEffects": true,
       "newAnimations": true,
       "newRecall": true,

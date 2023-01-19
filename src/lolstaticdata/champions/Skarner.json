@@ -4,7 +4,7 @@
   "name": "Skarner",
   "title": "the Crystal Vanguard",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Skarner.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Skarner.png",
   "resource": "MANA",
   "attackType": "MELEE",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -202,7 +202,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Skarner/ability-icon/p",
         "effects": [
           {
-            "description": "Innate: Skarner's presence spawns 6 Crystal Spires at set points across the battlefield:\nOne beside Baron Nashor's pit\nOne beside Dragon's pit\nOne nearby each buff monster's camp",
+            "description": "Innate: Skarner's presence spawns 6 Crystal Spires at set points across the battlefield:\nOne beside Baron Nashor's pit\nOne beside Dragon's pit\nOne near each of the camps for Blue Sentinel and Red Brambleback",
             "leveling": []
           },
           {
@@ -210,7 +210,7 @@
             "leveling": []
           },
           {
-            "description": "Capturing a Crystal Spire grants sight of its radius for 1.5 seconds and locks it out from capture for 15 seconds. This also grants 30 split among its captors or 15 for a single captor.",
+            "description": "Capturing a Crystal Spire grants sight of its radius for 1.5 seconds and locks it out from capture for 15 seconds. Crystal Spires grant 30 split among its captors, or 15 for a single captor.",
             "leveling": []
           },
           {
@@ -218,7 +218,7 @@
             "leveling": []
           },
           {
-            "description": "Crystal Charge: Skarner gains 70 − 120 (based on level) bonus movement speed, 43% − 160% (based on level) bonus attack speed and restores 1% maximum mana every 0.5 seconds.",
+            "description": "Crystal Charge: Skarner gains 70 − 120 (based on level) bonus movement speed and 43% − 160% (based on level) bonus attack speed and restores 1% maximum mana every 0.5 seconds.",
             "leveling": []
           }
         ],
@@ -255,7 +255,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Skarner/ability-icon/q",
         "effects": [
           {
-            "description": "Skarner slashes around himself, dealing physical damage to nearby enemies and becoming charged for 5 seconds if at least one has been hit. Subsequent casts while charged will deal bonus magic damage.",
+            "description": "Active: Skarner slashes around himself, dealing physical damage to nearby enemies. If at least one enemy is hit, he becomes charged for 5 seconds, empowering subsequent casts of Crystal Slash to deal bonus magic damage.",
             "leveling": [
               {
                 "attribute": "Physical Damage",
@@ -350,7 +350,11 @@
             ]
           },
           {
-            "description": "Each instances of damage is capped at 200 damage against monsters.Additionally, basic attacks reduce Crystal Slash's cooldown by 0.25 seconds, increased to 1 second against champions.",
+            "description": "Each instance of damage is capped at 200 against monsters.",
+            "leveling": []
+          },
+          {
+            "description": "Basic attacks reduce Crystal Slash's current cooldown by 0.25 seconds, increased to 1 second against champions.",
             "leveling": []
           }
         ],
@@ -426,7 +430,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Skarner/ability-icon/w",
         "effects": [
           {
-            "description": "Active: Skarner gains a shield for up to 6 seconds.",
+            "description": "Active: Skarner grants himself a shield for up to 6 seconds, and while it holds, he gains bonus movement speed that doubles over the first 3 seconds.",
             "leveling": [
               {
                 "attribute": "Shield Strength",
@@ -464,14 +468,9 @@
                     ]
                   }
                 ]
-              }
-            ]
-          },
-          {
-            "description": "While the shield persists, Skarner gains bonus movement speed that doubles over the first 3 seconds.",
-            "leveling": [
+              },
               {
-                "attribute": "Initial Bonus Movement Speed",
+                "attribute": "Bonus Movement Speed",
                 "modifiers": [
                   {
                     "values": [
@@ -587,11 +586,11 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Skarner/ability-icon/e",
         "effects": [
           {
-            "description": "Passive: Every time Skarner triggers Crystal Venom or stings an enemy with Impale, Fracture's cooldown is reduced by the corresponding base duration of the disable.",
+            "description": "Passive: Every time Skarner triggers Crystal Venom or stings an enemy with Impale, Fracture's current cooldown is reduced by the corresponding base duration of the disable.",
             "leveling": []
           },
           {
-            "description": "Active: Skarner launches a blast of crystalline energy in the target direction that deals magic damage to enemies hit and slows them for 2.5 seconds, as well as marking them with Crystal Venom for 5 seconds.",
+            "description": "Active: Skarner launches a blast of crystalline energy in the target direction that deals magic damage to enemies hit, slows them for 2.5 seconds, and marks them with Crystal Venom for 5 seconds.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -752,10 +751,10 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Skarner/ability-icon/r",
         "effects": [
           {
-            "description": "Active: Skarner roots the target enemy champion over the cast time and attempts to impale them with his stinger. Upon impaling the target, he deals 60% AD physical damage and bonus magic damage and suppresses them for 1.75 seconds, during which they are revealed and Skarner can drag them with himself.\nAfterwards, the target takes the same damage again.",
+            "description": "Active: Skarner roots the target enemy champion over the cast time and attempts to impale them with his stinger. Upon impaling the target, he deals 60% AD physical damage plus magic damage and suppresses them for 1.75 seconds, during which they are revealed and Skarner can drag them with himself.\nAfterwards, the target takes the same damage again.",
             "leveling": [
               {
-                "attribute": "Bonus Magic Damage",
+                "attribute": "Magic Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -899,6 +898,7 @@
     "saleRp": 0
   },
   "lore": "Skarner is an immense crystalline scorpion from a hidden valley in Shurima. Part of the ancient Brackern race, Skarner and his kin are known for their great wisdom and deep connection to the land, as their souls are fused with powerful life crystals which hold the living thoughts and memories of their ancestors. In an age long past, the Brackern entered hibernation to avoid untold magical destruction, but recent, threatening events have roused Skarner. As the only Brackern awake, he strives to protect his kind from those who seek to harm them.",
+  "faction": "shurima",
   "skins": [
     {
       "name": "Original",
@@ -978,9 +978,7 @@
       "chromas": [],
       "lore": null,
       "release": "2011-08-09",
-      "set": [
-        "Rune"
-      ],
+      "set": [],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/72/72002.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/72/72002.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/72/72002.jpg",

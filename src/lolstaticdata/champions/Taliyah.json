@@ -4,7 +4,7 @@
   "name": "Taliyah",
   "title": "the Stoneweaver",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Taliyah.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Taliyah.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -202,11 +202,11 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Taliyah/ability-icon/p",
         "effects": [
           {
-            "description": "Innate: Taliyah gains 10 / 15 / 25 / 40% (based on level) bonus movement speed near terrain, which builds up over 1 second while in range for at least 0.4 seconds, and decays at the same rate once out of range for at least 3 seconds.",
+            "description": "Innate: While near terrain, Taliyah gains 10 / 15 / 25 / 40% (based on level) bonus movement speed, which builds up over 1 second while in range for at least 0.4 seconds, and decays at the same rate once out of range for at least 3 seconds.",
             "leveling": []
           },
           {
-            "description": "If Taliyah is casting an ability or enters champion combat, Rock Surfing is placed on cooldown.",
+            "description": "If Taliyah is casting an ability or enters champion combat, Rock Surfing cannot occur again for a few seconds.",
             "leveling": []
           }
         ],
@@ -336,7 +336,7 @@
                 ]
               },
               {
-                "attribute": "Maximum Single-Target Damage",
+                "attribute": "Total Magic Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -379,14 +379,14 @@
             "leveling": []
           },
           {
-            "description": "Casting Threaded Volley creates a 400-unit area of Worked Ground at Taliyah's location that lasts 30 seconds. Casting Threaded Volley on Worked Ground will instead consume the area to become empowered with a new effect, cost 20 mana and have 50% reduced cooldown, though not below 0.75 seconds.",
+            "description": "Casting Threaded Volley creates a 400-unit area of Worked Ground at Taliyah's cast location that lasts 30 seconds. While on Worked Ground, Threaded Volley's cast consumes the area to become empowered with a new effect, costing 20 mana and having 50% reduced cooldown, though not below 0.75 seconds.",
             "leveling": []
           },
           {
-            "description": "Empowered Active: Taliyah hurls a Boulder that explodes upon the first enemy hit, dealing 190% damage to them and normal damage to nearby enemies, slowing all targets hit for 1.5 seconds and revealing them for 0.5 seconds. Monsters hit are also stunned for 3 seconds.",
+            "description": "Empowered Active: Taliyah hurls a Boulder that explodes upon the first enemy hit, dealing 190% damage to them and normal damage to nearby enemies, slowing all targets hit for 1.5 seconds, and revealing them for 0.5 seconds. Monsters hit are also stunned for 3 seconds.",
             "leveling": [
               {
-                "attribute": "Primary Target Damage",
+                "attribute": "Empowered Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -411,43 +411,6 @@
                       95,
                       95,
                       95
-                    ],
-                    "units": [
-                      "% AP",
-                      "% AP",
-                      "% AP",
-                      "% AP",
-                      "% AP"
-                    ]
-                  }
-                ]
-              },
-              {
-                "attribute": "Secondary Target Damage",
-                "modifiers": [
-                  {
-                    "values": [
-                      45,
-                      65,
-                      85,
-                      105,
-                      125
-                    ],
-                    "units": [
-                      "",
-                      "",
-                      "",
-                      "",
-                      ""
-                    ]
-                  },
-                  {
-                    "values": [
-                      50,
-                      50,
-                      50,
-                      50,
-                      50
                     ],
                     "units": [
                       "% AP",
@@ -635,7 +598,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Taliyah/ability-icon/e",
         "effects": [
           {
-            "description": "Active: Taliyah scatters a field of 22 stones across the ground in the target direction that deals magic damage to enemies hit. The stones remain for 4 seconds and slow enemies within the area by 20%.",
+            "description": "Active: Taliyah scatters a field of 22 stones across the ground in the target direction that deals magic damage to enemies hit while they erupt. The stones then remain for 4 seconds and slow enemies within the area by 20%.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -677,10 +640,10 @@
             ]
           },
           {
-            "description": "Enemies that dash or are knocked into a stone will detonate it, dealing magic damage and stunning them for 2 seconds, which is then set to 0.75 seconds for non- monsters after the movement ends.",
+            "description": "Enemies that dash or are knocked into a stone will detonate it, dealing magic damage and stunning them for 2 seconds, which is set to 0.75 seconds for non- monsters after the movement ends.",
             "leveling": [
               {
-                "attribute": "Minimum Detonation Damage",
+                "attribute": "Detonation Magic Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -715,9 +678,14 @@
                     ]
                   }
                 ]
-              },
+              }
+            ]
+          },
+          {
+            "description": "An enemy can detonate up to 4 stones, but the damage is reduced by 0% − 75% (based on stones detonated). Unraveled Earth can affect targets only once per cast; the stones will still detonate but not apply their effects.",
+            "leveling": [
               {
-                "attribute": "Maximum Detonation Damage",
+                "attribute": "Total Maximum Detonation Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -754,10 +722,6 @@
                 ]
               }
             ]
-          },
-          {
-            "description": "An enemy can detonate up to 4 stones, but the damage is reduced by 0% − 75% (based on stones detonated). Unraveled Earth can affect targets only once per cast; the stones will still detonate but not apply their effects.",
-            "leveling": []
           },
           {
             "description": "Unraveled Earth deals 150% damage against monsters.",
@@ -836,23 +800,19 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Taliyah/ability-icon/r",
         "effects": [
           {
-            "description": "Active: Taliyah summons a torrent of spiraling rocks that cascades in the target direction, knocking aside champions hit and erecting a wall of terrain in its wake. The wall lasts for 4 seconds after completion, then slowly disintegrates from the starting end.",
+            "description": "Active: Taliyah summons a torrent of spiraling rocks that cascades in the target direction, knocking aside champions hit and erecting a wall of terrain in its wake. The wall lasts for 4 seconds after completion, then slowly disintegrates from its starting point.",
             "leveling": []
           },
           {
-            "description": "Taliyah also channels for 1 second, during which Weaver's Wall can be recast and she reveals herself. While the wall remains fully formed, she gains another recast empowered with a new effect.",
+            "description": "Taliyah also channels for 1 second, during which Weaver's Wall can be recast and she reveals herself.",
             "leveling": []
           },
           {
-            "description": "Recast: Upon completing the channel, Taliyah surfs on the wall as it emerges, revealing herself in the process. After 0.75 seconds, she may input a movement command to jump off the wall to the target location, and automatically does so upon being immobilized, polymorphed, or reaching the finishing end.",
+            "description": "Recast: Upon completing the channel, Taliyah surfs on the wall as it emerges, revealing herself in the process. After 0.75 seconds, she may input a movement command to jump off the wall to the target location, and automatically does so upon being immobilized or polymorphed or reaching maximum range.Once the wall has fully formed, Taliyah can recast to destroy the wall instantly.",
             "leveling": []
           },
           {
-            "description": "Empowered Recast: Taliyah instantly destroys the wall.",
-            "leveling": []
-          },
-          {
-            "description": "Weaver's Wall is placed on a 3-second cooldown upon dealing basic or ability damage, or upon taking champion or turret damage.",
+            "description": "Weaver's Wall is placed on a 3-second static cooldown upon dealing basic or ability damage, or upon taking champion or turret damage.",
             "leveling": []
           }
         ],
@@ -898,7 +858,7 @@
         "projectile": "TRUE",
         "onHitEffects": null,
         "occurrence": null,
-        "notes": "The  jump off distance can be extended to up to 1000 units when targeting across terrain.\nThe initial cast counts as an ability activation for the purposes of on-cast effects such as  Spellblade and stacking  Force Pulse.\nHowever neither recasts do.\nTaliyah almost always jumps off of the wall to her left from when it reaches maximum range. If she is forced to jump off of the wall, she will do so towards the source that dealt damage or applied the crowd control to her.\nWeaver's Wall, while  channeling, can be recast while  grounded but not while  rooted.\n Wind Wall and  Blade Whirl will prevent Weaver's Wall from summoning any further but does not destroy any initial terrain it spawned. If Taliyah is surfing during the collision, she immediately becomes  stunned for 0.25 seconds, interrupting the surf.\nIf Taliyah would enter terrain and the wall reaches maximum range inside, she is preemptively forced off the wall before entering.\nThe wall can surpass the edges of the map, but Taliyah cannot.\nDealing damage to a ward or trap does not trigger Weaver's Wall's 3-second cooldown.\nThe following table refers for interactions while Taliyah is  channeling:\nThe channel is not  interrupted by  ground and  root despite being a movement channel.\n\n\nType\n\nChannel\n\n\nAttacking\n\nDisabled\n\n\nAbilities\n\nDisabled\n\n\nMovement\n\nDisabled\n\n\nItems\n\nUsable\n\nN/A\n\n\nDisabled\n\nAll items are disabled\n\n\nInterrupted by\n\nN/A\n\n\nConsumables\n\nDisabled, but can activate trinkets\n\n\nSpells\n\nUsable\n\nN/A\n\n\nDisabled\n\n Barrier  Clarity  Cleanse  Exhaust  Ghost  Heal  Ignite  Smite  Flash  Teleport  Hexflash\n\n\nInterrupted by\n\n Recall\n\n\nInterrupted by\n\nDeath Cast-inhibiting effects\n\nThe following table refers for interactions while Taliyah is  surfing:\n\n\nType\n\nChannel\n\n\nAttacking\n\nDisabled\n\n\nAbilities\n\nDisabled\n\n\nMovement\n\nDisabled\n\n\nItems\n\nUsable\n\nN/A\n\n\nDisabled\n\nAll items are disabled\n\n\nInterrupted by\n\nN/A\n\n\nConsumables\n\nDisabled, but can activate trinkets\n\n\nSpells\n\nUsable\n\nN/A\n\n\nDisabled\n\n Barrier  Clarity  Cleanse  Exhaust  Ghost  Heal  Ignite  Smite  Flash  Teleport  Hexflash\n\n\nInterrupted by\n\n Recall\n\n\nInterrupted by\n\nDamaging effectsDeath Immobilizing effects",
+        "notes": "The  jump off distance can be extended to up to 1000 units when targeting across terrain.\nThe initial cast counts as an ability activation for the purposes of on-cast effects such as  Spellblade and stacking  Force Pulse.\nHowever neither recasts do.\nTaliyah can recast to destroy the wall even if she did not surf it or it is in the process of disintegrating.\nTaliyah almost always jumps off of the wall to her left from when it reaches maximum range. If she is forced to jump off of the wall, she will do so towards the source that dealt damage or applied the crowd control to her.\nWeaver's Wall, while  channeling, can be recast while  grounded but not while  rooted.\n Wind Wall and  Blade Whirl will prevent Weaver's Wall from summoning any further but does not destroy any initial terrain it spawned. If Taliyah is surfing during the collision, she immediately becomes  stunned for 0.25 seconds, interrupting the surf.\nIf Taliyah would enter terrain and the wall reaches maximum range inside, she is preemptively forced off the wall before entering.\nThe wall can surpass the edges of the map, but Taliyah cannot.\nDealing damage to a ward or trap does not trigger Weaver's Wall's 3-second cooldown.\nThe following table refers for interactions while Taliyah is  channeling:\nThe channel is not  interrupted by  ground and  root despite being a movement channel.\n\n\nType\n\nChannel\n\n\nAttacking\n\nDisabled\n\n\nAbilities\n\nDisabled\n\n\nMovement\n\nDisabled\n\n\nItems\n\nUsable\n\nN/A\n\n\nDisabled\n\nAll items are disabled\n\n\nInterrupted by\n\nN/A\n\n\nConsumables\n\nDisabled, but can activate trinkets\n\n\nSpells\n\nUsable\n\nN/A\n\n\nDisabled\n\n Barrier  Clarity  Cleanse  Exhaust  Ghost  Heal  Ignite  Smite  Flash  Teleport  Hexflash\n\n\nInterrupted by\n\n Recall\n\n\nInterrupted by\n\nDeath Cast-inhibiting effects\n\nThe following table refers for interactions while Taliyah is  surfing:\n\n\nType\n\nChannel\n\n\nAttacking\n\nDisabled\n\n\nAbilities\n\nDisabled\n\n\nMovement\n\nDisabled\n\n\nItems\n\nUsable\n\nN/A\n\n\nDisabled\n\nAll items are disabled\n\n\nInterrupted by\n\nN/A\n\n\nConsumables\n\nDisabled, but can activate trinkets\n\n\nSpells\n\nUsable\n\nN/A\n\n\nDisabled\n\n Barrier  Clarity  Cleanse  Exhaust  Ghost  Heal  Ignite  Smite  Flash  Teleport  Hexflash\n\n\nInterrupted by\n\n Recall\n\n\nInterrupted by\n\nDamaging effectsDeath Immobilizing effects",
         "blurb": "Active:  Taliyah summons a torrent of spiraling rocks that cascades in the target direction, which  knocks aside champions hit and erects a wall of terrain in its wake. The wall lasts a few seconds before slowly disintegrating from the starting end.",
         "missileSpeed": null,
         "rechargeRate": null,
@@ -909,7 +869,7 @@
         "speed": "1500 / 1200",
         "width": null,
         "angle": null,
-        "castTime": null,
+        "castTime": "none",
         "effectRadius": null,
         "targetRange": "2500 / 3500 / 4500 / 5500 / 6500"
       }
@@ -917,13 +877,14 @@
   },
   "releaseDate": "2016-05-18",
   "releasePatch": "6.10",
-  "patchLastChanged": "12.15",
+  "patchLastChanged": "12.18",
   "price": {
     "blueEssence": 6300,
     "rp": 975,
     "saleRp": 0
   },
   "lore": "Taliyah is a nomadic mage from Shurima, torn between teenage wonder and adult responsibility. She has crossed nearly all of Valoran on a journey to learn the true nature of her growing powers, though more recently she has returned to protect her tribe. Some have mistaken her compassion for weakness and paid the ultimate price—for beneath Taliyah's youthful demeanor is a will strong enough to move mountains, and a spirit fierce enough to make the earth itself tremble.",
+  "faction": "shurima",
   "skins": [
     {
       "name": "Original",

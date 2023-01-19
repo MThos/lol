@@ -4,7 +4,7 @@
   "name": "Akshan",
   "title": "the Rogue Sentinel",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Akshan.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/13.1.1/img/champion/Akshan.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -28,7 +28,7 @@
       "percentPerLevel": 0.0
     },
     "manaRegen": {
-      "flat": 8.175,
+      "flat": 8.2,
       "percent": 0.0,
       "perLevel": 0.7,
       "percentPerLevel": 0.0
@@ -130,13 +130,13 @@
       "percentPerLevel": 0.0
     },
     "aramDamageTaken": {
-      "flat": 1.0,
+      "flat": 0.95,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
     },
     "aramDamageDealt": {
-      "flat": 1.0,
+      "flat": 1.05,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
@@ -209,7 +209,7 @@
             "leveling": []
           },
           {
-            "description": "Innate: Akshan's basic attacks on-hit and abilities apply a stack to enemies hit for 5 seconds, which refreshes on subsequent hits and stacks up to 3 times. The third stack consumes them all to deal 10 − 165 (based on level) bonus magic damage; if the target is a champion, Akshan will also gain a 40 − 280 (based on level) (+ 35% bonus AD) shield for 2 seconds. The shield may be gained only once every few seconds.",
+            "description": "Innate: Akshan's basic attacks on-hit and ability hits apply a stack of Dirty Fighting to enemies for 5 seconds, refreshing on subsequent applications and stacking up to 3 times. The third stack against a target consumes them all to deal them 10 − 165 (based on level) bonus magic damage; if the target is a champion, Akshan will also gain a 40 − 280 (based on level) (+ 35% bonus AD) shield for 2 seconds. The shield may be gained only once every few seconds.",
             "leveling": []
           }
         ],
@@ -543,7 +543,7 @@
         "onHitEffects": null,
         "occurrence": null,
         "notes": "Akshan can move during Going Rogue's cast time.\nThe mark displays the duration and slay count.\nEnemy champions that kill Akshan will not be marked as Scoundrels nor increase their slay count.\n Clones do not count for triggering Going Rogue's passive.\nGoing Rogue's buff refreshes to last indefinitely upon moving near terrain or into brush, and will refresh to 2 seconds after leaving near terrain or brush.\nAllied champions within a  zombie state are revived only after the state ends.\nAkshan can still trigger Going Rogue's passive while he is within a  zombie state.",
-        "blurb": "Passive: Enemy  champions that kill allied champions are marked as a Scoundrel. When  Akshan scores a  takedown on a Scoundrel, he gains  bonus gold, all allies killed by the Scoundrel are revived, and Scoundrel status is removed from all other enemies.",
+        "blurb": "Passive: Enemy  champions that kill allied champions are marked as a Scoundrel for a long time. When  Akshan scores a  takedown on a Scoundrel, he gains  bonus gold, all allies killed by the Scoundrel are revived, and Scoundrel status is removed from all other enemies.",
         "missileSpeed": null,
         "rechargeRate": null,
         "collisionRadius": null,
@@ -568,11 +568,11 @@
             "leveling": []
           },
           {
-            "description": "First Cast: Akshan prepares to swing for up to 2.125 seconds, firing a hook in the target direction that embeds in the first terrain hit. Heroic Swing's second cast can be used while the hook is attached. If the hook fails to attach or Akshan is moved or becomes immobilized, grounded, or polymorphed within the duration, the preparation will end prematurely, cancelling Heroic Swing in the process.",
+            "description": "First Cast: Akshan fires a hook in the target direction that embeds in the first terrain hit, and enters preparation for up to 2.125 seconds. Heroic Swing's second cast can be used while the hook is attached. If the hook fails to attach or Akshan is moved or becomes immobilized, grounded, or polymorphed within the duration, the preparation will end prematurely, cancelling Heroic Swing in the process.",
             "leveling": []
           },
           {
-            "description": "Second Cast: Akshan swings around the terrain in the target direction for 3 seconds, stopping upon colliding with an enemy champion or terrain. While swinging, he rapidly fires at the nearest visible enemy to deal them physical damage and apply on-hit effects at 25% effectiveness per shot. Akshan will be knocked down by any immobilizing or polymorphing crowd control during the dash.",
+            "description": "Second Cast: Akshan swings around the terrain in the target direction, stopping upon colliding with an enemy champion or terrain. While swinging, he rapidly fires at the nearest visible enemy to deal them physical damage and apply on-hit effects at 25% effectiveness per shot. Akshan will be knocked down by any immobilizing or polymorphing crowd control during the dash.",
             "leveling": [
               {
                 "attribute": "Physical Damage per Shot",
@@ -688,8 +688,8 @@
         "projectile": "TRUE",
         "onHitEffects": null,
         "occurrence": null,
-        "notes": "Heroic Swing grants a buff to Akshan for 2 seconds that indicates and determines the first cast's duration.\nThis buff starts as soon as the ability is cast, and lingers for 0.125 seconds after it expires.\nThis means the hook can be attached to terrain for longer if it hits it earlier in the duration, and vice versa.\nIf Akshan  dashes (excluding second cast's dash) or  blinks or becomes affected by  immobilization,  ground, or  polymorph in the duration, the buff is removed immediately, causing the first cast to be lost and cancelling Heroic Swing entirely.\nAkshan immediately fires one shot at the beginning of his swing, one shot every 0.23 seconds during the swing, and a final shot while dismounting from the swing for a total of 15 shots in a max duration swing of 3 seconds.\nThe fire rate is not affected by attack speed.\nAkshan can fire at any enemy unit excluding structures and jungle plants.\nOnly Heroic Swing's first cast is disabled while  grounded or  rooted. The third cast is still usable during those effects.\nHeroic Swing's second cast can be used while  silenced.\n Takedowns against  clones do not count for resetting Heroic Swing's cooldown.\nIf a  takedown is scored while Heroic Swing is active, the cooldown afterwards will be 0.5 seconds.\nAkshan automatically uses the third cast to end the second cast after 3 seconds of swinging.\nAkshan will be ordered to basic attack the target he fired at with the last shot after the third cast's dash ends.\nEach shot generates a stack of  Conqueror.\n Spell shield will only block a single shot.\nThe attack speed scaling on the damage of the attacks includes the bonus attack speed gained from Akshan's innate attack speed growth.\nAt level 18, each shot at minimum deals 108.36 (+ 21.07% bonus AD) physical damage.\n 𝐏𝐄𝐍𝐃𝐈𝐍𝐆 𝐅𝐎𝐑 𝐓𝐄𝐒𝐓  Hook range including lollipop against walls, automated attacks range while swinging, final dash distance and speed.\nThe following table refers for interactions while the hook is attached or in flight:\n\n\nAttacking\n\nAutomatically initiates the second cast.\n\n\nAbilities\n\n Avengerang and  Going Rogue are disabled.  Comeuppance is usable.\n\n\nMovement\n\nAutomatically initiates the second cast.\n\n\nItems\n\nUsable\n\nN/A\n\n\nDisabled\n\nAll items are disabled\n\n\nInterrupted by\n\nN/A\n\n\nConsumables\n\nDisabled\n\n\nSpells\n\nUsable\n\nN/A\n\n\nDisabled\n\n Barrier  Clarity  Cleanse  Exhaust  Ghost  Heal  Ignite  Smite  Teleport  Recall  Hexflash\n\n\nInterrupted by\n\n Flash\n\n\nInterrupted by\n\nDeath Grounding effects Immobilizing effects\n\nThe following table refers for interactions while Akshan is swinging:\n\n\nAttacking\n\nAutomatically initiates the third cast.\n\n\nAbilities\n\n Avengerang and  Going Rogue are disabled.  Comeuppance is usable.\n\n\nMovement\n\nAutomatically initiates the third cast.\n\n\nItems\n\nUsable\n\nAll the other item-actives are usable\n\n\nDisabled\n\nN/A\n\n\nInterrupted by\n\n Stopwatch  Zhonya's Hourglass  Hextech Rocketbelt  Galeforce  Prowler's Claw\n\n\nConsumables\n\nUsable\n\n\nSpells\n\nUsable\n\n Barrier  Clarity  Cleanse  Exhaust  Ghost  Heal  Ignite  Smite  Hexflash\n\n\nDisabled\n\n Teleport  Recall\n\n\nInterrupted by\n\n Flash\n\n\nInterrupted by\n\nDeath Immobilizing effects",
-        "blurb": "First Cast:  Akshan prepares to swing for a short time, firing a hook that embeds in the first terrain hit. Heroic Swing's second cast can be used while the hook is attached.",
+        "notes": "Akshan will not stop swinging until his dash is stopped.\nThe swing will end prematurely if the terrain the hook was attached to no longer exists, such as player-generated terrain.\nAkshan will prioritize firing at enemies he damaged with any unit-targeted ability or spell within the last 4 seconds, such as  Comeuppance or  Ignite.\nHeroic Swing grants a buff to Akshan for 2 seconds that indicates and determines the first cast's duration.\nThis buff starts as soon as the ability is cast, and lingers for 0.125 seconds after it expires.\nThis means the hook can be attached to terrain for longer if it hits it earlier in the duration, and vice versa.\nIf Akshan  dashes (excluding second cast's dash) or  blinks or becomes affected by  immobilization,  ground, or  polymorph in the duration, the buff is removed immediately, causing the first cast to be lost and cancelling Heroic Swing entirely.\nAkshan immediately fires one shot at the beginning of his swing, one shot every 0.231 seconds during the swing, and a final shot while dismounting from the swing.\nThe fire rate is not affected by attack speed.\nAkshan can fire at any targetable enemy unit excluding structures and jungle plants.\nOnly Heroic Swing's first cast is disabled while  grounded or  rooted. The third cast is still usable during those effects.\nHeroic Swing's second cast can be used while  silenced.\n Takedowns against  clones do not count for resetting Heroic Swing's cooldown.\nIf a  takedown is scored while Heroic Swing is active, the cooldown afterwards will be 0.5 seconds.\nAkshan will attempt to basic attack the target he fired at with the last shot after the third cast's dash ends, if there is no other input given.\nEach shot generates a stack of  Conqueror.\n Spell shield will only block a single shot.\nThe attack speed scaling on the damage of the attacks includes the bonus attack speed gained from Akshan's innate attack speed growth.\nAt level 18, each shot at minimum deals 108.36 (+ 21.07% bonus AD) physical damage.\nDespite this ability not applying on-attack effects, it does apply  Navori Quickblades' Transcendence.(bug)\n 𝐏𝐄𝐍𝐃𝐈𝐍𝐆 𝐅𝐎𝐑 𝐓𝐄𝐒𝐓  Hook range including lollipop against walls, automated attacks range while swinging, final dash distance and speed.\nThe following table refers for interactions while the hook is attached or in flight:\n\n\nAttacking\n\nAutomatically initiates the second cast.\n\n\nAbilities\n\n Avengerang and  Going Rogue are disabled.  Comeuppance is usable.\n\n\nMovement\n\nAutomatically initiates the second cast.\n\n\nItems\n\nUsable\n\nN/A\n\n\nDisabled\n\nAll items are disabled\n\n\nInterrupted by\n\nN/A\n\n\nConsumables\n\nDisabled\n\n\nSpells\n\nUsable\n\nN/A\n\n\nDisabled\n\n Barrier  Clarity  Cleanse  Exhaust  Ghost  Heal  Ignite  Smite  Teleport  Recall  Hexflash\n\n\nInterrupted by\n\n Flash\n\n\nInterrupted by\n\nDeath Grounding effects Immobilizing effects\n\nThe following table refers for interactions while Akshan is swinging:\n\n\nAttacking\n\nAutomatically initiates the third cast.\n\n\nAbilities\n\n Avengerang and  Going Rogue are disabled.  Comeuppance is usable.\n\n\nMovement\n\nAutomatically initiates the third cast.\n\n\nItems\n\nUsable\n\nAll the other item-actives are usable\n\n\nDisabled\n\nN/A\n\n\nInterrupted by\n\n Stopwatch  Zhonya's Hourglass  Hextech Rocketbelt  Galeforce  Prowler's Claw\n\n\nConsumables\n\nUsable\n\n\nSpells\n\nUsable\n\n Barrier  Clarity  Cleanse  Exhaust  Ghost  Heal  Ignite  Smite  Hexflash\n\n\nDisabled\n\n Teleport  Recall\n\n\nInterrupted by\n\n Flash\n\n\nInterrupted by\n\nDeath Immobilizing effects",
+        "blurb": "First Cast:  Akshan prepares to swing by firing a hook that embeds in the first terrain hit. Heroic Swing's second cast can be used while the hook is attached.",
         "missileSpeed": null,
         "rechargeRate": null,
         "collisionRadius": null,
@@ -732,7 +732,7 @@
             ]
           },
           {
-            "description": "Comeuppance can be recast after 0.5 seconds, and does so automatically after the duration. Comeuppance is placed on a 5-second cooldown if the channel is cancelled.",
+            "description": "Comeuppance will recast after the duration, or can recast early after 0.5 seconds. Comeuppance is placed on a 5-second cooldown if the channel is cancelled.",
             "leveling": []
           },
           {
@@ -956,7 +956,7 @@
         "onHitEffects": null,
         "occurrence": null,
         "notes": "A kill threshold will appear on the health bar of the target locked onto during the channel, which increases each time Akshan stores a bullet. If the target's current health falls below the threshold, their health bar will be framed in red.\nThe indicator factors the bonus damage applied by  Dirty Fighting as well as damage modifiers and the target's resistances.\nIt also factors the projected increase in the target's missing health, from which each consecutive bullet scales more.\nIt updates dynamically over the channel's duration, reacting to fluctuations of the target's health and damage mitigations.\nThe  reveal will linger for 2 seconds after the channel has ended.\n Spell shield will not prevent the lock-on and will only block a single bullet.\nComeuppance will not go on a reduced cooldown if Akshan  dies during the channel.\nComeuppance will cancel if the target becomes  untargetable or  dies during the channel.\nDamage to structures does scale with their missing health.\nThe following table refers for interactions while Akshan is  channeling:\n\n\nAttacking\n\nDisabled\n\n\nAbilities\n\n Avengerang and  Going Rogue are disabled.  Heroic Swing is usable.\n\n\nMovement\n\nAllowed\n\n\nItems\n\nUsable\n\nN/A\n\n\nDisabled\n\nAll items are disabled\n\n\nInterrupted by\n\nN/A\n\n\nConsumables\n\nDisabled\n\n\nSpells\n\nUsable\n\n Barrier  Clarity  Cleanse  Exhaust  Ghost  Heal  Ignite  Smite  Flash\n\n\nDisabled\n\n Teleport  Recall\n\n\nInterrupted by\n\n Hexflash\n\n\nInterrupted by\n\nDeath Cast-inhibiting effects",
-        "blurb": "Active:  Akshan locks onto the target enemy champion and begins  channeling power into his gun to store bullets,  revealing them as well as  revealing himself. He will recast after the channel, or can recast early.",
+        "blurb": "Active:  Akshan locks onto the target enemy champion and begins  channeling power into his gun to store bullets,  revealing them as well as  revealing himself. Comeuppance will recast after the channel, or can recast early.",
         "missileSpeed": null,
         "rechargeRate": null,
         "collisionRadius": null,
@@ -974,13 +974,14 @@
   },
   "releaseDate": "2021-07-22",
   "releasePatch": "11.15",
-  "patchLastChanged": "12.14",
+  "patchLastChanged": "12.22",
   "price": {
     "blueEssence": 6300,
     "rp": 975,
     "saleRp": 0
   },
   "lore": "Raising an eyebrow in the face of danger, Akshan fights evil with dashing charisma, righteous vengeance, and a conspicuous lack of shirts. He is highly skilled in the art of stealth combat, able to evade the eyes of his enemies and reappear when they least expect him. With a keen sense of justice and a legendary death-reversing weapon, he rights the wrongs of Runeterra's many scoundrels while living by his own moral code: “Don't be an ass.”",
+  "faction": "shurima",
   "skins": [
     {
       "name": "Original",
@@ -1000,7 +1001,7 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/166/166000.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/166/166000.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/166/166000.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/akshan/skins/base/akshanloadscreen.akshan.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/akshan/skins/base/akshanloadscreen.jpg",
       "loadScreenVintagePath": null,
       "newEffects": false,
       "newAnimations": false,
@@ -1203,7 +1204,7 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/166/166001.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/166/166001.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/166/166001.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/akshan/skins/skin01/akshanloadscreen_1.akshan.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/akshan/skins/skin01/akshanloadscreen_1.jpg",
       "loadScreenVintagePath": null,
       "newEffects": true,
       "newAnimations": true,
@@ -1400,6 +1401,27 @@
               "region": "riot"
             }
           ]
+        },
+        {
+          "name": "Tiffany & Co.",
+          "id": 166019,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/166/166019.png",
+          "colors": [
+            "#6ECFCC",
+            "#ECF9F8"
+          ],
+          "descriptions": [
+            {
+              "description": "This chroma was released as a Loot exclusive in the Worlds 2022 event.",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
+            }
+          ]
         }
       ],
       "lore": "As roguish as he is handsome, Akshan abandons his daring adventures each year to make a highly-requested appearance at the festival. He might be seen stealing a dance or two, but he only has eyes for one among the crowd. Their moral… discrepancies are no match for the electrifying chemistry between them.",
@@ -1410,7 +1432,7 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/166/166010.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/166/166010.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/166/166010.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/akshan/skins/skin10/akshanloadscreen_10.pie_c_12_2.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/akshan/skins/skin10/akshanloadscreen_10.jpg",
       "loadScreenVintagePath": null,
       "newEffects": true,
       "newAnimations": true,

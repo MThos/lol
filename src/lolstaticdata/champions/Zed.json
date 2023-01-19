@@ -4,7 +4,7 @@
   "name": "Zed",
   "title": "the Master of Shadows",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Zed.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Zed.png",
   "resource": "ENERGY",
   "attackType": "MELEE",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -130,13 +130,13 @@
       "percentPerLevel": 0.0
     },
     "aramDamageTaken": {
-      "flat": 0.92,
+      "flat": 0.9,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
     },
     "aramDamageDealt": {
-      "flat": 1.05,
+      "flat": 1.1,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
@@ -285,7 +285,7 @@
                 ]
               },
               {
-                "attribute": "Secondary Damage",
+                "attribute": "Reduced Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -422,7 +422,7 @@
             ]
           },
           {
-            "description": "Active: Zed creates a Shadow that dashes to the target location and remains for 5.25 seconds, being able to mimic Razor Shuriken and Shadow Slash regardless of range. Living Shadow can be recast while within range of the Shadow.",
+            "description": "Active: Zed creates a Shadow that dashes to the target location and remains there for 5.25 seconds, being able to mimic Razor Shuriken and Shadow Slash regardless of range. Living Shadow can be recast while within range of the Shadow.",
             "leveling": []
           },
           {
@@ -548,7 +548,7 @@
             ]
           },
           {
-            "description": "Enemies hit by a Shadow's slash are slowed for 1.5 seconds, multiple slashes deal no additional damage but the slow's effectiveness is increased by 50%.",
+            "description": "Enemies hit by a Shadow's slash are slowed for 1.5 seconds, with multiple slashes dealing no additional damage but the slow's effectiveness being increased by 50%.",
             "leveling": [
               {
                 "attribute": "Slow",
@@ -595,7 +595,7 @@
             ]
           },
           {
-            "description": "Living Shadow's cooldown is reduced by 2 seconds for each enemy champion hit by Zed's slash.",
+            "description": "Living Shadow's current cooldown is reduced by 2 seconds for each enemy champion hit by Zed's slash.",
             "leveling": []
           }
         ],
@@ -774,6 +774,7 @@
     "saleRp": 0
   },
   "lore": "Utterly ruthless and without mercy, Zed is the leader of the Order of Shadow, an organization he created with the intent of militarizing Ionia's magical and martial traditions to drive out Noxian invaders. During the war, desperation led him to unlock the secret shadow form—a malevolent spirit magic as dangerous and corrupting as it is powerful. Zed has mastered all of these forbidden techniques to destroy anything he sees as a threat to his nation, or his new order.",
+  "faction": "ionia",
   "skins": [
     {
       "name": "Original",
@@ -1212,6 +1213,27 @@
           ]
         },
         {
+          "name": "Mythic",
+          "id": 238039,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/238/238039.png",
+          "colors": [
+            "#E31970",
+            "#1E50BD"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 4,
+              "region": "riot"
+            }
+          ]
+        },
+        {
           "name": "Pearl",
           "id": 238027,
           "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/238/238027.png",
@@ -1531,7 +1553,7 @@
       "lootEligible": true,
       "cost": "special",
       "sale": 0,
-      "distribution": "125 Mythic Essence",
+      "distribution": "150 Mythic Essence",
       "rarity": "Mythic",
       "chromas": [],
       "lore": "Faced with imminent defeat at the hands of Mordekaiser and the numberless hordes of infected machines, Zed seeks out a dilapidated research facility in the heart of the wasteland, searching for illegal and potentially dangerous upgrades. His return may mark a tipping point in the battle for the City… though he has transformed into something beyond both human and machine.",
@@ -1542,8 +1564,8 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/238/238030.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/238/238030.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/238/238030.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin30/zedloadscreen_30.pie_c_11_13.jpg",
-      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin30/zedloadscreen_30_le.pie_c_11_13.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin30/zedloadscreen_30.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin30/zedloadscreen_30_le.jpg",
       "newEffects": true,
       "newAnimations": true,
       "newRecall": true,
@@ -1713,6 +1735,231 @@
       ],
       "splashArtist": [
         "Edward Chee",
+        "West Studio"
+      ]
+    },
+    {
+      "name": "Empyrean",
+      "id": 238038,
+      "isBase": false,
+      "availability": "Available",
+      "formatName": "Empyrean",
+      "lootEligible": true,
+      "cost": 1350,
+      "sale": 0,
+      "distribution": null,
+      "rarity": "Epic",
+      "chromas": [
+        {
+          "name": "Amethyst",
+          "id": 238046,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/238/238046.png",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Catseye",
+          "id": 238042,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/238/238042.png",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Emerald",
+          "id": 238045,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/238/238045.png",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Neon Flare",
+          "id": 238048,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/238/238048.png",
+          "colors": [
+            "#FF655B",
+            "#95E237"
+          ],
+          "descriptions": [
+            {
+              "description": "This chroma was released as a Loot exclusive in the Worlds 2022 Event.",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Pearl",
+          "id": 238044,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/238/238044.png",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Rose Quartz",
+          "id": 238041,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/238/238041.png",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "TENCENT"
+            }
+          ]
+        },
+        {
+          "name": "Ruby",
+          "id": 238040,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/238/238040.png",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "descriptions": [
+            {
+              "description": "This chroma was released as a bundle exclusive in 2022.",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Sapphire",
+          "id": 238043,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/238/238043.png",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Turquoise",
+          "id": 238047,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/238/238047.png",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        }
+      ],
+      "lore": "The Foreglow is a power many desire, but Zed resents how it exposes him. His is a strength born from darkness, away from prying eyes. Perhaps in the fallen Husk realm left in Pyke's wake can he build a new domain of shadows, one that no Empyrean can topple.",
+      "release": "2022-11-03",
+      "set": [
+        "Empyrean"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/238/238038.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/238/238038.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/238/238038.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin38/zedloadscreen_38.pie_c_12_21.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin38/zedloadscreen_38_le.pie_c_12_21.jpg",
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Donny Lucas"
+      ],
+      "splashArtist": [
+        "Jiunn Kuo",
         "West Studio"
       ]
     }

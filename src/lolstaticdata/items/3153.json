@@ -14,7 +14,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3153_fighter_t3_bladeoftheruinedking.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3153_fighter_t3_bladeoftheruinedking.png",
   "simpleDescription": "Deals damage based on target's Health, can steal Move Speed",
   "nicknames": [
     "brk",
@@ -27,8 +27,9 @@
       "unique": true,
       "mythic": false,
       "name": "Mist's Edge",
-      "effects": "Basic attacks deal {{as|{{rd|12%|8%}} of the target's '''current''' health}} {{as|'''bonus''' physical damage}} [[on-hit]], with a '''minimum''' of 15 against all units and a '''maximum''' of 60 against minions and monsters.",
+      "effects": "Basic attacks deal {{as|'''bonus''' physical damage}} [[on-hit]] equal to {{as|{{rd|12%|8%}} of the target's '''current''' health}}, with a '''minimum''' of 15 against all units and a '''maximum''' of 60 against minions and monsters.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -75,18 +76,18 @@
         "cooldownReduction": {
           "flat": 0.0,
           "percent": 0.0,
-          "perLevel": 0.0,
-          "percentPerLevel": 0.0,
-          "percentBase": 0.0,
-          "percentBonus": 0.0
+          "per_level": 0.0,
+          "percent_per_level": 0.0,
+          "percent_base": 0.0,
+          "percent_bonus": 0.0
         },
         "criticalStrikeChance": {
           "flat": 0.0,
           "percent": 0.0,
-          "perLevel": 0.0,
-          "percentPerLevel": 0.0,
-          "percentBase": 0.0,
-          "percentBonus": 0.0
+          "per_level": 0.0,
+          "percent_per_level": 0.0,
+          "percent_base": 0.0,
+          "percent_bonus": 0.0
         },
         "goldPer_10": {
           "flat": 0.0,
@@ -201,6 +202,7 @@
       "name": "Siphon",
       "effects": "Basic attacks [[on-hit]] against enemy champions apply a stack for 6 seconds, stacking up to 3 times. The third stack consumes them all to deal {{as|{{pp|40 to 150}} '''bonus''' magic damage}} [[on-hit]] and {{tip|slow}} the target by 25% for 2 seconds, while also granting you {{as|25% '''bonus''' movement speed}} for the same duration.",
       "range": null,
+      "cooldown": "20",
       "stats": {
         "abilityPower": {
           "flat": 0.0,

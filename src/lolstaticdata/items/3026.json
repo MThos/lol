@@ -14,7 +14,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3026_fighter_t3_guardianangel.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3026_fighter_t3_guardianangel.png",
   "simpleDescription": "Periodically revives champion upon death",
   "nicknames": [
     "ga"
@@ -26,6 +26,7 @@
       "name": "Rebirth",
       "effects": "Upon taking [[death|lethal damage]], enter {{tip|resurrection}} for 4 seconds, during which you are {{tip|invulnerable}}, {{tip|untargetable}}, and unable to act, and afterwards {{tip|heal}} for {{as|50% of '''base''' health}} and restore {{as|30% of '''maximum''' mana}}.",
       "range": null,
+      "cooldown": "300 (starts after resurrecting)",
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -220,7 +221,7 @@
       "percentBonus": 0.0
     },
     "attackDamage": {
-      "flat": 40.0,
+      "flat": 45.0,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0,
@@ -366,9 +367,9 @@
   },
   "shop": {
     "prices": {
-      "total": 2800,
+      "total": 3000,
       "combined": 0,
-      "sell": 1120
+      "sell": 1200
     },
     "purchasable": true,
     "tags": [

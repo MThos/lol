@@ -10,7 +10,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3170_moonflairspellblade.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3177_aram_t1_guardiansblade.png",
   "simpleDescription": "Good starting item for attackers",
   "nicknames": [],
   "passives": [
@@ -20,6 +20,7 @@
       "name": "Legendary",
       "effects": "This item counts as a Legendary item.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,

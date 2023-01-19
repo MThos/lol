@@ -4,7 +4,7 @@
   "name": "Master Yi",
   "title": "the Wuju Bladesman",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/MasterYi.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/MasterYi.png",
   "resource": "MANA",
   "attackType": "MELEE",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -48,7 +48,7 @@
     "attackDamage": {
       "flat": 65,
       "percent": 0.0,
-      "perLevel": 2.5,
+      "perLevel": 2.2,
       "percentPerLevel": 0.0
     },
     "movespeed": {
@@ -202,7 +202,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/MasterYi/ability-icon/p",
         "effects": [
           {
-            "description": "Innate: Master Yi's basic attacks on-hit generate a stack of Double Strike for 4 seconds, stacking up to 3 times, with the duration refreshing on subsequent attacks. At 3 stacks, Master Yi's next basic attack on-hit is empowered to consume the stacks to strike twice, the second strike dealing 50% AD physical damage.",
+            "description": "Innate: Master Yi's basic attacks on-hit generate a stack of Double Strike for 4 seconds, refreshing on subsequent hits and stacking up to 3 times. At 3 stacks, Master Yi's next basic attack on-hit is empowered to consume the stacks to strike twice, the second strike dealing 50% AD physical damage.",
             "leveling": []
           },
           {
@@ -255,7 +255,7 @@
             "leveling": []
           },
           {
-            "description": "Master Yi then detonates the marks, dealing physical damage and applying on-hit effects at 75% effectiveness. Subsequent marks on a target instantly deal 25% damage and apply on-hit effects at 18.75% effectiveness. Alpha Strike deals bonus damage to monsters per hit.",
+            "description": "Master Yi then detonates the marks, dealing physical damage and applying on-hit effects at 75% effectiveness. Subsequent marks on a target instantly deal 25% damage and apply on-hit effects at 18.75% effectiveness. Alpha Strike deals bonus physical damage to monsters per hit.",
             "leveling": [
               {
                 "attribute": "Physical Damage",
@@ -503,11 +503,11 @@
             ]
           },
           {
-            "description": "Alpha Strike's primary and lesser damage can critically strike for (17.5% + 6.125%) AD bonus physical damage and (4.375% + 1.53125%) AD bonus physical damage respectively.",
+            "description": "Alpha Strike's primary and lesser damage can critically strike for bonus physical damage equal to (17.5% + 6.125%) AD and (4.375% + 1.53125%) AD respectively.",
             "leveling": []
           },
           {
-            "description": "Basic attacks on-hit reduce Alpha Strike's cooldown by 1 second.",
+            "description": "Basic attacks on-hit reduce Alpha Strike's current cooldown by 1 second.",
             "leveling": []
           },
           {
@@ -590,7 +590,7 @@
             "description": "Active: Master Yi channels for up to 4 seconds, healing himself every 0.5 seconds, increased by 0% − 100% (based on missing health).",
             "leveling": [
               {
-                "attribute": "Minimum Healing Per Half Second",
+                "attribute": "Minimum Heal Per Tick",
                 "modifiers": [
                   {
                     "values": [
@@ -627,7 +627,7 @@
                 ]
               },
               {
-                "attribute": "Maximum Healing Per Half Second",
+                "attribute": "Maximum Heal Per Tick",
                 "modifiers": [
                   {
                     "values": [
@@ -664,7 +664,7 @@
                 ]
               },
               {
-                "attribute": "Minimum Total Healing",
+                "attribute": "Minimum Total Heal",
                 "modifiers": [
                   {
                     "values": [
@@ -701,7 +701,7 @@
                 ]
               },
               {
-                "attribute": "Maximum Total Healing",
+                "attribute": "Maximum Total Heal",
                 "modifiers": [
                   {
                     "values": [
@@ -740,7 +740,7 @@
             ]
           },
           {
-            "description": "While channeling, Master Yi gains 90% damage reduction for the first 0.5 seconds, which is then modified to a reduced amount for the remaining duration of the channel. Meditate's damage reduction lingers for 0.5 seconds after the channel ends, and it is halved against turrets.",
+            "description": "While channeling, Master Yi gains 90% damage reduction for the first 0.5 seconds, which is then modified to a reduced amount for the remaining duration of the channel. Meditate's damage reduction is halved against turrets and lingers for 0.5 seconds after the channel ends.",
             "leveling": [
               {
                 "attribute": "Damage Reduction",
@@ -882,7 +882,7 @@
             "description": "Active: Master Yi empowers his basic attacks within the next 5 seconds to deal bonus true damage on-hit.",
             "leveling": [
               {
-                "attribute": "True Damage",
+                "attribute": "Bonus True Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -902,11 +902,11 @@
                   },
                   {
                     "values": [
-                      35,
-                      35,
-                      35,
-                      35,
-                      35
+                      30,
+                      30,
+                      30,
+                      30,
+                      30
                     ],
                     "units": [
                       "% bonus AD",
@@ -978,7 +978,7 @@
             "leveling": []
           },
           {
-            "description": "Active: Master Yi cleanses himself from all slows and cripples and gains ghosting, bonus attack speed, bonus movement speed, slow immunity, and cripple immunity all for the next 7 seconds.",
+            "description": "Active: Master Yi cleanses himself from all slows and cripples. For the next 7 seconds, he gains ghosting, bonus attack speed, bonus movement speed, slow immunity, and cripple immunity.",
             "leveling": [
               {
                 "attribute": "Bonus Attack Speed",
@@ -1082,13 +1082,14 @@
   },
   "releaseDate": "2009-02-21",
   "releasePatch": "Alpha Week 2",
-  "patchLastChanged": "12.15",
+  "patchLastChanged": "12.19",
   "price": {
     "blueEssence": 450,
     "rp": 260,
     "saleRp": 0
   },
   "lore": "Master Yi has tempered his body and sharpened his mind, so that thought and action have become almost as one. Though he chooses to enter into violence only as a last resort, the grace and speed of his blade ensures resolution is always swift. As one of the last living practitioners of the Ionian art of Wuju, Yi has devoted his life to continuing the legacy of his people—scrutinizing potential new disciples with the Seven Lenses of Insight to identify the most worthy among them.",
+  "faction": "ionia",
   "skins": [
     {
       "name": "Original",
@@ -1129,7 +1130,7 @@
       "isBase": false,
       "availability": "Available",
       "formatName": "Assassin",
-      "lootEligible": false,
+      "lootEligible": true,
       "cost": 390,
       "sale": 0,
       "distribution": null,
@@ -1169,9 +1170,7 @@
       "chromas": [],
       "lore": null,
       "release": "2010-06-03",
-      "set": [
-        "Star Wars"
-      ],
+      "set": [],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/11/11002.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/11/11002.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/11/11002.jpg",
@@ -1692,7 +1691,7 @@
         "Micha Berman"
       ],
       "splashArtist": [
-        "Pan Chengwei"
+        "Rudy Siswanto"
       ]
     },
     {
@@ -2326,6 +2325,260 @@
       "splashArtist": [
         "West Studio"
       ]
+    },
+    {
+      "name": "Spirit Blossom",
+      "id": 11052,
+      "isBase": false,
+      "availability": "Available",
+      "formatName": "Spirit Blossom",
+      "lootEligible": true,
+      "cost": 1350,
+      "sale": 0,
+      "distribution": null,
+      "rarity": "Epic",
+      "chromas": [
+        {
+          "name": "Catseye",
+          "id": 11081,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/11/11081.png",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Emerald",
+          "id": 11083,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/11/11083.png",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Night Blossom",
+          "id": 11088,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/11/11088.png",
+          "colors": [
+            "#0C0C0F",
+            "#B2D1E4"
+          ],
+          "descriptions": [
+            {
+              "description": "This chroma was released as a Loot exclusive in the Worlds 2022 event.",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Obsidian",
+          "id": 11087,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/11/11087.png",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Pearl",
+          "id": 11086,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/11/11086.png",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Rose Quartz",
+          "id": 11084,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/11/11084.png",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "TENCENT"
+            }
+          ]
+        },
+        {
+          "name": "Ruby",
+          "id": 11080,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/11/11080.png",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "descriptions": [
+            {
+              "description": "This chroma was released as a bundle exclusive in 2022.",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Sapphire",
+          "id": 11082,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/11/11082.png",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Turquoise",
+          "id": 11085,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/11/11085.png",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        }
+      ],
+      "lore": "Legends speak of Master Yi, a swordsman who took but one student in his lifetime. After an unceremonious betrayal, Yi perished—not from a blade, but from a broken heart. Now the Spirit of Legacy roams the spirit world, searching for a pupil. He is lost, anyone that joins him destined to face the same fate.",
+      "release": "2022-10-06",
+      "set": [
+        "Spirit Blossom"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/11/11052.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/11/11052.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/11/11052.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/masteryi/skins/skin52/masteryiloadscreen_52.pie_c_12_19.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/masteryi/skins/skin52/masteryiloadscreen_52_le.pie_c_12_19.jpg",
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Micha Berman"
+      ],
+      "splashArtist": []
+    },
+    {
+      "name": "Prestige Spirit Blossom",
+      "id": 11053,
+      "isBase": false,
+      "availability": "Rare",
+      "formatName": "Prestige Spirit Blossom",
+      "lootEligible": false,
+      "cost": "special",
+      "sale": 0,
+      "distribution": "2000 Worlds Tokens",
+      "rarity": "Mythic",
+      "chromas": [],
+      "lore": "Yi arrives at the Spirit Blossom Fashion Festival, donning tinted shades and the finest fabrics. While others prefer to celebrate with close family and friends, Yi revels in the attention his outfit brings, intent to cement his style \"legacy\".",
+      "release": "2022-10-06",
+      "set": [
+        "Spirit Blossom"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/11/11053.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/11/11053.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/11/11053.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/masteryi/skins/skin53/masteryiloadscreen_53.pie_c_12_19.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/masteryi/skins/skin53/masteryiloadscreen_53_le.pie_c_12_19.jpg",
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Micha Berman"
+      ],
+      "splashArtist": []
     }
   ]
 }

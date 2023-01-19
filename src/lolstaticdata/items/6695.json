@@ -13,7 +13,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6695_assassin_t3_serpentsfang.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6695_assassin_t3_serpentsfang.png",
   "simpleDescription": null,
   "nicknames": [],
   "passives": [
@@ -21,8 +21,9 @@
       "unique": true,
       "mythic": false,
       "name": "Shield Reaver",
-      "effects": "Dealing damage to an enemy champion injects them with venom for 3 seconds, reducing any {{tip|shield|shields}} they gain within the duration by {{rd|50%|35%}}, and if the target was not already afflicted by the venom, reducing all of their active shields by the same amount.",
+      "effects": "Dealing damage to an enemy champion inflicts them with venom for 3 seconds, reducing any {{tip|shield|shields}} they gain within the duration by {{rd|50%|35%}}, and if the target was not already afflicted by the venom, reducing all of their active shields by the same amount.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,

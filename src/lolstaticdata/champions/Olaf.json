@@ -4,7 +4,7 @@
   "name": "Olaf",
   "title": "the Berserker",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Olaf.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Olaf.png",
   "resource": "MANA",
   "attackType": "MELEE",
   "adaptiveType": "PHYSICAL_DAMAGE",
@@ -302,15 +302,11 @@
             ]
           },
           {
-            "description": "Olaf grants ghosting to monsters that are hit or nearby when Undertow is cast for 6 seconds.",
+            "description": "The axe remains in place for a duration equal to Undertow's cooldown, briefly granting sight of its surroundings. Olaf can pick up the axe to reduce Undertow's current cooldown to 2.5 seconds, which resets the cooldown if that has already elapsed.",
             "leveling": []
           },
           {
-            "description": "The axe remains in place for a duration equal to Undertow's cooldown, briefly granting sight of its surroundings. Olaf can pick up the axe to reduce Undertow's total cooldown to 2.5 seconds, which resets the cooldown if that has already elapsed.",
-            "leveling": []
-          },
-          {
-            "description": "Undertow will cast at max range if cast beyond that.",
+            "description": "Undertow will cast at max range if cast beyond that. Nearby monsters are granted ghosting upon Undertow's cast.",
             "leveling": []
           }
         ],
@@ -386,7 +382,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Olaf/ability-icon/w",
         "effects": [
           {
-            "description": "Active: Olaf gains bonus attack speed for 4 seconds and a shield for 2.5 seconds with an amount that is capped at 70% missing health.",
+            "description": "Active: Olaf gains bonus attack speed for 4 seconds and grants himself a shield for 2.5 seconds with an amount that is capped at 70% missing health.",
             "leveling": [
               {
                 "attribute": "Bonus Attack Speed",
@@ -525,7 +521,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Olaf/ability-icon/e",
         "effects": [
           {
-            "description": "Active: Olaf strikes thunder onto the target enemy, dealing true damage. If this kills the target, Olaf heals for the health cost.",
+            "description": "Active: Olaf strikes thunder onto the target enemy, dealing true damage.",
             "leveling": [
               {
                 "attribute": "True Damage",
@@ -565,6 +561,10 @@
                 ]
               }
             ]
+          },
+          {
+            "description": "If Reckless Swing kills the target, Olaf heals himself equal to the health cost.",
+            "leveling": []
           },
           {
             "description": "Basic attacks reduce Reckless Swing's cooldown by 1 second.",
@@ -681,10 +681,10 @@
             ]
           },
           {
-            "description": "Active: Olaf becomes enraged for 3 seconds, cleansing himself of all crowd control and becoming immune to them, as well as gaining bonus attack damage and 10% increased size. For the first second of Ragnarok, he also gains bonus movement speed while moving towards visible enemy champions within 2000 units.",
+            "description": "Active: Olaf becomes enraged for 3 seconds, cleansing himself of all crowd control and becoming immune to them, as well as gaining bonus attack damage and 10% increased size. For the first second of Ragnarok, he also gains bonus movement speed while facing visible enemy champions within 2000 units.",
             "leveling": [
               {
-                "attribute": "Bonus AD",
+                "attribute": "Bonus Attack Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -763,7 +763,7 @@
         "projectile": null,
         "onHitEffects": null,
         "occurrence": null,
-        "notes": "Ragnarok removes the underlying  stun from  airborne effects, but not the forced displacement, which requires him to use a  blink or  dash ability to override it.\nRagnarok does not bypass self or ally applied effects, unless otherwise stated. Some examples include  Zhonya's Hourglass,  Guardian Angel, and  Fate's Call.\nHe prevents both ally and enemy  Bard from putting him in  stasis with  Tempered Fate.\nThe ability will remain for its full duration regardless.\nHe cannot be knocked  airborne by the  Blast Cone regardless of ally or enemy.\nRagnarok does not negate any  debuffs other than  crowd control from being applied unless absolutely necessary.\nThe bonus attack damage updates dynamically over the duration; Increases or reductions in attack damage after the effect has been applied will still be amplified.\nThe 25% attack damage scaling amplifies the flat attack damage bonus as well.",
+        "notes": "Ragnarok removes the underlying  stun from  airborne effects, but not the forced displacement, which requires him to use a  blink or  dash ability to override it.\nRagnarok does not bypass self or ally applied effects, unless otherwise stated. Some examples include  Zhonya's Hourglass,  Guardian Angel, and  Fate's Call.\nHe prevents both ally and enemy  Bard from putting him in  stasis with  Tempered Fate.\nThe ability will remain for its full duration regardless.\nHe cannot be knocked  airborne by the  Blast Cone regardless of ally or enemy.\nRagnarok does not negate any debuffs other than  crowd control from being applied unless absolutely necessary.\nThe bonus attack damage updates dynamically over the duration; Increases or reductions in attack damage after the effect has been applied will still be amplified.\nThe 25% attack damage scaling amplifies the flat attack damage bonus as well.",
         "blurb": "Passive:  Olaf gains  bonus armor and  bonus magic resist.",
         "missileSpeed": null,
         "rechargeRate": null,
@@ -789,6 +789,7 @@
     "saleRp": 0
   },
   "lore": "An unstoppable force of destruction, the axe-wielding Olaf wants nothing but to die in glorious combat. Hailing from the brutal Freljordian peninsula of Lokfar, he once received a prophecy foretelling his peaceful passing—a coward's fate, and a great insult among his people. Seeking death, and fueled by rage, he rampaged across the land, slaughtering scores of great warriors and legendary beasts in search of any opponent who could stop him. Now a brutal enforcer for the Winter's Claw, he seeks his end in the great wars to come.",
+  "faction": "freljord",
   "skins": [
     {
       "name": "Original",
@@ -834,9 +835,7 @@
       "chromas": [],
       "lore": null,
       "release": "2010-06-08",
-      "set": [
-        "Forsaken"
-      ],
+      "set": [],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/2/2001.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/2/2001.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/2/2001.jpg",
@@ -1102,8 +1101,8 @@
       "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin03/olafloadscreen_3.jpg",
       "loadScreenVintagePath": null,
       "newEffects": true,
-      "newAnimations": true,
-      "newRecall": true,
+      "newAnimations": false,
+      "newRecall": false,
       "newVoice": true,
       "newQuotes": false,
       "voiceActor": [
@@ -1134,8 +1133,8 @@
       "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin04/olafloadscreen_4.jpg",
       "loadScreenVintagePath": null,
       "newEffects": true,
-      "newAnimations": true,
-      "newRecall": true,
+      "newAnimations": false,
+      "newRecall": false,
       "newVoice": false,
       "newQuotes": false,
       "voiceActor": [],
@@ -1651,8 +1650,8 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/2/2025.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/2/2025.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/2/2025.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin25/olafloadscreen_25.pie_c_11_14.jpg",
-      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin25/olafloadscreen_25_le.pie_c_11_14.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin25/olafloadscreen_25.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin25/olafloadscreen_25_le.jpg",
       "newEffects": true,
       "newAnimations": true,
       "newRecall": true,
@@ -1853,7 +1852,7 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/2/2035.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/2/2035.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/2/2035.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin35/olafloadscreen_35.pie_c_11_18.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin35/olafloadscreen_35.jpg",
       "loadScreenVintagePath": null,
       "newEffects": true,
       "newAnimations": true,

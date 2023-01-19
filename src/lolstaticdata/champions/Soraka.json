@@ -4,7 +4,7 @@
   "name": "Soraka",
   "title": "the Starchild",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Soraka.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Soraka.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -281,7 +281,7 @@
             ]
           },
           {
-            "description": "If this hits at least one enemy champion, the star dust returns toward Soraka to grant her Rejuvenation for 2.5 seconds. While Soraka has Rejuvenation, Astral Infusion will also grant the effects of Rejuvenation to the target ally for the same duration.",
+            "description": "If this hits at least one enemy champion, the star dust returns to Soraka to grant her Rejuvenation for 2.5 seconds. While Soraka has Rejuvenation, Astral Infusion will also grant the effects of Rejuvenation to the target ally for the same duration.",
             "leveling": []
           },
           {
@@ -313,6 +313,43 @@
                       30,
                       30,
                       30
+                    ],
+                    "units": [
+                      "% AP",
+                      "% AP",
+                      "% AP",
+                      "% AP",
+                      "% AP"
+                    ]
+                  }
+                ]
+              },
+              {
+                "attribute": "Heal per Tick",
+                "modifiers": [
+                  {
+                    "values": [
+                      10,
+                      13,
+                      16,
+                      19,
+                      22
+                    ],
+                    "units": [
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "values": [
+                      6,
+                      6,
+                      6,
+                      6,
+                      6
                     ],
                     "units": [
                       "% AP",
@@ -410,7 +447,7 @@
         "width": null,
         "angle": null,
         "castTime": "0.25",
-        "effectRadius": "235",
+        "effectRadius": "265",
         "targetRange": "800"
       }
     ],
@@ -585,7 +622,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Soraka/ability-icon/e",
         "effects": [
           {
-            "description": "Active: Soraka creates a celestial zone at the target location that deals magic damage to enemy champions within upon casting. The zone then persists for 1.5 seconds and siliences enemies within.",
+            "description": "Active: Soraka creates a celestial zone at the target location that deals magic damage to enemy champions within at the time of cast. The zone then persists for 1.5 seconds and silences enemies within.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
@@ -623,7 +660,12 @@
                     ]
                   }
                 ]
-              },
+              }
+            ]
+          },
+          {
+            "description": "Afterwards, the zone erupts to deal the same damage to enemy champions within and root them for a duration.",
+            "leveling": [
               {
                 "attribute": "Total Magic Damage",
                 "modifiers": [
@@ -660,12 +702,7 @@
                     ]
                   }
                 ]
-              }
-            ]
-          },
-          {
-            "description": "Afterwards, the zone erupts to deal the same magic damage to enemy champions within and root them for a duration.",
-            "leveling": [
+              },
               {
                 "attribute": "Root Duration",
                 "modifiers": [
@@ -752,7 +789,7 @@
         "width": null,
         "angle": null,
         "castTime": "0.25",
-        "effectRadius": "250",
+        "effectRadius": "260",
         "targetRange": "925"
       }
     ],
@@ -794,7 +831,7 @@
                 ]
               },
               {
-                "attribute": "Enhanced Heal",
+                "attribute": "Increased Heal",
                 "modifiers": [
                   {
                     "values": [
@@ -868,7 +905,7 @@
         "onHitEffects": null,
         "occurrence": null,
         "notes": "Untargetability does not invalidate the targeting of the heal.\nWish will not credit Soraka for assisting in a champion kill if the target ally is at full health.\nWish will apply heal effects (such as  Summon Aery) prioritizing targets based on the Spawn ID, which is the order in which units were added to an ongoing game. For  champions, this is the order they appear in from left to right in the loading screen.\nWish's effects occur before the cast time.",
-        "blurb": "Active:  Soraka calls upon the stars, removing  Grievous Wounds from herself and all allied champions before  healing herself and them, which is increased on targets at low health.",
+        "blurb": "Active:  Soraka calls upon the stars,  healing herself and her allies. The healing is increased on targets at low health.",
         "missileSpeed": null,
         "rechargeRate": null,
         "collisionRadius": null,
@@ -893,6 +930,7 @@
     "saleRp": 0
   },
   "lore": "A wanderer from the celestial dimensions beyond Mount Targon, Soraka gave up her immortality to protect the mortal races from their own more violent instincts. She endeavors to spread the virtues of compassion and mercy to everyone she meets—even healing those who would wish harm upon her. And, for all Soraka has seen of this world's struggles, she still believes the people of Runeterra have yet to reach their full potential.",
+  "faction": "mount-targon",
   "skins": [
     {
       "name": "Original",
@@ -970,7 +1008,9 @@
       "chromas": [],
       "lore": null,
       "release": "2010-11-02",
-      "set": [],
+      "set": [
+        "Otherroads"
+      ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/16/16002.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/16/16002.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/16/16002.jpg",
@@ -1033,8 +1073,7 @@
       "lore": "With his silver tongue, Twisted Fate tricked the lords of the living to offer their beloved starchild to Death in exchange for their own immortality. Little did they know, eternal life without their avatar of compassion and mercy would result only in eternal suffering…",
       "release": "2014-11-05",
       "set": [
-        "Death Sworn",
-        "Reaper"
+        "Death Sworn"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/16/16004.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/16/16004.jpg",
@@ -1067,7 +1106,9 @@
       "chromas": [],
       "lore": null,
       "release": "2015-03-31",
-      "set": [],
+      "set": [
+        "High Society"
+      ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/16/16005.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/16/16005.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/16/16005.jpg",
@@ -1170,8 +1211,7 @@
       "lore": "The other girls (and Ezreal) seemed excited for the pillow fights, and staying up all night talking. Soraka was most excited for the cinnamon rolls she brought from Pantheon's Pastries. But nothing makes her happier than seeing her friends smiling and laughing.",
       "release": "2018-11-21",
       "set": [
-        "Star Guardian Season 2",
-        "Disguise"
+        "Star Guardian Season 2"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/16/16008.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/16/16008.jpg",
@@ -1635,6 +1675,230 @@
       "splashArtist": [
         "Ina Wong",
         "West Studio"
+      ]
+    },
+    {
+      "name": "Spirit Blossom",
+      "id": 16027,
+      "isBase": false,
+      "availability": "Available",
+      "formatName": "Spirit Blossom",
+      "lootEligible": true,
+      "cost": 1350,
+      "sale": 0,
+      "distribution": null,
+      "rarity": "Epic",
+      "chromas": [
+        {
+          "name": "Citrine",
+          "id": 16030,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/16/16030.png",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Night Blossom",
+          "id": 16036,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/16/16036.png",
+          "colors": [
+            "#0C0C0F",
+            "#B2D1E4"
+          ],
+          "descriptions": [
+            {
+              "description": "This chroma was released as a Loot exclusive in the Worlds 2022 event.",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Obsidian",
+          "id": 16035,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/16/16035.png",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Pearl",
+          "id": 16034,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/16/16034.png",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Rose Quartz",
+          "id": 16032,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/16/16032.png",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "TENCENT"
+            }
+          ]
+        },
+        {
+          "name": "Ruby",
+          "id": 16028,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/16/16028.png",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "descriptions": [
+            {
+              "description": "This chroma was released as a bundle exclusive in 2022.",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Sapphire",
+          "id": 16031,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/16/16031.png",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Tanzanite",
+          "id": 16033,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/16/16033.png",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Turquoise",
+          "id": 16029,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/16/16029.png",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        }
+      ],
+      "lore": "In a secluded corner of the Akana forest, Soraka weeps for those she's lost. Each life cut short she longed to save, but for as many that welcome her as a savior, there are others who see her power as a merciless cruelty. To the Spirit of Pity, death is never a blessing.",
+      "release": "2022-10-06",
+      "set": [
+        "Spirit Blossom"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/16/16027.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/16/16027.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/16/16027.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/soraka/skins/skin27/sorakaloadscreen_27.pie_c_12_19.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/soraka/skins/skin27/sorakaloadscreen_27_le.pie_c_12_19.jpg",
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Lisa Lindsley"
+      ],
+      "splashArtist": [
+        "Alex 'alexplank' Flores"
       ]
     }
   ]

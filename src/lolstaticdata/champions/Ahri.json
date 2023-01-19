@@ -4,7 +4,7 @@
   "name": "Ahri",
   "title": "the Nine-Tailed Fox",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Ahri.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/13.1.1/img/champion/Ahri.png",
   "resource": "MANA",
   "attackType": "RANGED",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -206,7 +206,7 @@
             "leveling": []
           },
           {
-            "description": "Whenever Ahri scores a champion takedown within 3 seconds of damaging them, she consumes their essence to heal herself for 75 − 165 (based on level) (+ 30% AP).",
+            "description": "Additionally, whenever Ahri scores a champion takedown within 3 seconds of damaging them, she consumes their essence to heal herself for 75 − 165 (based on level) (+ 30% AP).",
             "leveling": []
           }
         ],
@@ -266,11 +266,11 @@
                   },
                   {
                     "values": [
-                      40,
-                      40,
-                      40,
-                      40,
-                      40
+                      45,
+                      45,
+                      45,
+                      45,
+                      45
                     ],
                     "units": [
                       "% AP",
@@ -303,11 +303,11 @@
                   },
                   {
                     "values": [
-                      80,
-                      80,
-                      80,
-                      80,
-                      80
+                      90,
+                      90,
+                      90,
+                      90,
+                      90
                     ],
                     "units": [
                       "% AP",
@@ -330,11 +330,11 @@
           "modifiers": [
             {
               "values": [
-                60,
-                70,
-                80,
-                90,
-                100
+                55,
+                65,
+                75,
+                85,
+                95
               ],
               "units": [
                 "",
@@ -376,7 +376,7 @@
         "projectile": "TRUE",
         "onHitEffects": null,
         "occurrence": null,
-        "notes": "Orb of Deception will hit additional units around the return point in a small circle when the orb turns around.\nThis applies both to the initial and return missile's damage, but the initial missile only deals damage if the unit was not hit by it already.\nEach pass of the projectile can only damage an enemy once.\nThis ability will cast from wherever the caster is at the end of the cast time.",
+        "notes": "Orb of Deception will hit additional units around the return point in a small circle when the orb turns around.\nThis applies both to the initial and return missile's damage, but the initial missile only deals damage if the unit was not hit by it already.\nEach pass of the projectile can only damage an enemy once.\nIf Ahri dies while the orb is out, the orb will visually disappear but continue to deal damage and return to Ahri.(bug)\nThis ability will cast from wherever the caster is at the end of the cast time.",
         "blurb": "Active:  Ahri sends out her orb that deals magic damage to enemies hit. At maximum range, the orb homes back to Ahri to deal true damage to enemies hit.",
         "missileSpeed": null,
         "rechargeRate": null,
@@ -442,7 +442,7 @@
                 ]
               },
               {
-                "attribute": "Minion Damage",
+                "attribute": "Increased Minion Damage",
                 "modifiers": [
                   {
                     "values": [
@@ -680,10 +680,10 @@
                 "modifiers": [
                   {
                     "values": [
+                      1.2,
                       1.4,
-                      1.55,
-                      1.7,
-                      1.85,
+                      1.6,
+                      1.8,
                       2
                     ],
                     "units": [
@@ -874,13 +874,14 @@
   },
   "releaseDate": "2011-12-14",
   "releasePatch": "1.0.0.131",
-  "patchLastChanged": "12.10",
+  "patchLastChanged": "12.21",
   "price": {
     "blueEssence": 3150,
     "rp": 790,
     "saleRp": 0
   },
   "lore": "Innately connected to the latent power of Runeterra, Ahri is a vastaya who can reshape magic into orbs of raw energy. She revels in toying with her prey by manipulating their emotions before devouring their life essence. Despite her predatory nature, Ahri retains a sense of empathy as she receives flashes of memory from each soul she consumes.",
+  "faction": "ionia",
   "skins": [
     {
       "name": "Original",
@@ -900,7 +901,7 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/103/103000.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/103/103000.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/103/103000.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/base/ahriloadscreen.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/base/ahriloadscreen_0.skins_ahri_asu_prepro.jpg",
       "loadScreenVintagePath": null,
       "newEffects": false,
       "newAnimations": false,
@@ -911,7 +912,8 @@
         "Laura Post"
       ],
       "splashArtist": [
-        "Katie 'TeaTime' De Sousa"
+        "Katie 'TeaTime' De Sousa",
+        "Pan Chengwei"
       ]
     },
     {
@@ -948,7 +950,7 @@
           ]
         }
       ],
-      "lore": "Ahri's dynasty is one of stylish traditional fashion, and wrecking opponents with deadly spirit magic. Why have one when you can have both?",
+      "lore": "Though Ahri's royal blood is obvious in her fashion and poise, she much prefers running across rooftops and causing general mischief to being locked up in a castle. Life's more fun with laughter, don't you think?",
       "release": "2011-12-14",
       "set": [
         "Wonders of the World"
@@ -956,7 +958,7 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/103/103001.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/103/103001.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/103/103001.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin01/ahriloadscreen_1.pie_c_11_24.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin01/ahriloadscreen_1.skins_ahri_asu_prepro.jpg",
       "loadScreenVintagePath": null,
       "newEffects": true,
       "newAnimations": true,
@@ -1005,13 +1007,15 @@
           ]
         }
       ],
-      "lore": null,
+      "lore": "Deep in the snowy forests bordering the kingdom, villagers tell tales of a mysterious icefox who, under the light of the midnight moon, becomes human. What they don't know is that this fox, Ahri, was once a princess. Cursed to live a life as wild as her heart, she runs through the forests during the day, hoping to find someone to break her eternal curse.",
       "release": "2011-12-14",
-      "set": [],
+      "set": [
+        "Legacy"
+      ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/103/103002.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/103/103002.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/103/103002.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin02/ahriloadscreen_2.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin02/ahriloadscreen_2.skins_ahri_asu_prepro.jpg",
       "loadScreenVintagePath": null,
       "newEffects": false,
       "newAnimations": false,
@@ -1022,7 +1026,8 @@
         "Laura Post"
       ],
       "splashArtist": [
-        "Kienan 'Knockwurst' Lafferty"
+        "Roanna Peroz",
+        "Kudos Productions"
       ]
     },
     {
@@ -1057,18 +1062,38 @@
               "region": "riot"
             }
           ]
+        },
+        {
+          "name": "Emerald",
+          "id": 103075,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/103/103075.png",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "descriptions": [
+            {
+              "description": "Obtained through Influencer audience giveaways.",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
+            }
+          ]
         }
       ],
       "lore": "A young, talented pyromancer from the Shadowfire Temple, Ahri gave up her quiet life when a faction of extremists unleashed the burning horrors of the Ashen Lord. Now she uses her fire magic to fight against them, even though all hope seems lost.",
       "release": "2012-07-11",
       "set": [
-        "Infernal",
-        "Web Browser"
+        "Infernal"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/103/103003.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/103/103003.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/103/103003.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin03/ahriloadscreen_3.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin03/ahriloadscreen_3.skins_ahri_asu_prepro.jpg",
       "loadScreenVintagePath": null,
       "newEffects": true,
       "newAnimations": false,
@@ -1079,7 +1104,8 @@
         "Laura Post"
       ],
       "splashArtist": [
-        "Kienan 'Knockwurst' Lafferty"
+        "Jeremy Chong",
+        "West Studio"
       ]
     },
     {
@@ -1266,26 +1292,26 @@
           ]
         }
       ],
-      "lore": "When Ahri's record company discovered her, she was only a teenager, but she had swept the music world like a storm - released five hit singles and won the 2013 Pop Shine Awards. \"The Most Talented K-Pop Rookie Award\". Then she disappeared as quickly as she appeared, taking time away from the music industry and devoting herself to self-reinvention.",
+      "lore": "Discovered by her record label when she was still a teen, Ahri took the music world by storm when her first five singles hit the Top 100, winning Most Talented New K-pop Artist at the 2013 Pop Shine Awards. She's been stealing hearts and sweeping awards ever since. However, underneath that perfect exterior, Ahri is feeling trapped by increasing demands...",
       "release": "2013-11-25",
       "set": [
-        "K/DA"
+        "Popstar"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/103/103004.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/103/103004.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/103/103004.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin04/ahriloadscreen_4.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin04/ahriloadscreen_4.skins_ahri_asu_prepro.jpg",
       "loadScreenVintagePath": null,
       "newEffects": true,
       "newAnimations": true,
       "newRecall": true,
       "newVoice": false,
-      "newQuotes": false,
+      "newQuotes": true,
       "voiceActor": [
         "Laura Post"
       ],
       "splashArtist": [
-        "Michelle Hoefener"
+        "Terence 'Terrylefruit' Cantal"
       ]
     },
     {
@@ -1343,7 +1369,7 @@
           ]
         }
       ],
-      "lore": null,
+      "lore": "Commemorating the 2015 Season 5 start.",
       "release": "2015-01-15",
       "set": [
         "Challenger"
@@ -1351,8 +1377,8 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/103/103005.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/103/103005.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/103/103005.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin05/ahriloadscreen_5.jpg",
-      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin05/ahriloadscreen_5_le.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin05/ahriloadscreen_5.skins_ahri_asu_prepro.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin05/ahriloadscreen_5_le.skins_ahri_asu_prepro.jpg",
       "newEffects": true,
       "newAnimations": true,
       "newRecall": true,
@@ -1362,7 +1388,7 @@
         "Laura Post"
       ],
       "splashArtist": [
-        "Michelle Hoefener"
+        "West Studio"
       ]
     },
     {
@@ -1399,7 +1425,7 @@
           ]
         }
       ],
-      "lore": "NOTICE FROM THE DEAN: Ahri is henceforth suspended from Academy grounds for behavior including (but not limited to) use of her phone during class, use of phone during disciplinary hearings about her phone, magically charming staff members in disciplinary hearings, and escaping disciplinary hearings with her phone.",
+      "lore": "NOTICE FROM THE DEAN: Ahri is henceforth suspended from Academy grounds for behavior including (but not limited to): use of her phone during class, use of her phone during disciplinary hearings about her phone, and escaping disciplinary hearings about her phone.",
       "release": "2015-08-26",
       "set": [
         "Academy"
@@ -1407,7 +1433,7 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/103/103006.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/103/103006.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/103/103006.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin06/ahriloadscreen_6.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin06/ahriloadscreen_6.skins_ahri_asu_prepro.jpg",
       "loadScreenVintagePath": null,
       "newEffects": false,
       "newAnimations": false,
@@ -1455,7 +1481,7 @@
           ]
         }
       ],
-      "lore": "Owner of the mysterious six-million-point high score in the infamously difficult beat-em-up Demacia Vice, Ahri is a force of nature on the retro battlefields of Arcade World. Dashing between bosses before ripping them apart with her 8-bit magic, she's already earned the nickname “Queen of the Arcade.”",
+      "lore": "Owner of the mysterious six-million-point high score in the infamously difficult beat-em-up Demacia Vice, Ahri is a force of nature on the retro battlefields of Arcadia. Dashing between bosses before ripping them apart with her 8-bit magic, she's already earned the nickname “Queen of the Arcade.”",
       "release": "2016-08-24",
       "set": [
         "Arcade: Heroes"
@@ -1463,7 +1489,7 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/103/103007.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/103/103007.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/103/103007.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin07/ahriloadscreen_7.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin07/ahriloadscreen_7.skins_ahri_asu_prepro.jpg",
       "loadScreenVintagePath": null,
       "newEffects": true,
       "newAnimations": true,
@@ -1579,7 +1605,7 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/103/103015.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/103/103015.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/103/103015.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin15/ahriloadscreen_15.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin15/ahriloadscreen_15.skins_ahri_asu_prepro.jpg",
       "loadScreenVintagePath": null,
       "newEffects": true,
       "newAnimations": true,
@@ -1607,7 +1633,7 @@
       "distribution": "150 Mythic Essence",
       "rarity": "Mythic",
       "chromas": [],
-      "lore": "Decked out to dazzle, K/DA Ahri charms her audience in a glittering, golden ensemble specially made for her band's Pop Shine Awards performance. Her Prestige Edition outfit celebrates the golden success of POP/STARS. Can you feel the rush now?",
+      "lore": "Decked out to dazzle, K/DA Ahri charms her audience in a glittering, golden ensemble specially made for her band's 2019 Pop Shine Awards performance. Her Prestige Edition outfit celebrates the golden success of POP/STARS. Can you feel the rush now?",
       "release": "2019-03-07",
       "set": [
         "K/DA"
@@ -1615,8 +1641,8 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/103/103016.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/103/103016.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/103/103016.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin16/ahriloadscreen_16.jpg",
-      "loadScreenVintagePath": null,
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin16/ahriloadscreen_16.skins_ahri_asu_prepro.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin16/ahriloadscreen_16_le.skins_ahri_asu_prepro.jpg",
       "newEffects": true,
       "newAnimations": true,
       "newRecall": true,
@@ -1831,7 +1857,7 @@
           ]
         }
       ],
-      "lore": "Fables of the trickster spirit Ahri have been part of mankind's history for countless generations. Fair-skinned and eternally youthful, she is portrayed as a curious, quizzical member of the Elderwood's feyfolk… though in recent years her heart has hardened, as she fights a growing corruption within her ancestral home.",
+      "lore": "Fables of the trickster spirit Ahri have been part of mankind's history for countless generations. Radiant and eternally youthful, she is portrayed as a curious, quizzical member of the Elderwood's feyfolk… though in recent years her heart has hardened, as she fights a growing corruption within her ancestral home.",
       "release": "2019-08-29",
       "set": [
         "Elderwood"
@@ -1839,8 +1865,8 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/103/103017.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/103/103017.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/103/103017.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin17/ahriloadscreen_17.jpg",
-      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin17/ahriloadscreen_17_le.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin17/ahriloadscreen_17.skins_ahri_asu_prepro.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin17/ahriloadscreen_17_le.skins_ahri_asu_prepro.jpg",
       "newEffects": true,
       "newAnimations": true,
       "newRecall": true,
@@ -1999,7 +2025,7 @@
       "lore": "The famed Spirit of Salvation, and the fox all mortals are beckoned towards when their souls arrive to the spirit realm. A capricious, whimsical spirit who sees the fate of the living as a game of chase, she offers the chance for souls to find their final rest… but will not intervene if they stray from the path.",
       "release": "2020-08-06",
       "set": [
-        "Kanmei"
+        "Spirit Blossom"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/103/103027.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/103/103027.jpg",
@@ -2220,10 +2246,10 @@
           ]
         }
       ],
-      "lore": "When Ahri steps onto the stage to perform with K/DA, she knows she's surrounded by the best of the best—different girls with different personalities, all at the top of their craft. As their leader and as their friend, Ahri is poised to guide these divas to even greater heights and leave their audiences breathless for more.",
+      "lore": "When Ahri steps onto the stage to perform with K/DA, she knows she's surrounded by the best of the best—different women with different personalities, all at the top of their craft. As their leader and as their friend, Ahri is poised to guide these divas to even greater heights and leave their audiences breathless for more.",
       "release": "2020-10-29",
       "set": [
-        "K/DA ALL OUT"
+        "K/DA"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/103/103028.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/103/103028.jpg",
@@ -2473,8 +2499,8 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/103/103042.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/103/103042.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/103/103042.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin42/ahriloadscreen_42.pie_c_11_16.jpg",
-      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin42/ahriloadscreen_42_le.pie_c_11_16.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin42/ahriloadscreen_42.skins_ahri_asu_prepro.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin42/ahriloadscreen_42_le.skins_ahri_asu_prepro.jpg",
       "newEffects": true,
       "newAnimations": true,
       "newRecall": true,
@@ -2486,6 +2512,40 @@
       "splashArtist": [
         "Huyy Nguyen",
         "West Studio"
+      ]
+    },
+    {
+      "name": "Prestige KDA (2022)",
+      "id": 103065,
+      "isBase": false,
+      "availability": "Limited",
+      "formatName": "Prestige K/DA Ahri (2022)",
+      "lootEligible": false,
+      "cost": "special",
+      "sale": 0,
+      "distribution": "Given to players who owned the original skin prior to patch 12.5",
+      "rarity": "Mythic",
+      "chromas": [],
+      "lore": "Decked out to dazzle, K/DA Ahri charms her audience in a glittering, golden ensemble specially made for her band's 2019 Pop Shine Awards performance. Her Prestige Edition outfit celebrates the golden success of POP/STARS. Can you feel the rush now?",
+      "release": "2022-04-01",
+      "set": [
+        "K/DA"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/103/103065.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/103/103065.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/103/103065.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin65/ahriloadscreen_65.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin16/ahriloadscreen_16_le.skins_ahri_asu_prepro.jpg",
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Laura Post"
+      ],
+      "splashArtist": [
+        "Pan Chengwei"
       ]
     },
     {
@@ -2677,7 +2737,7 @@
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/103/103066.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/103/103066.jpg",
       "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/103/103066.jpg",
-      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin66/ahriloadscreen_66.pie_c_12_7.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin66/ahriloadscreen_66.skins_ahri_asu_prepro.jpg",
       "loadScreenVintagePath": null,
       "newEffects": true,
       "newAnimations": true,

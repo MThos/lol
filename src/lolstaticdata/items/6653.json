@@ -15,7 +15,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6653_mage_t4_liandrysanguish.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6653_mage_t4_liandrysanguish.png",
   "simpleDescription": "Charge up in combat to deal high damage over time, especially against durable enemies",
   "nicknames": [
     "last shadow",
@@ -28,6 +28,7 @@
       "name": "Torment",
       "effects": "Dealing {{tip|ability damage}} burns enemies, causing them to take{{ft|{{as|50 {{as|(+ 6% AP)}} {{as|(+ 4% target's '''maximum''' health)}} '''total''' magic damage|magic damage}} over 4 seconds, capped at 400 against monsters.|{{as|{{ap|50*0.125}} {{as|(+ {{ap|6*0.125}}% AP)}} {{as|(+ {{ap|4*0.125}}% target's '''maximum''' health)}} magic damage|magic damage}} every {{fd|0.5}} seconds over 4 seconds, capped at 50 against monsters.}}",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -200,6 +201,7 @@
       "name": "Agony",
       "effects": "Deal {{pp|type=target's '''bonus''' health|color=health|key=%|0 to 12 for 11|0 to 1250|formula=1.2% per 125 '''bonus''' health}} {{as|'''bonus''' magic damage}} against enemy champions.",
       "range": null,
+      "cooldown": null,
       "stats": {
         "abilityPower": {
           "flat": 0.0,
@@ -372,6 +374,7 @@
       "name": "Mythic",
       "effects": null,
       "range": 0,
+      "cooldown": 0,
       "stats": {
         "abilityPower": {
           "flat": 0.0,

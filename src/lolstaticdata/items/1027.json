@@ -6,6 +6,7 @@
   "buildsFrom": [],
   "buildsInto": [
     3024,
+    3803,
     3802
   ],
   "specialRecipe": 0,
@@ -13,7 +14,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/1027_base_t1_saphirecrystal.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/1027_base_t1_saphirecrystal.png",
   "simpleDescription": "Increases Mana",
   "nicknames": [
     "blue"

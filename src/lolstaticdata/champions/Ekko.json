@@ -4,7 +4,7 @@
   "name": "Ekko",
   "title": "the Boy Who Shattered Time",
   "fullName": "",
-  "icon": "http://ddragon.leagueoflegends.com/cdn/12.15.1/img/champion/Ekko.png",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/Ekko.png",
   "resource": "MANA",
   "attackType": "MELEE",
   "adaptiveType": "MAGIC_DAMAGE",
@@ -136,7 +136,7 @@
       "percentPerLevel": 0.0
     },
     "aramDamageDealt": {
-      "flat": 1.05,
+      "flat": 1.1,
       "percent": 0.0,
       "perLevel": 0.0,
       "percentPerLevel": 0.0
@@ -201,7 +201,7 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Ekko/ability-icon/p",
         "effects": [
           {
-            "description": "Innate - Resonance: Ekko's basic attacks on-hit and damaging abilities apply a Resonance stack to enemies for 4 seconds, stacking up to 3 times and refreshing on subsequent applications. The third stack consumes them all to deal 30 − 140 (based on level) (+ 80% AP) bonus magic damage. Z-Drive Resonance deals 300% damage against monsters.",
+            "description": "Innate - Resonance: Ekko's basic attacks on-hit and damaging abilities apply a stack of Resonance to enemies hit for 4 seconds, refreshing on subsequent hits and stacking up to 3 times. The third stack consumes them all to deal 30 − 140 (based on level) (+ 90% AP) bonus magic damage. Z-Drive Resonance deals 300% damage against monsters.",
             "leveling": []
           },
           {
@@ -225,7 +225,7 @@
         "onHitEffects": null,
         "occurrence": "On-hit",
         "notes": "Ekko's basic attacks have different animations based on how many stacks his target has. His attack pattern is as follows:\nDownwards → Upwards → Sideways\nIf the target has already been affected by Resonance, Ekko's basic attack animations will kick or attack the target sideways.\nResonance stacks will not be applied nor consumed if the basic attack is  dodged or  blocked or if the attack  misses.",
-        "blurb": "Innate:  Ekko's basic attacks and damaging abilities apply stacks. The third stack deals bonus magic damage and, if the target is a  champion, grants  bonus movement speed to Ekko.",
+        "blurb": "Innate:  Ekko's basic attacks and damaging abilities apply stacks, the third stack deals bonus magic damage. If the target was a  champion, this grants  bonus movement speed to Ekko.",
         "missileSpeed": null,
         "rechargeRate": null,
         "collisionRadius": null,
@@ -448,7 +448,7 @@
         "onHitEffects": null,
         "occurrence": null,
         "notes": "Spell shield will block only a single instance of damage.\nThis ability will cast from wherever the caster is at the end of the cast time.",
-        "blurb": "Active:  Ekko throws a temporal grenade in the target direction that deals magic damage to enemies hit. It expands at max range or upon hitting an enemy  champion,  slowing nearby enemies.",
+        "blurb": "Active:  Ekko throws a temporal grenade that deals magic damage to enemies hit. It expands at max range or upon hitting an enemy  champion,  slowing nearby enemies.",
         "missileSpeed": null,
         "rechargeRate": null,
         "collisionRadius": null,
@@ -469,15 +469,15 @@
         "icon": "https://cdn.communitydragon.org/latest/champion/Ekko/ability-icon/w",
         "effects": [
           {
-            "description": "Passive: Ekko's basic attacks deal bonus magic damage equal to 3% (+ 3% per 100 AP) of the target's missing health to enemies below 30% of their maximum health. The damage has a minimum threshold of 15 and is capped at 150 against minions and monsters.",
+            "description": "Passive: Ekko's basic attacks deal bonus magic damage equal to 3% (+ 3% per 100 AP) of the target's missing health against enemies below 30% of their maximum health. The damage has a minimum threshold of 15 and is capped at 150 against minions and monsters.",
             "leveling": []
           },
           {
-            "description": "Active: Ekko calls upon an afterimage that bats a device to the target location, granting sight of the area for 2.5 seconds after 2 seconds. After 3 seconds, the device will expand for 1.5 seconds, slowing enemies within the area by 40%.",
+            "description": "Active: Ekko calls upon an afterimage that bats a device to the target location, granting sight of the area for 2.5 seconds after 2 seconds. After 3 seconds, the device will expand into a field for 1.5 seconds, slowing enemies within by 40%.",
             "leveling": []
           },
           {
-            "description": "If Ekko enters the expansion after the device lands, it detonates to shield him for 2 seconds and stun all enemies within the area for 2.25 seconds.",
+            "description": "If Ekko enters the field, it detonates to grant him a shield for 2 seconds and stun enemies within for 2.25 seconds.",
             "leveling": [
               {
                 "attribute": "Shield Strength",
@@ -574,7 +574,7 @@
         "onHitEffects": null,
         "occurrence": "On-hit",
         "notes": "Applies  proc damage for the passive.\nEkko can detonate the expansion even while  untargetable (i.e.  Chronobreak's dash), but not if he is  resurrecting.\nParallel Convergence will continue to  slow enemies even if its expansion is detonated.",
-        "blurb": "Ekko's basic attacks deal bonus magic damage to a low-health target, increased based on the target's missing health.",
+        "blurb": "Passive:  Ekko's basic attacks deal bonus magic damage against a low-health target, increased based on their missing health.",
         "missileSpeed": null,
         "rechargeRate": null,
         "collisionRadius": null,
@@ -717,16 +717,16 @@
             "leveling": []
           },
           {
-            "description": "Active: Ekko enters stasis at the start of the cast time, and afterwards heals himself and dashes to his afterimage's current location over 0.5 seconds. Upon arrival, the stasis ends and he generates an explosion that deals magic damage to all nearby enemies.",
+            "description": "Active: Ekko enters stasis at the start of the cast time, and afterwards heals himself and dashes to his afterimage's current location over 0.5 seconds. Upon arrival, the stasis ends and he creates an explosion that deals magic damage to nearby enemies.",
             "leveling": [
               {
                 "attribute": "Magic Damage",
                 "modifiers": [
                   {
                     "values": [
-                      150,
-                      300,
-                      450
+                      200,
+                      350,
+                      500
                     ],
                     "units": [
                       "",
@@ -736,9 +736,9 @@
                   },
                   {
                     "values": [
-                      150,
-                      150,
-                      150
+                      175,
+                      175,
+                      175
                     ],
                     "units": [
                       "% AP",
@@ -857,13 +857,14 @@
   },
   "releaseDate": "2015-05-29",
   "releasePatch": "5.10",
-  "patchLastChanged": "12.10",
+  "patchLastChanged": "12.19",
   "price": {
     "blueEssence": 4800,
     "rp": 880,
     "saleRp": 0
   },
   "lore": "A prodigy from the rough streets of Zaun, Ekko manipulates time to twist any situation to his advantage. Using his own invention, the Zero Drive, he explores the branching possibilities of reality to craft the perfect moment. Though he revels in this freedom, when there's a threat to his friends he'll do anything to defend them. To outsiders, Ekko seems to achieve the impossible the first time, every time.",
+  "faction": "zaun",
   "skins": [
     {
       "name": "Original",
@@ -1339,8 +1340,7 @@
         "Antony Del Rio"
       ],
       "splashArtist": [
-        "Xu 'Crow God' Cheng",
-        "Alex 'alexplank' Flores"
+        "Xu 'Crow God' Cheng"
       ]
     },
     {
@@ -2143,16 +2143,16 @@
       "isBase": false,
       "availability": "Rare",
       "formatName": "Prestige Star Guardian",
-      "lootEligible": false,
+      "lootEligible": true,
       "cost": "special",
       "sale": 0,
-      "distribution": "2000 Star Guardian Tokens",
+      "distribution": "125 Mythic Essence",
       "rarity": "Mythic",
       "chromas": [],
       "lore": "Ekko doesn't need magical powers to look like a star. He rocks an effortless streetwear style wherever he goes, turning heads and paparazzi lenses alike. Appreciating the look? Take it all in. He's got time.",
       "release": "2022-07-14",
       "set": [
-        "Star Guardian"
+        "Star Guardian Season 4"
       ],
       "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/245/245046.jpg",
       "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/245/245046.jpg",

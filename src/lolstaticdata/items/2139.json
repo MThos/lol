@@ -10,7 +10,7 @@
   "removed": false,
   "requiredChampion": "",
   "requiredAlly": "",
-  "icon": "https://raw.communitydragon.org/12.15/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/2139_class_t1_elixirofsorcery.png",
+  "icon": "https://raw.communitydragon.org/12.22/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/2139_class_t1_elixirofsorcery.png",
   "simpleDescription": "Temporarily grants Ability Power and Bonus Damage to champions and turrets.",
   "nicknames": [
     "blue",
